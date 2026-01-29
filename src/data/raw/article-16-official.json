@@ -1,0 +1,272 @@
+[
+  {
+    "agency": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC.",
+    "phone": "(212) 420-1970",
+    "address": "465 Grand Street",
+    "city": "New York",
+    "zip": "10002",
+    "county": "New York",
+    "type": "main"
+  },
+  {
+    "agency": "LIFESPIRE, INC.",
+    "phone": "(212) 741-0100",
+    "address": "159 East 125th Street",
+    "city": "New York",
+    "zip": "10035",
+    "county": "New York",
+    "type": "main"
+  },
+  {
+    "agency": "LIFESPIRE, INC.",
+    "phone": "(212) 741-0100",
+    "address": "Manhattan South",
+    "city": "New York",
+    "zip": "10128",
+    "county": "New York",
+    "type": "satellite"
+  },
+  {
+    "agency": "LIFESPIRE, INC.",
+    "phone": "(212) 741-0100",
+    "address": "Bronx Rehabilitation",
+    "city": "Bronx",
+    "zip": "10461",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "LIFESPIRE, INC.",
+    "phone": "(212) 741-0100",
+    "address": "3289 Third Avenue",
+    "city": "Bronx",
+    "zip": "10456",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "MONTEFIORE CERC OPERATIONS, INC.",
+    "phone": "(718) 920-4321",
+    "address": "1225 Morris Park Avenue",
+    "city": "Bronx",
+    "zip": "10461",
+    "county": "Bronx",
+    "type": "main"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "83 Maiden Lane",
+    "city": "New York",
+    "zip": "10038",
+    "county": "New York",
+    "type": "main"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "2488 Grand Concourse",
+    "city": "Bronx",
+    "zip": "10458",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "1440 Ferris Place",
+    "city": "Bronx",
+    "zip": "10461",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "1420 Ferris Place",
+    "city": "Bronx",
+    "zip": "10461",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "1775 Grand Concourse",
+    "city": "Bronx",
+    "zip": "10453",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "1952-74 Mayflower Avenue",
+    "city": "Bronx",
+    "zip": "10461",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "200 Varick Street",
+    "city": "New York",
+    "zip": "10014",
+    "county": "New York",
+    "type": "satellite"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "101 Norfolk Street",
+    "city": "New York",
+    "zip": "10002",
+    "county": "New York",
+    "type": "satellite"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "2080 Lexington Avenue",
+    "city": "New York",
+    "zip": "10035",
+    "county": "New York",
+    "type": "satellite"
+  },
+  {
+    "agency": "NYS ARC NEW YORK CITY CHAPTER",
+    "phone": "(212) 780-2500",
+    "address": "450 West 56th Street",
+    "city": "New York",
+    "zip": "10019",
+    "county": "New York",
+    "type": "satellite"
+  },
+  {
+    "agency": "PREMIER HEALTHCARE, INC.",
+    "phone": "(212) 273-6515",
+    "address": "220 East 42nd Street",
+    "city": "New York",
+    "zip": "10017",
+    "county": "New York",
+    "type": "main"
+  },
+  {
+    "agency": "PREMIER HEALTHCARE, INC.",
+    "phone": "(212) 273-6515",
+    "address": "Pelham Bay Multi-Service Center",
+    "city": "Bronx",
+    "zip": "10461",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "THE EPILEPSY INSTITUTE",
+    "phone": "(212) 677-8550",
+    "address": "40 Exchange Place",
+    "city": "New York",
+    "zip": "10006",
+    "county": "New York",
+    "type": "main"
+  },
+  {
+    "agency": "THE SHIELD INSTITUTE",
+    "phone": "(718) 886-1534",
+    "address": "4234 Vireo Avenue",
+    "city": "Bronx",
+    "zip": "10470",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "UNITED CEREBRAL PALSY ASSOCIATIONS OF NEW YORK STATE, INC.",
+    "phone": "(212) 947-5770",
+    "address": "West Farms Health Center",
+    "city": "Bronx",
+    "zip": "10451",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "phone": "(212) 683-6700",
+    "address": "408 East 137th Street",
+    "city": "Bronx",
+    "zip": "10454",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "phone": "(212) 683-6700",
+    "address": "251 West 154th Street",
+    "city": "New York",
+    "zip": "10039",
+    "county": "New York",
+    "type": "satellite"
+  },
+  {
+    "agency": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "phone": "(212) 683-6700",
+    "address": "5030 Broadway",
+    "city": "New York",
+    "zip": "10034",
+    "county": "New York",
+    "type": "satellite"
+  },
+  {
+    "agency": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "phone": "(212) 683-6700",
+    "address": "2432 Grand Concourse",
+    "city": "Bronx",
+    "zip": "10458",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "YOUNG ADULT INSTITUTE, INC.",
+    "phone": "(212) 273-6182",
+    "address": "220 East 42nd Street",
+    "city": "New York",
+    "zip": "10017",
+    "county": "New York",
+    "type": "main"
+  },
+  {
+    "agency": "YOUNG ADULT INSTITUTE, INC.",
+    "phone": "(212) 273-6182",
+    "address": "3060 East Tremont Avenue",
+    "city": "Bronx",
+    "zip": "10461",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "YOUNG ADULT INSTITUTE, INC.",
+    "phone": "(212) 273-6182",
+    "address": "290 Madison Avenue",
+    "city": "New York",
+    "zip": "10017",
+    "county": "New York",
+    "type": "satellite"
+  },
+  {
+    "agency": "YOUNG ADULT INSTITUTE, INC.",
+    "phone": "(212) 273-6182",
+    "address": "1241 Zerega Avenue",
+    "city": "Bronx",
+    "zip": "10461",
+    "county": "Bronx",
+    "type": "satellite"
+  },
+  {
+    "agency": "YOUNG ADULT INSTITUTE, INC.",
+    "phone": "(212) 273-6182",
+    "address": "310 Lenox Avenue",
+    "city": "New York",
+    "zip": "10027",
+    "county": "New York",
+    "type": "satellite"
+  }
+]

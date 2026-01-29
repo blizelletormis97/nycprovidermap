@@ -1,0 +1,852 @@
+[
+  {
+    "source": "opwdd",
+    "name": "FEDERATION EMPLOY. & GUIDANCE SVC.",
+    "services": [
+      "Family Support"
+    ],
+    "address": "315 HUDSON STREET, 9TH FLOOR, NEW YORK, NY, 10013",
+    "county": "NEW YORK",
+    "phone": "212-366-8400",
+    "website": "http://www.fegs.org",
+    "lat": 40.72637,
+    "lng": -74.00752
+  },
+  {
+    "source": "opwdd",
+    "name": "URBAN RESOURCE INSTITUTE",
+    "services": [
+      "Supported Employment"
+    ],
+    "address": "75 BROAD STREET, SUITE 505, NEW YORK, NY, 10004",
+    "county": "NEW YORK",
+    "phone": "646-588-0030",
+    "website": "http://www.uriny.org",
+    "lat": 40.70464,
+    "lng": -74.01155
+  },
+  {
+    "source": "opwdd",
+    "name": "CONSTRUCTIVE PARTNERSHIPS UNLIMITED",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "address": "40 RECTOR STREET, 15TH FLOOR, NEW YORK, NY, 10006",
+    "county": "NEW YORK",
+    "phone": "212-947-5770",
+    "website": "http://www.cpunlimited.org",
+    "lat": 40.70836,
+    "lng": -74.01482
+  },
+  {
+    "source": "opwdd",
+    "name": "GATEWAY COUNSELING CENTER  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "address": "1776 EASTCHESTER ROAD, SUITE 220, BRONX, NY, 10461",
+    "county": "BRONX",
+    "phone": "718-325-5021",
+    "website": "http://www.gccnyc.org",
+    "lat": 40.8486,
+    "lng": -73.84278
+  },
+  {
+    "source": "opwdd",
+    "name": "INSTITUTE FOR COMMUNITY LIVING",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)"
+    ],
+    "address": "125 BROAD STREET, 3RD FLOOR, NEW YORK, NY, 10004",
+    "county": "NEW YORK",
+    "phone": "212-385-3030",
+    "website": "http://www.iclinc.net",
+    "lat": 40.70202,
+    "lng": -74.01124
+  },
+  {
+    "source": "opwdd",
+    "name": "LIFESPIRE  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "address": "1 WHITEHALL STREET, 9TH FLOOR, NEW YORK, NY, 10004",
+    "county": "NEW YORK",
+    "phone": "212-741-0100",
+    "website": "http://www.lifespire.org",
+    "lat": 40.70378,
+    "lng": -74.01315
+  },
+  {
+    "source": "opwdd",
+    "name": "ICL JOSELOW HOUSE  INC.",
+    "services": [
+      "Residential (IRA)"
+    ],
+    "address": "125 BROAD STREET, 3RD FLOOR, NEW YORK, NY, 10004",
+    "county": "NEW YORK",
+    "phone": "212-724-6652",
+    "website": "http://www.iclinc.net",
+    "lat": 40.70202,
+    "lng": -74.01124
+  },
+  {
+    "source": "opwdd",
+    "name": "PARTNERSHIP FOR INNOVATIVE COMPREHENSIVE",
+    "services": [
+      "Community Habilitation",
+      "Individual Support (ISS)"
+    ],
+    "address": "134 WEST 29TH STREET, 12TH FLOOR, NEW YORK, NY, 10001",
+    "county": "NEW YORK",
+    "phone": "212-480-9169",
+    "lat": 40.74733,
+    "lng": -73.99166
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY ASST. RESOURCES & EXTENDED SVC",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "address": "465 GRAND STREET, 2ND FLOOR, NEW YORK, NY, 10002",
+    "county": "NEW YORK",
+    "phone": "212-420-1970",
+    "website": "http://www.caresnys.org",
+    "lat": 40.71501,
+    "lng": -73.98361
+  },
+  {
+    "source": "opwdd",
+    "name": "CFS SELF-DIRECTED SUPPORTS  INC.",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "address": "333 7TH AVENUE, 9TH FLOOR, NEW YORK, NY, 10001",
+    "county": "NEW YORK",
+    "phone": "212-629-7939",
+    "lat": 40.74749,
+    "lng": -73.99316
+  },
+  {
+    "source": "opwdd",
+    "name": "EASTER SEALS NEW YORK",
+    "services": [
+      "Family Support"
+    ],
+    "address": "633 3RD AVENUE, 6TH FLOOR, NEW YORK, NY, 10017",
+    "county": "NEW YORK",
+    "phone": "212-727-4219",
+    "lat": 40.74986,
+    "lng": -73.97509
+  },
+  {
+    "source": "opwdd",
+    "name": "CENTER FOR FAMILY SUPPORT  INC. (THE)",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "address": "333 7TH AVENUE, 9TH FLOOR, NEW YORK, NY, 10001",
+    "county": "NEW YORK",
+    "phone": "516-292-3000",
+    "website": "http://www.cfsny.org",
+    "lat": 40.74749,
+    "lng": -73.99316
+  },
+  {
+    "source": "opwdd",
+    "name": "HELP ON THE WAY  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "address": "1338 SOUTHERN BOULEVARD, BRONX, NY, 10459",
+    "county": "BRONX",
+    "phone": "718-484-7810",
+    "lat": 40.83187,
+    "lng": -73.89106
+  },
+  {
+    "source": "opwdd",
+    "name": "DAYBREAK INDEPENDENT SERVICES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)"
+    ],
+    "address": "511 E 233RD STREET, BRONX, NY, 10470",
+    "county": "BRONX",
+    "phone": "914-733-3327",
+    "website": "http://www.daybreakis.org",
+    "lat": 40.89565,
+    "lng": -73.86445
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY OPTIONS NEW YORK  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Individual Support (ISS)"
+    ],
+    "address": "350 5TH AVENUE, SUITE 5230, NEW YORK, NY, 10118",
+    "county": "NEW YORK",
+    "phone": "212-227-9110",
+    "website": "http://www.comop.org",
+    "lat": 40.74811,
+    "lng": -73.9848
+  },
+  {
+    "source": "opwdd",
+    "name": "RISING TREETOPS AT OAKHURST INC",
+    "services": [
+      "Family Support"
+    ],
+    "address": "1140 BROADWAY, ROOM 507, NEW YORK, NY, 10001",
+    "county": "NEW YORK",
+    "phone": "212-533-4020",
+    "website": "http://www.campoakhurst.com",
+    "lat": 40.74398,
+    "lng": -73.98897
+  },
+  {
+    "source": "opwdd",
+    "name": "NY FOUNDATION FOR SENIOR CITIZENS",
+    "services": [
+      "Individual Support (ISS)"
+    ],
+    "address": "150 NASSAU STREET, SUITE 1730, NEW YORK, NY, 10038",
+    "county": "NEW YORK",
+    "website": "http://www.nyfsc.org",
+    "lat": 40.71154,
+    "lng": -74.006
+  },
+  {
+    "source": "opwdd",
+    "name": "S.K.I.P. OF NEW YORK  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "address": "601 WEST 26 STREET, SUITE 522, NEW YORK, NY, 10001",
+    "county": "NEW YORK",
+    "phone": "212-268-5999",
+    "website": "http://www.skipny.org",
+    "lat": 40.75136,
+    "lng": -74.00699
+  },
+  {
+    "source": "opwdd",
+    "name": "EAST HARLEM COUNCIL FOR COMMUNITY IMPROV",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)"
+    ],
+    "address": "413 EAST 120TH STREET, SUITE 112, NEW YORK, NY, 10035",
+    "county": "NEW YORK",
+    "phone": "212-410-7707",
+    "website": "http://www.acacianetwork.org",
+    "lat": 40.79822,
+    "lng": -73.93271
+  },
+  {
+    "source": "opwdd",
+    "name": "CATHOLIC GUARDIAN SERVICES",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support"
+    ],
+    "address": "1011 FIRST AVENUE, NEW YORK, NY, 10022",
+    "county": "NEW YORK",
+    "phone": "212-371-1000",
+    "website": "http://www.catholicguardian.org",
+    "lat": 40.7573,
+    "lng": -73.96369
+  },
+  {
+    "source": "opwdd",
+    "name": "JOB PATH  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "address": "256 W 38TH STREET, 2ND FLOOR, NEW YORK, NY, 10018",
+    "county": "NEW YORK",
+    "phone": "212-944-0564",
+    "website": "http://www.jobpathnyc.org",
+    "lat": 40.75433,
+    "lng": -73.99072
+  },
+  {
+    "source": "opwdd",
+    "name": "MAIDSTONE FOUNDATION  INC.",
+    "services": [
+      "Family Support"
+    ],
+    "address": "1225 BROADWAY, 9TH FLOOR, NEW YORK, NY, 10001",
+    "county": "NEW YORK",
+    "phone": "212-889-5760",
+    "website": "http://maidstonefdn.org",
+    "lat": 40.74658,
+    "lng": -73.98849
+  },
+  {
+    "source": "opwdd",
+    "name": "CHILDREN'S AID SOCIETY",
+    "services": [
+      "Family Support"
+    ],
+    "address": "105 EAST 22ND STREET, NEW YORK, NY, 10010",
+    "county": "NEW YORK",
+    "phone": "212-949-4800",
+    "website": "http://www.childrensaidsociety.org",
+    "lat": 40.73935,
+    "lng": -73.98646
+  },
+  {
+    "source": "opwdd",
+    "name": "UNIQUE LIFE  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "address": "2197 NEW ENGLAND THRUWAY, BRONX, NY, 10475",
+    "county": "BRONX",
+    "phone": "347-449-7890",
+    "website": "http://www.uniquelifeinc.org",
+    "lat": 40.88197,
+    "lng": -73.83015
+  },
+  {
+    "source": "opwdd",
+    "name": "CENTRO SOCIAL LA ESPERANZA  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support"
+    ],
+    "address": "516 WEST 181ST STREET, NEW YORK, NY, 10033",
+    "county": "NEW YORK",
+    "phone": "212-928-5810",
+    "website": "http://www.esperanzacenter.com/about-us.html",
+    "lat": 40.84857,
+    "lng": -73.93195
+  },
+  {
+    "source": "opwdd",
+    "name": "JEWISH BOARD OF FAMILY/CHILDREN SERVICES",
+    "services": [
+      "Residential (IRA)"
+    ],
+    "address": "135 W 50TH STREET, 6TH FLOOR, NEW YORK, NY, 10020",
+    "county": "NEW YORK",
+    "phone": "212-582-9100",
+    "website": "http://www.jbfcs.org",
+    "lat": 40.76074,
+    "lng": -73.98242
+  },
+  {
+    "source": "opwdd",
+    "name": "CREATIVE LIFESTYLES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "address": "67 BRUCKNER BOULEVARD, BRONX, NY, 10454",
+    "county": "BRONX",
+    "phone": "718-665-7002",
+    "lat": 40.80635,
+    "lng": -73.92638
+  },
+  {
+    "source": "opwdd",
+    "name": "PUERTO RICAN FAMILY INSTITUTE  INC.",
+    "services": [
+      "Residential (IRA)",
+      "Intermediate Care (ICF)"
+    ],
+    "address": "145 WEST 15TH STREET, NEW YORK, NY, 10011",
+    "county": "NEW YORK",
+    "phone": "212-924-6320",
+    "website": "http://www.prfi.org",
+    "lat": 40.73876,
+    "lng": -73.99804
+  },
+  {
+    "source": "opwdd",
+    "name": "SPECIAL CITIZENS FUTURES UNLIMITED  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "address": "1775 GRAND CONCOURSE, 4TH FLOOR, BRONX, NY, 10453",
+    "county": "BRONX",
+    "phone": "212-643-2663",
+    "website": "http://www.specialcitizens.org",
+    "lat": 40.84626,
+    "lng": -73.90991
+  },
+  {
+    "source": "opwdd",
+    "name": "LIFE ADJUSTMENT CENTER  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)"
+    ],
+    "address": "1430 BROADWAY, SUITE 501, NEW YORK, NY, 10018",
+    "county": "NEW YORK",
+    "phone": "212-938-1223",
+    "website": "http://www.lifeadjustmentcenter.com",
+    "lat": 40.75411,
+    "lng": -73.98693
+  },
+  {
+    "source": "opwdd",
+    "name": "ADAPT COMMUNITY NETWORK (DBA)",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "address": "80 MAIDEN LANE, 8TH FLOOR, NEW YORK, NY, 10038",
+    "county": "NEW YORK",
+    "phone": "212-683-6700",
+    "website": "http://www.ucpnyc.org",
+    "lat": 40.70718,
+    "lng": -74.00738
+  },
+  {
+    "source": "opwdd",
+    "name": "MODERN GUIDANCE SERVICE",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "address": "530 WEST 122ND STREET, SUITE 2-D, NEW YORK, NY, 10027",
+    "county": "NEW YORK",
+    "phone": "212-665-0091",
+    "lat": 40.81144,
+    "lng": -73.96018
+  },
+  {
+    "source": "opwdd",
+    "name": "ANGELS UNAWARE  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "address": "1375 NELSON AVENUE, BRONX, NY, 10452",
+    "county": "BRONX",
+    "phone": "718-410-7406",
+    "lat": 40.84128,
+    "lng": -73.92282
+  },
+  {
+    "source": "opwdd",
+    "name": "KINGSBRIDGE HEIGHTS COMMUNITY CENTER",
+    "services": [
+      "Family Support"
+    ],
+    "address": "3101 KINGSBRIDGE TERRACE, BRONX, NY, 10463",
+    "county": "BRONX",
+    "phone": "718-884-0700",
+    "website": "http://www.khcc-nyc.org",
+    "lat": 40.87742,
+    "lng": -73.90044
+  },
+  {
+    "source": "opwdd",
+    "name": "SINERGIA",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Family Care"
+    ],
+    "address": "2082 LEXINGTON AVE, 4TH FLOOR, NEW YORK, NY, 10035",
+    "county": "NEW YORK",
+    "phone": "212-643-2840",
+    "website": "http://www.sinergiany.org",
+    "lat": 40.80484,
+    "lng": -73.93708
+  },
+  {
+    "source": "opwdd",
+    "name": "EPILEPSY INSTITUTE (THE)",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "address": "65 BROADWAY, SUITE 505, NEW YORK, NY, 10006",
+    "county": "NEW YORK",
+    "phone": "212-677-8550",
+    "website": "http://www.efmny.org/",
+    "lat": 40.70712,
+    "lng": -74.01222
+  },
+  {
+    "source": "opwdd",
+    "name": "UNIQUE PEOPLE SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Prevocational"
+    ],
+    "address": "201 EAST BURNSIDE AVENUE, BRONX, NY, 10457",
+    "county": "BRONX",
+    "phone": "718-231-7711",
+    "website": "http://www.uniquepeopleservices.org",
+    "lat": 40.85233,
+    "lng": -73.90332
+  },
+  {
+    "source": "opwdd",
+    "name": "HARRIS HANDS COMMUNITY SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "address": "3439 BRUCKNER BLVD, BRONX, NY, 10461",
+    "county": "BRONX",
+    "phone": "718-766-9289",
+    "website": "http://harrishands.org",
+    "lat": 40.84646,
+    "lng": -73.82653
+  },
+  {
+    "source": "opwdd",
+    "name": "SALVATION ARMY (THE)",
+    "services": [
+      "Residential (IRA)",
+      "Family Care"
+    ],
+    "address": "120 WEST 14TH STREET, 7TH FLOOR, NEW YORK, NY, 10011",
+    "county": "NEW YORK",
+    "phone": "212-807-6100",
+    "website": "http://www.use.salvationarmy.org",
+    "lat": 40.73794,
+    "lng": -73.99824
+  },
+  {
+    "source": "opwdd",
+    "name": "HUMAN FIRST  INC",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment"
+    ],
+    "address": "80 MAIDEN LANE, 8TH FLOOR, NEW YORK, NY, 10038",
+    "county": "NEW YORK",
+    "phone": "516-823-9500",
+    "website": "http://www.humanfirst.org",
+    "lat": 40.70718,
+    "lng": -74.00738
+  },
+  {
+    "source": "opwdd",
+    "name": "BIRCH FAMILY SERVICES",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "address": "104 WEST 29TH STREET, 3RD FLOOR, NEW YORK, NY, 10001",
+    "county": "NEW YORK",
+    "phone": "212-616-1800",
+    "website": "http://www.birchfamilyservices.org",
+    "lat": 40.74691,
+    "lng": -73.99066
+  },
+  {
+    "source": "opwdd",
+    "name": "CHILD & FAMILY SUPPORT SERVICES",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support"
+    ],
+    "address": "840-11 GRAND CONCOURSE, SUITE 1BB, BRONX, NY, 10451",
+    "county": "BRONX",
+    "phone": "718-618-7535",
+    "website": "http://nycfss.org",
+    "lat": 40.82615,
+    "lng": -73.92301
+  },
+  {
+    "source": "opwdd",
+    "name": "SERVICES FOR THE UNDERSERVED  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Individual Support (ISS)"
+    ],
+    "address": "463 7TH AVENUE, 17TH FLOOR, NEW YORK, NY, 10018",
+    "county": "NEW YORK",
+    "phone": "212-633-6900",
+    "website": "http://sus.org",
+    "lat": 40.75184,
+    "lng": -73.98996
+  },
+  {
+    "source": "opwdd",
+    "name": "0265 - METRO NY DDSO",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Care"
+    ],
+    "address": "25 BEAVER STREET, NEW YORK, NY, 10004",
+    "county": "NEW YORK",
+    "phone": "212-229-3000",
+    "lat": 40.70498,
+    "lng": -74.01207
+  },
+  {
+    "source": "opwdd",
+    "name": "ALLCARE PROVIDER SERVICES  INC",
+    "services": [
+      "Individual Support (ISS)"
+    ],
+    "address": "3040 EAST TREMONT AVENUE, ROOM 205, BRONX, NY, 10461",
+    "county": "BRONX",
+    "phone": "877-391-0977",
+    "website": "http://allcareps.com",
+    "lat": 40.83965,
+    "lng": -73.83684
+  },
+  {
+    "source": "opwdd",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction",
+      "Intermediate Care (ICF)"
+    ],
+    "address": "83 MAIDEN LANE, NEW YORK, NY, 10038",
+    "county": "NEW YORK",
+    "phone": "212-780-2500",
+    "website": "http://www.ahrcnyc.org",
+    "lat": 40.70741,
+    "lng": -74.00758
+  },
+  {
+    "source": "opwdd",
+    "name": "SENIOR CITIZENS F/IMPROVED COMMUNITY",
+    "services": [
+      "Family Support"
+    ],
+    "address": "312 EAST 109TH STREET, NEW YORK, NY, 10029",
+    "county": "NEW YORK",
+    "lat": 40.79224,
+    "lng": -73.94027
+  },
+  {
+    "source": "opwdd",
+    "name": "THE NEW YORK FOUNDLING",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Individual Support (ISS)"
+    ],
+    "address": "590 AVENUE OF THE AMERICAS, NEW YORK, NY, 10011",
+    "county": "NEW YORK",
+    "phone": "212-886-4005",
+    "website": "http://www.nyfoundling.org",
+    "lat": 40.73906,
+    "lng": -73.99559
+  },
+  {
+    "source": "opwdd",
+    "name": "SOCIAL ACTION CENTER  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "address": "665 PELHAM PARKWAY NORTH, SUITE 401, BRONX, NY, 10467",
+    "county": "BRONX",
+    "phone": "718-654-1815",
+    "lat": 40.85802,
+    "lng": -73.86868
+  },
+  {
+    "source": "opwdd",
+    "name": "JEWISH UNION FOUNDATION",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "address": "40 RECTOR STREET, 4TH FLOOR, NEW YORK, NY, 10006",
+    "county": "NEW YORK",
+    "phone": "212-613-8104",
+    "website": "http://www.njcd.org/staff/jewishunionfoundation",
+    "lat": 40.70836,
+    "lng": -74.01482
+  },
+  {
+    "source": "opwdd",
+    "name": "SERVICES FOR THE DEVELOP. CHALLENGED",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Prevocational",
+      "Family Support"
+    ],
+    "address": "5475 FIELDSTON ROAD, BRONX, NY, 10471",
+    "county": "BRONX",
+    "phone": "718-432-8469",
+    "website": "http://sdcnyc.org",
+    "lat": 40.90348,
+    "lng": -73.90087
+  },
+  {
+    "source": "opwdd",
+    "name": "QSAC  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support"
+    ],
+    "address": "253 WEST 35TH STREET, 14TH FLOOR, NEW YORK, NY, 10001",
+    "county": "NEW YORK",
+    "phone": "212-244-5560",
+    "website": "http://www.qsac.com",
+    "lat": 40.7525,
+    "lng": -73.99215
+  },
+  {
+    "source": "opwdd",
+    "name": "SOUTHEAST BRONX NEIGHBORHOOD CENTER  INC",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "address": "955 TINTON AVENUE, BRONX, NY, 10456",
+    "county": "BRONX",
+    "phone": "718-542-2727",
+    "website": "http://www.sebnc.org",
+    "lat": 40.82324,
+    "lng": -73.90292
+  },
+  {
+    "source": "opwdd",
+    "name": "CHDFS  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "address": "307 WEST 38TH STREET, 6TH FLOOR, NEW YORK, NY, 10018",
+    "county": "NEW YORK",
+    "phone": "212-695-4562",
+    "lat": 40.75499,
+    "lng": -73.99229
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY ACTION F/HUMAN SERVICES  INC",
+    "services": [
+      "Day Habilitation",
+      "Residential (IRA)"
+    ],
+    "address": "3651 BRUCKNER BOULEVARD, BRONX, NY, 10461",
+    "county": "BRONX",
+    "phone": "718-655-7700",
+    "lat": 40.85202,
+    "lng": -73.82719
+  },
+  {
+    "source": "opwdd",
+    "name": "YAI - YOUNG ADULT INSTITUTE",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "address": "220 EAST 42ND STREET, FLOOR 8, NEW YORK, NY, 10017",
+    "county": "NEW YORK",
+    "phone": "212-273-6182",
+    "website": "http://www.yai.org",
+    "lat": 40.75009,
+    "lng": -73.97291
+  }
+]
