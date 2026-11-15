@@ -19,7 +19,7 @@ Schuyler, Yates, Hamilton, Lewis, Greene, Schoharie) follow OPWDD's regional str
 
 - Interactive Mapbox map with clustering; marker color shows the data source
 - Search by provider name, street or ZIP code, and jump straight to a result
-- Filter by area (NYC borough, Long Island county or upstate OPWDD region), data source and service
+- Filter by OPWDD region (Region 1 to Region 5), data source and service
 - Search also matches county names (e.g. "Monroe", "Albany")
 - Click a location to see every provider there, with phone (tap to call), website, program details and a directions link
 - Providers at the same building are grouped onto one pin, even across datasets

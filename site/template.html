@@ -188,8 +188,6 @@ button { font: inherit; color: inherit; }
 
 /* ---------- area chips ---------- */
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.area-groups { display: grid; gap: 12px; }
-.area-group h3 { margin: 0 0 6px; font-size: 12px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
 /* Upstate regions: full-width cards with the region name over its offices */
 .chip.wide { width: 100%; border-radius: 16px; padding: 8px 10px 8px 12px; text-align: left; }
 .chip.wide .txt { flex: 1; min-width: 0; line-height: 1.25; }
@@ -372,7 +370,7 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
     </section>
 
     <section>
-      <h2 class="title">Where? <button id="allAreas" class="link" type="button" hidden>Show all areas</button></h2>
+      <h2 class="title">Where? <button id="allAreas" class="link" type="button" hidden>Show all regions</button></h2>
       <div class="chips" id="areas"></div>
     </section>
 
@@ -408,23 +406,27 @@ const BASEMAP = JSON.parse(document.getElementById("basemap-data").textContent);
 const DATA_DATE = /*__DATA_DATE__*/"";
 const ABOUT = /*__ABOUT__*/null;
 
-const REGIONS = ["Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island", "Nassau", "Suffolk", "Region 1", "Region 2", "Region 3"];
-// Area chips, grouped by OPWDD region
-const AREA_GROUPS = [
-  { title: "New York City · Region 4", areas: ["Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island"] },
-  { title: "Long Island · Region 5", areas: ["Nassau", "Suffolk"] },
-  { title: "Upstate", areas: ["Region 1", "Region 2", "Region 3"] },
-];
-const UPSTATE = {
+// The area filter shows the five OPWDD regions, in order. Each location's map area (a NYC borough, a Long Island
+// county or an upstate region) belongs to one of them.
+const REGIONS = ["Region 1", "Region 2", "Region 3", "Region 4", "Region 5"];
+const REGION_INFO = {
   "Region 1": "Western NY & Finger Lakes",
   "Region 2": "Central NY, Broome & Sunmount",
   "Region 3": "Capital District, Hudson Valley & Taconic",
+  "Region 4": "Metro NY, Brooklyn, Bernard M. Fineson & Staten Island",
+  "Region 5": "Nassau & Suffolk counties",
 };
-// Label positions for the upstate regions on the statewide view (NYC and Long Island are obvious on the map)
+const AREA_REGION = {
+  Manhattan: "Region 4", Brooklyn: "Region 4", Bronx: "Region 4", Queens: "Region 4", "Staten Island": "Region 4",
+  Nassau: "Region 5", Suffolk: "Region 5", "Region 1": "Region 1", "Region 2": "Region 2", "Region 3": "Region 3",
+};
+// Label positions for the regions on the statewide view (Regions 4 and 5 are labeled offshore, clear of the pins)
 const REGION_LABELS = [
-  { at: [42.3, -78.6], name: "Region 1", sub: UPSTATE["Region 1"] },
-  { at: [43.55, -75.35], name: "Region 2", sub: UPSTATE["Region 2"] },
-  { at: [42.15, -74.25], name: "Region 3", sub: UPSTATE["Region 3"] },
+  { at: [42.3, -78.6], name: "Region 1", sub: REGION_INFO["Region 1"] },
+  { at: [43.55, -75.35], name: "Region 2", sub: REGION_INFO["Region 2"] },
+  { at: [42.15, -74.25], name: "Region 3", sub: REGION_INFO["Region 3"] },
+  { at: [40.4, -74.05], name: "Region 4", sub: "" },
+  { at: [40.55, -72.85], name: "Region 5", sub: "" },
 ];
 const SOURCES = {
   article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy & IDD evaluations", tint: "--peach" },
@@ -468,7 +470,7 @@ const state = { q: "", regions: new Set(REGIONS), source: "all", types: new Set(
 // Areas a location counts toward: its own, plus any area a provider there serves (home health agencies visit
 // people at home across several areas)
 function locRegions(loc) {
-  if (!loc.regions) loc.regions = [...new Set([loc.r, ...loc.p.flatMap((p) => p.sv || [])])];
+  if (!loc.regions) loc.regions = [...new Set([loc.r, ...loc.p.flatMap((p) => p.sv || [])].map((a) => AREA_REGION[a]))];
   return loc.regions;
 }
 const inSelectedRegions = (loc) => locRegions(loc).some((r) => state.regions.has(r));
@@ -510,7 +512,7 @@ function initMap() {
   for (const r of REGION_LABELS) {
     L.marker(r.at, {
       interactive: false, keyboard: false,
-      icon: L.divIcon({ className: "region-label", html: `${r.name}<em>${esc(r.sub)}</em>`, iconSize: [190, 36], iconAnchor: [95, 18] }),
+      icon: L.divIcon({ className: "region-label", html: `${r.name}${r.sub ? `<em>${esc(r.sub)}</em>` : ""}`, iconSize: [190, 36], iconAnchor: [95, 18] }),
     }).addTo(map);
   }
   // Region names only on the zoomed-out statewide view, where they don't cover pins
@@ -537,7 +539,7 @@ function popupHTML(loc, ps) {
     <div class="head" style="--tint:var(${SOURCES[loc.primary].tint})">
       <h4>${esc(loc.a)}</h4>
       <div class="meta">${sources.map((s) => `<span class="badge"><i style="background:${srcColor(s)}"></i>${SOURCES[s].short}</span>`).join("")}
-        <span class="badge">${esc(UPSTATE[loc.r] ? `${loc.r}${loc.co ? ` · ${loc.co} County` : ""}` : loc.r)}</span></div>
+        <span class="badge">${esc(`${AREA_REGION[loc.r]}${loc.co ? ` · ${loc.co} County` : ""}`)}</span></div>
     </div>
     <a class="dir" href="${dir}" target="_blank" rel="noopener noreferrer">${icon("i-go")}Get directions</a>
     <ul>${ps.map((p) => `<li><span class="dot" style="background:${srcColor(p.s)}"></span>
@@ -579,12 +581,10 @@ function renderSidebar(items) {
   // Areas: locations that match every other filter
   const areaCounts = Object.fromEntries(REGIONS.map((r) => [r, 0]));
   for (const loc of LOCATIONS) if (loc.p.some((p) => providerMatches(p, loc, ts))) locRegions(loc).forEach((r) => areaCounts[r]++);
-  $("areas").innerHTML = `<div class="area-groups">${AREA_GROUPS.map((g) => `<div class="area-group"><h3>${esc(g.title)}</h3><div class="chips">`
-    + g.areas.map((r) => `<button type="button" class="chip${UPSTATE[r] ? " wide" : ""}" data-region="${r}" aria-pressed="${state.regions.has(r)}">`
-      + `<svg class="icon tick" aria-hidden="true"><use href="#i-check"/></svg>`
-      + (UPSTATE[r] ? `<span class="txt">${r}<span class="sub">${esc(UPSTATE[r])}</span></span>` : r)
-      + `<span class="n">${nf.format(areaCounts[r])}</span></button>`).join("")
-    + `</div></div>`).join("")}</div>`;
+  $("areas").innerHTML = `<div class="chips">${REGIONS.map((r) => `<button type="button" class="chip wide" data-region="${r}" aria-pressed="${state.regions.has(r)}">`
+    + `<svg class="icon tick" aria-hidden="true"><use href="#i-check"/></svg>`
+    + `<span class="txt">${r}<span class="sub">${esc(REGION_INFO[r])}</span></span>`
+    + `<span class="n">${nf.format(areaCounts[r])}</span></button>`).join("")}</div>`;
   $("allAreas").hidden = state.regions.size === REGIONS.length;
 
   // Sources: providers in the selected areas that match services + search
