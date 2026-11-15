@@ -200,6 +200,16 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 .cluster.s { background: #bdf2da; } .cluster.m { background: #c6ecff; } .cluster.l { background: #ffcfe6; }
 .leaflet-bar { border: 0 !important; box-shadow: var(--shadow) !important; border-radius: 14px !important; overflow: hidden; }
 .leaflet-bar a, .leaflet-bar a:hover { background: var(--panel); color: var(--ink); border-bottom-color: var(--line); width: 34px; height: 34px; line-height: 34px; }
+/* Zoom buttons: bottom-left corner, large enough to tap comfortably */
+/* (#map raises specificity above Leaflet's own touch-screen sizing) */
+#map .leaflet-bottom.leaflet-left .leaflet-control-zoom { margin: 0 0 16px 16px; }
+#map .leaflet-control-zoom a {
+  width: 44px; height: 44px; line-height: 42px; font-size: 24px; font-weight: 700; font-family: var(--font-body);
+}
+#map .leaflet-control-zoom a:hover { background: var(--lilac); color: var(--accent); }
+#map .leaflet-control-zoom a.leaflet-disabled { color: var(--muted); background: var(--panel); opacity: 0.5; }
+/* Keep the map credits clear of the zoom buttons */
+#map .leaflet-bottom.leaflet-right .leaflet-control-attribution { max-width: calc(100vw - 120px); font-size: 11px; line-height: 1.4; }
 .leaflet-control-attribution { background: color-mix(in srgb, var(--panel) 85%, transparent) !important; color: var(--muted) !important; border-radius: 10px 0 0 0; }
 .leaflet-control-attribution a { color: var(--accent) !important; }
 
@@ -374,8 +384,9 @@ function basemapStyle(f) {
   };
 }
 function initMap() {
-  map = L.map("map", { zoomControl: true, attributionControl: true, minZoom: 8, maxZoom: 18, zoomSnap: 0.25 })
+  map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 8, maxZoom: 18, zoomSnap: 0.25 })
     .fitBounds([[40.49, -74.27], [41.17, -71.85]]);
+  L.control.zoom({ position: "bottomleft", zoomInTitle: "Zoom in", zoomOutTitle: "Zoom out" }).addTo(map);
   map.attributionControl.setPrefix(false).addAttribution("Boundaries: U.S. Census TIGER via data.ny.gov");
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
