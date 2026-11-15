@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Medicaid & Medicare Provider Finder",
-  description: "Find NY Medicaid and Medicare healthcare providers",
+  title: "NYC Provider Finder",
+  description: "Find healthcare, mental health and developmental disability services in Manhattan and the Bronx",
 };
 
 export default function RootLayout({

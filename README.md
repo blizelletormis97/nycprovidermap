@@ -8,12 +8,12 @@ Care managers use this tool to quickly identify and locate providers and program
 
 ## Features
 
-- Interactive Mapbox map with clustering for dense areas
-- Filter by data source (Medicaid, Medicare, OPWDD, Article 16, or all)
-- Filter by healthcare services (Physicians, Therapy, Mental Health, Dental, etc.)
-- Filter by OPWDD services (Day Habilitation, Community Habilitation, Residential, etc.)
-- Click locations to view provider details and available services
-- Dark/light theme support
+- Interactive Mapbox map with clustering; markers are colored by the most DD-specific source at each address
+- Search by provider name, street or ZIP code, and jump straight to a result
+- Filter by data source (Article 16, OPWDD, OMH, NYS health facilities, Medicaid, Medicare)
+- Filter by service across 8 collapsible groups, with live location counts per service
+- Click a location to see every provider there, with phone (tap to call), website, program details and a directions link
+- Zoom and "locate me" controls, mobile-friendly layout, dark/light theme
 
 ## Tech Stack
 
@@ -91,6 +91,29 @@ Voluntary sector agencies providing OPWDD waiver services:
 - Intermediate Care (ICF)
 - Family Care
 
+### OMH Mental Health Programs
+
+**Source**: [NY Open Data - Local Mental Health Programs](https://data.ny.gov/Human-Services/Local-Mental-Health-Programs/6nvr-tbv8)
+
+NYS Office of Mental Health licensed and funded programs, grouped as:
+
+- Outpatient Clinic / PROS (MHOTRS, CCBHC, PROS, day treatment, partial hospitalization)
+- ACT / Intensive Outreach (ACT, Intensive Mobile Treatment, SOS, CTI, OnTrackNY)
+- Crisis Services (CPEP, mobile crisis, crisis residences, respite)
+- Inpatient Psychiatric
+- Children & Family (CFTSS, HealthySteps, family and youth peer support, school mental health)
+- Care Management / Health Home
+- Employment Services
+- Peer & Recovery Support
+
+OMH supportive housing and community residence addresses are confidential in the dataset (they are geocoded to OMH headquarters in Albany), so those programs are left off the map.
+
+### NYS Health Facilities
+
+**Source**: [NY Health Data - Health Facility General Information](https://health.data.ny.gov/Health/Health-Facility-General-Information/vn5v-hh5r)
+
+NYS DOH-licensed facilities: hospitals, diagnostic & treatment centers and hospital extension clinics (including FQHCs and dialysis), school-based clinics, nursing homes, licensed/certified home care agencies, adult homes and enriched housing, adult day health care and hospice.
+
 ### Article 16 Clinics
 
 **Source**: [OPWDD Article 16 Certified Clinics](https://opwdd.ny.gov/providers/article-16-clinics)
@@ -123,6 +146,12 @@ bun run src/lib/seed-opwdd.ts
 
 # Fetch and cache Article 16 clinics
 bun run src/lib/seed-article16.ts
+
+# Fetch and cache OMH mental health programs
+bun run src/lib/seed-omh.ts
+
+# Fetch and cache NYS DOH health facilities
+bun run src/lib/seed-health-facilities.ts
 ```
 
 ### Medicare Data Setup
@@ -138,8 +167,9 @@ The Medicare seed script requires the CMS DAC National Downloadable File:
 ```
 src/
 ├── app/
-│   ├── api/providers/   # API route returning GeoJSON data
-│   └── page.tsx         # Main page with map
+│   ├── api/locations/[id]/ # Provider details for one location (loaded on click)
+│   ├── api/search/         # Provider name search
+│   └── page.tsx            # Main page with map (compact location GeoJSON)
 ├── components/
 │   ├── provider-map.tsx # Interactive map component
 │   └── map-filter.tsx   # Filter sidebar
@@ -149,18 +179,21 @@ src/
 │   └── *-geocoded.json  # Cached provider data
 ├── lib/
 │   ├── api.ts           # Data access and normalization
-│   ├── constants.ts     # Service types and configuration
+│   ├── constants.ts     # Service catalog (filter groups), source colors and labels
 │   ├── geo-utils.ts     # Geographic filtering utilities
+│   ├── seed-utils.ts    # Shared helpers for seed scripts
 │   └── seed-*.ts        # Data fetching/processing scripts
 └── types/
     └── providers.ts     # TypeScript interfaces
 ```
 
-## Provider Counts (as of Jan 2026)
+## Provider Counts
 
 | Source | Providers | Notes |
 |--------|-----------|-------|
-| Medicaid | ~varies | Dentists, physicians, home health, DME |
+| Medicaid | ~45,800 | Dentists, physicians, psychologists, home health, DME |
 | Medicare | ~16,000 | 16 specialty categories |
-| OPWDD | ~60 | Waiver service agencies |
+| OPWDD | 56 | Waiver service agencies |
 | Article 16 | 30 | Specialized DD clinics + satellites |
+| OMH | 566 | Mental health programs (refreshed Nov 2026) |
+| NYS Health Facilities | 889 | Hospitals, clinics, nursing homes, home care, etc. (refreshed Nov 2026) |
