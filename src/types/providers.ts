@@ -1,5 +1,7 @@
-// Data source type — every source lists IDD providers that accept Medicaid
-export type DataSource = "article16" | "opwdd" | "medicaid";
+// Data source type. The first three list IDD providers that accept Medicaid. "clinicians" are
+// Medicaid-enrolled psychologists and clinical social workers who are NOT IDD-specific; they are an optional
+// layer for finding evaluations and only load on the website when a viewer turns them on.
+export type DataSource = "article16" | "opwdd" | "medicaid" | "clinicians";
 
 // Service area: all five NYC boroughs plus Long Island's Nassau and Suffolk counties
 export type Region = "Manhattan" | "Brooklyn" | "Bronx" | "Queens" | "Staten Island" | "Nassau" | "Suffolk";

@@ -11,12 +11,13 @@ import type {
 } from "@/types/providers";
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
-import { KNOWN_SERVICE_KEYS, SOURCE_ORDER } from "./constants";
+import { DEFAULT_SOURCES, EVALUATION_SERVICES, KNOWN_SERVICE_KEYS, SOURCE_ORDER } from "./constants";
 
 const SOURCE_FILES: Record<DataSource, string> = {
   article16: "article16-geocoded.json",
   opwdd: "opwdd-geocoded.json",
   medicaid: "medicaid-geocoded.json",
+  clinicians: "clinicians-geocoded.json",
 };
 
 const providerCache = new Map<DataSource, CachedProvider[]>();
@@ -38,9 +39,22 @@ function loadSource(source: DataSource): CachedProvider[] {
   return data;
 }
 
-export function getCachedProviders(sourceFilter?: DataSource): CachedProvider[] {
-  const sources = sourceFilter ? [sourceFilter] : (Object.keys(SOURCE_FILES) as DataSource[]);
+/**
+ * Cached providers for one source, or for the default IDD sources. Pass `includeClinicians` to add the
+ * optional (not IDD-specific) psychologist and social worker layer.
+ */
+export function getCachedProviders(sourceFilter?: DataSource, includeClinicians = false): CachedProvider[] {
+  const sources = sourceFilter
+    ? [sourceFilter]
+    : [...DEFAULT_SOURCES, ...(includeClinicians ? (["clinicians"] as DataSource[]) : [])];
   return sources.flatMap(loadSource);
+}
+
+/** Service keys for a provider, plus "IDD Clinic Evaluations" for clinics that complete IDD evaluations. */
+function servicesFor(provider: CachedProvider): string[] {
+  const services = provider.services.map(normalizeServiceType);
+  if (services.some((s) => EVALUATION_SERVICES.has(s))) services.push("IDD Clinic Evaluations");
+  return Array.from(new Set(services));
 }
 
 /** Seed scripts store service category keys directly; unknown values are title-cased so they still display. */
@@ -51,7 +65,7 @@ export function normalizeServiceType(type: string): string {
 
 const locationKey = (lat: number, lng: number) => `${lat.toFixed(5)},${lng.toFixed(5)}`;
 
-interface LocationIndexEntry {
+export interface LocationIndexEntry {
   id: string;
   address: string;
   lat: number;
@@ -60,7 +74,7 @@ interface LocationIndexEntry {
   providers: ProviderDetail[];
 }
 
-let locationIndex: Map<string, LocationIndexEntry> | null = null;
+const locationIndexes = new Map<boolean, Map<string, LocationIndexEntry>>();
 
 const STREET_ABBREVIATIONS: Record<string, string> = {
   STREET: "ST", AVENUE: "AVE", ROAD: "RD", BOULEVARD: "BLVD", PLACE: "PL", DRIVE: "DR", LANE: "LN",
@@ -88,15 +102,16 @@ export function addressKey(address: string): string | null {
 }
 
 /** Group every provider by building (normalized address) or rounded coordinates. Built once per server process. */
-function getLocationIndex(): Map<string, LocationIndexEntry> {
-  if (locationIndex) return locationIndex;
+export function getLocationIndex(includeClinicians = false): Map<string, LocationIndexEntry> {
+  const cached = locationIndexes.get(includeClinicians);
+  if (cached) return cached;
 
   const index = new Map<string, LocationIndexEntry>();
   const idsByAddress = new Map<string, string>();
   const seen = new Set<string>();
 
   // Article 16 / OPWDD first so their (cleaner) address and coordinates represent the location
-  const providers = [...getCachedProviders()].sort(
+  const providers = [...getCachedProviders(undefined, includeClinicians)].sort(
     (a, b) => SOURCE_ORDER.indexOf(a.source) - SOURCE_ORDER.indexOf(b.source)
   );
 
@@ -107,7 +122,7 @@ function getLocationIndex(): Map<string, LocationIndexEntry> {
       id = locationKey(provider.lat, provider.lng);
       if (byAddress) idsByAddress.set(byAddress, id);
     }
-    const type = Array.from(new Set(provider.services.map(normalizeServiceType))).join(", ");
+    const type = servicesFor(provider).join(", ");
 
     // Drop exact duplicate listings (same source, name and services at the same spot)
     const dedupeKey = `${id}|${provider.source}|${provider.name.toUpperCase()}|${type}|${provider.detail ?? ""}`;
@@ -137,7 +152,7 @@ function getLocationIndex(): Map<string, LocationIndexEntry> {
     );
   }
 
-  locationIndex = index;
+  locationIndexes.set(includeClinicians, index);
   return index;
 }
 
