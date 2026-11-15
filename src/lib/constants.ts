@@ -99,8 +99,6 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
     heading: "Evaluations",
     types: [
       t("IDD Clinic Evaluations", "IDD clinic evaluations (Article 16 & state clinics)"),
-      t("Psychologist", "Psychologists: psychological & autism evaluations (not IDD-specific)"),
-      t("Clinical Social Worker", "Social workers: psychosocial evaluations (not IDD-specific)"),
     ],
   },
   {
@@ -117,16 +115,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
 export const ALL_SERVICE_KEYS: string[] = SERVICE_GROUPS.flatMap((g) => g.types.map((type) => type.key));
 export const KNOWN_SERVICE_KEYS = new Set(ALL_SERVICE_KEYS);
 
-export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "medicaid", "clinicians"];
-
-// Sources shown by default. Clinicians are an optional, not IDD-specific layer.
-export const DEFAULT_SOURCES: DataSource[] = ["article16", "opwdd", "medicaid"];
-
-// Medicaid listing types for the optional clinician layer -> service key
-export const MEDICAID_CLINICIAN_TYPES: Record<string, string> = {
-  "CLINICAL PSYCHOLOGIST": "Psychologist",
-  "CLINICAL SOCIAL WORKER": "Clinical Social Worker",
-};
+export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "medicaid"];
 
 // Services whose providers also complete IDD evaluations (psychological, psychosocial and OPWDD eligibility).
 // Article 16 clinics are certified to provide psychology services including evaluations.
@@ -151,11 +140,5 @@ export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: strin
     longLabel: "Medicaid-Enrolled IDD Sites",
     className: "bg-blue-500/20 text-blue-700 dark:text-blue-400",
     color: "#3fc1e9",
-  },
-  clinicians: {
-    label: "Medicaid clinician",
-    longLabel: "Psychologists & Social Workers (not IDD-specific)",
-    className: "bg-amber-500/20 text-amber-700 dark:text-amber-400",
-    color: "#f5b83d",
   },
 };

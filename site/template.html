@@ -42,7 +42,6 @@
   --src-article16: #ff8b74;
   --src-opwdd: #a68bff;
   --src-medicaid: #3fc1e9;
-  --src-clinicians: #f5b83d;
 
   --shadow: 0 6px 20px rgb(123 97 255 / 0.12);
   --font-display: "Fredoka", "Nunito", system-ui, sans-serif;
@@ -53,7 +52,7 @@
     --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
     --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
     --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-clinicians: #ffd27a;
+    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6;
     --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
     color-scheme: dark;
   }
@@ -62,7 +61,7 @@
   --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
   --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
   --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-clinicians: #ffd27a;
+  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6;
   --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
   color-scheme: dark;
 }
@@ -305,9 +304,7 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
     <p class="note">
       <b>Good to know:</b> the IDD providers here are tied to Medicaid. Data comes from OPWDD's Article 16
       clinic list, the NY Open Data directory of OPWDD agencies and the NY Medicaid Enrolled Provider Listing,
-      refreshed <span id="dataDate"></span>. Psychologists and social workers under <b>Evaluations</b> are enrolled in
-      Medicaid but not IDD-specific, so ask whether they evaluate people with IDD. Please call ahead to confirm
-      Medicaid acceptance and openings before referring.
+      refreshed <span id="dataDate"></span>. Please call ahead to confirm Medicaid acceptance and openings before referring.
     </p>
   </aside>
   <div class="mapwrap"><div id="map" role="region" aria-label="Map of provider locations"></div></div>
@@ -329,14 +326,11 @@ const SOURCES = {
   article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy, psychology & evaluations", tint: "--peach" },
   opwdd: { label: "OPWDD agencies", short: "OPWDD agency", note: "Agencies offering Medicaid-funded services", tint: "--lilac" },
   medicaid: { label: "Medicaid IDD sites", short: "Medicaid site", note: "Residences, ICFs & day programs", tint: "--sky" },
-  clinicians: { label: "Psychologists & social workers", short: "Medicaid clinician", note: "Not IDD-specific: ask about IDD evaluations", tint: "--lemon" },
 };
 // [service key, label, hint]
 const GROUPS = [
   { name: "Evaluations", icon: "i-clipboard", tint: "--lemon", types: [
-    ["IDD Clinic Evaluations", "IDD clinic evaluations", "Article 16 & OPWDD state clinics"],
-    ["Psychologist", "Psychologists", "Psychological & autism evaluations · not IDD-specific"],
-    ["Clinical Social Worker", "Social workers", "Psychosocial evaluations · not IDD-specific"]] },
+    ["IDD Clinic Evaluations", "IDD clinic evaluations", "Article 16 & OPWDD state clinics"]] },
   { name: "Home & residential", icon: "i-home", tint: "--peach", types: [["Residential (IRA)", "Group homes (IRA)"], ["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["Family Care", "Family care homes"], ["OPWDD Community Support Site", "Community support sites"], ["Developmental Centers", "Developmental centers"]] },
   { name: "Day & work", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
   { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"]] },
@@ -344,11 +338,7 @@ const GROUPS = [
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
-const SOURCE_ORDER = ["article16", "opwdd", "medicaid", "clinicians"];
-// Medicaid psychologists and social workers: an optional layer, off at first and downloaded when turned on
-const CLINICIAN_TYPES = ["Psychologist", "Clinical Social Worker"];
-const CLINICIANS_URL = "__CLINICIANS_URL__";
-let clinicians = "off"; // "off" | "loading" | "loaded" | "failed"
+const SOURCE_ORDER = ["article16", "opwdd", "medicaid"];
 const nf = new Intl.NumberFormat("en-US");
 let colorCache = new Map();
 const css = (name) => {
@@ -365,32 +355,9 @@ LOCATIONS.forEach((loc, i) => {
   loc.p.forEach((p) => { p.types = p.t.split(", "); p.nameU = p.n.toUpperCase(); });
   loc.primary = SOURCE_ORDER.find((s) => loc.p.some((p) => p.s === s));
 });
-// Counted once, before the optional clinician layer can be added
 const iddProviders = LOCATIONS.reduce((n, l) => n + l.p.length, 0);
 
-const state = { q: "", regions: new Set(REGIONS), source: "all", types: new Set(ALL_TYPES.filter((t) => !CLINICIAN_TYPES.includes(t))) };
-
-function prepare(loc) {
-  loc.addrU = loc.a.toUpperCase();
-  loc.p.forEach((p) => { if (!p.types) { p.types = p.t.split(", "); p.nameU = p.n.toUpperCase(); } });
-  loc.primary = SOURCE_ORDER.find((s) => loc.p.some((p) => p.s === s));
-}
-
-// Download the psychologist & social worker layer the first time one of its services is switched on
-function ensureClinicians() {
-  if (clinicians !== "off" && clinicians !== "failed") return;
-  if (!CLINICIAN_TYPES.some((t) => state.types.has(t))) return;
-  clinicians = "loading";
-  fetch(CLINICIANS_URL)
-    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then((extra) => {
-      for (const [i, providers] of extra.add) { LOCATIONS[i].p.push(...providers); prepare(LOCATIONS[i]); }
-      for (const loc of extra.locations) { loc.id = LOCATIONS.length; LOCATIONS.push(loc); prepare(loc); }
-      clinicians = "loaded";
-      render();
-    })
-    .catch(() => { clinicians = "failed"; render(); });
-}
+const state = { q: "", regions: new Set(REGIONS), source: "all", types: new Set(ALL_TYPES) };
 
 // ---------- filtering ----------
 function terms() { return state.q.trim().toUpperCase().split(/\s+/).filter(Boolean); }
@@ -464,7 +431,6 @@ function popupHTML(loc, ps) {
       <div>${esc(p.types.map((t) => LABELS[t] || t).join(", "))}</div>
       ${p.d ? `<div>${esc(p.d)}</div>` : ""}
       ${p.ph ? `<div>Call <span class="phone">${esc(p.ph)}</span></div>` : ""}
-      ${p.s === "clinicians" ? `<div><span class="office">Not IDD-specific: ask if they do IDD evaluations</span></div>` : ""}
       ${p.o ? `<div><span class="office">Office or billing address</span></div>` : ""}</li>`).join("")}</ul>
     ${hidden > 0 ? `<div class="hidden-note">${hidden} more provider${hidden > 1 ? "s" : ""} here hidden by your filters.</div>` : ""}
   </div>`;
@@ -492,9 +458,7 @@ function renderSidebar(items) {
   const ts = terms();
   const providerCount = items.reduce((n, it) => n + it.ps.length, 0);
   $("summary").innerHTML = `Showing <b>${nf.format(items.length)}</b> places with <b>${nf.format(providerCount)}</b> providers`
-    + (clinicians === "loading" ? `<span class="empty-note">Loading psychologists &amp; social workers…</span>` : "")
-    + (clinicians === "failed" ? `<span class="empty-note">Psychologists &amp; social workers couldn't load. Check your connection and switch them on again.</span>` : "")
-    + (items.length === 0 && clinicians !== "loading" ? `<span class="empty-note">No matches yet. Try clearing the search, choosing more areas, or turning on more services.</span>` : "");
+    + (items.length === 0 ? `<span class="empty-note">No matches yet. Try clearing the search, choosing more areas, or turning on more services.</span>` : "");
 
   // Areas: locations that match every other filter
   const areaCounts = Object.fromEntries(REGIONS.map((r) => [r, 0]));
@@ -505,7 +469,7 @@ function renderSidebar(items) {
   $("allAreas").hidden = state.regions.size === REGIONS.length;
 
   // Sources: providers in the selected areas that match services + search
-  const srcCounts = { article16: 0, opwdd: 0, medicaid: 0, clinicians: 0 };
+  const srcCounts = { article16: 0, opwdd: 0, medicaid: 0 };
   let allCount = 0;
   for (const loc of LOCATIONS) {
     if (!state.regions.has(loc.r)) continue;
@@ -517,7 +481,7 @@ function renderSidebar(items) {
   const rainbow = `background:conic-gradient(${SOURCE_ORDER.map((s, i) => `${srcColor(s)} ${i * 120}deg ${(i + 1) * 120}deg`).join(",")})`;
   $("sources").innerHTML = `<button type="button" class="src" data-source="all" aria-pressed="${state.source === "all"}">
       <span class="bubble" style="background:var(--lemon)"><i style="${rainbow}"></i></span><span><b>Everyone</b><small>All kinds of providers</small></span><span class="n">${nf.format(allCount)}</span></button>`
-    + SOURCE_ORDER.filter((s) => s !== "clinicians" || clinicians === "loaded").map((s) => `<button type="button" class="src" data-source="${s}" aria-pressed="${state.source === s}">
+    + SOURCE_ORDER.map((s) => `<button type="button" class="src" data-source="${s}" aria-pressed="${state.source === s}">
         <span class="bubble" style="background:var(${SOURCES[s].tint})"><i style="background:${srcColor(s)}"></i></span>
         <span><b>${SOURCES[s].label}</b><small>${SOURCES[s].note}</small></span><span class="n">${nf.format(srcCounts[s])}</span></button>`).join("");
 
@@ -542,12 +506,9 @@ function renderSidebar(items) {
       <h3><span class="gicon">${icon(g.icon)}</span><label for="g${gi}">${esc(g.name)}</label>
         <span class="n">${nf.format(groupCounts[gi])}</span>
         <input type="checkbox" id="g${gi}" data-group="${gi}" ${on === keys.length ? "checked" : ""} aria-label="All ${esc(g.name)}"></h3>
-      ${g.types.map(([k, label, hint], ti) => {
-        const pending = CLINICIAN_TYPES.includes(k) && clinicians !== "loaded";
-        return `<label class="svc ${typeCounts[k] || pending ? "" : "zero"}" for="t${gi}-${ti}"><input type="checkbox" id="t${gi}-${ti}" data-type="${esc(k)}" ${state.types.has(k) ? "checked" : ""}>`
+      ${g.types.map(([k, label, hint], ti) => `<label class="svc ${typeCounts[k] ? "" : "zero"}" for="t${gi}-${ti}"><input type="checkbox" id="t${gi}-${ti}" data-type="${esc(k)}" ${state.types.has(k) ? "checked" : ""}>`
           + `<span class="txt">${esc(label || k)}${hint ? `<small>${esc(hint)}</small>` : ""}</span>`
-          + `<span class="n">${pending ? (clinicians === "loading" ? "…" : "") : nf.format(typeCounts[k])}</span></label>`;
-      }).join("")}
+          + `<span class="n">${nf.format(typeCounts[k])}</span></label>`).join("")}
     </div>`;
   }).join("");
   GROUPS.forEach((g, gi) => {
@@ -595,10 +556,9 @@ $("groups").addEventListener("change", (e) => {
   const t = e.target;
   if (t.dataset.type) { if (t.checked) state.types.add(t.dataset.type); else state.types.delete(t.dataset.type); }
   else if (t.dataset.group) { GROUPS[+t.dataset.group].types.forEach(([k]) => t.checked ? state.types.add(k) : state.types.delete(k)); }
-  ensureClinicians();
   render();
 });
-$("svcAll").addEventListener("click", () => { state.types = new Set(ALL_TYPES); ensureClinicians(); render(); });
+$("svcAll").addEventListener("click", () => { state.types = new Set(ALL_TYPES); render(); });
 $("svcNone").addEventListener("click", () => { state.types = new Set(); render(); });
 
 // Re-color the map when the viewer's theme changes
