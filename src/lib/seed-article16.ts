@@ -1,136 +1,186 @@
 /**
- * Seed script to geocode Article 16 Clinics from the official OPWDD list.
- * Data source: https://opwdd.ny.gov/article-16-certified-clinics
+ * Seed script for OPWDD Article 16 certified clinics (main sites + satellites) in the
+ * service area (the five NYC boroughs, Nassau, Suffolk).
+ *
+ * Input:  src/data/raw/article-16-raw.json — table extraction of OPWDD's statewide
+ *         "Clinic Programs and Satellites" list (src/data/raw/article-16-clinics.pdf).
+ *         Source: https://opwdd.ny.gov/providers/article-16-clinics
+ * Geocoding: U.S. Census Bureau geocoder (free, no API key), which also returns the county.
+ *
  * Run with: bun run src/lib/seed-article16.ts
  */
 
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
-import { isInManhattanOrBronx, getManhattanBronxBbox } from "./geo-utils";
+import { getRegion } from "./geo-utils";
+import { formatPhone } from "./seed-utils";
 
 import type { CachedProvider } from "@/types/providers";
 
-const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
-
-if (!MAPBOX_TOKEN) {
-  console.error("Error: NEXT_PUBLIC_MAPBOX_TOKEN environment variable is required");
-  process.exit(1);
+interface RawTable {
+  data: { text: string }[][];
 }
 
-interface Article16Entry {
+type GeoResult = { lat: number; lng: number; county?: string };
+
+interface ClinicSite {
   agency: string;
   phone: string;
-  address: string;
+  programId: string;
+  siteId: string;
+  type: "main" | "satellite";
+  street: string;
   city: string;
   zip: string;
-  county: string;
-  type: "main" | "satellite";
 }
 
-interface MapboxFeature {
-  center: [number, number];
-}
+// Addresses the Census geocoder cannot match. Coordinates come from the same addresses in the
+// NY Medicaid Enrolled Provider Listing (health.data.ny.gov), except 200 Varick Street (located by hand).
+const MANUAL_LOCATIONS: Record<string, GeoResult> = {
+  "200 varick street|new york": { lat: 40.72868, lng: -74.00543, county: "New York County" },
+  "159-05 union turnpike|fresh meadows": { lat: 40.72075, lng: -73.80778, county: "Queens County" },
+  "168-18 south conduit avenue|springfield gardens": { lat: 40.66681, lng: -73.77542, county: "Queens County" },
+  "211-11 northern boulevard|bayside": { lat: 40.76, lng: -73.7717, county: "Queens County" },
+  "8002 kew gardens road|kew gardens": { lat: 40.70697, lng: -73.82922, county: "Queens County" },
+  "445 county road 101|yaphank": { lat: 40.81125, lng: -72.95342, county: "Suffolk County" },
+};
 
-interface MapboxResponse {
-  features?: MapboxFeature[];
-}
+const clean = (s: string) => s.replace(/\r/g, " ").replace(/\s+/g, " ").trim();
 
-async function geocodeAddress(
-  address: string,
-  city: string,
-  state: string,
-  zip: string
-): Promise<{ lat: number; lng: number } | null> {
-  const fullAddress = [address, city, state, zip].filter(Boolean).join(", ");
+/** Turn the extracted PDF table into one entry per clinic site. */
+export function parseClinicTable(tables: RawTable[]): ClinicSite[] {
+  const sites: ClinicSite[] = [];
+  let agency = "";
+  let phone = "";
+  let programId = "";
 
-  // Skip vague addresses that won't geocode well
-  if (!fullAddress.trim() || address.toLowerCase().includes("unspecified")) {
-    return null;
-  }
+  const isSiteId = (s: string) => /^\d{11}$/.test(s);
+  const addSatellite = (siteId: string, street: string, city: string, zip: string) =>
+    sites.push({ agency, phone, programId, siteId, type: "satellite", street, city, zip });
 
-  try {
-    const bbox = getManhattanBronxBbox().join(",");
-    const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(fullAddress)}.json?access_token=${MAPBOX_TOKEN}&limit=1&country=US&bbox=${bbox}`;
+  for (const table of tables) {
+    for (const row of table.data) {
+      const cells = row.map((c) => clean(c.text));
+      if (cells[0] === "Agency Legal Name") continue;
 
-    const res = await fetch(url);
-    if (!res.ok) return null;
+      // Main program row (13 columns), possibly with a first satellite in the trailing columns
+      if (cells.length === 13 && cells[0] && !isSiteId(cells[0])) {
+        const [name, , agencyPhone, progId, progType, street, city, zip] = cells;
+        // Only clinic programs (skips e.g. the IBR evaluation program)
+        if (progType.toUpperCase() !== "CLINIC") { agency = ""; continue; }
+        agency = name;
+        phone = agencyPhone;
+        programId = progId;
+        sites.push({ agency, phone, programId, siteId: progId, type: "main", street, city, zip });
+        const satIndex = cells.findIndex((c, i) => i >= 8 && isSiteId(c));
+        if (satIndex >= 0) addSatellite(cells[satIndex], cells[satIndex + 1], cells[satIndex + 2], cells[satIndex + 3]);
+        continue;
+      }
 
-    const data: MapboxResponse = await res.json();
-    if (data.features && data.features.length > 0) {
-      const [lng, lat] = data.features[0].center;
-      if (isInManhattanOrBronx(lat, lng)) {
-        return { lat, lng };
+      // Satellite-only row: the 11-digit site ID can sit in any column, followed by street, city, ZIP
+      const idIndex = cells.findIndex(isSiteId);
+      if (idIndex >= 0) {
+        if (agency) addSatellite(cells[idIndex], cells[idIndex + 1], cells[idIndex + 2], cells[idIndex + 3]);
+        continue;
+      }
+
+      // A row with a single text cell is a wrapped address line ("Avenue", "Street")
+      const filled = cells.map((c, i) => [c, i] as const).filter(([c]) => c);
+      if (agency && filled.length === 1 && sites.length > 0) {
+        const [text, index] = filled[0];
+        const target = index === 5
+          ? [...sites].reverse().find((site) => site.type === "main")
+          : sites[sites.length - 1];
+        if (target && !target.street.endsWith(text)) target.street += ` ${text}`;
       }
     }
-    return null;
-  } catch {
-    return null;
   }
+  return sites;
+}
+
+interface CensusMatch {
+  coordinates: { x: number; y: number };
+  matchedAddress: string;
+  geographies?: { Counties?: { NAME: string }[] };
+}
+
+/** Geocode a site; if the full address fails (e.g. a wrong ZIP in the source list), retry without the ZIP. */
+async function geocode(site: ClinicSite): Promise<GeoResult | null> {
+  const manual = MANUAL_LOCATIONS[`${site.street}|${site.city}`.toLowerCase()];
+  if (manual) return manual;
+  return (await geocodeAddress(`${site.street}, ${site.city}, NY ${site.zip}`))
+    ?? (await geocodeAddress(`${site.street}, ${site.city}, NY`));
+}
+
+async function geocodeAddress(address: string): Promise<GeoResult | null> {
+  const url = "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress"
+    + `?address=${encodeURIComponent(address)}&benchmark=Public_AR_Current&vintage=Current_Current&layers=Counties&format=json`;
+
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const match: CensusMatch | undefined = data.result?.addressMatches?.[0];
+      if (!match) return null;
+      return {
+        lat: match.coordinates.y,
+        lng: match.coordinates.x,
+        county: match.geographies?.Counties?.[0]?.NAME,
+      };
+    } catch {
+      await new Promise((r) => setTimeout(r, 1000 * (attempt + 1)));
+    }
+  }
+  return null;
 }
 
 async function main() {
-  console.log("=== Article 16 Clinic Seed (Official OPWDD Data) ===\n");
+  const tables: RawTable[] = JSON.parse(readFileSync(join(process.cwd(), "src/data/raw/article-16-raw.json"), "utf-8"));
+  const sites = parseClinicTable(tables);
+  console.log(`Parsed ${sites.length} clinic sites statewide`);
 
-  const rawPath = join(process.cwd(), "src/data/raw/article-16-official.json");
-  const entries: Article16Entry[] = JSON.parse(readFileSync(rawPath, "utf-8"));
-
-  console.log(`Loaded ${entries.length} Article 16 locations from official list`);
-  console.log(`  Main clinics: ${entries.filter((e) => e.type === "main").length}`);
-  console.log(`  Satellites: ${entries.filter((e) => e.type === "satellite").length}`);
+  // Geocode every site with a street address and let the geocoded county decide (the source list has
+  // ZIP typos, so filtering by ZIP first would drop real sites). Vague entries like "Bronx Rehabilitation"
+  // have no street number and are skipped.
+  const candidates = sites.filter((s) => /^\d/.test(s.street));
+  console.log(`  ${candidates.length} sites with a street address`);
 
   const cached: CachedProvider[] = [];
-  let success = 0;
-  let failed = 0;
+  const failed: string[] = [];
+  const outside: string[] = [];
 
-  console.log("\nGeocoding locations...\n");
+  for (const site of candidates) {
+    const geo = await geocode(site);
+    const label = `${site.agency} — ${site.street}, ${site.city} ${site.zip}`;
+    if (!geo) { failed.push(label); continue; }
 
-  for (let i = 0; i < entries.length; i++) {
-    const entry = entries[i];
+    const region = getRegion(geo.lat, geo.lng, geo.county);
+    if (!region) { outside.push(`${label} (${geo.county ?? "unknown county"})`); continue; }
 
-    const coords = await geocodeAddress(entry.address, entry.city, "NY", entry.zip);
-
-    if (coords) {
-      const serviceType = entry.type === "main" ? "Article 16 Clinic" : "Article 16 Satellite";
-
-      cached.push({
-        source: "article16",
-        name: entry.agency,
-        services: [serviceType],
-        address: [entry.address, entry.city, "NY", entry.zip].filter(Boolean).join(", "),
-        county: entry.county,
-        phone: entry.phone || undefined,
-        lat: coords.lat,
-        lng: coords.lng,
-      });
-      success++;
-      console.log(`  ✓ ${entry.agency} - ${entry.address}`);
-    } else {
-      failed++;
-      console.log(`  ✗ Failed: ${entry.agency} - ${entry.address}, ${entry.city}`);
-    }
-
-    // Rate limit: ~100ms between requests
-    await new Promise((r) => setTimeout(r, 100));
+    cached.push({
+      source: "article16",
+      name: site.agency,
+      services: [site.type === "main" ? "Article 16 Clinic" : "Article 16 Satellite"],
+      detail: `OPWDD program ${site.programId}${site.type === "satellite" ? ` · satellite ${site.siteId}` : ""}`,
+      address: `${site.street}, ${site.city}, NY, ${site.zip}`,
+      region,
+      phone: formatPhone(site.phone),
+      lat: geo.lat,
+      lng: geo.lng,
+    });
   }
 
-  console.log(`\n=== Results ===`);
-  console.log(`  Successfully geocoded: ${success}`);
-  console.log(`  Failed to geocode: ${failed}`);
-  console.log(`  Total locations: ${cached.length}`);
+  cached.sort((a, b) => a.name.localeCompare(b.name));
+  console.log(`\nSaved ${cached.length} clinic sites`);
+  const counts = new Map<string, number>();
+  for (const p of cached) counts.set(p.region, (counts.get(p.region) ?? 0) + 1);
+  for (const [k, v] of counts) console.log(`  ${k}: ${v}`);
+  console.log(`\nOutside the service area: ${outside.length}`);
+  console.log(`\nCould not geocode (check if any are in the service area): ${failed.length}`);
+  failed.forEach((f) => console.log(`  - ${f}`));
 
-  // Summary by agency
-  const byAgency = new Map<string, number>();
-  for (const p of cached) {
-    byAgency.set(p.name, (byAgency.get(p.name) || 0) + 1);
-  }
-  console.log(`\nBy agency:`);
-  for (const [agency, count] of Array.from(byAgency.entries()).sort((a, b) => b[1] - a[1])) {
-    console.log(`  ${agency}: ${count} location(s)`);
-  }
-
-  const cachePath = join(process.cwd(), "src/data/article16-geocoded.json");
-  writeFileSync(cachePath, JSON.stringify(cached, null, 2));
-  console.log(`\nSaved to ${cachePath}`);
+  writeFileSync(join(process.cwd(), "src/data/article16-geocoded.json"), JSON.stringify(cached, null, 2));
 }
 
-main().catch(console.error);
+main().catch((e) => { console.error(e); process.exit(1); });

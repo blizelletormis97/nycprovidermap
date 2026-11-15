@@ -1,445 +1,192 @@
 [
   {
     "source": "opwdd",
-    "name": "FEDERATION EMPLOY. & GUIDANCE SVC.",
-    "services": [
-      "Family Support"
-    ],
-    "address": "315 HUDSON STREET, 9TH FLOOR, NEW YORK, NY, 10013",
-    "county": "NEW YORK",
-    "phone": "212-366-8400",
-    "website": "http://www.fegs.org",
-    "lat": 40.72637,
-    "lng": -74.00752
-  },
-  {
-    "source": "opwdd",
-    "name": "URBAN RESOURCE INSTITUTE",
-    "services": [
-      "Supported Employment"
-    ],
-    "address": "75 BROAD STREET, SUITE 505, NEW YORK, NY, 10004",
-    "county": "NEW YORK",
-    "phone": "646-588-0030",
-    "website": "http://www.uriny.org",
-    "lat": 40.70464,
-    "lng": -74.01155
-  },
-  {
-    "source": "opwdd",
-    "name": "CONSTRUCTIVE PARTNERSHIPS UNLIMITED",
-    "services": [
-      "Day Habilitation",
-      "Community Habilitation",
-      "Residential (IRA)",
-      "Supported Employment",
-      "Family Support",
-      "Individual Support (ISS)"
-    ],
-    "address": "40 RECTOR STREET, 15TH FLOOR, NEW YORK, NY, 10006",
-    "county": "NEW YORK",
-    "phone": "212-947-5770",
-    "website": "http://www.cpunlimited.org",
-    "lat": 40.70836,
-    "lng": -74.01482
-  },
-  {
-    "source": "opwdd",
-    "name": "GATEWAY COUNSELING CENTER  INC.",
-    "services": [
-      "Day Habilitation",
-      "Community Habilitation",
-      "Family Support"
-    ],
-    "address": "1776 EASTCHESTER ROAD, SUITE 220, BRONX, NY, 10461",
-    "county": "BRONX",
-    "phone": "718-325-5021",
-    "website": "http://www.gccnyc.org",
-    "lat": 40.8486,
-    "lng": -73.84278
-  },
-  {
-    "source": "opwdd",
-    "name": "INSTITUTE FOR COMMUNITY LIVING",
-    "services": [
-      "Community Habilitation",
-      "Residential (IRA)"
-    ],
-    "address": "125 BROAD STREET, 3RD FLOOR, NEW YORK, NY, 10004",
-    "county": "NEW YORK",
-    "phone": "212-385-3030",
-    "website": "http://www.iclinc.net",
-    "lat": 40.70202,
-    "lng": -74.01124
-  },
-  {
-    "source": "opwdd",
-    "name": "LIFESPIRE  INC.",
+    "name": "0227 - LONG ISLAND DDSO",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
       "Residential (IRA)",
       "Family Support",
-      "Individual Support (ISS)",
+      "Family Care"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "45 Mall Drive, Commack, NY, 11725",
+    "region": "Suffolk",
+    "phone": "(516) 493-1700",
+    "lat": 40.81559,
+    "lng": -73.27218
+  },
+  {
+    "source": "opwdd",
+    "name": "0235 - BROOKLYN DDSO",
+    "services": [
+      "Day Habilitation",
+      "Residential (IRA)",
+      "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "address": "1 WHITEHALL STREET, 9TH FLOOR, NEW YORK, NY, 10004",
-    "county": "NEW YORK",
-    "phone": "212-741-0100",
-    "website": "http://www.lifespire.org",
-    "lat": 40.70378,
-    "lng": -74.01315
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "750 Vandalia Avenue, Brooklyn, NY, 11239",
+    "region": "Brooklyn",
+    "phone": "(718) 642-6000",
+    "lat": 40.65873,
+    "lng": -73.8663
   },
   {
     "source": "opwdd",
-    "name": "ICL JOSELOW HOUSE  INC.",
+    "name": "0265 - METRO NY DDSO",
     "services": [
-      "Residential (IRA)"
-    ],
-    "address": "125 BROAD STREET, 3RD FLOOR, NEW YORK, NY, 10004",
-    "county": "NEW YORK",
-    "phone": "212-724-6652",
-    "website": "http://www.iclinc.net",
-    "lat": 40.70202,
-    "lng": -74.01124
-  },
-  {
-    "source": "opwdd",
-    "name": "PARTNERSHIP FOR INNOVATIVE COMPREHENSIVE",
-    "services": [
+      "Day Habilitation",
       "Community Habilitation",
-      "Individual Support (ISS)"
+      "Residential (IRA)",
+      "Family Care"
     ],
-    "address": "134 WEST 29TH STREET, 12TH FLOOR, NEW YORK, NY, 10001",
-    "county": "NEW YORK",
-    "phone": "212-480-9169",
-    "lat": 40.74733,
-    "lng": -73.99166
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "25 Beaver Street, New York, NY, 10004",
+    "region": "Manhattan",
+    "phone": "(212) 229-3000",
+    "lat": 40.70498,
+    "lng": -74.01207
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY ASST. RESOURCES & EXTENDED SVC",
+    "name": "0276 - STATEN ISLAND DDSO",
     "services": [
-      "Community Habilitation",
-      "Family Support"
+      "Day Habilitation",
+      "Residential (IRA)",
+      "Intermediate Care (ICF)",
+      "Family Care"
     ],
-    "address": "465 GRAND STREET, 2ND FLOOR, NEW YORK, NY, 10002",
-    "county": "NEW YORK",
-    "phone": "212-420-1970",
-    "website": "http://www.caresnys.org",
-    "lat": 40.71501,
-    "lng": -73.98361
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1150 Forest Hill Road, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(718) 983-5200",
+    "lat": 40.59308,
+    "lng": -74.14421
   },
   {
     "source": "opwdd",
-    "name": "CFS SELF-DIRECTED SUPPORTS  INC.",
+    "name": "A VERY SPECIAL PLACE  INC.",
     "services": [
+      "Day Habilitation",
       "Community Habilitation",
+      "Residential (IRA)",
       "Supported Employment",
       "Family Support",
       "Self-Direction"
     ],
-    "address": "333 7TH AVENUE, 9TH FLOOR, NEW YORK, NY, 10001",
-    "county": "NEW YORK",
-    "phone": "212-629-7939",
-    "lat": 40.74749,
-    "lng": -73.99316
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "49 Cedar Grove Avenue, Staten Island, NY, 10306",
+    "region": "Staten Island",
+    "phone": "(718) 987-1234",
+    "website": "http://www.veryspecialplace.org",
+    "lat": 40.56334,
+    "lng": -74.09866
   },
   {
     "source": "opwdd",
-    "name": "EASTER SEALS NEW YORK",
-    "services": [
-      "Family Support"
-    ],
-    "address": "633 3RD AVENUE, 6TH FLOOR, NEW YORK, NY, 10017",
-    "county": "NEW YORK",
-    "phone": "212-727-4219",
-    "lat": 40.74986,
-    "lng": -73.97509
-  },
-  {
-    "source": "opwdd",
-    "name": "CENTER FOR FAMILY SUPPORT  INC. (THE)",
-    "services": [
-      "Community Habilitation",
-      "Residential (IRA)",
-      "Supported Employment",
-      "Family Support",
-      "Individual Support (ISS)"
-    ],
-    "address": "333 7TH AVENUE, 9TH FLOOR, NEW YORK, NY, 10001",
-    "county": "NEW YORK",
-    "phone": "516-292-3000",
-    "website": "http://www.cfsny.org",
-    "lat": 40.74749,
-    "lng": -73.99316
-  },
-  {
-    "source": "opwdd",
-    "name": "HELP ON THE WAY  INC.",
+    "name": "A-1 UNIVERSAL CARE  INC.",
     "services": [
       "Community Habilitation",
       "Family Support",
-      "Individual Support (ISS)"
+      "Self-Direction"
     ],
-    "address": "1338 SOUTHERN BOULEVARD, BRONX, NY, 10459",
-    "county": "BRONX",
-    "phone": "718-484-7810",
-    "lat": 40.83187,
-    "lng": -73.89106
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "255 Executive Drive, Suite 309, Plainview, NY, 11803",
+    "region": "Nassau",
+    "phone": "(516) 338-8777",
+    "website": "http://www.a1universalcare.org",
+    "lat": 40.79303,
+    "lng": -73.46463
   },
   {
     "source": "opwdd",
-    "name": "DAYBREAK INDEPENDENT SERVICES  INC.",
+    "name": "A.C.L.D.",
     "services": [
       "Day Habilitation",
-      "Community Habilitation",
-      "Residential (IRA)"
-    ],
-    "address": "511 E 233RD STREET, BRONX, NY, 10470",
-    "county": "BRONX",
-    "phone": "914-733-3327",
-    "website": "http://www.daybreakis.org",
-    "lat": 40.89565,
-    "lng": -73.86445
-  },
-  {
-    "source": "opwdd",
-    "name": "COMMUNITY OPTIONS NEW YORK  INC.",
-    "services": [
       "Community Habilitation",
       "Residential (IRA)",
       "Supported Employment",
       "Prevocational",
+      "Family Support",
       "Individual Support (ISS)"
     ],
-    "address": "350 5TH AVENUE, SUITE 5230, NEW YORK, NY, 10118",
-    "county": "NEW YORK",
-    "phone": "212-227-9110",
-    "website": "http://www.comop.org",
-    "lat": 40.74811,
-    "lng": -73.9848
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "807 South Oyster Bay Road, Bethpage, NY, 11714",
+    "region": "Nassau",
+    "phone": "(516) 822-0028",
+    "website": "http://www.acld.org",
+    "lat": 40.76356,
+    "lng": -73.4996
   },
   {
     "source": "opwdd",
-    "name": "RISING TREETOPS AT OAKHURST INC",
-    "services": [
-      "Family Support"
-    ],
-    "address": "1140 BROADWAY, ROOM 507, NEW YORK, NY, 10001",
-    "county": "NEW YORK",
-    "phone": "212-533-4020",
-    "website": "http://www.campoakhurst.com",
-    "lat": 40.74398,
-    "lng": -73.98897
-  },
-  {
-    "source": "opwdd",
-    "name": "NY FOUNDATION FOR SENIOR CITIZENS",
-    "services": [
-      "Individual Support (ISS)"
-    ],
-    "address": "150 NASSAU STREET, SUITE 1730, NEW YORK, NY, 10038",
-    "county": "NEW YORK",
-    "website": "http://www.nyfsc.org",
-    "lat": 40.71154,
-    "lng": -74.006
-  },
-  {
-    "source": "opwdd",
-    "name": "S.K.I.P. OF NEW YORK  INC.",
-    "services": [
-      "Community Habilitation",
-      "Family Support"
-    ],
-    "address": "601 WEST 26 STREET, SUITE 522, NEW YORK, NY, 10001",
-    "county": "NEW YORK",
-    "phone": "212-268-5999",
-    "website": "http://www.skipny.org",
-    "lat": 40.75136,
-    "lng": -74.00699
-  },
-  {
-    "source": "opwdd",
-    "name": "EAST HARLEM COUNCIL FOR COMMUNITY IMPROV",
-    "services": [
-      "Community Habilitation",
-      "Residential (IRA)"
-    ],
-    "address": "413 EAST 120TH STREET, SUITE 112, NEW YORK, NY, 10035",
-    "county": "NEW YORK",
-    "phone": "212-410-7707",
-    "website": "http://www.acacianetwork.org",
-    "lat": 40.79822,
-    "lng": -73.93271
-  },
-  {
-    "source": "opwdd",
-    "name": "CATHOLIC GUARDIAN SERVICES",
+    "name": "A.R.C.  INC.",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
-      "Family Support"
-    ],
-    "address": "1011 FIRST AVENUE, NEW YORK, NY, 10022",
-    "county": "NEW YORK",
-    "phone": "212-371-1000",
-    "website": "http://www.catholicguardian.org",
-    "lat": 40.7573,
-    "lng": -73.96369
-  },
-  {
-    "source": "opwdd",
-    "name": "JOB PATH  INC.",
-    "services": [
-      "Day Habilitation",
-      "Community Habilitation",
-      "Residential (IRA)",
-      "Supported Employment",
+      "Prevocational",
       "Family Support",
-      "Individual Support (ISS)",
-      "Self-Direction"
-    ],
-    "address": "256 W 38TH STREET, 2ND FLOOR, NEW YORK, NY, 10018",
-    "county": "NEW YORK",
-    "phone": "212-944-0564",
-    "website": "http://www.jobpathnyc.org",
-    "lat": 40.75433,
-    "lng": -73.99072
-  },
-  {
-    "source": "opwdd",
-    "name": "MAIDSTONE FOUNDATION  INC.",
-    "services": [
-      "Family Support"
-    ],
-    "address": "1225 BROADWAY, 9TH FLOOR, NEW YORK, NY, 10001",
-    "county": "NEW YORK",
-    "phone": "212-889-5760",
-    "website": "http://maidstonefdn.org",
-    "lat": 40.74658,
-    "lng": -73.98849
-  },
-  {
-    "source": "opwdd",
-    "name": "CHILDREN'S AID SOCIETY",
-    "services": [
-      "Family Support"
-    ],
-    "address": "105 EAST 22ND STREET, NEW YORK, NY, 10010",
-    "county": "NEW YORK",
-    "phone": "212-949-4800",
-    "website": "http://www.childrensaidsociety.org",
-    "lat": 40.73935,
-    "lng": -73.98646
-  },
-  {
-    "source": "opwdd",
-    "name": "UNIQUE LIFE  INC.",
-    "services": [
-      "Day Habilitation",
-      "Community Habilitation",
-      "Family Support",
-      "Individual Support (ISS)",
-      "Self-Direction"
-    ],
-    "address": "2197 NEW ENGLAND THRUWAY, BRONX, NY, 10475",
-    "county": "BRONX",
-    "phone": "347-449-7890",
-    "website": "http://www.uniquelifeinc.org",
-    "lat": 40.88197,
-    "lng": -73.83015
-  },
-  {
-    "source": "opwdd",
-    "name": "CENTRO SOCIAL LA ESPERANZA  INC.",
-    "services": [
-      "Day Habilitation",
-      "Community Habilitation",
-      "Residential (IRA)",
-      "Family Support"
-    ],
-    "address": "516 WEST 181ST STREET, NEW YORK, NY, 10033",
-    "county": "NEW YORK",
-    "phone": "212-928-5810",
-    "website": "http://www.esperanzacenter.com/about-us.html",
-    "lat": 40.84857,
-    "lng": -73.93195
-  },
-  {
-    "source": "opwdd",
-    "name": "JEWISH BOARD OF FAMILY/CHILDREN SERVICES",
-    "services": [
-      "Residential (IRA)"
-    ],
-    "address": "135 W 50TH STREET, 6TH FLOOR, NEW YORK, NY, 10020",
-    "county": "NEW YORK",
-    "phone": "212-582-9100",
-    "website": "http://www.jbfcs.org",
-    "lat": 40.76074,
-    "lng": -73.98242
-  },
-  {
-    "source": "opwdd",
-    "name": "CREATIVE LIFESTYLES  INC.",
-    "services": [
-      "Day Habilitation",
-      "Community Habilitation",
-      "Residential (IRA)",
-      "Supported Employment",
-      "Family Support"
-    ],
-    "address": "67 BRUCKNER BOULEVARD, BRONX, NY, 10454",
-    "county": "BRONX",
-    "phone": "718-665-7002",
-    "lat": 40.80635,
-    "lng": -73.92638
-  },
-  {
-    "source": "opwdd",
-    "name": "PUERTO RICAN FAMILY INSTITUTE  INC.",
-    "services": [
-      "Residential (IRA)",
       "Intermediate Care (ICF)"
     ],
-    "address": "145 WEST 15TH STREET, NEW YORK, NY, 10011",
-    "county": "NEW YORK",
-    "phone": "212-924-6320",
-    "website": "http://www.prfi.org",
-    "lat": 40.73876,
-    "lng": -73.99804
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1145 East 55th Street, Brooklyn, NY, 11234",
+    "region": "Brooklyn",
+    "phone": "(718) 531-7500",
+    "website": "http://www.arcny.org",
+    "lat": 40.62899,
+    "lng": -73.92311
   },
   {
     "source": "opwdd",
-    "name": "SPECIAL CITIZENS FUTURES UNLIMITED  INC.",
+    "name": "AABR  INC.",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
       "Residential (IRA)",
       "Family Support",
-      "Individual Support (ISS)"
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
     ],
-    "address": "1775 GRAND CONCOURSE, 4TH FLOOR, BRONX, NY, 10453",
-    "county": "BRONX",
-    "phone": "212-643-2663",
-    "website": "http://www.specialcitizens.org",
-    "lat": 40.84626,
-    "lng": -73.90991
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "15-08 College Point Boulevard, P.O. Box 560247, College Point, NY, 11356",
+    "region": "Queens",
+    "phone": "(718) 321-3800",
+    "website": "http://www.aabr.org",
+    "lat": 40.78353,
+    "lng": -73.8465
   },
   {
     "source": "opwdd",
-    "name": "LIFE ADJUSTMENT CENTER  INC.",
+    "name": "ABILITIES  INC.",
     "services": [
-      "Day Habilitation",
-      "Community Habilitation",
-      "Residential (IRA)"
+      "Supported Employment",
+      "Prevocational"
     ],
-    "address": "1430 BROADWAY, SUITE 501, NEW YORK, NY, 10018",
-    "county": "NEW YORK",
-    "phone": "212-938-1223",
-    "website": "http://www.lifeadjustmentcenter.com",
-    "lat": 40.75411,
-    "lng": -73.98693
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "201 Iu Willets Road, Albertson, NY, 11507",
+    "region": "Nassau",
+    "phone": "(516) 465-1575",
+    "website": "http://www.viscardicenter.org/services/abilities-inc.html",
+    "lat": 40.76923,
+    "lng": -73.65844
+  },
+  {
+    "source": "opwdd",
+    "name": "ACDS  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "4 Fern Place, Plainview, NY, 11803",
+    "region": "Nassau",
+    "phone": "(516) 933-4700",
+    "website": "http://www.acds.org",
+    "lat": 40.7743,
+    "lng": -73.49205
   },
   {
     "source": "opwdd",
@@ -453,26 +200,42 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "address": "80 MAIDEN LANE, 8TH FLOOR, NEW YORK, NY, 10038",
-    "county": "NEW YORK",
-    "phone": "212-683-6700",
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "80 Maiden Lane, 8th Floor, New York, NY, 10038",
+    "region": "Manhattan",
+    "phone": "(212) 683-6700",
     "website": "http://www.ucpnyc.org",
     "lat": 40.70718,
     "lng": -74.00738
   },
   {
     "source": "opwdd",
-    "name": "MODERN GUIDANCE SERVICE",
+    "name": "ALEXANDRIA & AKEA'S PLAYHOUSE INC",
     "services": [
-      "Day Habilitation",
       "Community Habilitation",
       "Family Support"
     ],
-    "address": "530 WEST 122ND STREET, SUITE 2-D, NEW YORK, NY, 10027",
-    "county": "NEW YORK",
-    "phone": "212-665-0091",
-    "lat": 40.81144,
-    "lng": -73.96018
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1864 Clove Road, Staten Island, NY, 10304",
+    "region": "Staten Island",
+    "phone": "(718) 587-9829",
+    "website": "https://aapiservices.org/",
+    "lat": 40.60714,
+    "lng": -74.08846
+  },
+  {
+    "source": "opwdd",
+    "name": "ALLCARE PROVIDER SERVICES  INC",
+    "services": [
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "3040 East Tremont Avenue, Room 205, Bronx, NY, 10461",
+    "region": "Bronx",
+    "phone": "(877) 391-0977",
+    "website": "http://allcareps.com",
+    "lat": 40.83965,
+    "lng": -73.83684
   },
   {
     "source": "opwdd",
@@ -484,119 +247,46 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "address": "1375 NELSON AVENUE, BRONX, NY, 10452",
-    "county": "BRONX",
-    "phone": "718-410-7406",
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1375 Nelson Avenue, Bronx, NY, 10452",
+    "region": "Bronx",
+    "phone": "(718) 410-7406",
+    "website": "https://angelsunawareny.com/",
     "lat": 40.84128,
     "lng": -73.92282
   },
   {
     "source": "opwdd",
-    "name": "KINGSBRIDGE HEIGHTS COMMUNITY CENTER",
-    "services": [
-      "Family Support"
-    ],
-    "address": "3101 KINGSBRIDGE TERRACE, BRONX, NY, 10463",
-    "county": "BRONX",
-    "phone": "718-884-0700",
-    "website": "http://www.khcc-nyc.org",
-    "lat": 40.87742,
-    "lng": -73.90044
-  },
-  {
-    "source": "opwdd",
-    "name": "SINERGIA",
+    "name": "ANIBIC  INC.",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
       "Residential (IRA)",
       "Supported Employment",
       "Prevocational",
-      "Family Support",
-      "Individual Support (ISS)",
-      "Family Care"
-    ],
-    "address": "2082 LEXINGTON AVE, 4TH FLOOR, NEW YORK, NY, 10035",
-    "county": "NEW YORK",
-    "phone": "212-643-2840",
-    "website": "http://www.sinergiany.org",
-    "lat": 40.80484,
-    "lng": -73.93708
-  },
-  {
-    "source": "opwdd",
-    "name": "EPILEPSY INSTITUTE (THE)",
-    "services": [
-      "Day Habilitation",
-      "Community Habilitation",
-      "Supported Employment",
       "Family Support"
     ],
-    "address": "65 BROADWAY, SUITE 505, NEW YORK, NY, 10006",
-    "county": "NEW YORK",
-    "phone": "212-677-8550",
-    "website": "http://www.efmny.org/",
-    "lat": 40.70712,
-    "lng": -74.01222
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "61-35 220th Street, Bayside, NY, 11364",
+    "region": "Queens",
+    "phone": "(718) 423-9550",
+    "website": "http://www.anibic.org",
+    "lat": 40.74753,
+    "lng": -73.75703
   },
   {
     "source": "opwdd",
-    "name": "UNIQUE PEOPLE SERVICES  INC.",
-    "services": [
-      "Community Habilitation",
-      "Residential (IRA)",
-      "Prevocational"
-    ],
-    "address": "201 EAST BURNSIDE AVENUE, BRONX, NY, 10457",
-    "county": "BRONX",
-    "phone": "718-231-7711",
-    "website": "http://www.uniquepeopleservices.org",
-    "lat": 40.85233,
-    "lng": -73.90332
-  },
-  {
-    "source": "opwdd",
-    "name": "HARRIS HANDS COMMUNITY SERVICES  INC.",
+    "name": "BEDFORD HAITIAN COMMUNITY CENTER",
     "services": [
       "Community Habilitation",
       "Family Support"
     ],
-    "address": "3439 BRUCKNER BLVD, BRONX, NY, 10461",
-    "county": "BRONX",
-    "phone": "718-766-9289",
-    "website": "http://harrishands.org",
-    "lat": 40.84646,
-    "lng": -73.82653
-  },
-  {
-    "source": "opwdd",
-    "name": "SALVATION ARMY (THE)",
-    "services": [
-      "Residential (IRA)",
-      "Family Care"
-    ],
-    "address": "120 WEST 14TH STREET, 7TH FLOOR, NEW YORK, NY, 10011",
-    "county": "NEW YORK",
-    "phone": "212-807-6100",
-    "website": "http://www.use.salvationarmy.org",
-    "lat": 40.73794,
-    "lng": -73.99824
-  },
-  {
-    "source": "opwdd",
-    "name": "HUMAN FIRST  INC",
-    "services": [
-      "Day Habilitation",
-      "Community Habilitation",
-      "Residential (IRA)",
-      "Supported Employment"
-    ],
-    "address": "80 MAIDEN LANE, 8TH FLOOR, NEW YORK, NY, 10038",
-    "county": "NEW YORK",
-    "phone": "516-823-9500",
-    "website": "http://www.humanfirst.org",
-    "lat": 40.70718,
-    "lng": -74.00738
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "229 Rogers Avenue, Brooklyn, NY, 11225",
+    "region": "Brooklyn",
+    "phone": "(718) 756-0600",
+    "lat": 40.66859,
+    "lng": -73.95339
   },
   {
     "source": "opwdd",
@@ -608,12 +298,266 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "address": "104 WEST 29TH STREET, 3RD FLOOR, NEW YORK, NY, 10001",
-    "county": "NEW YORK",
-    "phone": "212-616-1800",
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "104 West 29th Street, 3rd Floor, New York, NY, 10001",
+    "region": "Manhattan",
+    "phone": "(212) 616-1800",
     "website": "http://www.birchfamilyservices.org",
     "lat": 40.74691,
     "lng": -73.99066
+  },
+  {
+    "source": "opwdd",
+    "name": "BLOCK INSTITUTE",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "376 Bay 44th Street, Brooklyn, NY, 11214",
+    "region": "Brooklyn",
+    "phone": "(718) 946-9700",
+    "website": "http://blockinstitute.org",
+    "lat": 40.58762,
+    "lng": -73.9937
+  },
+  {
+    "source": "opwdd",
+    "name": "BRAVERHOOD  LTD.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1527 60th Street, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "phone": "(718) 336-6073",
+    "website": "http://www.hihfs.org",
+    "lat": 40.62569,
+    "lng": -73.99333
+  },
+  {
+    "source": "opwdd",
+    "name": "BROOKLYN COMMUNITY SERVICES (DBA)",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "151 Lawrence Street, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "phone": "(718) 310-5600",
+    "website": "http://www.wearebcs.org",
+    "lat": 40.69143,
+    "lng": -73.98632
+  },
+  {
+    "source": "opwdd",
+    "name": "BROOKVILLE CNTR FOR CHILDREN'S SERVS INC",
+    "services": [
+      "Family Support",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "189 Wheatley Road, Brookville, NY, 11545",
+    "region": "Nassau",
+    "phone": "516-626-1000 X1105",
+    "website": "http://www.ahrc.org",
+    "lat": 40.80809,
+    "lng": -73.58149
+  },
+  {
+    "source": "opwdd",
+    "name": "CARL FENICHEL COMMUNITY SVCS.",
+    "services": [
+      "Day Habilitation",
+      "Supported Employment",
+      "Prevocational"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "483 Clermont Avenue, Brooklyn, NY, 11238",
+    "region": "Brooklyn",
+    "phone": "(718) 643-5300",
+    "website": "http://www.leaguecenter.org",
+    "lat": 40.68303,
+    "lng": -73.96887
+  },
+  {
+    "source": "opwdd",
+    "name": "CATHOLIC CHARITIES - ROCKVILLE CENTER",
+    "services": [
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "90 Cherry Lane, Hicksville, NY, 11801",
+    "region": "Nassau",
+    "phone": "(516) 733-7013",
+    "website": "https://www.catholiccharities.cc/about-us/",
+    "lat": 40.74702,
+    "lng": -73.53165
+  },
+  {
+    "source": "opwdd",
+    "name": "CATHOLIC CHARITIES NEIGHBORHOOD SVCS",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "191 Joralemon Street, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "phone": "(718) 722-6000",
+    "website": "http://www.ccbq.org",
+    "lat": 40.69265,
+    "lng": -73.99181
+  },
+  {
+    "source": "opwdd",
+    "name": "CATHOLIC CHARITIES OF STATEN ISLAND  INC",
+    "services": [
+      "Residential (IRA)",
+      "Supported Employment",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "6581 Hylan Boulevard, Staten Island, NY, 10309",
+    "region": "Staten Island",
+    "phone": "(718) 317-2803",
+    "website": "http://mountloretto.org",
+    "lat": 40.51182,
+    "lng": -74.22241
+  },
+  {
+    "source": "opwdd",
+    "name": "CATHOLIC GUARDIAN SERVICES",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "488 Madison Avenue, Suite 3-103, New York, NY, 10022",
+    "region": "Manhattan",
+    "phone": "(212) 371-1000",
+    "website": "http://www.catholicguardian.org",
+    "lat": 40.7588,
+    "lng": -73.9749
+  },
+  {
+    "source": "opwdd",
+    "name": "CENTER F/DEVELOPMENTAL DISABILITIES  INC",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "72 South Woods Road, Woodbury, NY, 11797",
+    "region": "Nassau",
+    "phone": "(516) 921-7650",
+    "website": "http://www.centerfor.com/careersatthecenter.html",
+    "lat": 40.83317,
+    "lng": -73.48253
+  },
+  {
+    "source": "opwdd",
+    "name": "CENTER FOR FAMILY SUPPORT  INC. (THE)",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "333 7th Avenue, 9th Floor, New York, NY, 10001",
+    "region": "Manhattan",
+    "phone": "(516) 292-3000",
+    "website": "http://www.cfsny.org",
+    "lat": 40.74749,
+    "lng": -73.99316
+  },
+  {
+    "source": "opwdd",
+    "name": "CENTER FOR RAPID RECOVERY",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "312 Greenwich Street, Hempstead, NY, 11550",
+    "region": "Nassau",
+    "phone": "(516) 292-6449",
+    "website": "http://www.rapidrecovery.org",
+    "lat": 40.69933,
+    "lng": -73.61357
+  },
+  {
+    "source": "opwdd",
+    "name": "CENTRO SOCIAL LA ESPERANZA  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "516 West 181st Street, New York, NY, 10033",
+    "region": "Manhattan",
+    "phone": "(212) 928-5810",
+    "website": "http://www.esperanzacenter.com/about-us.html",
+    "lat": 40.84857,
+    "lng": -73.93195
+  },
+  {
+    "source": "opwdd",
+    "name": "CFS SELF-DIRECTED SUPPORTS  INC.",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "333 7th Avenue, 9th Floor, New York, NY, 10001",
+    "region": "Manhattan",
+    "phone": "(212) 629-7939",
+    "website": "https://www.cfsny.org/",
+    "lat": 40.74749,
+    "lng": -73.99316
+  },
+  {
+    "source": "opwdd",
+    "name": "CHDFS  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "307 West 38th Street, 6th Floor, New York, NY, 10018",
+    "region": "Manhattan",
+    "phone": "(212) 695-4562",
+    "website": "https://chdfs.org/our-mission",
+    "lat": 40.75499,
+    "lng": -73.99229
   },
   {
     "source": "opwdd",
@@ -624,57 +568,1429 @@
       "Prevocational",
       "Family Support"
     ],
-    "address": "840-11 GRAND CONCOURSE, SUITE 1BB, BRONX, NY, 10451",
-    "county": "BRONX",
-    "phone": "718-618-7535",
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "840-11 Grand Concourse, Suite 1bb, Bronx, NY, 10451",
+    "region": "Bronx",
+    "phone": "(718) 618-7535",
     "website": "http://nycfss.org",
     "lat": 40.82615,
     "lng": -73.92301
   },
   {
     "source": "opwdd",
-    "name": "SERVICES FOR THE UNDERSERVED  INC.",
+    "name": "CHILDREN AT PLAY EARLY INTERVENTION CNTR",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "40 Merrill Avenue, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(718) 370-7529",
+    "website": "http://www.childrenatplayeic.org",
+    "lat": 40.61005,
+    "lng": -74.16207
+  },
+  {
+    "source": "opwdd",
+    "name": "CITIZENS OPTIONS UNLIMITED  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "189 Wheatley Road, Glen Head, NY, 11545",
+    "region": "Nassau",
+    "phone": "(516) 626-1000",
+    "website": "https://www.ahrcfoundation.org",
+    "lat": 40.80809,
+    "lng": -73.58149
+  },
+  {
+    "source": "opwdd",
+    "name": "CITY ACCESS NEW YORK",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1207 Castleton Avenue, 2nd Floor, Staten Island, NY, 10310",
+    "region": "Staten Island",
+    "phone": "(718) 285-6548",
+    "website": "http://www.cityaccessny.org",
+    "lat": 40.63411,
+    "lng": -74.12265
+  },
+  {
+    "source": "opwdd",
+    "name": "CLARKE INST FOR COMMUNITY INCLUSION  INC",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1012 Gates Avenue, 2nd Floor, Brooklyn, NY, 11221",
+    "region": "Brooklyn",
+    "phone": "(516) 280-9361",
+    "website": "https://www.ciciny.org/",
+    "lat": 40.6894,
+    "lng": -73.92303
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY ACTION F/HUMAN SERVICES  INC",
+    "services": [
+      "Day Habilitation",
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "3651 Bruckner Boulevard, Bronx, NY, 10461",
+    "region": "Bronx",
+    "phone": "(718) 655-7700",
+    "website": "https://cahsinc.org/",
+    "lat": 40.85202,
+    "lng": -73.82719
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY ASST. RESOURCES & EXTENDED SVC",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "465 Grand Street, 2nd Floor, New York, NY, 10002",
+    "region": "Manhattan",
+    "phone": "(212) 420-1970",
+    "website": "http://www.caresnys.org",
+    "lat": 40.71501,
+    "lng": -73.98361
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY MAINSTREAMING ASSOC.  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1025 Old Country Road, Suite 325, Westbury, NY, 11590",
+    "region": "Nassau",
+    "phone": "(516) 683-0710",
+    "website": "http://communitymainstreaming.org/",
+    "lat": 40.75522,
+    "lng": -73.55784
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY OPTIONS NEW YORK  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "350 5th Avenue, Suite 5230, New York, NY, 10118",
+    "region": "Manhattan",
+    "phone": "(212) 227-9110",
+    "website": "http://www.comop.org",
+    "lat": 40.74812,
+    "lng": -73.9848
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY RESOURCE CENTER FOR DD",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "2432 Grand Concourse, 3rd Floor, Bronx, NY, 10458",
+    "region": "Bronx",
+    "phone": "(718) 292-1705",
+    "website": "http://www.crcdd.net/contact-us.html",
+    "lat": 40.86077,
+    "lng": -73.89786
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY RESOURCES & SVCS FOR CHILDREN",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "90-04 161 Street, Suite 401, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 206-3400",
+    "lat": 40.70496,
+    "lng": -73.79913
+  },
+  {
+    "source": "opwdd",
+    "name": "COMMUNITY RESOURCES STATEN ISLAND",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
       "Residential (IRA)",
       "Supported Employment",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "3450 Victory Boulevard, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(718) 447-5200",
+    "website": "https://cr-si.org/about-community-resources/",
+    "lat": 40.60318,
+    "lng": -74.17364
+  },
+  {
+    "source": "opwdd",
+    "name": "CONSTRUCTIVE PARTNERSHIPS UNLIMITED",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support",
       "Individual Support (ISS)"
     ],
-    "address": "463 7TH AVENUE, 17TH FLOOR, NEW YORK, NY, 10018",
-    "county": "NEW YORK",
-    "phone": "212-633-6900",
-    "website": "http://sus.org",
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "40 Rector Street, 15th Floor, New York, NY, 10006",
+    "region": "Manhattan",
+    "phone": "(212) 947-5770",
+    "website": "http://www.cpunlimited.org",
+    "lat": 40.70836,
+    "lng": -74.01482
+  },
+  {
+    "source": "opwdd",
+    "name": "CROSSROADS UNLIMITED  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "131 Forest Avenue, Staten Island, NY, 10301",
+    "region": "Staten Island",
+    "phone": "(718) 420-6330",
+    "website": "http://crossroadsunlimitedinc.org",
+    "lat": 40.63132,
+    "lng": -74.09372
+  },
+  {
+    "source": "opwdd",
+    "name": "DAYBREAK INDEPENDENT SERVICES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "511 E 233rd Street, Bronx, NY, 10470",
+    "region": "Bronx",
+    "phone": "(914) 733-3327",
+    "website": "http://www.daybreakis.org",
+    "lat": 40.89565,
+    "lng": -73.86445
+  },
+  {
+    "source": "opwdd",
+    "name": "DEVELOPMENTAL DISABILITIES INSTITUTE",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Self-Direction",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "99 Hollywood Drive, Smithtown, NY, 11787",
+    "region": "Suffolk",
+    "phone": "(631) 366-2950",
+    "website": "http://www.ddiny.org",
+    "lat": 40.85081,
+    "lng": -73.23651
+  },
+  {
+    "source": "opwdd",
+    "name": "EAST END DISABILITY ASSOCIATES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "107 Roanoke Avenue, Riverhead, NY, 11901",
+    "region": "Suffolk",
+    "phone": "(631) 369-7345",
+    "website": "http://www.eed-a.org",
+    "lat": 40.91722,
+    "lng": -72.66223
+  },
+  {
+    "source": "opwdd",
+    "name": "EAST HARLEM COUNCIL FOR COMMUNITY IMPROV",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "2804 Third Avenue, 7th Floor, Bronx, NY, 10455",
+    "region": "Bronx",
+    "phone": "718-299-1100 X5238",
+    "website": "http://www.acacianetwork.org",
+    "lat": 40.8154,
+    "lng": -73.91886
+  },
+  {
+    "source": "opwdd",
+    "name": "EASTERN SUFFOLK BOCES",
+    "services": [
+      "Supported Employment"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "201 Sunrise Highway, Patchoque, NY, 11772",
+    "region": "Suffolk",
+    "phone": "(631) 687-3056",
+    "website": "http://www.esboces.org",
+    "lat": 40.78153,
+    "lng": -72.99653
+  },
+  {
+    "source": "opwdd",
+    "name": "ECONOMIC OPPORTUNITY COUNCIL OF SUFFOLK",
+    "services": [
+      "Community Habilitation",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "31 West Main Street, Suite 300, Patchogue, NY, 11772",
+    "region": "Suffolk",
+    "phone": "(631) 289-2124",
+    "website": "http://eoc-suffolk.com",
+    "lat": 40.76574,
+    "lng": -73.01589
+  },
+  {
+    "source": "opwdd",
+    "name": "EDEN II SCHOOL FOR AUTISTIC CHILDREN",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "15 Beach Street, Staten Island, NY, 10304",
+    "region": "Staten Island",
+    "phone": "(718) 816-1422",
+    "website": "http://www.eden2.org",
+    "lat": 40.62745,
+    "lng": -74.07694
+  },
+  {
+    "source": "opwdd",
+    "name": "EIHAB HUMAN SERVICES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "168-18 South Conduit Avenue, Springfield Gardens, NY, 11434",
+    "region": "Queens",
+    "phone": "(718) 276-6101",
+    "website": "http://www.eihab.org",
+    "lat": 40.66707,
+    "lng": -73.77548
+  },
+  {
+    "source": "opwdd",
+    "name": "ELMY'S SPECIAL SERVICES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "163 Vanburen Street, Brooklyn, NY, 11221",
+    "region": "Brooklyn",
+    "phone": "(718) 789-7539",
+    "website": "http://www.elmysspecialservices.org",
+    "lat": 40.69045,
+    "lng": -73.93973
+  },
+  {
+    "source": "opwdd",
+    "name": "EPIC LONG ISLAND  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1500 Hempstead Turnpike, East Meadow, NY, 11554",
+    "region": "Nassau",
+    "phone": "(516) 739-7733",
+    "website": "http://www.efli.org",
+    "lat": 40.72223,
+    "lng": -73.57861
+  },
+  {
+    "source": "opwdd",
+    "name": "EPILEPSY INSTITUTE (THE)",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "40 Exchange Place, Suite 1700, New York, NY, 10005",
+    "region": "Manhattan",
+    "phone": "(212) 677-8550",
+    "website": "http://www.efmny.org/",
+    "lat": 40.70588,
+    "lng": -74.0101
+  },
+  {
+    "source": "opwdd",
+    "name": "EPRINE COMMUNITY SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1650 Eastern Parkway, Suite 400-403, Brooklyn, NY, 11233",
+    "region": "Brooklyn",
+    "phone": "(718) 255-5946",
+    "website": "https://eprine.com/",
+    "lat": 40.67207,
+    "lng": -73.91358
+  },
+  {
+    "source": "opwdd",
+    "name": "EVERYONENY  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "67-10 Myrtle Avenue, 2nd Floor, Glendale, NY, 11385",
+    "region": "Queens",
+    "phone": "(718) 788-5252",
+    "website": "http://www.hhcsny.org",
+    "lat": 40.70154,
+    "lng": -73.8857
+  },
+  {
+    "source": "opwdd",
+    "name": "FAMILY RESID AND ESSENT ENTERPRISES  INC",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction",
+      "Intermediate Care (ICF)",
+      "Family Care"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "191 Sweet Hollow Road, Old Bethpage, NY, 11804",
+    "region": "Nassau",
+    "phone": "(518) 870-1600",
+    "website": "http://www.familyres.org",
+    "lat": 40.75975,
+    "lng": -73.44195
+  },
+  {
+    "source": "opwdd",
+    "name": "GATEWAY COUNSELING CENTER  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1776 Eastchester Road, Suite 220, Bronx, NY, 10461",
+    "region": "Bronx",
+    "phone": "(718) 325-5021",
+    "website": "http://www.gccnyc.org",
+    "lat": 40.84923,
+    "lng": -73.84504
+  },
+  {
+    "source": "opwdd",
+    "name": "GENERAL HUMAN OUTREACH IN THE COMMUNITY",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "125-10 Queens Boulevard, Suite 2705, Kew Gardens, NY, 11415",
+    "region": "Queens",
+    "phone": "(718) 261-6552",
+    "website": "http://www.ghoinc.org",
+    "lat": 40.71226,
+    "lng": -73.82625
+  },
+  {
+    "source": "opwdd",
+    "name": "GOODWILL INDUS. OF GREATER NY",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "25 Elm Place, 3rd Floor, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "phone": "(718) 777-6330",
+    "website": "http://www.goodwillny.org",
+    "lat": 40.68963,
+    "lng": -73.98442
+  },
+  {
+    "source": "opwdd",
+    "name": "GRACE FOUNDATION",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "460w Brielle Avenue, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(718) 983-3800",
+    "website": "http://www.graceofny.org",
+    "lat": 40.59258,
+    "lng": -74.13181
+  },
+  {
+    "source": "opwdd",
+    "name": "GUILD FOR THE EXCEPTIONAL CHILDREN  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "260 68th Street, Brooklyn, NY, 11220",
+    "region": "Brooklyn",
+    "phone": "(718) 833-6633",
+    "website": "http://www.gecbklyn.org",
+    "lat": 40.63688,
+    "lng": -74.0264
+  },
+  {
+    "source": "opwdd",
+    "name": "HALO NETWORK INC",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "300 Merrick Road, Amityville, NY, 11701",
+    "region": "Suffolk",
+    "phone": "(631) 493-1745",
+    "website": "http://www.halonetworkinc.com",
+    "lat": 40.66942,
+    "lng": -73.41003
+  },
+  {
+    "source": "opwdd",
+    "name": "HAMASPIK OF KINGS COUNTY  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction",
+      "Family Care"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "4102 14th Avenue, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "phone": "(718) 387-8400",
+    "website": "http://www.hamaspikkings.org",
+    "lat": 40.63805,
+    "lng": -73.9854
+  },
+  {
+    "source": "opwdd",
+    "name": "HARMONY SERVICES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "3820 14th Avenue, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "phone": "(718) 986-7648",
+    "lat": 40.63949,
+    "lng": -73.98389
+  },
+  {
+    "source": "opwdd",
+    "name": "HARRIS HANDS COMMUNITY SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "3439 Bruckner Blvd, Bronx, NY, 10461",
+    "region": "Bronx",
+    "phone": "(718) 766-9289",
+    "website": "http://harrishands.org",
+    "lat": 40.84646,
+    "lng": -73.82653
+  },
+  {
+    "source": "opwdd",
+    "name": "HASC CENTER  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "5601 First Avenue, Brooklyn, NY, 11220",
+    "region": "Brooklyn",
+    "phone": "(718) 745-7575",
+    "website": "http://www.hasc.net/",
+    "lat": 40.64689,
+    "lng": -74.02278
+  },
+  {
+    "source": "opwdd",
+    "name": "HEAD INJURY ASSOCIATION  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "300 Kennedy Drive, Hauppauge, NY, 11788",
+    "region": "Suffolk",
+    "phone": "(631) 543-2245",
+    "website": "http://www.headinjuryassoc.org",
+    "lat": 40.81015,
+    "lng": -73.24453
+  },
+  {
+    "source": "opwdd",
+    "name": "HEART AND SOUL SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "425 E 9th Street, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "phone": "(718) 612-1080",
+    "lat": 40.63819,
+    "lng": -73.96969
+  },
+  {
+    "source": "opwdd",
+    "name": "HEARTSHARE HUMAN SERVICES OF NEW YORK",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "330 Jay Street, 29th Floor, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "phone": "(718) 422-4200",
+    "website": "http://www.heartshare.org",
+    "lat": 40.69471,
+    "lng": -73.98719
+  },
+  {
+    "source": "opwdd",
+    "name": "HELEN KELLER SERVICES",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1 Helen Keller Way, Hempstead, NY, 11550",
+    "region": "Nassau",
+    "phone": "(516) 485-1234",
+    "website": "http://www.helenkeller.org",
+    "lat": 40.70833,
+    "lng": -73.62283
+  },
+  {
+    "source": "opwdd",
+    "name": "HELP ON THE WAY  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1344 Southern Boulevard, Bronx, NY, 10459",
+    "region": "Bronx",
+    "phone": "(718) 484-7810",
+    "website": "https://hotwny.org/",
+    "lat": 40.83207,
+    "lng": -73.89094
+  },
+  {
+    "source": "opwdd",
+    "name": "HERITAGE HUMAN SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1504 Ralph Avenue, 2nd Floor, Brooklyn, NY, 11236",
+    "region": "Brooklyn",
+    "phone": "(718) 444-4340",
+    "website": "http://www.heritagehumanservices.org",
+    "lat": 40.63958,
+    "lng": -73.9194
+  },
+  {
+    "source": "opwdd",
+    "name": "HUMAN CARE SVCS FOR FAMILIES & CHILDREN",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1042 38th Street, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "phone": "(718) 854-2747",
+    "website": "http://www.humancareservices.org",
+    "lat": 40.64443,
+    "lng": -73.99111
+  },
+  {
+    "source": "opwdd",
+    "name": "HUMAN FIRST  INC",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "80 Maiden Lane, 8th Floor, New York, NY, 10038",
+    "region": "Manhattan",
+    "phone": "(516) 823-9500",
+    "website": "http://www.humanfirst.org",
+    "lat": 40.70718,
+    "lng": -74.00738
+  },
+  {
+    "source": "opwdd",
+    "name": "ICL JOSELOW HOUSE  INC.",
+    "services": [
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "125 Broad Street, 3rd Floor, New York, NY, 10004",
+    "region": "Manhattan",
+    "phone": "(212) 724-6652",
+    "website": "http://www.iclinc.net",
+    "lat": 40.70202,
+    "lng": -74.01124
+  },
+  {
+    "source": "opwdd",
+    "name": "IMAGINE FOUNDATION  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1458 East 14th Street, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "phone": "(718) 376-8882",
+    "website": "https://www.imagineacademyforautism.org/",
+    "lat": 40.61399,
+    "lng": -73.96021
+  },
+  {
+    "source": "opwdd",
+    "name": "INDEPENDENT GROUP HOME LIVING PRGRM  INC",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "221 North Sunrise Service Road, Manorville, NY, 11949",
+    "region": "Suffolk",
+    "phone": "(631) 878-8900",
+    "website": "http://www.ighl.org",
+    "lat": 40.8251,
+    "lng": -72.78364
+  },
+  {
+    "source": "opwdd",
+    "name": "INDEPENDENT LIVING ASSOCIATION  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "110 York Street, 4th Floor, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "phone": "(718) 852-2000",
+    "website": "http://www.ilaonline.org",
+    "lat": 40.70153,
+    "lng": -73.98695
+  },
+  {
+    "source": "opwdd",
+    "name": "INSTITUTE FOR COMMUNITY LIVING",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "125 Broad Street, 3rd Floor, New York, NY, 10004",
+    "region": "Manhattan",
+    "phone": "(212) 385-3030",
+    "website": "http://www.iclinc.net",
+    "lat": 40.70202,
+    "lng": -74.01124
+  },
+  {
+    "source": "opwdd",
+    "name": "IRI: INNOVATIVE RES FOR INDEPEND  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "2016 Linden Boulevard, Elmont, NY, 11003",
+    "region": "Nassau",
+    "phone": "(718) 805-6796",
+    "website": "http://www.in-res.org",
+    "lat": 40.68838,
+    "lng": -73.71879
+  },
+  {
+    "source": "opwdd",
+    "name": "IT'S MY PLACE INC",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "150 Corporate Plaza, Islandia, NY, 11749",
+    "region": "Suffolk",
+    "phone": "(631) 582-4534",
+    "website": "https://www.itsmyplace4.me/index.html",
+    "lat": 40.80829,
+    "lng": -73.17782
+  },
+  {
+    "source": "opwdd",
+    "name": "IYAHO SOCIAL SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "71 North Franklin Street, Suite 211, Hempstead, NY, 11550",
+    "region": "Nassau",
+    "phone": "(516) 280-5930",
+    "website": "http://iyaho.org",
+    "lat": 40.70825,
+    "lng": -73.62746
+  },
+  {
+    "source": "opwdd",
+    "name": "JEWEL HUMAN SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "121-10 153 Street, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(347) 436-8070",
+    "website": "https://www.jewelhumanservices.org/",
+    "lat": 40.67733,
+    "lng": -73.78862
+  },
+  {
+    "source": "opwdd",
+    "name": "JEWISH BOARD OF FAMILY/CHILDREN SERVICES",
+    "services": [
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "463 7th Avenue, 18th Floor, New York, NY, 10018",
+    "region": "Manhattan",
+    "phone": "(212) 582-9100",
+    "website": "http://www.jbfcs.org",
     "lat": 40.75184,
     "lng": -73.98996
   },
   {
     "source": "opwdd",
-    "name": "0265 - METRO NY DDSO",
+    "name": "JEWISH UNION FOUNDATION",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "40 Rector Street, 4th Floor, New York, NY, 10006",
+    "region": "Manhattan",
+    "phone": "(212) 613-8104",
+    "website": "http://www.njcd.org/staff/jewishunionfoundation",
+    "lat": 40.70836,
+    "lng": -74.01482
+  },
+  {
+    "source": "opwdd",
+    "name": "JOB PATH  INC.",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
       "Residential (IRA)",
-      "Family Care"
+      "Supported Employment",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
     ],
-    "address": "25 BEAVER STREET, NEW YORK, NY, 10004",
-    "county": "NEW YORK",
-    "phone": "212-229-3000",
-    "lat": 40.70498,
-    "lng": -74.01207
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "256 W 38th Street, 2nd Floor, New York, NY, 10018",
+    "region": "Manhattan",
+    "phone": "(212) 944-0564",
+    "website": "http://www.jobpathnyc.org",
+    "lat": 40.75433,
+    "lng": -73.99072
   },
   {
     "source": "opwdd",
-    "name": "ALLCARE PROVIDER SERVICES  INC",
+    "name": "KULANU ACADEMY",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "124 Mcglynn Place, Cedarhurst, NY, 11516",
+    "region": "Nassau",
+    "phone": "(516) 569-6664",
+    "website": "http://www.kulanukids.org",
+    "lat": 40.62467,
+    "lng": -73.72091
+  },
+  {
+    "source": "opwdd",
+    "name": "LEXINGTON VOCATIONAL SERVICES CTR  INC",
+    "services": [
+      "Supported Employment"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "30th Avenue And 75th Street, Jackson Heights, NY, 11370",
+    "region": "Queens",
+    "phone": "(718) 350-3110",
+    "website": "http://www.lexnyc.org",
+    "lat": 40.76048,
+    "lng": -73.8929
+  },
+  {
+    "source": "opwdd",
+    "name": "LIFE ADJUSTMENT CENTER  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1430 Broadway, Suite 501, New York, NY, 10018",
+    "region": "Manhattan",
+    "phone": "(212) 938-1223",
+    "website": "http://www.lifeadjustmentcenter.com",
+    "lat": 40.75411,
+    "lng": -73.98693
+  },
+  {
+    "source": "opwdd",
+    "name": "LIFE'S W.O.R.C.  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1501 Franklin Avenue, Po Box 8165, Garden City, NY, 11530",
+    "region": "Nassau",
+    "phone": "(516) 741-9000",
+    "website": "http://www.lifesworc.org",
+    "lat": 40.73755,
+    "lng": -73.63867
+  },
+  {
+    "source": "opwdd",
+    "name": "LIFESPIRE  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "462 7th Avenue, 5th Floor, New York, NY, 10018",
+    "region": "Manhattan",
+    "phone": "(212) 741-0100",
+    "website": "http://www.lifespire.org",
+    "lat": 40.75181,
+    "lng": -73.98999
+  },
+  {
+    "source": "opwdd",
+    "name": "LIFESTYLES FOR THE DISABLED",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "930 Willowbrook Road, Building 12-G, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(718) 983-5351",
+    "website": "http://www.lfdsi.org",
+    "lat": 40.60299,
+    "lng": -74.14318
+  },
+  {
+    "source": "opwdd",
+    "name": "LITTLE FLOWER CHILDREN & FAMILY SVCS",
+    "services": [
+      "Family Support",
+      "Family Care"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "2450 North Wading River Road, Wading River, NY, 11792",
+    "region": "Suffolk",
+    "phone": "(631) 929-6200",
+    "website": "http://www.littleflowerny.org",
+    "lat": 40.96019,
+    "lng": -72.83313
+  },
+  {
+    "source": "opwdd",
+    "name": "LONG ISLAND HOME (THE)",
+    "services": [
+      "Supported Employment"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "400 Sunrise Highway, Amityville, NY, 11701",
+    "region": "Suffolk",
+    "phone": "(631) 608-5100",
+    "website": "http://www.longislandhome.org",
+    "lat": 40.68624,
+    "lng": -73.42281
+  },
+  {
+    "source": "opwdd",
+    "name": "LONG LIFE INFO & REFERRAL NETWORK",
     "services": [
       "Individual Support (ISS)"
     ],
-    "address": "3040 EAST TREMONT AVENUE, ROOM 205, BRONX, NY, 10461",
-    "county": "BRONX",
-    "phone": "877-391-0977",
-    "website": "http://allcareps.com",
-    "lat": 40.83965,
-    "lng": -73.83684
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1958 Fulton Street, 3rd Floor, Brooklyn, NY, 11233",
+    "region": "Brooklyn",
+    "phone": "(718) 778-0009",
+    "lat": 40.67879,
+    "lng": -73.92016
+  },
+  {
+    "source": "opwdd",
+    "name": "MARYHAVEN CENTER OF HOPE  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "51 Terryville Road, Pt Jefferson Station, NY, 11776",
+    "region": "Suffolk",
+    "phone": "(631) 474-4120",
+    "website": "http://www.maryhaven.org",
+    "lat": 40.92684,
+    "lng": -73.0521
+  },
+  {
+    "source": "opwdd",
+    "name": "MEANINGFUL NY INITIATVES PPL W/DISAB INC",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "164-14 Cross Bay Boulevard, Howard Beach, NY, 11414",
+    "region": "Queens",
+    "phone": "(929) 409-1027",
+    "website": "https://meaningfulny.org/",
+    "lat": 40.65013,
+    "lng": -73.83794
+  },
+  {
+    "source": "opwdd",
+    "name": "MERCY DRIVE  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "72-35 112th Street, Forest Hills, NY, 11375",
+    "region": "Queens",
+    "phone": "(718) 275-9326",
+    "website": "http://www.mercydriveinc.org",
+    "lat": 40.72062,
+    "lng": -73.83811
+  },
+  {
+    "source": "opwdd",
+    "name": "MERCY HOME FOR CHILDREN",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "273 Willoughby Avenue, Brooklyn, NY, 11205",
+    "region": "Brooklyn",
+    "phone": "(718) 832-1075",
+    "website": "http://www.mercyhomeny.org",
+    "lat": 40.69267,
+    "lng": -73.96005
+  },
+  {
+    "source": "opwdd",
+    "name": "METROPOLITAN DEVELOPMENT CENTER",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1049 38th Street, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "phone": "(718) 633-3334",
+    "website": "https://www.metdevcenter.org/",
+    "lat": 40.64436,
+    "lng": -73.991
+  },
+  {
+    "source": "opwdd",
+    "name": "METROPOLITAN FAMILY SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1958 Fulton Street, Suite 403, Brooklyn, NY, 11233",
+    "region": "Brooklyn",
+    "phone": "(718) 858-7234",
+    "website": "https://mfsny.org/",
+    "lat": 40.67879,
+    "lng": -73.92016
+  },
+  {
+    "source": "opwdd",
+    "name": "MILL NECK SERVICES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Supported Employment",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "34 Frost Mill Road, Box 193, Mill Neck, NY, 11765",
+    "region": "Nassau",
+    "phone": "(516) 922-3818",
+    "website": "https://www.millneck.org/mns/",
+    "lat": 40.87903,
+    "lng": -73.55867
+  },
+  {
+    "source": "opwdd",
+    "name": "MODERN GUIDANCE SERVICE",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "530 West 122nd Street, Suite 2-D, New York, NY, 10027",
+    "region": "Manhattan",
+    "phone": "(212) 665-0091",
+    "lat": 40.81144,
+    "lng": -73.96018
+  },
+  {
+    "source": "opwdd",
+    "name": "MODEST COMMUNITY SERVICES ASSOCIATION",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "4308 Richmond Avenue, Staten Island, NY, 10312",
+    "region": "Staten Island",
+    "phone": "(718) 447-8200",
+    "website": "http://modestservices.org",
+    "lat": 40.5344,
+    "lng": -74.15419
+  },
+  {
+    "source": "opwdd",
+    "name": "MULTI-FUNCTIONAL FAMILY SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "130 Waterbury Street, Brooklyn, NY, 11206",
+    "region": "Brooklyn",
+    "phone": "(718) 486-3780",
+    "website": "http://www.crs.buffalo.edu",
+    "lat": 40.71194,
+    "lng": -73.93802
+  },
+  {
+    "source": "opwdd",
+    "name": "N Y S INSTITUTE ON DISABILITY  INC.",
+    "services": [
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "930 Willowbrook Road, Building 41a, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(212) 487-5316",
+    "lat": 40.60299,
+    "lng": -74.14318
+  },
+  {
+    "source": "opwdd",
+    "name": "NASSAU BOCES",
+    "services": [
+      "Supported Employment"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "71 Clinton Road, P.O. Box Cs9195, Garden City, NY, 11530",
+    "region": "Nassau",
+    "phone": "(516) 997-8700",
+    "website": "http://www.nassauboces.org",
+    "lat": 40.7295,
+    "lng": -73.61937
+  },
+  {
+    "source": "opwdd",
+    "name": "NASSAU CO. NYSARC  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "189 Wheatley Road, Brookville, NY, 11545",
+    "region": "Nassau",
+    "phone": "(516) 626-1000",
+    "website": "http://www.ahrc.org/",
+    "lat": 40.80809,
+    "lng": -73.58149
+  },
+  {
+    "source": "opwdd",
+    "name": "NASSAU/SUFFOLK SERVICES FOR THE AUTISTIC",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "80 Hauppauge Rd, Commack, NY, 11725",
+    "region": "Suffolk",
+    "phone": "(631) 462-0386",
+    "website": "http://www.nssa.net",
+    "lat": 40.82781,
+    "lng": -73.30499
+  },
+  {
+    "source": "opwdd",
+    "name": "NEW HORIZON COUNSELING CENTER INC.",
+    "services": [
+      "Community Habilitation",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "718-720 Beach 20th Street, Far Rockaway, NY, 11691",
+    "region": "Queens",
+    "phone": "(718) 327-3180",
+    "website": "http://www.nhcc.us",
+    "lat": 40.60178,
+    "lng": -73.75165
+  },
+  {
+    "source": "opwdd",
+    "name": "NICHOLAS CENTER",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "382 Main Street, Port Washington, NY, 11050",
+    "region": "Nassau",
+    "phone": "(516) 767-7177",
+    "website": "https://tncnewyork.org/",
+    "lat": 40.83051,
+    "lng": -73.70155
+  },
+  {
+    "source": "opwdd",
+    "name": "NY FAMILIES FOR AUTISTIC CHILDREN",
+    "services": [
+      "Community Habilitation",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "164-14 Cross Bay Blvd, Howard Beach, NY, 11414",
+    "region": "Queens",
+    "phone": "(347) 566-3122",
+    "website": "http://nyfac.org",
+    "lat": 40.65013,
+    "lng": -73.83794
+  },
+  {
+    "source": "opwdd",
+    "name": "NY FOUNDATION FOR SENIOR CITIZENS",
+    "services": [
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "150 Nassau Street, Suite 1730, New York, NY, 10038",
+    "region": "Manhattan",
+    "website": "http://www.nyfsc.org",
+    "lat": 40.71154,
+    "lng": -74.006
   },
   {
     "source": "opwdd",
@@ -690,69 +2006,338 @@
       "Self-Direction",
       "Intermediate Care (ICF)"
     ],
-    "address": "83 MAIDEN LANE, NEW YORK, NY, 10038",
-    "county": "NEW YORK",
-    "phone": "212-780-2500",
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "83 Maiden Lane, New York, NY, 10038",
+    "region": "Manhattan",
+    "phone": "(212) 780-2500",
     "website": "http://www.ahrcnyc.org",
     "lat": 40.70741,
     "lng": -74.00758
   },
   {
     "source": "opwdd",
-    "name": "SENIOR CITIZENS F/IMPROVED COMMUNITY",
+    "name": "OHEL CHILDREN'S HOME & FAMILY SRVCS  INC",
     "services": [
-      "Family Support"
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Intermediate Care (ICF)"
     ],
-    "address": "312 EAST 109TH STREET, NEW YORK, NY, 10029",
-    "county": "NEW YORK",
-    "lat": 40.79224,
-    "lng": -73.94027
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1268 E 14th Street, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "phone": "(718) 435-5533",
+    "website": "http://www.ohelfamily.org",
+    "lat": 40.61872,
+    "lng": -73.9611
   },
   {
     "source": "opwdd",
-    "name": "THE NEW YORK FOUNDLING",
+    "name": "ON YOUR MARK  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "485 Victory Boulevard, Staten Island, NY, 10301",
+    "region": "Staten Island",
+    "phone": "(718) 720-9233",
+    "website": "http://www.onyourmark.org",
+    "lat": 40.63051,
+    "lng": -74.08864
+  },
+  {
+    "source": "opwdd",
+    "name": "PARENTAL LOVING CARE  INC.",
+    "services": [
+      "Residential (IRA)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "26 Plank Road, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(718) 494-9006",
+    "lat": 40.60937,
+    "lng": -74.16731
+  },
+  {
+    "source": "opwdd",
+    "name": "PARTNERSHIP FOR INNOVATIVE COMPREHENSIVE",
+    "services": [
+      "Community Habilitation",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "134 West 29th Street, 12th Floor, New York, NY, 10001",
+    "region": "Manhattan",
+    "phone": "(212) 480-9169",
+    "lat": 40.74733,
+    "lng": -73.99166
+  },
+  {
+    "source": "opwdd",
+    "name": "PAUL J. COOPER CTR FOR HUMAN SVCS",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "630 Flushing Avenue, Mailbox #66, Brooklyn, NY, 11206",
+    "region": "Brooklyn",
+    "phone": "(718) 498-5555",
+    "website": "http://www.pauljcooper.org",
+    "lat": 40.69994,
+    "lng": -73.94869
+  },
+  {
+    "source": "opwdd",
+    "name": "PERSON CENTERED CARE SERVICES  INC.",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
       "Supported Employment",
       "Prevocational",
-      "Individual Support (ISS)"
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
     ],
-    "address": "590 AVENUE OF THE AMERICAS, NEW YORK, NY, 10011",
-    "county": "NEW YORK",
-    "phone": "212-886-4005",
-    "website": "http://www.nyfoundling.org",
-    "lat": 40.73906,
-    "lng": -73.99559
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "150 Granite Avenue, Staten Island, NY, 10303",
+    "region": "Staten Island",
+    "phone": "(718) 370-1088",
+    "website": "http://www.pccsny.org",
+    "lat": 40.63355,
+    "lng": -74.14828
   },
   {
     "source": "opwdd",
-    "name": "SOCIAL ACTION CENTER  INC.",
+    "name": "PESACH TIKVAH-HOPE DEVELOPMENT",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "365 Willoughby Avenue, 4th Fl Suite 400, Brooklyn, NY, 11205",
+    "region": "Brooklyn",
+    "phone": "(718) 875-6900",
+    "website": "http://www.pesachtikvah.org",
+    "lat": 40.69294,
+    "lng": -73.95619
+  },
+  {
+    "source": "opwdd",
+    "name": "PLUS GROUP HOMES",
+    "services": [
+      "Residential (IRA)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1228 Wantagh Avenue, Suite 201, Wantagh, NY, 11793",
+    "region": "Nassau",
+    "phone": "(516) 409-9450",
+    "website": "http://plusgrouphomes.org",
+    "lat": 40.69239,
+    "lng": -73.50832
+  },
+  {
+    "source": "opwdd",
+    "name": "PRIME SUPPORT  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "184 Rose Avenue, Suite 1h, Staten Island, NY, 10306",
+    "region": "Staten Island",
+    "phone": "(347) 824-3642",
+    "lat": 40.57281,
+    "lng": -74.1169
+  },
+  {
+    "source": "opwdd",
+    "name": "PROGRAM DEVELOPMENT SERVICES",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
-      "Family Support"
+      "Residential (IRA)",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
     ],
-    "address": "665 PELHAM PARKWAY NORTH, SUITE 401, BRONX, NY, 10467",
-    "county": "BRONX",
-    "phone": "718-654-1815",
-    "lat": 40.85802,
-    "lng": -73.86868
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "33 35th Street, Suite B621  Building #5, Brooklyn, NY, 11232",
+    "region": "Brooklyn",
+    "phone": "(718) 256-2212",
+    "website": "http://www.4pds.org",
+    "lat": 40.65707,
+    "lng": -74.00752
   },
   {
     "source": "opwdd",
-    "name": "JEWISH UNION FOUNDATION",
+    "name": "PUERTO RICAN FAMILY INSTITUTE  INC.",
     "services": [
+      "Residential (IRA)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "145 West 15th Street, New York, NY, 10011",
+    "region": "Manhattan",
+    "phone": "(212) 924-6320",
+    "website": "http://www.prfi.org",
+    "lat": 40.73876,
+    "lng": -73.99804
+  },
+  {
+    "source": "opwdd",
+    "name": "QSAC  INC.",
+    "services": [
+      "Day Habilitation",
       "Community Habilitation",
-      "Supported Employment",
+      "Residential (IRA)",
       "Family Support"
     ],
-    "address": "40 RECTOR STREET, 4TH FLOOR, NEW YORK, NY, 10006",
-    "county": "NEW YORK",
-    "phone": "212-613-8104",
-    "website": "http://www.njcd.org/staff/jewishunionfoundation",
-    "lat": 40.70836,
-    "lng": -74.01482
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "253 West 35th Street, 14th Floor, New York, NY, 10001",
+    "region": "Manhattan",
+    "phone": "(212) 244-5560",
+    "website": "http://www.qsac.com",
+    "lat": 40.7525,
+    "lng": -73.99215
+  },
+  {
+    "source": "opwdd",
+    "name": "QUEENS PARENT RESOURCE CENTER  INC",
+    "services": [
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "112-40 Francis Lewis Blvd., Queens Village, NY, 11429",
+    "region": "Queens",
+    "phone": "(347) 947-6840",
+    "website": "http://www.qprc.net",
+    "lat": 40.70316,
+    "lng": -73.74933
+  },
+  {
+    "source": "opwdd",
+    "name": "REWARDING ENVIRONMTS FOR ADULT LVNG INC",
+    "services": [
+      "Community Habilitation"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "32 Belmont Blvd, Elmont, NY, 11003",
+    "region": "Nassau",
+    "phone": "(718) 848-2507",
+    "website": "http://www.real-nyc.org",
+    "lat": 40.70629,
+    "lng": -73.69964
+  },
+  {
+    "source": "opwdd",
+    "name": "RISE LIFE SERVICES",
+    "services": [
+      "Day Habilitation",
+      "Residential (IRA)",
+      "Prevocational"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "901 E Main Street, Ste. 508, Riverhead, NY, 11901",
+    "region": "Suffolk",
+    "phone": "(631) 727-6220",
+    "website": "http://www.addny.com",
+    "lat": 40.92424,
+    "lng": -72.65116
+  },
+  {
+    "source": "opwdd",
+    "name": "RISING GROUND  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1333 Broadway, 8th Floor, New York, NY, 10018",
+    "region": "Manhattan",
+    "phone": "(914) 375-8700",
+    "website": "http://www.leakeandwatts.org",
+    "lat": 40.7511,
+    "lng": -73.9877
+  },
+  {
+    "source": "opwdd",
+    "name": "S.K.I.P. OF NEW YORK  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "318 West 39th Street, 5th Floor, New York, NY, 10018",
+    "region": "Manhattan",
+    "phone": "(212) 268-5999",
+    "website": "http://www.skipny.org",
+    "lat": 40.75582,
+    "lng": -73.99233
+  },
+  {
+    "source": "opwdd",
+    "name": "SALVATION ARMY (THE)",
+    "services": [
+      "Residential (IRA)",
+      "Family Care"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "120 W 14th Street, 7th Fl, New York, NY, 10011",
+    "region": "Manhattan",
+    "website": "http://www.use.salvationarmy.org",
+    "lat": 40.73794,
+    "lng": -73.99824
+  },
+  {
+    "source": "opwdd",
+    "name": "SCO FAMILY OF SERVICES",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Family Care"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1415 Kellum Place, Suite 140, Garden City, NY, 11530",
+    "region": "Nassau",
+    "phone": "(516) 953-1901",
+    "website": "http://www.sco.org",
+    "lat": 40.73667,
+    "lng": -73.63734
+  },
+  {
+    "source": "opwdd",
+    "name": "SERENITY HUMAN SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "133-33 Brookville Blvd, Suite 213, Rosedale, NY, 11422",
+    "region": "Queens",
+    "phone": "(718) 526-6125",
+    "website": "http://tendercareny.org",
+    "lat": 40.67416,
+    "lng": -73.7328
   },
   {
     "source": "opwdd",
@@ -764,28 +2349,101 @@
       "Prevocational",
       "Family Support"
     ],
-    "address": "5475 FIELDSTON ROAD, BRONX, NY, 10471",
-    "county": "BRONX",
-    "phone": "718-432-8469",
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "5475 Fieldston Road, Bronx, NY, 10471",
+    "region": "Bronx",
+    "phone": "(718) 432-8469",
     "website": "http://sdcnyc.org",
     "lat": 40.90348,
     "lng": -73.90087
   },
   {
     "source": "opwdd",
-    "name": "QSAC  INC.",
+    "name": "SERVICES FOR THE UNDERSERVED  INC.",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
       "Residential (IRA)",
+      "Supported Employment",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "463 7th Avenue, 17th Floor, New York, NY, 10018",
+    "region": "Manhattan",
+    "phone": "(212) 633-6900",
+    "website": "http://sus.org",
+    "lat": 40.75184,
+    "lng": -73.98996
+  },
+  {
+    "source": "opwdd",
+    "name": "SHEMA KOLAINU",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "4302 New Utrecht Avenue, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "phone": "(718) 686-9600",
+    "website": "http://www.hear-our-voices.org",
+    "lat": 40.64176,
+    "lng": -73.99428
+  },
+  {
+    "source": "opwdd",
+    "name": "SHIELD INSTITUTE (THE)",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "144-61 Roosevelt Avenue, Flushing, NY, 11354",
+    "region": "Queens",
+    "phone": "(718) 886-1534",
+    "website": "http://www.shield.org",
+    "lat": 40.76221,
+    "lng": -73.81987
+  },
+  {
+    "source": "opwdd",
+    "name": "SINERGIA",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Family Care"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "2082 Lexington Ave, 4th Floor, New York, NY, 10035",
+    "region": "Manhattan",
+    "phone": "(212) 643-2840",
+    "website": "http://www.sinergiany.org",
+    "lat": 40.80476,
+    "lng": -73.93714
+  },
+  {
+    "source": "opwdd",
+    "name": "SOCIAL ACTION CENTER  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
       "Family Support"
     ],
-    "address": "253 WEST 35TH STREET, 14TH FLOOR, NEW YORK, NY, 10001",
-    "county": "NEW YORK",
-    "phone": "212-244-5560",
-    "website": "http://www.qsac.com",
-    "lat": 40.7525,
-    "lng": -73.99215
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "665 Pelham Parkway North, Suite 401, Bronx, NY, 10467",
+    "region": "Bronx",
+    "phone": "(718) 654-1815",
+    "website": "http://www.socialactioncenterinc.com/home_1.html",
+    "lat": 40.85802,
+    "lng": -73.86868
   },
   {
     "source": "opwdd",
@@ -797,38 +2455,280 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "address": "955 TINTON AVENUE, BRONX, NY, 10456",
-    "county": "BRONX",
-    "phone": "718-542-2727",
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "955 Tinton Avenue, Bronx, NY, 10456",
+    "region": "Bronx",
+    "phone": "(718) 542-2727",
     "website": "http://www.sebnc.org",
     "lat": 40.82324,
     "lng": -73.90292
   },
   {
     "source": "opwdd",
-    "name": "CHDFS  INC.",
+    "name": "SPECIAL CARE FOR FAMILIES & CHILDREN SVC",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1421 East 2nd Street, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "phone": "(718) 252-3365",
+    "website": "http://specialcarefcs.com/",
+    "lat": 40.61503,
+    "lng": -73.97307
+  },
+  {
+    "source": "opwdd",
+    "name": "SPECIAL CITIZENS FUTURES UNLIMITED  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1775 Grand Concourse, 4th Floor, Bronx, NY, 10453",
+    "region": "Bronx",
+    "phone": "(212) 643-2663",
+    "website": "http://www.specialcitizens.org",
+    "lat": 40.84626,
+    "lng": -73.90991
+  },
+  {
+    "source": "opwdd",
+    "name": "THE GOOD SHEPHARD",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "89 Arlington Avenue, Staten Island, NY, 10303",
+    "region": "Staten Island",
+    "phone": "(917) 678-3510",
+    "website": "http://www.thegoodshephard.com",
+    "lat": 40.63809,
+    "lng": -74.16743
+  },
+  {
+    "source": "opwdd",
+    "name": "THE NEW YORK FOUNDLING",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "590 Avenue Of The Americas, New York, NY, 10011",
+    "region": "Manhattan",
+    "phone": "(212) 886-4005",
+    "website": "http://www.nyfoundling.org",
+    "lat": 40.73906,
+    "lng": -73.99559
+  },
+  {
+    "source": "opwdd",
+    "name": "THE PEOPLE'S ARC OF SUFFOLK",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "2900 Veterans Memorial Highway, Bohemia, NY, 11716",
+    "region": "Suffolk",
+    "phone": "(631) 585-0100",
+    "website": "http://www.ahrcsuffolk.org",
+    "lat": 40.78759,
+    "lng": -73.14549
+  },
+  {
+    "source": "opwdd",
+    "name": "TIEGERMAN COMMUNITY SERVICES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "100 Glen Cove Avenue, Glen Cove, NY, 11542",
+    "region": "Nassau",
+    "phone": "(516) 609-2000",
+    "website": "https://tiegerman.org/tcs/",
+    "lat": 40.85851,
+    "lng": -73.63547
+  },
+  {
+    "source": "opwdd",
+    "name": "TIEGERMAN SCHOOL",
     "services": [
       "Community Habilitation",
       "Family Support"
     ],
-    "address": "307 WEST 38TH STREET, 6TH FLOOR, NEW YORK, NY, 10018",
-    "county": "NEW YORK",
-    "phone": "212-695-4562",
-    "lat": 40.75499,
-    "lng": -73.99229
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "100 Glen Cove Ave, Glen Cove, NY, 11542",
+    "region": "Nassau",
+    "phone": "(518) 609-2000",
+    "website": "http://www.slcd.org",
+    "lat": 40.85851,
+    "lng": -73.63547
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY ACTION F/HUMAN SERVICES  INC",
+    "name": "UCPA OF GREATER SUFFOLK  INC",
     "services": [
       "Day Habilitation",
-      "Residential (IRA)"
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
     ],
-    "address": "3651 BRUCKNER BOULEVARD, BRONX, NY, 10461",
-    "county": "BRONX",
-    "phone": "718-655-7700",
-    "lat": 40.85202,
-    "lng": -73.82719
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "250 Marcus Blvd, Hauppauge, NY, 11788",
+    "region": "Suffolk",
+    "phone": "(631) 232-0011",
+    "website": "http://www.ucp-suffolk.org",
+    "lat": 40.81831,
+    "lng": -73.24843
+  },
+  {
+    "source": "opwdd",
+    "name": "UCPA OF NASSAU CO.  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "380 Washington Avenue, Roosevelt, NY, 11575",
+    "region": "Nassau",
+    "phone": "(516) 378-2000",
+    "website": "http://www.ucpn.org",
+    "lat": 40.67942,
+    "lng": -73.57487
+  },
+  {
+    "source": "opwdd",
+    "name": "UNIQUE CARE COMMUNITY SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "9317 Avenue L, Brooklyn, NY, 11236",
+    "region": "Brooklyn",
+    "phone": "(347) 502-2956",
+    "website": "https://www.uniquecarecommunityservice.org/",
+    "lat": 40.63704,
+    "lng": -73.89781
+  },
+  {
+    "source": "opwdd",
+    "name": "UNIQUE LIFE  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "2197 New England Thruway, Bronx, NY, 10475",
+    "region": "Bronx",
+    "phone": "(347) 449-7890",
+    "website": "http://www.uniquelifeinc.org",
+    "lat": 40.88197,
+    "lng": -73.83015
+  },
+  {
+    "source": "opwdd",
+    "name": "UNIQUE PEOPLE SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Prevocational"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "201 East Burnside Avenue, Bronx, NY, 10457",
+    "region": "Bronx",
+    "phone": "(718) 231-7711",
+    "website": "http://www.uniquepeopleservices.org",
+    "lat": 40.85233,
+    "lng": -73.90332
+  },
+  {
+    "source": "opwdd",
+    "name": "UNITED CEREBRAL PALSY OF QUEENS  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "81-15 164th Street, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 380-3000",
+    "website": "http://www.queenscp.org",
+    "lat": 40.72003,
+    "lng": -73.80409
+  },
+  {
+    "source": "opwdd",
+    "name": "VIABILITY  INC.",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "3281 Veterans Memorial Highway, Suite E-11, Ronkonkoma, NY, 11779",
+    "region": "Suffolk",
+    "phone": "(631) 952-9529",
+    "website": "http://www.communityenterprises.com/locations/islandia",
+    "lat": 40.78769,
+    "lng": -73.13193
+  },
+  {
+    "source": "opwdd",
+    "name": "WOMEN'S LEAGUE COM. RESIDENCES",
+    "services": [
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Self-Direction",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1400 Coney Island Avenue, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "phone": "(718) 853-0900",
+    "website": "http://www.womensleague.org",
+    "lat": 40.62343,
+    "lng": -73.96493
   },
   {
     "source": "opwdd",
@@ -840,13 +2740,45 @@
       "Supported Employment",
       "Prevocational",
       "Family Support",
-      "Individual Support (ISS)"
+      "Individual Support (ISS)",
+      "Self-Direction"
     ],
-    "address": "220 EAST 42ND STREET, FLOOR 8, NEW YORK, NY, 10017",
-    "county": "NEW YORK",
-    "phone": "212-273-6182",
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "220 East 42nd Street, Floor 8, New York, NY, 10017",
+    "region": "Manhattan",
+    "phone": "(212) 273-6182",
     "website": "http://www.yai.org",
     "lat": 40.75009,
     "lng": -73.97291
+  },
+  {
+    "source": "opwdd",
+    "name": "YALDEINU SCHOOL INC",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1600 63rd Street, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "phone": "(718) 851-0123",
+    "website": "http://yaldeinu.net",
+    "lat": 40.62299,
+    "lng": -73.99345
+  },
+  {
+    "source": "opwdd",
+    "name": "YELED V'YALDA EARLY CHILDHOOD CENTER",
+    "services": [
+      "Community Habilitation"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "1312 38th Street, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "phone": "(718) 686-3700",
+    "website": "http://www.yeled.org",
+    "lat": 40.64087,
+    "lng": -73.98521
   }
 ]

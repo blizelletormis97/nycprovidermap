@@ -1,16 +1,32 @@
-import type { DataSource } from "@/types/providers";
+import type { DataSource, Region } from "@/types/providers";
 
-// Filter for specific provider types (Medicaid API)
-export const MEDICAID_TYPES = [
-  "DENTIST",
-  "PSYCHOLOG", // Matches CLINICAL PSYCHOLOGIST
-  "HOME HEALTH", // Matches HOME HEALTH CARE, CERTIFIED HOME HEALTH AGENCY, LONG TERM HOME HEALTH CARE
-  "PHYSICIAN",
-  "EQUIPMENT", // Matches MEDICAL EQUIPMENT SUPPLIERS & DEALER, OXYGEN AND RELATED EQUIPMENT DEALER
-];
+// Service area: the five NYC boroughs plus Long Island's Nassau and Suffolk counties
+export const REGIONS: Region[] = ["Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island", "Nassau", "Suffolk"];
 
-// Manhattan + Bronx only
-export const TARGET_COUNTIES = ["NEW YORK", "BRONX"];
+// County names as they appear in the NY open-data sets
+export const TARGET_COUNTIES = ["NEW YORK", "KINGS", "BRONX", "QUEENS", "RICHMOND", "NASSAU", "SUFFOLK"];
+
+// Medicaid Enrolled Provider Listing types that are specific to OPWDD / IDD services
+export const MEDICAID_IDD_TYPES: Record<string, string> = {
+  "COMMUNITY SUPPORT (OPWDD)": "OPWDD Community Support Site",
+  "INTERMEDIATE CARE FACILITY (OPWDD)": "Intermediate Care (ICF)",
+  "OPWDD STATE-OPERATED CLINIC": "OPWDD State-Operated Clinic",
+};
+
+// OPWDD services funded through Medicaid (HCBS waiver, ICF, state-operated). Family Support Services are
+// state-funded, so an agency offering only Family Support is not shown.
+export const OPWDD_MEDICAID_SERVICES = new Set([
+  "Day Habilitation",
+  "Community Habilitation",
+  "Residential (IRA)",
+  "Supported Employment",
+  "Prevocational",
+  "Individual Support (ISS)",
+  "Self-Direction",
+  "Intermediate Care (ICF)",
+  "Family Care",
+  "Developmental Centers",
+]);
 
 // OPWDD service field mappings (API field name -> display name)
 export const OPWDD_SERVICE_FIELDS = {
@@ -49,99 +65,50 @@ const t = (key: string, label = key): ServiceType => ({ key, label });
  */
 export const SERVICE_GROUPS: ServiceGroup[] = [
   {
-    id: "dd",
-    heading: "OPWDD Services",
+    id: "residential",
+    heading: "Residential",
     types: [
-      t("Day Habilitation"),
-      t("Community Habilitation"),
-      t("Residential (IRA)"),
-      t("Individual Support (ISS)"),
-      t("Supported Employment"),
-      t("Prevocational"),
-      t("Family Support"),
-      t("Self-Direction"),
-      t("Intermediate Care (ICF)"),
+      t("Residential (IRA)", "Residential (IRA / group home)"),
+      t("Intermediate Care (ICF)", "Intermediate Care (ICF/IID)"),
       t("Family Care"),
+      t("OPWDD Community Support Site", "OPWDD Community Support Site"),
       t("Developmental Centers"),
     ],
   },
   {
-    id: "article16",
-    heading: "Article 16 Clinics",
-    types: [t("Article 16 Clinic", "Article 16 Clinic (main site)"), t("Article 16 Satellite", "Article 16 Satellite")],
-  },
-  {
-    id: "primary",
-    heading: "Primary & Specialty Care",
+    id: "day",
+    heading: "Day & Employment",
     types: [
-      t("Physician", "Physician / Primary Care"),
-      t("Dental"),
-      t("Neurology"),
-      t("Podiatry"),
-      t("Optometry"),
-      t("Allergy/Immunology", "Allergy / Immunology"),
-      t("Chiropractic"),
-      t("Nutrition", "Nutrition / Dietitian"),
+      t("Day Habilitation"),
+      t("Prevocational"),
+      t("Supported Employment"),
     ],
   },
   {
-    id: "therapy",
-    heading: "Therapy & Rehab",
+    id: "community",
+    heading: "Community & In-Home",
     types: [
-      t("Physical Therapy"),
-      t("Occupational Therapy"),
-      t("Speech Therapy"),
-      t("Rehab Medicine"),
+      t("Community Habilitation"),
+      t("Individual Support (ISS)"),
+      t("Self-Direction"),
+      t("Family Support", "Family Support (state-funded)"),
     ],
   },
   {
-    id: "behavioral",
-    heading: "Behavioral Health Clinicians",
+    id: "clinic",
+    heading: "Clinical Services",
     types: [
-      t("Psychiatry"),
-      t("Psychology"),
-      t("Social Work"),
-      t("Mental Health Counseling"),
+      t("Article 16 Clinic", "Article 16 Clinic (main site)"),
+      t("Article 16 Satellite"),
+      t("OPWDD State-Operated Clinic"),
     ],
-  },
-  {
-    id: "omh",
-    heading: "OMH Mental Health Programs",
-    types: [
-      t("Mental Health Clinic", "Outpatient Clinic / PROS"),
-      t("Intensive Community Treatment", "ACT / Intensive Outreach"),
-      t("Crisis Services"),
-      t("Inpatient Psychiatric"),
-      t("Children & Family Services", "Children & Family (CFTSS)"),
-      t("MH Care Management", "Care Management / Health Home"),
-      t("MH Employment Services", "Employment Services"),
-      t("Peer & Recovery Support"),
-    ],
-  },
-  {
-    id: "facilities",
-    heading: "Hospitals & Facilities",
-    types: [
-      t("Hospital"),
-      t("Community Clinic", "Community Clinic (D&TC)"),
-      t("School-Based Clinic"),
-      t("Nursing Home"),
-      t("Adult Care Facility", "Adult Home / Assisted Living"),
-      t("Adult Day Health Care"),
-      t("Hospice"),
-    ],
-  },
-  {
-    id: "home",
-    heading: "Home Care & Equipment",
-    types: [t("Home Health", "Home Health / Home Care"), t("DME", "Durable Medical Equipment")],
   },
 ];
 
 export const ALL_SERVICE_KEYS: string[] = SERVICE_GROUPS.flatMap((g) => g.types.map((type) => type.key));
 export const KNOWN_SERVICE_KEYS = new Set(ALL_SERVICE_KEYS);
 
-export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "omh", "facilities", "medicaid", "medicare"];
+export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "medicaid"];
 
 // Source configuration: badge classes (full strings for Tailwind) and map marker colors
 export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: string; className: string; color: string }> = {
@@ -157,28 +124,10 @@ export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: strin
     className: "bg-purple-500/20 text-purple-700 dark:text-purple-400",
     color: "#8b5cf6",
   },
-  omh: {
-    label: "OMH",
-    longLabel: "OMH Mental Health Programs",
-    className: "bg-pink-500/20 text-pink-700 dark:text-pink-400",
-    color: "#ec4899",
-  },
-  facilities: {
-    label: "NYS Facility",
-    longLabel: "Hospitals, Clinics & Facilities",
-    className: "bg-teal-500/20 text-teal-700 dark:text-teal-400",
-    color: "#14b8a6",
-  },
   medicaid: {
-    label: "Medicaid",
-    longLabel: "Medicaid Providers",
+    label: "Medicaid IDD",
+    longLabel: "Medicaid-Enrolled IDD Sites",
     className: "bg-blue-500/20 text-blue-700 dark:text-blue-400",
     color: "#3b82f6",
-  },
-  medicare: {
-    label: "Medicare",
-    longLabel: "Medicare Providers",
-    className: "bg-green-500/20 text-green-700 dark:text-green-400",
-    color: "#22c55e",
   },
 };

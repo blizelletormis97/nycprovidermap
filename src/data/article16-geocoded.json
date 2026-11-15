@@ -1,15 +1,562 @@
 [
   {
     "source": "article16",
+    "name": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 66430310",
+    "address": "807 South Oyster Bay Road, Bethpage, NY, 11714",
+    "region": "Nassau",
+    "phone": "(516) 822-0028",
+    "lat": 40.764186359653,
+    "lng": -73.500372720142
+  },
+  {
+    "source": "article16",
+    "name": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 66430310 · satellite 66430310001",
+    "address": "837 South Oyster Bay Road, Bethpage, NY, 11714",
+    "region": "Nassau",
+    "phone": "(516) 822-0028",
+    "lat": 40.75754773458,
+    "lng": -73.499596162312
+  },
+  {
+    "source": "article16",
+    "name": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 66430310 · satellite 66430310002",
+    "address": "305 Oser Avenue, Hauppauge, NY, 11788",
+    "region": "Suffolk",
+    "phone": "(516) 822-0028",
+    "lat": 40.816509747312,
+    "lng": -73.259152625214
+  },
+  {
+    "source": "article16",
+    "name": "BERNARD M. FINESON DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 02300120",
+    "address": "80-45 Winchester Boulevard, Queens Village, NY, 11427-2129",
+    "region": "Queens",
+    "phone": "(718) 217-4242",
+    "lat": 40.734240511028,
+    "lng": -73.734872975248
+  },
+  {
+    "source": "article16",
+    "name": "BERNARD M. FINESON DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02300120 · satellite 02300120006",
+    "address": "81 Mall Drive, Commack, NY, 11725",
+    "region": "Suffolk",
+    "phone": "(718) 217-4242",
+    "lat": 40.810638119536,
+    "lng": -73.274567528299
+  },
+  {
+    "source": "article16",
+    "name": "BLOCK INSTITUTE, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 61430100",
+    "address": "2214 Stillwell Avenue, Brooklyn, NY, 11223",
+    "region": "Brooklyn",
+    "phone": "(718) 946-9700",
+    "lat": 40.592544337148,
+    "lng": -73.984518653926
+  },
+  {
+    "source": "article16",
+    "name": "BLOCK INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61430100 · satellite 61430100001",
+    "address": "376 Bay 44th Street, Brooklyn, NY, 11214",
+    "region": "Brooklyn",
+    "phone": "(718) 946-9700",
+    "lat": 40.650260672678,
+    "lng": -74.009915850265
+  },
+  {
+    "source": "article16",
     "name": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC.",
     "services": [
       "Article 16 Clinic"
     ],
+    "detail": "OPWDD program 76070300",
     "address": "465 Grand Street, New York, NY, 10002",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 420-1970",
-    "lat": 40.714786,
-    "lng": -73.983964
+    "lat": 40.71513560711,
+    "lng": -73.984215654159
+  },
+  {
+    "source": "article16",
+    "name": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 76070300 · satellite 76070300001",
+    "address": "1239 East 35th Street, Brooklyn, NY, 11210",
+    "region": "Brooklyn",
+    "phone": "(212) 420-1970",
+    "lat": 40.623921011371,
+    "lng": -73.94141825117
+  },
+  {
+    "source": "article16",
+    "name": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 76070300 · satellite 76070300002",
+    "address": "8120 19th Avenue, Brooklyn, NY, 11214",
+    "region": "Brooklyn",
+    "phone": "(212) 420-1970",
+    "lat": 40.60866988856,
+    "lng": -73.997708867582
+  },
+  {
+    "source": "article16",
+    "name": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 76070300 · satellite 76070300003",
+    "address": "2306 Avenue U, Brooklyn, NY, 11229",
+    "region": "Brooklyn",
+    "phone": "(212) 420-1970",
+    "lat": 40.599654052469,
+    "lng": -73.948387773169
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 67510100",
+    "address": "1500 Hempstead Turnpike, East Meadow, NY, 11554",
+    "region": "Nassau",
+    "phone": "(516) 739-7733",
+    "lat": 40.722359924027,
+    "lng": -73.579125640788
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100002",
+    "address": "90-3 Colin Drive, Holbrook, NY, 11741",
+    "region": "Suffolk",
+    "phone": "(516) 739-7733",
+    "lat": 40.777621909582,
+    "lng": -73.048577455618
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100003",
+    "address": "445 County Road 101, Yaphank, NY, 11980",
+    "region": "Suffolk",
+    "phone": "(516) 739-7733",
+    "lat": 40.81125,
+    "lng": -72.95342
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100004",
+    "address": "1529 North Ocean Avenue, Medford, NY, 11763",
+    "region": "Suffolk",
+    "phone": "(516) 739-7733",
+    "lat": 40.80937844987,
+    "lng": -73.019520385209
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100005",
+    "address": "33 Medford Avenue, Patchogue, NY, 11772",
+    "region": "Suffolk",
+    "phone": "(516) 739-7733",
+    "lat": 40.767042895543,
+    "lng": -73.006940028451
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100007",
+    "address": "200 Wilson Street, Port Jefferson Station, NY, 11777",
+    "region": "Suffolk",
+    "phone": "(516) 739-7733",
+    "lat": 40.934017580205,
+    "lng": -73.054284890545
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100008",
+    "address": "51 Terryville Road, Port Jefferson Station, NY, 11776",
+    "region": "Suffolk",
+    "phone": "(516) 739-7733",
+    "lat": 40.928224484653,
+    "lng": -73.052568942084
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100009",
+    "address": "792 Harrison Street, Riverhead, NY, 11901",
+    "region": "Suffolk",
+    "phone": "(516) 739-7733",
+    "lat": 40.928093756191,
+    "lng": -72.678413343376
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100013",
+    "address": "72 South Woods Road, Woodbury, NY, 11554",
+    "region": "Nassau",
+    "phone": "(516) 739-7733",
+    "lat": 40.811851469571,
+    "lng": -73.472635293409
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100014",
+    "address": "1228 Wantagh Avenue, Wantagh, NY, 11793",
+    "region": "Nassau",
+    "phone": "(516) 739-7733",
+    "lat": 40.692776165971,
+    "lng": -73.507898347038
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67510100 · satellite 67510100015",
+    "address": "55 Medford Avenue, Patchogue, NY, 11772",
+    "region": "Suffolk",
+    "phone": "(516) 739-7733",
+    "lat": 40.767703650154,
+    "lng": -73.006994881413
+  },
+  {
+    "source": "article16",
+    "name": "HAMASPIK OF KINGS COUNTY, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 90610300",
+    "address": "293-295 Division Avenue, Brooklyn, NY, 11211",
+    "region": "Brooklyn",
+    "phone": "(718) 387-8400",
+    "lat": 40.707117243659,
+    "lng": -73.955959324711
+  },
+  {
+    "source": "article16",
+    "name": "HAMASPIK OF KINGS COUNTY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 90610300 · satellite 90610300001",
+    "address": "6214 24th Avenue, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "phone": "(718) 387-8400",
+    "lat": 40.612808980509,
+    "lng": -73.975383764869
+  },
+  {
+    "source": "article16",
+    "name": "HAMASPIK OF KINGS COUNTY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 90610300 · satellite 90610300002",
+    "address": "4102 14th Avenue, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "phone": "(718) 387-8400",
+    "lat": 40.638142133486,
+    "lng": -73.985382363917
+  },
+  {
+    "source": "article16",
+    "name": "HARMONY SERVICES, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 94150300",
+    "address": "3820 14th Avenue, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "phone": "(718) 986-7648",
+    "lat": 40.639751794624,
+    "lng": -73.983708546232
+  },
+  {
+    "source": "article16",
+    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 77010300",
+    "address": "1221 East 14th Street, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "phone": "(718) 535-1956",
+    "lat": 40.619811307331,
+    "lng": -73.96124657695
+  },
+  {
+    "source": "article16",
+    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 77010300 · satellite 77010300001",
+    "address": "1600 63rd Street, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "phone": "(718) 535-1956",
+    "lat": 40.623075472364,
+    "lng": -73.993699002145
+  },
+  {
+    "source": "article16",
+    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 77010300 · satellite 77010300002",
+    "address": "4201 Fort Hamilton Parkway, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "phone": "(718) 535-1956",
+    "lat": 40.641647151978,
+    "lng": -73.992650819468
+  },
+  {
+    "source": "article16",
+    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 77010300 · satellite 77010300003",
+    "address": "5601 First Avenue, Brooklyn, NY, 11249",
+    "region": "Brooklyn",
+    "phone": "(718) 535-1956",
+    "lat": 40.646982536662,
+    "lng": -74.022609514018
+  },
+  {
+    "source": "article16",
+    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 77010300 · satellite 77010300004",
+    "address": "83 South 8th Street, Brooklyn, NY, 11249",
+    "region": "Brooklyn",
+    "phone": "(718) 535-1956",
+    "lat": 40.70981238399,
+    "lng": -73.965971919704
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 64700310",
+    "address": "177 Livingston Street, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "phone": "(718) 422-3200",
+    "lat": 40.690084924913,
+    "lng": -73.986735325681
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310001",
+    "address": "62-10 Northern Boulevard, Woodside, NY, 11377",
+    "region": "Queens",
+    "phone": "(718) 422-3200",
+    "lat": 40.753947625067,
+    "lng": -73.900158957966
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310002",
+    "address": "347 74th Street, Brooklyn, NY, 11209",
+    "region": "Brooklyn",
+    "phone": "(718) 422-3200",
+    "lat": 40.631903439236,
+    "lng": -74.026206118522
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310003",
+    "address": "1424 Richmond Avenue, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(718) 422-3200",
+    "lat": 40.613840027362,
+    "lng": -74.158187546552
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310004",
+    "address": "159-05 Union Turnpike, Fresh Meadows, NY, 11366",
+    "region": "Queens",
+    "phone": "(718) 422-3200",
+    "lat": 40.72075,
+    "lng": -73.80778
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310005",
+    "address": "177 Livingston Street, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "phone": "(718) 422-3200",
+    "lat": 40.690084924913,
+    "lng": -73.986735325681
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310006",
+    "address": "12430-1224 Flatlands Avenue, Brooklyn, NY, 11208",
+    "region": "Brooklyn",
+    "phone": "(718) 422-3200",
+    "lat": 40.658074510623,
+    "lng": -73.873755930341
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310007",
+    "address": "260 68th Street, Brooklyn, NY, 11220",
+    "region": "Brooklyn",
+    "phone": "(718) 422-3200",
+    "lat": 40.636817506546,
+    "lng": -74.026363986437
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310008",
+    "address": "6749 Third Avenue, Brooklyn, NY, 11220",
+    "region": "Brooklyn",
+    "phone": "(718) 422-3200",
+    "lat": 40.636595623153,
+    "lng": -74.025615431369
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310009",
+    "address": "3108 Quentin Road, Brooklyn, NY, 11234",
+    "region": "Brooklyn",
+    "phone": "(718) 422-3200",
+    "lat": 40.612341004445,
+    "lng": -73.940241627945
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310010",
+    "address": "67-10 Myrtle Avenue, Glendale, NY, 11385",
+    "region": "Queens",
+    "phone": "(718) 422-3200",
+    "lat": 40.701478987739,
+    "lng": -73.885738622294
+  },
+  {
+    "source": "article16",
+    "name": "HEARTSHARE WELLNESS, LTD.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64700310 · satellite 64700310011",
+    "address": "4504-4506 Avenue L, Brooklyn, NY, 11234",
+    "region": "Brooklyn",
+    "phone": "(718) 422-3200",
+    "lat": 40.623218681641,
+    "lng": -73.932065619181
   },
   {
     "source": "article16",
@@ -17,11 +564,12 @@
     "services": [
       "Article 16 Clinic"
     ],
+    "detail": "OPWDD program 61360100",
     "address": "159 East 125th Street, New York, NY, 10035",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 741-0100",
-    "lat": 40.80431,
-    "lng": -73.936506
+    "lat": 40.804152658018,
+    "lng": -73.936737099756
   },
   {
     "source": "article16",
@@ -29,11 +577,12 @@
     "services": [
       "Article 16 Satellite"
     ],
-    "address": "Manhattan South, New York, NY, 10128",
-    "county": "New York",
+    "detail": "OPWDD program 61360100 · satellite 61360100006",
+    "address": "184-10 Jamaica Avenue, Hollis, NY, 11423",
+    "region": "Queens",
     "phone": "(212) 741-0100",
-    "lat": 40.782014,
-    "lng": -73.95165
+    "lat": 40.709386187351,
+    "lng": -73.774794292368
   },
   {
     "source": "article16",
@@ -41,11 +590,12 @@
     "services": [
       "Article 16 Satellite"
     ],
-    "address": "Bronx Rehabilitation, Bronx, NY, 10461",
-    "county": "Bronx",
+    "detail": "OPWDD program 61360100 · satellite 61360100007",
+    "address": "237-25 Jamaica A en e, Bellerose, NY, 11426",
+    "region": "Queens",
     "phone": "(212) 741-0100",
-    "lat": 40.840666,
-    "lng": -73.84201
+    "lat": 40.722808102256,
+    "lng": -73.729288944268
   },
   {
     "source": "article16",
@@ -53,11 +603,285 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61360100 · satellite 61360100008",
+    "address": "162-10 Jamaica Avenue, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(212) 741-0100",
+    "lat": 40.704303645096,
+    "lng": -73.797601609812
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100009",
+    "address": "87-21 121st Street, Richmond Hills, NY, 11418",
+    "region": "Queens",
+    "phone": "(212) 741-0100",
+    "lat": 40.700137624856,
+    "lng": -73.828568336946
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100010",
+    "address": "450 19th Street, Brooklyn, NY, 11215",
+    "region": "Brooklyn",
+    "phone": "(212) 741-0100",
+    "lat": 40.657843898251,
+    "lng": -73.984710418596
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100011",
+    "address": "213 48th Street, Brooklyn, NY, 11220",
+    "region": "Brooklyn",
+    "phone": "(212) 741-0100",
+    "lat": 40.650068074673,
+    "lng": -74.015398047329
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100012",
+    "address": "254 48th Street, Brooklyn, NY, 11220",
+    "region": "Brooklyn",
+    "phone": "(212) 741-0100",
+    "lat": 40.64943556299,
+    "lng": -74.014593028083
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100015",
+    "address": "3450 Victory Boulevard, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(212) 741-0100",
+    "lat": 40.602876721661,
+    "lng": -74.174054362795
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100016",
+    "address": "930 Willowbrook Road, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(212) 741-0100",
+    "lat": 40.603165487823,
+    "lng": -74.141263585526
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100017",
+    "address": "884 Targee Street, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(212) 741-0100",
+    "lat": 40.607069296194,
+    "lng": -74.090135779216
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100018",
+    "address": "6135 220th Street, Oakland Gardens, NY, 11364",
+    "region": "Queens",
+    "phone": "(212) 741-0100",
+    "lat": 40.748083620846,
+    "lng": -73.757583308697
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100019",
+    "address": "8814 Foster Avenue, Brooklyn, NY, 11236",
+    "region": "Brooklyn",
+    "phone": "(212) 741-0100",
+    "lat": 40.644194683116,
+    "lng": -73.912710776507
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100020",
+    "address": "1441 Old Northern Boulevard, Roslyn, NY, 11567",
+    "region": "Nassau",
+    "phone": "(212) 741-0100",
+    "lat": 40.802165376418,
+    "lng": -73.647105783215
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100021",
     "address": "3289 Third Avenue, Bronx, NY, 10456",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 741-0100",
-    "lat": 40.825528,
-    "lng": -73.908423
+    "lat": 40.825385748241,
+    "lng": -73.908261768261
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100022",
+    "address": "161-06 89th Avenue, Jamaica, NY, 11423",
+    "region": "Queens",
+    "phone": "(212) 741-0100",
+    "lat": 40.706369180397,
+    "lng": -73.799826713891
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100023",
+    "address": "112-33 199th Street, St. Albans, NY, 11412",
+    "region": "Queens",
+    "phone": "(212) 741-0100",
+    "lat": 40.702030810574,
+    "lng": -73.756515123311
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100024",
+    "address": "168-18 South Conduit Avenue, Springfield Gardens, NY, 11232",
+    "region": "Queens",
+    "phone": "(212) 741-0100",
+    "lat": 40.66681,
+    "lng": -73.77542
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61360100 · satellite 61360100025",
+    "address": "882 Third Avenue, Brooklyn, NY, 11232",
+    "region": "Brooklyn",
+    "phone": "(212) 741-0100",
+    "lat": 40.657628599863,
+    "lng": -74.004627704025
+  },
+  {
+    "source": "article16",
+    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 69940310",
+    "address": "159 Carleton Avenue, Central Islip, NY, 11722",
+    "region": "Suffolk",
+    "phone": "(631) 439-4300",
+    "lat": 40.781918509878,
+    "lng": -73.200194387543
+  },
+  {
+    "source": "article16",
+    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 69940310 · satellite 69940310001",
+    "address": "75 Landing Meadow Road, Smithtown, NY, 11787",
+    "region": "Suffolk",
+    "phone": "(631) 439-4300",
+    "lat": 40.873576548517,
+    "lng": -73.200430736128
+  },
+  {
+    "source": "article16",
+    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 69940310 · satellite 69940310002",
+    "address": "250 Marcus Boulevard, Hauppauge, NY, 11788",
+    "region": "Suffolk",
+    "phone": "(631) 439-4300",
+    "lat": 40.815768872418,
+    "lng": -73.247434733431
+  },
+  {
+    "source": "article16",
+    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 69940310 · satellite 69940310003",
+    "address": "221 North Sunrise Service Road, Manorville, NY, 11949",
+    "region": "Suffolk",
+    "phone": "(631) 439-4300",
+    "lat": 40.824675819457,
+    "lng": -72.786329790572
+  },
+  {
+    "source": "article16",
+    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 69940310 · satellite 69940310004",
+    "address": "5 Union Avenue, Center Moriches, NY, 11934",
+    "region": "Suffolk",
+    "phone": "(631) 439-4300",
+    "lat": 40.799845828661,
+    "lng": -72.79282762216
+  },
+  {
+    "source": "article16",
+    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 69940310 · satellite 69940310005",
+    "address": "833 East Main Street, Riverhead, NY, 11901",
+    "region": "Suffolk",
+    "phone": "(631) 439-4300",
+    "lat": 40.92354500894,
+    "lng": -72.651675137234
   },
   {
     "source": "article16",
@@ -65,11 +889,12 @@
     "services": [
       "Article 16 Clinic"
     ],
+    "detail": "OPWDD program 73330310",
     "address": "1225 Morris Park Avenue, Bronx, NY, 10461",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(718) 920-4321",
-    "lat": 40.852764,
-    "lng": -73.846484
+    "lat": 40.851258858623,
+    "lng": -73.846926743632
   },
   {
     "source": "article16",
@@ -77,11 +902,12 @@
     "services": [
       "Article 16 Clinic"
     ],
+    "detail": "OPWDD program 61030100",
     "address": "83 Maiden Lane, New York, NY, 10038",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 780-2500",
-    "lat": 40.707498,
-    "lng": -74.007446
+    "lat": 40.707539615697,
+    "lng": -74.007603264828
   },
   {
     "source": "article16",
@@ -89,11 +915,12 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61030100 · satellite 61030100002",
     "address": "2488 Grand Concourse, Bronx, NY, 10458",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 780-2500",
-    "lat": 40.86202,
-    "lng": -73.896874
+    "lat": 40.862135918658,
+    "lng": -73.897024341252
   },
   {
     "source": "article16",
@@ -101,11 +928,12 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61030100 · satellite 61030100005",
     "address": "1440 Ferris Place, Bronx, NY, 10461",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 780-2500",
-    "lat": 40.839831,
-    "lng": -73.842001
+    "lat": 40.839551125477,
+    "lng": -73.841701173484
   },
   {
     "source": "article16",
@@ -113,11 +941,12 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61030100 · satellite 61030100006",
     "address": "1420 Ferris Place, Bronx, NY, 10461",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 780-2500",
-    "lat": 40.83944,
-    "lng": -73.841456
+    "lat": 40.839261200176,
+    "lng": -73.84130382258
   },
   {
     "source": "article16",
@@ -125,11 +954,12 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61030100 · satellite 61030100009",
     "address": "1775 Grand Concourse, Bronx, NY, 10453",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 780-2500",
-    "lat": 40.846567,
-    "lng": -73.910257
+    "lat": 40.846750473223,
+    "lng": -73.909307816765
   },
   {
     "source": "article16",
@@ -137,11 +967,12 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61030100 · satellite 61030100010",
     "address": "1952-74 Mayflower Avenue, Bronx, NY, 10461",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 780-2500",
-    "lat": 40.851272,
-    "lng": -73.833612
+    "lat": 40.850769585736,
+    "lng": -73.833796426613
   },
   {
     "source": "article16",
@@ -149,11 +980,103 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61030100 · satellite 61030100011",
+    "address": "81 Willoughby Street, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "phone": "(212) 780-2500",
+    "lat": 40.692249400307,
+    "lng": -73.986192821232
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100012",
+    "address": "340 Livingston Street, Brooklyn, NY, 11217",
+    "region": "Brooklyn",
+    "phone": "(212) 780-2500",
+    "lat": 40.687816573494,
+    "lng": -73.981233313307
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100014",
+    "address": "2211-2225 Church Avenue, Brooklyn, NY, 11226",
+    "region": "Brooklyn",
+    "phone": "(212) 780-2500",
+    "lat": 40.650464324026,
+    "lng": -73.958305537867
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100015",
+    "address": "355 Kings Highway, Brooklyn, NY, 11223",
+    "region": "Brooklyn",
+    "phone": "(212) 780-2500",
+    "lat": 40.604789964045,
+    "lng": -73.976798123492
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100016",
+    "address": "1329 Rockaway Parkway, Brooklyn, NY, 11236",
+    "region": "Brooklyn",
+    "phone": "(212) 780-2500",
+    "lat": 40.647121176701,
+    "lng": -73.904442821166
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100017",
+    "address": "2615-21 East 17th Street, Brooklyn, NY, 11235",
+    "region": "Brooklyn",
+    "phone": "(212) 780-2500",
+    "lat": 40.587739654878,
+    "lng": -73.952296739338
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100018",
+    "address": "1305 86th Street, Brooklyn, NY, 11228",
+    "region": "Brooklyn",
+    "phone": "(212) 780-2500",
+    "lat": 40.614022071487,
+    "lng": -74.013734438127
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100019",
     "address": "200 Varick Street, New York, NY, 10014",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 780-2500",
-    "lat": 40.728151,
-    "lng": -74.005057
+    "lat": 40.72868,
+    "lng": -74.00543
   },
   {
     "source": "article16",
@@ -161,11 +1084,12 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61030100 · satellite 61030100020",
     "address": "101 Norfolk Street, New York, NY, 10002",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 780-2500",
-    "lat": 40.71875,
-    "lng": -73.987308
+    "lat": 40.718443802267,
+    "lng": -73.987404059765
   },
   {
     "source": "article16",
@@ -173,11 +1097,12 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61030100 · satellite 61030100022",
     "address": "2080 Lexington Avenue, New York, NY, 10035",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 780-2500",
-    "lat": 40.804712,
-    "lng": -73.93735
+    "lat": 40.804451861114,
+    "lng": -73.937448613796
   },
   {
     "source": "article16",
@@ -185,11 +1110,90 @@
     "services": [
       "Article 16 Satellite"
     ],
-    "address": "450 West 56th Street, New York, NY, 10019",
-    "county": "New York",
+    "detail": "OPWDD program 61030100 · satellite 61030100024",
+    "address": "23-55 Healy Avenue, Far Rockaway, NY, 11691",
+    "region": "Queens",
     "phone": "(212) 780-2500",
-    "lat": 40.76821,
-    "lng": -73.988758
+    "lat": 40.605177276951,
+    "lng": -73.760990157927
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100025",
+    "address": "76-09 Queens Boulevard, Elmhurst, NY, 11373",
+    "region": "Queens",
+    "phone": "(212) 780-2500",
+    "lat": 40.739069973671,
+    "lng": -73.88815338318
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100026",
+    "address": "25 Victory Boulevard, Staten Island, NY, 10301",
+    "region": "Staten Island",
+    "phone": "(212) 780-2500",
+    "lat": 40.637806444031,
+    "lng": -74.076487988516
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100027",
+    "address": "1952-74 Mayflower Avenue, Bronx, NY, 10461",
+    "region": "Bronx",
+    "phone": "(212) 780-2500",
+    "lat": 40.850769585736,
+    "lng": -73.833796426613
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100028",
+    "address": "32-03 39th Avenue, Long Island City, NY, 11101",
+    "region": "Queens",
+    "phone": "(212) 780-2500",
+    "lat": 40.752302835448,
+    "lng": -73.932001898455
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100029",
+    "address": "200 Varick Street, New York, NY, 10014",
+    "region": "Manhattan",
+    "phone": "(212) 780-2500",
+    "lat": 40.72868,
+    "lng": -74.00543
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61030100 · satellite 61030100030",
+    "address": "450 West 56th Street, New York, NY, 10019",
+    "region": "Manhattan",
+    "phone": "(212) 780-2500",
+    "lat": 40.767910249797,
+    "lng": -73.987947763168
   },
   {
     "source": "article16",
@@ -197,23 +1201,90 @@
     "services": [
       "Article 16 Clinic"
     ],
+    "detail": "OPWDD program 74730310",
     "address": "220 East 42nd Street, New York, NY, 10017",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 273-6515",
-    "lat": 40.749875,
-    "lng": -73.973072
+    "lat": 40.750506990905,
+    "lng": -73.973988133785
   },
   {
     "source": "article16",
-    "name": "PREMIER HEALTHCARE, INC.",
+    "name": "RICHMOND MEDICAL CENTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 65720300",
+    "address": "657 Castleton Avenue, Staten Island, NY, 10301",
+    "region": "Staten Island",
+    "phone": "(718) 818-2407",
+    "lat": 40.634756294067,
+    "lng": -74.103784923607
+  },
+  {
+    "source": "article16",
+    "name": "RICHMOND MEDICAL CENTER",
     "services": [
       "Article 16 Satellite"
     ],
-    "address": "Pelham Bay Multi-Service Center, Bronx, NY, 10461",
-    "county": "Bronx",
-    "phone": "(212) 273-6515",
-    "lat": 40.84701,
-    "lng": -73.83234
+    "detail": "OPWDD program 65720300 · satellite 65720300002",
+    "address": "930 Willowbrook Road, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "phone": "(718) 818-2407",
+    "lat": 40.603165487823,
+    "lng": -74.141263585526
+  },
+  {
+    "source": "article16",
+    "name": "RICHMOND MEDICAL CENTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65720300 · satellite 65720300003",
+    "address": "16 Osgood Avenue, Staten Island, NY, 10313",
+    "region": "Staten Island",
+    "phone": "(718) 818-2407",
+    "lat": 40.618949685969,
+    "lng": -74.084864587811
+  },
+  {
+    "source": "article16",
+    "name": "RICHMOND MEDICAL CENTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65720300 · satellite 65720300004",
+    "address": "10 Kingsley Place, Staten Island, NY, 10301",
+    "region": "Staten Island",
+    "phone": "(718) 818-2407",
+    "lat": 40.636088504936,
+    "lng": -74.089055428871
+  },
+  {
+    "source": "article16",
+    "name": "RICHMOND MEDICAL CENTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65720300 · satellite 65720300005",
+    "address": "166 Lockman Avenue, Staten Island, NY, 10303",
+    "region": "Staten Island",
+    "phone": "(718) 818-2407",
+    "lat": 40.634124218608,
+    "lng": -74.161705125842
+  },
+  {
+    "source": "article16",
+    "name": "RICHMOND MEDICAL CENTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65720300 · satellite 65720300006",
+    "address": "44 Dongan Hills Avenue, Staten Island, NY, 10306",
+    "region": "Staten Island",
+    "phone": "(718) 818-2407",
+    "lat": 40.588105258897,
+    "lng": -74.100985423677
   },
   {
     "source": "article16",
@@ -221,11 +1292,25 @@
     "services": [
       "Article 16 Clinic"
     ],
+    "detail": "OPWDD program 63330100",
     "address": "40 Exchange Place, New York, NY, 10006",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 677-8550",
-    "lat": 40.705776,
-    "lng": -74.010152
+    "lat": 40.705770105218,
+    "lng": -74.009966785486
+  },
+  {
+    "source": "article16",
+    "name": "THE SHIELD INSTITUTE",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 65930164",
+    "address": "39-09 214th Place, Bayside, NY, 11364",
+    "region": "Queens",
+    "phone": "(718) 886-1534",
+    "lat": 40.765535881215,
+    "lng": -73.76984740873
   },
   {
     "source": "article16",
@@ -233,11 +1318,116 @@
     "services": [
       "Article 16 Satellite"
     ],
-    "address": "4234 Vireo Avenue, Bronx, NY, 10470",
-    "county": "Bronx",
+    "detail": "OPWDD program 65930164 · satellite 65930164002",
+    "address": "61-35 220th Street, Oakland Gardens, NY, 11364",
+    "region": "Queens",
     "phone": "(718) 886-1534",
-    "lat": 40.896624,
-    "lng": -73.864375
+    "lat": 40.748083620846,
+    "lng": -73.757583308697
+  },
+  {
+    "source": "article16",
+    "name": "THE SHIELD INSTITUTE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65930164 · satellite 65930164006",
+    "address": "61-58 Springfield Boulevard, Bayside, NY, 11364",
+    "region": "Queens",
+    "phone": "(718) 886-1534",
+    "lat": 40.748032835116,
+    "lng": -73.756242646955
+  },
+  {
+    "source": "article16",
+    "name": "THE SHIELD INSTITUTE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65930164 · satellite 65930164007",
+    "address": "1042 38th Street, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "phone": "(718) 886-1534",
+    "lat": 40.644578979551,
+    "lng": -73.991441960795
+  },
+  {
+    "source": "article16",
+    "name": "THE SHIELD INSTITUTE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65930164 · satellite 65930164010",
+    "address": "4234 Vireo Avenue, Bronx, NY, 10470",
+    "region": "Bronx",
+    "phone": "(718) 886-1534",
+    "lat": 40.896739175913,
+    "lng": -73.864445454289
+  },
+  {
+    "source": "article16",
+    "name": "THE SHIELD INSTITUTE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65930164 · satellite 65930164011",
+    "address": "24420 Grand Central Parkway, Bellerose, NY, 11426",
+    "region": "Queens",
+    "phone": "(718) 886-1534",
+    "lat": 40.749154979766,
+    "lng": -73.727791517978
+  },
+  {
+    "source": "article16",
+    "name": "THE SHIELD INSTITUTE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65930164 · satellite 65930164012",
+    "address": "144-61 Roosevelt Avenue, Flushing, NY, 11354",
+    "region": "Queens",
+    "phone": "(718) 886-1534",
+    "lat": 40.762278226531,
+    "lng": -73.819876178315
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF NASSAU COUNTY, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 60910301",
+    "address": "380 Washington Avenue, Roosevelt, NY, 11575",
+    "region": "Nassau",
+    "phone": "(516) 378-2000",
+    "lat": 40.679538471528,
+    "lng": -73.575993424396
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF NASSAU COUNTY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60910301 · satellite 60910301001",
+    "address": "421 Merrick Road, Oceanside, NY, 11572",
+    "region": "Nassau",
+    "phone": "(516) 378-2000",
+    "lat": 40.653577890964,
+    "lng": -73.625599955772
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATIONS OF NEW YORK STATE, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 71430301",
+    "address": "2324 Forest Avenue, Staten Island, NY, 10303",
+    "region": "Staten Island",
+    "phone": "(212) 947-5770",
+    "lat": 40.627451595512,
+    "lng": -74.167290759041
   },
   {
     "source": "article16",
@@ -245,11 +1435,38 @@
     "services": [
       "Article 16 Satellite"
     ],
-    "address": "West Farms Health Center, Bronx, NY, 10451",
-    "county": "Bronx",
+    "detail": "OPWDD program 71430301 · satellite 71430301009",
+    "address": "61-35 220th Street, Oakland Gardens, NY, 11364",
+    "region": "Queens",
     "phone": "(212) 947-5770",
-    "lat": 40.83998,
-    "lng": -73.87787
+    "lat": 40.748083620846,
+    "lng": -73.757583308697
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATIONS OF NEW YORK STATE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71430301 · satellite 71430301019",
+    "address": "3640 37th Street, Long Island City, NY, 11101",
+    "region": "Queens",
+    "phone": "(212) 947-5770",
+    "lat": 40.753337047421,
+    "lng": -73.925859740824
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 61240335",
+    "address": "110 Elmwood Avenue, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "phone": "(212) 683-6700",
+    "lat": 40.626963937911,
+    "lng": -73.976317210135
   },
   {
     "source": "article16",
@@ -257,11 +1474,25 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61240335 · satellite 61240335001",
+    "address": "175 Lawrence Avenue, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "phone": "(212) 683-6700",
+    "lat": 40.630519595027,
+    "lng": -73.974016199066
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61240335 · satellite 61240335002",
     "address": "408 East 137th Street, Bronx, NY, 10454",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 683-6700",
-    "lat": 40.808049,
-    "lng": -73.922762
+    "lat": 40.808260900568,
+    "lng": -73.923125012368
   },
   {
     "source": "article16",
@@ -269,11 +1500,51 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61240335 · satellite 61240335003",
+    "address": "333 Avenue S, Brooklyn, NY, 11213",
+    "region": "Brooklyn",
+    "phone": "(212) 683-6700",
+    "lat": 40.601766868283,
+    "lng": -73.973344009251
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61240335 · satellite 61240335004",
+    "address": "1780 Stillwell, Bronx, NY, 10469",
+    "region": "Bronx",
+    "phone": "(212) 683-6700",
+    "lat": 40.8580576202,
+    "lng": -73.834562077167
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61240335 · satellite 61240335005",
+    "address": "281 Port Richmond Avenue, Staten Island, NY, 10302",
+    "region": "Staten Island",
+    "phone": "(212) 683-6700",
+    "lat": 40.634481703129,
+    "lng": -74.135678415064
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61240335 · satellite 61240335006",
     "address": "251 West 154th Street, New York, NY, 10039",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 683-6700",
-    "lat": 40.828257,
-    "lng": -73.936718
+    "lat": 40.828124632179,
+    "lng": -73.93675248378
   },
   {
     "source": "article16",
@@ -281,11 +1552,12 @@
     "services": [
       "Article 16 Satellite"
     ],
-    "address": "5030 Broadway, New York, NY, 10034",
-    "county": "New York",
+    "detail": "OPWDD program 61240335 · satellite 61240335007",
+    "address": "5030 Broadway, New York, NY, 10036",
+    "region": "Manhattan",
     "phone": "(212) 683-6700",
-    "lat": 40.868923,
-    "lng": -73.91666
+    "lat": 40.868942583471,
+    "lng": -73.91733946478
   },
   {
     "source": "article16",
@@ -293,11 +1565,64 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61240335 · satellite 61240335008",
     "address": "2432 Grand Concourse, Bronx, NY, 10458",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 683-6700",
-    "lat": 40.86062,
-    "lng": -73.897582
+    "lat": 40.860668884891,
+    "lng": -73.897825801738
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY OF QUEENS, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 60940160",
+    "address": "81-15 164th Street, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 380-3000",
+    "lat": 40.720254425547,
+    "lng": -73.804137236671
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY OF QUEENS, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60940160 · satellite 60940160001",
+    "address": "82-25 164th Street, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 380-3000",
+    "lat": 40.718609662868,
+    "lng": -73.803712524035
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY OF QUEENS, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60940160 · satellite 60940160002",
+    "address": "249-16 Grand Central Parkway, Bellerose, NY, 11426",
+    "region": "Queens",
+    "phone": "(718) 380-3000",
+    "lat": 40.749915129686,
+    "lng": -73.727442695302
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 02290350",
+    "address": "1200 East and West Road, West Seneca, NY, 14224-3604",
+    "region": "Suffolk",
+    "phone": "(716) 517-2000",
+    "lat": 41.006487991739,
+    "lng": -72.46553598363
   },
   {
     "source": "article16",
@@ -305,11 +1630,12 @@
     "services": [
       "Article 16 Clinic"
     ],
+    "detail": "OPWDD program 61130310",
     "address": "220 East 42nd Street, New York, NY, 10017",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 273-6182",
-    "lat": 40.749875,
-    "lng": -73.973072
+    "lat": 40.750506990905,
+    "lng": -73.973988133785
   },
   {
     "source": "article16",
@@ -317,11 +1643,25 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61130310 · satellite 61130310007",
+    "address": "175 Remsen Street, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "phone": "(212) 273-6182",
+    "lat": 40.693343349241,
+    "lng": -73.991576265315
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61130310 · satellite 61130310008",
     "address": "3060 East Tremont Avenue, Bronx, NY, 10461",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 273-6182",
-    "lat": 40.838985,
-    "lng": -73.836479
+    "lat": 40.839060429398,
+    "lng": -73.836251158781
   },
   {
     "source": "article16",
@@ -329,11 +1669,51 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61130310 · satellite 61130310009",
+    "address": "211-11 Northern Boulevard, Bayside, NY, 11361",
+    "region": "Queens",
+    "phone": "(212) 273-6182",
+    "lat": 40.76,
+    "lng": -73.7717
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61130310 · satellite 61130310010",
+    "address": "2922 Avenue T, Brooklyn, NY, 11229",
+    "region": "Brooklyn",
+    "phone": "(212) 273-6182",
+    "lat": 40.602619116918,
+    "lng": -73.942381945905
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61130310 · satellite 61130310011",
+    "address": "3364 Nostrand Avenue, Brooklyn, NY, 11229",
+    "region": "Brooklyn",
+    "phone": "(212) 273-6182",
+    "lat": 40.601777009288,
+    "lng": -73.942222650247
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61130310 · satellite 61130310012",
     "address": "290 Madison Avenue, New York, NY, 10017",
-    "county": "New York",
+    "region": "Manhattan",
     "phone": "(212) 273-6182",
-    "lat": 40.751858,
-    "lng": -73.980203
+    "lat": 40.751772818219,
+    "lng": -73.980123927949
   },
   {
     "source": "article16",
@@ -341,11 +1721,51 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61130310 · satellite 61130310014",
+    "address": "8002 Kew Gardens Road, Kew Gardens, NY, 11415",
+    "region": "Queens",
+    "phone": "(212) 273-6182",
+    "lat": 40.70697,
+    "lng": -73.82922
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61130310 · satellite 61130310015",
+    "address": "3711 35th Avenue, Astoria, NY, 11101",
+    "region": "Queens",
+    "phone": "(212) 273-6182",
+    "lat": 40.755866602116,
+    "lng": -73.923531459332
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61130310 · satellite 61130310016",
+    "address": "555 Washington Avenue, Brentwood, NY, 11717",
+    "region": "Suffolk",
+    "phone": "(212) 273-6182",
+    "lat": 40.806083442768,
+    "lng": -73.248635365018
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61130310 · satellite 61130310017",
     "address": "1241 Zerega Avenue, Bronx, NY, 10461",
-    "county": "Bronx",
+    "region": "Bronx",
     "phone": "(212) 273-6182",
-    "lat": 40.833945,
-    "lng": -73.84542
+    "lat": 40.833865118687,
+    "lng": -73.845252492542
   },
   {
     "source": "article16",
@@ -353,10 +1773,37 @@
     "services": [
       "Article 16 Satellite"
     ],
-    "address": "310 Lenox Avenue, New York, NY, 10027",
-    "county": "New York",
+    "detail": "OPWDD program 61130310 · satellite 61130310018",
+    "address": "310 Lenox Avenue, New York, NY, 11127",
+    "region": "Manhattan",
     "phone": "(212) 273-6182",
-    "lat": 40.808119,
-    "lng": -73.944822
+    "lat": 40.808153497152,
+    "lng": -73.945119726729
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61130310 · satellite 61130310019",
+    "address": "995 Fulton Road, Farmingdale, NY, 11735",
+    "region": "Nassau",
+    "phone": "(212) 273-6182",
+    "lat": 40.725247489191,
+    "lng": -73.434309358603
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61130310 · satellite 61130310020",
+    "address": "361 83rd Street, Brooklyn, NY, 11229",
+    "region": "Brooklyn",
+    "phone": "(212) 273-6182",
+    "lat": 40.625342945948,
+    "lng": -74.028482562614
   }
 ]
