@@ -213,6 +213,27 @@ async function main() {
     });
   }
 
+  // The clinic list is dated October 2024; the OPWDD agency directory (data.ny.gov) is newer. When the same agency
+  // is in both with a different phone number, use the directory's (run seed-opwdd.ts first).
+  const agencyKey = (n: string) => n.toUpperCase().replace(/[^A-Z0-9 ]/g, " ").split(/\s+/)
+    .filter((t) => t && !["INC", "INCORPORATED", "THE", "OF", "AND", "FOR", "CORP", "CORPORATION", "LLC", "LTD", "CO"].includes(t)).join(" ");
+  const directoryPhones = new Map<string, string>();
+  const opwdd: CachedProvider[] = JSON.parse(readFileSync(join(process.cwd(), "src/data/opwdd-geocoded.json"), "utf-8"));
+  for (const p of opwdd) if (p.phone && !directoryPhones.has(agencyKey(p.name))) directoryPhones.set(agencyKey(p.name), p.phone);
+  const digits = (p?: string) => (p ?? "").replace(/\D/g, "").slice(0, 10);
+  const updatedPhones = new Set<string>();
+  for (const site of cached) {
+    const newer = directoryPhones.get(agencyKey(site.name));
+    if (newer && digits(newer) !== digits(site.phone)) {
+      updatedPhones.add(`${site.name}: ${site.phone} -> ${newer}`);
+      site.phone = newer;
+    } else if (newer && newer !== site.phone) {
+      site.phone = newer; // same number, but the directory adds an extension
+    }
+  }
+  console.log(`\nPhones updated from the newer OPWDD directory: ${updatedPhones.size}`);
+  updatedPhones.forEach((u) => console.log(`  - ${u}`));
+
   cached.sort((a, b) => a.name.localeCompare(b.name));
   console.log(`\nSaved ${cached.length} clinic sites (located by: ${JSON.stringify(how)})`);
   console.log(`Rejected Census matches that did not agree with the input address: ${rejectedMatches.length}`);

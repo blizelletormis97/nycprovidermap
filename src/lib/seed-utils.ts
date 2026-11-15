@@ -1,12 +1,17 @@
 /** Shared helpers for the seed scripts. */
 
-/** Format a 10-digit phone number as (212) 555-1234; returns other values unchanged. */
+/**
+ * Format a phone number as (212) 555-1234, keeping an extension: "516-626-1000 X1105" -> "(516) 626-1000 ext. 1105".
+ * Returns other values unchanged.
+ */
 export function formatPhone(raw?: string): string | undefined {
   if (!raw) return undefined;
-  const digits = raw.replace(/\D/g, "");
+  const [main, ext] = raw.split(/\s*(?:x|ext\.?|extension)\s*/i);
+  const digits = main.replace(/\D/g, "");
   const ten = digits.length === 11 && digits.startsWith("1") ? digits.slice(1) : digits;
   if (ten.length !== 10) return raw.trim() || undefined;
-  return `(${ten.slice(0, 3)}) ${ten.slice(3, 6)}-${ten.slice(6)}`;
+  const extension = ext?.replace(/\D/g, "");
+  return `(${ten.slice(0, 3)}) ${ten.slice(3, 6)}-${ten.slice(6)}${extension ? ` ext. ${extension}` : ""}`;
 }
 
 /** Title-case an ALL CAPS street address while leaving mixed-case input alone. */
