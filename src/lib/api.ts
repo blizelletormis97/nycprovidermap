@@ -134,6 +134,7 @@ export function getLocationIndex(): Map<string, LocationIndexEntry> {
       source: provider.source,
       detail: provider.detail,
       office: provider.office,
+      unconfirmed: provider.unconfirmed,
       serves: provider.serves,
       website: provider.website,
       phone: provider.phone,

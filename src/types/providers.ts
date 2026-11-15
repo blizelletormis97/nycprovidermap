@@ -15,6 +15,7 @@ export interface CachedProvider {
   services: string[]; // service category keys from constants.ts SERVICE_GROUPS
   detail?: string; // extra context shown in the popup
   office?: boolean; // administrative office or billing address, not where services are delivered
+  unconfirmed?: boolean; // address from an older list that current data doesn't confirm; call to confirm
   address: string;
   region: Region;
   /** County of the provider's address, e.g. "Monroe" */
@@ -40,6 +41,7 @@ export interface ProviderDetail {
   source: DataSource;
   detail?: string;
   office?: boolean;
+  unconfirmed?: boolean;
   serves?: Region[];
   website?: string;
   phone?: string;

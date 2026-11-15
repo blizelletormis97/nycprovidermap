@@ -154,8 +154,12 @@ bun run src/lib/seed-medicaid.ts
 # Home health agencies (reads the DOH special-needs page; run after seed-medicaid)
 bun run src/lib/seed-home-care.ts
 
-# Article 16 clinics (parses src/data/raw/article-16-raw.json, geocodes with the Census geocoder; ~5 min)
+# Article 16 clinics (parses src/data/raw/article-16-raw.json, geocodes with the Census geocoder; ~5 min;
+# run after seed-opwdd so phone numbers can be updated from the newer OPWDD directory)
 bun run src/lib/seed-article16.ts
+
+# Check Article 16 addresses against current Medicaid clinic enrollments (flags the rest "call to confirm")
+bun run src/lib/verify-article16.ts
 ```
 
 To update Article 16 clinics, download the latest list from OPWDD, extract its table to
@@ -220,5 +224,11 @@ src/
   `src/lib/seed-utils.ts`). This rejects near-misses such as "376 Bay 44th Street" being matched to "376 44th St".
 - **Office and billing addresses** are flagged (`office: true`) and labeled on the map: every OPWDD agency
   (administrative offices) and Medicaid "rate set" billing enrollments.
-- The Article 16 clinic list in `src/data/raw/` is dated October 2024; download a newer one from OPWDD when available.
+- The Article 16 clinic list in `src/data/raw/` is dated October 2024. As of November 2026 it is still the newest
+  list OPWDD publishes (the copy posted in October 2026 is identical). To keep it as current as possible:
+  - **Phones:** when an agency is also in the OPWDD agency directory (updated March 2026) with a different number,
+    the directory's number is used.
+  - **Addresses:** `verify-article16.ts` confirms each address against the weekly-updated Medicaid listing (a
+    Medicaid-enrolled clinic at the same address today). Unconfirmed sites are labeled "call to confirm" on the map.
+- Phone extensions are kept and shown as "ext. 1234".
 - Medicaid enrollment does not mean a provider has openings. Confirm with the provider before referring.

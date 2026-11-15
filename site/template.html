@@ -546,7 +546,8 @@ function popupHTML(loc, ps) {
       ${p.d ? `<div>${esc(p.d)}</div>` : ""}
       ${p.ph ? `<div>Call <span class="phone">${esc(p.ph)}</span></div>` : ""}
       ${p.sv ? `<div>Visits people at home in: ${esc(p.sv.join(", "))}</div>` : ""}
-      ${p.o ? `<div><span class="office">Office or billing address</span></div>` : ""}</li>`).join("")}</ul>
+      ${p.o ? `<div><span class="office">Office or billing address</span></div>` : ""}
+      ${p.u ? `<div><span class="office">Address from OPWDD's 2024 list, not confirmed in current Medicaid data. Call to confirm.</span></div>` : ""}</li>`).join("")}</ul>
     ${hidden > 0 ? `<div class="hidden-note">${hidden} more provider${hidden > 1 ? "s" : ""} here hidden by your filters.</div>` : ""}
   </div>`;
 }

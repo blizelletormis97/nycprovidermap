@@ -25,6 +25,7 @@ const compact = (p: ProviderDetail) => ({
   t: p.type,
   ...(p.detail ? { d: p.detail } : {}),
   ...(p.office ? { o: 1 } : {}),
+  ...(p.unconfirmed ? { u: 1 } : {}),
   ...(p.serves ? { sv: p.serves } : {}),
   ...(p.phone ? { ph: p.phone } : {}),
   ...(p.website ? { w: p.website } : {}),
