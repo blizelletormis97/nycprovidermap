@@ -1,18 +1,26 @@
 # IDD Medicaid Provider Finder
 
-A care manager tool for finding **intellectual and developmental disability (IDD) providers that accept Medicaid** in:
+A care manager tool for finding **intellectual and developmental disability (IDD) providers that accept Medicaid**
+across **all of New York State**, organized by OPWDD region:
 
-- **New York City** — Manhattan, Brooklyn, the Bronx, Queens and Staten Island
-- **Long Island** — Nassau and Suffolk counties
+| OPWDD region | Regional offices | Map areas |
+|---|---|---|
+| Region 1 | Western New York, Finger Lakes | Region 1 (17 counties) |
+| Region 2 | Central New York, Broome, Sunmount | Region 2 (20 counties) |
+| Region 3 | Capital District, Hudson Valley, Taconic | Region 3 (18 counties) |
+| Region 4 | Metro NY, Brooklyn, Bernard M. Fineson, Staten Island | Manhattan, Brooklyn, Bronx, Queens, Staten Island |
+| Region 5 | Long Island | Nassau, Suffolk |
 
-To add another county, add it to `REGIONS` / `TARGET_COUNTIES` in `src/lib/constants.ts` and to
-`src/lib/geo-utils.ts`, then re-run the seed scripts.
+The county lists live in `OPWDD_REGIONS` (`src/lib/constants.ts`). They match the regional office named for each
+agency in the NY Open Data OPWDD directory; nine counties with no agencies there (Genesee, Orleans, Wyoming,
+Schuyler, Yates, Hamilton, Lewis, Greene, Schoharie) follow OPWDD's regional structure.
 
 ## Features
 
 - Interactive Mapbox map with clustering; marker color shows the data source
 - Search by provider name, street or ZIP code, and jump straight to a result
-- Filter by area (borough / Long Island county), data source and service
+- Filter by area (NYC borough, Long Island county or upstate OPWDD region), data source and service
+- Search also matches county names (e.g. "Monroe", "Albany")
 - Click a location to see every provider there, with phone (tap to call), website, program details and a directions link
 - Providers at the same building are grouped onto one pin, even across datasets
 - Zoom and "locate me" controls, mobile-friendly layout, dark/light theme
@@ -109,11 +117,14 @@ Sites enrolled in NY Medicaid under the IDD-specific provider types:
 
 Certified home health agencies the Department of Health has approved to serve people who would otherwise need care
 in an OPWDD-licensed program. Kept only if they serve a county in the service area, their CHHA office is found in the
-DOH Health Facility dataset, and they are enrolled in Medicaid as a Certified Home Health Agency at that address.
+DOH Health Facility dataset, and they are enrolled in Medicaid as a Certified Home Health Agency (matched by address, or by name when the
+agency enrolled from another office).
 They visit people at home, so the map shows them in every area they serve, not just their office's area.
 
-Agencies on the DOH list that serve other populations (e.g. medically fragile children) or only other regions are
-left out.
+Six agencies qualify: Able Health Care Service, Americare Certified Special Services and Extended Home Care (NYC and
+Long Island; Americare also Region 3), Datahr Home Health Care and Willcare (Region 3) and People Home Health
+Services-Certified (Region 1). Agencies on the DOH list approved for other populations (e.g. medically fragile children)
+are left out.
 
 ### Evaluations
 
@@ -124,6 +135,9 @@ diagnosis specifically, so call to confirm.
 ## Refreshing Data
 
 ```bash
+# OPWDD region outlines for the website map (only when region definitions change)
+bun run src/lib/build-boundaries.ts
+
 # OPWDD agencies (NY Open Data)
 bun run src/lib/seed-opwdd.ts
 
@@ -139,7 +153,8 @@ bun run src/lib/seed-article16.ts
 
 To update Article 16 clinics, download the latest list from OPWDD, extract its table to
 `src/data/raw/article-16-raw.json` (e.g. with tabula, lattice mode), and re-run the script. It prints any
-addresses it could not geocode; add those to `MANUAL_LOCATIONS` in the script if they are in the service area.
+addresses it could not geocode; add those to `MANUAL_LOCATIONS` in the script. 18 rural upstate sites (mostly
+route and county-road addresses) are currently not placed.
 
 ## Project Structure
 
@@ -154,7 +169,7 @@ src/
 │   └── map-filter.tsx      # Search + filter sidebar
 ├── data/
 │   ├── raw/                # Article 16 source list (PDF + extracted table)
-│   ├── boundaries/         # NYC borough GeoJSON + simplified service-area county outlines
+│   ├── boundaries/         # NYC borough GeoJSON + simplified OPWDD region outlines
 │   └── *-geocoded.json     # Cached provider data
 ├── lib/
 │   ├── api.ts              # Data access, location grouping, search
@@ -171,20 +186,23 @@ src/
 
 | Source | Providers |
 |--------|-----------|
-| Article 16 clinic sites | 138 |
-| OPWDD agencies | 164 |
-| Medicaid-enrolled IDD sites | 679 |
-| Home health agencies (OPWDD special needs) | 3 (Able, Americare, Extended Home Care; each serves all 7 areas) |
-| **Total** | **984** at 631 map locations |
+| Article 16 clinic sites | 402 |
+| OPWDD agencies | 343 |
+| Medicaid-enrolled IDD sites | 1,458 |
+| Home health agencies (OPWDD special needs) | 6 |
+| **Total** | **2,209** at 1,401 map locations |
 
 | Area | Map locations |
 |------|-----------|
-| Brooklyn | 161 |
+| Region 1 · Western NY & Finger Lakes | 241 |
+| Region 2 · Central NY, Broome & Sunmount | 188 |
+| Region 3 · Capital District, Hudson Valley & Taconic | 340 |
+| Brooklyn | 163 |
 | Queens | 101 |
 | Suffolk | 99 |
 | Manhattan | 82 |
-| Bronx | 69 |
-| Nassau | 67 |
+| Bronx | 70 |
+| Nassau | 68 |
 | Staten Island | 49 |
 
 ## Data quality notes

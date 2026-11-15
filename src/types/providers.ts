@@ -2,7 +2,11 @@
 export type DataSource = "article16" | "opwdd" | "homecare" | "medicaid";
 
 // Service area: all five NYC boroughs plus Long Island's Nassau and Suffolk counties
-export type Region = "Manhattan" | "Brooklyn" | "Bronx" | "Queens" | "Staten Island" | "Nassau" | "Suffolk";
+// Map areas: the NYC boroughs (OPWDD Region 4), Long Island counties (Region 5) and the upstate OPWDD regions 1-3
+export type Region =
+  | "Manhattan" | "Brooklyn" | "Bronx" | "Queens" | "Staten Island"
+  | "Nassau" | "Suffolk"
+  | "Region 1" | "Region 2" | "Region 3";
 
 // Unified cached provider — all sources share this shape
 export interface CachedProvider {
@@ -13,6 +17,8 @@ export interface CachedProvider {
   office?: boolean; // administrative office or billing address, not where services are delivered
   address: string;
   region: Region;
+  /** County of the provider's address, e.g. "Monroe" */
+  county?: string;
   /** Areas the provider serves, when wider than its office's area (e.g. home health agencies) */
   serves?: Region[];
   lat: number;

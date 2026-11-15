@@ -1,6 +1,6 @@
 /**
  * Seed script to fetch OPWDD service provider agencies from NY Open Data for the
- * service area (the five NYC boroughs, Nassau, Suffolk).
+ * whole state (OPWDD Regions 1-5).
  * Only agencies offering at least one Medicaid-funded OPWDD service are kept.
  * Source: https://data.ny.gov/Human-Services/Directory-of-Developmental-Disabilities-Service-Pr/ieqx-cqyk
  * Run with: bun run src/lib/seed-opwdd.ts
@@ -8,8 +8,8 @@
 
 import { writeFileSync } from "fs";
 import { join } from "path";
-import { getRegion } from "./geo-utils";
-import { OPWDD_MEDICAID_SERVICES, OPWDD_SERVICE_FIELDS, TARGET_COUNTIES } from "./constants";
+import { countyName, getRegion } from "./geo-utils";
+import { OPWDD_MEDICAID_SERVICES, OPWDD_SERVICE_FIELDS } from "./constants";
 import { formatPhone, titleCaseAddress } from "./seed-utils";
 
 import type { CachedProvider } from "@/types/providers";
@@ -32,8 +32,7 @@ const OPWDD_API_URL = "https://data.ny.gov/resource/ieqx-cqyk.json";
 
 async function fetchOpwddProviders(): Promise<OpwddProvider[]> {
   console.log("Fetching OPWDD providers from NY Open Data...");
-  const where = `upper(county) in(${TARGET_COUNTIES.map((c) => `'${c}'`).join(",")})`;
-  const res = await fetch(`${OPWDD_API_URL}?$limit=5000&$where=${encodeURIComponent(where)}`);
+  const res = await fetch(`${OPWDD_API_URL}?$limit=5000`);
   if (!res.ok) throw new Error(`API error ${res.status}`);
   const providers: OpwddProvider[] = await res.json();
   console.log(`  Fetched ${providers.length} providers from API`);
@@ -83,6 +82,7 @@ async function main() {
       office: true,
       address,
       region,
+      county: countyName(provider.county),
       phone: formatPhone(provider.phone),
       website: provider.url?.url,
       lat,

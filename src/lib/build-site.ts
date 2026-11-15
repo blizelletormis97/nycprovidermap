@@ -33,11 +33,13 @@ const compact = (p: ProviderDetail) => ({
 const locations = [...getLocationIndex().values()].map((entry) => ({
   a: entry.address,
   r: entry.region,
+  ...(entry.county ? { co: entry.county } : {}),
   c: [round(entry.lat), round(entry.lng)],
   p: entry.providers.map(compact),
 }));
 
-const basemap = readFileSync(join(root, "src/data/boundaries/service-area-counties.json"), "utf-8");
+// Outlines of the five OPWDD regions (made by src/lib/build-boundaries.ts)
+const basemap = readFileSync(join(root, "src/data/boundaries/opwdd-regions.json"), "utf-8");
 
 // "Month YYYY" of the last commit that touched the data, falling back to today
 let dataDate = new Date();

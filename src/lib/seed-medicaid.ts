@@ -1,14 +1,14 @@
 /**
  * Seed script to fetch Medicaid-enrolled IDD (OPWDD) provider sites for the
- * service area (the five NYC boroughs, Nassau, Suffolk).
+ * whole state (OPWDD Regions 1-5).
  * Source: https://health.data.ny.gov/Health/Medicaid-Enrolled-Provider-Listing/keti-qx5t
  * Run with: bun run src/lib/seed-medicaid.ts
  */
 
 import { writeFileSync } from "fs";
 import { join } from "path";
-import { getRegion } from "./geo-utils";
-import { MEDICAID_IDD_TYPES, TARGET_COUNTIES } from "./constants";
+import { countyName, getRegion } from "./geo-utils";
+import { MEDICAID_IDD_TYPES } from "./constants";
 import { cleanAddress, cleanPhone, isStreetAddress, titleCaseAddress } from "./seed-utils";
 
 import type { CachedProvider } from "@/types/providers";
@@ -31,8 +31,7 @@ const API_URL = "https://health.data.ny.gov/resource/keti-qx5t.json";
 async function main() {
   console.log("Fetching Medicaid-enrolled IDD providers from NY Health Data...");
   const types = Object.keys(MEDICAID_IDD_TYPES).map((t) => `'${t}'`).join(",");
-  const counties = TARGET_COUNTIES.map((c) => `'${c}'`).join(",");
-  const where = `profession_or_service in(${types}) AND upper(county) in(${counties}) AND latitude IS NOT NULL`;
+  const where = `profession_or_service in(${types}) AND state='NY' AND latitude IS NOT NULL`;
   const select = "mmis_id,mmis_name,profession_or_service,service_address,city,zip_code,county,telephone,latitude,longitude";
   const res = await fetch(`${API_URL}?$limit=50000&$select=${select}&$where=${encodeURIComponent(where)}`);
   if (!res.ok) throw new Error(`API error ${res.status}`);
@@ -69,6 +68,7 @@ async function main() {
       ...(notes.includes("Billing enrollment (rate set)") ? { office: true } : {}),
       address,
       region,
+      county: countyName(row.county),
       phone: cleanPhone(row.telephone),
       lat,
       lng,

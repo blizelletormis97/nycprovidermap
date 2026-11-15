@@ -1,10 +1,42 @@
 import type { DataSource, Region } from "@/types/providers";
 
 // Service area: the five NYC boroughs plus Long Island's Nassau and Suffolk counties
-export const REGIONS: Region[] = ["Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island", "Nassau", "Suffolk"];
+export const REGIONS: Region[] = [
+  "Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island", "Nassau", "Suffolk", "Region 1", "Region 2", "Region 3",
+];
 
-// County names as they appear in the NY open-data sets
-export const TARGET_COUNTIES = ["NEW YORK", "KINGS", "BRONX", "QUEENS", "RICHMOND", "NASSAU", "SUFFOLK"];
+// OPWDD regions (groups of Developmental Disabilities Regional/State Operations Offices) and the counties in each.
+// Checked against the regional office named for each agency in the NY Open Data OPWDD directory; Genesee, Orleans,
+// Wyoming, Schuyler, Yates, Hamilton, Lewis, Greene and Schoharie have no agencies there and follow OPWDD's structure.
+export const OPWDD_REGIONS: { id: 1 | 2 | 3 | 4 | 5; name: string; offices: string; counties: string[] }[] = [
+  {
+    id: 1, name: "Western NY & Finger Lakes", offices: "Western New York and Finger Lakes",
+    counties: ["Allegany", "Cattaraugus", "Chautauqua", "Erie", "Genesee", "Niagara", "Orleans", "Wyoming",
+      "Chemung", "Livingston", "Monroe", "Ontario", "Schuyler", "Seneca", "Steuben", "Wayne", "Yates"],
+  },
+  {
+    id: 2, name: "Central NY, Broome & Sunmount", offices: "Central New York, Broome and Sunmount",
+    counties: ["Cayuga", "Cortland", "Herkimer", "Madison", "Oneida", "Onondaga", "Oswego",
+      "Broome", "Chenango", "Delaware", "Otsego", "Tioga", "Tompkins",
+      "Clinton", "Essex", "Franklin", "Hamilton", "Jefferson", "Lewis", "St. Lawrence"],
+  },
+  {
+    id: 3, name: "Capital District, Hudson Valley & Taconic", offices: "Capital District, Hudson Valley and Taconic",
+    counties: ["Albany", "Fulton", "Greene", "Montgomery", "Rensselaer", "Saratoga", "Schenectady", "Schoharie",
+      "Warren", "Washington", "Orange", "Rockland", "Sullivan", "Westchester", "Columbia", "Dutchess", "Putnam", "Ulster"],
+  },
+  { id: 4, name: "New York City", offices: "Metro New York, Brooklyn, Bernard M. Fineson and Staten Island", counties: ["Bronx", "Kings", "New York", "Queens", "Richmond"] },
+  { id: 5, name: "Long Island", offices: "Long Island", counties: ["Nassau", "Suffolk"] },
+];
+
+// Display names for the map areas
+export const REGION_LABELS: Record<Region, string> = {
+  Manhattan: "Manhattan", Brooklyn: "Brooklyn", Bronx: "Bronx", Queens: "Queens", "Staten Island": "Staten Island",
+  Nassau: "Nassau", Suffolk: "Suffolk",
+  "Region 1": "Region 1 · Western NY & Finger Lakes",
+  "Region 2": "Region 2 · Central NY, Broome & Sunmount",
+  "Region 3": "Region 3 · Capital District, Hudson Valley & Taconic",
+};
 
 // Medicaid Enrolled Provider Listing types that are specific to OPWDD / IDD services
 export const MEDICAID_IDD_TYPES: Record<string, string> = {

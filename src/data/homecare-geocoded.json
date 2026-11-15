@@ -8,6 +8,7 @@
     "detail": "Certified home health agency approved by NYS DOH to serve: Office for People with Developmental Disabilities. Medicaid-enrolled as ABLE HEALTH CARE SERV INC (ID 01270882).",
     "address": "50 Clinton Street, Suite 208, Hempstead, NY, 11550",
     "region": "Nassau",
+    "county": "Nassau",
     "serves": [
       "Manhattan",
       "Brooklyn",
@@ -31,6 +32,7 @@
     "detail": "Certified home health agency approved by NYS DOH to serve: Office of Mental Health/Office for People with Developmental Disabilities. Medicaid-enrolled as AMERICARE CERTIFIED SS INC (ID 03007930).",
     "address": "5923 Strickland Avenue, Brooklyn, NY, 11234",
     "region": "Brooklyn",
+    "county": "Kings",
     "serves": [
       "Manhattan",
       "Brooklyn",
@@ -38,12 +40,31 @@
       "Queens",
       "Staten Island",
       "Nassau",
-      "Suffolk"
+      "Suffolk",
+      "Region 3"
     ],
     "phone": "(718) 535-3100",
     "website": "https://profiles.health.ny.gov/home_care/view/14082",
     "lat": 40.609184,
     "lng": -73.914093
+  },
+  {
+    "source": "homecare",
+    "name": "Datahr Home Health Care, Inc.",
+    "services": [
+      "Special Needs Home Health"
+    ],
+    "detail": "Certified home health agency approved by NYS DOH to serve: Office for People with Developmental Disabilities. Medicaid-enrolled as DATAHR HOME HEALTH CARE (ID 02558125).",
+    "address": "120 Kisco Avenue, Mt. Kisco, NY, 10549",
+    "region": "Region 3",
+    "county": "Westchester",
+    "serves": [
+      "Region 3"
+    ],
+    "phone": "(914) 242-1903",
+    "website": "https://profiles.health.ny.gov/home_care/view/14107",
+    "lat": 41.213188,
+    "lng": -73.727211
   },
   {
     "source": "homecare",
@@ -54,6 +75,7 @@
     "detail": "Certified home health agency approved by NYS DOH to serve: Office for People with Developmental Disabilities. Medicaid-enrolled as EXTENDED NURSING PERSONNEL CHHA LLC (ID 01973037).",
     "address": "2003 Coney Island Avenue, 3rd Floor, Brooklyn, NY, 11223",
     "region": "Brooklyn",
+    "county": "Kings",
     "serves": [
       "Manhattan",
       "Brooklyn",
@@ -67,5 +89,41 @@
     "website": "https://profiles.health.ny.gov/home_care/view/14069",
     "lat": 40.60844,
     "lng": -73.96188
+  },
+  {
+    "source": "homecare",
+    "name": "People, Home Health Services-Certified, Inc",
+    "services": [
+      "Special Needs Home Health"
+    ],
+    "detail": "Certified home health agency approved by NYS DOH to serve: Office for People with Developmental Disabilities. Medicaid-enrolled as PEOPLE HOME HLTH SERV CERTI (ID 01415654).",
+    "address": "692 Millersport Highway, Buffalo, NY, 14226",
+    "region": "Region 1",
+    "county": "Erie",
+    "serves": [
+      "Region 1"
+    ],
+    "phone": "(716) 634-8132",
+    "website": "https://profiles.health.ny.gov/home_care/view/14103",
+    "lat": 42.9733,
+    "lng": -78.80524
+  },
+  {
+    "source": "homecare",
+    "name": "Willcare",
+    "services": [
+      "Special Needs Home Health"
+    ],
+    "detail": "Certified home health agency approved by NYS DOH to serve: Office for People with Developmental Disabilities. Medicaid-enrolled as WILLCARE (ID 02996505).",
+    "address": "700 Corporate Boulevard, Newburgh, NY, 12550",
+    "region": "Region 3",
+    "county": "Orange",
+    "serves": [
+      "Region 3"
+    ],
+    "phone": "(845) 561-3655",
+    "website": "https://profiles.health.ny.gov/home_care/view/14051",
+    "lat": 41.510201,
+    "lng": -74.086716
   }
 ]

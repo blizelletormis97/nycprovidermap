@@ -1,7 +1,7 @@
 /**
- * Geospatial utilities for the service area:
- * the five NYC boroughs (borough polygons) and
- * Long Island's Nassau and Suffolk counties.
+ * Geospatial utilities for the service area: all of New York State, as map areas — the five NYC boroughs
+ * (OPWDD Region 4, checked against the borough polygons), Nassau and Suffolk (Region 5) and upstate OPWDD
+ * Regions 1-3 (by county).
  */
 
 import * as turf from "@turf/turf";
@@ -10,6 +10,7 @@ import { join } from "path";
 
 import type { Feature, MultiPolygon, FeatureCollection } from "geojson";
 import type { Region } from "@/types/providers";
+import { OPWDD_REGIONS } from "./constants";
 
 interface BoroughProperties {
   BoroCode: number;
@@ -39,7 +40,18 @@ const COUNTY_REGIONS: Record<string, Region> = {
   "STATEN ISLAND": "Staten Island",
   NASSAU: "Nassau",
   SUFFOLK: "Suffolk",
+  // Upstate counties map to their OPWDD region
+  ...Object.fromEntries(OPWDD_REGIONS.filter((r) => r.id <= 3).flatMap((r) =>
+    r.counties.map((c) => [normalizeCounty(c), `Region ${r.id}` as Region]))),
 };
+
+// Rough bounding box of New York State, to reject records whose coordinates are far from their county
+const NY_STATE_BBOX = { minLng: -79.8, maxLng: -71.8, minLat: 40.45, maxLat: 45.05 };
+
+/** "St. Lawrence County" / "SAINT LAWRENCE" -> "ST LAWRENCE" */
+function normalizeCounty(county: string): string {
+  return county.toUpperCase().replace(/\./g, "").replace(/\s+COUNTY$/, "").replace(/^SAINT\s/, "ST ").replace(/\s+/g, " ").trim();
+}
 
 // Generous bounding box for Long Island east of Queens (Nassau + Suffolk)
 const LONG_ISLAND_BBOX = { minLng: -73.78, maxLng: -71.8, minLat: 40.54, maxLat: 41.32 };
@@ -66,20 +78,26 @@ function findBoroCode(lat: number, lng: number): number | null {
   return null;
 }
 
-/** Map a county name from a dataset to a service-area region (null if outside the service area). */
+/** Map a county name from a dataset to a map area (null if not a New York State county). */
 export function countyToRegion(county?: string | null): Region | null {
   if (!county) return null;
-  const key = county.toUpperCase().replace(/\s+COUNTY$/, "").trim();
-  return COUNTY_REGIONS[key] ?? null;
+  return COUNTY_REGIONS[normalizeCounty(county)] ?? null;
+}
+
+/** "ST. LAWRENCE" / "Monroe County" -> "St. Lawrence" / "Monroe" (for display and search) */
+export function countyName(county?: string | null): string | undefined {
+  if (!county) return undefined;
+  const key = normalizeCounty(county);
+  const match = OPWDD_REGIONS.flatMap((r) => r.counties).find((c) => normalizeCounty(c) === key);
+  return match;
 }
 
 /**
- * Work out which service-area region a point is in.
+ * Work out which map area a point is in.
  *
- * NYC boroughs are checked against the official borough polygons. For Long
- * Island the dataset's county is required (we have no county polygons), and the
- * point must be east of Queens inside the Long Island bounding box.
- * Returns null for anything outside the service area.
+ * NYC boroughs are checked against the official borough polygons. Elsewhere the dataset's county decides:
+ * Nassau/Suffolk points must be east of Queens inside the Long Island bounding box, and upstate points must be
+ * inside New York State's bounding box. Returns null for anything outside New York State.
  */
 export function getRegion(lat: number, lng: number, county?: string | null): Region | null {
   if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
@@ -90,6 +108,13 @@ export function getRegion(lat: number, lng: number, county?: string | null): Reg
   }
 
   const countyRegion = countyToRegion(county);
+  if (!countyRegion) return null;
+  if (countyRegion.startsWith("Region ")) {
+    const inState = lng >= NY_STATE_BBOX.minLng && lng <= NY_STATE_BBOX.maxLng
+      && lat >= NY_STATE_BBOX.minLat && lat <= NY_STATE_BBOX.maxLat;
+    return inState ? countyRegion : null;
+  }
+  // An NYC county whose point fell outside the borough polygons is out of place
   if (countyRegion !== "Nassau" && countyRegion !== "Suffolk") return null;
 
   const inLongIsland = lng >= LONG_ISLAND_BBOX.minLng && lng <= LONG_ISLAND_BBOX.maxLng
