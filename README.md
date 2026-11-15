@@ -1,18 +1,20 @@
-# Medicaid Finder
+# IDD Medicaid Provider Finder
 
-A care manager tool for OPWDD to discover healthcare and developmental disability services in NYC (Manhattan & Bronx).
+A care manager tool for finding **intellectual and developmental disability (IDD) providers that accept Medicaid** in:
 
-## Overview
+- **Manhattan, Brooklyn, the Bronx and Staten Island**
+- **Long Island** — Nassau and Suffolk counties
 
-Care managers use this tool to quickly identify and locate providers and programs for their clients with developmental disabilities. The interactive map displays provider locations with filtering by data source and service type, supporting healthcare services (Medicaid/Medicare), OPWDD waiver services, and Article 16 clinics.
+Queens is not included. To add it (or another county), add it to `REGIONS` / `TARGET_COUNTIES` in
+`src/lib/constants.ts` and `src/lib/geo-utils.ts`, then re-run the seed scripts.
 
 ## Features
 
-- Interactive Mapbox map with clustering; markers are colored by the most DD-specific source at each address
+- Interactive Mapbox map with clustering; marker color shows the data source
 - Search by provider name, street or ZIP code, and jump straight to a result
-- Filter by data source (Article 16, OPWDD, OMH, NYS health facilities, Medicaid, Medicare)
-- Filter by service across 8 collapsible groups, with live location counts per service
+- Filter by area (borough / Long Island county), data source and service
 - Click a location to see every provider there, with phone (tap to call), website, program details and a directions link
+- Providers at the same building are grouped onto one pin, even across datasets
 - Zoom and "locate me" controls, mobile-friendly layout, dark/light theme
 
 ## Tech Stack
@@ -20,7 +22,7 @@ Care managers use this tool to quickly identify and locate providers and program
 - **Framework**: Next.js 16, React 19
 - **Map**: Mapbox GL via react-map-gl
 - **Styling**: Tailwind CSS, Shadcn UI
-- **Geo utilities**: Turf.js for polygon-based filtering
+- **Geo utilities**: Turf.js for borough polygon checks
 
 ## Getting Started
 
@@ -51,116 +53,58 @@ bun dev
 
 Open [http://localhost:3001](http://localhost:3001) to view the app.
 
-## Data Sources
+The app needs a Node server (`next start` or Vercel): provider details and search are served by
+`/api/locations/[id]` and `/api/search`.
 
-All provider data is sourced from official government datasets and cached locally for performance.
+## What counts as "IDD provider that accepts Medicaid"
 
-### Medicaid Providers
-
-**Source**: [NY Health Data - Medicaid Enrolled Provider Listing](https://health.data.ny.gov/Health/Medicaid-Enrolled-Provider-Listing/keti-qx5t)
-
-Includes providers enrolled in NY Medicaid: dentists, physicians, psychologists, home health agencies, and DME suppliers.
-
-### Medicare Providers
-
-**Source**: [CMS Doctors and Clinicians (DAC) National Downloadable File](https://data.cms.gov/provider-data/dataset/mj5m-pzi6)
-
-Includes Medicare-enrolled providers across multiple specialties:
-
-| Category | Specialties |
-|----------|-------------|
-| Primary Care | Internal Medicine, Family Practice, Pediatrics, Geriatrics, NPs, PAs |
-| Mental Health | Psychiatry, Psychology, Social Work, Mental Health Counseling |
-| Therapy | Physical Therapy, Occupational Therapy, Speech Therapy, Rehab Medicine |
-| Other | Dental, Podiatry, Optometry, Neurology, Nutrition, Chiropractic, Allergy |
-
-### OPWDD Providers
-
-**Source**: [NY Open Data - Directory of DD Service Provider Agencies](https://data.ny.gov/Human-Services/Directory-of-Developmental-Disabilities-Service-Pr/ieqx-cqyk)
-
-Voluntary sector agencies providing OPWDD waiver services:
-
-- Day Habilitation
-- Community Habilitation
-- Residential (IRA)
-- Supported Employment
-- Prevocational
-- Family Support
-- Individual Support Services (ISS)
-- Self-Direction
-- Intermediate Care (ICF)
-- Family Care
-
-### OMH Mental Health Programs
-
-**Source**: [NY Open Data - Local Mental Health Programs](https://data.ny.gov/Human-Services/Local-Mental-Health-Programs/6nvr-tbv8)
-
-NYS Office of Mental Health licensed and funded programs, grouped as:
-
-- Outpatient Clinic / PROS (MHOTRS, CCBHC, PROS, day treatment, partial hospitalization)
-- ACT / Intensive Outreach (ACT, Intensive Mobile Treatment, SOS, CTI, OnTrackNY)
-- Crisis Services (CPEP, mobile crisis, crisis residences, respite)
-- Inpatient Psychiatric
-- Children & Family (CFTSS, HealthySteps, family and youth peer support, school mental health)
-- Care Management / Health Home
-- Employment Services
-- Peer & Recovery Support
-
-OMH supportive housing and community residence addresses are confidential in the dataset (they are geocoded to OMH headquarters in Albany), so those programs are left off the map.
-
-### NYS Health Facilities
-
-**Source**: [NY Health Data - Health Facility General Information](https://health.data.ny.gov/Health/Health-Facility-General-Information/vn5v-hh5r)
-
-NYS DOH-licensed facilities: hospitals, diagnostic & treatment centers and hospital extension clinics (including FQHCs and dialysis), school-based clinics, nursing homes, licensed/certified home care agencies, adult homes and enriched housing, adult day health care and hospice.
+Only these three sources are shown. Each one is IDD-specific and tied to Medicaid:
 
 ### Article 16 Clinics
 
-**Source**: [OPWDD Article 16 Certified Clinics](https://opwdd.ny.gov/providers/article-16-clinics)
+**Source**: [OPWDD Article 16 Certified Clinics](https://opwdd.ny.gov/providers/article-16-clinics) (statewide "Clinic Programs and Satellites" list, `src/data/raw/article-16-clinics.pdf`)
 
-OPWDD-certified habilitative clinics providing specialized clinical services for people with developmental disabilities:
+OPWDD-certified clinics (main sites and satellites) that bill Medicaid for clinical services for people with IDD:
+speech, physical and occupational therapy, psychology and counseling, nutrition, and OPWDD eligibility evaluations.
+Addresses are geocoded with the free U.S. Census geocoder, and the geocoded county decides the area.
 
-- Speech/language therapy
-- Physical therapy
-- Occupational therapy
-- Psychological evaluations
-- Counseling (individual, group, family)
-- Nutrition services
-- OPWDD eligibility evaluations
+### OPWDD Agencies
 
-Article 16 clinics are staffed by professionals trained to work with the DD population and are often the preferred referral for therapy services.
+**Source**: [NY Open Data - Directory of DD Service Provider Agencies](https://data.ny.gov/Human-Services/Directory-of-Developmental-Disabilities-Service-Pr/ieqx-cqyk)
+
+OPWDD-certified agencies and the services they provide. Agencies are kept only if they offer at least one
+**Medicaid-funded** OPWDD service (HCBS waiver services such as Day/Community Habilitation, Residential IRA,
+Prevocational, Supported Employment, ISS, Self-Direction, Family Care, or ICF). Family Support Services are
+state-funded, so agencies offering only Family Support are left out. The pin is the agency's office address.
+
+### Medicaid-Enrolled IDD Sites
+
+**Source**: [NY Health Data - Medicaid Enrolled Provider Listing](https://health.data.ny.gov/Health/Medicaid-Enrolled-Provider-Listing/keti-qx5t)
+
+Sites enrolled in NY Medicaid under the IDD-specific provider types:
+
+| Medicaid type | Shown as |
+|---|---|
+| COMMUNITY SUPPORT (OPWDD) | OPWDD Community Support Site (residences, day programs) |
+| INTERMEDIATE CARE FACILITY (OPWDD) | Intermediate Care (ICF/IID) |
+| OPWDD STATE-OPERATED CLINIC | OPWDD State-Operated Clinic |
 
 ## Refreshing Data
 
-To update the cached provider data:
-
 ```bash
-# Fetch and cache Medicaid providers
-bun run src/lib/seed-medicaid.ts
-
-# Fetch and cache Medicare providers (requires DAC CSV in src/data/raw/)
-bun run src/lib/seed-medicare.ts
-
-# Fetch and cache OPWDD providers
+# OPWDD agencies (NY Open Data)
 bun run src/lib/seed-opwdd.ts
 
-# Fetch and cache Article 16 clinics
+# Medicaid-enrolled IDD sites (NY Health Data)
+bun run src/lib/seed-medicaid.ts
+
+# Article 16 clinics (parses src/data/raw/article-16-raw.json, geocodes with the Census geocoder; ~5 min)
 bun run src/lib/seed-article16.ts
-
-# Fetch and cache OMH mental health programs
-bun run src/lib/seed-omh.ts
-
-# Fetch and cache NYS DOH health facilities
-bun run src/lib/seed-health-facilities.ts
 ```
 
-### Medicare Data Setup
-
-The Medicare seed script requires the CMS DAC National Downloadable File:
-
-1. Download from [CMS Provider Data](https://data.cms.gov/provider-data/dataset/mj5m-pzi6)
-2. Place the CSV at `src/data/raw/DAC_NationalDownloadableFile.csv`
-3. Run the seed script (takes ~7 minutes to parse and geocode)
+To update Article 16 clinics, download the latest list from OPWDD, extract its table to
+`src/data/raw/article-16-raw.json` (e.g. with tabula, lattice mode), and re-run the script. It prints any
+addresses it could not geocode; add those to `MANUAL_LOCATIONS` in the script if they are in the service area.
 
 ## Project Structure
 
@@ -171,29 +115,36 @@ src/
 │   ├── api/search/         # Provider name search
 │   └── page.tsx            # Main page with map (compact location GeoJSON)
 ├── components/
-│   ├── provider-map.tsx # Interactive map component
-│   └── map-filter.tsx   # Filter sidebar
+│   ├── provider-map.tsx    # Interactive map component
+│   └── map-filter.tsx      # Search + filter sidebar
 ├── data/
-│   ├── raw/             # Source data files (CSV, JSON)
-│   ├── boundaries/      # NYC borough GeoJSON for filtering
-│   └── *-geocoded.json  # Cached provider data
+│   ├── raw/                # Article 16 source list (PDF + extracted table)
+│   ├── boundaries/         # NYC borough GeoJSON
+│   └── *-geocoded.json     # Cached provider data
 ├── lib/
-│   ├── api.ts           # Data access and normalization
-│   ├── constants.ts     # Service catalog (filter groups), source colors and labels
-│   ├── geo-utils.ts     # Geographic filtering utilities
-│   ├── seed-utils.ts    # Shared helpers for seed scripts
-│   └── seed-*.ts        # Data fetching/processing scripts
+│   ├── api.ts              # Data access, location grouping, search
+│   ├── constants.ts        # Service area, service catalog, source colors and labels
+│   ├── geo-utils.ts        # Service-area (region) checks
+│   ├── seed-utils.ts       # Shared helpers for seed scripts
+│   └── seed-*.ts           # Data fetching/processing scripts
 └── types/
-    └── providers.ts     # TypeScript interfaces
+    └── providers.ts        # TypeScript interfaces
 ```
 
-## Provider Counts
+## Provider Counts (Nov 2026)
 
-| Source | Providers | Notes |
-|--------|-----------|-------|
-| Medicaid | ~45,800 | Dentists, physicians, psychologists, home health, DME |
-| Medicare | ~16,000 | 16 specialty categories |
-| OPWDD | 56 | Waiver service agencies |
-| Article 16 | 30 | Specialized DD clinics + satellites |
-| OMH | 566 | Mental health programs (refreshed Nov 2026) |
-| NYS Health Facilities | 889 | Hospitals, clinics, nursing homes, home care, etc. (refreshed Nov 2026) |
+| Source | Providers |
+|--------|-----------|
+| Article 16 clinic sites | 110 |
+| OPWDD agencies | 148 |
+| Medicaid-enrolled IDD sites | 581 |
+| **Total** | **839** at 531 map locations |
+
+| Area | Map locations |
+|------|-----------|
+| Brooklyn | 161 |
+| Suffolk | 99 |
+| Manhattan | 82 |
+| Nassau | 70 |
+| Bronx | 70 |
+| Staten Island | 49 |

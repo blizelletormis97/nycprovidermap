@@ -5,9 +5,9 @@ import { ChevronDown, Loader2, MapPin, Search, X } from "lucide-react";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { SERVICE_GROUPS, SOURCE_CONFIG, SOURCE_ORDER } from "@/lib/constants";
+import { REGIONS, SERVICE_GROUPS, SOURCE_CONFIG, SOURCE_ORDER } from "@/lib/constants";
 
-import type { DataSource, SearchResult } from "@/types/providers";
+import type { DataSource, Region, SearchResult } from "@/types/providers";
 
 interface MapFilterProps {
   query: string;
@@ -18,6 +18,10 @@ interface MapFilterProps {
   selectedSource: DataSource | "all";
   onSourceChange: (source: DataSource | "all") => void;
   sourceCounts: Record<DataSource, number>;
+  selectedRegions: Set<Region>;
+  regionCounts: Record<Region, number>;
+  onRegionToggle: (region: Region) => void;
+  onAllRegions: () => void;
   selectedTypes: Set<string>;
   typeCounts: Map<string, number>;
   groupCounts: Map<string, number>;
@@ -40,6 +44,10 @@ export function MapFilter({
   selectedSource,
   onSourceChange,
   sourceCounts,
+  selectedRegions,
+  regionCounts,
+  onRegionToggle,
+  onAllRegions,
   selectedTypes,
   typeCounts,
   groupCounts,
@@ -50,7 +58,7 @@ export function MapFilter({
   visibleLocations,
   visibleProviders,
 }: MapFilterProps) {
-  const [openGroups, setOpenGroups] = useState<Set<string>>(() => new Set(["dd", "article16"]));
+  const [openGroups, setOpenGroups] = useState<Set<string>>(() => new Set(SERVICE_GROUPS.map((g) => g.id)));
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const toggleGroupOpen = (id: string) =>
@@ -71,6 +79,11 @@ export function MapFilter({
           searching={searching}
           onResultSelect={onResultSelect}
         />
+
+        <p className="text-[11px] leading-snug rounded-md bg-secondary/60 px-2 py-1.5 text-muted-foreground">
+          Intellectual &amp; developmental disability (IDD) providers that accept <strong className="text-foreground">Medicaid</strong> in
+          Manhattan, Brooklyn, the Bronx, Staten Island and Long Island (Nassau &amp; Suffolk).
+        </p>
 
         <div className="flex items-center justify-between gap-2">
           <p className="text-xs text-muted-foreground" aria-live="polite">
@@ -93,6 +106,39 @@ export function MapFilter({
       <CardContent
         className={`px-4 pt-3 space-y-4 overflow-y-auto min-h-0 flex-1 ${mobileOpen ? "block max-h-[45vh]" : "hidden"} md:block md:max-h-none`}
       >
+        {/* Area */}
+        <section>
+          <div className="flex items-center justify-between mb-2">
+            <h2 className="text-xs font-medium text-muted-foreground">Area</h2>
+            {selectedRegions.size < REGIONS.length && (
+              <Button variant="ghost" size="sm" className="h-6 px-2 text-xs" onClick={onAllRegions}>
+                All areas
+              </Button>
+            )}
+          </div>
+          <div className="flex flex-wrap gap-1">
+            {REGIONS.map((region) => {
+              const active = selectedRegions.has(region);
+              return (
+                <button
+                  key={region}
+                  type="button"
+                  onClick={() => onRegionToggle(region)}
+                  aria-pressed={active}
+                  className={`px-2 py-1 text-xs rounded-md border transition-colors ${active
+                    ? "bg-primary text-primary-foreground border-primary"
+                    : "bg-background text-muted-foreground border-input hover:bg-secondary"
+                    }`}
+                >
+                  {region}
+                  {(region === "Nassau" || region === "Suffolk") && <span className="opacity-70"> (LI)</span>}
+                  <span className="ml-1 tabular-nums opacity-70">{nf.format(regionCounts[region])}</span>
+                </button>
+              );
+            })}
+          </div>
+        </section>
+
         {/* Data source */}
         <section>
           <h2 className="text-xs font-medium text-muted-foreground mb-2">Data source</h2>
@@ -114,7 +160,7 @@ export function MapFilter({
             ))}
           </div>
           <p className="text-[11px] text-muted-foreground mt-2 leading-snug">
-            Marker color shows the most DD-specific source at each address.
+            Every source lists Medicaid-enrolled or Medicaid-funded IDD services. Marker color shows the source at each address.
           </p>
         </section>
 

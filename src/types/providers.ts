@@ -1,14 +1,17 @@
-// Data source type
-export type DataSource = "medicaid" | "medicare" | "opwdd" | "article16" | "omh" | "facilities";
+// Data source type — every source lists IDD providers that accept Medicaid
+export type DataSource = "article16" | "opwdd" | "medicaid";
+
+// Service area: four NYC boroughs (no Queens) plus Long Island's Nassau and Suffolk counties
+export type Region = "Manhattan" | "Brooklyn" | "Bronx" | "Staten Island" | "Nassau" | "Suffolk";
 
 // Unified cached provider — all sources share this shape
 export interface CachedProvider {
   source: DataSource;
   name: string;
-  services: string[]; // raw service type strings (normalized at query time)
-  detail?: string; // extra context shown in the popup (program type, populations served, etc.)
+  services: string[]; // service category keys from constants.ts SERVICE_GROUPS
+  detail?: string; // extra context shown in the popup
   address: string;
-  county?: string;
+  region: Region;
   lat: number;
   lng: number;
   phone?: string;
@@ -42,6 +45,7 @@ export interface LocationDetail {
 export interface LocationFeatureProperties {
   id: string;
   address: string;
+  region: Region;
   sources: DataSource[];
   /** Highest-priority source at this location, used for the marker color */
   primarySource: DataSource;

@@ -1,104 +1,133 @@
 /**
- * Seed script to fetch Medicaid providers with coordinates from the API.
- * Uses Turf.js for accurate polygon-based filtering of Manhattan + Bronx providers.
+ * Seed script to fetch Medicaid-enrolled IDD (OPWDD) provider sites for the
+ * service area (Manhattan, Brooklyn, Bronx, Staten Island, Nassau, Suffolk).
+ * Source: https://health.data.ny.gov/Health/Medicaid-Enrolled-Provider-Listing/keti-qx5t
  * Run with: bun run src/lib/seed-medicaid.ts
  */
 
 import { writeFileSync } from "fs";
 import { join } from "path";
-import { isInManhattanOrBronx, getManhattanBronxBbox } from "./geo-utils";
-import { MEDICAID_TYPES, TARGET_COUNTIES } from "./constants";
+import { getRegion } from "./geo-utils";
+import { MEDICAID_IDD_TYPES, TARGET_COUNTIES } from "./constants";
+import { formatPhone, titleCaseAddress } from "./seed-utils";
 
 import type { CachedProvider } from "@/types/providers";
 
-// Raw API response shape from health.data.ny.gov
 interface MedicaidProvider {
+  mmis_id?: string;
   mmis_name?: string;
   profession_or_service?: string;
   service_address?: string;
   city?: string;
-  state?: string;
   zip_code?: string;
   county?: string;
-  npi?: string;
+  telephone?: string;
   latitude?: string;
   longitude?: string;
 }
 
-async function fetchMedicaidProviders(): Promise<MedicaidProvider[]> {
-  console.log("Fetching Medicaid providers from NY Health Data...");
+const API_URL = "https://health.data.ny.gov/resource/keti-qx5t.json";
 
-  const countyClause = TARGET_COUNTIES
-    .map((county) => `upper(county) = '${county}'`)
-    .join(" OR ");
+// Program notes the listing appends to addresses, mapped to a readable label for the popup
+const ADDRESS_NOTES: [RegExp, string | null][] = [
+  [/\bAHRH REGION \d+ RATE SET\b/gi, null],
+  [/\bSUPP?ORTIVE IRA\b/gi, "Supportive IRA"],
+  [/\bSUPP?ORTIVE(\s+\d+\s+SITES)?\b/gi, "Supportive IRA"],
+  [/\b(GROUP|SUPPL INDIV|INDIV)\s+DAY HAB\b/gi, "Day habilitation"],
+  [/\bOMRDD DT\b/gi, "Day treatment"],
+  [/#\s*SUPVD\b/gi, "Supervised residence"],
+];
 
-  // Fetch each type separately to avoid hitting API row limits
-  const allProviders: MedicaidProvider[] = [];
+const STREET_SUFFIX = /\b(ST|AVE|RD|PLZ|BLVD|PL|LN|DR|CT|HWY|HW|PKWY|CRES|WAY|TPKE|TER|CIR|SQ)\b(\s+(#|APT|STE|FL|RM)\s*\S+)*/i;
 
-  for (const type of MEDICAID_TYPES) {
-    const whereClause = `upper(profession_or_service) like '%${type}%' AND (${countyClause}) AND latitude IS NOT NULL`;
-    const url = `https://health.data.ny.gov/resource/keti-qx5t.json?$limit=50000&$where=${encodeURIComponent(whereClause)}&$select=mmis_name,profession_or_service,service_address,city,state,zip_code,county,npi,latitude,longitude`;
+/**
+ * Clean an address from the Medicaid listing, e.g. "61 FLORENCE ST # C7123461 # SUPVD" or
+ * "133 SHORE RD RD ICF". Returns the cleaned street address plus any program notes found in it.
+ */
+export function cleanAddress(raw = ""): { street: string; notes: string[] } {
+  const notes = new Set<string>();
+  let s = raw;
+  for (const [pattern, label] of ADDRESS_NOTES) {
+    if (pattern.test(s) && label) notes.add(label);
+    pattern.lastIndex = 0;
+    s = s.replace(pattern, " ");
+  }
+  s = s.replace(/#\s*C\d+/gi, " ");
 
-    const res = await fetch(url, { cache: "no-store" });
-    const providers: MedicaidProvider[] = await res.json();
-    console.log(`  ${type}: ${providers.length} rows`);
-    if (providers.length === 50000) {
-      console.warn(`  ⚠ WARNING: ${type} returned exactly 50,000 rows — data may be truncated! Increase $limit or split the query.`);
-    }
-    allProviders.push(...providers);
+  // "1980 MORRIS AVE MORRIS AVE ICF" -> cut everything after the street suffix (and unit)
+  if (/\bICF\b/i.test(s)) {
+    const match = s.match(STREET_SUFFIX);
+    s = match?.index != null ? s.slice(0, match.index + match[0].length) : s.replace(/\bICF\b.*$/i, "");
   }
 
-  console.log(`  Total fetched: ${allProviders.length}`);
-  return allProviders;
+  s = s.replace(/#\s*(?=#|$)/g, " ").replace(/\s{2,}/g, " ").replace(/^[\s#,]+|[\s#,]+$/g, "").trim();
+  return { street: s, notes: [...notes] };
+}
+
+/** True when the cleaned address looks like a real street address (not a PO box or "10 SITES"). */
+function isStreetAddress(street: string): boolean {
+  return /^\d/.test(street) && !/\bPO BOX\b|\bSITES\b/i.test(street);
+}
+
+/** The listing puts site codes in the phone field for many OPWDD sites; keep only real phone numbers. */
+function cleanPhone(raw?: string): string | undefined {
+  const digits = raw?.replace(/\D/g, "") ?? "";
+  if (digits.length !== 10 || !/^[2-9]\d{2}[2-9]/.test(digits)) return undefined;
+  return formatPhone(digits);
 }
 
 async function main() {
-  const providers = await fetchMedicaidProviders();
+  console.log("Fetching Medicaid-enrolled IDD providers from NY Health Data...");
+  const types = Object.keys(MEDICAID_IDD_TYPES).map((t) => `'${t}'`).join(",");
+  const counties = TARGET_COUNTIES.map((c) => `'${c}'`).join(",");
+  const where = `profession_or_service in(${types}) AND upper(county) in(${counties}) AND latitude IS NOT NULL`;
+  const select = "mmis_id,mmis_name,profession_or_service,service_address,city,zip_code,county,telephone,latitude,longitude";
+  const res = await fetch(`${API_URL}?$limit=50000&$select=${select}&$where=${encodeURIComponent(where)}`);
+  if (!res.ok) throw new Error(`API error ${res.status}`);
+  const rows: MedicaidProvider[] = await res.json();
+  console.log(`  Fetched ${rows.length} rows`);
+
   const cached: CachedProvider[] = [];
-
-  console.log("\nFiltering providers using borough polygon boundaries...");
-  const bbox = getManhattanBronxBbox();
-  console.log(`  Using bounding box: [${bbox.join(", ")}]`);
-
   const seen = new Set<string>();
-  let filtered = 0;
-  let duplicates = 0;
-  let invalidCoords = 0;
+  const skipped = { outsideArea: 0, duplicates: 0, noStreetAddress: 0 };
 
-  for (const provider of providers) {
-    const lat = parseFloat(provider.latitude || "");
-    const lng = parseFloat(provider.longitude || "");
+  for (const row of rows) {
+    const lat = Number(row.latitude);
+    const lng = Number(row.longitude);
+    const region = getRegion(lat, lng, row.county);
+    if (!region) { skipped.outsideArea++; continue; }
 
-    if (isNaN(lat) || isNaN(lng)) { invalidCoords++; continue; }
-    if (!isInManhattanOrBronx(lat, lng)) { filtered++; continue; }
-
-    const key = `${provider.npi}-${lat.toFixed(5)}-${lng.toFixed(5)}`;
-    if (seen.has(key)) { duplicates++; continue; }
+    const service = MEDICAID_IDD_TYPES[row.profession_or_service ?? ""];
+    const key = `${row.mmis_id}|${service}|${lat.toFixed(5)},${lng.toFixed(5)}`;
+    if (seen.has(key)) { skipped.duplicates++; continue; }
     seen.add(key);
 
-    const address = [provider.service_address, provider.city, provider.state, provider.zip_code]
+    const { street, notes } = cleanAddress(row.service_address);
+    if (!isStreetAddress(street)) { skipped.noStreetAddress++; continue; }
+
+    const zip = row.zip_code?.slice(0, 5);
+    const address = [titleCaseAddress(street), titleCaseAddress(row.city), "NY", zip]
       .filter(Boolean).join(", ");
 
     cached.push({
       source: "medicaid",
-      name: provider.mmis_name || "Unknown Provider",
-      services: [provider.profession_or_service || "Provider"],
+      name: row.mmis_name || "Unknown Provider",
+      services: [service],
+      detail: [...notes, row.mmis_id ? `Medicaid ID ${row.mmis_id}` : null].filter(Boolean).join(" · "),
       address,
-      county: provider.county || "",
+      region,
+      phone: cleanPhone(row.telephone),
       lat,
       lng,
     });
   }
 
-  console.log(`\nResults:`);
-  console.log(`  Valid providers: ${cached.length}`);
-  console.log(`  Filtered (outside Manhattan/Bronx): ${filtered}`);
-  console.log(`  Duplicates skipped: ${duplicates}`);
-  console.log(`  Invalid coordinates: ${invalidCoords}`);
-
-  const cachePath = join(process.cwd(), "src/data/medicaid-geocoded.json");
-  writeFileSync(cachePath, JSON.stringify(cached, null, 2));
-  console.log(`\nSaved to ${cachePath}`);
+  cached.sort((a, b) => a.name.localeCompare(b.name));
+  console.log(`\nSaved ${cached.length} sites`, skipped);
+  const counts = new Map<string, number>();
+  for (const p of cached) counts.set(`${p.region} / ${p.services[0]}`, (counts.get(`${p.region} / ${p.services[0]}`) ?? 0) + 1);
+  for (const [k, v] of [...counts].sort()) console.log(`  ${k}: ${v}`);
+  writeFileSync(join(process.cwd(), "src/data/medicaid-geocoded.json"), JSON.stringify(cached, null, 2));
 }
 
-main().catch(console.error);
+main().catch((e) => { console.error(e); process.exit(1); });

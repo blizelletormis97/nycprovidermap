@@ -13,21 +13,23 @@ import type {
   LocationDetail,
   LocationFeature,
   LocationFeatureCollection,
+  Region,
   SearchResult,
 } from "@/types/providers";
 
 import { MapFilter } from "./map-filter";
-import { ALL_SERVICE_KEYS, SERVICE_GROUPS, SOURCE_CONFIG, SOURCE_ORDER } from "@/lib/constants";
+import { ALL_SERVICE_KEYS, REGIONS, SERVICE_GROUPS, SOURCE_CONFIG, SOURCE_ORDER } from "@/lib/constants";
 
 interface ProviderMapProps {
   initialData: LocationFeatureCollection;
 }
 
 // Manhattan + Bronx center coordinates
+// Initial view covering Staten Island through eastern Suffolk
 const MAP_CENTER = {
-  latitude: 40.8,
-  longitude: -73.92,
-  zoom: 11,
+  latitude: 40.78,
+  longitude: -73.35,
+  zoom: 8.6,
 };
 
 const SERVICE_LABELS: Record<string, string> = Object.fromEntries(
@@ -92,6 +94,7 @@ export function ProviderMap({ initialData }: ProviderMapProps) {
   const { resolvedTheme } = useTheme();
   const [selectedSource, setSelectedSource] = useState<DataSource | "all">("all");
   const [selectedTypes, setSelectedTypes] = useState<Set<string>>(() => new Set(ALL_SERVICE_KEYS));
+  const [selectedRegions, setSelectedRegions] = useState<Set<Region>>(() => new Set(REGIONS));
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [viewState, setViewState] = useState(MAP_CENTER);
 
@@ -158,10 +161,11 @@ export function ProviderMap({ initialData }: ProviderMapProps) {
     () =>
       initialData.features.filter(
         (f) =>
+          selectedRegions.has(f.properties.region) &&
           (selectedSource === "all" || f.properties.sources.includes(selectedSource)) &&
           matchesSearch(f, searchTerms, nameMatchIds)
       ),
-    [initialData.features, selectedSource, searchTerms, nameMatchIds]
+    [initialData.features, selectedRegions, selectedSource, searchTerms, nameMatchIds]
   );
 
   // Location counts per service type and per group (a location counts once per group)
@@ -181,6 +185,21 @@ export function ProviderMap({ initialData }: ProviderMapProps) {
     }
     return { typeCounts, groupCounts };
   }, [sourceAndSearchMatches, offers]);
+
+  const regionCounts = useMemo(() => {
+    const counts = Object.fromEntries(REGIONS.map((r) => [r, 0])) as Record<Region, number>;
+    for (const f of initialData.features) counts[f.properties.region]++;
+    return counts;
+  }, [initialData.features]);
+
+  const handleRegionToggle = useCallback((region: Region) => {
+    setSelectedRegions((prev) => {
+      const next = new Set(prev);
+      if (next.has(region)) next.delete(region);
+      else next.add(region);
+      return next;
+    });
+  }, []);
 
   const sourceCounts = useMemo(() => {
     const counts = Object.fromEntries(SOURCE_ORDER.map((s) => [s, 0])) as Record<DataSource, number>;
@@ -317,6 +336,10 @@ export function ProviderMap({ initialData }: ProviderMapProps) {
         selectedSource={selectedSource}
         onSourceChange={setSelectedSource}
         sourceCounts={sourceCounts}
+        selectedRegions={selectedRegions}
+        regionCounts={regionCounts}
+        onRegionToggle={handleRegionToggle}
+        onAllRegions={() => setSelectedRegions(new Set(REGIONS))}
         selectedTypes={selectedTypes}
         typeCounts={typeCounts}
         groupCounts={groupCounts}

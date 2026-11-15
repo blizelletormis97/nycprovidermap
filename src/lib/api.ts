@@ -5,6 +5,7 @@ import type {
   LocationFeature,
   LocationFeatureCollection,
   ProviderDetail,
+  Region,
   SearchResult,
   ServiceTypeCount,
 } from "@/types/providers";
@@ -13,12 +14,9 @@ import { join } from "path";
 import { KNOWN_SERVICE_KEYS, SOURCE_ORDER } from "./constants";
 
 const SOURCE_FILES: Record<DataSource, string> = {
-  medicaid: "medicaid-geocoded.json",
-  medicare: "medicare-geocoded.json",
-  opwdd: "opwdd-geocoded.json",
   article16: "article16-geocoded.json",
-  omh: "omh-geocoded.json",
-  facilities: "facilities-geocoded.json",
+  opwdd: "opwdd-geocoded.json",
+  medicaid: "medicaid-geocoded.json",
 };
 
 const providerCache = new Map<DataSource, CachedProvider[]>();
@@ -45,55 +43,10 @@ export function getCachedProviders(sourceFilter?: DataSource): CachedProvider[] 
   return sources.flatMap(loadSource);
 }
 
-/** Normalize raw service type strings from each dataset into the categories defined in constants.ts. */
+/** Seed scripts store service category keys directly; unknown values are title-cased so they still display. */
 export function normalizeServiceType(type: string): string {
-  // Sources that are already stored with display names (OPWDD, Article 16, OMH, facilities)
   if (KNOWN_SERVICE_KEYS.has(type)) return type;
-
-  const upper = type.toUpperCase();
-
-  // Dental
-  if (upper.includes("DENTIST") || upper === "PEDIATRIC DENTISTRY" || upper === "DENTAL") return "Dental";
-
-  // Mental/Behavioral Health
-  if (upper.includes("PSYCHOLOG") || upper.includes("PSYCHOANAL") || upper === "CLINICAL PSYCHOLOGIST" || upper === "PSYCHOLOGY") return "Psychology";
-  if (upper === "PSYCHIATRY") return "Psychiatry";
-  if (upper.includes("SOCIAL WORK") || upper === "CLINICAL SOCIAL WORKER") return "Social Work";
-  if (upper.includes("MENTAL HEALTH COUNSEL")) return "Mental Health Counseling";
-
-  // Therapy Services
-  if (upper.includes("PHYSICAL THERAP") || upper === "PHYSICAL THERAPY") return "Physical Therapy";
-  if (upper.includes("OCCUPATIONAL THERAP") || upper === "OCCUPATIONAL THERAPY") return "Occupational Therapy";
-  if (upper.includes("SPEECH") || upper === "SPEECH THERAPY") return "Speech Therapy";
-  if (upper.includes("PHYSICAL MEDICINE") || upper === "REHAB MEDICINE") return "Rehab Medicine";
-
-  // Other Healthcare
-  if (upper === "PODIATRY" || upper.includes("PODIATR")) return "Podiatry";
-  if (upper === "OPTOMETRY" || upper.includes("OPTOMETR")) return "Optometry";
-  if (upper.includes("DIETITIAN") || upper.includes("NUTRITION")) return "Nutrition";
-  if (upper === "NEUROLOGY" || upper.includes("NEUROLOG")) return "Neurology";
-  if (upper.includes("ALLERGY") || upper.includes("IMMUNOLOGY")) return "Allergy/Immunology";
-  if (upper.includes("CHIROPRACT")) return "Chiropractic";
-
-  // Home Health & DME
-  if (upper.includes("HOME HEALTH") || upper.includes("HOME CARE") || upper.includes("IN HOME")) return "Home Health";
-  if (upper.includes("EQUIPMENT") || upper.includes("SUPPLIER") || upper.includes("DEALER")) return "DME";
-
-  // Physician / Primary Care (catch-all for physician types)
-  if (upper.includes("PHYSICIAN")) return "Physician";
-  if (upper.includes("FAMILY MEDICINE") || upper === "FAMILY PRACTICE") return "Physician";
-  if (upper.includes("INTERNAL MEDICINE")) return "Physician";
-  if (upper.includes("GENERAL PRACTICE")) return "Physician";
-  if (upper.includes("HOSPITALIST")) return "Physician";
-  if (upper.includes("PRIMARY CARE")) return "Physician";
-  if (upper.includes("PEDIATRIC") && !upper.includes("DENTIST")) return "Physician";
-  if (upper === "NURSE PRACTITIONER" || upper === "PHYSICIAN ASSISTANT") return "Physician";
-  if (upper === "GERIATRIC MEDICINE") return "Physician";
-
-  // Return original with title case if no match
-  return type.split(" ").map((word) =>
-    word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-  ).join(" ");
+  return type.split(" ").map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ");
 }
 
 const locationKey = (lat: number, lng: number) => `${lat.toFixed(5)},${lng.toFixed(5)}`;
@@ -103,20 +56,57 @@ interface LocationIndexEntry {
   address: string;
   lat: number;
   lng: number;
+  region: Region;
   providers: ProviderDetail[];
 }
 
 let locationIndex: Map<string, LocationIndexEntry> | null = null;
 
-/** Group every provider by rounded coordinates. Built once per server process. */
+const STREET_ABBREVIATIONS: Record<string, string> = {
+  STREET: "ST", AVENUE: "AVE", ROAD: "RD", BOULEVARD: "BLVD", PLACE: "PL", DRIVE: "DR", LANE: "LN",
+  COURT: "CT", PARKWAY: "PKWY", PLAZA: "PLZ", HIGHWAY: "HWY", TURNPIKE: "TPKE", TERRACE: "TER",
+  EAST: "E", WEST: "W", NORTH: "N", SOUTH: "S", FIRST: "1ST", SECOND: "2ND", THIRD: "3RD",
+};
+
+/**
+ * Key that treats "376 Bay 44th Street, Brooklyn, NY, 11214" and "376 Bay 44th St Fl 2, Brooklyn, NY, 11214"
+ * as the same building, so providers from different datasets share one map pin even when their
+ * geocoded coordinates differ slightly. Returns null when the address has no street number or ZIP.
+ */
+export function addressKey(address: string): string | null {
+  const parts = address.toUpperCase().split(",").map((p) => p.trim());
+  const zip = parts.map((p) => p.match(/^(\d{5})(-?\d{4})?$/)?.[1]).find(Boolean);
+  const street = parts[0]
+    ?.replace(/[.#]/g, " ")
+    .replace(/\b(STE|SUITE|FL|FLOOR|RM|ROOM|APT|UNIT)\b.*$/, "")
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((w) => STREET_ABBREVIATIONS[w] ?? w)
+    .join(" ");
+  if (!zip || !street || !/^\d/.test(street)) return null;
+  return `${street}|${zip}`;
+}
+
+/** Group every provider by building (normalized address) or rounded coordinates. Built once per server process. */
 function getLocationIndex(): Map<string, LocationIndexEntry> {
   if (locationIndex) return locationIndex;
 
   const index = new Map<string, LocationIndexEntry>();
+  const idsByAddress = new Map<string, string>();
   const seen = new Set<string>();
 
-  for (const provider of getCachedProviders()) {
-    const id = locationKey(provider.lat, provider.lng);
+  // Article 16 / OPWDD first so their (cleaner) address and coordinates represent the location
+  const providers = [...getCachedProviders()].sort(
+    (a, b) => SOURCE_ORDER.indexOf(a.source) - SOURCE_ORDER.indexOf(b.source)
+  );
+
+  for (const provider of providers) {
+    const byAddress = addressKey(provider.address);
+    let id = byAddress ? idsByAddress.get(byAddress) : undefined;
+    if (!id) {
+      id = locationKey(provider.lat, provider.lng);
+      if (byAddress) idsByAddress.set(byAddress, id);
+    }
     const type = Array.from(new Set(provider.services.map(normalizeServiceType))).join(", ");
 
     // Drop exact duplicate listings (same source, name and services at the same spot)
@@ -126,7 +116,7 @@ function getLocationIndex(): Map<string, LocationIndexEntry> {
 
     let entry = index.get(id);
     if (!entry) {
-      entry = { id, address: provider.address, lat: provider.lat, lng: provider.lng, providers: [] };
+      entry = { id, address: provider.address, lat: provider.lat, lng: provider.lng, region: provider.region, providers: [] };
       index.set(id, entry);
     }
     entry.providers.push({
@@ -182,6 +172,7 @@ export function getProvidersGeoJSON(): LocationFeatureCollection {
       properties: {
         id: location.id,
         address: location.address,
+        region: location.region,
         sources: orderedSources,
         primarySource: orderedSources[0],
         services,
