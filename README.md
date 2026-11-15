@@ -150,17 +150,28 @@ src/
 
 | Source | Providers |
 |--------|-----------|
-| Article 16 clinic sites | 139 |
+| Article 16 clinic sites | 138 |
 | OPWDD agencies | 164 |
 | Medicaid-enrolled IDD sites | 679 |
-| **Total** | **982** at 634 map locations |
+| **Total** | **981** at 628 map locations |
 
 | Area | Map locations |
 |------|-----------|
 | Brooklyn | 161 |
-| Queens | 102 |
-| Suffolk | 100 |
+| Queens | 101 |
+| Suffolk | 99 |
 | Manhattan | 82 |
-| Bronx | 70 |
-| Nassau | 70 |
+| Bronx | 69 |
+| Nassau | 67 |
 | Staten Island | 49 |
+
+## Data quality notes
+
+- **Article 16 locations** are placed, in order of trust, by a hand-checked location, the state's own coordinates
+  for the same building (OPWDD directory or Medicaid listing), or the U.S. Census geocoder. A Census match is used
+  only when its street and house number agree with the clinic's address (`geocodeMatchAgrees` in
+  `src/lib/seed-utils.ts`). This rejects near-misses such as "376 Bay 44th Street" being matched to "376 44th St".
+- **Office and billing addresses** are flagged (`office: true`) and labeled on the map: every OPWDD agency
+  (administrative offices) and Medicaid "rate set" billing enrollments.
+- The Article 16 clinic list in `src/data/raw/` is dated October 2024; download a newer one from OPWDD when available.
+- Medicaid enrollment does not mean a provider has openings. Confirm with the provider before referring.

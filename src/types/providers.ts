@@ -10,6 +10,7 @@ export interface CachedProvider {
   name: string;
   services: string[]; // service category keys from constants.ts SERVICE_GROUPS
   detail?: string; // extra context shown in the popup
+  office?: boolean; // administrative office or billing address, not where services are delivered
   address: string;
   region: Region;
   lat: number;
@@ -30,6 +31,7 @@ export interface ProviderDetail {
   type: string;
   source: DataSource;
   detail?: string;
+  office?: boolean;
   website?: string;
   phone?: string;
 }

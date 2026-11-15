@@ -30,7 +30,7 @@ const API_URL = "https://health.data.ny.gov/resource/keti-qx5t.json";
 
 // Program notes the listing appends to addresses, mapped to a readable label for the popup
 const ADDRESS_NOTES: [RegExp, string | null][] = [
-  [/\bAHRH REGION \d+ RATE SET\b/gi, null],
+  [/\bAHRH REGION \d+ RATE SET\b/gi, "Billing enrollment (rate set)"],
   [/\bSUPP?ORTIVE IRA\b/gi, "Supportive IRA"],
   [/\bSUPP?ORTIVE(\s+\d+\s+SITES)?\b/gi, "Supportive IRA"],
   [/\b(GROUP|SUPPL INDIV|INDIV)\s+DAY HAB\b/gi, "Day habilitation"],
@@ -114,6 +114,7 @@ async function main() {
       name: row.mmis_name || "Unknown Provider",
       services: [service],
       detail: [...notes, row.mmis_id ? `Medicaid ID ${row.mmis_id}` : null].filter(Boolean).join(" · "),
+      ...(notes.includes("Billing enrollment (rate set)") ? { office: true } : {}),
       address,
       region,
       phone: cleanPhone(row.telephone),

@@ -24,6 +24,7 @@ const locations = getProvidersGeoJSON().features.map((feature) => {
       s: p.source,
       t: p.type,
       ...(p.detail ? { d: p.detail } : {}),
+      ...(p.office ? { o: 1 } : {}),
       ...(p.phone ? { ph: p.phone } : {}),
       ...(p.website ? { w: p.website } : {}),
     })),
