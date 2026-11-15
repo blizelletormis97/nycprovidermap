@@ -1,6 +1,6 @@
 /**
  * Seed script for OPWDD Article 16 certified clinics (main sites + satellites) in the
- * service area (Manhattan, Brooklyn, Bronx, Staten Island, Nassau, Suffolk).
+ * service area (the five NYC boroughs, Nassau, Suffolk).
  *
  * Input:  src/data/raw/article-16-raw.json — table extraction of OPWDD's statewide
  *         "Clinic Programs and Satellites" list (src/data/raw/article-16-clinics.pdf).
@@ -34,9 +34,15 @@ interface ClinicSite {
   zip: string;
 }
 
-// Addresses the Census geocoder cannot match, located by hand
+// Addresses the Census geocoder cannot match. Coordinates come from the same addresses in the
+// NY Medicaid Enrolled Provider Listing (health.data.ny.gov), except 200 Varick Street (located by hand).
 const MANUAL_LOCATIONS: Record<string, GeoResult> = {
   "200 varick street|new york": { lat: 40.72868, lng: -74.00543, county: "New York County" },
+  "159-05 union turnpike|fresh meadows": { lat: 40.72075, lng: -73.80778, county: "Queens County" },
+  "168-18 south conduit avenue|springfield gardens": { lat: 40.66681, lng: -73.77542, county: "Queens County" },
+  "211-11 northern boulevard|bayside": { lat: 40.76, lng: -73.7717, county: "Queens County" },
+  "8002 kew gardens road|kew gardens": { lat: 40.70697, lng: -73.82922, county: "Queens County" },
+  "445 county road 101|yaphank": { lat: 40.81125, lng: -72.95342, county: "Suffolk County" },
 };
 
 const clean = (s: string) => s.replace(/\r/g, " ").replace(/\s+/g, " ").trim();

@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "IDD Medicaid Provider Finder",
-  description: "Find intellectual and developmental disability providers that accept Medicaid in NYC and Long Island",
+  description: "Find intellectual and developmental disability providers that accept Medicaid in New York City and Long Island",
 };
 
 export default function RootLayout({

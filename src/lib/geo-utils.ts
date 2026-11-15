@@ -1,6 +1,6 @@
 /**
  * Geospatial utilities for the service area:
- * Manhattan, Brooklyn, the Bronx, Staten Island (NYC borough polygons) and
+ * the five NYC boroughs (borough polygons) and
  * Long Island's Nassau and Suffolk counties.
  */
 
@@ -18,14 +18,14 @@ interface BoroughProperties {
 
 type BoroughFeature = Feature<MultiPolygon, BoroughProperties>;
 
-// NYC BoroCode -> region in the service area (Queens, BoroCode 4, is not in the service area)
+// NYC BoroCode -> region
 const BORO_REGIONS: Record<number, Region> = {
   1: "Manhattan",
   2: "Bronx",
   3: "Brooklyn",
+  4: "Queens",
   5: "Staten Island",
 };
-const QUEENS_BORO_CODE = 4;
 
 // County name (any case, with or without "County") -> region
 const COUNTY_REGIONS: Record<string, Region> = {
@@ -34,6 +34,7 @@ const COUNTY_REGIONS: Record<string, Region> = {
   KINGS: "Brooklyn",
   BROOKLYN: "Brooklyn",
   BRONX: "Bronx",
+  QUEENS: "Queens",
   RICHMOND: "Staten Island",
   "STATEN ISLAND": "Staten Island",
   NASSAU: "Nassau",
@@ -78,14 +79,14 @@ export function countyToRegion(county?: string | null): Region | null {
  * NYC boroughs are checked against the official borough polygons. For Long
  * Island the dataset's county is required (we have no county polygons), and the
  * point must be east of Queens inside the Long Island bounding box.
- * Returns null for anything outside the service area — including Queens.
+ * Returns null for anything outside the service area.
  */
 export function getRegion(lat: number, lng: number, county?: string | null): Region | null {
   if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
 
   const boroCode = findBoroCode(lat, lng);
   if (boroCode != null) {
-    return boroCode === QUEENS_BORO_CODE ? null : BORO_REGIONS[boroCode] ?? null;
+    return BORO_REGIONS[boroCode] ?? null;
   }
 
   const countyRegion = countyToRegion(county);

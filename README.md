@@ -2,11 +2,11 @@
 
 A care manager tool for finding **intellectual and developmental disability (IDD) providers that accept Medicaid** in:
 
-- **Manhattan, Brooklyn, the Bronx and Staten Island**
+- **New York City** — Manhattan, Brooklyn, the Bronx, Queens and Staten Island
 - **Long Island** — Nassau and Suffolk counties
 
-Queens is not included. To add it (or another county), add it to `REGIONS` / `TARGET_COUNTIES` in
-`src/lib/constants.ts` and `src/lib/geo-utils.ts`, then re-run the seed scripts.
+To add another county, add it to `REGIONS` / `TARGET_COUNTIES` in `src/lib/constants.ts` and to
+`src/lib/geo-utils.ts`, then re-run the seed scripts.
 
 ## Features
 
@@ -150,16 +150,17 @@ src/
 
 | Source | Providers |
 |--------|-----------|
-| Article 16 clinic sites | 110 |
-| OPWDD agencies | 148 |
-| Medicaid-enrolled IDD sites | 581 |
-| **Total** | **839** at 531 map locations |
+| Article 16 clinic sites | 139 |
+| OPWDD agencies | 164 |
+| Medicaid-enrolled IDD sites | 679 |
+| **Total** | **982** at 634 map locations |
 
 | Area | Map locations |
 |------|-----------|
 | Brooklyn | 161 |
-| Suffolk | 99 |
+| Queens | 102 |
+| Suffolk | 100 |
 | Manhattan | 82 |
-| Nassau | 70 |
 | Bronx | 70 |
+| Nassau | 70 |
 | Staten Island | 49 |

@@ -70,7 +70,7 @@ const STREET_ABBREVIATIONS: Record<string, string> = {
 
 /**
  * Key that treats "376 Bay 44th Street, Brooklyn, NY, 11214" and "376 Bay 44th St Fl 2, Brooklyn, NY, 11214"
- * as the same building, so providers from different datasets share one map pin even when their
+ * (or Queens-style "125-10 Queens Boulevard" and "12510 Queens Blvd") as the same building, so providers from different datasets share one map pin even when their
  * geocoded coordinates differ slightly. Returns null when the address has no street number or ZIP.
  */
 export function addressKey(address: string): string | null {
@@ -81,7 +81,7 @@ export function addressKey(address: string): string | null {
     .replace(/\b(STE|SUITE|FL|FLOOR|RM|ROOM|APT|UNIT)\b.*$/, "")
     .split(/\s+/)
     .filter(Boolean)
-    .map((w) => STREET_ABBREVIATIONS[w] ?? w)
+    .map((w, i) => (i === 0 ? w.replace(/^(\d+)-(\d+)$/, "$1$2") : STREET_ABBREVIATIONS[w] ?? w)) // Queens "125-10" = "12510"
     .join(" ");
   if (!zip || !street || !/^\d/.test(street)) return null;
   return `${street}|${zip}`;

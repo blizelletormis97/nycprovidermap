@@ -1,8 +1,8 @@
 // Data source type — every source lists IDD providers that accept Medicaid
 export type DataSource = "article16" | "opwdd" | "medicaid";
 
-// Service area: four NYC boroughs (no Queens) plus Long Island's Nassau and Suffolk counties
-export type Region = "Manhattan" | "Brooklyn" | "Bronx" | "Staten Island" | "Nassau" | "Suffolk";
+// Service area: all five NYC boroughs plus Long Island's Nassau and Suffolk counties
+export type Region = "Manhattan" | "Brooklyn" | "Bronx" | "Queens" | "Staten Island" | "Nassau" | "Suffolk";
 
 // Unified cached provider — all sources share this shape
 export interface CachedProvider {

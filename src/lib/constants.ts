@@ -1,11 +1,10 @@
 import type { DataSource, Region } from "@/types/providers";
 
-// Service area. Brooklyn and Queens are geographically on Long Island, but "Long Island" here means
-// Nassau + Suffolk; Queens is deliberately excluded.
-export const REGIONS: Region[] = ["Manhattan", "Brooklyn", "Bronx", "Staten Island", "Nassau", "Suffolk"];
+// Service area: the five NYC boroughs plus Long Island's Nassau and Suffolk counties
+export const REGIONS: Region[] = ["Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island", "Nassau", "Suffolk"];
 
 // County names as they appear in the NY open-data sets
-export const TARGET_COUNTIES = ["NEW YORK", "KINGS", "BRONX", "RICHMOND", "NASSAU", "SUFFOLK"];
+export const TARGET_COUNTIES = ["NEW YORK", "KINGS", "BRONX", "QUEENS", "RICHMOND", "NASSAU", "SUFFOLK"];
 
 // Medicaid Enrolled Provider Listing types that are specific to OPWDD / IDD services
 export const MEDICAID_IDD_TYPES: Record<string, string> = {

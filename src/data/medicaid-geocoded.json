@@ -65,6 +65,19 @@
   },
   {
     "source": "medicaid",
+    "name": "AABR 178-22 LINDEN BLVD",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00356854",
+    "address": "17822 Linden Blvd, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(718) 297-0620",
+    "lat": 40.69226,
+    "lng": -73.76743
+  },
+  {
+    "source": "medicaid",
     "name": "AABR CROMWELL AVE ICF",
     "services": [
       "Intermediate Care (ICF)"
@@ -101,6 +114,45 @@
     "phone": "(718) 295-8699",
     "lat": 40.85827,
     "lng": -73.90629
+  },
+  {
+    "source": "medicaid",
+    "name": "AABR INC DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02692437",
+    "address": "1508 College Point Blvd, College Point, NY, 11356",
+    "region": "Queens",
+    "phone": "(718) 321-3800",
+    "lat": 40.78409,
+    "lng": -73.84608
+  },
+  {
+    "source": "medicaid",
+    "name": "AABR INC.",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00581177",
+    "address": "8045 Winchester Blvd, Queens Village, NY, 11427",
+    "region": "Queens",
+    "phone": "(718) 317-2956",
+    "lat": 40.74122,
+    "lng": -73.73114
+  },
+  {
+    "source": "medicaid",
+    "name": "AABR POSNER ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00356863",
+    "address": "17806 Linden Blvd, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(718) 657-5718",
+    "lat": 40.69226,
+    "lng": -73.76743
   },
   {
     "source": "medicaid",
@@ -506,6 +558,19 @@
   },
   {
     "source": "medicaid",
+    "name": "ASSN F/NEUR IMP BRAIN INJ SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02337988",
+    "address": "5314 Hollis Court Blvd, Fresh Meadows, NY, 11365",
+    "region": "Queens",
+    "phone": "(718) 423-9550",
+    "lat": 40.74721,
+    "lng": -73.78207
+  },
+  {
+    "source": "medicaid",
     "name": "ASSN FOR CHILDREN W/DOWNS SYND SPT",
     "services": [
       "OPWDD Community Support Site"
@@ -542,6 +607,71 @@
     "phone": "(516) 933-4700",
     "lat": 40.77339,
     "lng": -73.4929
+  },
+  {
+    "source": "medicaid",
+    "name": "ASSOC FOR ADV BLIND & RET SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02245783",
+    "address": "1508 College Point Blvd, College Point, NY, 11356",
+    "region": "Queens",
+    "phone": "(718) 321-3800",
+    "lat": 40.78409,
+    "lng": -73.84608
+  },
+  {
+    "source": "medicaid",
+    "name": "ASSOC NEUROL IMPAIRED DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02692482",
+    "address": "212 12 26th Ave, Bayside, NY, 11360",
+    "region": "Queens",
+    "phone": "(718) 423-9550",
+    "lat": 40.78132,
+    "lng": -73.78151
+  },
+  {
+    "source": "medicaid",
+    "name": "ASSOC NEUROL IMPAIRED DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02692482",
+    "address": "6135 220th St, Oakland Gardens, NY, 11364",
+    "region": "Queens",
+    "phone": "(718) 423-9550",
+    "lat": 40.74778,
+    "lng": -73.75712
+  },
+  {
+    "source": "medicaid",
+    "name": "B FINESON DC HILLSIDE I",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01327233",
+    "address": "23801 Hillside Ave, Bellerose, NY, 11426",
+    "region": "Queens",
+    "phone": "(518) 402-4333",
+    "lat": 40.73382,
+    "lng": -73.72668
+  },
+  {
+    "source": "medicaid",
+    "name": "B FINESON DC HILLSIDE II",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01327251",
+    "address": "23801 Hillside Ave, Bellerose, NY, 11426",
+    "region": "Queens",
+    "phone": "(518) 402-4333",
+    "lat": 40.73382,
+    "lng": -73.72668
   },
   {
     "source": "medicaid",
@@ -602,6 +732,19 @@
       "OPWDD State-Operated Clinic"
     ],
     "detail": "Medicaid ID 05308943",
+    "address": "8045 Winchester Blvd Bldg 80, Queens Village, NY, 11427",
+    "region": "Queens",
+    "phone": "(518) 402-4333",
+    "lat": 40.74114,
+    "lng": -73.73118
+  },
+  {
+    "source": "medicaid",
+    "name": "BERNARD FINESON DDSO CLINIC",
+    "services": [
+      "OPWDD State-Operated Clinic"
+    ],
+    "detail": "Medicaid ID 05308943",
     "address": "81 Mall Dr, Commack, NY, 11725",
     "region": "Suffolk",
     "phone": "(518) 402-4333",
@@ -636,6 +779,32 @@
   },
   {
     "source": "medicaid",
+    "name": "BERNARD M FINESON DDSO ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 07656760",
+    "address": "8045 Winchester Blvd Fl 3, Queens Village, NY, 11427",
+    "region": "Queens",
+    "phone": "(518) 402-4333",
+    "lat": 40.74122,
+    "lng": -73.73114
+  },
+  {
+    "source": "medicaid",
+    "name": "BERNARD M FINESON DDSO OPWDD",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 06333884",
+    "address": "8045 Winchester Blvd Bldg 8, Queens Village, NY, 11427",
+    "region": "Queens",
+    "phone": "(718) 217-4242",
+    "lat": 40.74114,
+    "lng": -73.73118
+  },
+  {
+    "source": "medicaid",
     "name": "BIRCH FAMILY SERVICES INC",
     "services": [
       "Intermediate Care (ICF)"
@@ -659,6 +828,19 @@
     "phone": "(212) 616-1811",
     "lat": 40.82768,
     "lng": -73.94771
+  },
+  {
+    "source": "medicaid",
+    "name": "BIRCH FAMILY SERVICES INC",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 08122281",
+    "address": "15519 Linden Blvd, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(212) 616-1877",
+    "lat": 40.6879,
+    "lng": -73.79081
   },
   {
     "source": "medicaid",
@@ -1528,6 +1710,19 @@
       "OPWDD Community Support Site"
     ],
     "detail": "Medicaid ID 04145406",
+    "address": "13618 39th Ave Fl 8, Flushing, NY, 11354",
+    "region": "Queens",
+    "phone": "(718) 358-8899",
+    "lat": 40.75987,
+    "lng": -73.83136
+  },
+  {
+    "source": "medicaid",
+    "name": "CHINESE-AMERICAN PLANNING COUNCIL O",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 04145406",
     "address": "4101 8th Ave, Brooklyn, NY, 11232",
     "region": "Brooklyn",
     "phone": "(718) 492-0409",
@@ -1690,6 +1885,18 @@
   },
   {
     "source": "medicaid",
+    "name": "CLARKE INSTITUTE FOR COMMUNITY INCL",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Day habilitation · Medicaid ID 03044855",
+    "address": "1 Cross Island Plz, Rosedale, NY, 11422",
+    "region": "Queens",
+    "lat": 40.67435,
+    "lng": -73.73185
+  },
+  {
+    "source": "medicaid",
     "name": "CNTRO SOC LA ESPERANZA DAY",
     "services": [
       "OPWDD Community Support Site"
@@ -1778,6 +1985,19 @@
     "phone": "(516) 683-0710",
     "lat": 40.75435,
     "lng": -73.56093
+  },
+  {
+    "source": "medicaid",
+    "name": "COMM RES SVC/CHILDREN DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02781024",
+    "address": "9004 161st St, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 206-3400",
+    "lat": 40.70487,
+    "lng": -73.79946
   },
   {
     "source": "medicaid",
@@ -1905,6 +2125,19 @@
     "phone": "(212) 227-9110",
     "lat": 40.74848,
     "lng": -73.98466
+  },
+  {
+    "source": "medicaid",
+    "name": "COMMUNITY OPTIONS NY SPT",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Supportive IRA · Medicaid ID 02740650",
+    "address": "6260 60th St Spt, Ridgewood, NY, 11385",
+    "region": "Queens",
+    "phone": "(609) 951-9900",
+    "lat": 40.712,
+    "lng": -73.90479
   },
   {
     "source": "medicaid",
@@ -2111,6 +2344,19 @@
     "phone": "(914) 733-3301",
     "lat": 40.89675,
     "lng": -73.8644
+  },
+  {
+    "source": "medicaid",
+    "name": "DAYBREAK INDEPENDENT SRVS DAY/AHRH",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 03075972",
+    "address": "8606 121st St, Richmond Hill, NY, 11418",
+    "region": "Queens",
+    "phone": "(917) 443-0838",
+    "lat": 40.70106,
+    "lng": -73.82953
   },
   {
     "source": "medicaid",
@@ -2514,6 +2760,58 @@
   },
   {
     "source": "medicaid",
+    "name": "EIHAB HUMAN SERVICES SPT",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Supportive IRA · Medicaid ID 02750094",
+    "address": "16818 S Conduit Ave # 1c, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(718) 465-8833",
+    "lat": 40.66681,
+    "lng": -73.77542
+  },
+  {
+    "source": "medicaid",
+    "name": "EIHAB HUMAN SERVICES SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02246784",
+    "address": "16818 S Conduit Ave Ste 1, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(718) 276-6101",
+    "lat": 40.66683,
+    "lng": -73.77545
+  },
+  {
+    "source": "medicaid",
+    "name": "EIHAB HUMAN SVCS INC DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02704429",
+    "address": "168-18 South Conduct Ave, Springfield Gardens, NY, 11434",
+    "region": "Queens",
+    "phone": "(718) 465-8833",
+    "lat": 40.67622,
+    "lng": -73.77528
+  },
+  {
+    "source": "medicaid",
+    "name": "EIHAB HUMAN SVCS INC DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02704429",
+    "address": "16818 S Conduit Ave Ste 1, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(718) 276-6101",
+    "lat": 40.66683,
+    "lng": -73.77545
+  },
+  {
+    "source": "medicaid",
     "name": "ELMYS SPECIAL SERVICES DAY",
     "services": [
       "OPWDD Community Support Site"
@@ -2837,6 +3135,43 @@
   },
   {
     "source": "medicaid",
+    "name": "GENERAL HUMAN OUTREACH DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02699356",
+    "address": "12510 Queens Blvd, Kew Gardens, NY, 11415",
+    "region": "Queens",
+    "lat": 40.71191,
+    "lng": -73.82661
+  },
+  {
+    "source": "medicaid",
+    "name": "GENERAL HUMAN OUTREACH SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02247092",
+    "address": "12510 Queens Blvd, Kew Gardens, NY, 11415",
+    "region": "Queens",
+    "lat": 40.71191,
+    "lng": -73.82661
+  },
+  {
+    "source": "medicaid",
+    "name": "GOODWILL IND GR NY/NJ DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02699214",
+    "address": "421 27th Ave, Astoria, NY, 11102",
+    "region": "Queens",
+    "phone": "(718) 777-6395",
+    "lat": 40.77418,
+    "lng": -73.93139
+  },
+  {
+    "source": "medicaid",
     "name": "GUILD FOR EXCEPTIONAL CHILDREN SPT",
     "services": [
       "OPWDD Community Support Site"
@@ -2925,6 +3260,32 @@
     "phone": "(718) 833-6633",
     "lat": 40.63672,
     "lng": -74.02616
+  },
+  {
+    "source": "medicaid",
+    "name": "HAITIAN AMER UN/ PROGR DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02699127",
+    "address": "19717 Hillside Ave, Hollis, NY, 11423",
+    "region": "Queens",
+    "phone": "(718) 527-3776",
+    "lat": 40.71882,
+    "lng": -73.76515
+  },
+  {
+    "source": "medicaid",
+    "name": "HAITIAN AMER UN/ PROGR DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02699127",
+    "address": "22105 Linden Blvd, Cambria Heights, NY, 11411",
+    "region": "Queens",
+    "phone": "(718) 527-3776",
+    "lat": 40.69486,
+    "lng": -73.73845
   },
   {
     "source": "medicaid",
@@ -3131,6 +3492,19 @@
     "phone": "(718) 422-3229",
     "lat": 40.60329,
     "lng": -74.00571
+  },
+  {
+    "source": "medicaid",
+    "name": "HEAVENS HANDS COMM SVCS DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02703588",
+    "address": "6710 Myrtle Ave, Glendale, NY, 11385",
+    "region": "Queens",
+    "phone": "(917) 671-9924",
+    "lat": 40.70129,
+    "lng": -73.88589
   },
   {
     "source": "medicaid",
@@ -3482,6 +3856,32 @@
   },
   {
     "source": "medicaid",
+    "name": "INDEPENDENCE RES INC DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02699232",
+    "address": "11240 Francis Lewis Blvd, Queens Village, NY, 11429",
+    "region": "Queens",
+    "phone": "(718) 805-6796",
+    "lat": 40.7034,
+    "lng": -73.74975
+  },
+  {
+    "source": "medicaid",
+    "name": "INDEPENDENCE RES INC DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02699232",
+    "address": "9322 Jamaica Ave, Woodhaven, NY, 11421",
+    "region": "Queens",
+    "phone": "(718) 805-6796",
+    "lat": 40.69361,
+    "lng": -73.85152
+  },
+  {
+    "source": "medicaid",
     "name": "INDEPENDENCE RESIDENCES INC",
     "services": [
       "Intermediate Care (ICF)"
@@ -3492,6 +3892,44 @@
     "phone": "(718) 805-6796",
     "lat": 40.79722,
     "lng": -73.37993
+  },
+  {
+    "source": "medicaid",
+    "name": "INDEPENDENCE RESIDENCES INC SPT",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 03431849",
+    "address": "11240 Francis Lewis Blvd, Queens Village, NY, 11429",
+    "region": "Queens",
+    "lat": 40.7034,
+    "lng": -73.74975
+  },
+  {
+    "source": "medicaid",
+    "name": "INDEPENDENCE RESIDENCES INC SPT",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 03431849",
+    "address": "9322 Jamaica Ave, Woodhaven, NY, 11421",
+    "region": "Queens",
+    "phone": "(718) 805-6796",
+    "lat": 40.69361,
+    "lng": -73.85152
+  },
+  {
+    "source": "medicaid",
+    "name": "INDEPENDENCE RESIDENCES SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02255163",
+    "address": "11240 Francis Lewis Blvd, Queens Village, NY, 11429",
+    "region": "Queens",
+    "phone": "(718) 805-6796",
+    "lat": 40.7034,
+    "lng": -73.74975
   },
   {
     "source": "medicaid",
@@ -3620,6 +4058,19 @@
   },
   {
     "source": "medicaid",
+    "name": "INNOVATIVE RESOURCES FOR INDEPENDEN",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 07519515",
+    "address": "8045 Winchester Blvd Cottages 004 And 005, Queens Village, NY, 11427",
+    "region": "Queens",
+    "phone": "(718) 805-6796",
+    "lat": 40.74122,
+    "lng": -73.73114
+  },
+  {
+    "source": "medicaid",
     "name": "INST APP HUMAN DYNA DAY",
     "services": [
       "OPWDD Community Support Site"
@@ -3721,6 +4172,44 @@
     "phone": "(516) 280-5930",
     "lat": 40.70862,
     "lng": -73.62751
+  },
+  {
+    "source": "medicaid",
+    "name": "JAMAICA HOSPITAL MED CTR DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02699278",
+    "address": "8900 Van Wyck Expy, Jamaica, NY, 11418",
+    "region": "Queens",
+    "phone": "(718) 206-6820",
+    "lat": 40.7005,
+    "lng": -73.81632
+  },
+  {
+    "source": "medicaid",
+    "name": "JAMAICA HOSPITAL MED CTR SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02247390",
+    "address": "8900 Van Wyck Expy, Jamaica, NY, 11418",
+    "region": "Queens",
+    "lat": 40.7005,
+    "lng": -73.81632
+  },
+  {
+    "source": "medicaid",
+    "name": "JEWEL HUMAN SERVICES INC DAY/CH",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 03422608",
+    "address": "12110 153rd St, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(347) 495-4515",
+    "lat": 40.678,
+    "lng": -73.78893
   },
   {
     "source": "medicaid",
@@ -3943,6 +4432,19 @@
   },
   {
     "source": "medicaid",
+    "name": "LEXINGTON VOCATIONAL SERVICES CENTE",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 05050239",
+    "address": "2526 75th St Lexington, East Elmhurst, NY, 11370",
+    "region": "Queens",
+    "phone": "(718) 350-3110",
+    "lat": 40.76134,
+    "lng": -73.89399
+  },
+  {
+    "source": "medicaid",
     "name": "LIFE ADJUSTMENT CENTER SPT",
     "services": [
       "OPWDD Community Support Site"
@@ -4045,6 +4547,19 @@
   },
   {
     "source": "medicaid",
+    "name": "LIFESPIRE INC",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01114992",
+    "address": "4029 61st St, Woodside, NY, 11377",
+    "region": "Queens",
+    "phone": "(718) 899-8401",
+    "lat": 40.74321,
+    "lng": -73.90339
+  },
+  {
+    "source": "medicaid",
     "name": "LIFESPIRE INC DAY",
     "services": [
       "OPWDD Community Support Site"
@@ -4088,12 +4603,38 @@
     "services": [
       "Intermediate Care (ICF)"
     ],
+    "detail": "Medicaid ID 00357204",
+    "address": "6156 219th St, Oakland Gardens, NY, 11364",
+    "region": "Queens",
+    "phone": "(718) 224-2413",
+    "lat": 40.74779,
+    "lng": -73.75882
+  },
+  {
+    "source": "medicaid",
+    "name": "LIFESPIRE INC ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
     "detail": "Medicaid ID 00562905",
     "address": "630 Hylan Blvd, Staten Island, NY, 10305",
     "region": "Staten Island",
     "phone": "(718) 727-2740",
     "lat": 40.60332,
     "lng": -74.07479
+  },
+  {
+    "source": "medicaid",
+    "name": "LIFESPIRE INC ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00661225",
+    "address": "12706 Old South Rd, South Ozone Park, NY, 11420",
+    "region": "Queens",
+    "phone": "(718) 641-3600",
+    "lat": 40.66458,
+    "lng": -73.81452
   },
   {
     "source": "medicaid",
@@ -4211,6 +4752,19 @@
     "phone": "(631) 929-6200",
     "lat": 40.96126,
     "lng": -72.82976
+  },
+  {
+    "source": "medicaid",
+    "name": "LITTLE FLOWER CHILDRENS SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02320107",
+    "address": "215- 27 111th Rd, Queens Village, NY, 11429",
+    "region": "Queens",
+    "phone": "(718) 875-3500",
+    "lat": 40.71012,
+    "lng": -73.73915
   },
   {
     "source": "medicaid",
@@ -4655,6 +5209,45 @@
   },
   {
     "source": "medicaid",
+    "name": "MERCY DRIVE INC DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02934141",
+    "address": "7235 112th St Ste Pr1, Forest Hills, NY, 11375",
+    "region": "Queens",
+    "phone": "(718) 793-2158",
+    "lat": 40.72073,
+    "lng": -73.83776
+  },
+  {
+    "source": "medicaid",
+    "name": "MERCY DRIVE INC DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02934141",
+    "address": "9079 Sutphin Blvd, Jamaica, NY, 11435",
+    "region": "Queens",
+    "phone": "(718) 658-3510",
+    "lat": 40.70116,
+    "lng": -73.80725
+  },
+  {
+    "source": "medicaid",
+    "name": "MERCY HM FOR CHILDRN KEATING",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00988174",
+    "address": "13721 Brookville Blvd, Rosedale, NY, 11422",
+    "region": "Queens",
+    "phone": "(718) 832-1075",
+    "lat": 40.66858,
+    "lng": -73.73636
+  },
+  {
+    "source": "medicaid",
     "name": "MERCY HM FOR CHILDRN LITTLE J",
     "services": [
       "Intermediate Care (ICF)"
@@ -4914,6 +5507,19 @@
   },
   {
     "source": "medicaid",
+    "name": "NEW HORIZON COUNSELING CENTER DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 03855052",
+    "address": "10819 Rockaway Blvd, S Ozone Park, NY, 11420",
+    "region": "Queens",
+    "phone": "(718) 327-3180",
+    "lat": 40.6783,
+    "lng": -73.83071
+  },
+  {
+    "source": "medicaid",
     "name": "NEW YORK FOUNDLING HOSP",
     "services": [
       "OPWDD Community Support Site"
@@ -4950,6 +5556,19 @@
     "phone": "(516) 767-7177",
     "lat": 40.83057,
     "lng": -73.70195
+  },
+  {
+    "source": "medicaid",
+    "name": "NY FAMILIES FOR AUTISTIC CHLDRN DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 03044828",
+    "address": "9516 Pitkin Ave, Ozone Park, NY, 11417",
+    "region": "Queens",
+    "phone": "(718) 641-3441",
+    "lat": 40.6723,
+    "lng": -73.84047
   },
   {
     "source": "medicaid",
@@ -5018,6 +5637,44 @@
   },
   {
     "source": "medicaid",
+    "name": "NYSARC INC NYC CHAP SE 2A ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 02915057",
+    "address": "8902 162nd St Ste 2a, Jamaica, NY, 11432",
+    "region": "Queens",
+    "lat": 40.70572,
+    "lng": -73.79883
+  },
+  {
+    "source": "medicaid",
+    "name": "NYSARC INC NYC CHAP SS 3D ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 02915066",
+    "address": "8902 162nd St Ste 3d, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(212) 780-2635",
+    "lat": 40.70572,
+    "lng": -73.79883
+  },
+  {
+    "source": "medicaid",
+    "name": "NYSARC INC NYC CHAP SW 2B ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 02915084",
+    "address": "8902 162nd St Ste 2b, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(212) 780-2635",
+    "lat": 40.70572,
+    "lng": -73.79883
+  },
+  {
+    "source": "medicaid",
     "name": "NYSARC INC NYC CHAPTER DAY",
     "services": [
       "OPWDD Community Support Site"
@@ -5028,6 +5685,19 @@
     "phone": "(212) 780-2692",
     "lat": 40.70746,
     "lng": -74.00749
+  },
+  {
+    "source": "medicaid",
+    "name": "NYSARC INC NYC CHAPTER SN 3C",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 02915075",
+    "address": "8902 162nd St Ste 3c, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(212) 780-2635",
+    "lat": 40.70572,
+    "lng": -73.79883
   },
   {
     "source": "medicaid",
@@ -5146,6 +5816,19 @@
   },
   {
     "source": "medicaid",
+    "name": "OHEL CHILDRENS HM/FAM SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02750594",
+    "address": "156 Beach 9th St Fl 2, Far Rockaway, NY, 11691",
+    "region": "Queens",
+    "phone": "(718) 686-3222",
+    "lat": 40.59547,
+    "lng": -73.74372
+  },
+  {
+    "source": "medicaid",
     "name": "OHEL CHILDRENS HOME 12TH AVE ICF",
     "services": [
       "Intermediate Care (ICF)"
@@ -5179,6 +5862,30 @@
     "region": "Brooklyn",
     "lat": 40.62724,
     "lng": -73.96255
+  },
+  {
+    "source": "medicaid",
+    "name": "OHEL CHILDRENS HOME GATEWAY ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00767024",
+    "address": "1217 Gateway Blvd, Far Rockaway, NY, 11691",
+    "region": "Queens",
+    "lat": 40.60268,
+    "lng": -73.74719
+  },
+  {
+    "source": "medicaid",
+    "name": "OHEL CHILDRENS HOME KISSENA ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00581186",
+    "address": "7140 Kissena Blvd, Flushing, NY, 11367",
+    "region": "Queens",
+    "lat": 40.73005,
+    "lng": -73.81521
   },
   {
     "source": "medicaid",
@@ -5400,6 +6107,32 @@
     "phone": "(718) 667-8700",
     "lat": 40.57267,
     "lng": -74.11685
+  },
+  {
+    "source": "medicaid",
+    "name": "PROFESSIONAL SVC 148TH AVE",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01171333",
+    "address": "23031 148th Ave, Laurelton, NY, 11413",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.65611,
+    "lng": -73.75168
+  },
+  {
+    "source": "medicaid",
+    "name": "PROFESSIONAL SVC PADAVAN ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00696979",
+    "address": "4015 159th St, Flushing, NY, 11358",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.76259,
+    "lng": -73.80623
   },
   {
     "source": "medicaid",
@@ -5628,6 +6361,19 @@
     "services": [
       "Intermediate Care (ICF)"
     ],
+    "detail": "Medicaid ID 04225590",
+    "address": "11216 200th St, Saint Albans, NY, 11412",
+    "region": "Queens",
+    "phone": "(718) 728-8476",
+    "lat": 40.70071,
+    "lng": -73.75488
+  },
+  {
+    "source": "medicaid",
+    "name": "QSAC INC",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
     "detail": "Medicaid ID 04419765",
     "address": "901 Melville Estates Ct, Melville, NY, 11747",
     "region": "Suffolk",
@@ -5646,6 +6392,44 @@
     "phone": "(212) 244-5560",
     "lat": 40.75237,
     "lng": -73.99159
+  },
+  {
+    "source": "medicaid",
+    "name": "QUEENS PARENT RESRC CTR DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02701471",
+    "address": "11240 Francis Lewis Blvd, Queens Village, NY, 11429",
+    "region": "Queens",
+    "phone": "(347) 947-6840",
+    "lat": 40.7034,
+    "lng": -73.74975
+  },
+  {
+    "source": "medicaid",
+    "name": "QUEENS PARENT RESRC CTR SPT",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Supportive IRA · Medicaid ID 02379739",
+    "address": "8805 Merrick Blvd, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 523-6953",
+    "lat": 40.70864,
+    "lng": -73.79546
+  },
+  {
+    "source": "medicaid",
+    "name": "QUEENS PARENT RESRC CTR SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02248488",
+    "address": "8850 165th St, Jamaica, NY, 11432",
+    "region": "Queens",
+    "lat": 40.70935,
+    "lng": -73.79803
   },
   {
     "source": "medicaid",
@@ -5688,6 +6472,32 @@
   },
   {
     "source": "medicaid",
+    "name": "SALVATION ARMY GLENDALE ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01600242",
+    "address": "7129 70th St, Glendale, NY, 11385",
+    "region": "Queens",
+    "phone": "(718) 381-7329",
+    "lat": 40.70233,
+    "lng": -73.88089
+  },
+  {
+    "source": "medicaid",
+    "name": "SALVATION ARMY HOPE HOUSE",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00476155",
+    "address": "11537 133rd St, South Ozone Park, NY, 11420",
+    "region": "Queens",
+    "phone": "(718) 322-1616",
+    "lat": 40.6777,
+    "lng": -73.80666
+  },
+  {
+    "source": "medicaid",
     "name": "SALVATION ARMY OPWDD MULTI",
     "services": [
       "OPWDD Community Support Site"
@@ -5698,6 +6508,32 @@
     "phone": "(718) 206-9171",
     "lat": 40.74137,
     "lng": -73.99728
+  },
+  {
+    "source": "medicaid",
+    "name": "SALVATION ARMY PIONEER ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00410357",
+    "address": "11222 37th Ave, Corona, NY, 11368",
+    "region": "Queens",
+    "phone": "(718) 255-9400",
+    "lat": 40.7543,
+    "lng": -73.8549
+  },
+  {
+    "source": "medicaid",
+    "name": "SAMUEL FIELD YM AND YWHA INC OPWDD",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 04057452",
+    "address": "5820 Little Neck Pkwy, Little Neck, NY, 11362",
+    "region": "Queens",
+    "phone": "(718) 225-6750",
+    "lat": 40.76097,
+    "lng": -73.72332
   },
   {
     "source": "medicaid",
@@ -5737,6 +6573,19 @@
     "phone": "(718) 405-7060",
     "lat": 40.88325,
     "lng": -73.84544
+  },
+  {
+    "source": "medicaid",
+    "name": "SERENITY HUMAN SERVICES INC DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 03045250",
+    "address": "9221 165th St, Jamaica, NY, 11433",
+    "region": "Queens",
+    "phone": "(718) 526-6125",
+    "lat": 40.70484,
+    "lng": -73.79404
   },
   {
     "source": "medicaid",
@@ -6163,6 +7012,19 @@
   },
   {
     "source": "medicaid",
+    "name": "ST CHRISTOPHER-OTTILIE RICHMO",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01355788",
+    "address": "9563 112th St, South Richmond Hill, NY, 11419",
+    "region": "Queens",
+    "phone": "(718) 441-5306",
+    "lat": 40.68959,
+    "lng": -73.83237
+  },
+  {
+    "source": "medicaid",
     "name": "ST CHRISTOPHERS INC DAY",
     "services": [
       "OPWDD Community Support Site"
@@ -6173,6 +7035,32 @@
     "phone": "(718) 239-1610",
     "lat": 40.83346,
     "lng": -73.85782
+  },
+  {
+    "source": "medicaid",
+    "name": "ST CHRISTOPHERS OTTILIE KEW",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01272980",
+    "address": "84-42 120th St, Kew Gardens, NY, 11415",
+    "region": "Queens",
+    "phone": "(718) 441-5306",
+    "lat": 40.70386,
+    "lng": -73.83149
+  },
+  {
+    "source": "medicaid",
+    "name": "ST CHRISTOPHERS-OTTILIE JAMAI",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01024648",
+    "address": "8822 161st St, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 739-2268",
+    "lat": 40.70723,
+    "lng": -73.80062
   },
   {
     "source": "medicaid",
@@ -6487,6 +7375,19 @@
   },
   {
     "source": "medicaid",
+    "name": "THE SHIELD INSTITUTE DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02702532",
+    "address": "14461 Roosevelt Ave, Flushing, NY, 11354",
+    "region": "Queens",
+    "phone": "(718) 886-1534",
+    "lat": 40.762,
+    "lng": -73.82072
+  },
+  {
+    "source": "medicaid",
     "name": "THE YALDEINU SCHOOL OPWDD MULTI",
     "services": [
       "OPWDD Community Support Site"
@@ -6523,6 +7424,19 @@
     "phone": "(516) 609-2000",
     "lat": 40.85838,
     "lng": -73.63493
+  },
+  {
+    "source": "medicaid",
+    "name": "U C P NYS 164TH PLACE ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01750494",
+    "address": "11035 164th Pl, Jamaica, NY, 11433",
+    "region": "Queens",
+    "phone": "(212) 947-5770",
+    "lat": 40.69369,
+    "lng": -73.78667
   },
   {
     "source": "medicaid",
@@ -6840,6 +7754,18 @@
     "services": [
       "Intermediate Care (ICF)"
     ],
+    "detail": "Medicaid ID 04539846",
+    "address": "21820 104th Ave, Queens Village, NY, 11429",
+    "region": "Queens",
+    "lat": 40.71246,
+    "lng": -73.73822
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP NYS",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
     "detail": "Medicaid ID 04539855",
     "address": "3730 Shore Pkwy, Brooklyn, NY, 11235",
     "region": "Brooklyn",
@@ -6864,12 +7790,48 @@
     "services": [
       "Intermediate Care (ICF)"
     ],
+    "detail": "Medicaid ID 04539873",
+    "address": "10424 48th Ave, Corona, NY, 11368",
+    "region": "Queens",
+    "lat": 40.74493,
+    "lng": -73.85846
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP NYS",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
     "detail": "Medicaid ID 04539882",
     "address": "156 Midwood St, Brooklyn, NY, 11225",
     "region": "Brooklyn",
     "phone": "(212) 947-5770",
     "lat": 40.65972,
     "lng": -73.95546
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP NYS",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 04568943",
+    "address": "12101 116th Ave, South Ozone Park, NY, 11420",
+    "region": "Queens",
+    "lat": 40.67672,
+    "lng": -73.81396
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP NYS",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 04568952",
+    "address": "14516 Farmers Blvd, Jamaica, NY, 11434",
+    "region": "Queens",
+    "lat": 40.66607,
+    "lng": -73.76806
   },
   {
     "source": "medicaid",
@@ -6945,6 +7907,123 @@
     "region": "Manhattan",
     "lat": 40.70903,
     "lng": -74.00568
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP OF QUEENS",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02702578",
+    "address": "8115 164th St, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 380-3000",
+    "lat": 40.72006,
+    "lng": -73.80369
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP OF QUEENS SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02252615",
+    "address": "8115 164th St, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 380-3000",
+    "lat": 40.72006,
+    "lng": -73.80369
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP QUEENS ICF A",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01114805",
+    "address": "249-08 Gr Cent Pkwy, Bellerose, NY, 11426",
+    "region": "Queens",
+    "phone": "(718) 279-9404",
+    "lat": 40.73311,
+    "lng": -73.722
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP QUEENS ICF B",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01110989",
+    "address": "249-10 Gr Cent Pkwy, Bellerose, NY, 11426",
+    "region": "Queens",
+    "phone": "(718) 279-9404",
+    "lat": 40.73311,
+    "lng": -73.722
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP QUEENS ICF C",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01111013",
+    "address": "249-12 Gr Cent Pkwy, Bellerose, NY, 11426",
+    "region": "Queens",
+    "phone": "(718) 279-9404",
+    "lat": 40.73311,
+    "lng": -73.722
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP QUEENS ICF D",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01115228",
+    "address": "249-14a Gr Cent Pkwy, Bellerose, NY, 11426",
+    "region": "Queens",
+    "phone": "(718) 279-9404",
+    "lat": 40.73311,
+    "lng": -73.722
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP QUEENS ICF E",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01116352",
+    "address": "249-14 Gr Cent Pkwy, Bellerose, NY, 11426",
+    "region": "Queens",
+    "phone": "(718) 279-9404",
+    "lat": 40.73311,
+    "lng": -73.722
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP QUEENS ROBERT GROH ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00577739",
+    "address": "8714 Midland Pkwy, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 526-2764",
+    "lat": 40.71362,
+    "lng": -73.78304
+  },
+  {
+    "source": "medicaid",
+    "name": "UCP/NYS BAYSIDE ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01523055",
+    "address": "4557 211th St, Bayside, NY, 11361",
+    "region": "Queens",
+    "phone": "(212) 947-5770",
+    "lat": 40.7579,
+    "lng": -73.77068
   },
   {
     "source": "medicaid",
@@ -7141,6 +8220,32 @@
   },
   {
     "source": "medicaid",
+    "name": "URBAN RESOURCE INST LINDEN",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01207661",
+    "address": "15519 Linden Blvd, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(718) 322-9127",
+    "lat": 40.6879,
+    "lng": -73.79081
+  },
+  {
+    "source": "medicaid",
+    "name": "URBAN RESOURCE INST PRIMM ICF",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01219947",
+    "address": "4149 Benham St, Elmhurst, NY, 11373",
+    "region": "Queens",
+    "phone": "(718) 899-8622",
+    "lat": 40.74726,
+    "lng": -73.8722
+  },
+  {
+    "source": "medicaid",
     "name": "URBAN RESOURCE INSTITUTE MULTI",
     "services": [
       "OPWDD Community Support Site"
@@ -7151,6 +8256,19 @@
     "phone": "(646) 588-0030",
     "lat": 40.70459,
     "lng": -74.01144
+  },
+  {
+    "source": "medicaid",
+    "name": "URBAN RESOURCE INSTITUTE SPV",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02392785",
+    "address": "14543 Ferndale Ave, Jamaica, NY, 11435",
+    "region": "Queens",
+    "phone": "(718) 260-2931",
+    "lat": 40.68939,
+    "lng": -73.80049
   },
   {
     "source": "medicaid",
@@ -7236,12 +8354,51 @@
     "services": [
       "OPWDD Community Support Site"
     ],
+    "detail": "Medicaid ID 02248337",
+    "address": "14202 20th Ave # 3, Flushing, NY, 11351",
+    "region": "Queens",
+    "phone": "(917) 563-3350",
+    "lat": 40.77955,
+    "lng": -73.82822
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
     "detail": "Medicaid ID 02681390",
     "address": "3439 Fulton St, Brooklyn, NY, 11208",
     "region": "Brooklyn",
     "phone": "(718) 445-4700",
     "lat": 40.68461,
     "lng": -73.86914
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02693570",
+    "address": "14202 20th Ave, Flushing, NY, 11351",
+    "region": "Queens",
+    "phone": "(718) 559-0516",
+    "lat": 40.77955,
+    "lng": -73.82822
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 00696960",
+    "address": "25802 Craft Ave, Rosedale, NY, 11422",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.65067,
+    "lng": -73.73049
   },
   {
     "source": "medicaid",
@@ -7255,6 +8412,97 @@
     "phone": "(718) 559-0555",
     "lat": 40.68421,
     "lng": -73.8756
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01203025",
+    "address": "5232 72nd Pl, Maspeth, NY, 11378",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.73235,
+    "lng": -73.8912
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01282080",
+    "address": "13003 7th Ave, College Point, NY, 11356",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.79,
+    "lng": -73.8376
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01428082",
+    "address": "4220 149th St, Flushing, NY, 11355",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.75995,
+    "lng": -73.81477
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01530749",
+    "address": "101-54/56 117th St, Richmond Hills, NY, 11419",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.68926,
+    "lng": -73.82395
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC.",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01116678",
+    "address": "8806 195th Pl, Hollis, NY, 11423",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.71692,
+    "lng": -73.76743
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC.",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01141313",
+    "address": "2729 Butler St, East Elmhurst, NY, 11369",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.763,
+    "lng": -73.8628
+  },
+  {
+    "source": "medicaid",
+    "name": "WELLLIFE NETWORK INC.",
+    "services": [
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "Medicaid ID 01260677",
+    "address": "2614 Bell Blvd, Bayside, NY, 11360",
+    "region": "Queens",
+    "phone": "(718) 559-0555",
+    "lat": 40.77809,
+    "lng": -73.77606
   },
   {
     "source": "medicaid",
@@ -7484,5 +8732,18 @@
     "region": "Manhattan",
     "lat": 40.75414,
     "lng": -73.99835
+  },
+  {
+    "source": "medicaid",
+    "name": "YOUNG ADULTS W/SPEC ABILITIES DAY",
+    "services": [
+      "OPWDD Community Support Site"
+    ],
+    "detail": "Medicaid ID 02950058",
+    "address": "3055 21st St, Astoria, NY, 11102",
+    "region": "Queens",
+    "phone": "(718) 626-6700",
+    "lat": 40.77099,
+    "lng": -73.9279
   }
 ]

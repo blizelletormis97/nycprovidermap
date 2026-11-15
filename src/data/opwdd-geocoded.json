@@ -139,6 +139,25 @@
   },
   {
     "source": "opwdd",
+    "name": "AABR  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Family Support",
+      "Individual Support (ISS)",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "15-08 College Point Boulevard, P.O. Box 560247, College Point, NY, 11356",
+    "region": "Queens",
+    "phone": "(718) 321-3800",
+    "website": "http://www.aabr.org",
+    "lat": 40.78353,
+    "lng": -73.8465
+  },
+  {
+    "source": "opwdd",
     "name": "ABILITIES  INC.",
     "services": [
       "Supported Employment",
@@ -235,6 +254,25 @@
     "website": "https://angelsunawareny.com/",
     "lat": 40.84128,
     "lng": -73.92282
+  },
+  {
+    "source": "opwdd",
+    "name": "ANIBIC  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "61-35 220th Street, Bayside, NY, 11364",
+    "region": "Queens",
+    "phone": "(718) 423-9550",
+    "website": "http://www.anibic.org",
+    "lat": 40.74753,
+    "lng": -73.75703
   },
   {
     "source": "opwdd",
@@ -692,6 +730,21 @@
   },
   {
     "source": "opwdd",
+    "name": "COMMUNITY RESOURCES & SVCS FOR CHILDREN",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "90-04 161 Street, Suite 401, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 206-3400",
+    "lat": 40.70496,
+    "lng": -73.79913
+  },
+  {
+    "source": "opwdd",
     "name": "COMMUNITY RESOURCES STATEN ISLAND",
     "services": [
       "Day Habilitation",
@@ -869,6 +922,24 @@
   },
   {
     "source": "opwdd",
+    "name": "EIHAB HUMAN SERVICES  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "168-18 South Conduit Avenue, Springfield Gardens, NY, 11434",
+    "region": "Queens",
+    "phone": "(718) 276-6101",
+    "website": "http://www.eihab.org",
+    "lat": 40.66707,
+    "lng": -73.77548
+  },
+  {
+    "source": "opwdd",
     "name": "ELMY'S SPECIAL SERVICES  INC.",
     "services": [
       "Day Habilitation",
@@ -936,6 +1007,22 @@
   },
   {
     "source": "opwdd",
+    "name": "EVERYONENY  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "67-10 Myrtle Avenue, 2nd Floor, Glendale, NY, 11385",
+    "region": "Queens",
+    "phone": "(718) 788-5252",
+    "website": "http://www.hhcsny.org",
+    "lat": 40.70154,
+    "lng": -73.8857
+  },
+  {
+    "source": "opwdd",
     "name": "FAMILY RESID AND ESSENT ENTERPRISES  INC",
     "services": [
       "Day Habilitation",
@@ -972,6 +1059,25 @@
     "website": "http://www.gccnyc.org",
     "lat": 40.84923,
     "lng": -73.84504
+  },
+  {
+    "source": "opwdd",
+    "name": "GENERAL HUMAN OUTREACH IN THE COMMUNITY",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "125-10 Queens Boulevard, Suite 2705, Kew Gardens, NY, 11415",
+    "region": "Queens",
+    "phone": "(718) 261-6552",
+    "website": "http://www.ghoinc.org",
+    "lat": 40.71226,
+    "lng": -73.82625
   },
   {
     "source": "opwdd",
@@ -1384,6 +1490,24 @@
   },
   {
     "source": "opwdd",
+    "name": "JEWEL HUMAN SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "121-10 153 Street, Jamaica, NY, 11434",
+    "region": "Queens",
+    "phone": "(347) 436-8070",
+    "website": "https://www.jewelhumanservices.org/",
+    "lat": 40.67733,
+    "lng": -73.78862
+  },
+  {
+    "source": "opwdd",
     "name": "JEWISH BOARD OF FAMILY/CHILDREN SERVICES",
     "services": [
       "Residential (IRA)"
@@ -1448,6 +1572,20 @@
     "website": "http://www.kulanukids.org",
     "lat": 40.62467,
     "lng": -73.72091
+  },
+  {
+    "source": "opwdd",
+    "name": "LEXINGTON VOCATIONAL SERVICES CTR  INC",
+    "services": [
+      "Supported Employment"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "30th Avenue And 75th Street, Jackson Heights, NY, 11370",
+    "region": "Queens",
+    "phone": "(718) 350-3110",
+    "website": "http://www.lexnyc.org",
+    "lat": 40.76048,
+    "lng": -73.8929
   },
   {
     "source": "opwdd",
@@ -1584,6 +1722,37 @@
     "website": "http://www.maryhaven.org",
     "lat": 40.92684,
     "lng": -73.0521
+  },
+  {
+    "source": "opwdd",
+    "name": "MEANINGFUL NY INITIATVES PPL W/DISAB INC",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Self-Direction"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "164-14 Cross Bay Boulevard, Howard Beach, NY, 11414",
+    "region": "Queens",
+    "phone": "(929) 409-1027",
+    "website": "https://meaningfulny.org/",
+    "lat": 40.65013,
+    "lng": -73.83794
+  },
+  {
+    "source": "opwdd",
+    "name": "MERCY DRIVE  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "72-35 112th Street, Forest Hills, NY, 11375",
+    "region": "Queens",
+    "phone": "(718) 275-9326",
+    "website": "http://www.mercydriveinc.org",
+    "lat": 40.72062,
+    "lng": -73.83811
   },
   {
     "source": "opwdd",
@@ -1764,6 +1933,22 @@
   },
   {
     "source": "opwdd",
+    "name": "NEW HORIZON COUNSELING CENTER INC.",
+    "services": [
+      "Community Habilitation",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "718-720 Beach 20th Street, Far Rockaway, NY, 11691",
+    "region": "Queens",
+    "phone": "(718) 327-3180",
+    "website": "http://www.nhcc.us",
+    "lat": 40.60178,
+    "lng": -73.75165
+  },
+  {
+    "source": "opwdd",
     "name": "NICHOLAS CENTER",
     "services": [
       "Community Habilitation",
@@ -1777,6 +1962,22 @@
     "website": "https://tncnewyork.org/",
     "lat": 40.83051,
     "lng": -73.70155
+  },
+  {
+    "source": "opwdd",
+    "name": "NY FAMILIES FOR AUTISTIC CHILDREN",
+    "services": [
+      "Community Habilitation",
+      "Prevocational",
+      "Family Support"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "164-14 Cross Bay Blvd, Howard Beach, NY, 11414",
+    "region": "Queens",
+    "phone": "(347) 566-3122",
+    "website": "http://nyfac.org",
+    "lat": 40.65013,
+    "lng": -73.83794
   },
   {
     "source": "opwdd",
@@ -2013,6 +2214,20 @@
   },
   {
     "source": "opwdd",
+    "name": "QUEENS PARENT RESOURCE CENTER  INC",
+    "services": [
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "112-40 Francis Lewis Blvd., Queens Village, NY, 11429",
+    "region": "Queens",
+    "phone": "(347) 947-6840",
+    "website": "http://www.qprc.net",
+    "lat": 40.70316,
+    "lng": -73.74933
+  },
+  {
+    "source": "opwdd",
     "name": "REWARDING ENVIRONMTS FOR ADULT LVNG INC",
     "services": [
       "Community Habilitation"
@@ -2110,6 +2325,22 @@
   },
   {
     "source": "opwdd",
+    "name": "SERENITY HUMAN SERVICES  INC.",
+    "services": [
+      "Community Habilitation",
+      "Family Support",
+      "Individual Support (ISS)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "133-33 Brookville Blvd, Suite 213, Rosedale, NY, 11422",
+    "region": "Queens",
+    "phone": "(718) 526-6125",
+    "website": "http://tendercareny.org",
+    "lat": 40.67416,
+    "lng": -73.7328
+  },
+  {
+    "source": "opwdd",
     "name": "SERVICES FOR THE DEVELOP. CHALLENGED",
     "services": [
       "Day Habilitation",
@@ -2159,6 +2390,23 @@
     "website": "http://www.hear-our-voices.org",
     "lat": 40.64176,
     "lng": -73.99428
+  },
+  {
+    "source": "opwdd",
+    "name": "SHIELD INSTITUTE (THE)",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Supported Employment",
+      "Prevocational"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "144-61 Roosevelt Avenue, Flushing, NY, 11354",
+    "region": "Queens",
+    "phone": "(718) 886-1534",
+    "website": "http://www.shield.org",
+    "lat": 40.76221,
+    "lng": -73.81987
   },
   {
     "source": "opwdd",
@@ -2424,6 +2672,26 @@
     "website": "http://www.uniquepeopleservices.org",
     "lat": 40.85233,
     "lng": -73.90332
+  },
+  {
+    "source": "opwdd",
+    "name": "UNITED CEREBRAL PALSY OF QUEENS  INC.",
+    "services": [
+      "Day Habilitation",
+      "Community Habilitation",
+      "Residential (IRA)",
+      "Supported Employment",
+      "Prevocational",
+      "Family Support",
+      "Intermediate Care (ICF)"
+    ],
+    "detail": "OPWDD-certified agency (administrative office)",
+    "address": "81-15 164th Street, Jamaica, NY, 11432",
+    "region": "Queens",
+    "phone": "(718) 380-3000",
+    "website": "http://www.queenscp.org",
+    "lat": 40.72003,
+    "lng": -73.80409
   },
   {
     "source": "opwdd",

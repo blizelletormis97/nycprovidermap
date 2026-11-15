@@ -82,7 +82,7 @@ export function MapFilter({
 
         <p className="text-[11px] leading-snug rounded-md bg-secondary/60 px-2 py-1.5 text-muted-foreground">
           Intellectual &amp; developmental disability (IDD) providers that accept <strong className="text-foreground">Medicaid</strong> in
-          Manhattan, Brooklyn, the Bronx, Staten Island and Long Island (Nassau &amp; Suffolk).
+          all five NYC boroughs and Long Island (Nassau &amp; Suffolk).
         </p>
 
         <div className="flex items-center justify-between gap-2">

@@ -1,6 +1,6 @@
 /**
  * Seed script to fetch Medicaid-enrolled IDD (OPWDD) provider sites for the
- * service area (Manhattan, Brooklyn, Bronx, Staten Island, Nassau, Suffolk).
+ * service area (the five NYC boroughs, Nassau, Suffolk).
  * Source: https://health.data.ny.gov/Health/Medicaid-Enrolled-Provider-Listing/keti-qx5t
  * Run with: bun run src/lib/seed-medicaid.ts
  */

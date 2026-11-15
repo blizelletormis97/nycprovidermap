@@ -1,6 +1,6 @@
 /**
  * Seed script to fetch OPWDD service provider agencies from NY Open Data for the
- * service area (Manhattan, Brooklyn, Bronx, Staten Island, Nassau, Suffolk).
+ * service area (the five NYC boroughs, Nassau, Suffolk).
  * Only agencies offering at least one Medicaid-funded OPWDD service are kept.
  * Source: https://data.ny.gov/Human-Services/Directory-of-Developmental-Disabilities-Service-Pr/ieqx-cqyk
  * Run with: bun run src/lib/seed-opwdd.ts
