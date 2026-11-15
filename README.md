@@ -103,18 +103,23 @@ Sites enrolled in NY Medicaid under the IDD-specific provider types:
 | INTERMEDIATE CARE FACILITY (OPWDD) | Intermediate Care (ICF/IID) |
 | OPWDD STATE-OPERATED CLINIC | OPWDD State-Operated Clinic |
 
-### Optional: psychologists and social workers (evaluations)
+### Home Health Agencies (OPWDD special needs)
 
-**Source**: the same Medicaid Enrolled Provider Listing, types CLINICAL PSYCHOLOGIST (psychological and autism
-evaluations) and CLINICAL SOCIAL WORKER (psychosocial evaluations).
+**Source**: [NYS DOH Special Needs Certified Home Health Agencies](https://profiles.health.ny.gov/home_care/special_needs)
 
-These clinicians are enrolled in Medicaid but are **not IDD-specific**: the listing does not say who evaluates
-people with IDD. The website keeps them off by default under **Evaluations** and downloads them only when a
-viewer switches them on; every popup says to ask about IDD evaluations. Listings at apartment addresses (likely a
-clinician's home) are left out. The Next.js app does not load them.
+Certified home health agencies the Department of Health has approved to serve people who would otherwise need care
+in an OPWDD-licensed program. Kept only if they serve a county in the service area, their CHHA office is found in the
+DOH Health Facility dataset, and they are enrolled in Medicaid as a Certified Home Health Agency at that address.
+They visit people at home, so the map shows them in every area they serve, not just their office's area.
+
+Agencies on the DOH list that serve other populations (e.g. medically fragile children) or only other regions are
+left out.
+
+### Evaluations
 
 The **IDD clinic evaluations** filter shows the Article 16 clinics and OPWDD state clinics, which are certified to
-provide psychological evaluations and OPWDD eligibility evaluations.
+provide psychological evaluations and OPWDD eligibility evaluations. The data does not say which clinics do autism
+diagnosis specifically, so call to confirm.
 
 ## Refreshing Data
 
@@ -125,8 +130,8 @@ bun run src/lib/seed-opwdd.ts
 # Medicaid-enrolled IDD sites (NY Health Data)
 bun run src/lib/seed-medicaid.ts
 
-# Optional evaluations layer: Medicaid psychologists & clinical social workers
-bun run src/lib/seed-clinicians.ts
+# Home health agencies (reads the DOH special-needs page; run after seed-medicaid)
+bun run src/lib/seed-home-care.ts
 
 # Article 16 clinics (parses src/data/raw/article-16-raw.json, geocodes with the Census geocoder; ~5 min)
 bun run src/lib/seed-article16.ts
@@ -169,8 +174,8 @@ src/
 | Article 16 clinic sites | 138 |
 | OPWDD agencies | 164 |
 | Medicaid-enrolled IDD sites | 679 |
-| **Total** | **981** at 628 map locations |
-| Optional: psychologists & clinical social workers | 14,834 (4,635 psychologists, 10,199 social workers) |
+| Home health agencies (OPWDD special needs) | 3 (Able, Americare, Extended Home Care; each serves all 7 areas) |
+| **Total** | **984** at 631 map locations |
 
 | Area | Map locations |
 |------|-----------|

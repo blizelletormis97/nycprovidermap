@@ -1,7 +1,5 @@
-// Data source type. The first three list IDD providers that accept Medicaid. "clinicians" are
-// Medicaid-enrolled psychologists and clinical social workers who are NOT IDD-specific; they are an optional
-// layer for finding evaluations and only load on the website when a viewer turns them on.
-export type DataSource = "article16" | "opwdd" | "medicaid" | "clinicians";
+// Data source type — every source lists IDD providers that accept Medicaid
+export type DataSource = "article16" | "opwdd" | "homecare" | "medicaid";
 
 // Service area: all five NYC boroughs plus Long Island's Nassau and Suffolk counties
 export type Region = "Manhattan" | "Brooklyn" | "Bronx" | "Queens" | "Staten Island" | "Nassau" | "Suffolk";
@@ -15,6 +13,8 @@ export interface CachedProvider {
   office?: boolean; // administrative office or billing address, not where services are delivered
   address: string;
   region: Region;
+  /** Areas the provider serves, when wider than its office's area (e.g. home health agencies) */
+  serves?: Region[];
   lat: number;
   lng: number;
   phone?: string;
@@ -34,6 +34,7 @@ export interface ProviderDetail {
   source: DataSource;
   detail?: string;
   office?: boolean;
+  serves?: Region[];
   website?: string;
   phone?: string;
 }

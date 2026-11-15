@@ -11,13 +11,13 @@ import type {
 } from "@/types/providers";
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
-import { DEFAULT_SOURCES, EVALUATION_SERVICES, KNOWN_SERVICE_KEYS, SOURCE_ORDER } from "./constants";
+import { EVALUATION_SERVICES, KNOWN_SERVICE_KEYS, SOURCE_ORDER } from "./constants";
 
 const SOURCE_FILES: Record<DataSource, string> = {
   article16: "article16-geocoded.json",
   opwdd: "opwdd-geocoded.json",
+  homecare: "homecare-geocoded.json",
   medicaid: "medicaid-geocoded.json",
-  clinicians: "clinicians-geocoded.json",
 };
 
 const providerCache = new Map<DataSource, CachedProvider[]>();
@@ -39,14 +39,8 @@ function loadSource(source: DataSource): CachedProvider[] {
   return data;
 }
 
-/**
- * Cached providers for one source, or for the default IDD sources. Pass `includeClinicians` to add the
- * optional (not IDD-specific) psychologist and social worker layer.
- */
-export function getCachedProviders(sourceFilter?: DataSource, includeClinicians = false): CachedProvider[] {
-  const sources = sourceFilter
-    ? [sourceFilter]
-    : [...DEFAULT_SOURCES, ...(includeClinicians ? (["clinicians"] as DataSource[]) : [])];
+export function getCachedProviders(sourceFilter?: DataSource): CachedProvider[] {
+  const sources = sourceFilter ? [sourceFilter] : (Object.keys(SOURCE_FILES) as DataSource[]);
   return sources.flatMap(loadSource);
 }
 
@@ -74,7 +68,7 @@ export interface LocationIndexEntry {
   providers: ProviderDetail[];
 }
 
-const locationIndexes = new Map<boolean, Map<string, LocationIndexEntry>>();
+let locationIndex: Map<string, LocationIndexEntry> | null = null;
 
 const STREET_ABBREVIATIONS: Record<string, string> = {
   STREET: "ST", AVENUE: "AVE", ROAD: "RD", BOULEVARD: "BLVD", PLACE: "PL", DRIVE: "DR", LANE: "LN",
@@ -102,16 +96,15 @@ export function addressKey(address: string): string | null {
 }
 
 /** Group every provider by building (normalized address) or rounded coordinates. Built once per server process. */
-export function getLocationIndex(includeClinicians = false): Map<string, LocationIndexEntry> {
-  const cached = locationIndexes.get(includeClinicians);
-  if (cached) return cached;
+export function getLocationIndex(): Map<string, LocationIndexEntry> {
+  if (locationIndex) return locationIndex;
 
   const index = new Map<string, LocationIndexEntry>();
   const idsByAddress = new Map<string, string>();
   const seen = new Set<string>();
 
   // Article 16 / OPWDD first so their (cleaner) address and coordinates represent the location
-  const providers = [...getCachedProviders(undefined, includeClinicians)].sort(
+  const providers = [...getCachedProviders()].sort(
     (a, b) => SOURCE_ORDER.indexOf(a.source) - SOURCE_ORDER.indexOf(b.source)
   );
 
@@ -140,6 +133,7 @@ export function getLocationIndex(includeClinicians = false): Map<string, Locatio
       source: provider.source,
       detail: provider.detail,
       office: provider.office,
+      serves: provider.serves,
       website: provider.website,
       phone: provider.phone,
     });
@@ -152,7 +146,7 @@ export function getLocationIndex(includeClinicians = false): Map<string, Locatio
     );
   }
 
-  locationIndexes.set(includeClinicians, index);
+  locationIndex = index;
   return index;
 }
 
