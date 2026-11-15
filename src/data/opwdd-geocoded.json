@@ -9,7 +9,8 @@
       "Family Support",
       "Family Care"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "45 Mall Drive, Commack, NY, 11725",
     "region": "Suffolk",
     "phone": "(516) 493-1700",
@@ -25,7 +26,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "750 Vandalia Avenue, Brooklyn, NY, 11239",
     "region": "Brooklyn",
     "phone": "(718) 642-6000",
@@ -41,7 +43,8 @@
       "Residential (IRA)",
       "Family Care"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "25 Beaver Street, New York, NY, 10004",
     "region": "Manhattan",
     "phone": "(212) 229-3000",
@@ -57,7 +60,8 @@
       "Intermediate Care (ICF)",
       "Family Care"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1150 Forest Hill Road, Staten Island, NY, 10314",
     "region": "Staten Island",
     "phone": "(718) 983-5200",
@@ -75,7 +79,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "49 Cedar Grove Avenue, Staten Island, NY, 10306",
     "region": "Staten Island",
     "phone": "(718) 987-1234",
@@ -91,7 +96,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "255 Executive Drive, Suite 309, Plainview, NY, 11803",
     "region": "Nassau",
     "phone": "(516) 338-8777",
@@ -111,7 +117,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "807 South Oyster Bay Road, Bethpage, NY, 11714",
     "region": "Nassau",
     "phone": "(516) 822-0028",
@@ -129,7 +136,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1145 East 55th Street, Brooklyn, NY, 11234",
     "region": "Brooklyn",
     "phone": "(718) 531-7500",
@@ -148,7 +156,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "15-08 College Point Boulevard, P.O. Box 560247, College Point, NY, 11356",
     "region": "Queens",
     "phone": "(718) 321-3800",
@@ -163,7 +172,8 @@
       "Supported Employment",
       "Prevocational"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "201 Iu Willets Road, Albertson, NY, 11507",
     "region": "Nassau",
     "phone": "(516) 465-1575",
@@ -180,7 +190,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "4 Fern Place, Plainview, NY, 11803",
     "region": "Nassau",
     "phone": "(516) 933-4700",
@@ -200,7 +211,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "80 Maiden Lane, 8th Floor, New York, NY, 10038",
     "region": "Manhattan",
     "phone": "(212) 683-6700",
@@ -215,7 +227,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1864 Clove Road, Staten Island, NY, 10304",
     "region": "Staten Island",
     "phone": "(718) 587-9829",
@@ -229,7 +242,8 @@
     "services": [
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "3040 East Tremont Avenue, Room 205, Bronx, NY, 10461",
     "region": "Bronx",
     "phone": "(877) 391-0977",
@@ -247,7 +261,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1375 Nelson Avenue, Bronx, NY, 10452",
     "region": "Bronx",
     "phone": "(718) 410-7406",
@@ -266,7 +281,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "61-35 220th Street, Bayside, NY, 11364",
     "region": "Queens",
     "phone": "(718) 423-9550",
@@ -281,7 +297,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "229 Rogers Avenue, Brooklyn, NY, 11225",
     "region": "Brooklyn",
     "phone": "(718) 756-0600",
@@ -298,7 +315,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "104 West 29th Street, 3rd Floor, New York, NY, 10001",
     "region": "Manhattan",
     "phone": "(212) 616-1800",
@@ -317,7 +335,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "376 Bay 44th Street, Brooklyn, NY, 11214",
     "region": "Brooklyn",
     "phone": "(718) 946-9700",
@@ -334,7 +353,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1527 60th Street, Brooklyn, NY, 11219",
     "region": "Brooklyn",
     "phone": "(718) 336-6073",
@@ -354,7 +374,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "151 Lawrence Street, Brooklyn, NY, 11201",
     "region": "Brooklyn",
     "phone": "(718) 310-5600",
@@ -369,7 +390,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "189 Wheatley Road, Brookville, NY, 11545",
     "region": "Nassau",
     "phone": "516-626-1000 X1105",
@@ -385,7 +407,8 @@
       "Supported Employment",
       "Prevocational"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "483 Clermont Avenue, Brooklyn, NY, 11238",
     "region": "Brooklyn",
     "phone": "(718) 643-5300",
@@ -399,7 +422,8 @@
     "services": [
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "90 Cherry Lane, Hicksville, NY, 11801",
     "region": "Nassau",
     "phone": "(516) 733-7013",
@@ -414,7 +438,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "191 Joralemon Street, Brooklyn, NY, 11201",
     "region": "Brooklyn",
     "phone": "(718) 722-6000",
@@ -430,7 +455,8 @@
       "Supported Employment",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "6581 Hylan Boulevard, Staten Island, NY, 10309",
     "region": "Staten Island",
     "phone": "(718) 317-2803",
@@ -446,7 +472,8 @@
       "Residential (IRA)",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "488 Madison Avenue, Suite 3-103, New York, NY, 10022",
     "region": "Manhattan",
     "phone": "(212) 371-1000",
@@ -466,7 +493,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "72 South Woods Road, Woodbury, NY, 11797",
     "region": "Nassau",
     "phone": "(516) 921-7650",
@@ -485,7 +513,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "333 7th Avenue, 9th Floor, New York, NY, 10001",
     "region": "Manhattan",
     "phone": "(516) 292-3000",
@@ -502,7 +531,8 @@
       "Residential (IRA)",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "312 Greenwich Street, Hempstead, NY, 11550",
     "region": "Nassau",
     "phone": "(516) 292-6449",
@@ -519,7 +549,8 @@
       "Residential (IRA)",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "516 West 181st Street, New York, NY, 10033",
     "region": "Manhattan",
     "phone": "(212) 928-5810",
@@ -536,7 +567,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "333 7th Avenue, 9th Floor, New York, NY, 10001",
     "region": "Manhattan",
     "phone": "(212) 629-7939",
@@ -551,7 +583,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "307 West 38th Street, 6th Floor, New York, NY, 10018",
     "region": "Manhattan",
     "phone": "(212) 695-4562",
@@ -568,7 +601,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "840-11 Grand Concourse, Suite 1bb, Bronx, NY, 10451",
     "region": "Bronx",
     "phone": "(718) 618-7535",
@@ -584,7 +618,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "40 Merrill Avenue, Staten Island, NY, 10314",
     "region": "Staten Island",
     "phone": "(718) 370-7529",
@@ -603,7 +638,8 @@
       "Self-Direction",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "189 Wheatley Road, Glen Head, NY, 11545",
     "region": "Nassau",
     "phone": "(516) 626-1000",
@@ -620,7 +656,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1207 Castleton Avenue, 2nd Floor, Staten Island, NY, 10310",
     "region": "Staten Island",
     "phone": "(718) 285-6548",
@@ -636,7 +673,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1012 Gates Avenue, 2nd Floor, Brooklyn, NY, 11221",
     "region": "Brooklyn",
     "phone": "(516) 280-9361",
@@ -651,7 +689,8 @@
       "Day Habilitation",
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "3651 Bruckner Boulevard, Bronx, NY, 10461",
     "region": "Bronx",
     "phone": "(718) 655-7700",
@@ -666,7 +705,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "465 Grand Street, 2nd Floor, New York, NY, 10002",
     "region": "Manhattan",
     "phone": "(212) 420-1970",
@@ -686,7 +726,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1025 Old Country Road, Suite 325, Westbury, NY, 11590",
     "region": "Nassau",
     "phone": "(516) 683-0710",
@@ -704,7 +745,8 @@
       "Prevocational",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "350 5th Avenue, Suite 5230, New York, NY, 10118",
     "region": "Manhattan",
     "phone": "(212) 227-9110",
@@ -720,7 +762,8 @@
       "Residential (IRA)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "2432 Grand Concourse, 3rd Floor, Bronx, NY, 10458",
     "region": "Bronx",
     "phone": "(718) 292-1705",
@@ -736,7 +779,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "90-04 161 Street, Suite 401, Jamaica, NY, 11432",
     "region": "Queens",
     "phone": "(718) 206-3400",
@@ -754,7 +798,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "3450 Victory Boulevard, Staten Island, NY, 10314",
     "region": "Staten Island",
     "phone": "(718) 447-5200",
@@ -773,7 +818,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "40 Rector Street, 15th Floor, New York, NY, 10006",
     "region": "Manhattan",
     "phone": "(212) 947-5770",
@@ -790,7 +836,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "131 Forest Avenue, Staten Island, NY, 10301",
     "region": "Staten Island",
     "phone": "(718) 420-6330",
@@ -806,7 +853,8 @@
       "Community Habilitation",
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "511 E 233rd Street, Bronx, NY, 10470",
     "region": "Bronx",
     "phone": "(914) 733-3327",
@@ -827,7 +875,8 @@
       "Self-Direction",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "99 Hollywood Drive, Smithtown, NY, 11787",
     "region": "Suffolk",
     "phone": "(631) 366-2950",
@@ -848,7 +897,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "107 Roanoke Avenue, Riverhead, NY, 11901",
     "region": "Suffolk",
     "phone": "(631) 369-7345",
@@ -863,7 +913,8 @@
       "Community Habilitation",
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "2804 Third Avenue, 7th Floor, Bronx, NY, 10455",
     "region": "Bronx",
     "phone": "718-299-1100 X5238",
@@ -877,7 +928,8 @@
     "services": [
       "Supported Employment"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "201 Sunrise Highway, Patchoque, NY, 11772",
     "region": "Suffolk",
     "phone": "(631) 687-3056",
@@ -895,7 +947,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "31 West Main Street, Suite 300, Patchogue, NY, 11772",
     "region": "Suffolk",
     "phone": "(631) 289-2124",
@@ -912,7 +965,8 @@
       "Residential (IRA)",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "15 Beach Street, Staten Island, NY, 10304",
     "region": "Staten Island",
     "phone": "(718) 816-1422",
@@ -930,7 +984,8 @@
       "Supported Employment",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "168-18 South Conduit Avenue, Springfield Gardens, NY, 11434",
     "region": "Queens",
     "phone": "(718) 276-6101",
@@ -948,7 +1003,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "163 Vanburen Street, Brooklyn, NY, 11221",
     "region": "Brooklyn",
     "phone": "(718) 789-7539",
@@ -965,7 +1021,8 @@
       "Residential (IRA)",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1500 Hempstead Turnpike, East Meadow, NY, 11554",
     "region": "Nassau",
     "phone": "(516) 739-7733",
@@ -982,7 +1039,8 @@
       "Supported Employment",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "40 Exchange Place, Suite 1700, New York, NY, 10005",
     "region": "Manhattan",
     "phone": "(212) 677-8550",
@@ -997,7 +1055,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1650 Eastern Parkway, Suite 400-403, Brooklyn, NY, 11233",
     "region": "Brooklyn",
     "phone": "(718) 255-5946",
@@ -1013,7 +1072,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "67-10 Myrtle Avenue, 2nd Floor, Glendale, NY, 11385",
     "region": "Queens",
     "phone": "(718) 788-5252",
@@ -1036,7 +1096,8 @@
       "Intermediate Care (ICF)",
       "Family Care"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "191 Sweet Hollow Road, Old Bethpage, NY, 11804",
     "region": "Nassau",
     "phone": "(518) 870-1600",
@@ -1052,7 +1113,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1776 Eastchester Road, Suite 220, Bronx, NY, 10461",
     "region": "Bronx",
     "phone": "(718) 325-5021",
@@ -1071,7 +1133,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "125-10 Queens Boulevard, Suite 2705, Kew Gardens, NY, 11415",
     "region": "Queens",
     "phone": "(718) 261-6552",
@@ -1088,7 +1151,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "25 Elm Place, 3rd Floor, Brooklyn, NY, 11201",
     "region": "Brooklyn",
     "phone": "(718) 777-6330",
@@ -1103,7 +1167,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "460w Brielle Avenue, Staten Island, NY, 10314",
     "region": "Staten Island",
     "phone": "(718) 983-3800",
@@ -1121,7 +1186,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "260 68th Street, Brooklyn, NY, 11220",
     "region": "Brooklyn",
     "phone": "(718) 833-6633",
@@ -1139,7 +1205,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "300 Merrick Road, Amityville, NY, 11701",
     "region": "Suffolk",
     "phone": "(631) 493-1745",
@@ -1161,7 +1228,8 @@
       "Self-Direction",
       "Family Care"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "4102 14th Avenue, Brooklyn, NY, 11219",
     "region": "Brooklyn",
     "phone": "(718) 387-8400",
@@ -1178,7 +1246,8 @@
       "Supported Employment",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "3820 14th Avenue, Brooklyn, NY, 11218",
     "region": "Brooklyn",
     "phone": "(718) 986-7648",
@@ -1192,7 +1261,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "3439 Bruckner Blvd, Bronx, NY, 10461",
     "region": "Bronx",
     "phone": "(718) 766-9289",
@@ -1213,7 +1283,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "5601 First Avenue, Brooklyn, NY, 11220",
     "region": "Brooklyn",
     "phone": "(718) 745-7575",
@@ -1232,7 +1303,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "300 Kennedy Drive, Hauppauge, NY, 11788",
     "region": "Suffolk",
     "phone": "(631) 543-2245",
@@ -1247,7 +1319,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "425 E 9th Street, Brooklyn, NY, 11218",
     "region": "Brooklyn",
     "phone": "(718) 612-1080",
@@ -1267,7 +1340,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "330 Jay Street, 29th Floor, Brooklyn, NY, 11201",
     "region": "Brooklyn",
     "phone": "(718) 422-4200",
@@ -1285,7 +1359,8 @@
       "Supported Employment",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1 Helen Keller Way, Hempstead, NY, 11550",
     "region": "Nassau",
     "phone": "(516) 485-1234",
@@ -1301,7 +1376,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1344 Southern Boulevard, Bronx, NY, 10459",
     "region": "Bronx",
     "phone": "(718) 484-7810",
@@ -1317,7 +1393,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1504 Ralph Avenue, 2nd Floor, Brooklyn, NY, 11236",
     "region": "Brooklyn",
     "phone": "(718) 444-4340",
@@ -1337,7 +1414,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1042 38th Street, Brooklyn, NY, 11219",
     "region": "Brooklyn",
     "phone": "(718) 854-2747",
@@ -1353,7 +1431,8 @@
       "Community Habilitation",
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "80 Maiden Lane, 8th Floor, New York, NY, 10038",
     "region": "Manhattan",
     "phone": "(516) 823-9500",
@@ -1367,7 +1446,8 @@
     "services": [
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "125 Broad Street, 3rd Floor, New York, NY, 10004",
     "region": "Manhattan",
     "phone": "(212) 724-6652",
@@ -1382,7 +1462,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1458 East 14th Street, Brooklyn, NY, 11230",
     "region": "Brooklyn",
     "phone": "(718) 376-8882",
@@ -1400,7 +1481,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "221 North Sunrise Service Road, Manorville, NY, 11949",
     "region": "Suffolk",
     "phone": "(631) 878-8900",
@@ -1417,7 +1499,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "110 York Street, 4th Floor, Brooklyn, NY, 11201",
     "region": "Brooklyn",
     "phone": "(718) 852-2000",
@@ -1432,7 +1515,8 @@
       "Community Habilitation",
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "125 Broad Street, 3rd Floor, New York, NY, 10004",
     "region": "Manhattan",
     "phone": "(212) 385-3030",
@@ -1449,7 +1533,8 @@
       "Residential (IRA)",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "2016 Linden Boulevard, Elmont, NY, 11003",
     "region": "Nassau",
     "phone": "(718) 805-6796",
@@ -1465,7 +1550,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "150 Corporate Plaza, Islandia, NY, 11749",
     "region": "Suffolk",
     "phone": "(631) 582-4534",
@@ -1480,7 +1566,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "71 North Franklin Street, Suite 211, Hempstead, NY, 11550",
     "region": "Nassau",
     "phone": "(516) 280-5930",
@@ -1498,7 +1585,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "121-10 153 Street, Jamaica, NY, 11434",
     "region": "Queens",
     "phone": "(347) 436-8070",
@@ -1512,7 +1600,8 @@
     "services": [
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "463 7th Avenue, 18th Floor, New York, NY, 10018",
     "region": "Manhattan",
     "phone": "(212) 582-9100",
@@ -1528,7 +1617,8 @@
       "Supported Employment",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "40 Rector Street, 4th Floor, New York, NY, 10006",
     "region": "Manhattan",
     "phone": "(212) 613-8104",
@@ -1548,7 +1638,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "256 W 38th Street, 2nd Floor, New York, NY, 10018",
     "region": "Manhattan",
     "phone": "(212) 944-0564",
@@ -1565,7 +1656,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "124 Mcglynn Place, Cedarhurst, NY, 11516",
     "region": "Nassau",
     "phone": "(516) 569-6664",
@@ -1579,7 +1671,8 @@
     "services": [
       "Supported Employment"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "30th Avenue And 75th Street, Jackson Heights, NY, 11370",
     "region": "Queens",
     "phone": "(718) 350-3110",
@@ -1595,7 +1688,8 @@
       "Community Habilitation",
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1430 Broadway, Suite 501, New York, NY, 10018",
     "region": "Manhattan",
     "phone": "(212) 938-1223",
@@ -1615,7 +1709,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1501 Franklin Avenue, Po Box 8165, Garden City, NY, 11530",
     "region": "Nassau",
     "phone": "(516) 741-9000",
@@ -1634,7 +1729,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "462 7th Avenue, 5th Floor, New York, NY, 10018",
     "region": "Manhattan",
     "phone": "(212) 741-0100",
@@ -1653,7 +1749,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "930 Willowbrook Road, Building 12-G, Staten Island, NY, 10314",
     "region": "Staten Island",
     "phone": "(718) 983-5351",
@@ -1668,7 +1765,8 @@
       "Family Support",
       "Family Care"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "2450 North Wading River Road, Wading River, NY, 11792",
     "region": "Suffolk",
     "phone": "(631) 929-6200",
@@ -1682,7 +1780,8 @@
     "services": [
       "Supported Employment"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "400 Sunrise Highway, Amityville, NY, 11701",
     "region": "Suffolk",
     "phone": "(631) 608-5100",
@@ -1696,7 +1795,8 @@
     "services": [
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1958 Fulton Street, 3rd Floor, Brooklyn, NY, 11233",
     "region": "Brooklyn",
     "phone": "(718) 778-0009",
@@ -1715,7 +1815,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "51 Terryville Road, Pt Jefferson Station, NY, 11776",
     "region": "Suffolk",
     "phone": "(631) 474-4120",
@@ -1731,7 +1832,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "164-14 Cross Bay Boulevard, Howard Beach, NY, 11414",
     "region": "Queens",
     "phone": "(929) 409-1027",
@@ -1746,7 +1848,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "72-35 112th Street, Forest Hills, NY, 11375",
     "region": "Queens",
     "phone": "(718) 275-9326",
@@ -1763,7 +1866,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "273 Willoughby Avenue, Brooklyn, NY, 11205",
     "region": "Brooklyn",
     "phone": "(718) 832-1075",
@@ -1780,7 +1884,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1049 38th Street, Brooklyn, NY, 11219",
     "region": "Brooklyn",
     "phone": "(718) 633-3334",
@@ -1795,7 +1900,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1958 Fulton Street, Suite 403, Brooklyn, NY, 11233",
     "region": "Brooklyn",
     "phone": "(718) 858-7234",
@@ -1813,7 +1919,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "34 Frost Mill Road, Box 193, Mill Neck, NY, 11765",
     "region": "Nassau",
     "phone": "(516) 922-3818",
@@ -1829,7 +1936,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "530 West 122nd Street, Suite 2-D, New York, NY, 10027",
     "region": "Manhattan",
     "phone": "(212) 665-0091",
@@ -1846,7 +1954,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "4308 Richmond Avenue, Staten Island, NY, 10312",
     "region": "Staten Island",
     "phone": "(718) 447-8200",
@@ -1861,7 +1970,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "130 Waterbury Street, Brooklyn, NY, 11206",
     "region": "Brooklyn",
     "phone": "(718) 486-3780",
@@ -1876,7 +1986,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "930 Willowbrook Road, Building 41a, Staten Island, NY, 10314",
     "region": "Staten Island",
     "phone": "(212) 487-5316",
@@ -1889,7 +2000,8 @@
     "services": [
       "Supported Employment"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "71 Clinton Road, P.O. Box Cs9195, Garden City, NY, 11530",
     "region": "Nassau",
     "phone": "(516) 997-8700",
@@ -1908,7 +2020,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "189 Wheatley Road, Brookville, NY, 11545",
     "region": "Nassau",
     "phone": "(516) 626-1000",
@@ -1923,7 +2036,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "80 Hauppauge Rd, Commack, NY, 11725",
     "region": "Suffolk",
     "phone": "(631) 462-0386",
@@ -1939,7 +2053,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "718-720 Beach 20th Street, Far Rockaway, NY, 11691",
     "region": "Queens",
     "phone": "(718) 327-3180",
@@ -1955,7 +2070,8 @@
       "Supported Employment",
       "Prevocational"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "382 Main Street, Port Washington, NY, 11050",
     "region": "Nassau",
     "phone": "(516) 767-7177",
@@ -1971,7 +2087,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "164-14 Cross Bay Blvd, Howard Beach, NY, 11414",
     "region": "Queens",
     "phone": "(347) 566-3122",
@@ -1985,7 +2102,8 @@
     "services": [
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "150 Nassau Street, Suite 1730, New York, NY, 10038",
     "region": "Manhattan",
     "website": "http://www.nyfsc.org",
@@ -2006,7 +2124,8 @@
       "Self-Direction",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "83 Maiden Lane, New York, NY, 10038",
     "region": "Manhattan",
     "phone": "(212) 780-2500",
@@ -2026,7 +2145,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1268 E 14th Street, Brooklyn, NY, 11230",
     "region": "Brooklyn",
     "phone": "(718) 435-5533",
@@ -2045,7 +2165,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "485 Victory Boulevard, Staten Island, NY, 10301",
     "region": "Staten Island",
     "phone": "(718) 720-9233",
@@ -2059,7 +2180,8 @@
     "services": [
       "Residential (IRA)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "26 Plank Road, Staten Island, NY, 10314",
     "region": "Staten Island",
     "phone": "(718) 494-9006",
@@ -2073,7 +2195,8 @@
       "Community Habilitation",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "134 West 29th Street, 12th Floor, New York, NY, 10001",
     "region": "Manhattan",
     "phone": "(212) 480-9169",
@@ -2088,7 +2211,8 @@
       "Residential (IRA)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "630 Flushing Avenue, Mailbox #66, Brooklyn, NY, 11206",
     "region": "Brooklyn",
     "phone": "(718) 498-5555",
@@ -2108,7 +2232,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "150 Granite Avenue, Staten Island, NY, 10303",
     "region": "Staten Island",
     "phone": "(718) 370-1088",
@@ -2125,7 +2250,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "365 Willoughby Avenue, 4th Fl Suite 400, Brooklyn, NY, 11205",
     "region": "Brooklyn",
     "phone": "(718) 875-6900",
@@ -2140,7 +2266,8 @@
       "Residential (IRA)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1228 Wantagh Avenue, Suite 201, Wantagh, NY, 11793",
     "region": "Nassau",
     "phone": "(516) 409-9450",
@@ -2155,7 +2282,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "184 Rose Avenue, Suite 1h, Staten Island, NY, 10306",
     "region": "Staten Island",
     "phone": "(347) 824-3642",
@@ -2172,7 +2300,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "33 35th Street, Suite B621  Building #5, Brooklyn, NY, 11232",
     "region": "Brooklyn",
     "phone": "(718) 256-2212",
@@ -2187,7 +2316,8 @@
       "Residential (IRA)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "145 West 15th Street, New York, NY, 10011",
     "region": "Manhattan",
     "phone": "(212) 924-6320",
@@ -2204,7 +2334,8 @@
       "Residential (IRA)",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "253 West 35th Street, 14th Floor, New York, NY, 10001",
     "region": "Manhattan",
     "phone": "(212) 244-5560",
@@ -2218,7 +2349,8 @@
     "services": [
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "112-40 Francis Lewis Blvd., Queens Village, NY, 11429",
     "region": "Queens",
     "phone": "(347) 947-6840",
@@ -2232,7 +2364,8 @@
     "services": [
       "Community Habilitation"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "32 Belmont Blvd, Elmont, NY, 11003",
     "region": "Nassau",
     "phone": "(718) 848-2507",
@@ -2248,7 +2381,8 @@
       "Residential (IRA)",
       "Prevocational"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "901 E Main Street, Ste. 508, Riverhead, NY, 11901",
     "region": "Suffolk",
     "phone": "(631) 727-6220",
@@ -2267,7 +2401,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1333 Broadway, 8th Floor, New York, NY, 10018",
     "region": "Manhattan",
     "phone": "(914) 375-8700",
@@ -2282,7 +2417,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "318 West 39th Street, 5th Floor, New York, NY, 10018",
     "region": "Manhattan",
     "phone": "(212) 268-5999",
@@ -2297,7 +2433,8 @@
       "Residential (IRA)",
       "Family Care"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "120 W 14th Street, 7th Fl, New York, NY, 10011",
     "region": "Manhattan",
     "website": "http://www.use.salvationarmy.org",
@@ -2315,7 +2452,8 @@
       "Individual Support (ISS)",
       "Family Care"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1415 Kellum Place, Suite 140, Garden City, NY, 11530",
     "region": "Nassau",
     "phone": "(516) 953-1901",
@@ -2331,7 +2469,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "133-33 Brookville Blvd, Suite 213, Rosedale, NY, 11422",
     "region": "Queens",
     "phone": "(718) 526-6125",
@@ -2349,7 +2488,8 @@
       "Prevocational",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "5475 Fieldston Road, Bronx, NY, 10471",
     "region": "Bronx",
     "phone": "(718) 432-8469",
@@ -2367,7 +2507,8 @@
       "Supported Employment",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "463 7th Avenue, 17th Floor, New York, NY, 10018",
     "region": "Manhattan",
     "phone": "(212) 633-6900",
@@ -2383,7 +2524,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "4302 New Utrecht Avenue, Brooklyn, NY, 11219",
     "region": "Brooklyn",
     "phone": "(718) 686-9600",
@@ -2400,7 +2542,8 @@
       "Supported Employment",
       "Prevocational"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "144-61 Roosevelt Avenue, Flushing, NY, 11354",
     "region": "Queens",
     "phone": "(718) 886-1534",
@@ -2421,7 +2564,8 @@
       "Individual Support (ISS)",
       "Family Care"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "2082 Lexington Ave, 4th Floor, New York, NY, 10035",
     "region": "Manhattan",
     "phone": "(212) 643-2840",
@@ -2437,7 +2581,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "665 Pelham Parkway North, Suite 401, Bronx, NY, 10467",
     "region": "Bronx",
     "phone": "(718) 654-1815",
@@ -2455,7 +2600,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "955 Tinton Avenue, Bronx, NY, 10456",
     "region": "Bronx",
     "phone": "(718) 542-2727",
@@ -2472,7 +2618,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1421 East 2nd Street, Brooklyn, NY, 11230",
     "region": "Brooklyn",
     "phone": "(718) 252-3365",
@@ -2490,7 +2637,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1775 Grand Concourse, 4th Floor, Bronx, NY, 10453",
     "region": "Bronx",
     "phone": "(212) 643-2663",
@@ -2506,7 +2654,8 @@
       "Family Support",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "89 Arlington Avenue, Staten Island, NY, 10303",
     "region": "Staten Island",
     "phone": "(917) 678-3510",
@@ -2524,7 +2673,8 @@
       "Prevocational",
       "Individual Support (ISS)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "590 Avenue Of The Americas, New York, NY, 10011",
     "region": "Manhattan",
     "phone": "(212) 886-4005",
@@ -2544,7 +2694,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "2900 Veterans Memorial Highway, Bohemia, NY, 11716",
     "region": "Suffolk",
     "phone": "(631) 585-0100",
@@ -2562,7 +2713,8 @@
       "Supported Employment",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "100 Glen Cove Avenue, Glen Cove, NY, 11542",
     "region": "Nassau",
     "phone": "(516) 609-2000",
@@ -2577,7 +2729,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "100 Glen Cove Ave, Glen Cove, NY, 11542",
     "region": "Nassau",
     "phone": "(518) 609-2000",
@@ -2597,7 +2750,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "250 Marcus Blvd, Hauppauge, NY, 11788",
     "region": "Suffolk",
     "phone": "(631) 232-0011",
@@ -2616,7 +2770,8 @@
       "Individual Support (ISS)",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "380 Washington Avenue, Roosevelt, NY, 11575",
     "region": "Nassau",
     "phone": "(516) 378-2000",
@@ -2631,7 +2786,8 @@
       "Community Habilitation",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "9317 Avenue L, Brooklyn, NY, 11236",
     "region": "Brooklyn",
     "phone": "(347) 502-2956",
@@ -2649,7 +2805,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "2197 New England Thruway, Bronx, NY, 10475",
     "region": "Bronx",
     "phone": "(347) 449-7890",
@@ -2665,7 +2822,8 @@
       "Residential (IRA)",
       "Prevocational"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "201 East Burnside Avenue, Bronx, NY, 10457",
     "region": "Bronx",
     "phone": "(718) 231-7711",
@@ -2685,7 +2843,8 @@
       "Family Support",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "81-15 164th Street, Jamaica, NY, 11432",
     "region": "Queens",
     "phone": "(718) 380-3000",
@@ -2701,7 +2860,8 @@
       "Supported Employment",
       "Family Support"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "3281 Veterans Memorial Highway, Suite E-11, Ronkonkoma, NY, 11779",
     "region": "Suffolk",
     "phone": "(631) 952-9529",
@@ -2722,7 +2882,8 @@
       "Self-Direction",
       "Intermediate Care (ICF)"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1400 Coney Island Avenue, Brooklyn, NY, 11230",
     "region": "Brooklyn",
     "phone": "(718) 853-0900",
@@ -2743,7 +2904,8 @@
       "Individual Support (ISS)",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "220 East 42nd Street, Floor 8, New York, NY, 10017",
     "region": "Manhattan",
     "phone": "(212) 273-6182",
@@ -2759,7 +2921,8 @@
       "Family Support",
       "Self-Direction"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1600 63rd Street, Brooklyn, NY, 11204",
     "region": "Brooklyn",
     "phone": "(718) 851-0123",
@@ -2773,7 +2936,8 @@
     "services": [
       "Community Habilitation"
     ],
-    "detail": "OPWDD-certified agency (administrative office)",
+    "detail": "OPWDD-certified agency. Services may be delivered at other sites.",
+    "office": true,
     "address": "1312 38th Street, Brooklyn, NY, 11218",
     "region": "Brooklyn",
     "phone": "(718) 686-3700",

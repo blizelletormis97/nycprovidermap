@@ -124,6 +124,7 @@ function getLocationIndex(): Map<string, LocationIndexEntry> {
       type,
       source: provider.source,
       detail: provider.detail,
+      office: provider.office,
       website: provider.website,
       phone: provider.phone,
     });

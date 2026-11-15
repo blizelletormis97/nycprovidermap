@@ -13,15 +13,16 @@
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { getRegion } from "./geo-utils";
-import { formatPhone } from "./seed-utils";
+import { addressKey } from "./api";
+import { formatPhone, geocodeMatchAgrees } from "./seed-utils";
 
-import type { CachedProvider } from "@/types/providers";
+import type { CachedProvider, Region } from "@/types/providers";
 
 interface RawTable {
   data: { text: string }[][];
 }
 
-type GeoResult = { lat: number; lng: number; county?: string };
+type GeoResult = { lat: number; lng: number; county?: string; region?: Region; how?: string };
 
 interface ClinicSite {
   agency: string;
@@ -43,9 +44,11 @@ const MANUAL_LOCATIONS: Record<string, GeoResult> = {
   "211-11 northern boulevard|bayside": { lat: 40.76, lng: -73.7717, county: "Queens County" },
   "8002 kew gardens road|kew gardens": { lat: 40.70697, lng: -73.82922, county: "Queens County" },
   "445 county road 101|yaphank": { lat: 40.81125, lng: -72.95342, county: "Suffolk County" },
+  "72 south woods road|woodbury": { lat: 40.83254, lng: -73.48224, county: "Nassau County" },
 };
 
-const clean = (s: string) => s.replace(/\r/g, " ").replace(/\s+/g, " ").trim();
+// "A en e" is "Avenue" with letters lost in the PDF extraction
+const clean = (s: string) => s.replace(/\r/g, " ").replace(/\s+/g, " ").replace(/\bA en e\b/g, "Avenue").trim();
 
 /** Turn the extracted PDF table into one entry per clinic site. */
 export function parseClinicTable(tables: RawTable[]): ClinicSite[] {
@@ -104,15 +107,42 @@ interface CensusMatch {
   geographies?: { Counties?: { NAME: string }[] };
 }
 
-/** Geocode a site; if the full address fails (e.g. a wrong ZIP in the source list), retry without the ZIP. */
-async function geocode(site: ClinicSite): Promise<GeoResult | null> {
-  const manual = MANUAL_LOCATIONS[`${site.street}|${site.city}`.toLowerCase()];
-  if (manual) return manual;
-  return (await geocodeAddress(`${site.street}, ${site.city}, NY ${site.zip}`))
-    ?? (await geocodeAddress(`${site.street}, ${site.city}, NY`));
+/**
+ * Coordinates the state already published for the same building (OPWDD directory and Medicaid
+ * listing), keyed by normalized street + ZIP. Run seed-opwdd.ts and seed-medicaid.ts first.
+ */
+function loadKnownLocations(): Map<string, GeoResult> {
+  const known = new Map<string, GeoResult>();
+  for (const file of ["medicaid-geocoded.json", "opwdd-geocoded.json"]) {
+    const providers: CachedProvider[] = JSON.parse(readFileSync(join(process.cwd(), "src/data", file), "utf-8"));
+    for (const p of providers) {
+      const key = addressKey(p.address);
+      if (key && !known.has(key)) known.set(key, { lat: p.lat, lng: p.lng, region: p.region, how: "state" });
+    }
+  }
+  return known;
 }
 
-async function geocodeAddress(address: string): Promise<GeoResult | null> {
+const rejectedMatches: string[] = [];
+
+/**
+ * Locate a site, most trusted first: a hand-checked location, then the state's own coordinates for the
+ * same building, then the Census geocoder — accepted only when its matched street (and ZIP, on the first
+ * try) agrees with the input. The ZIP-less retry covers ZIP typos in the source list.
+ */
+async function geocode(site: ClinicSite, known: Map<string, GeoResult>): Promise<GeoResult | null> {
+  const manual = MANUAL_LOCATIONS[`${site.street}|${site.city}`.toLowerCase()];
+  if (manual) return { ...manual, how: "manual" };
+
+  const key = addressKey(`${site.street}, ${site.city}, NY, ${site.zip}`);
+  const fromState = key ? known.get(key) : undefined;
+  if (fromState) return fromState;
+
+  return (await geocodeAddress(`${site.street}, ${site.city}, NY ${site.zip}`, site, true))
+    ?? (await geocodeAddress(`${site.street}, ${site.city}, NY`, site, false));
+}
+
+async function geocodeAddress(address: string, site: ClinicSite, requireZip: boolean): Promise<GeoResult | null> {
   const url = "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress"
     + `?address=${encodeURIComponent(address)}&benchmark=Public_AR_Current&vintage=Current_Current&layers=Counties&format=json`;
 
@@ -123,7 +153,12 @@ async function geocodeAddress(address: string): Promise<GeoResult | null> {
       const data = await res.json();
       const match: CensusMatch | undefined = data.result?.addressMatches?.[0];
       if (!match) return null;
+      if (!geocodeMatchAgrees(site.street, site.zip, match.matchedAddress, requireZip)) {
+        rejectedMatches.push(`${address} -> ${match.matchedAddress}`);
+        return null;
+      }
       return {
+        how: "census",
         lat: match.coordinates.y,
         lng: match.coordinates.x,
         county: match.geographies?.Counties?.[0]?.NAME,
@@ -146,17 +181,20 @@ async function main() {
   const candidates = sites.filter((s) => /^\d/.test(s.street));
   console.log(`  ${candidates.length} sites with a street address`);
 
+  const known = loadKnownLocations();
   const cached: CachedProvider[] = [];
   const failed: string[] = [];
   const outside: string[] = [];
+  const how: Record<string, number> = {};
 
   for (const site of candidates) {
-    const geo = await geocode(site);
+    const geo = await geocode(site, known);
     const label = `${site.agency} — ${site.street}, ${site.city} ${site.zip}`;
     if (!geo) { failed.push(label); continue; }
 
-    const region = getRegion(geo.lat, geo.lng, geo.county);
+    const region = geo.region ?? getRegion(geo.lat, geo.lng, geo.county);
     if (!region) { outside.push(`${label} (${geo.county ?? "unknown county"})`); continue; }
+    how[geo.how ?? "?"] = (how[geo.how ?? "?"] ?? 0) + 1;
 
     cached.push({
       source: "article16",
@@ -172,7 +210,9 @@ async function main() {
   }
 
   cached.sort((a, b) => a.name.localeCompare(b.name));
-  console.log(`\nSaved ${cached.length} clinic sites`);
+  console.log(`\nSaved ${cached.length} clinic sites (located by: ${JSON.stringify(how)})`);
+  console.log(`Rejected Census matches that did not agree with the input address: ${rejectedMatches.length}`);
+  rejectedMatches.forEach((r) => console.log(`  - ${r}`));
   const counts = new Map<string, number>();
   for (const p of cached) counts.set(p.region, (counts.get(p.region) ?? 0) + 1);
   for (const [k, v] of counts) console.log(`  ${k}: ${v}`);

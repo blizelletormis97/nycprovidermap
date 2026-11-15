@@ -1219,7 +1219,8 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 02704052",
+    "detail": "Billing enrollment (rate set) · Medicaid ID 02704052",
+    "office": true,
     "address": "191 Joralemon St, Brooklyn, NY, 11201",
     "region": "Brooklyn",
     "phone": "(718) 722-6200",
@@ -2248,7 +2249,8 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 02698108",
+    "detail": "Billing enrollment (rate set) · Medicaid ID 02698108",
+    "office": true,
     "address": "67 Bruckner Blvd, Bronx, NY, 10454",
     "region": "Bronx",
     "phone": "(718) 401-2960",
@@ -2351,7 +2353,8 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 03075972",
+    "detail": "Billing enrollment (rate set) · Medicaid ID 03075972",
+    "office": true,
     "address": "8606 121st St, Richmond Hill, NY, 11418",
     "region": "Queens",
     "phone": "(917) 443-0838",
@@ -3139,7 +3142,8 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 02699356",
+    "detail": "Billing enrollment (rate set) · Medicaid ID 02699356",
+    "office": true,
     "address": "12510 Queens Blvd, Kew Gardens, NY, 11415",
     "region": "Queens",
     "lat": 40.71191,
@@ -4282,7 +4286,8 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 03062397",
+    "detail": "Billing enrollment (rate set) · Medicaid ID 03062397",
+    "office": true,
     "address": "120 W 57th St, New York, NY, 10019",
     "region": "Manhattan",
     "phone": "(212) 582-9100",
@@ -4487,7 +4492,8 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 02700085",
+    "detail": "Billing enrollment (rate set) · Medicaid ID 02700085",
+    "office": true,
     "address": "1430 Broadway Rm 1501, New York, NY, 10018",
     "region": "Manhattan",
     "lat": 40.75423,
@@ -6798,7 +6804,8 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 02701953",
+    "detail": "Billing enrollment (rate set) · Medicaid ID 02701953",
+    "office": true,
     "address": "134 W 29th St Fl 4, New York, NY, 10001",
     "region": "Manhattan",
     "lat": 40.747,
@@ -6862,7 +6869,8 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 02701944",
+    "detail": "Billing enrollment (rate set) · Medicaid ID 02701944",
+    "office": true,
     "address": "665 Pelham Pkwy N, Bronx, NY, 10467",
     "region": "Bronx",
     "lat": 40.85783,
@@ -6926,7 +6934,8 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 02701311",
+    "detail": "Billing enrollment (rate set) · Medicaid ID 02701311",
+    "office": true,
     "address": "350 5th Ave, New York, NY, 10118",
     "region": "Manhattan",
     "lat": 40.74861,

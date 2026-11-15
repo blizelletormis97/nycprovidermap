@@ -116,18 +116,18 @@ export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: strin
     label: "Article 16",
     longLabel: "Article 16 Clinics",
     className: "bg-orange-500/20 text-orange-700 dark:text-orange-400",
-    color: "#f97316",
+    color: "#ff8b74",
   },
   opwdd: {
     label: "OPWDD",
     longLabel: "OPWDD Agencies",
     className: "bg-purple-500/20 text-purple-700 dark:text-purple-400",
-    color: "#8b5cf6",
+    color: "#a68bff",
   },
   medicaid: {
     label: "Medicaid IDD",
     longLabel: "Medicaid-Enrolled IDD Sites",
     className: "bg-blue-500/20 text-blue-700 dark:text-blue-400",
-    color: "#3b82f6",
+    color: "#3fc1e9",
   },
 };
