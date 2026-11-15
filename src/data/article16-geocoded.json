@@ -11,7 +11,8 @@
     "county": "Westchester",
     "phone": "(914) 242-8720",
     "lat": 41.178047488054,
-    "lng": -73.749955631123
+    "lng": -73.749955631123,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -207,7 +208,8 @@
     "county": "Rockland",
     "phone": "(845) 267-2500",
     "lat": 41.043916570611,
-    "lng": -73.953348489205
+    "lng": -73.953348489205,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -235,7 +237,8 @@
     "county": "Rockland",
     "phone": "(845) 267-2500",
     "lat": 41.162417122848,
-    "lng": -73.97747285717
+    "lng": -73.97747285717,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -597,7 +600,7 @@
     "address": "314 South Manning Boulevard, Albany, NY, 12208",
     "region": "Region 3",
     "county": "Albany",
-    "phone": "(518) 738-0020",
+    "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.65748,
     "lng": -73.80429
   },
@@ -611,7 +614,7 @@
     "address": "700 South Pearl Street, Albany, NY, 12202",
     "region": "Region 3",
     "county": "Albany",
-    "phone": "(518) 738-0020",
+    "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.629045301143,
     "lng": -73.766452729152
   },
@@ -625,7 +628,7 @@
     "address": "55 Helping Hand Lane, Glenville, NY, 12325",
     "region": "Region 3",
     "county": "Schenectady",
-    "phone": "(518) 738-0020",
+    "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.892026178172,
     "lng": -73.902215612305
   },
@@ -639,7 +642,7 @@
     "address": "30 Corporate Circle, Albany, NY, 12205",
     "region": "Region 3",
     "county": "Albany",
-    "phone": "(518) 738-0020",
+    "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.702499858775,
     "lng": -73.876251938265
   },
@@ -653,9 +656,10 @@
     "address": "6141 State Farm Road, Guilderland, NY, 12084",
     "region": "Region 3",
     "county": "Albany",
-    "phone": "(518) 738-0020",
+    "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.695422273531,
-    "lng": -73.890002716159
+    "lng": -73.890002716159,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -667,9 +671,10 @@
     "address": "180 Delaware Ave, Delmar, NY, 12054",
     "region": "Region 3",
     "county": "Albany",
-    "phone": "(518) 738-0020",
+    "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.628774981658,
-    "lng": -73.812868762739
+    "lng": -73.812868762739,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -681,7 +686,7 @@
     "address": "1164 Western Avenue, Albany, NY, 12203",
     "region": "Region 3",
     "county": "Albany",
-    "phone": "(518) 738-0020",
+    "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.676096883683,
     "lng": -73.82220869351
   },
@@ -695,7 +700,7 @@
     "address": "133 Aviation Road, Queensbury, NY, 12804",
     "region": "Region 3",
     "county": "Warren",
-    "phone": "(518) 738-0020",
+    "phone": "(518) 738-0020 ext. 3712",
     "lat": 43.33541,
     "lng": -73.71371
   },
@@ -709,7 +714,7 @@
     "address": "121 Opportunity Drive, Schoharie, NY, 12157",
     "region": "Region 3",
     "county": "Schoharie",
-    "phone": "(518) 738-0020",
+    "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.640513066325,
     "lng": -74.323567063313
   },
@@ -1061,7 +1066,8 @@
     "county": "Steuben",
     "phone": "(607) 535-6934",
     "lat": 42.360993322057,
-    "lng": -77.298978431166
+    "lng": -77.298978431166,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1131,7 +1137,8 @@
     "county": "Kings",
     "phone": "(212) 420-1970",
     "lat": 40.60866988856,
-    "lng": -73.997708867582
+    "lng": -73.997708867582,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1243,7 +1250,8 @@
     "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.81125,
-    "lng": -72.95342
+    "lng": -72.95342,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1285,7 +1293,8 @@
     "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.934017580205,
-    "lng": -73.054284890545
+    "lng": -73.054284890545,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1425,7 +1434,8 @@
     "county": "Ontario",
     "phone": "(585) 461-8500",
     "lat": 42.852855928013,
-    "lng": -77.010644970835
+    "lng": -77.010644970835,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1453,7 +1463,8 @@
     "county": "Livingston",
     "phone": "(585) 461-8500",
     "lat": 42.83336,
-    "lng": -77.69333
+    "lng": -77.69333,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1481,7 +1492,8 @@
     "county": "Ontario",
     "phone": "(315) 789-6828",
     "lat": 42.86845,
-    "lng": -77.00984
+    "lng": -77.00984,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1579,7 +1591,8 @@
     "county": "Albany",
     "phone": "(518) 773-7931",
     "lat": 42.702069197181,
-    "lng": -73.815981337918
+    "lng": -73.815981337918,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1621,7 +1634,8 @@
     "county": "Kings",
     "phone": "(718) 387-8400",
     "lat": 40.612808980509,
-    "lng": -73.975383764869
+    "lng": -73.975383764869,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1817,7 +1831,8 @@
     "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.690084924913,
-    "lng": -73.986735325681
+    "lng": -73.986735325681,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -1887,7 +1902,8 @@
     "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.690084924913,
-    "lng": -73.986735325681
+    "lng": -73.986735325681,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2011,7 +2027,7 @@
     "address": "260 Little Tor Road, New City, NY, 10956",
     "region": "Region 3",
     "county": "Rockland",
-    "phone": "(845) 634-4648",
+    "phone": "(845) 708-2000",
     "lat": 41.14841,
     "lng": -73.99416
   },
@@ -2027,7 +2043,8 @@
     "county": "Oneida",
     "phone": "(315) 797-6241",
     "lat": 43.212350519646,
-    "lng": -75.399222117837
+    "lng": -75.399222117837,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2111,7 +2128,8 @@
     "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.700137624856,
-    "lng": -73.828568336946
+    "lng": -73.828568336946,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2167,7 +2185,8 @@
     "county": "Orange",
     "phone": "(212) 741-0100",
     "lat": 41.457435854496,
-    "lng": -74.326790436542
+    "lng": -74.326790436542,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2293,7 +2312,8 @@
     "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.702030810574,
-    "lng": -73.756515123311
+    "lng": -73.756515123311,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2405,7 +2425,8 @@
     "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.92354500894,
-    "lng": -72.651675137234
+    "lng": -72.651675137234,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2531,7 +2552,8 @@
     "county": "Albany",
     "phone": "(518) 842-5080",
     "lat": 42.661180471971,
-    "lng": -73.840558049801
+    "lng": -73.840558049801,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2573,7 +2595,8 @@
     "county": "Chautauqua",
     "phone": "(716) 483-2344",
     "lat": 42.485727871728,
-    "lng": -79.345989264748
+    "lng": -79.345989264748,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2615,7 +2638,8 @@
     "county": "Essex",
     "phone": "(518) 546-3381",
     "lat": 44.04789,
-    "lng": -73.45861
+    "lng": -73.45861,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2853,7 +2877,8 @@
     "county": "Monroe",
     "phone": "(585) 271-0660",
     "lat": 43.094504825022,
-    "lng": -77.622049269389
+    "lng": -77.622049269389,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -2979,7 +3004,8 @@
     "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.839551125477,
-    "lng": -73.841701173484
+    "lng": -73.841701173484,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -3049,7 +3075,8 @@
     "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.687816573494,
-    "lng": -73.981233313307
+    "lng": -73.981233313307,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -3287,7 +3314,8 @@
     "county": "Onondaga",
     "phone": "(315) 476-7441",
     "lat": 43.062408448968,
-    "lng": -76.035183105967
+    "lng": -76.035183105967,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -3651,7 +3679,8 @@
     "county": "Seneca",
     "phone": "(315) 539-5067",
     "lat": 42.899629606969,
-    "lng": -76.893136867555
+    "lng": -76.893136867555,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -3833,7 +3862,8 @@
     "county": "Ulster",
     "phone": "(845) 417-3596",
     "lat": 41.848898412092,
-    "lng": -74.112206723349
+    "lng": -74.112206723349,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -4211,7 +4241,8 @@
     "county": "Erie",
     "phone": "(716) 805-1555",
     "lat": 42.85451710519,
-    "lng": -78.789070209181
+    "lng": -78.789070209181,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -4239,7 +4270,8 @@
     "county": "Erie",
     "phone": "(716) 805-1555",
     "lat": 42.654880441891,
-    "lng": -79.037566916774
+    "lng": -79.037566916774,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -4309,7 +4341,8 @@
     "county": "Sullivan",
     "phone": "(845) 796-1350",
     "lat": 41.76471,
-    "lng": -74.63944
+    "lng": -74.63944,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -4379,7 +4412,8 @@
     "county": "Orange",
     "phone": "(845) 796-1350",
     "lat": 41.471963983536,
-    "lng": -74.458637102271
+    "lng": -74.458637102271,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -4771,7 +4805,8 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.187386008439,
-    "lng": -77.503121696272
+    "lng": -77.503121696272,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -4827,7 +4862,8 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.115200644142,
-    "lng": -77.664243456912
+    "lng": -77.664243456912,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -5233,7 +5269,8 @@
     "county": "Erie",
     "phone": "(716) 517-2000",
     "lat": 42.717951819547,
-    "lng": -78.826051799866
+    "lng": -78.826051799866,
+    "unconfirmed": true
   },
   {
     "source": "article16",
@@ -5247,7 +5284,8 @@
     "county": "Erie",
     "phone": "(716) 517-2000",
     "lat": 43.011623188773,
-    "lng": -78.770742674055
+    "lng": -78.770742674055,
+    "unconfirmed": true
   },
   {
     "source": "article16",
