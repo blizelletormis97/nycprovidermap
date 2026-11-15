@@ -42,3 +42,6 @@ src/data/raw/*.csv
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# GitHub Pages build output
+/site-dist/

@@ -56,6 +56,20 @@ Open [http://localhost:3001](http://localhost:3001) to view the app.
 The app needs a Node server (`next start` or Vercel): provider details and search are served by
 `/api/locations/[id]` and `/api/search`.
 
+## Public website (GitHub Pages)
+
+A static version of the map is published to GitHub Pages at
+**https://blizelletormis97.github.io/nycprovidermap/** by `.github/workflows/pages.yml` on every push to `main`
+(or run it by hand from the Actions tab). It uses OpenStreetMap street tiles, so it needs no Mapbox token, and
+runs entirely in the browser with the provider data built into the page.
+
+- Page template: `site/template.html`
+- Build locally: `bun run build:site` writes `site-dist/index.html`
+- One-time setup: in the repo go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**
+
+After refreshing provider data with the seed scripts, commit the updated `src/data/*.json` and merge to `main`;
+the site rebuilds automatically.
+
 ## What counts as "IDD provider that accepts Medicaid"
 
 Only these three sources are shown. Each one is IDD-specific and tied to Medicaid:
@@ -119,12 +133,13 @@ src/
 │   └── map-filter.tsx      # Search + filter sidebar
 ├── data/
 │   ├── raw/                # Article 16 source list (PDF + extracted table)
-│   ├── boundaries/         # NYC borough GeoJSON
+│   ├── boundaries/         # NYC borough GeoJSON + simplified service-area county outlines
 │   └── *-geocoded.json     # Cached provider data
 ├── lib/
 │   ├── api.ts              # Data access, location grouping, search
 │   ├── constants.ts        # Service area, service catalog, source colors and labels
 │   ├── geo-utils.ts        # Service-area (region) checks
+│   ├── build-site.ts       # Builds the GitHub Pages site from the cached data
 │   ├── seed-utils.ts       # Shared helpers for seed scripts
 │   └── seed-*.ts           # Data fetching/processing scripts
 └── types/
