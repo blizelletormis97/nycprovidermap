@@ -2,11 +2,11 @@ import { ProviderMap } from "@/components/provider-map";
 import { getProvidersGeoJSON } from "@/lib/api";
 
 export default function Home() {
-  // Call directly - no HTTP fetch needed
-  const geojsonData = getProvidersGeoJSON({ source: "all" });
+  // Read the cached data directly at build time — provider details are fetched per location on click
+  const geojsonData = getProvidersGeoJSON();
 
   return (
-    <main className="h-[calc(100vh-54px)] p-4">
+    <main className="h-auto md:h-[calc(100vh-54px)] p-4">
       <ProviderMap initialData={geojsonData} />
     </main>
   );

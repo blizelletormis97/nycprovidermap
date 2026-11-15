@@ -1,3 +1,5 @@
+import type { DataSource } from "@/types/providers";
+
 // Filter for specific provider types (Medicaid API)
 export const MEDICAID_TYPES = [
   "DENTIST",
@@ -25,105 +27,158 @@ export const OPWDD_SERVICE_FIELDS = {
   developmental_centers_and_special_population_services: "Developmental Centers",
 } as const;
 
-// OPWDD service types for UI filtering
-export const OPWDD_SERVICE_TYPES = [
-  "DAY HABILITATION",
-  "COMMUNITY HABILITATION",
-  "RESIDENTIAL (IRA)",
-  "SUPPORTED EMPLOYMENT",
-  "PREVOCATIONAL",
-  "FAMILY SUPPORT",
-] as const;
+export interface ServiceType {
+  /** Normalized service name — must match the output of normalizeServiceType() exactly */
+  key: string;
+  /** Label shown in the filter panel */
+  label: string;
+}
 
-// Healthcare service types for UI filtering (Medicaid/Medicare)
-export const HEALTHCARE_SERVICE_TYPES = [
-  // Primary Care
-  "PHYSICIAN",           // Includes Family Medicine, Internal Medicine, General Practice, etc.
-  "DENTAL",              // All dentist types
+export interface ServiceGroup {
+  id: string;
+  heading: string;
+  types: ServiceType[];
+}
 
-  // Mental/Behavioral Health
-  "PSYCHIATRY",          // Psychiatrists
-  "PSYCHOLOGY",          // Psychologists
-  "SOCIAL WORK",         // Clinical Social Workers
-  "MENTAL HEALTH COUNSELING", // Mental Health Counselors
+const t = (key: string, label = key): ServiceType => ({ key, label });
 
-  // Therapy Services (critical for OPWDD)
-  "PHYSICAL THERAPY",    // Physical Therapists
-  "OCCUPATIONAL THERAPY", // Occupational Therapists
-  "SPEECH THERAPY",      // Speech Language Pathologists
-  "REHAB MEDICINE",      // Physical Medicine & Rehabilitation
-
-  // Other Healthcare
-  "PODIATRY",            // Podiatrists
-  "OPTOMETRY",           // Optometrists
-  "NUTRITION",           // Dietitians
-  "NEUROLOGY",           // Neurologists
-  "ALLERGY/IMMUNOLOGY",  // Allergists
-  "CHIROPRACTIC",        // Chiropractors
-
-  // Home/Equipment
-  "HOME HEALTH",         // All home health types
-  "DME",                 // Durable Medical Equipment suppliers & dealers
-] as const;
-
-// Article 16 Clinic service types
-export const ARTICLE16_SERVICE_TYPES = [
-  "ARTICLE 16 CLINIC",
-] as const;
-
-// Combined provider types for UI filtering (normalized names)
-export const PROVIDER_TYPES = [
-  ...HEALTHCARE_SERVICE_TYPES,
-  ...OPWDD_SERVICE_TYPES,
-  ...ARTICLE16_SERVICE_TYPES,
+/**
+ * The single source of truth for service categories shown in the filter panel.
+ * Every normalized service type produced by api.ts should appear here, otherwise
+ * locations offering only that service can never be shown.
+ */
+export const SERVICE_GROUPS: ServiceGroup[] = [
+  {
+    id: "dd",
+    heading: "OPWDD Services",
+    types: [
+      t("Day Habilitation"),
+      t("Community Habilitation"),
+      t("Residential (IRA)"),
+      t("Individual Support (ISS)"),
+      t("Supported Employment"),
+      t("Prevocational"),
+      t("Family Support"),
+      t("Self-Direction"),
+      t("Intermediate Care (ICF)"),
+      t("Family Care"),
+      t("Developmental Centers"),
+    ],
+  },
+  {
+    id: "article16",
+    heading: "Article 16 Clinics",
+    types: [t("Article 16 Clinic", "Article 16 Clinic (main site)"), t("Article 16 Satellite", "Article 16 Satellite")],
+  },
+  {
+    id: "primary",
+    heading: "Primary & Specialty Care",
+    types: [
+      t("Physician", "Physician / Primary Care"),
+      t("Dental"),
+      t("Neurology"),
+      t("Podiatry"),
+      t("Optometry"),
+      t("Allergy/Immunology", "Allergy / Immunology"),
+      t("Chiropractic"),
+      t("Nutrition", "Nutrition / Dietitian"),
+    ],
+  },
+  {
+    id: "therapy",
+    heading: "Therapy & Rehab",
+    types: [
+      t("Physical Therapy"),
+      t("Occupational Therapy"),
+      t("Speech Therapy"),
+      t("Rehab Medicine"),
+    ],
+  },
+  {
+    id: "behavioral",
+    heading: "Behavioral Health Clinicians",
+    types: [
+      t("Psychiatry"),
+      t("Psychology"),
+      t("Social Work"),
+      t("Mental Health Counseling"),
+    ],
+  },
+  {
+    id: "omh",
+    heading: "OMH Mental Health Programs",
+    types: [
+      t("Mental Health Clinic", "Outpatient Clinic / PROS"),
+      t("Intensive Community Treatment", "ACT / Intensive Outreach"),
+      t("Crisis Services"),
+      t("Inpatient Psychiatric"),
+      t("Children & Family Services", "Children & Family (CFTSS)"),
+      t("MH Care Management", "Care Management / Health Home"),
+      t("MH Employment Services", "Employment Services"),
+      t("Peer & Recovery Support"),
+    ],
+  },
+  {
+    id: "facilities",
+    heading: "Hospitals & Facilities",
+    types: [
+      t("Hospital"),
+      t("Community Clinic", "Community Clinic (D&TC)"),
+      t("School-Based Clinic"),
+      t("Nursing Home"),
+      t("Adult Care Facility", "Adult Home / Assisted Living"),
+      t("Adult Day Health Care"),
+      t("Hospice"),
+    ],
+  },
+  {
+    id: "home",
+    heading: "Home Care & Equipment",
+    types: [t("Home Health", "Home Health / Home Care"), t("DME", "Durable Medical Equipment")],
+  },
 ];
 
-// Display labels for service types
-export const TYPE_LABELS: Record<string, string> = {
-  // Primary Care
-  PHYSICIAN: "Physician / Primary Care",
-  DENTAL: "Dental",
+export const ALL_SERVICE_KEYS: string[] = SERVICE_GROUPS.flatMap((g) => g.types.map((type) => type.key));
+export const KNOWN_SERVICE_KEYS = new Set(ALL_SERVICE_KEYS);
 
-  // Mental/Behavioral Health
-  PSYCHIATRY: "Psychiatry",
-  PSYCHOLOGY: "Psychology",
-  "SOCIAL WORK": "Social Work",
-  "MENTAL HEALTH COUNSELING": "Mental Health Counseling",
+export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "omh", "facilities", "medicaid", "medicare"];
 
-  // Therapy Services
-  "PHYSICAL THERAPY": "Physical Therapy",
-  "OCCUPATIONAL THERAPY": "Occupational Therapy",
-  "SPEECH THERAPY": "Speech Therapy",
-  "REHAB MEDICINE": "Rehab Medicine",
-
-  // Other Healthcare
-  PODIATRY: "Podiatry",
-  OPTOMETRY: "Optometry",
-  NUTRITION: "Nutrition / Dietitian",
-  NEUROLOGY: "Neurology",
-  "ALLERGY/IMMUNOLOGY": "Allergy / Immunology",
-  CHIROPRACTIC: "Chiropractic",
-
-  // Home/Equipment
-  "HOME HEALTH": "Home Health",
-  DME: "Durable Medical Equipment",
-
-  // OPWDD Services
-  "DAY HABILITATION": "Day Habilitation",
-  "COMMUNITY HABILITATION": "Community Habilitation",
-  "RESIDENTIAL (IRA)": "Residential (IRA)",
-  "SUPPORTED EMPLOYMENT": "Supported Employment",
-  PREVOCATIONAL: "Prevocational",
-  "FAMILY SUPPORT": "Family Support",
-
-  // Article 16
-  "ARTICLE 16 CLINIC": "Article 16 Clinic",
-};
-
-// Source badge configuration (full class strings for Tailwind)
-export const SOURCE_CONFIG: Record<string, { label: string; className: string }> = {
-  medicaid: { label: "Medicaid", className: "bg-blue-500/20 text-blue-600 dark:text-blue-400" },
-  medicare: { label: "Medicare", className: "bg-green-500/20 text-green-600 dark:text-green-400" },
-  opwdd: { label: "OPWDD", className: "bg-purple-500/20 text-purple-600 dark:text-purple-400" },
-  article16: { label: "Article 16", className: "bg-orange-500/20 text-orange-600 dark:text-orange-400" },
+// Source configuration: badge classes (full strings for Tailwind) and map marker colors
+export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: string; className: string; color: string }> = {
+  article16: {
+    label: "Article 16",
+    longLabel: "Article 16 Clinics",
+    className: "bg-orange-500/20 text-orange-700 dark:text-orange-400",
+    color: "#f97316",
+  },
+  opwdd: {
+    label: "OPWDD",
+    longLabel: "OPWDD Agencies",
+    className: "bg-purple-500/20 text-purple-700 dark:text-purple-400",
+    color: "#8b5cf6",
+  },
+  omh: {
+    label: "OMH",
+    longLabel: "OMH Mental Health Programs",
+    className: "bg-pink-500/20 text-pink-700 dark:text-pink-400",
+    color: "#ec4899",
+  },
+  facilities: {
+    label: "NYS Facility",
+    longLabel: "Hospitals, Clinics & Facilities",
+    className: "bg-teal-500/20 text-teal-700 dark:text-teal-400",
+    color: "#14b8a6",
+  },
+  medicaid: {
+    label: "Medicaid",
+    longLabel: "Medicaid Providers",
+    className: "bg-blue-500/20 text-blue-700 dark:text-blue-400",
+    color: "#3b82f6",
+  },
+  medicare: {
+    label: "Medicare",
+    longLabel: "Medicare Providers",
+    className: "bg-green-500/20 text-green-700 dark:text-green-400",
+    color: "#22c55e",
+  },
 };
