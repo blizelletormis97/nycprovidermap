@@ -9,7 +9,7 @@ import { writeFileSync } from "fs";
 import { join } from "path";
 import { getRegion } from "./geo-utils";
 import { MEDICAID_IDD_TYPES, TARGET_COUNTIES } from "./constants";
-import { formatPhone, titleCaseAddress } from "./seed-utils";
+import { cleanAddress, cleanPhone, isStreetAddress, titleCaseAddress } from "./seed-utils";
 
 import type { CachedProvider } from "@/types/providers";
 
@@ -27,54 +27,6 @@ interface MedicaidProvider {
 }
 
 const API_URL = "https://health.data.ny.gov/resource/keti-qx5t.json";
-
-// Program notes the listing appends to addresses, mapped to a readable label for the popup
-const ADDRESS_NOTES: [RegExp, string | null][] = [
-  [/\bAHRH REGION \d+ RATE SET\b/gi, "Billing enrollment (rate set)"],
-  [/\bSUPP?ORTIVE IRA\b/gi, "Supportive IRA"],
-  [/\bSUPP?ORTIVE(\s+\d+\s+SITES)?\b/gi, "Supportive IRA"],
-  [/\b(GROUP|SUPPL INDIV|INDIV)\s+DAY HAB\b/gi, "Day habilitation"],
-  [/\bOMRDD DT\b/gi, "Day treatment"],
-  [/#\s*SUPVD\b/gi, "Supervised residence"],
-];
-
-const STREET_SUFFIX = /\b(ST|AVE|RD|PLZ|BLVD|PL|LN|DR|CT|HWY|HW|PKWY|CRES|WAY|TPKE|TER|CIR|SQ)\b(\s+(#|APT|STE|FL|RM)\s*\S+)*/i;
-
-/**
- * Clean an address from the Medicaid listing, e.g. "61 FLORENCE ST # C7123461 # SUPVD" or
- * "133 SHORE RD RD ICF". Returns the cleaned street address plus any program notes found in it.
- */
-export function cleanAddress(raw = ""): { street: string; notes: string[] } {
-  const notes = new Set<string>();
-  let s = raw;
-  for (const [pattern, label] of ADDRESS_NOTES) {
-    if (pattern.test(s) && label) notes.add(label);
-    pattern.lastIndex = 0;
-    s = s.replace(pattern, " ");
-  }
-  s = s.replace(/#\s*C\d+/gi, " ");
-
-  // "1980 MORRIS AVE MORRIS AVE ICF" -> cut everything after the street suffix (and unit)
-  if (/\bICF\b/i.test(s)) {
-    const match = s.match(STREET_SUFFIX);
-    s = match?.index != null ? s.slice(0, match.index + match[0].length) : s.replace(/\bICF\b.*$/i, "");
-  }
-
-  s = s.replace(/#\s*(?=#|$)/g, " ").replace(/\s{2,}/g, " ").replace(/^[\s#,]+|[\s#,]+$/g, "").trim();
-  return { street: s, notes: [...notes] };
-}
-
-/** True when the cleaned address looks like a real street address (not a PO box or "10 SITES"). */
-function isStreetAddress(street: string): boolean {
-  return /^\d/.test(street) && !/\bPO BOX\b|\bSITES\b/i.test(street);
-}
-
-/** The listing puts site codes in the phone field for many OPWDD sites; keep only real phone numbers. */
-function cleanPhone(raw?: string): string | undefined {
-  const digits = raw?.replace(/\D/g, "") ?? "";
-  if (digits.length !== 10 || !/^[2-9]\d{2}[2-9]/.test(digits)) return undefined;
-  return formatPhone(digits);
-}
 
 async function main() {
   console.log("Fetching Medicaid-enrolled IDD providers from NY Health Data...");
