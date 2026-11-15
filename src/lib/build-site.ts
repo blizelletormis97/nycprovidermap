@@ -1,11 +1,14 @@
 /**
  * Build the static GitHub Pages site (site-dist/index.html) from the cached provider data.
- * The page is site/template.html with the provider locations and service-area boundaries inlined.
+ * The page is site/template.html with the provider data, service-area boundaries and map styles inlined.
+ * The map library and fonts are served from the site itself (site-dist/assets, content-hashed names) so
+ * visitors don't wait on connections to font or CDN servers.
  * Run with: bun run build:site
  */
 
 import { execSync } from "child_process";
-import { mkdirSync, readFileSync, writeFileSync } from "fs";
+import { createHash } from "crypto";
+import { copyFileSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "fs";
 import { join } from "path";
 import { getLocationDetail, getProvidersGeoJSON } from "./api";
 
@@ -43,16 +46,47 @@ try {
 }
 const dataDateLabel = dataDate.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "America/New_York" });
 
-// Inline JSON safely inside <script>
+// JSON is safe inside <script type="application/json"> once "<" is escaped
 const inline = (json: string) => json.replace(/</g, "\\u003c");
 
+const outDir = join(root, "site-dist");
+rmSync(outDir, { recursive: true, force: true });
+mkdirSync(join(outDir, "assets"), { recursive: true });
+
+/** Copy a file into site-dist/assets with a content hash in its name; returns the URL to use in the page. */
+function asset(source: string, name: string): string {
+  const body = readFileSync(join(root, source));
+  const hash = createHash("sha256").update(body).digest("hex").slice(0, 10);
+  const [base, ext] = [name.slice(0, name.lastIndexOf(".")), name.slice(name.lastIndexOf("."))];
+  const file = `${base}.${hash}${ext}`;
+  copyFileSync(join(root, source), join(outDir, "assets", file));
+  return `assets/${file}`;
+}
+
+// Map styles are small, so they go inline (no extra request before the page can draw). Rules that point
+// at Leaflet's bundled images are dropped: the page uses its own markers and controls.
+const vendorCss = [
+  "node_modules/leaflet/dist/leaflet.css",
+  "node_modules/leaflet.markercluster/dist/MarkerCluster.css",
+].map((f) => readFileSync(join(root, f), "utf-8"))
+  .join("\n")
+  .replace(/\/\*[\s\S]*?\*\//g, "")
+  .replace(/[^{}]*\{[^{}]*url\([^)]*\)[^{}]*\}/g, "")
+  .replace(/\s*\n\s*/g, "\n");
+
 const html = readFileSync(join(root, "site/template.html"), "utf-8")
-  .replace("/*__LOCATIONS__*/[]", inline(JSON.stringify(locations)))
-  .replace("/*__BASEMAP__*/{}", inline(basemap))
+  .replace("/*__VENDOR_CSS__*/", vendorCss)
+  .replaceAll("__LEAFLET_JS__", asset("node_modules/leaflet/dist/leaflet.js", "leaflet.js"))
+  .replaceAll("__MARKERCLUSTER_JS__", asset("node_modules/leaflet.markercluster/dist/leaflet.markercluster.js", "markercluster.js"))
+  .replaceAll("__FONT_NUNITO__", asset("node_modules/@fontsource-variable/nunito/files/nunito-latin-wght-normal.woff2", "nunito.woff2"))
+  .replaceAll("__FONT_FREDOKA__", asset("node_modules/@fontsource/fredoka/files/fredoka-latin-600-normal.woff2", "fredoka-600.woff2"))
+  .replace("__LOCATIONS_JSON__", () => inline(JSON.stringify(locations)))
+  .replace("__BASEMAP_JSON__", () => inline(basemap))
   .replace('/*__DATA_DATE__*/""', JSON.stringify(dataDateLabel));
 
-const outDir = join(root, "site-dist");
-mkdirSync(outDir, { recursive: true });
+const leftover = html.match(/__[A-Z_]+__/);
+if (leftover) throw new Error(`Unfilled placeholder in site/template.html: ${leftover[0]}`);
+
 writeFileSync(join(outDir, "index.html"), html);
 writeFileSync(join(outDir, ".nojekyll"), "");
 

@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // GitHub Pages build output (bundled third-party files)
+    "site-dist/**",
   ]),
 ]);
 
