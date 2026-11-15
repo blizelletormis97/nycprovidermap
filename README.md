@@ -103,6 +103,19 @@ Sites enrolled in NY Medicaid under the IDD-specific provider types:
 | INTERMEDIATE CARE FACILITY (OPWDD) | Intermediate Care (ICF/IID) |
 | OPWDD STATE-OPERATED CLINIC | OPWDD State-Operated Clinic |
 
+### Optional: psychologists and social workers (evaluations)
+
+**Source**: the same Medicaid Enrolled Provider Listing, types CLINICAL PSYCHOLOGIST (psychological and autism
+evaluations) and CLINICAL SOCIAL WORKER (psychosocial evaluations).
+
+These clinicians are enrolled in Medicaid but are **not IDD-specific**: the listing does not say who evaluates
+people with IDD. The website keeps them off by default under **Evaluations** and downloads them only when a
+viewer switches them on; every popup says to ask about IDD evaluations. Listings at apartment addresses (likely a
+clinician's home) are left out. The Next.js app does not load them.
+
+The **IDD clinic evaluations** filter shows the Article 16 clinics and OPWDD state clinics, which are certified to
+provide psychological evaluations and OPWDD eligibility evaluations.
+
 ## Refreshing Data
 
 ```bash
@@ -111,6 +124,9 @@ bun run src/lib/seed-opwdd.ts
 
 # Medicaid-enrolled IDD sites (NY Health Data)
 bun run src/lib/seed-medicaid.ts
+
+# Optional evaluations layer: Medicaid psychologists & clinical social workers
+bun run src/lib/seed-clinicians.ts
 
 # Article 16 clinics (parses src/data/raw/article-16-raw.json, geocodes with the Census geocoder; ~5 min)
 bun run src/lib/seed-article16.ts
@@ -154,6 +170,7 @@ src/
 | OPWDD agencies | 164 |
 | Medicaid-enrolled IDD sites | 679 |
 | **Total** | **981** at 628 map locations |
+| Optional: psychologists & clinical social workers | 14,834 (4,635 psychologists, 10,199 social workers) |
 
 | Area | Map locations |
 |------|-----------|
