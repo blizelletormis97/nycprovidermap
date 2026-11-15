@@ -1,6 +1,6 @@
 /**
  * Seed script for OPWDD Article 16 certified clinics (main sites + satellites) in the
- * service area (the five NYC boroughs, Nassau, Suffolk).
+ * whole state (OPWDD Regions 1-5).
  *
  * Input:  src/data/raw/article-16-raw.json — table extraction of OPWDD's statewide
  *         "Clinic Programs and Satellites" list (src/data/raw/article-16-clinics.pdf).
@@ -12,7 +12,7 @@
 
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
-import { getRegion } from "./geo-utils";
+import { countyName, getRegion } from "./geo-utils";
 import { addressKey } from "./api";
 import { formatPhone, geocodeMatchAgrees } from "./seed-utils";
 
@@ -117,7 +117,7 @@ function loadKnownLocations(): Map<string, GeoResult> {
     const providers: CachedProvider[] = JSON.parse(readFileSync(join(process.cwd(), "src/data", file), "utf-8"));
     for (const p of providers) {
       const key = addressKey(p.address);
-      if (key && !known.has(key)) known.set(key, { lat: p.lat, lng: p.lng, region: p.region, how: "state" });
+      if (key && !known.has(key)) known.set(key, { lat: p.lat, lng: p.lng, region: p.region, county: p.county, how: "state" });
     }
   }
   return known;
@@ -138,8 +138,11 @@ async function geocode(site: ClinicSite, known: Map<string, GeoResult>): Promise
   const fromState = key ? known.get(key) : undefined;
   if (fromState) return fromState;
 
-  return (await geocodeAddress(`${site.street}, ${site.city}, NY ${site.zip}`, site, true))
-    ?? (await geocodeAddress(`${site.street}, ${site.city}, NY`, site, false));
+  // The geocoder matches streets, not suites ("1045 James Street Suite 270" -> "1045 James Street")
+  const street = site.street.replace(/,?\s+\b(suite|ste|floor|fl|room|rm|unit)\b.*$/i, "").trim();
+  const query = { ...site, street };
+  return (await geocodeAddress(`${street}, ${site.city}, NY ${site.zip}`, query, true))
+    ?? (await geocodeAddress(`${street}, ${site.city}, NY`, query, false));
 }
 
 async function geocodeAddress(address: string, site: ClinicSite, requireZip: boolean): Promise<GeoResult | null> {
@@ -203,6 +206,7 @@ async function main() {
       detail: `OPWDD program ${site.programId}${site.type === "satellite" ? ` · satellite ${site.siteId}` : ""}`,
       address: `${site.street}, ${site.city}, NY, ${site.zip}`,
       region,
+      county: countyName(geo.county),
       phone: formatPhone(site.phone),
       lat: geo.lat,
       lng: geo.lng,

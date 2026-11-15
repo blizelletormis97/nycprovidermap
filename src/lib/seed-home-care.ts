@@ -16,7 +16,7 @@
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { addressKey } from "./api";
-import { countyToRegion, getRegion } from "./geo-utils";
+import { countyName, countyToRegion, getRegion } from "./geo-utils";
 import { REGIONS } from "./constants";
 import { formatPhone, titleCaseAddress } from "./seed-utils";
 
@@ -117,7 +117,13 @@ async function main() {
     const firstWord = normName(agency.name).split(" ")[0];
     const sameName = (m: MedicaidRow) => normName(m.mmis_name ?? "").split(" ")[0] === firstWord;
     const atAddress = enrolled.filter((m) => addressKey(`${m.service_address}, ${m.city}, NY, ${m.zip_code}`) === key);
-    const match = atAddress.find(sameName) ?? enrolled.find(sameName) ?? (atAddress.length === 1 ? atAddress[0] : undefined);
+    let match = atAddress.find(sameName) ?? enrolled.find(sameName) ?? (atAddress.length === 1 ? atAddress[0] : undefined);
+    if (!match) {
+      // Some agencies enroll from another office (e.g. People Inc.: DOH lists Buffalo, Medicaid lists Williamsville)
+      const byName = `profession_or_service='CERTIFIED HOME HEALTH AGENCY' AND upper(mmis_name) like '${firstWord.replace(/'/g, "''")}%'`;
+      const sameNameAnywhere = await getJson<MedicaidRow[]>(`${MEDICAID_URL}?$limit=20&$select=mmis_id,mmis_name,service_address,city,zip_code&$where=${encodeURIComponent(byName)}`);
+      match = sameNameAnywhere.find(sameName);
+    }
     if (!match) {
       console.log(`  skip (no Medicaid CHHA enrollment found at ${address}): ${agency.name}`);
       continue;
@@ -137,6 +143,7 @@ async function main() {
         + `Medicaid-enrolled as ${match.mmis_name} (ID ${match.mmis_id}).`,
       address,
       region,
+      county: countyName(facility.county),
       serves,
       phone: formatPhone(facility.fac_phone),
       website: `https://profiles.health.ny.gov/home_care/view/${agency.profileId}`,

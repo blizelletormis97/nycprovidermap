@@ -5,7 +5,7 @@ import { ChevronDown, Loader2, MapPin, Search, X } from "lucide-react";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { REGIONS, SERVICE_GROUPS, SOURCE_CONFIG, SOURCE_ORDER } from "@/lib/constants";
+import { REGION_LABELS, REGIONS, SERVICE_GROUPS, SOURCE_CONFIG, SOURCE_ORDER } from "@/lib/constants";
 
 import type { DataSource, Region, SearchResult } from "@/types/providers";
 
@@ -130,7 +130,7 @@ export function MapFilter({
                     : "bg-background text-muted-foreground border-input hover:bg-secondary"
                     }`}
                 >
-                  {region}
+                  {REGION_LABELS[region]}
                   {(region === "Nassau" || region === "Suffolk") && <span className="opacity-70"> (LI)</span>}
                   <span className="ml-1 tabular-nums opacity-70">{nf.format(regionCounts[region])}</span>
                 </button>

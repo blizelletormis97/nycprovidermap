@@ -154,6 +154,17 @@ button { font: inherit; color: inherit; }
 
 /* ---------- area chips ---------- */
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.area-groups { display: grid; gap: 12px; }
+.area-group h3 { margin: 0 0 6px; font-size: 12px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+/* Upstate regions: full-width cards with the region name over its offices */
+.chip.wide { width: 100%; border-radius: 16px; padding: 8px 10px 8px 12px; text-align: left; }
+.chip.wide .txt { flex: 1; min-width: 0; line-height: 1.25; }
+.chip.wide .sub { display: block; font-weight: 600; font-size: 12px; color: var(--muted); }
+.chip.wide[aria-pressed="true"] .sub { color: var(--ink); opacity: 0.75; }
+.region-label { color: var(--accent); font-family: var(--font-display); font-weight: 600; font-size: 13px; text-align: center; white-space: nowrap; pointer-events: none;
+  text-shadow: 0 1px 0 var(--panel), 0 0 6px var(--panel), 0 0 10px var(--panel); }
+.region-label em { display: block; font-style: normal; font-family: var(--font-body); font-weight: 700; font-size: 11px; color: var(--ink); }
+#map:not(.show-region-labels) .region-label { display: none; }
 .chip {
   border: 2px solid var(--line); background: var(--panel); border-radius: 999px; padding: 6px 8px 6px 12px;
   font-size: 14px; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
@@ -287,7 +298,7 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
   <span class="logo" aria-hidden="true"><svg class="icon"><use href="#i-pin"/></svg></span>
   <div class="brand">
     <h1>IDD Medicaid Provider Finder</h1>
-    <p>Find intellectual &amp; developmental disability services that accept <b>Medicaid</b>, all across NYC and Long Island.</p>
+    <p>Find intellectual &amp; developmental disability services that accept <b>Medicaid</b>, all across New York State.</p>
   </div>
   <span class="total" id="total"></span>
   <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
@@ -345,9 +356,26 @@ const LOCATIONS = JSON.parse(document.getElementById("locations-data").textConte
 const BASEMAP = JSON.parse(document.getElementById("basemap-data").textContent);
 const DATA_DATE = /*__DATA_DATE__*/"";
 
-const REGIONS = ["Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island", "Nassau", "Suffolk"];
+const REGIONS = ["Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island", "Nassau", "Suffolk", "Region 1", "Region 2", "Region 3"];
+// Area chips, grouped by OPWDD region
+const AREA_GROUPS = [
+  { title: "New York City · Region 4", areas: ["Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island"] },
+  { title: "Long Island · Region 5", areas: ["Nassau", "Suffolk"] },
+  { title: "Upstate", areas: ["Region 1", "Region 2", "Region 3"] },
+];
+const UPSTATE = {
+  "Region 1": "Western NY & Finger Lakes",
+  "Region 2": "Central NY, Broome & Sunmount",
+  "Region 3": "Capital District, Hudson Valley & Taconic",
+};
+// Label positions for the upstate regions on the statewide view (NYC and Long Island are obvious on the map)
+const REGION_LABELS = [
+  { at: [42.3, -78.6], name: "Region 1", sub: UPSTATE["Region 1"] },
+  { at: [43.55, -75.35], name: "Region 2", sub: UPSTATE["Region 2"] },
+  { at: [42.15, -74.25], name: "Region 3", sub: UPSTATE["Region 3"] },
+];
 const SOURCES = {
-  article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy, psychology & evaluations", tint: "--peach" },
+  article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy & IDD evaluations", tint: "--peach" },
   opwdd: { label: "OPWDD agencies", short: "OPWDD agency", note: "Agencies offering Medicaid-funded services", tint: "--lilac" },
   homecare: { label: "Home health agencies", short: "Home health", note: "State-approved to serve OPWDD-eligible people", tint: "--mint" },
   medicaid: { label: "Medicaid IDD sites", short: "Medicaid site", note: "Residences, ICFs & day programs", tint: "--sky" },
@@ -376,7 +404,7 @@ const icon = (id) => `<svg class="icon" aria-hidden="true"><use href="#${id}"/><
 
 LOCATIONS.forEach((loc, i) => {
   loc.id = i;
-  loc.addrU = loc.a.toUpperCase();
+  loc.addrU = `${loc.a} ${loc.co || ""}`.toUpperCase(); // address plus county, so "Monroe" or "Albany" finds places
   loc.p.forEach((p) => { p.types = p.t.split(", "); p.nameU = p.n.toUpperCase(); });
   loc.primary = SOURCE_ORDER.find((s) => loc.p.some((p) => p.s === s));
 });
@@ -414,16 +442,12 @@ function visible() {
 let map = null, baseLayer = null, clusters = null;
 const markers = new Map();
 
-function basemapStyle(f) {
-  return {
-    color: f.properties.served ? css("--accent") : css("--muted"), weight: f.properties.served ? 2 : 1,
-    dashArray: f.properties.served ? "6 6" : null, opacity: 0.7,
-    fillColor: css("--panel"), fillOpacity: f.properties.served ? 0 : 0.55,
-  };
+function basemapStyle() {
+  return { color: css("--accent"), weight: 2, dashArray: "6 6", opacity: 0.7, fill: false };
 }
 function initMap() {
-  map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 8, maxZoom: 18, zoomSnap: 0.25 })
-    .fitBounds([[40.49, -74.27], [41.17, -71.85]]);
+  map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 6, maxZoom: 18, zoomSnap: 0.25 })
+    .fitBounds([[40.49, -79.77], [45.02, -71.85]]); // all of New York State
   L.control.zoom({ position: "bottomleft", zoomInTitle: "Zoom in", zoomOutTitle: "Zoom out" }).addTo(map);
   map.attributionControl.setPrefix(false).addAttribution("Boundaries: U.S. Census TIGER via data.ny.gov");
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -431,10 +455,16 @@ function initMap() {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
   baseLayer = L.geoJSON(BASEMAP, { style: basemapStyle, interactive: false }).addTo(map);
-  L.marker([41.03, -73.77], {
-    interactive: false, keyboard: false,
-    icon: L.divIcon({ className: "area-label", html: "Westchester<em>not in service area</em>", iconSize: [150, 32], iconAnchor: [75, 16] }),
-  }).addTo(map);
+  for (const r of REGION_LABELS) {
+    L.marker(r.at, {
+      interactive: false, keyboard: false,
+      icon: L.divIcon({ className: "region-label", html: `${r.name}<em>${esc(r.sub)}</em>`, iconSize: [190, 36], iconAnchor: [95, 18] }),
+    }).addTo(map);
+  }
+  // Region names only on the zoomed-out statewide view, where they don't cover pins
+  const toggleRegionLabels = () => map.getContainer().classList.toggle("show-region-labels", map.getZoom() <= 8);
+  map.on("zoomend", toggleRegionLabels);
+  toggleRegionLabels();
   clusters = L.markerClusterGroup({
     showCoverageOnHover: false, maxClusterRadius: 46, spiderfyOnMaxZoom: true, chunkedLoading: true,
     iconCreateFunction: (c) => {
@@ -455,7 +485,7 @@ function popupHTML(loc, ps) {
     <div class="head" style="--tint:var(${SOURCES[loc.primary].tint})">
       <h4>${esc(loc.a)}</h4>
       <div class="meta">${sources.map((s) => `<span class="badge"><i style="background:${srcColor(s)}"></i>${SOURCES[s].short}</span>`).join("")}
-        <span class="badge">${esc(loc.r)}</span></div>
+        <span class="badge">${esc(UPSTATE[loc.r] ? `${loc.r}${loc.co ? ` · ${loc.co} County` : ""}` : loc.r)}</span></div>
     </div>
     <a class="dir" href="${dir}" target="_blank" rel="noopener noreferrer">${icon("i-go")}Get directions</a>
     <ul>${ps.map((p) => `<li><span class="dot" style="background:${srcColor(p.s)}"></span>
@@ -496,9 +526,12 @@ function renderSidebar(items) {
   // Areas: locations that match every other filter
   const areaCounts = Object.fromEntries(REGIONS.map((r) => [r, 0]));
   for (const loc of LOCATIONS) if (loc.p.some((p) => providerMatches(p, loc, ts))) locRegions(loc).forEach((r) => areaCounts[r]++);
-  $("areas").innerHTML = REGIONS.map((r) => `<button type="button" class="chip" data-region="${r}" aria-pressed="${state.regions.has(r)}">`
-    + `<svg class="icon tick" aria-hidden="true"><use href="#i-check"/></svg>${r}${r === "Nassau" || r === "Suffolk" ? " (LI)" : ""}`
-    + `<span class="n">${nf.format(areaCounts[r])}</span></button>`).join("");
+  $("areas").innerHTML = `<div class="area-groups">${AREA_GROUPS.map((g) => `<div class="area-group"><h3>${esc(g.title)}</h3><div class="chips">`
+    + g.areas.map((r) => `<button type="button" class="chip${UPSTATE[r] ? " wide" : ""}" data-region="${r}" aria-pressed="${state.regions.has(r)}">`
+      + `<svg class="icon tick" aria-hidden="true"><use href="#i-check"/></svg>`
+      + (UPSTATE[r] ? `<span class="txt">${r}<span class="sub">${esc(UPSTATE[r])}</span></span>` : r)
+      + `<span class="n">${nf.format(areaCounts[r])}</span></button>`).join("")
+    + `</div></div>`).join("")}</div>`;
   $("allAreas").hidden = state.regions.size === REGIONS.length;
 
   // Sources: providers in the selected areas that match services + search
@@ -552,7 +585,7 @@ function renderSidebar(items) {
 }
 
 function render() {
-  $("total").textContent = `${nf.format(iddProviders)} IDD providers · 7 areas`;
+  $("total").textContent = `${nf.format(iddProviders)} IDD providers · all 5 OPWDD regions`;
   const items = visible();
   renderMap(items);
   renderSidebar(items);

@@ -1,6 +1,34 @@
 [
   {
     "source": "article16",
+    "name": "ABILITY BEYOND DISABILITY",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 87920300",
+    "address": "450 Bedford Road, Chappaqua, NY, 10514",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 242-8720",
+    "lat": 41.178047488054,
+    "lng": -73.749955631123
+  },
+  {
+    "source": "article16",
+    "name": "ACCESSCNY, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 63230301",
+    "address": "1603 Court Street, Syracuse, NY, 13208",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 455-7591",
+    "lat": 43.07913,
+    "lng": -76.14518
+  },
+  {
+    "source": "article16",
     "name": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC.",
     "services": [
       "Article 16 Clinic"
@@ -8,6 +36,7 @@
     "detail": "OPWDD program 66430310",
     "address": "807 South Oyster Bay Road, Bethpage, NY, 11714",
     "region": "Nassau",
+    "county": "Nassau",
     "phone": "(516) 822-0028",
     "lat": 40.75768,
     "lng": -73.49955
@@ -21,6 +50,7 @@
     "detail": "OPWDD program 66430310 · satellite 66430310001",
     "address": "837 South Oyster Bay Road, Bethpage, NY, 11714",
     "region": "Nassau",
+    "county": "Nassau",
     "phone": "(516) 822-0028",
     "lat": 40.75754773458,
     "lng": -73.499596162312
@@ -34,9 +64,262 @@
     "detail": "OPWDD program 66430310 · satellite 66430310002",
     "address": "305 Oser Avenue, Hauppauge, NY, 11788",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(516) 822-0028",
     "lat": 40.816509747312,
     "lng": -73.259152625214
+  },
+  {
+    "source": "article16",
+    "name": "ANDERSON CENTER SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 89320300 · satellite 89320300001",
+    "address": "3038 Route 9W, Saugerties, NY, 12477",
+    "region": "Region 3",
+    "county": "Ulster",
+    "phone": "(845) 889-4034",
+    "lat": 42.050830508492,
+    "lng": -73.95703299845
+  },
+  {
+    "source": "article16",
+    "name": "ANDERSON CENTER SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 89320300 · satellite 89320300002",
+    "address": "378 Violet Avenue, Poughkeepsie, NY, 12601",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 889-4034",
+    "lat": 41.738062981465,
+    "lng": -73.909376066458
+  },
+  {
+    "source": "article16",
+    "name": "ANDERSON CENTER SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 89320300 · satellite 89320300003",
+    "address": "199 West Road, Pleasant Valley, NY, 12569",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 889-4034",
+    "lat": 41.748855828694,
+    "lng": -73.839978265299
+  },
+  {
+    "source": "article16",
+    "name": "ANDERSON CENTER SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 89320300 · satellite 89320300004",
+    "address": "22 Bill Horton Way, Wappingers Falls, NY, 12590",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 889-4034",
+    "lat": 41.620822202088,
+    "lng": -73.887701619134
+  },
+  {
+    "source": "article16",
+    "name": "ANDERSON CENTER SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 89320300 · satellite 89320300005",
+    "address": "7 Century Hill Drive, Latham, NY, 12110",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(845) 889-4034",
+    "lat": 42.771511622753,
+    "lng": -73.754644460207
+  },
+  {
+    "source": "article16",
+    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 64750301",
+    "address": "70 Phillips Hill Road, New City, NY, 10956",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 267-2500",
+    "lat": 41.164311437177,
+    "lng": -73.993764273768
+  },
+  {
+    "source": "article16",
+    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64750301 · satellite 64750301001",
+    "address": "37 Franklin Avenue, Pearl River, NY, 10965",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 267-2500",
+    "lat": 41.058267199222,
+    "lng": -74.020129485404
+  },
+  {
+    "source": "article16",
+    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64750301 · satellite 64750301002",
+    "address": "94 Orange Avenue, Suffern, NY, 10901",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 267-2500",
+    "lat": 41.116686988652,
+    "lng": -74.15465064321
+  },
+  {
+    "source": "article16",
+    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64750301 · satellite 64750301004",
+    "address": "100 Convent Road, Nanuet, NY, 10954",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 267-2500",
+    "lat": 41.08808,
+    "lng": -74.03025
+  },
+  {
+    "source": "article16",
+    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64750301 · satellite 64750301005",
+    "address": "34 Orangetown Shopping Center, Orangeburg, NY, 10962",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 267-2500",
+    "lat": 41.043916570611,
+    "lng": -73.953348489205
+  },
+  {
+    "source": "article16",
+    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64750301 · satellite 64750301007",
+    "address": "210 Route 303, Valley Cottage, NY, 10989",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 267-2500",
+    "lat": 41.12917,
+    "lng": -73.94044
+  },
+  {
+    "source": "article16",
+    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64750301 · satellite 64750301008",
+    "address": "100 Phillips Hill Road, New City, NY, 10956",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 267-2500",
+    "lat": 41.162417122848,
+    "lng": -73.97747285717
+  },
+  {
+    "source": "article16",
+    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 64750301 · satellite 64750301009",
+    "address": "82-84 South Franklin Street, Nyack, NY, 10960",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 267-2500",
+    "lat": 41.088127294657,
+    "lng": -73.922002226206
+  },
+  {
+    "source": "article16",
+    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 61840312",
+    "address": "7 Community Drive, Cheektowaga, NY, 14225",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 505-5500",
+    "lat": 42.932486155179,
+    "lng": -78.774235355707
+  },
+  {
+    "source": "article16",
+    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61840312 · satellite 61840312001",
+    "address": "2356 North Forest Drive, Getzville, NY, 14068",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 505-5500",
+    "lat": 43.008752928826,
+    "lng": -78.775363772817
+  },
+  {
+    "source": "article16",
+    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61840312 · satellite 61840312003",
+    "address": "30 Wilson Road, Williamsville, NY, 14221",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 505-5500",
+    "lat": 42.95413,
+    "lng": -78.72729
+  },
+  {
+    "source": "article16",
+    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61840312 · satellite 61840312004",
+    "address": "2643 Main Street, Buffalo, NY, 14214",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 505-5500",
+    "lat": 42.93958,
+    "lng": -78.83858
+  },
+  {
+    "source": "article16",
+    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61840312 · satellite 61840312005",
+    "address": "60 Main Street, Hamburg, NY, 14075",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 505-5500",
+    "lat": 42.715951632951,
+    "lng": -78.831836544913
   },
   {
     "source": "article16",
@@ -47,6 +330,7 @@
     "detail": "OPWDD program 02300120",
     "address": "80-45 Winchester Boulevard, Queens Village, NY, 11427-2129",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 217-4242",
     "lat": 40.74122,
     "lng": -73.73114
@@ -60,6 +344,7 @@
     "detail": "OPWDD program 02300120 · satellite 02300120006",
     "address": "81 Mall Drive, Commack, NY, 11725",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(718) 217-4242",
     "lat": 40.81045,
     "lng": -73.27462
@@ -73,6 +358,7 @@
     "detail": "OPWDD program 61430100",
     "address": "2214 Stillwell Avenue, Brooklyn, NY, 11223",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 946-9700",
     "lat": 40.592544337148,
     "lng": -73.984518653926
@@ -86,9 +372,724 @@
     "detail": "OPWDD program 61430100 · satellite 61430100001",
     "address": "376 Bay 44th Street, Brooklyn, NY, 11214",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 946-9700",
     "lat": 40.58897,
     "lng": -73.99102
+  },
+  {
+    "source": "article16",
+    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 02330142",
+    "address": "305 Main Street, Binghamton, NY, 13905-2524",
+    "region": "Region 2",
+    "county": "Broome",
+    "phone": "(607) 770-0211",
+    "lat": 42.10988,
+    "lng": -75.94251
+  },
+  {
+    "source": "article16",
+    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02330142 · satellite 02330142001",
+    "address": "249 Glenwood Road, Binghamton, NY, 13905",
+    "region": "Region 2",
+    "county": "Broome",
+    "phone": "(607) 770-0211",
+    "lat": 42.12404,
+    "lng": -75.93603
+  },
+  {
+    "source": "article16",
+    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02330142 · satellite 02330142002",
+    "address": "119 Kemper Lane, Norwich, NY, 13815",
+    "region": "Region 2",
+    "county": "Chenango",
+    "phone": "(607) 770-0211",
+    "lat": 42.54081,
+    "lng": -75.51029
+  },
+  {
+    "source": "article16",
+    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02330142 · satellite 02330142004",
+    "address": "28 Hill Street, Oneonta, NY, 13820",
+    "region": "Region 2",
+    "county": "Otsego",
+    "phone": "(607) 770-0211",
+    "lat": 42.46657,
+    "lng": -75.05466
+  },
+  {
+    "source": "article16",
+    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02330142 · satellite 02330142005",
+    "address": "1257 Trumansburg Road, Ithaca, NY, 14850",
+    "region": "Region 2",
+    "county": "Tompkins",
+    "phone": "(607) 770-0211",
+    "lat": 42.46553,
+    "lng": -76.53578
+  },
+  {
+    "source": "article16",
+    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02330142 · satellite 02330142006",
+    "address": "67 Riverside Drive, Binghamton, NY, 13905",
+    "region": "Region 2",
+    "county": "Broome",
+    "phone": "(607) 770-0211",
+    "lat": 42.09218,
+    "lng": -75.92641
+  },
+  {
+    "source": "article16",
+    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02330142 · satellite 02330142007",
+    "address": "12 School Street, New Berlin, NY, 13411",
+    "region": "Region 2",
+    "county": "Chenango",
+    "phone": "(607) 770-0211",
+    "lat": 42.62317,
+    "lng": -75.33733
+  },
+  {
+    "source": "article16",
+    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02330142 · satellite 02330142008",
+    "address": "213 Tracy Creek Road, Vestal, NY, 13850",
+    "region": "Region 2",
+    "county": "Broome",
+    "phone": "(607) 770-0211",
+    "lat": 42.01194,
+    "lng": -76.08131
+  },
+  {
+    "source": "article16",
+    "name": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 02700155",
+    "address": "200 Smith Drive, Corinth, NY, 12822-1341",
+    "region": "Region 3",
+    "county": "Saratoga",
+    "phone": "(518) 370-7370",
+    "lat": 43.24578,
+    "lng": -73.81423
+  },
+  {
+    "source": "article16",
+    "name": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02700155 · satellite 02700155001",
+    "address": "500 Balltown Road, Schenectady, NY, 12304",
+    "region": "Region 3",
+    "county": "Schenectady",
+    "phone": "(518) 370-7370",
+    "lat": 42.77954,
+    "lng": -73.89095
+  },
+  {
+    "source": "article16",
+    "name": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02700155 · satellite 02700155003",
+    "address": "7 Sullivan Parkway, Fort Edward, NY, 12828",
+    "region": "Region 3",
+    "county": "Washington",
+    "phone": "(518) 370-7370",
+    "lat": 43.28074,
+    "lng": -73.59122
+  },
+  {
+    "source": "article16",
+    "name": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02700155 · satellite 02700155005",
+    "address": "99 Broad Street, Schuylerville, NY, 12871",
+    "region": "Region 3",
+    "county": "Saratoga",
+    "phone": "(518) 370-7370",
+    "lat": 43.10472,
+    "lng": -73.57946
+  },
+  {
+    "source": "article16",
+    "name": "CATTARAUGUS REHABILITATION CENTER, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 87500300",
+    "address": "338 North 15th Street, Olean, NY, 14760",
+    "region": "Region 1",
+    "county": "Cattaraugus",
+    "phone": "(716) 375-4747",
+    "lat": 42.082285645293,
+    "lng": -78.4481218268
+  },
+  {
+    "source": "article16",
+    "name": "CATTARAUGUS REHABILITATION CENTER, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 87500300 · satellite 87500300001",
+    "address": "3799 South Nine Mile Road, Allegany, NY, 14706",
+    "region": "Region 1",
+    "county": "Cattaraugus",
+    "phone": "(716) 375-4747",
+    "lat": 42.091849193101,
+    "lng": -78.506496251266
+  },
+  {
+    "source": "article16",
+    "name": "CATTARAUGUS REHABILITATION CENTER, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 87500300 · satellite 87500300002",
+    "address": "65 South Avenue, Salamanca, NY, 14779",
+    "region": "Region 1",
+    "county": "Cattaraugus",
+    "phone": "(716) 375-4747",
+    "lat": 42.151591120914,
+    "lng": -78.718830960907
+  },
+  {
+    "source": "article16",
+    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 62580301",
+    "address": "314 South Manning Boulevard, Albany, NY, 12208",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(518) 738-0020",
+    "lat": 42.65748,
+    "lng": -73.80429
+  },
+  {
+    "source": "article16",
+    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62580301 · satellite 62580301002",
+    "address": "700 South Pearl Street, Albany, NY, 12202",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(518) 738-0020",
+    "lat": 42.629045301143,
+    "lng": -73.766452729152
+  },
+  {
+    "source": "article16",
+    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62580301 · satellite 62580301004",
+    "address": "55 Helping Hand Lane, Glenville, NY, 12325",
+    "region": "Region 3",
+    "county": "Schenectady",
+    "phone": "(518) 738-0020",
+    "lat": 42.892026178172,
+    "lng": -73.902215612305
+  },
+  {
+    "source": "article16",
+    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62580301 · satellite 62580301006",
+    "address": "30 Corporate Circle, Albany, NY, 12205",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(518) 738-0020",
+    "lat": 42.702499858775,
+    "lng": -73.876251938265
+  },
+  {
+    "source": "article16",
+    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62580301 · satellite 62580301008",
+    "address": "6141 State Farm Road, Guilderland, NY, 12084",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(518) 738-0020",
+    "lat": 42.695422273531,
+    "lng": -73.890002716159
+  },
+  {
+    "source": "article16",
+    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62580301 · satellite 62580301009",
+    "address": "180 Delaware Ave, Delmar, NY, 12054",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(518) 738-0020",
+    "lat": 42.628774981658,
+    "lng": -73.812868762739
+  },
+  {
+    "source": "article16",
+    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62580301 · satellite 62580301010",
+    "address": "1164 Western Avenue, Albany, NY, 12203",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(518) 738-0020",
+    "lat": 42.676096883683,
+    "lng": -73.82220869351
+  },
+  {
+    "source": "article16",
+    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62580301 · satellite 62580301012",
+    "address": "133 Aviation Road, Queensbury, NY, 12804",
+    "region": "Region 3",
+    "county": "Warren",
+    "phone": "(518) 738-0020",
+    "lat": 43.33541,
+    "lng": -73.71371
+  },
+  {
+    "source": "article16",
+    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62580301 · satellite 62580301014",
+    "address": "121 Opportunity Drive, Schoharie, NY, 12157",
+    "region": "Region 3",
+    "county": "Schoharie",
+    "phone": "(518) 738-0020",
+    "lat": 42.640513066325,
+    "lng": -74.323567063313
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 02740370",
+    "address": "6007 Fair Lakes Road, East Syracuse, NY, 13057-1253",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 473-2949",
+    "lat": 43.0923,
+    "lng": -76.07028
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370008",
+    "address": "4601 Nixon Park, Syracuse, NY, 13215",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 473-2949",
+    "lat": 42.988157391023,
+    "lng": -76.20219287938
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370009",
+    "address": "200 West Dominick Street, Rome, NY, 13440",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 473-2949",
+    "lat": 43.21215,
+    "lng": -75.46023
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370010",
+    "address": "303 West Liberty Street, Rome, NY, 13440",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 473-2949",
+    "lat": 43.21424,
+    "lng": -75.46151
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370011",
+    "address": "5635 State Route 31, Verona, NY, 13478",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 473-2949",
+    "lat": 43.13265,
+    "lng": -75.58306
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370012",
+    "address": "4888 State Route 410, Castorland, NY, 13620",
+    "region": "Region 2",
+    "county": "Lewis",
+    "phone": "(315) 473-2949",
+    "lat": 43.88199,
+    "lng": -75.5237
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370013",
+    "address": "7253 Owasco Road, Auburn, NY, 13021",
+    "region": "Region 2",
+    "county": "Cayuga",
+    "phone": "(315) 473-2949",
+    "lat": 42.91933,
+    "lng": -76.54602
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370014",
+    "address": "36 Owego Street, Cortland, NY, 13045",
+    "region": "Region 2",
+    "county": "Cortland",
+    "phone": "(315) 473-2949",
+    "lat": 42.59283,
+    "lng": -76.1851
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370015",
+    "address": "8676 Elmer Hill Road, Rome, NY, 13440",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 473-2949",
+    "lat": 43.28147,
+    "lng": -75.45029
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370016",
+    "address": "120 Elizabeth Street, Frankfort, NY, 13340",
+    "region": "Region 2",
+    "county": "Herkimer",
+    "phone": "(315) 473-2949",
+    "lat": 43.04346,
+    "lng": -75.07996
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370017",
+    "address": "320 Gateway Park Drive, North Syracuse, NY, 13212",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 473-2949",
+    "lat": 43.12669,
+    "lng": -76.1256
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370018",
+    "address": "9501 River Road, Marcy, NY, 13403",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 473-2949",
+    "lat": 43.13367,
+    "lng": -75.2569
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370019",
+    "address": "206 South George Street, Rome, NY, 13440",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 473-2949",
+    "lat": 43.21061,
+    "lng": -75.46379
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370020",
+    "address": "19 Ripley Drive, Camden, NY, 13316",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 473-2949",
+    "lat": 43.33078,
+    "lng": -75.74288
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370021",
+    "address": "8232 Turin Road, Rome, NY, 13440",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 473-2949",
+    "lat": 43.26026,
+    "lng": -75.46223
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370022",
+    "address": "5637 West Genesee Street, Camillus, NY, 13031",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 473-2949",
+    "lat": 43.03987,
+    "lng": -76.29252
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370023",
+    "address": "522 Westcott Street, Syracuse, NY, 13031",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 473-2949",
+    "lat": 43.04144003321,
+    "lng": -76.119416986345
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370024",
+    "address": "7020 State Route 12, Lowville, NY, 13367",
+    "region": "Region 2",
+    "county": "Lewis",
+    "phone": "(315) 473-2949",
+    "lat": 43.76821,
+    "lng": -75.46398
+  },
+  {
+    "source": "article16",
+    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02740370 · satellite 02740370025",
+    "address": "1045 James Street Suite 270, Syracuse, NY, 13440",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 473-2949",
+    "lat": 43.059944183787,
+    "lng": -76.133148993516
+  },
+  {
+    "source": "article16",
+    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 70960303",
+    "address": "711 Sullivan Street, Elmira, NY, 14901",
+    "region": "Region 1",
+    "county": "Chemung",
+    "phone": "(607) 535-6934",
+    "lat": 42.10129,
+    "lng": -76.79805
+  },
+  {
+    "source": "article16",
+    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70960303 · satellite 70960303001",
+    "address": "800 West Broad Street, Horseheads, NY, 14845",
+    "region": "Region 1",
+    "county": "Chemung",
+    "phone": "(607) 535-6934",
+    "lat": 42.164957138181,
+    "lng": -76.836297529322
+  },
+  {
+    "source": "article16",
+    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70960303 · satellite 70960303002",
+    "address": "203 12th Street, Watkins Glen, NY, 14891",
+    "region": "Region 1",
+    "county": "Schuyler",
+    "phone": "(607) 535-6934",
+    "lat": 42.37481,
+    "lng": -76.86715
+  },
+  {
+    "source": "article16",
+    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70960303 · satellite 70960303003",
+    "address": "103 Porter Street, Watkins Glen, NY, 14891",
+    "region": "Region 1",
+    "county": "Schuyler",
+    "phone": "(607) 535-6934",
+    "lat": 42.376213634735,
+    "lng": -76.867060281828
+  },
+  {
+    "source": "article16",
+    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70960303 · satellite 70960303004",
+    "address": "33 Denison Parkway, Corning, NY, 14830",
+    "region": "Region 1",
+    "county": "Steuben",
+    "phone": "(607) 535-6934",
+    "lat": 42.141989331779,
+    "lng": -77.050234334613
+  },
+  {
+    "source": "article16",
+    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70960303 · satellite 70960303005",
+    "address": "6838 Industrial Park Road, Bath, NY, 14810",
+    "region": "Region 1",
+    "county": "Steuben",
+    "phone": "(607) 535-6934",
+    "lat": 42.360993322057,
+    "lng": -77.298978431166
+  },
+  {
+    "source": "article16",
+    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70960303 · satellite 70960303006",
+    "address": "42-46 Seneca Street, Hornell, NY, 14843",
+    "region": "Region 1",
+    "county": "Steuben",
+    "phone": "(607) 535-6934",
+    "lat": 42.328919216935,
+    "lng": -77.661349491075
+  },
+  {
+    "source": "article16",
+    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70960303 · satellite 70960303007",
+    "address": "240 O'Connor Street, Wellsville, NY, 14895",
+    "region": "Region 1",
+    "county": "Allegany",
+    "phone": "(607) 535-6934",
+    "lat": 42.129987063784,
+    "lng": -77.950304361971
   },
   {
     "source": "article16",
@@ -99,6 +1100,7 @@
     "detail": "OPWDD program 76070300",
     "address": "465 Grand Street, New York, NY, 10002",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 420-1970",
     "lat": 40.71502,
     "lng": -73.98396
@@ -112,6 +1114,7 @@
     "detail": "OPWDD program 76070300 · satellite 76070300001",
     "address": "1239 East 35th Street, Brooklyn, NY, 11210",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 420-1970",
     "lat": 40.623921011371,
     "lng": -73.94141825117
@@ -125,6 +1128,7 @@
     "detail": "OPWDD program 76070300 · satellite 76070300002",
     "address": "8120 19th Avenue, Brooklyn, NY, 11214",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 420-1970",
     "lat": 40.60866988856,
     "lng": -73.997708867582
@@ -138,9 +1142,66 @@
     "detail": "OPWDD program 76070300 · satellite 76070300003",
     "address": "2306 Avenue U, Brooklyn, NY, 11229",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 420-1970",
     "lat": 40.599654052469,
     "lng": -73.948387773169
+  },
+  {
+    "source": "article16",
+    "name": "COMMUNITY, WORK, AND INDEPENDENCE, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 62030310",
+    "address": "36 Everts Avenue, Glens Falls, NY, 12801",
+    "region": "Region 3",
+    "county": "Warren",
+    "phone": "(518) 793-4700",
+    "lat": 43.326269737552,
+    "lng": -73.646398128469
+  },
+  {
+    "source": "article16",
+    "name": "COMMUNITY, WORK, AND INDEPENDENCE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62030310 · satellite 62030310007",
+    "address": "50 Pine Street, Hudson Falls, NY, 12839",
+    "region": "Region 3",
+    "county": "Washington",
+    "phone": "(518) 793-4700",
+    "lat": 43.299710009128,
+    "lng": -73.574615522773
+  },
+  {
+    "source": "article16",
+    "name": "COMMUNITY, WORK, AND INDEPENDENCE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62030310 · satellite 62030310013",
+    "address": "50 Pine Street, Hudson Falls, NY, 12839",
+    "region": "Region 3",
+    "county": "Washington",
+    "phone": "(518) 793-4700",
+    "lat": 43.299710009128,
+    "lng": -73.574615522773
+  },
+  {
+    "source": "article16",
+    "name": "COMMUNITY, WORK, AND INDEPENDENCE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62030310 · satellite 62030310015",
+    "address": "765 Quaker Road, Queensbury, NY, 12804",
+    "region": "Region 3",
+    "county": "Warren",
+    "phone": "(518) 793-4700",
+    "lat": 43.315975964423,
+    "lng": -73.612308718936
   },
   {
     "source": "article16",
@@ -151,6 +1212,7 @@
     "detail": "OPWDD program 67510100",
     "address": "1500 Hempstead Turnpike, East Meadow, NY, 11554",
     "region": "Nassau",
+    "county": "Nassau",
     "phone": "(516) 739-7733",
     "lat": 40.72259,
     "lng": -73.57812
@@ -164,6 +1226,7 @@
     "detail": "OPWDD program 67510100 · satellite 67510100002",
     "address": "90-3 Colin Drive, Holbrook, NY, 11741",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.777621909582,
     "lng": -73.048577455618
@@ -177,6 +1240,7 @@
     "detail": "OPWDD program 67510100 · satellite 67510100003",
     "address": "445 County Road 101, Yaphank, NY, 11980",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.81125,
     "lng": -72.95342
@@ -190,6 +1254,7 @@
     "detail": "OPWDD program 67510100 · satellite 67510100004",
     "address": "1529 North Ocean Avenue, Medford, NY, 11763",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.80937844987,
     "lng": -73.019520385209
@@ -203,6 +1268,7 @@
     "detail": "OPWDD program 67510100 · satellite 67510100005",
     "address": "33 Medford Avenue, Patchogue, NY, 11772",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.767042895543,
     "lng": -73.006940028451
@@ -216,6 +1282,7 @@
     "detail": "OPWDD program 67510100 · satellite 67510100007",
     "address": "200 Wilson Street, Port Jefferson Station, NY, 11777",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.934017580205,
     "lng": -73.054284890545
@@ -229,6 +1296,7 @@
     "detail": "OPWDD program 67510100 · satellite 67510100008",
     "address": "51 Terryville Road, Port Jefferson Station, NY, 11776",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.92881,
     "lng": -73.05125
@@ -242,6 +1310,7 @@
     "detail": "OPWDD program 67510100 · satellite 67510100009",
     "address": "792 Harrison Street, Riverhead, NY, 11901",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.928093756191,
     "lng": -72.678413343376
@@ -252,9 +1321,24 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 67510100 · satellite 67510100010",
+    "address": "2 John Walsh Boulevard, Peekskill, NY, 10566",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(516) 739-7733",
+    "lat": 41.27837,
+    "lng": -73.93885
+  },
+  {
+    "source": "article16",
+    "name": "EPIC LONG ISLAND, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
     "detail": "OPWDD program 67510100 · satellite 67510100013",
     "address": "72 South Woods Road, Woodbury, NY, 11554",
     "region": "Nassau",
+    "county": "Nassau",
     "phone": "(516) 739-7733",
     "lat": 40.83254,
     "lng": -73.48224
@@ -268,6 +1352,7 @@
     "detail": "OPWDD program 67510100 · satellite 67510100014",
     "address": "1228 Wantagh Avenue, Wantagh, NY, 11793",
     "region": "Nassau",
+    "county": "Nassau",
     "phone": "(516) 739-7733",
     "lat": 40.69278,
     "lng": -73.50794
@@ -281,9 +1366,234 @@
     "detail": "OPWDD program 67510100 · satellite 67510100015",
     "address": "55 Medford Avenue, Patchogue, NY, 11772",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.767703650154,
     "lng": -73.006994881413
+  },
+  {
+    "source": "article16",
+    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 02320123",
+    "address": "620 Westfall Road, Rochester, NY, 14620-4610",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 461-8500",
+    "lat": 43.11502,
+    "lng": -77.604
+  },
+  {
+    "source": "article16",
+    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02320123 · satellite 02320123014",
+    "address": "2059 East Henrietta Road, Rochester, NY, 14623",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 461-8500",
+    "lat": 43.0773,
+    "lng": -77.60727
+  },
+  {
+    "source": "article16",
+    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02320123 · satellite 02320123017",
+    "address": "3220 Middle Cheshire, Canandaigua, NY, 14424",
+    "region": "Region 1",
+    "county": "Ontario",
+    "phone": "(585) 461-8500",
+    "lat": 42.873638673375,
+    "lng": -77.29143605806
+  },
+  {
+    "source": "article16",
+    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02320123 · satellite 02320123018",
+    "address": "3660 PreEmption Road, Geneva, NY, 14456",
+    "region": "Region 1",
+    "county": "Ontario",
+    "phone": "(585) 461-8500",
+    "lat": 42.852855928013,
+    "lng": -77.010644970835
+  },
+  {
+    "source": "article16",
+    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02320123 · satellite 02320123019",
+    "address": "7059 Standpipe Road, Perry, NY, 14530",
+    "region": "Region 1",
+    "county": "Wyoming",
+    "phone": "(585) 461-8500",
+    "lat": 42.71016,
+    "lng": -78.02015
+  },
+  {
+    "source": "article16",
+    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02320123 · satellite 02320123020",
+    "address": "3505 Thomas Drive, Livonia, NY, 14480",
+    "region": "Region 1",
+    "county": "Livingston",
+    "phone": "(585) 461-8500",
+    "lat": 42.83336,
+    "lng": -77.69333
+  },
+  {
+    "source": "article16",
+    "name": "FINGER LAKES UNITED CEREBRAL PALSY, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 62140301",
+    "address": "5415 County Road 30, Canandaigua, NY, 14424",
+    "region": "Region 1",
+    "county": "Ontario",
+    "phone": "(315) 789-6828",
+    "lat": 42.89879446672,
+    "lng": -77.311586824281
+  },
+  {
+    "source": "article16",
+    "name": "FINGER LAKES UNITED CEREBRAL PALSY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62140301 · satellite 62140301001",
+    "address": "731 Pre-Emption Road, Geneva, NY, 14456",
+    "region": "Region 1",
+    "county": "Ontario",
+    "phone": "(315) 789-6828",
+    "lat": 42.86845,
+    "lng": -77.00984
+  },
+  {
+    "source": "article16",
+    "name": "FINGER LAKES UNITED CEREBRAL PALSY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62140301 · satellite 62140301003",
+    "address": "1065 Lochland Road, Geneva, NY, 14456",
+    "region": "Region 1",
+    "county": "Ontario",
+    "phone": "(315) 789-6828",
+    "lat": 42.84379,
+    "lng": -76.9792
+  },
+  {
+    "source": "article16",
+    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 63210201",
+    "address": "465 North Perry Street, Johnstown, NY, 12095",
+    "region": "Region 3",
+    "county": "Fulton",
+    "phone": "(518) 773-7931",
+    "lat": 43.025401106143,
+    "lng": -74.367383729235
+  },
+  {
+    "source": "article16",
+    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63210201 · satellite 63210201001",
+    "address": "127 East State Street, Gloversville, NY, 12078",
+    "region": "Region 3",
+    "county": "Fulton",
+    "phone": "(518) 773-7931",
+    "lat": 43.06817,
+    "lng": -74.33015
+  },
+  {
+    "source": "article16",
+    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63210201 · satellite 63210201003",
+    "address": "144 Harrison Street, Gloversville, NY, 12078",
+    "region": "Region 3",
+    "county": "Fulton",
+    "phone": "(518) 773-7931",
+    "lat": 43.029211842487,
+    "lng": -74.35309598339
+  },
+  {
+    "source": "article16",
+    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63210201 · satellite 63210201004",
+    "address": "43 Harrison Street, Gloversville, NY, 12078",
+    "region": "Region 3",
+    "county": "Fulton",
+    "phone": "(518) 773-7931",
+    "lat": 43.032760922793,
+    "lng": -74.354222895921
+  },
+  {
+    "source": "article16",
+    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63210201 · satellite 63210201005",
+    "address": "83 Briggs Street, Johnstown, NY, 12095",
+    "region": "Region 3",
+    "county": "Fulton",
+    "phone": "(518) 773-7931",
+    "lat": 43.01441506201,
+    "lng": -74.36603361383
+  },
+  {
+    "source": "article16",
+    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63210201 · satellite 63210201006",
+    "address": "5 Washington Square, Albany, NY, 12205",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(518) 773-7931",
+    "lat": 42.702069197181,
+    "lng": -73.815981337918
+  },
+  {
+    "source": "article16",
+    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63210201 · satellite 63210201007",
+    "address": "121 Opportunity Drive, Schoharie, NY, 12157",
+    "region": "Region 3",
+    "county": "Schoharie",
+    "phone": "(518) 773-7931",
+    "lat": 42.640513066325,
+    "lng": -74.323567063313
   },
   {
     "source": "article16",
@@ -294,6 +1604,7 @@
     "detail": "OPWDD program 90610300",
     "address": "293-295 Division Avenue, Brooklyn, NY, 11211",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 387-8400",
     "lat": 40.707117243659,
     "lng": -73.955959324711
@@ -307,6 +1618,7 @@
     "detail": "OPWDD program 90610300 · satellite 90610300001",
     "address": "6214 24th Avenue, Brooklyn, NY, 11204",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 387-8400",
     "lat": 40.612808980509,
     "lng": -73.975383764869
@@ -320,9 +1632,80 @@
     "detail": "OPWDD program 90610300 · satellite 90610300002",
     "address": "4102 14th Avenue, Brooklyn, NY, 11219",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 387-8400",
     "lat": 40.63805,
     "lng": -73.9854
+  },
+  {
+    "source": "article16",
+    "name": "HAMASPIK OF ORANGE COUNTY, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 78520305",
+    "address": "1 Hamaspik Way, Monroe, NY, 10950",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 774-8400",
+    "lat": 41.33547,
+    "lng": -74.1604
+  },
+  {
+    "source": "article16",
+    "name": "HAMASPIK OF ROCKLAND COUNTY, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 90600300",
+    "address": "58 Route 59, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 356-8400",
+    "lat": 41.10777,
+    "lng": -74.06546
+  },
+  {
+    "source": "article16",
+    "name": "HAMASPIK OF ROCKLAND COUNTY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 90600300 · satellite 90600300001",
+    "address": "221 Route 59, Spring Valley, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 356-8400",
+    "lat": 41.109291884514,
+    "lng": -74.046227727085
+  },
+  {
+    "source": "article16",
+    "name": "HAMASPIK OF ROCKLAND COUNTY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 90600300 · satellite 90600300002",
+    "address": "78 South Main Street, Spring Valley, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 356-8400",
+    "lat": 41.105040689517,
+    "lng": -74.045813269475
+  },
+  {
+    "source": "article16",
+    "name": "HAMASPIK OF ROCKLAND COUNTY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 90600300 · satellite 90600300003",
+    "address": "777 Chestnut Ridge Road, Chestnut Ridge, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 356-8400",
+    "lat": 41.08462981212,
+    "lng": -74.055670774581
   },
   {
     "source": "article16",
@@ -333,6 +1716,7 @@
     "detail": "OPWDD program 94150300",
     "address": "3820 14th Avenue, Brooklyn, NY, 11218",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 986-7648",
     "lat": 40.63949,
     "lng": -73.98389
@@ -346,6 +1730,7 @@
     "detail": "OPWDD program 77010300",
     "address": "1221 East 14th Street, Brooklyn, NY, 11230",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.619811307331,
     "lng": -73.96124657695
@@ -359,6 +1744,7 @@
     "detail": "OPWDD program 77010300 · satellite 77010300001",
     "address": "1600 63rd Street, Brooklyn, NY, 11204",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.62233,
     "lng": -73.99253
@@ -372,6 +1758,7 @@
     "detail": "OPWDD program 77010300 · satellite 77010300002",
     "address": "4201 Fort Hamilton Parkway, Brooklyn, NY, 11219",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.641647151978,
     "lng": -73.992650819468
@@ -385,6 +1772,7 @@
     "detail": "OPWDD program 77010300 · satellite 77010300003",
     "address": "5601 First Avenue, Brooklyn, NY, 11249",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.646982536662,
     "lng": -74.022609514018
@@ -398,9 +1786,24 @@
     "detail": "OPWDD program 77010300 · satellite 77010300004",
     "address": "83 South 8th Street, Brooklyn, NY, 11249",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.70981238399,
     "lng": -73.965971919704
+  },
+  {
+    "source": "article16",
+    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 77010300 · satellite 77010300005",
+    "address": "361 Parksville Road, Parksville, NY, 12768",
+    "region": "Region 3",
+    "county": "Sullivan",
+    "phone": "(718) 535-1956",
+    "lat": 41.835191157285,
+    "lng": -74.747637663073
   },
   {
     "source": "article16",
@@ -411,6 +1814,7 @@
     "detail": "OPWDD program 64700310",
     "address": "177 Livingston Street, Brooklyn, NY, 11201",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.690084924913,
     "lng": -73.986735325681
@@ -424,6 +1828,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310001",
     "address": "62-10 Northern Boulevard, Woodside, NY, 11377",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 422-3200",
     "lat": 40.753947625067,
     "lng": -73.900158957966
@@ -437,6 +1842,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310002",
     "address": "347 74th Street, Brooklyn, NY, 11209",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.631903439236,
     "lng": -74.026206118522
@@ -450,6 +1856,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310003",
     "address": "1424 Richmond Avenue, Staten Island, NY, 10314",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(718) 422-3200",
     "lat": 40.613840027362,
     "lng": -74.158187546552
@@ -463,6 +1870,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310004",
     "address": "159-05 Union Turnpike, Fresh Meadows, NY, 11366",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 422-3200",
     "lat": 40.72075,
     "lng": -73.80778
@@ -476,6 +1884,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310005",
     "address": "177 Livingston Street, Brooklyn, NY, 11201",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.690084924913,
     "lng": -73.986735325681
@@ -489,6 +1898,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310006",
     "address": "12430-1224 Flatlands Avenue, Brooklyn, NY, 11208",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.658074510623,
     "lng": -73.873755930341
@@ -502,6 +1912,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310007",
     "address": "260 68th Street, Brooklyn, NY, 11220",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.63672,
     "lng": -74.02616
@@ -515,6 +1926,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310008",
     "address": "6749 Third Avenue, Brooklyn, NY, 11220",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.636595623153,
     "lng": -74.025615431369
@@ -528,6 +1940,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310009",
     "address": "3108 Quentin Road, Brooklyn, NY, 11234",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.612341004445,
     "lng": -73.940241627945
@@ -541,6 +1954,7 @@
     "detail": "OPWDD program 64700310 · satellite 64700310010",
     "address": "67-10 Myrtle Avenue, Glendale, NY, 11385",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 422-3200",
     "lat": 40.70129,
     "lng": -73.88589
@@ -554,9 +1968,80 @@
     "detail": "OPWDD program 64700310 · satellite 64700310011",
     "address": "4504-4506 Avenue L, Brooklyn, NY, 11234",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.623218681641,
     "lng": -73.932065619181
+  },
+  {
+    "source": "article16",
+    "name": "HUDSON VALLEY DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 02340647",
+    "address": "220 White Plains Road, Tarrytown, NY, 10591-5837",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(845) 947-6100",
+    "lat": 41.06404,
+    "lng": -73.85265
+  },
+  {
+    "source": "article16",
+    "name": "HUDSON VALLEY DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02340647 · satellite 02340647008",
+    "address": "42 Rykowski Lane, Middletown, NY, 10941",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 947-6100",
+    "lat": 41.45221,
+    "lng": -74.34532
+  },
+  {
+    "source": "article16",
+    "name": "JAWONIO, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 71970301",
+    "address": "260 Little Tor Road, New City, NY, 10956",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 634-4648",
+    "lat": 41.14841,
+    "lng": -73.99416
+  },
+  {
+    "source": "article16",
+    "name": "KELBERMAN CENTER, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 76130310",
+    "address": "725 Daedalian Drive, Rome, NY, 13441",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 797-6241",
+    "lat": 43.212350519646,
+    "lng": -75.399222117837
+  },
+  {
+    "source": "article16",
+    "name": "KELBERMAN CENTER, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 76130310 · satellite 76130310001",
+    "address": "100 Intrepid Lane, Syracuse, NY, 13205",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 797-6241",
+    "lat": 43.003317302646,
+    "lng": -76.129964880048
   },
   {
     "source": "article16",
@@ -567,6 +2052,7 @@
     "detail": "OPWDD program 61360100",
     "address": "159 East 125th Street, New York, NY, 10035",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 741-0100",
     "lat": 40.804152658018,
     "lng": -73.936737099756
@@ -580,6 +2066,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100006",
     "address": "184-10 Jamaica Avenue, Hollis, NY, 11423",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.709386187351,
     "lng": -73.774794292368
@@ -593,6 +2080,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100007",
     "address": "237-25 Jamaica Avenue, Bellerose, NY, 11426",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.722808102256,
     "lng": -73.729288944268
@@ -606,6 +2094,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100008",
     "address": "162-10 Jamaica Avenue, Jamaica, NY, 11432",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.704303645096,
     "lng": -73.797601609812
@@ -619,6 +2108,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100009",
     "address": "87-21 121st Street, Richmond Hills, NY, 11418",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.700137624856,
     "lng": -73.828568336946
@@ -632,6 +2122,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100010",
     "address": "450 19th Street, Brooklyn, NY, 11215",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.657843898251,
     "lng": -73.984710418596
@@ -645,6 +2136,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100011",
     "address": "213 48th Street, Brooklyn, NY, 11220",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.650068074673,
     "lng": -74.015398047329
@@ -658,6 +2150,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100012",
     "address": "254 48th Street, Brooklyn, NY, 11220",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.64943556299,
     "lng": -74.014593028083
@@ -668,9 +2161,24 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61360100 · satellite 61360100013",
+    "address": "601 Stoney Ford Road, Middletown, NY, 10941",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(212) 741-0100",
+    "lat": 41.457435854496,
+    "lng": -74.326790436542
+  },
+  {
+    "source": "article16",
+    "name": "LIFESPIRE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
     "detail": "OPWDD program 61360100 · satellite 61360100015",
     "address": "3450 Victory Boulevard, Staten Island, NY, 10314",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(212) 741-0100",
     "lat": 40.60255,
     "lng": -74.17439
@@ -684,6 +2192,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100016",
     "address": "930 Willowbrook Road, Staten Island, NY, 10314",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(212) 741-0100",
     "lat": 40.60303,
     "lng": -74.14075
@@ -697,6 +2206,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100017",
     "address": "884 Targee Street, Staten Island, NY, 10314",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(212) 741-0100",
     "lat": 40.607069296194,
     "lng": -74.090135779216
@@ -710,6 +2220,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100018",
     "address": "6135 220th Street, Oakland Gardens, NY, 11364",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.74778,
     "lng": -73.75712
@@ -723,6 +2234,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100019",
     "address": "8814 Foster Avenue, Brooklyn, NY, 11236",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.644194683116,
     "lng": -73.912710776507
@@ -736,6 +2248,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100020",
     "address": "1441 Old Northern Boulevard, Roslyn, NY, 11567",
     "region": "Nassau",
+    "county": "Nassau",
     "phone": "(212) 741-0100",
     "lat": 40.802165376418,
     "lng": -73.647105783215
@@ -749,6 +2262,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100021",
     "address": "3289 Third Avenue, Bronx, NY, 10456",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 741-0100",
     "lat": 40.825385748241,
     "lng": -73.908261768261
@@ -762,6 +2276,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100022",
     "address": "161-06 89th Avenue, Jamaica, NY, 11423",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.706369180397,
     "lng": -73.799826713891
@@ -775,6 +2290,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100023",
     "address": "112-33 199th Street, St. Albans, NY, 11412",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.702030810574,
     "lng": -73.756515123311
@@ -788,6 +2304,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100024",
     "address": "168-18 South Conduit Avenue, Springfield Gardens, NY, 11232",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.66681,
     "lng": -73.77542
@@ -801,6 +2318,7 @@
     "detail": "OPWDD program 61360100 · satellite 61360100025",
     "address": "882 Third Avenue, Brooklyn, NY, 11232",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.657628599863,
     "lng": -74.004627704025
@@ -814,6 +2332,7 @@
     "detail": "OPWDD program 69940310",
     "address": "159 Carleton Avenue, Central Islip, NY, 11722",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.781918509878,
     "lng": -73.200194387543
@@ -827,6 +2346,7 @@
     "detail": "OPWDD program 69940310 · satellite 69940310001",
     "address": "75 Landing Meadow Road, Smithtown, NY, 11787",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.873576548517,
     "lng": -73.200430736128
@@ -840,6 +2360,7 @@
     "detail": "OPWDD program 69940310 · satellite 69940310002",
     "address": "250 Marcus Boulevard, Hauppauge, NY, 11788",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.82139,
     "lng": -73.2488
@@ -853,6 +2374,7 @@
     "detail": "OPWDD program 69940310 · satellite 69940310003",
     "address": "221 North Sunrise Service Road, Manorville, NY, 11949",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.82464,
     "lng": -72.78696
@@ -866,6 +2388,7 @@
     "detail": "OPWDD program 69940310 · satellite 69940310004",
     "address": "5 Union Avenue, Center Moriches, NY, 11934",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.799845828661,
     "lng": -72.79282762216
@@ -879,6 +2402,7 @@
     "detail": "OPWDD program 69940310 · satellite 69940310005",
     "address": "833 East Main Street, Riverhead, NY, 11901",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.92354500894,
     "lng": -72.651675137234
@@ -892,9 +2416,528 @@
     "detail": "OPWDD program 73330310",
     "address": "1225 Morris Park Avenue, Bronx, NY, 10461",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(718) 920-4321",
     "lat": 40.851258858623,
     "lng": -73.846926743632
+  },
+  {
+    "source": "article16",
+    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 61990310",
+    "address": "47 Liberty Drive, Amsterdam, NY, 12010",
+    "region": "Region 3",
+    "county": "Montgomery",
+    "phone": "(518) 842-5080",
+    "lat": 42.929158261978,
+    "lng": -74.208592614997
+  },
+  {
+    "source": "article16",
+    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61990310 · satellite 61990310001",
+    "address": "7 Main Street, Fort Plain, NY, 13339",
+    "region": "Region 3",
+    "county": "Montgomery",
+    "phone": "(518) 842-5080",
+    "lat": 42.931026476571,
+    "lng": -74.622020803125
+  },
+  {
+    "source": "article16",
+    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61990310 · satellite 61990310002",
+    "address": "204 Canal Street, Fort Plain, NY, 13339",
+    "region": "Region 3",
+    "county": "Montgomery",
+    "phone": "(518) 842-5080",
+    "lat": 42.934341937137,
+    "lng": -74.625160213134
+  },
+  {
+    "source": "article16",
+    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61990310 · satellite 61990310003",
+    "address": "66 Church Street, Canajoharie, NY, 13317",
+    "region": "Region 3",
+    "county": "Montgomery",
+    "phone": "(518) 842-5080",
+    "lat": 42.906162009889,
+    "lng": -74.571825890405
+  },
+  {
+    "source": "article16",
+    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61990310 · satellite 61990310004",
+    "address": "91 West Main Street, Canajoharie, NY, 13317",
+    "region": "Region 3",
+    "county": "Montgomery",
+    "phone": "(518) 842-5080",
+    "lat": 42.906194596795,
+    "lng": -74.573092996685
+  },
+  {
+    "source": "article16",
+    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61990310 · satellite 61990310005",
+    "address": "214 State Street, Schenectady, NY, 12304",
+    "region": "Region 3",
+    "county": "Schenectady",
+    "phone": "(518) 842-5080",
+    "lat": 42.814846262938,
+    "lng": -73.945740369675
+  },
+  {
+    "source": "article16",
+    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61990310 · satellite 61990310006",
+    "address": "2999 Hamburg Street, Schenectady, NY, 12304",
+    "region": "Region 3",
+    "county": "Schenectady",
+    "phone": "(518) 842-5080",
+    "lat": 42.767585038006,
+    "lng": -73.937942799204
+  },
+  {
+    "source": "article16",
+    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61990310 · satellite 61990310007",
+    "address": "334 Krumkill Road, Albany, NY, 12159",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(518) 842-5080",
+    "lat": 42.661180471971,
+    "lng": -73.840558049801
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 60690160",
+    "address": "75 Jones & Gifford Avenue, Jamestown, NY, 14701",
+    "region": "Region 1",
+    "county": "Chautauqua",
+    "phone": "(716) 483-2344",
+    "lat": 42.10083091612,
+    "lng": -79.255295766832
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60690160 · satellite 60690160001",
+    "address": "87 Harris Avenue, Jamestown, NY, 14701",
+    "region": "Region 1",
+    "county": "Chautauqua",
+    "phone": "(716) 483-2344",
+    "lat": 42.099725084204,
+    "lng": -79.214418109083
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60690160 · satellite 60690160002",
+    "address": "186 Lakeshore Drive, Dunkirk, NY, 14048",
+    "region": "Region 1",
+    "county": "Chautauqua",
+    "phone": "(716) 483-2344",
+    "lat": 42.485727871728,
+    "lng": -79.345989264748
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60690160 · satellite 60690160003",
+    "address": "407 East Chestnut Street, Dunkirk, NY, 14048",
+    "region": "Region 1",
+    "county": "Chautauqua",
+    "phone": "(716) 483-2344",
+    "lat": 42.492014856512,
+    "lng": -79.311900975988
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60690160 · satellite 60690160004",
+    "address": "880 East Second Street, Jamestown, NY, 14701",
+    "region": "Region 1",
+    "county": "Chautauqua",
+    "phone": "(716) 483-2344",
+    "lat": 42.104829960649,
+    "lng": -79.225250396672
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ESSEX COUNTY CHAPTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 67630310",
+    "address": "10 St. Patrick's Place, Port Henry, NY, 12974",
+    "region": "Region 2",
+    "county": "Essex",
+    "phone": "(518) 546-3381",
+    "lat": 44.04789,
+    "lng": -73.45861
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ESSEX COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67630310 · satellite 67630310002",
+    "address": "9 Industrial Boulevard, Plattsburgh, NY, 12903",
+    "region": "Region 2",
+    "county": "Clinton",
+    "phone": "(518) 546-3381",
+    "lat": 44.68948088707,
+    "lng": -73.511224984846
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ESSEX COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67630310 · satellite 67630310003",
+    "address": "279 New York Road, Plattsburgh, NY, 12903",
+    "region": "Region 2",
+    "county": "Clinton",
+    "phone": "(518) 546-3381",
+    "lat": 44.668159769134,
+    "lng": -73.455570552895
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ESSEX COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 67630310 · satellite 67630310004",
+    "address": "6 Commerce Lane, Canton, NY, 13617",
+    "region": "Region 2",
+    "county": "St. Lawrence",
+    "phone": "(518) 546-3381",
+    "lat": 44.58913,
+    "lng": -75.17744
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 74140310",
+    "address": "165 Main Street, Oneida, NY, 13421",
+    "region": "Region 2",
+    "county": "Madison",
+    "phone": "(315) 363-3389",
+    "lat": 43.094553939867,
+    "lng": -75.651527491574
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310003",
+    "address": "16 Crawford Street, Cortland, NY, 13045",
+    "region": "Region 2",
+    "county": "Cortland",
+    "phone": "(315) 363-3389",
+    "lat": 42.591020667482,
+    "lng": -76.180227544811
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310005",
+    "address": "701 Lenox Avenue, Oneida, NY, 13421",
+    "region": "Region 2",
+    "county": "Madison",
+    "phone": "(315) 363-3389",
+    "lat": 43.08581,
+    "lng": -75.67033
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310006",
+    "address": "719 Lenox Avenue, Oneida, NY, 13421",
+    "region": "Region 2",
+    "county": "Madison",
+    "phone": "(315) 363-3389",
+    "lat": 43.086622232214,
+    "lng": -75.668897462257
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310007",
+    "address": "634 Birchwood Drive, Oneida, NY, 13421",
+    "region": "Region 2",
+    "county": "Madison",
+    "phone": "(315) 363-3389",
+    "lat": 43.084672371526,
+    "lng": -75.664844173302
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310008",
+    "address": "350 South Washington Street, Herkimer, NY, 13350",
+    "region": "Region 2",
+    "county": "Herkimer",
+    "phone": "(315) 363-3389",
+    "lat": 43.02193,
+    "lng": -74.9819
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310009",
+    "address": "219 Pine Grove Road, Herkimer, NY, 13350",
+    "region": "Region 2",
+    "county": "Herkimer",
+    "phone": "(315) 363-3389",
+    "lat": 43.034210284988,
+    "lng": -74.960433888073
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310011",
+    "address": "411 Folts Street, Herkimer, NY, 13350",
+    "region": "Region 2",
+    "county": "Herkimer",
+    "phone": "(315) 363-3389",
+    "lat": 43.0302341849,
+    "lng": -74.983481578533
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310012",
+    "address": "14 Arnold Avenue, Utica, NY, 13501",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 363-3389",
+    "lat": 43.086822527107,
+    "lng": -75.26157214588
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310013",
+    "address": "8163 Gore Road, Rome, NY, 13440",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 363-3389",
+    "lat": 43.259055435268,
+    "lng": -75.531289395964
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310017",
+    "address": "9081 River Road, Marcy, NY, 13403",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 363-3389",
+    "lat": 43.14219500955,
+    "lng": -75.288008235249
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310018",
+    "address": "7909 State Route 5, Clinton, NY, 13373",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 363-3389",
+    "lat": 43.082193081511,
+    "lng": -75.363397785708
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 74140310 · satellite 74140310019",
+    "address": "43 Central Plaza, Ilion, NY, 13357",
+    "region": "Region 2",
+    "county": "Herkimer",
+    "phone": "(315) 363-3389",
+    "lat": 43.015283035436,
+    "lng": -75.036329558611
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 70140306",
+    "address": "2060 Brighton- Henrietta Avenue, Rochester, NY, 14623",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 271-0660",
+    "lat": 43.094504825022,
+    "lng": -77.622049269389
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70140306 · satellite 70140306001",
+    "address": "1651 Lyell Avenue, Rochester, NY, 14606",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 271-0660",
+    "lat": 43.164640306305,
+    "lng": -77.670591059481
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70140306 · satellite 70140306002",
+    "address": "985 Elmwood Avenue, Rochester, NY, 14620",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 271-0660",
+    "lat": 43.124871552728,
+    "lng": -77.612453349792
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70140306 · satellite 70140306003",
+    "address": "10 Ballantyne Road, Rochester, NY, 14623",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 271-0660",
+    "lat": 43.092937638612,
+    "lng": -77.68214529942
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70140306 · satellite 70140306004",
+    "address": "1387 Fairport Road, Fairport, NY, 14450",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 271-0660",
+    "lat": 43.100354406199,
+    "lng": -77.45793969338
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70140306 · satellite 70140306005",
+    "address": "2657 West Henrietta Road, Rochester, NY, 14623",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 271-0660",
+    "lat": 43.098345639635,
+    "lng": -77.630898258058
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70140306 · satellite 70140306006",
+    "address": "21 Chapel Street, Mount Morris, NY, 14510",
+    "region": "Region 1",
+    "county": "Livingston",
+    "phone": "(585) 271-0660",
+    "lat": 42.7249589515,
+    "lng": -77.874428061087
   },
   {
     "source": "article16",
@@ -905,6 +2948,7 @@
     "detail": "OPWDD program 61030100",
     "address": "83 Maiden Lane, New York, NY, 10038",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.70746,
     "lng": -74.00749
@@ -918,6 +2962,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100002",
     "address": "2488 Grand Concourse, Bronx, NY, 10458",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.862135918658,
     "lng": -73.897024341252
@@ -931,6 +2976,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100005",
     "address": "1440 Ferris Place, Bronx, NY, 10461",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.839551125477,
     "lng": -73.841701173484
@@ -944,6 +2990,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100006",
     "address": "1420 Ferris Place, Bronx, NY, 10461",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.839261200176,
     "lng": -73.84130382258
@@ -957,6 +3004,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100009",
     "address": "1775 Grand Concourse, Bronx, NY, 10453",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.84656,
     "lng": -73.90964
@@ -970,6 +3018,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100010",
     "address": "1952-74 Mayflower Avenue, Bronx, NY, 10461",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.850769585736,
     "lng": -73.833796426613
@@ -983,6 +3032,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100011",
     "address": "81 Willoughby Street, Brooklyn, NY, 11201",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.692249400307,
     "lng": -73.986192821232
@@ -996,6 +3046,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100012",
     "address": "340 Livingston Street, Brooklyn, NY, 11217",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.687816573494,
     "lng": -73.981233313307
@@ -1009,6 +3060,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100014",
     "address": "2211-2225 Church Avenue, Brooklyn, NY, 11226",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.650464324026,
     "lng": -73.958305537867
@@ -1022,6 +3074,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100015",
     "address": "355 Kings Highway, Brooklyn, NY, 11223",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.604789964045,
     "lng": -73.976798123492
@@ -1035,6 +3088,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100016",
     "address": "1329 Rockaway Parkway, Brooklyn, NY, 11236",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.647121176701,
     "lng": -73.904442821166
@@ -1048,6 +3102,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100017",
     "address": "2615-21 East 17th Street, Brooklyn, NY, 11235",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.587739654878,
     "lng": -73.952296739338
@@ -1061,6 +3116,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100018",
     "address": "1305 86th Street, Brooklyn, NY, 11228",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.614022071487,
     "lng": -74.013734438127
@@ -1074,6 +3130,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100019",
     "address": "200 Varick Street, New York, NY, 10014",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.72868,
     "lng": -74.00543
@@ -1087,6 +3144,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100020",
     "address": "101 Norfolk Street, New York, NY, 10002",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.718443802267,
     "lng": -73.987404059765
@@ -1100,6 +3158,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100022",
     "address": "2080 Lexington Avenue, New York, NY, 10035",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.804451861114,
     "lng": -73.937448613796
@@ -1113,6 +3172,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100024",
     "address": "23-55 Healy Avenue, Far Rockaway, NY, 11691",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 780-2500",
     "lat": 40.605177276951,
     "lng": -73.760990157927
@@ -1126,6 +3186,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100025",
     "address": "76-09 Queens Boulevard, Elmhurst, NY, 11373",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 780-2500",
     "lat": 40.739069973671,
     "lng": -73.88815338318
@@ -1139,6 +3200,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100026",
     "address": "25 Victory Boulevard, Staten Island, NY, 10301",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(212) 780-2500",
     "lat": 40.637806444031,
     "lng": -74.076487988516
@@ -1152,6 +3214,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100027",
     "address": "1952-74 Mayflower Avenue, Bronx, NY, 10461",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.850769585736,
     "lng": -73.833796426613
@@ -1165,6 +3228,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100028",
     "address": "32-03 39th Avenue, Long Island City, NY, 11101",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 780-2500",
     "lat": 40.752302835448,
     "lng": -73.932001898455
@@ -1178,6 +3242,7 @@
     "detail": "OPWDD program 61030100 · satellite 61030100029",
     "address": "200 Varick Street, New York, NY, 10014",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.72868,
     "lng": -74.00543
@@ -1191,9 +3256,822 @@
     "detail": "OPWDD program 61030100 · satellite 61030100030",
     "address": "450 West 56th Street, New York, NY, 10019",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.767910249797,
     "lng": -73.987947763168
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 61300304",
+    "address": "600 South Wilbur Avenue, Syracuse, NY, 13204",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 476-7441",
+    "lat": 43.04457,
+    "lng": -76.17624
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61300304 · satellite 61300304001",
+    "address": "7041 Manlius Center Road, Syracuse, NY, 13057",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 476-7441",
+    "lat": 43.062408448968,
+    "lng": -76.035183105967
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61300304 · satellite 61300304002",
+    "address": "500 Old Liverpool Road, Liverpool, NY, 13088",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 476-7441",
+    "lat": 43.087745944953,
+    "lng": -76.187487736154
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61300304 · satellite 61300304003",
+    "address": "203 East Hampton Place, Syracuse, NY, 13206",
+    "region": "Region 2",
+    "county": "Onondaga",
+    "phone": "(315) 476-7441",
+    "lat": 43.076816121605,
+    "lng": -76.106980979675
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61300304 · satellite 61300304006",
+    "address": "63 Lower River Street, Oneonta, NY, 13820",
+    "region": "Region 2",
+    "county": "Otsego",
+    "phone": "(315) 476-7441",
+    "lat": 42.448599146171,
+    "lng": -75.097786711724
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61300304 · satellite 61300304007",
+    "address": "3098 County Highway 11, Hartwick, NY, 13348",
+    "region": "Region 2",
+    "county": "Otsego",
+    "phone": "(315) 476-7441",
+    "lat": 42.659785214238,
+    "lng": -75.049455610403
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61300304 · satellite 61300304008",
+    "address": "420 Gaffney Drive, Watertown, NY, 13601",
+    "region": "Region 2",
+    "county": "Jefferson",
+    "phone": "(315) 476-7441",
+    "lat": 43.985406218389,
+    "lng": -75.940187205588
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61300304 · satellite 61300304009",
+    "address": "102 Browne Street, Oneonta, NY, 13807",
+    "region": "Region 2",
+    "county": "Otsego",
+    "phone": "(315) 476-7441",
+    "lat": 42.450847378403,
+    "lng": -75.109380328071
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 60530473",
+    "address": "150 Van Buren Street, Newark, NY, 14513",
+    "region": "Region 1",
+    "county": "Wayne",
+    "phone": "(315) 331-7741",
+    "lat": 43.04798,
+    "lng": -77.09394
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60530473 · satellite 60530473001",
+    "address": "215 Washington Street, Albion, NY, 14411",
+    "region": "Region 1",
+    "county": "Orleans",
+    "phone": "(315) 331-7741",
+    "lat": 43.242981121239,
+    "lng": -78.200344467206
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60530473 · satellite 60530473003",
+    "address": "927 Victor Road, Macedon, NY, 14502",
+    "region": "Region 1",
+    "county": "Wayne",
+    "phone": "(315) 331-7741",
+    "lat": 43.043835586111,
+    "lng": -77.340549924424
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60530473 · satellite 60530473004",
+    "address": "16 East Academy Street, Albion, NY, 14411",
+    "region": "Region 1",
+    "county": "Orleans",
+    "phone": "(315) 331-7741",
+    "lat": 43.246458992079,
+    "lng": -78.198023368415
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60530473 · satellite 60530473005",
+    "address": "64 Walnut Street, Batavia, NY, 14020",
+    "region": "Region 1",
+    "county": "Genesee",
+    "phone": "(315) 331-7741",
+    "lat": 42.995249469587,
+    "lng": -78.19235602004
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60530473 · satellite 60530473006",
+    "address": "38 Woodrow Road, Batavia, NY, 14020",
+    "region": "Region 1",
+    "county": "Genesee",
+    "phone": "(315) 331-7741",
+    "lat": 43.00681476505,
+    "lng": -78.1985741937
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60530473 · satellite 60530473007",
+    "address": "4603 Barrville Road, Elba, NY, 14058",
+    "region": "Region 1",
+    "county": "Genesee",
+    "phone": "(315) 331-7741",
+    "lat": 43.083614035082,
+    "lng": -78.177535518414
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60530473 · satellite 60530473008",
+    "address": "1555 Fashion Outlet Boulevard, Niagara Falls, NY, 14304",
+    "region": "Region 1",
+    "county": "Niagara",
+    "phone": "(315) 331-7741",
+    "lat": 43.09377,
+    "lng": -78.98624
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60530473 · satellite 60530473009",
+    "address": "2510 Niagara Falls Boulevard, Niagara Falls, NY, 14304",
+    "region": "Region 1",
+    "county": "Niagara",
+    "phone": "(315) 331-7741",
+    "lat": 43.094066832487,
+    "lng": -78.910597943963
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 60530473 · satellite 60530473010",
+    "address": "107 Heath Street, Lockport, NY, 14094",
+    "region": "Region 1",
+    "county": "Niagara",
+    "phone": "(315) 331-7741",
+    "lat": 43.169412902711,
+    "lng": -78.71944920709
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 65890201",
+    "address": "265 Saw Mill River Road, Hawthorne, NY, 10532",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 428-8330",
+    "lat": 41.10256,
+    "lng": -73.80963
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65890201 · satellite 65890201001",
+    "address": "567 Yonkers Avenue, Yonkers, NY, 10704",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 428-8330",
+    "lat": 40.928166131125,
+    "lng": -73.870501591828
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65890201 · satellite 65890201002",
+    "address": "699 Main Street, Mount Kisco, NY, 10549",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 428-8330",
+    "lat": 41.190170052151,
+    "lng": -73.730251424333
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65890201 · satellite 65890201003",
+    "address": "10 County Center Road, White Plains, NY, 10607",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 428-8330",
+    "lat": 41.03730317533,
+    "lng": -73.779646245811
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65890201 · satellite 65890201004",
+    "address": "2 John Walsh Boulevard, Peekskill, NY, 10566",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 428-8330",
+    "lat": 41.27837,
+    "lng": -73.93885
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65890201 · satellite 65890201005",
+    "address": "238 North Highland Avenue, Ossining, NY, 10562",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 428-8330",
+    "lat": 41.169962513245,
+    "lng": -73.864100215521
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65890201 · satellite 65890201006",
+    "address": "136 Centre Avenue, New Rochelle, NY, 10805",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 428-8330",
+    "lat": 40.906179536773,
+    "lng": -73.782780836997
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65890201 · satellite 65890201007",
+    "address": "1 Gateway Plaza, Port Chester, NY, 10573",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 428-8330",
+    "lat": 41.000442006002,
+    "lng": -73.666701475666
+  },
+  {
+    "source": "article16",
+    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 65890201 · satellite 65890201008",
+    "address": "500 Executive Boulevard, Elmsford, NY, 10523",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 428-8330",
+    "lat": 41.068722606885,
+    "lng": -73.806738761225
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 71410304",
+    "address": "1083 Waterloo- Geneva Road, Waterloo, NY, 13165",
+    "region": "Region 1",
+    "county": "Seneca",
+    "phone": "(315) 539-5067",
+    "lat": 42.899629606969,
+    "lng": -76.893136867555
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71410304 · satellite 71410304001",
+    "address": "180-182 North Street, Auburn, NY, 13021",
+    "region": "Region 2",
+    "county": "Cayuga",
+    "phone": "(315) 539-5067",
+    "lat": 42.944444527655,
+    "lng": -76.566987053426
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71410304 · satellite 71410304002",
+    "address": "3071 County Complex Drive, Canandaigua, NY, 14424",
+    "region": "Region 1",
+    "county": "Ontario",
+    "phone": "(315) 539-5067",
+    "lat": 42.88474,
+    "lng": -77.21439
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71410304 · satellite 71410304003",
+    "address": "31 Clinton Street, Seneca Falls, NY, 13165",
+    "region": "Region 1",
+    "county": "Seneca",
+    "phone": "(315) 539-5067",
+    "lat": 42.912839602661,
+    "lng": -76.800752503458
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71410304 · satellite 71410304004",
+    "address": "3071 County Complex Drive, Canandaigua, NY, 14424",
+    "region": "Region 1",
+    "county": "Ontario",
+    "phone": "(315) 539-5067",
+    "lat": 42.88474,
+    "lng": -77.21439
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71410304 · satellite 71410304007",
+    "address": "1521 Clark Street Road, Auburn, NY, 13021",
+    "region": "Region 2",
+    "county": "Cayuga",
+    "phone": "(315) 539-5067",
+    "lat": 42.927913287812,
+    "lng": -76.618728240057
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71410304 · satellite 71410304009",
+    "address": "4 Hulbert Street, Auburn, NY, 13021",
+    "region": "Region 2",
+    "county": "Cayuga",
+    "phone": "(315) 539-5067",
+    "lat": 42.931794504821,
+    "lng": -76.570946839399
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71410304 · satellite 71410304012",
+    "address": "2975 County Road 48, Canandaigua, NY, 14424",
+    "region": "Region 1",
+    "county": "Ontario",
+    "phone": "(315) 539-5067",
+    "lat": 42.889205348678,
+    "lng": -77.218259998388
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71410304 · satellite 71410304015",
+    "address": "235 North Avenue, Penn Yan, NY, 14527",
+    "region": "Region 1",
+    "county": "Yates",
+    "phone": "(315) 539-5067",
+    "lat": 42.66959,
+    "lng": -77.05605
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 71410304 · satellite 71410304016",
+    "address": "950 Danby Road, Ithaca, NY, 14850",
+    "region": "Region 2",
+    "county": "Tompkins",
+    "phone": "(315) 539-5067",
+    "lat": 42.42325,
+    "lng": -76.50067
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 61770311",
+    "address": "139 Cornell Street, Kingston, NY, 12401",
+    "region": "Region 3",
+    "county": "Ulster",
+    "phone": "(845) 417-3596",
+    "lat": 41.933416110749,
+    "lng": -73.999161239758
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61770311 · satellite 61770311002",
+    "address": "311 West Bridge Street, Catskill, NY, 12414",
+    "region": "Region 3",
+    "county": "Greene",
+    "phone": "(845) 417-3596",
+    "lat": 42.214226089071,
+    "lng": -73.884954977382
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61770311 · satellite 61770311003",
+    "address": "18 Forgione Road, Cairo, NY, 12413",
+    "region": "Region 3",
+    "county": "Greene",
+    "phone": "(845) 417-3596",
+    "lat": 42.323024031957,
+    "lng": -74.039353883375
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61770311 · satellite 61770311004",
+    "address": "1920 Lucas Avenue, Cottekill, NY, 12419",
+    "region": "Region 3",
+    "county": "Ulster",
+    "phone": "(845) 417-3596",
+    "lat": 41.848898412092,
+    "lng": -74.112206723349
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61770311 · satellite 61770311005",
+    "address": "198 Canal Street, Ellenville, NY, 12428",
+    "region": "Region 3",
+    "county": "Ulster",
+    "phone": "(845) 417-3596",
+    "lat": 41.714971720501,
+    "lng": -74.389895552534
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61770311 · satellite 61770311006",
+    "address": "109 Vineyard Avenue, Highland, NY, 12528",
+    "region": "Region 3",
+    "county": "Ulster",
+    "phone": "(845) 417-3596",
+    "lat": 41.718695132424,
+    "lng": -73.965890360518
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61770311 · satellite 61770311008",
+    "address": "97 Old Route 6, Carmel, NY, 10512",
+    "region": "Region 3",
+    "county": "Putnam",
+    "phone": "(845) 417-3596",
+    "lat": 41.412684694123,
+    "lng": -73.66082430167
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61770311 · satellite 61770311009",
+    "address": "571-575 Drewville Road, Carmel, NY, 10512",
+    "region": "Region 3",
+    "county": "Putnam",
+    "phone": "(845) 417-3596",
+    "lat": 41.387962602953,
+    "lng": -73.667242583483
+  },
+  {
+    "source": "article16",
+    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 61770311 · satellite 61770311010",
+    "address": "7 Sutton Place, Brewster, NY, 10509",
+    "region": "Region 3",
+    "county": "Putnam",
+    "phone": "(845) 417-3596",
+    "lat": 41.366110237088,
+    "lng": -73.611757086394
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309001",
+    "address": "709 Weiland Road, Rochester, NY, 14626",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(716) 634-8132",
+    "lat": 43.195859349983,
+    "lng": -77.68071743718
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309002",
+    "address": "100 Horizon Park Road, Brockport, NY, 14420",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(716) 634-8132",
+    "lat": 43.239409967964,
+    "lng": -77.927337237758
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309003",
+    "address": "3763 Southwestern Boulevard, Orchard Park, NY, 14127",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 634-8132",
+    "lat": 42.781779346183,
+    "lng": -78.778583247259
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309004",
+    "address": "5324 Broadway, Lancaster, NY, 14086",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 634-8132",
+    "lat": 42.900093564209,
+    "lng": -78.675881242513
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309005",
+    "address": "2747 Main Street, Buffalo, NY, 14214",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 634-8132",
+    "lat": 42.941731225293,
+    "lng": -78.836263929402
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309007",
+    "address": "17 Park Place, Silver Creek, NY, 14136",
+    "region": "Region 1",
+    "county": "Chautauqua",
+    "phone": "(716) 634-8132",
+    "lat": 42.544234738055,
+    "lng": -79.167468774032
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309008",
+    "address": "2635 Delaware Avenue, Buffalo, NY, 14216",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 634-8132",
+    "lat": 42.955280544247,
+    "lng": -78.869141813139
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309009",
+    "address": "2485 Broadway, Cheektowaga, NY, 14227",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 634-8132",
+    "lat": 42.900643108671,
+    "lng": -78.782869680721
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309010",
+    "address": "24 Indian Church Road, Buffalo, NY, 14210",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 634-8132",
+    "lat": 42.851978235036,
+    "lng": -78.804585153021
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309011",
+    "address": "169 Heritage Road, Tonawanda, NY, 14150",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 634-8132",
+    "lat": 43.010235261321,
+    "lng": -78.844444660401
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309012",
+    "address": "2128 Elmwood Avenue, Buffalo, NY, 14207",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 634-8132",
+    "lat": 42.955012002373,
+    "lng": -78.878399617419
+  },
+  {
+    "source": "article16",
+    "name": "PEOPLE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63100309 · satellite 63100309013",
+    "address": "181 Lincoln Street, Depew, NY, 14043",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 634-8132",
+    "lat": 42.91608,
+    "lng": -78.6925
   },
   {
     "source": "article16",
@@ -1204,6 +4082,7 @@
     "detail": "OPWDD program 74730310",
     "address": "220 East 42nd Street, New York, NY, 10017",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 273-6515",
     "lat": 40.75009,
     "lng": -73.97291
@@ -1217,6 +4096,7 @@
     "detail": "OPWDD program 65720300",
     "address": "657 Castleton Avenue, Staten Island, NY, 10301",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.634756294067,
     "lng": -74.103784923607
@@ -1230,6 +4110,7 @@
     "detail": "OPWDD program 65720300 · satellite 65720300002",
     "address": "930 Willowbrook Road, Staten Island, NY, 10314",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.60303,
     "lng": -74.14075
@@ -1243,6 +4124,7 @@
     "detail": "OPWDD program 65720300 · satellite 65720300003",
     "address": "16 Osgood Avenue, Staten Island, NY, 10313",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.618949685969,
     "lng": -74.084864587811
@@ -1256,6 +4138,7 @@
     "detail": "OPWDD program 65720300 · satellite 65720300004",
     "address": "10 Kingsley Place, Staten Island, NY, 10301",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.636088504936,
     "lng": -74.089055428871
@@ -1269,6 +4152,7 @@
     "detail": "OPWDD program 65720300 · satellite 65720300005",
     "address": "166 Lockman Avenue, Staten Island, NY, 10303",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.634124218608,
     "lng": -74.161705125842
@@ -1282,9 +4166,374 @@
     "detail": "OPWDD program 65720300 · satellite 65720300006",
     "address": "44 Dongan Hills Avenue, Staten Island, NY, 10306",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.588105258897,
     "lng": -74.100985423677
+  },
+  {
+    "source": "article16",
+    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 70510357",
+    "address": "960 West Maple Court, Elma, NY, 14059",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 805-1555",
+    "lat": 42.79408,
+    "lng": -78.62551
+  },
+  {
+    "source": "article16",
+    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70510357 · satellite 70510357002",
+    "address": "118 King Street, East Aurora, NY, 14052",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 805-1555",
+    "lat": 42.764116698065,
+    "lng": -78.612765205604
+  },
+  {
+    "source": "article16",
+    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70510357 · satellite 70510357003",
+    "address": "441 Indian Church Road, West Seneca, NY, 14224",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 805-1555",
+    "lat": 42.85451710519,
+    "lng": -78.789070209181
+  },
+  {
+    "source": "article16",
+    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70510357 · satellite 70510357007",
+    "address": "7030 Erie Road, Derby, NY, 14047",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 805-1555",
+    "lat": 42.694865218728,
+    "lng": -78.9939490332
+  },
+  {
+    "source": "article16",
+    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70510357 · satellite 70510357008",
+    "address": "8484 Erie Road, Angola, NY, 14006",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 805-1555",
+    "lat": 42.654880441891,
+    "lng": -79.037566916774
+  },
+  {
+    "source": "article16",
+    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70510357 · satellite 70510357009",
+    "address": "5375 Old Goodrich, Clarence, NY, 14031",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 805-1555",
+    "lat": 42.991371623004,
+    "lng": -78.642090596712
+  },
+  {
+    "source": "article16",
+    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 70510357 · satellite 70510357010",
+    "address": "1000 Ellicott Creek, Tonawanda, NY, 14150",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 805-1555",
+    "lat": 43.015421425806,
+    "lng": -78.834858528515
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 62060471",
+    "address": "162 East Broadway, Monticello, NY, 12701",
+    "region": "Region 3",
+    "county": "Sullivan",
+    "phone": "(845) 796-1350",
+    "lat": 41.65253,
+    "lng": -74.6769
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471001",
+    "address": "37 Highland Avenue, South Fallsburg, NY, 12779",
+    "region": "Region 3",
+    "county": "Sullivan",
+    "phone": "(845) 796-1350",
+    "lat": 41.714281700114,
+    "lng": -74.627321766987
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471004",
+    "address": "5 New Hope Community Drive, Loch Sheldrake, NY, 12759",
+    "region": "Region 3",
+    "county": "Sullivan",
+    "phone": "(845) 796-1350",
+    "lat": 41.76471,
+    "lng": -74.63944
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471005",
+    "address": "203 Cimarron Road, Monticello, NY, 12701",
+    "region": "Region 3",
+    "county": "Sullivan",
+    "phone": "(845) 796-1350",
+    "lat": 41.640573795809,
+    "lng": -74.634371543778
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471006",
+    "address": "28 Bull Road, Campbell Hall, NY, 10916",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 796-1350",
+    "lat": 41.45654,
+    "lng": -74.2659
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471007",
+    "address": "357 Mount Hope Road, Middletown, NY, 10940",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 796-1350",
+    "lat": 41.444167498526,
+    "lng": -74.445995214039
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471008",
+    "address": "69 Brookside Avenue, Chester, NY, 10918",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 796-1350",
+    "lat": 41.354992760909,
+    "lng": -74.281073586105
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471009",
+    "address": "690 Route 211, East Middletown, NY, 10940",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 796-1350",
+    "lat": 41.471963983536,
+    "lng": -74.458637102271
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471010",
+    "address": "8 Industry Street, Poughkeepsie, NY, 12603",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 796-1350",
+    "lat": 41.68275515045,
+    "lng": -73.854247442017
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471011",
+    "address": "3156 Route 22, Dover Plains, NY, 12522",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 796-1350",
+    "lat": 41.740179910504,
+    "lng": -73.580837062745
+  },
+  {
+    "source": "article16",
+    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62060471 · satellite 62060471012",
+    "address": "1435 Route 44, Pleasant Valley, NY, 12569",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 796-1350",
+    "lat": 41.73639,
+    "lng": -73.83551
+  },
+  {
+    "source": "article16",
+    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 02750410",
+    "address": "76 Firemens Way, Poughkeepsie, NY, 12603-6519",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 877-6821",
+    "lat": 41.676310323826,
+    "lng": -73.856065082927
+  },
+  {
+    "source": "article16",
+    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02750410 · satellite 02750410002",
+    "address": "521 Boices Lane, Kingston, NY, 12401",
+    "region": "Region 3",
+    "county": "Ulster",
+    "phone": "(845) 877-6821",
+    "lat": 41.96841,
+    "lng": -74.00245
+  },
+  {
+    "source": "article16",
+    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02750410 · satellite 02750410011",
+    "address": "3143 Route 9, Valatie, NY, 12184",
+    "region": "Region 3",
+    "county": "Columbia",
+    "phone": "(845) 877-6821",
+    "lat": 42.439639538579,
+    "lng": -73.686744481969
+  },
+  {
+    "source": "article16",
+    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02750410 · satellite 02750410106",
+    "address": "207 Milton Turnpike, Milton, NY, 12547",
+    "region": "Region 3",
+    "county": "Ulster",
+    "phone": "(845) 877-6821",
+    "lat": 41.66369,
+    "lng": -73.97704
+  },
+  {
+    "source": "article16",
+    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02750410 · satellite 02750410107",
+    "address": "3292 Franklin Avenue, Millbrook, NY, 12545",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 877-6821",
+    "lat": 41.78515,
+    "lng": -73.69373
+  },
+  {
+    "source": "article16",
+    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02750410 · satellite 02750410108",
+    "address": "4279 Route 22, Wassaic, NY, 12592",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 877-6821",
+    "lat": 41.80529,
+    "lng": -73.56361
+  },
+  {
+    "source": "article16",
+    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02750410 · satellite 02750410109",
+    "address": "607 Broadway, Kingston, NY, 12401",
+    "region": "Region 3",
+    "county": "Ulster",
+    "phone": "(845) 877-6821",
+    "lat": 41.92933,
+    "lng": -74.00425
+  },
+  {
+    "source": "article16",
+    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02750410 · satellite 02750410110",
+    "address": "42 West Market Street, Red Hook, NY, 12571",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(845) 877-6821",
+    "lat": 41.9958,
+    "lng": -73.87779
   },
   {
     "source": "article16",
@@ -1295,9 +4544,52 @@
     "detail": "OPWDD program 63330100",
     "address": "40 Exchange Place, New York, NY, 10006",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 677-8550",
     "lat": 40.705770105218,
     "lng": -74.009966785486
+  },
+  {
+    "source": "article16",
+    "name": "THE EPILEPSY INSTITUTE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 63330100 · satellite 63330100001",
+    "address": "135 Radio Circle, Mount Kisco, NY, 10549",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(212) 677-8550",
+    "lat": 41.191298980669,
+    "lng": -73.738199546554
+  },
+  {
+    "source": "article16",
+    "name": "THE HANDICAPPED CHILDREN'S ASSOCIATION OF SOUTHERN NEW YORK, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 68150310",
+    "address": "18 Broad Street, Johnson City, NY, 13790",
+    "region": "Region 2",
+    "county": "Broome",
+    "phone": "(607) 798-7117",
+    "lat": 42.11404,
+    "lng": -75.95603
+  },
+  {
+    "source": "article16",
+    "name": "THE ROCHESTER SCHOOL OF THE HOLY CHILDHOOD, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 64450160",
+    "address": "100 Groton Parkway, Rochester, NY, 14623",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 359-3710",
+    "lat": 43.07752,
+    "lng": -77.59578
   },
   {
     "source": "article16",
@@ -1308,6 +4600,7 @@
     "detail": "OPWDD program 65930164",
     "address": "39-09 214th Place, Bayside, NY, 11364",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.765535881215,
     "lng": -73.76984740873
@@ -1321,6 +4614,7 @@
     "detail": "OPWDD program 65930164 · satellite 65930164002",
     "address": "61-35 220th Street, Oakland Gardens, NY, 11364",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.74778,
     "lng": -73.75712
@@ -1334,6 +4628,7 @@
     "detail": "OPWDD program 65930164 · satellite 65930164006",
     "address": "61-58 Springfield Boulevard, Bayside, NY, 11364",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.748032835116,
     "lng": -73.756242646955
@@ -1347,6 +4642,7 @@
     "detail": "OPWDD program 65930164 · satellite 65930164007",
     "address": "1042 38th Street, Brooklyn, NY, 11219",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(718) 886-1534",
     "lat": 40.64432,
     "lng": -73.99109
@@ -1360,6 +4656,7 @@
     "detail": "OPWDD program 65930164 · satellite 65930164010",
     "address": "4234 Vireo Avenue, Bronx, NY, 10470",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(718) 886-1534",
     "lat": 40.89675,
     "lng": -73.8644
@@ -1373,6 +4670,7 @@
     "detail": "OPWDD program 65930164 · satellite 65930164011",
     "address": "24420 Grand Central Parkway, Bellerose, NY, 11426",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.749154979766,
     "lng": -73.727791517978
@@ -1386,6 +4684,7 @@
     "detail": "OPWDD program 65930164 · satellite 65930164012",
     "address": "144-61 Roosevelt Avenue, Flushing, NY, 11354",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.762,
     "lng": -73.82072
@@ -1399,6 +4698,7 @@
     "detail": "OPWDD program 60910301",
     "address": "380 Washington Avenue, Roosevelt, NY, 11575",
     "region": "Nassau",
+    "county": "Nassau",
     "phone": "(516) 378-2000",
     "lat": 40.67954,
     "lng": -73.57658
@@ -1412,9 +4712,220 @@
     "detail": "OPWDD program 60910301 · satellite 60910301001",
     "address": "421 Merrick Road, Oceanside, NY, 11572",
     "region": "Nassau",
+    "county": "Nassau",
     "phone": "(516) 378-2000",
     "lat": 40.653577890964,
     "lng": -73.625599955772
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 72170310",
+    "address": "3399 Winton Road South, Rochester, NY, 14623",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.08475,
+    "lng": -77.58205
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310001",
+    "address": "1000 Elmwood Avenue, Rochester, NY, 14620",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.12517,
+    "lng": -77.60833
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310002",
+    "address": "733 Linden Avenue, Rochester, NY, 14625",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.12161924795,
+    "lng": -77.506428256035
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310003",
+    "address": "1 Pen-Web Park, Webster, NY, 14580",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.187386008439,
+    "lng": -77.503121696272
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310004",
+    "address": "461 Penbrooke Drive, Penfield, NY, 14526",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.133623448334,
+    "lng": -77.438872574448
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310005",
+    "address": "860 Hard Road, Webster, NY, 14580",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.21699,
+    "lng": -77.4569
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310006",
+    "address": "709 Weiland Road, Rochester, NY, 14626",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.195859349983,
+    "lng": -77.68071743718
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310007",
+    "address": "400 Air Park Drive, Rochester, NY, 14624",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.115200644142,
+    "lng": -77.664243456912
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310009",
+    "address": "906 Elmgrove Road, Rochester, NY, 14624",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.152108160235,
+    "lng": -77.732297301005
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310010",
+    "address": "465 Paul Road, Rochester, NY, 14624",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.106541081797,
+    "lng": -77.715679247652
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310011",
+    "address": "425 Paul Road, Rochester, NY, 14624",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.10635,
+    "lng": -77.71923
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310012",
+    "address": "10 Vantage Point Drive, Rochester, NY, 14624",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.155506885386,
+    "lng": -77.754668687883
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310013",
+    "address": "3173 Chili Avenue, Rochester, NY, 14624",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.106462120682,
+    "lng": -77.747387903744
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310014",
+    "address": "2800 Spencerport Road, Spencerport, NY, 14559",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.188514499051,
+    "lng": -77.788410080908
+  },
+  {
+    "source": "article16",
+    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 72170310 · satellite 72170310015",
+    "address": "50 Science Parkway, Rochester, NY, 14620",
+    "region": "Region 1",
+    "county": "Monroe",
+    "phone": "(585) 334-6000",
+    "lat": 43.117858268769,
+    "lng": -77.615740340512
   },
   {
     "source": "article16",
@@ -1425,6 +4936,7 @@
     "detail": "OPWDD program 71430301",
     "address": "2324 Forest Avenue, Staten Island, NY, 10303",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(212) 947-5770",
     "lat": 40.627451595512,
     "lng": -74.167290759041
@@ -1438,6 +4950,7 @@
     "detail": "OPWDD program 71430301 · satellite 71430301009",
     "address": "61-35 220th Street, Oakland Gardens, NY, 11364",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 947-5770",
     "lat": 40.74778,
     "lng": -73.75712
@@ -1451,6 +4964,7 @@
     "detail": "OPWDD program 71430301 · satellite 71430301019",
     "address": "3640 37th Street, Long Island City, NY, 11101",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 947-5770",
     "lat": 40.753337047421,
     "lng": -73.925859740824
@@ -1464,6 +4978,7 @@
     "detail": "OPWDD program 61240335",
     "address": "110 Elmwood Avenue, Brooklyn, NY, 11230",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 683-6700",
     "lat": 40.626963937911,
     "lng": -73.976317210135
@@ -1477,6 +4992,7 @@
     "detail": "OPWDD program 61240335 · satellite 61240335001",
     "address": "175 Lawrence Avenue, Brooklyn, NY, 11230",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 683-6700",
     "lat": 40.630519595027,
     "lng": -73.974016199066
@@ -1490,6 +5006,7 @@
     "detail": "OPWDD program 61240335 · satellite 61240335002",
     "address": "408 East 137th Street, Bronx, NY, 10454",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 683-6700",
     "lat": 40.808260900568,
     "lng": -73.923125012368
@@ -1503,6 +5020,7 @@
     "detail": "OPWDD program 61240335 · satellite 61240335003",
     "address": "333 Avenue S, Brooklyn, NY, 11213",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 683-6700",
     "lat": 40.601766868283,
     "lng": -73.973344009251
@@ -1516,6 +5034,7 @@
     "detail": "OPWDD program 61240335 · satellite 61240335004",
     "address": "1780 Stillwell, Bronx, NY, 10469",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 683-6700",
     "lat": 40.8580576202,
     "lng": -73.834562077167
@@ -1529,6 +5048,7 @@
     "detail": "OPWDD program 61240335 · satellite 61240335005",
     "address": "281 Port Richmond Avenue, Staten Island, NY, 10302",
     "region": "Staten Island",
+    "county": "Richmond",
     "phone": "(212) 683-6700",
     "lat": 40.634481703129,
     "lng": -74.135678415064
@@ -1542,6 +5062,7 @@
     "detail": "OPWDD program 61240335 · satellite 61240335006",
     "address": "251 West 154th Street, New York, NY, 10039",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 683-6700",
     "lat": 40.828124632179,
     "lng": -73.93675248378
@@ -1555,6 +5076,7 @@
     "detail": "OPWDD program 61240335 · satellite 61240335007",
     "address": "5030 Broadway, New York, NY, 10036",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 683-6700",
     "lat": 40.868942583471,
     "lng": -73.91733946478
@@ -1568,6 +5090,7 @@
     "detail": "OPWDD program 61240335 · satellite 61240335008",
     "address": "2432 Grand Concourse, Bronx, NY, 10458",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 683-6700",
     "lat": 40.86077,
     "lng": -73.89786
@@ -1581,6 +5104,7 @@
     "detail": "OPWDD program 60940160",
     "address": "81-15 164th Street, Jamaica, NY, 11432",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 380-3000",
     "lat": 40.72006,
     "lng": -73.80369
@@ -1594,6 +5118,7 @@
     "detail": "OPWDD program 60940160 · satellite 60940160001",
     "address": "82-25 164th Street, Jamaica, NY, 11432",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 380-3000",
     "lat": 40.718609662868,
     "lng": -73.803712524035
@@ -1607,9 +5132,290 @@
     "detail": "OPWDD program 60940160 · satellite 60940160002",
     "address": "249-16 Grand Central Parkway, Bellerose, NY, 11426",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(718) 380-3000",
     "lat": 40.749915129686,
     "lng": -73.727442695302
+  },
+  {
+    "source": "article16",
+    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 62820310",
+    "address": "10708 North Gage Road, Barneveld, NY, 13304",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 724-6907",
+    "lat": 43.251307671404,
+    "lng": -75.177977705245
+  },
+  {
+    "source": "article16",
+    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62820310 · satellite 62820310001",
+    "address": "9440 Butler Road, Sauquoit, NY, 13456",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 724-6907",
+    "lat": 43.005365160977,
+    "lng": -75.263182508305
+  },
+  {
+    "source": "article16",
+    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62820310 · satellite 62820310002",
+    "address": "1601 Armory Drive, Utica, NY, 13501",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 724-6907",
+    "lat": 43.079238070857,
+    "lng": -75.2109298507
+  },
+  {
+    "source": "article16",
+    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62820310 · satellite 62820310003",
+    "address": "12592 Potato Hill Road, Boonville, NY, 13309",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 724-6907",
+    "lat": 43.471460456482,
+    "lng": -75.305729913995
+  },
+  {
+    "source": "article16",
+    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 62820310 · satellite 62820310004",
+    "address": "36 Main Street, Morrisville, NY, 13408",
+    "region": "Region 2",
+    "county": "Madison",
+    "phone": "(315) 724-6907",
+    "lat": 42.898770719374,
+    "lng": -75.644571905332
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 02290350",
+    "address": "1200 East and West Road, West Seneca, NY, 14224-3604",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 517-2000",
+    "lat": 42.82027,
+    "lng": -78.72477
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350001",
+    "address": "106 Pine Street, Hamburg, NY, 14075",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 517-2000",
+    "lat": 42.717951819547,
+    "lng": -78.826051799866
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350002",
+    "address": "2295 Millersport Highway, Getzville, NY, 14068",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 517-2000",
+    "lat": 43.011623188773,
+    "lng": -78.770742674055
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350004",
+    "address": "6221 Transit Road, Depew, NY, 14043",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 517-2000",
+    "lat": 42.92377,
+    "lng": -78.69679
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350011",
+    "address": "274 South Transit Street, Lockport, NY, 14094",
+    "region": "Region 1",
+    "county": "Niagara",
+    "phone": "(716) 517-2000",
+    "lat": 43.15985,
+    "lng": -78.69674
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350012",
+    "address": "10714 North Road, Perrysburg, NY, 14129",
+    "region": "Region 1",
+    "county": "Cattaraugus",
+    "phone": "(716) 517-2000",
+    "lat": 42.46174,
+    "lng": -79.00205
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350013",
+    "address": "4960 South Hill Road, Ellington, NY, 14732",
+    "region": "Region 1",
+    "county": "Chautauqua",
+    "phone": "(716) 517-2000",
+    "lat": 42.2197,
+    "lng": -79.1105
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350014",
+    "address": "501 Fair Oak Street, Little Valley, NY, 14755",
+    "region": "Region 1",
+    "county": "Cattaraugus",
+    "phone": "(716) 517-2000",
+    "lat": 42.24858,
+    "lng": -78.80828
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350015",
+    "address": "258 East Main Street, Fredonia, NY, 14063",
+    "region": "Region 1",
+    "county": "Chautauqua",
+    "phone": "(716) 517-2000",
+    "lat": 42.45012,
+    "lng": -79.30905
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350016",
+    "address": "1669 Eden Evans Center Road, Angola, NY, 14006",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 517-2000",
+    "lat": 42.65246,
+    "lng": -78.97616
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350017",
+    "address": "12234 Main Street, Perrysburg, NY, 14129",
+    "region": "Region 1",
+    "county": "Cattaraugus",
+    "phone": "(716) 517-2000",
+    "lat": 42.47435,
+    "lng": -78.99845
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350018",
+    "address": "2A Richmond Avenue, Batavia, NY, 14020",
+    "region": "Region 1",
+    "county": "Genesee",
+    "phone": "(716) 517-2000",
+    "lat": 43.00571,
+    "lng": -78.18867
+  },
+  {
+    "source": "article16",
+    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 02290350 · satellite 02290350019",
+    "address": "6020 North Bailey Avenue, Buffalo, NY, 14226",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 517-2000",
+    "lat": 42.99954,
+    "lng": -78.81479
+  },
+  {
+    "source": "article16",
+    "name": "YEDEI CHESED, INC.",
+    "services": [
+      "Article 16 Clinic"
+    ],
+    "detail": "OPWDD program 88100300",
+    "address": "48 Scotland Hill Road, Chestnut Ridge, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 425-0887",
+    "lat": 41.09782,
+    "lng": -74.04194
+  },
+  {
+    "source": "article16",
+    "name": "YEDEI CHESED, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
+    "detail": "OPWDD program 88100300 · satellite 88100300001",
+    "address": "777 Chestnut Ridge Road, Chestnut Ridge, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 425-0887",
+    "lat": 41.08462981212,
+    "lng": -74.055670774581
   },
   {
     "source": "article16",
@@ -1620,6 +5426,7 @@
     "detail": "OPWDD program 61130310",
     "address": "220 East 42nd Street, New York, NY, 10017",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 273-6182",
     "lat": 40.75009,
     "lng": -73.97291
@@ -1633,6 +5440,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310007",
     "address": "175 Remsen Street, Brooklyn, NY, 11201",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 273-6182",
     "lat": 40.693343349241,
     "lng": -73.991576265315
@@ -1646,6 +5454,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310008",
     "address": "3060 East Tremont Avenue, Bronx, NY, 10461",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 273-6182",
     "lat": 40.839060429398,
     "lng": -73.836251158781
@@ -1659,6 +5468,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310009",
     "address": "211-11 Northern Boulevard, Bayside, NY, 11361",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 273-6182",
     "lat": 40.76,
     "lng": -73.7717
@@ -1672,6 +5482,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310010",
     "address": "2922 Avenue T, Brooklyn, NY, 11229",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 273-6182",
     "lat": 40.602619116918,
     "lng": -73.942381945905
@@ -1685,6 +5496,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310011",
     "address": "3364 Nostrand Avenue, Brooklyn, NY, 11229",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 273-6182",
     "lat": 40.601777009288,
     "lng": -73.942222650247
@@ -1698,6 +5510,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310012",
     "address": "290 Madison Avenue, New York, NY, 10017",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 273-6182",
     "lat": 40.751772818219,
     "lng": -73.980123927949
@@ -1708,9 +5521,24 @@
     "services": [
       "Article 16 Satellite"
     ],
+    "detail": "OPWDD program 61130310 · satellite 61130310013",
+    "address": "677 White Plains Road, Tarrytown, NY, 10591",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(212) 273-6182",
+    "lat": 41.062721762888,
+    "lng": -73.837592335492
+  },
+  {
+    "source": "article16",
+    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "services": [
+      "Article 16 Satellite"
+    ],
     "detail": "OPWDD program 61130310 · satellite 61130310014",
     "address": "8002 Kew Gardens Road, Kew Gardens, NY, 11415",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 273-6182",
     "lat": 40.70697,
     "lng": -73.82922
@@ -1724,6 +5552,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310015",
     "address": "3711 35th Avenue, Astoria, NY, 11101",
     "region": "Queens",
+    "county": "Queens",
     "phone": "(212) 273-6182",
     "lat": 40.755866602116,
     "lng": -73.923531459332
@@ -1737,6 +5566,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310016",
     "address": "555 Washington Avenue, Brentwood, NY, 11717",
     "region": "Suffolk",
+    "county": "Suffolk",
     "phone": "(212) 273-6182",
     "lat": 40.80628,
     "lng": -73.24863
@@ -1750,6 +5580,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310017",
     "address": "1241 Zerega Avenue, Bronx, NY, 10461",
     "region": "Bronx",
+    "county": "Bronx",
     "phone": "(212) 273-6182",
     "lat": 40.833865118687,
     "lng": -73.845252492542
@@ -1763,6 +5594,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310018",
     "address": "310 Lenox Avenue, New York, NY, 11127",
     "region": "Manhattan",
+    "county": "New York",
     "phone": "(212) 273-6182",
     "lat": 40.808153497152,
     "lng": -73.945119726729
@@ -1776,6 +5608,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310019",
     "address": "995 Fulton Road, Farmingdale, NY, 11735",
     "region": "Nassau",
+    "county": "Nassau",
     "phone": "(212) 273-6182",
     "lat": 40.725247489191,
     "lng": -73.434309358603
@@ -1789,6 +5622,7 @@
     "detail": "OPWDD program 61130310 · satellite 61130310020",
     "address": "361 83rd Street, Brooklyn, NY, 11229",
     "region": "Brooklyn",
+    "county": "Kings",
     "phone": "(212) 273-6182",
     "lat": 40.625342945948,
     "lng": -74.028482562614

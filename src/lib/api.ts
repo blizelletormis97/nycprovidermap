@@ -65,6 +65,7 @@ export interface LocationIndexEntry {
   lat: number;
   lng: number;
   region: Region;
+  county?: string;
   providers: ProviderDetail[];
 }
 
@@ -124,7 +125,7 @@ export function getLocationIndex(): Map<string, LocationIndexEntry> {
 
     let entry = index.get(id);
     if (!entry) {
-      entry = { id, address: provider.address, lat: provider.lat, lng: provider.lng, region: provider.region, providers: [] };
+      entry = { id, address: provider.address, lat: provider.lat, lng: provider.lng, region: provider.region, county: provider.county, providers: [] };
       index.set(id, entry);
     }
     entry.providers.push({
