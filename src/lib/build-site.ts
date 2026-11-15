@@ -51,6 +51,31 @@ try {
 }
 const dataDateLabel = dataDate.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "America/New_York" });
 
+interface About {
+  show?: boolean;
+  heading?: string;
+  intro?: string;
+  people?: { name?: string; role?: string }[];
+  story?: string[];
+  signoff?: string;
+}
+
+/**
+ * The "About us" section, from site/about.json. Returns null (the page then hides the About button) until it is
+ * switched on and every listed person has a name, so placeholder text never reaches the public site.
+ */
+function aboutSection(): Omit<About, "show"> | null {
+  const about: About = JSON.parse(readFileSync(join(root, "site/about.json"), "utf-8"));
+  const people = (about.people ?? []).map((p) => ({ name: p.name?.trim() ?? "", role: p.role?.trim() ?? "" }));
+  const story = (about.story ?? []).map((s) => s.trim()).filter(Boolean);
+  if (!about.show) return null;
+  if (people.length === 0 || people.some((p) => !p.name)) {
+    console.warn("site/about.json: \"show\" is true but a name is missing, so the About section stays hidden");
+    return null;
+  }
+  return { heading: about.heading?.trim() || "About us", intro: about.intro?.trim() ?? "", people, story, signoff: about.signoff?.trim() ?? "" };
+}
+
 // JSON is safe inside <script type="application/json"> once "<" is escaped
 const inline = (json: string) => json.replace(/</g, "\\u003c");
 
@@ -87,7 +112,8 @@ const html = readFileSync(join(root, "site/template.html"), "utf-8")
   .replaceAll("__FONT_FREDOKA__", asset("node_modules/@fontsource/fredoka/files/fredoka-latin-600-normal.woff2", "fredoka-600.woff2"))
   .replace("__LOCATIONS_JSON__", () => inline(JSON.stringify(locations)))
   .replace("__BASEMAP_JSON__", () => inline(basemap))
-  .replace('/*__DATA_DATE__*/""', JSON.stringify(dataDateLabel));
+  .replace('/*__DATA_DATE__*/""', JSON.stringify(dataDateLabel))
+  .replace("/*__ABOUT__*/null", () => inline(JSON.stringify(aboutSection())));
 
 const leftover = html.match(/__[A-Z_]+__/);
 if (leftover) throw new Error(`Unfilled placeholder in site/template.html: ${leftover[0]}`);

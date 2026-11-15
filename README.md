@@ -78,6 +78,13 @@ runs entirely in the browser with the provider data built into the page.
 After refreshing provider data with the seed scripts, commit the updated `src/data/*.json` and merge to `main`;
 the site rebuilds automatically.
 
+### About us section
+
+The website's **About us** button opens a card with the names of the people behind the map and how it started.
+Its text lives in `site/about.json`: fill in each person's `name` (and optional `role`), the `story` paragraphs,
+an optional `intro` and `signoff`, then set `"show": true`. Until then the button stays hidden, so placeholder text
+never appears on the public site. Visitors can also link straight to it with `#about` at the end of the site address.
+
 ## What counts as "IDD provider that accepts Medicaid"
 
 Only these three sources are shown. Each one is IDD-specific and tied to Medicaid:

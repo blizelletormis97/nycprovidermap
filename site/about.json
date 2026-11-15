@@ -1,0 +1,14 @@
+{
+  "_help": "Edit this file to change the About us section on the website. Set \"show\" to true once the names and story are filled in; while it is false (or a name is empty) the About button stays hidden. Each story entry is one paragraph.",
+  "show": false,
+  "heading": "About us",
+  "intro": "",
+  "people": [
+    { "name": "", "role": "" },
+    { "name": "", "role": "" }
+  ],
+  "story": [
+    ""
+  ],
+  "signoff": ""
+}
