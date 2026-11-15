@@ -92,6 +92,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
       t("Individual Support (ISS)"),
       t("Self-Direction"),
       t("Family Support", "Family Support (state-funded)"),
+      t("Special Needs Home Health", "Home health (DOH special needs, OPWDD)"),
     ],
   },
   {
@@ -115,7 +116,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
 export const ALL_SERVICE_KEYS: string[] = SERVICE_GROUPS.flatMap((g) => g.types.map((type) => type.key));
 export const KNOWN_SERVICE_KEYS = new Set(ALL_SERVICE_KEYS);
 
-export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "medicaid"];
+export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "homecare", "medicaid"];
 
 // Services whose providers also complete IDD evaluations (psychological, psychosocial and OPWDD eligibility).
 // Article 16 clinics are certified to provide psychology services including evaluations.
@@ -134,6 +135,12 @@ export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: strin
     longLabel: "OPWDD Agencies",
     className: "bg-purple-500/20 text-purple-700 dark:text-purple-400",
     color: "#a68bff",
+  },
+  homecare: {
+    label: "Home Health",
+    longLabel: "Home Health Agencies (OPWDD special needs)",
+    className: "bg-emerald-500/20 text-emerald-700 dark:text-emerald-400",
+    color: "#4fcf8e",
   },
   medicaid: {
     label: "Medicaid IDD",

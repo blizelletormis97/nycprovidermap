@@ -16,6 +16,7 @@ import { EVALUATION_SERVICES, KNOWN_SERVICE_KEYS, SOURCE_ORDER } from "./constan
 const SOURCE_FILES: Record<DataSource, string> = {
   article16: "article16-geocoded.json",
   opwdd: "opwdd-geocoded.json",
+  homecare: "homecare-geocoded.json",
   medicaid: "medicaid-geocoded.json",
 };
 
@@ -132,6 +133,7 @@ export function getLocationIndex(): Map<string, LocationIndexEntry> {
       source: provider.source,
       detail: provider.detail,
       office: provider.office,
+      serves: provider.serves,
       website: provider.website,
       phone: provider.phone,
     });

@@ -42,6 +42,7 @@
   --src-article16: #ff8b74;
   --src-opwdd: #a68bff;
   --src-medicaid: #3fc1e9;
+  --src-homecare: #4fcf8e;
 
   --shadow: 0 6px 20px rgb(123 97 255 / 0.12);
   --font-display: "Fredoka", "Nunito", system-ui, sans-serif;
@@ -52,7 +53,7 @@
     --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
     --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
     --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6;
+    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad;
     --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
     color-scheme: dark;
   }
@@ -61,7 +62,7 @@
   --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
   --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
   --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6;
+  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad;
   --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
   color-scheme: dark;
 }
@@ -303,7 +304,8 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 
     <p class="note">
       <b>Good to know:</b> the IDD providers here are tied to Medicaid. Data comes from OPWDD's Article 16
-      clinic list, the NY Open Data directory of OPWDD agencies and the NY Medicaid Enrolled Provider Listing,
+      clinic list, the NY Open Data directory of OPWDD agencies, the NY Medicaid Enrolled Provider Listing and the
+      NYS Department of Health list of special needs home health agencies,
       refreshed <span id="dataDate"></span>. Please call ahead to confirm Medicaid acceptance and openings before referring.
     </p>
   </aside>
@@ -325,6 +327,7 @@ const REGIONS = ["Manhattan", "Brooklyn", "Bronx", "Queens", "Staten Island", "N
 const SOURCES = {
   article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy, psychology & evaluations", tint: "--peach" },
   opwdd: { label: "OPWDD agencies", short: "OPWDD agency", note: "Agencies offering Medicaid-funded services", tint: "--lilac" },
+  homecare: { label: "Home health agencies", short: "Home health", note: "State-approved to serve OPWDD-eligible people", tint: "--mint" },
   medicaid: { label: "Medicaid IDD sites", short: "Medicaid site", note: "Residences, ICFs & day programs", tint: "--sky" },
 };
 // [service key, label, hint]
@@ -333,12 +336,12 @@ const GROUPS = [
     ["IDD Clinic Evaluations", "IDD clinic evaluations", "Article 16 & OPWDD state clinics"]] },
   { name: "Home & residential", icon: "i-home", tint: "--peach", types: [["Residential (IRA)", "Group homes (IRA)"], ["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["Family Care", "Family care homes"], ["OPWDD Community Support Site", "Community support sites"], ["Developmental Centers", "Developmental centers"]] },
   { name: "Day & work", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
-  { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"]] },
+  { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"], ["Special Needs Home Health", "Home health agencies", "Visits you at home · serves all 7 areas"]] },
   { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"]] },
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
-const SOURCE_ORDER = ["article16", "opwdd", "medicaid"];
+const SOURCE_ORDER = ["article16", "opwdd", "homecare", "medicaid"];
 const nf = new Intl.NumberFormat("en-US");
 let colorCache = new Map();
 const css = (name) => {
@@ -360,6 +363,13 @@ const iddProviders = LOCATIONS.reduce((n, l) => n + l.p.length, 0);
 const state = { q: "", regions: new Set(REGIONS), source: "all", types: new Set(ALL_TYPES) };
 
 // ---------- filtering ----------
+// Areas a location counts toward: its own, plus any area a provider there serves (home health agencies visit
+// people at home across several areas)
+function locRegions(loc) {
+  if (!loc.regions) loc.regions = [...new Set([loc.r, ...loc.p.flatMap((p) => p.sv || [])])];
+  return loc.regions;
+}
+const inSelectedRegions = (loc) => locRegions(loc).some((r) => state.regions.has(r));
 function terms() { return state.q.trim().toUpperCase().split(/\s+/).filter(Boolean); }
 function textMatch(p, loc, ts) { return !ts.length || ts.every((t) => p.nameU.includes(t) || loc.addrU.includes(t)); }
 function providerMatches(p, loc, ts) {
@@ -371,7 +381,7 @@ function visible() {
   const ts = terms();
   const out = [];
   for (const loc of LOCATIONS) {
-    if (!state.regions.has(loc.r)) continue;
+    if (!inSelectedRegions(loc)) continue;
     const ps = loc.p.filter((p) => providerMatches(p, loc, ts));
     if (ps.length) out.push({ loc, ps });
   }
@@ -431,6 +441,7 @@ function popupHTML(loc, ps) {
       <div>${esc(p.types.map((t) => LABELS[t] || t).join(", "))}</div>
       ${p.d ? `<div>${esc(p.d)}</div>` : ""}
       ${p.ph ? `<div>Call <span class="phone">${esc(p.ph)}</span></div>` : ""}
+      ${p.sv ? `<div>Visits people at home in: ${esc(p.sv.join(", "))}</div>` : ""}
       ${p.o ? `<div><span class="office">Office or billing address</span></div>` : ""}</li>`).join("")}</ul>
     ${hidden > 0 ? `<div class="hidden-note">${hidden} more provider${hidden > 1 ? "s" : ""} here hidden by your filters.</div>` : ""}
   </div>`;
@@ -462,17 +473,17 @@ function renderSidebar(items) {
 
   // Areas: locations that match every other filter
   const areaCounts = Object.fromEntries(REGIONS.map((r) => [r, 0]));
-  for (const loc of LOCATIONS) if (loc.p.some((p) => providerMatches(p, loc, ts))) areaCounts[loc.r]++;
+  for (const loc of LOCATIONS) if (loc.p.some((p) => providerMatches(p, loc, ts))) locRegions(loc).forEach((r) => areaCounts[r]++);
   $("areas").innerHTML = REGIONS.map((r) => `<button type="button" class="chip" data-region="${r}" aria-pressed="${state.regions.has(r)}">`
     + `<svg class="icon tick" aria-hidden="true"><use href="#i-check"/></svg>${r}${r === "Nassau" || r === "Suffolk" ? " (LI)" : ""}`
     + `<span class="n">${nf.format(areaCounts[r])}</span></button>`).join("");
   $("allAreas").hidden = state.regions.size === REGIONS.length;
 
   // Sources: providers in the selected areas that match services + search
-  const srcCounts = { article16: 0, opwdd: 0, medicaid: 0 };
+  const srcCounts = { article16: 0, opwdd: 0, homecare: 0, medicaid: 0 };
   let allCount = 0;
   for (const loc of LOCATIONS) {
-    if (!state.regions.has(loc.r)) continue;
+    if (!inSelectedRegions(loc)) continue;
     for (const p of loc.p) {
       if (!p.types.some((t) => state.types.has(t)) || !textMatch(p, loc, ts)) continue;
       srcCounts[p.s]++; allCount++;
@@ -489,7 +500,7 @@ function renderSidebar(items) {
   const typeCounts = Object.fromEntries(ALL_TYPES.map((t) => [t, 0]));
   const groupCounts = GROUPS.map(() => 0);
   for (const loc of LOCATIONS) {
-    if (!state.regions.has(loc.r)) continue;
+    if (!inSelectedRegions(loc)) continue;
     const offered = new Set();
     for (const p of loc.p) {
       if (state.source !== "all" && p.s !== state.source) continue;
