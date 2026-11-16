@@ -18,13 +18,14 @@ Schuyler, Yates, Hamilton, Lewis, Greene, Schoharie) follow OPWDD's regional str
 ## Features
 
 - Public website: pastel sidebar with search, OPWDD Regions 1–5, provider types and services beside the map;
-  circle pins colored by data source, popups with Directions and phone numbers
+  circle pins colored by data source, popups with Directions (phone numbers are not shown)
 - Map tiles: OpenStreetMap's standard map (free, no API key), softened to pastel and darkened in dark mode; the Next.js
   app still uses Mapbox
 - Search by provider name, street or ZIP code, and jump straight to a result
 - Filter by OPWDD region (Region 1 to Region 5), data source and service
 - Search also matches county names (e.g. "Monroe", "Albany")
-- Click a location to see every provider there, with phone (tap to call), website, program details and a directions link
+- Click a location to see every provider there, with website, program details and a directions link (the public site
+  leaves out phone numbers; they stay in the data files)
 - Providers at the same building are grouped onto one pin, even across datasets
 - Zoom and "locate me" controls, mobile-friendly layout, dark/light theme
 
@@ -232,6 +233,6 @@ src/
   - **Phones:** when an agency is also in the OPWDD agency directory (updated March 2026) with a different number,
     the directory's number is used.
   - **Addresses:** `verify-article16.ts` confirms each address against the weekly-updated Medicaid listing (a
-    Medicaid-enrolled clinic at the same address today). Unconfirmed sites are labeled "call to confirm" on the map.
+    Medicaid-enrolled clinic at the same address today). Unconfirmed sites are labeled "check with the provider to confirm" on the map.
 - Phone extensions are kept and shown as "ext. 1234".
 - Medicaid enrollment does not mean a provider has openings. Confirm with the provider before referring.
