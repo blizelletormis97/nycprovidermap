@@ -304,7 +304,6 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 .pop li b { font-weight: 800; overflow-wrap: anywhere; }
 .pop li b a { color: var(--accent); }
 .pop li div { grid-column: 2; color: var(--muted); font-size: 13px; }
-.pop .phone { color: var(--ink); font-weight: 800; user-select: all; font-variant-numeric: tabular-nums; }
 .pop .office { display: inline-block; margin-top: 4px; font-size: 12px; font-weight: 800; color: var(--ink); background: var(--lemon); border-radius: 999px; padding: 1px 8px; }
 .pop .hidden-note { color: var(--muted); font-size: 13px; padding: 0 16px 14px; }
 
@@ -399,7 +398,7 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
       <b>Good to know:</b> the IDD providers here are tied to Medicaid. Data comes from OPWDD's Article 16
       clinic list, the NY Open Data directory of OPWDD agencies, the NY Medicaid Enrolled Provider Listing and the
       NYS Department of Health list of special needs home health agencies,
-      refreshed <span id="dataDate"></span>. Please call ahead to confirm Medicaid acceptance and openings before referring.
+      refreshed <span id="dataDate"></span>. Please check with each provider to confirm Medicaid acceptance and openings before referring.
     </p>
   </aside>
   <div class="mapwrap"><div id="map" role="region" aria-label="Map of provider locations"></div></div>
@@ -560,10 +559,9 @@ function popupHTML(loc, ps) {
       <b>${p.w ? `<a href="${esc(/^https?:/i.test(p.w) ? p.w : "https://" + p.w)}" target="_blank" rel="noopener noreferrer">${esc(p.n)}</a>` : esc(p.n)}</b>
       <div>${esc(p.types.map((t) => LABELS[t] || t).join(", "))}</div>
       ${p.d ? `<div>${esc(p.d)}</div>` : ""}
-      ${p.ph ? `<div>Call <span class="phone">${esc(p.ph)}</span></div>` : ""}
       ${p.sv ? `<div>Visits people at home in: ${esc(p.sv.join(", "))}</div>` : ""}
       ${p.o ? `<div><span class="office">Office or billing address</span></div>` : ""}
-      ${p.u ? `<div><span class="office">Address from OPWDD's 2024 list, not confirmed in current Medicaid data. Call to confirm.</span></div>` : ""}</li>`).join("")}</ul>
+      ${p.u ? `<div><span class="office">Address from OPWDD's 2024 list, not confirmed in current Medicaid data. Check with the provider to confirm.</span></div>` : ""}</li>`).join("")}</ul>
     ${hidden > 0 ? `<div class="hidden-note">${hidden} more provider${hidden > 1 ? "s" : ""} here hidden by your filters.</div>` : ""}
   </div>`;
 }

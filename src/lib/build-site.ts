@@ -18,7 +18,7 @@ const root = process.cwd();
 const round = (n: number) => Math.round(n * 1e5) / 1e5;
 
 // Compact records: a = address, r = region, c = [lat, lng], p = providers (n name, s source, t services,
-// d detail, o office, ph phone, w website)
+// d detail, o office, w website). Phone numbers are left off the public site.
 const compact = (p: ProviderDetail) => ({
   n: p.name,
   s: p.source,
@@ -27,7 +27,6 @@ const compact = (p: ProviderDetail) => ({
   ...(p.office ? { o: 1 } : {}),
   ...(p.unconfirmed ? { u: 1 } : {}),
   ...(p.serves ? { sv: p.serves } : {}),
-  ...(p.phone ? { ph: p.phone } : {}),
   ...(p.website ? { w: p.website } : {}),
 });
 
