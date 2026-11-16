@@ -155,6 +155,10 @@ button { font: inherit; color: inherit; }
   min-height: 0; overflow-y: auto;
   padding-block: 18px 24px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: 16px;
   display: flex; flex-direction: column; gap: 22px;
+  /* soft pastel wash down the sidebar: lilac, pink, peach, mint */
+  background: linear-gradient(180deg, color-mix(in srgb, var(--lilac) 45%, var(--bg)), color-mix(in srgb, var(--pink) 40%, var(--bg)) 35%,
+    color-mix(in srgb, var(--peach) 35%, var(--bg)) 65%, color-mix(in srgb, var(--mint) 40%, var(--bg)));
+  background-attachment: local;
 }
 .mapwrap { min-height: 0; padding: 14px 14px 14px 0; display: flex; }
 #map { flex: 1; border-radius: 22px; overflow: hidden; box-shadow: var(--shadow); background: var(--sky); }
@@ -192,6 +196,8 @@ button { font: inherit; color: inherit; }
 .chip.wide { width: 100%; border-radius: 16px; padding: 8px 10px 8px 12px; text-align: left; }
 .chip.wide .txt { flex: 1; min-width: 0; line-height: 1.25; }
 .chip.wide .sub { display: block; font-weight: 600; font-size: 12px; color: var(--muted); }
+.chip.wide { border-color: var(--tint, var(--lilac)); }
+.chip.wide[aria-pressed="true"] { background: var(--tint, var(--lilac)); border-color: var(--tint, var(--lilac)); }
 .chip.wide[aria-pressed="true"] .sub { color: var(--ink); opacity: 0.75; }
 .region-label { color: var(--accent); font-family: var(--font-display); font-weight: 600; font-size: 13px; text-align: center; white-space: nowrap; pointer-events: none;
   text-shadow: 0 1px 0 var(--panel), 0 0 6px var(--panel), 0 0 10px var(--panel); }
@@ -212,13 +218,13 @@ button { font: inherit; color: inherit; }
 .sources { display: grid; gap: 8px; }
 .src {
   display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px; text-align: left;
-  border: 2px solid transparent; background: var(--panel); border-radius: 16px; padding: 10px 12px; cursor: pointer;
+  border: 2px solid transparent; background: color-mix(in srgb, var(--tint, var(--lilac)) 40%, var(--panel)); border-radius: 16px; padding: 10px 12px; cursor: pointer;
   box-shadow: 0 1px 0 var(--line);
 }
 .src b { font-weight: 800; }
 .src small { display: block; color: var(--muted); font-size: 13px; }
 .src .n { font-weight: 800; font-variant-numeric: tabular-nums; color: var(--muted); }
-.src[aria-pressed="true"] { border-color: var(--accent); background: color-mix(in srgb, var(--lilac) 55%, var(--panel)); }
+.src[aria-pressed="true"] { border-color: var(--accent); background: var(--tint, var(--lilac)); }
 .src[aria-pressed="true"] .n { color: var(--ink); }
 .bubble { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; }
 .bubble i { width: 14px; height: 14px; border-radius: 50%; border: 2.5px solid #fff; box-shadow: 0 1px 3px rgb(0 0 0 / 0.2); }
@@ -253,8 +259,9 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 .leaflet-tile-pane { filter: saturate(0.55) brightness(1.06) contrast(0.94); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .leaflet-tile-pane { filter: invert(1) hue-rotate(200deg) brightness(0.8) contrast(0.85) saturate(0.6); } }
 :root[data-theme="dark"] .leaflet-tile-pane { filter: invert(1) hue-rotate(200deg) brightness(0.8) contrast(0.85) saturate(0.6); }
-/* Tiles overlap by one pixel so phones with fractional pixel ratios don't show hairline gaps between them */
-.leaflet-tile-container img.leaflet-tile { width: 257px !important; height: 257px !important; }
+/* On high-resolution screens (phones, Retina) tiles overlap by one pixel so no hairline gaps show between them.
+   Not on standard screens, where the overlap itself leaves a visible line */
+@media (min-resolution: 1.5dppx) { .leaflet-tile-container img.leaflet-tile { width: 257px !important; height: 257px !important; } }
 .area-label { color: var(--muted); font-family: var(--font-display); font-size: 13px; font-weight: 600; white-space: nowrap; text-align: center; pointer-events: none; text-shadow: 0 1px 0 var(--panel), 0 0 6px var(--panel); }
 .area-label em { display: block; font-style: normal; font-family: var(--font-body); font-weight: 700; font-size: 11px; }
 .cluster {
@@ -413,6 +420,7 @@ const ABOUT = /*__ABOUT__*/null;
 // The area filter shows the five OPWDD regions, in order. Each location's map area (a NYC borough, a Long Island
 // county or an upstate region) belongs to one of them.
 const REGIONS = ["Region 1", "Region 2", "Region 3", "Region 4", "Region 5"];
+const REGION_TINTS = { "Region 1": "--pink", "Region 2": "--peach", "Region 3": "--lemon", "Region 4": "--mint", "Region 5": "--sky" };
 const REGION_INFO = {
   "Region 1": "Western NY & Finger Lakes",
   "Region 2": "Central NY, Broome & Sunmount",
@@ -587,7 +595,7 @@ function renderSidebar(items) {
   // Areas: locations that match every other filter
   const areaCounts = Object.fromEntries(REGIONS.map((r) => [r, 0]));
   for (const loc of LOCATIONS) if (loc.p.some((p) => providerMatches(p, loc, ts))) locRegions(loc).forEach((r) => areaCounts[r]++);
-  $("areas").innerHTML = `<div class="chips">${REGIONS.map((r) => `<button type="button" class="chip wide" data-region="${r}" aria-pressed="${state.regions.has(r)}">`
+  $("areas").innerHTML = `<div class="chips">${REGIONS.map((r) => `<button type="button" class="chip wide" data-region="${r}" style="--tint:var(${REGION_TINTS[r]})" aria-pressed="${state.regions.has(r)}">`
     + `<svg class="icon tick" aria-hidden="true"><use href="#i-check"/></svg>`
     + `<span class="txt">${r}<span class="sub">${esc(REGION_INFO[r])}</span></span>`
     + `<span class="n">${nf.format(areaCounts[r])}</span></button>`).join("")}</div>`;
@@ -604,9 +612,9 @@ function renderSidebar(items) {
     }
   }
   const rainbow = `background:conic-gradient(${SOURCE_ORDER.map((s, i) => `${srcColor(s)} ${i * 120}deg ${(i + 1) * 120}deg`).join(",")})`;
-  $("sources").innerHTML = `<button type="button" class="src" data-source="all" aria-pressed="${state.source === "all"}">
+  $("sources").innerHTML = `<button type="button" class="src" data-source="all" style="--tint:var(--lemon)" aria-pressed="${state.source === "all"}">
       <span class="bubble" style="background:var(--lemon)"><i style="${rainbow}"></i></span><span><b>Everyone</b><small>All kinds of providers</small></span><span class="n">${nf.format(allCount)}</span></button>`
-    + SOURCE_ORDER.map((s) => `<button type="button" class="src" data-source="${s}" aria-pressed="${state.source === s}">
+    + SOURCE_ORDER.map((s) => `<button type="button" class="src" data-source="${s}" style="--tint:var(${SOURCES[s].tint})" aria-pressed="${state.source === s}">
         <span class="bubble" style="background:var(${SOURCES[s].tint})"><i style="background:${srcColor(s)}"></i></span>
         <span><b>${SOURCES[s].label}</b><small>${SOURCES[s].note}</small></span><span class="n">${nf.format(srcCounts[s])}</span></button>`).join("");
 
