@@ -17,7 +17,10 @@ Schuyler, Yates, Hamilton, Lewis, Greene, Schoharie) follow OPWDD's regional str
 
 ## Features
 
-- Interactive Mapbox map with clustering; marker color shows the data source
+- Map-app layout on the public website: full-screen map, floating search, provider-type chips, a Filters panel and a
+  place card with Directions / Call / Website (bottom sheets on phones); teardrop pins colored by data source
+- Map tiles: CARTO Voyager (light) and Dark Matter (dark), built on OpenStreetMap data (free for non-commercial use, with
+  attribution); the Next.js app still uses Mapbox
 - Search by provider name, street or ZIP code, and jump straight to a result
 - Filter by OPWDD region (Region 1 to Region 5), data source and service
 - Search also matches county names (e.g. "Monroe", "Albany")
