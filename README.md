@@ -17,9 +17,9 @@ Schuyler, Yates, Hamilton, Lewis, Greene, Schoharie) follow OPWDD's regional str
 
 ## Features
 
-- Map-app layout on the public website: full-screen map, floating search, provider-type chips, a Filters panel and a
-  place card with Directions / Call / Website (bottom sheets on phones); teardrop pins colored by data source
-- Map tiles: OpenStreetMap's standard map (free, no API key; darkened with a CSS filter in dark mode); the Next.js
+- Public website: pastel sidebar with search, OPWDD Regions 1–5, provider types and services beside the map;
+  circle pins colored by data source, popups with Directions and phone numbers
+- Map tiles: OpenStreetMap's standard map (free, no API key), softened to pastel and darkened in dark mode; the Next.js
   app still uses Mapbox
 - Search by provider name, street or ZIP code, and jump straight to a result
 - Filter by OPWDD region (Region 1 to Region 5), data source and service

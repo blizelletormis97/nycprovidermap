@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>IDD Medicaid Provider Finder</title>
-<meta name="description" content="Map of intellectual and developmental disability providers that accept Medicaid across New York State, by OPWDD region.">
-<meta name="theme-color" content="#ffffff">
+<meta name="description" content="Map of intellectual and developmental disability providers that accept Medicaid in New York City and Long Island (Nassau and Suffolk).">
+<meta name="theme-color" content="#fdf8ff">
 <script>
   // Apply a saved light/dark choice before the page draws. With no saved choice the page follows the device.
   try { const t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
@@ -22,329 +22,335 @@
 @font-face { font-family: "Nunito"; font-style: normal; font-weight: 200 1000; font-display: swap; src: url("__FONT_NUNITO__") format("woff2"); }
 @font-face { font-family: "Fredoka"; font-style: normal; font-weight: 600; font-display: swap; src: url("__FONT_FREDOKA__") format("woff2"); }
 
-/* Layout: a full-screen map like a familiar map app. Floating search card top-left, provider-type chips beside it,
-   round buttons top-right, a left panel (bottom sheet on phones) for filters and place details. */
+/* Layout: one-screen tool. A pastel "ribbon" header, a soft filter rail on the left, the map on the right
+   (map on top, filters below on phones). Each service family has its own pastel so it reads at a glance. */
 :root {
-  --map-bg: #e8eef3;
+  --bg: #fdf8ff;
   --panel: #ffffff;
-  --surface: #f3f5f8;
-  --ink: #1f2430;
-  --muted: #5b6372;
-  --line: #e3e7ee;
-  --primary: #2563eb;
-  --primary-ink: #ffffff;
-  --primary-soft: #e6eeff;
-  --focus: #93b4ff;
-  --warn-bg: #fff4d6;
-  --chip-on: #e6eeff;
+  --ink: #2b2550;
+  --muted: #6c6590;
+  --line: #ece6f7;
+  --accent: #7b61ff;
+  --accent-ink: #ffffff;
+  --focus: #b8a8ff;
 
-  /* pin colors by source */
-  --src-article16: #f0643f;
-  --src-opwdd: #8a63f2;
-  --src-homecare: #17a865;
-  --src-medicaid: #1597d1;
+  /* pastels: fills for chips, groups and cards */
+  --peach: #ffe1cf;
+  --pink: #ffd9ec;
+  --lilac: #e8e0ff;
+  --sky: #d3f0ff;
+  --mint: #ccf5e3;
+  --lemon: #fff3c4;
 
-  --shadow-1: 0 1px 2px rgb(16 24 40 / 0.18), 0 2px 8px rgb(16 24 40 / 0.12);
-  --shadow-2: 0 4px 16px rgb(16 24 40 / 0.18);
+  /* bright pastels: map markers and source dots */
+  --src-article16: #ff8b74;
+  --src-opwdd: #a68bff;
+  --src-medicaid: #3fc1e9;
+  --src-homecare: #4fcf8e;
+
+  --shadow: 0 6px 20px rgb(123 97 255 / 0.12);
   --font-display: "Fredoka", "Nunito", system-ui, sans-serif;
   --font-body: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --panel-w: 408px;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --map-bg: #1b1f27; --panel: #22262f; --surface: #2b303a; --ink: #eef1f6; --muted: #a9b1bf; --line: #353b47;
-    --primary: #7aa2ff; --primary-ink: #0d1424; --primary-soft: #2a3550; --focus: #4f74d8; --warn-bg: #4a3f1c; --chip-on: #2a3550;
-    --src-article16: #ff8b6e; --src-opwdd: #ab8dff; --src-homecare: #3fcf8b; --src-medicaid: #4cc1f2;
-    --shadow-1: 0 1px 2px rgb(0 0 0 / 0.5), 0 2px 8px rgb(0 0 0 / 0.35);
-    --shadow-2: 0 4px 16px rgb(0 0 0 / 0.5);
+    --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
+    --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
+    --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
+    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad;
+    --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --map-bg: #1b1f27; --panel: #22262f; --surface: #2b303a; --ink: #eef1f6; --muted: #a9b1bf; --line: #353b47;
-  --primary: #7aa2ff; --primary-ink: #0d1424; --primary-soft: #2a3550; --focus: #4f74d8; --warn-bg: #4a3f1c; --chip-on: #2a3550;
-  --src-article16: #ff8b6e; --src-opwdd: #ab8dff; --src-homecare: #3fcf8b; --src-medicaid: #4cc1f2;
-  --shadow-1: 0 1px 2px rgb(0 0 0 / 0.5), 0 2px 8px rgb(0 0 0 / 0.35);
-  --shadow-2: 0 4px 16px rgb(0 0 0 / 0.5);
+  --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
+  --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
+  --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
+  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad;
+  --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
   color-scheme: dark;
 }
 
 html, body { height: 100%; margin: 0; }
 [hidden] { display: none !important; }
-body { background: var(--map-bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.45; overflow: hidden; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.45;
+  display: flex; flex-direction: column;
+}
 button { font: inherit; color: inherit; }
-:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
-.icon { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 10px; }
+.icon { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
-#map { position: fixed; inset: 0; background: var(--map-bg); }
+/* ---------- header ---------- */
+.top {
+  position: relative; background: var(--panel);
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  padding-block: 12px 14px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.top::after { /* pastel ribbon */
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 5px;
+  background: linear-gradient(90deg, var(--peach), var(--pink), var(--lilac), var(--sky), var(--mint), var(--lemon));
+}
+.logo {
+  width: 42px; height: 42px; border-radius: 14px; display: grid; place-items: center; flex: none;
+  background: var(--lilac); color: var(--accent);
+}
+.logo .icon { width: 24px; height: 24px; }
+.brand { min-width: 0; flex: 1 1 280px; }
+.brand h1 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 22px; letter-spacing: 0.005em; line-height: 1.15; }
+.brand p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+.brand p b { color: var(--ink); }
+/* About us: header button + pop-up card */
+.about-btn {
+  height: 42px; flex: none; border-radius: 14px; border: 0; cursor: pointer; padding: 0 14px 0 12px;
+  background: var(--pink); color: var(--ink); font-weight: 800; font-size: 14px;
+  display: inline-flex; align-items: center; gap: 6px; transition: transform 0.15s;
+}
+.about-btn:hover { transform: translateY(-1px); }
+.about-btn .icon { width: 18px; height: 18px; color: #e0569a; }
+.about {
+  width: min(560px, calc(100vw - 32px)); max-height: calc(100dvh - 48px); padding: 0; border: 0; border-radius: 24px;
+  background: var(--panel); color: var(--ink); box-shadow: 0 20px 60px rgb(43 37 80 / 0.35); overflow: auto;
+}
+.about::backdrop { background: rgb(43 37 80 / 0.35); backdrop-filter: blur(3px); }
+.about .ribbon { height: 8px; background: linear-gradient(90deg, var(--peach), var(--pink), var(--lilac), var(--sky), var(--mint), var(--lemon)); }
+.about .body { padding: 22px 24px 24px; display: grid; gap: 16px; }
+.about h2 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 26px; display: flex; align-items: center; gap: 10px; padding-right: 36px; }
+.about h2 .icon { width: 26px; height: 26px; color: #e0569a; }
+.about .intro { margin: 0; color: var(--muted); font-size: 15px; }
+.about .people { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+.about .person { display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 18px; background: var(--tint); }
+.about .avatar {
+  width: 48px; height: 48px; border-radius: 50%; flex: none; display: grid; place-items: center;
+  background: var(--panel); font-family: var(--font-display); font-weight: 600; font-size: 18px; color: var(--accent);
+}
+.about .person b { display: block; font-size: 16px; font-weight: 800; }
+.about .person small { color: var(--muted); font-size: 13px; }
+.about .story { display: grid; gap: 10px; font-size: 15px; line-height: 1.6; }
+.about .story p { margin: 0; }
+.about .signoff { margin: 0; font-family: var(--font-display); font-weight: 600; color: var(--accent); }
+.about .close {
+  position: absolute; top: 18px; right: 16px; width: 34px; height: 34px; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--lilac); color: var(--ink); display: grid; place-items: center;
+}
+.about .close .icon { width: 16px; height: 16px; }
+.theme-toggle {
+  width: 42px; height: 42px; flex: none; border-radius: 14px; border: 0; cursor: pointer;
+  background: var(--lilac); color: var(--accent); display: grid; place-items: center;
+  transition: transform 0.15s, background 0.15s;
+}
+.theme-toggle:hover { transform: translateY(-1px) rotate(-8deg); }
+.theme-toggle .icon { width: 22px; height: 22px; }
+.theme-toggle .moon { display: none; }
+.theme-toggle[data-mode="dark"] .sun { display: none; }
+.theme-toggle[data-mode="dark"] .moon { display: block; }
+.total {
+  display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; padding: 6px 14px;
+  background: var(--mint); font-weight: 700; font-size: 14px; font-variant-numeric: tabular-nums;
+}
 
-/* ---------- floating top bar ---------- */
-.topbar {
-  position: fixed; z-index: 1000; top: max(12px, env(safe-area-inset-top, 0px)); left: max(12px, env(safe-area-inset-left, 0px));
-  right: max(12px, env(safe-area-inset-right, 0px)); display: flex; align-items: flex-start; gap: 10px; pointer-events: none;
+/* ---------- layout ---------- */
+.app { flex: 1; min-height: 0; display: grid; grid-template-columns: 380px 1fr; }
+.rail {
+  min-height: 0; overflow-y: auto;
+  padding-block: 18px 24px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: 16px;
+  display: flex; flex-direction: column; gap: 22px;
 }
-.topbar > * { pointer-events: auto; }
-.searchcard {
-  width: calc(var(--panel-w) - 24px); flex: none; background: var(--panel); border-radius: 24px; box-shadow: var(--shadow-1);
-}
-.searchrow { display: flex; align-items: center; gap: 4px; height: 48px; padding: 0 6px 0 8px; }
-.brandmark { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; flex: none; color: #fff; background: var(--primary); }
-.brandmark .icon { width: 20px; height: 20px; }
-.searchrow input {
-  flex: 1; min-width: 0; height: 100%; border: 0; background: transparent; color: var(--ink); font: inherit; font-size: 16px; padding: 0 6px;
-}
-.searchrow input:focus { outline: none; }
-.searchrow input::placeholder { color: var(--muted); }
-.searchrow input::-webkit-search-cancel-button { display: none; }
-.iconbtn {
-  width: 40px; height: 40px; border-radius: 50%; border: 0; background: transparent; cursor: pointer; display: grid; place-items: center; color: var(--muted); flex: none;
-}
-.iconbtn:hover { background: var(--surface); color: var(--ink); }
-.summary { border-top: 1px solid var(--line); padding: 7px 16px 9px; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.summary b { color: var(--ink); }
-.summary .empty-note { display: block; margin-top: 4px; color: var(--ink); }
+.mapwrap { min-height: 0; padding: 14px 14px 14px 0; display: flex; }
+#map { flex: 1; border-radius: 22px; overflow: hidden; box-shadow: var(--shadow); background: var(--sky); }
 
-.chiprow { flex: 1; min-width: 0; display: flex; gap: 8px; overflow-x: auto; padding: 4px 2px 8px; scrollbar-width: none; }
-.chiprow::-webkit-scrollbar { display: none; }
-.tchip {
-  height: 36px; flex: none; border: 0; border-radius: 18px; padding: 0 14px 0 10px; background: var(--panel); box-shadow: var(--shadow-1);
-  display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 700; font-size: 14px; white-space: nowrap;
+/* ---------- search ---------- */
+.searchrow { display: flex; gap: 8px; }
+.search { position: relative; flex: 1; min-width: 0; }
+.search .icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+.search input {
+  width: 100%; box-sizing: border-box; height: 46px; border-radius: 999px; border: 2px solid var(--line);
+  background: var(--panel); color: var(--ink); font: inherit; font-size: 15px; padding: 0 40px 0 42px;
+  transition: border-color 0.15s;
 }
-.tchip:hover { background: var(--surface); }
-.tchip .dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1px rgb(0 0 0 / 0.15); }
-.tchip .icon { width: 18px; height: 18px; }
-.tchip[aria-pressed="true"] { background: var(--chip-on); color: var(--primary); }
-.tchip .badge-n { min-width: 20px; height: 20px; border-radius: 10px; background: var(--primary); color: var(--primary-ink); font-size: 12px; display: inline-grid; place-items: center; padding: 0 5px; }
-
-.corner { display: flex; gap: 8px; flex: none; }
-.roundbtn {
-  height: 44px; min-width: 44px; border: 0; border-radius: 22px; background: var(--panel); box-shadow: var(--shadow-1); cursor: pointer;
-  display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 0 12px; font-weight: 800; font-size: 14px;
+.search input::placeholder { color: var(--muted); }
+.search input:focus { outline: none; border-color: var(--accent); }
+.search input::-webkit-search-cancel-button { display: none; }
+.clear {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 30px; height: 30px;
+  border: 0; border-radius: 50%; background: var(--lilac); cursor: pointer; display: grid; place-items: center;
 }
-.roundbtn:hover { background: var(--surface); }
-.roundbtn .icon { width: 20px; height: 20px; }
-.roundbtn.about .icon { color: #e0569a; }
-.theme .moon { display: none; }
-.theme[data-mode="dark"] .sun { display: none; }
-.theme[data-mode="dark"] .moon { display: block; }
+.clear .icon { position: static; transform: none; width: 14px; height: 14px; color: var(--ink); }
+.summary { margin-top: 10px; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.summary b { color: var(--ink); font-weight: 800; }
 
-/* ---------- side panel (filters / place details) ---------- */
-.panel {
-  position: fixed; z-index: 900; left: 0; top: 0; bottom: 0; width: var(--panel-w); background: var(--panel); box-shadow: var(--shadow-2);
-  display: flex; flex-direction: column; transform: translateX(-105%); transition: transform 0.22s ease; visibility: hidden;
+/* ---------- section titles ---------- */
+.title {
+  margin: 0 0 10px; font-family: var(--font-display); font-weight: 600; font-size: 17px;
+  display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
 }
-body.panel-open .panel { transform: none; visibility: visible; }
-.panel-scroll { flex: 1; min-height: 0; overflow-y: auto; padding-top: calc(max(12px, env(safe-area-inset-top, 0px)) + 96px); }
-.panel-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 4px 16px 8px 20px; }
-.panel-head h2 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 22px; }
-.panel section { padding: 12px 20px; border-top: 1px solid var(--line); }
-.panel h3 { margin: 0 0 10px; font-size: 13px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); display: flex; justify-content: space-between; align-items: baseline; }
-.link { border: 0; background: none; color: var(--primary); cursor: pointer; font-weight: 800; font-size: 13px; padding: 2px 4px; text-transform: none; letter-spacing: 0; }
+.link { border: 0; background: none; color: var(--accent); cursor: pointer; font-weight: 800; font-size: 13px; padding: 2px 4px; }
 
-.regions { display: grid; gap: 8px; }
-.region {
-  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; text-align: left; cursor: pointer;
-  border: 1px solid var(--line); border-radius: 12px; background: var(--panel); padding: 9px 12px;
+/* ---------- area chips ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+/* Upstate regions: full-width cards with the region name over its offices */
+.chip.wide { width: 100%; border-radius: 16px; padding: 8px 10px 8px 12px; text-align: left; }
+.chip.wide .txt { flex: 1; min-width: 0; line-height: 1.25; }
+.chip.wide .sub { display: block; font-weight: 600; font-size: 12px; color: var(--muted); }
+.chip.wide[aria-pressed="true"] .sub { color: var(--ink); opacity: 0.75; }
+.region-label { color: var(--accent); font-family: var(--font-display); font-weight: 600; font-size: 13px; text-align: center; white-space: nowrap; pointer-events: none;
+  text-shadow: 0 1px 0 var(--panel), 0 0 6px var(--panel), 0 0 10px var(--panel); }
+.region-label em { display: block; font-style: normal; font-family: var(--font-body); font-weight: 700; font-size: 11px; color: var(--ink); }
+#map:not(.show-region-labels) .region-label { display: none; }
+.chip {
+  border: 2px solid var(--line); background: var(--panel); border-radius: 999px; padding: 6px 8px 6px 12px;
+  font-size: 14px; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+  transition: background 0.15s, border-color 0.15s;
 }
-.region:hover { background: var(--surface); }
-.region b { display: block; font-weight: 800; }
-.region small { display: block; color: var(--muted); font-size: 12px; line-height: 1.3; }
-.region .n { color: var(--muted); font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
-.region .box { width: 20px; height: 20px; border-radius: 6px; border: 2px solid var(--muted); display: grid; place-items: center; }
-.region .box .icon { width: 14px; height: 14px; opacity: 0; color: var(--primary-ink); }
-.region[aria-pressed="true"] { border-color: var(--primary); background: var(--primary-soft); }
-.region[aria-pressed="true"] .box { background: var(--primary); border-color: var(--primary); }
-.region[aria-pressed="true"] .box .icon { opacity: 1; }
+.chip .n { background: var(--bg); border-radius: 999px; padding: 1px 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip .tick { display: none; width: 14px; height: 14px; }
+.chip[aria-pressed="true"] { background: var(--lilac); border-color: var(--lilac); }
+.chip[aria-pressed="true"] .tick { display: block; }
+.chip[aria-pressed="true"] .n { background: var(--panel); color: var(--ink); }
 
-.group + .group { margin-top: 14px; }
-.group h4 { margin: 0 0 4px; display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 800; }
-.group h4 label { flex: 1; cursor: pointer; }
-.group h4 .n { color: var(--muted); font-weight: 700; font-size: 13px; font-variant-numeric: tabular-nums; }
-.svc { display: flex; align-items: center; gap: 10px; padding: 6px 4px 6px 30px; cursor: pointer; font-size: 14px; border-radius: 8px; }
-.svc:hover { background: var(--surface); }
+/* ---------- sources ---------- */
+.sources { display: grid; gap: 8px; }
+.src {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px; text-align: left;
+  border: 2px solid transparent; background: var(--panel); border-radius: 16px; padding: 10px 12px; cursor: pointer;
+  box-shadow: 0 1px 0 var(--line);
+}
+.src b { font-weight: 800; }
+.src small { display: block; color: var(--muted); font-size: 13px; }
+.src .n { font-weight: 800; font-variant-numeric: tabular-nums; color: var(--muted); }
+.src[aria-pressed="true"] { border-color: var(--accent); background: color-mix(in srgb, var(--lilac) 55%, var(--panel)); }
+.src[aria-pressed="true"] .n { color: var(--ink); }
+.bubble { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; }
+.bubble i { width: 14px; height: 14px; border-radius: 50%; border: 2.5px solid #fff; box-shadow: 0 1px 3px rgb(0 0 0 / 0.2); }
+
+/* ---------- service groups ---------- */
+.groups { display: grid; gap: 10px; }
+.group { border-radius: 18px; padding: 4px 6px 8px; background: var(--tint); }
+.group h3 { margin: 0; padding: 8px 6px 6px; display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 800; }
+.group h3 .gicon { width: 30px; height: 30px; border-radius: 10px; background: var(--panel); display: grid; place-items: center; }
+.group h3 label { flex: 1; cursor: pointer; }
+.group h3 .n { color: var(--muted); font-weight: 700; font-size: 13px; font-variant-numeric: tabular-nums; }
+.svc {
+  display: flex; align-items: center; gap: 10px; padding: 6px 8px 6px 10px; margin: 2px 0; cursor: pointer;
+  font-size: 14px; border-radius: 12px; background: color-mix(in srgb, var(--panel) 72%, transparent);
+}
+.svc:hover { background: var(--panel); }
 .svc .n { margin-left: auto; color: var(--muted); font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .svc.zero { color: var(--muted); }
 .svc small { display: block; color: var(--muted); font-size: 12px; line-height: 1.3; }
 .svc .txt { min-width: 0; }
-input[type="checkbox"] { accent-color: var(--primary); width: 18px; height: 18px; margin: 0; flex: none; }
-.note { font-size: 13px; line-height: 1.55; margin: 0; color: var(--muted); }
-.note b { color: var(--ink); }
+input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px; margin: 0; flex: none; }
 
-/* place details */
-.place-band { height: 96px; display: grid; place-items: center; position: relative; }
-.place-band .pinbig { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: var(--panel); box-shadow: var(--shadow-1); }
-.place-band .pinbig .icon { width: 28px; height: 28px; }
-.place-body { padding: 16px 20px 6px; }
-.place-body h2 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 22px; line-height: 1.2; overflow-wrap: anywhere; }
-.place-sub { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
-.actions { display: flex; gap: 18px; padding: 14px 20px 16px; border-bottom: 1px solid var(--line); }
-.action { display: grid; justify-items: center; gap: 6px; text-decoration: none; color: var(--primary); font-size: 13px; font-weight: 700; min-width: 64px; }
-.action .circle { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--line); }
-.action.primary .circle { background: var(--primary); color: var(--primary-ink); border-color: var(--primary); }
-.action:hover .circle { box-shadow: var(--shadow-1); }
-.rows { padding: 6px 0; border-bottom: 1px solid var(--line); }
-.row { display: grid; grid-template-columns: 24px 1fr; gap: 16px; padding: 10px 20px; align-items: start; }
-.row .icon { color: var(--primary); }
-.row a { color: var(--ink); }
-.providers { padding: 8px 20px 20px; display: grid; gap: 10px; }
-.providers h3 { margin: 6px 0 2px; }
-.prov { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: grid; gap: 3px; }
-.prov .name { font-weight: 800; display: flex; gap: 8px; align-items: baseline; overflow-wrap: anywhere; }
-.prov .name i { width: 10px; height: 10px; border-radius: 50%; flex: none; transform: translateY(1px); }
-.prov .name a { color: var(--primary); }
-.prov .meta { color: var(--muted); font-size: 13px; padding-left: 18px; }
-.prov .phone { padding-left: 18px; font-size: 14px; font-weight: 800; }
-.prov .phone a { color: var(--primary); text-decoration: none; font-variant-numeric: tabular-nums; }
-.tag { display: inline-block; margin: 4px 0 0 18px; font-size: 12px; font-weight: 800; background: var(--warn-bg); border-radius: 6px; padding: 2px 8px; justify-self: start; }
-.hidden-note { color: var(--muted); font-size: 13px; }
+.empty-note { display: block; margin-top: 6px; color: var(--ink); background: var(--lemon); border-radius: 10px; padding: 6px 10px; }
+
+.note { font-size: 13px; line-height: 1.55; margin: 0; background: var(--lemon); border-radius: 16px; padding: 12px 14px; }
+.note b { font-weight: 800; }
 
 /* ---------- map furniture ---------- */
-.leaflet-container { background: var(--map-bg); font-family: var(--font-body); }
-/* Soften the street map a little so pins stand out; in dark mode turn it dark */
-/* (filters go on each tile, not the whole tile layer, which would draw a seam around the loaded area) */
-.leaflet-tile { filter: saturate(0.8) brightness(1.02); }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .leaflet-tile { filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9) saturate(0.5); } }
-:root[data-theme="dark"] .leaflet-tile { filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9) saturate(0.5); }
-.pin { filter: drop-shadow(0 2px 2px rgb(0 0 0 / 0.3)); transition: transform 0.12s; transform-origin: 50% 100%; }
-.pin svg { display: block; }
-.pin.selected { transform: scale(1.35); z-index: 1000 !important; }
+.leaflet-container { background: var(--sky); font-family: var(--font-body); }
+/* Pastel-soft street map, dark in dark mode. One filter on the whole tile layer: per-tile filters leave hairline seams
+   on high-resolution phone screens (whole zoom levels, set on the map, keep the layer itself seamless) */
+.leaflet-tile-pane { filter: saturate(0.55) brightness(1.06) contrast(0.94); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .leaflet-tile-pane { filter: invert(1) hue-rotate(200deg) brightness(0.8) contrast(0.85) saturate(0.6); } }
+:root[data-theme="dark"] .leaflet-tile-pane { filter: invert(1) hue-rotate(200deg) brightness(0.8) contrast(0.85) saturate(0.6); }
+/* Tiles overlap by one pixel so phones with fractional pixel ratios don't show hairline gaps between them */
+.leaflet-tile-container img.leaflet-tile { width: 257px !important; height: 257px !important; }
+.area-label { color: var(--muted); font-family: var(--font-display); font-size: 13px; font-weight: 600; white-space: nowrap; text-align: center; pointer-events: none; text-shadow: 0 1px 0 var(--panel), 0 0 6px var(--panel); }
+.area-label em { display: block; font-style: normal; font-family: var(--font-body); font-weight: 700; font-size: 11px; }
 .cluster {
-  display: grid; place-items: center; border-radius: 50%; color: #fff; font-weight: 800; font-size: 13px; font-variant-numeric: tabular-nums;
-  background: var(--primary); border: 3px solid rgb(255 255 255 / 0.9); box-shadow: 0 0 0 5px color-mix(in srgb, var(--primary) 25%, transparent), var(--shadow-1);
+  display: grid; place-items: center; border-radius: 50%; color: #2b2550; font-weight: 800; font-size: 13px;
+  border: 3px solid #fff; box-shadow: 0 4px 12px rgb(43 37 80 / 0.25); font-variant-numeric: tabular-nums;
 }
-:root[data-theme="dark"] .cluster { color: var(--primary-ink); }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .cluster { color: var(--primary-ink); } }
-.region-label { color: var(--muted); font-family: var(--font-display); font-weight: 600; font-size: 13px; text-align: center; white-space: nowrap; pointer-events: none;
-  text-shadow: 0 0 3px var(--panel), 0 0 6px var(--panel), 0 0 10px var(--panel); }
-.region-label em { display: block; font-style: normal; font-family: var(--font-body); font-weight: 700; font-size: 11px; }
-#map:not(.show-region-labels) .region-label { display: none; }
-.leaflet-bar { border: 0 !important; box-shadow: var(--shadow-1) !important; border-radius: 10px !important; overflow: hidden; }
-.leaflet-bar a, .leaflet-bar a:hover { background: var(--panel); color: var(--ink); border-bottom-color: var(--line); }
-/* Zoom buttons: bottom-left corner, 44 px to tap; they slide right of the open panel so it never covers them */
-#map .leaflet-bottom.leaflet-left { transition: left 0.22s ease; left: 0; }
-body.panel-open #map .leaflet-bottom.leaflet-left { left: var(--panel-w); }
-#map .leaflet-bottom.leaflet-left .leaflet-control-zoom { margin: 0 0 20px 16px; }
-#map .leaflet-control-zoom a { width: 44px; height: 44px; line-height: 42px; font-size: 24px; font-weight: 700; font-family: var(--font-body); }
-#map .leaflet-control-zoom a:hover { background: var(--surface); }
-#map .leaflet-control-zoom a.leaflet-disabled { color: var(--muted); opacity: 0.5; }
+.cluster.s { background: #bdf2da; } .cluster.m { background: #c6ecff; } .cluster.l { background: #ffcfe6; }
+.leaflet-bar { border: 0 !important; box-shadow: var(--shadow) !important; border-radius: 14px !important; overflow: hidden; }
+.leaflet-bar a, .leaflet-bar a:hover { background: var(--panel); color: var(--ink); border-bottom-color: var(--line); width: 34px; height: 34px; line-height: 34px; }
+/* Zoom buttons: bottom-left corner, large enough to tap comfortably */
+/* (#map raises specificity above Leaflet's own touch-screen sizing) */
+#map .leaflet-bottom.leaflet-left .leaflet-control-zoom { margin: 0 0 16px 16px; }
+#map .leaflet-control-zoom a {
+  width: 44px; height: 44px; line-height: 42px; font-size: 24px; font-weight: 700; font-family: var(--font-body);
+}
+#map .leaflet-control-zoom a:hover { background: var(--lilac); color: var(--accent); }
+#map .leaflet-control-zoom a.leaflet-disabled { color: var(--muted); background: var(--panel); opacity: 0.5; }
+/* Keep the map credits clear of the zoom buttons */
 #map .leaflet-bottom.leaflet-right .leaflet-control-attribution { max-width: calc(100vw - 120px); font-size: 11px; line-height: 1.4; }
-.leaflet-control-attribution { background: color-mix(in srgb, var(--panel) 85%, transparent) !important; color: var(--muted) !important; }
-.leaflet-control-attribution a { color: var(--primary) !important; }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--panel) 85%, transparent) !important; color: var(--muted) !important; border-radius: 10px 0 0 0; }
+.leaflet-control-attribution a { color: var(--accent) !important; }
 
-/* ---------- About us ---------- */
-.about {
-  width: min(560px, calc(100vw - 32px)); max-height: calc(100dvh - 48px); padding: 0; border: 0; border-radius: 20px;
-  background: var(--panel); color: var(--ink); box-shadow: 0 20px 60px rgb(16 24 40 / 0.35); overflow: auto;
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--panel); color: var(--ink); box-shadow: 0 10px 30px rgb(43 37 80 / 0.25); }
+.leaflet-popup-content-wrapper { border-radius: 22px; padding: 0; overflow: hidden; }
+.leaflet-popup-content { margin: 0; width: 310px !important; font-size: 14px; line-height: 1.45; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--ink); top: 8px; right: 8px; width: 26px; height: 26px; border-radius: 50%; background: var(--panel); font-size: 18px; line-height: 24px; }
+.pop .head { padding: 16px 40px 12px 16px; background: var(--tint); }
+.pop h4 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 600; font-size: 17px; line-height: 1.25; text-wrap: balance; }
+.pop .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.badge { font-size: 12px; font-weight: 800; padding: 2px 9px; border-radius: 999px; background: var(--panel); display: inline-flex; align-items: center; gap: 5px; }
+.badge i { width: 8px; height: 8px; border-radius: 50%; }
+.dir {
+  display: inline-flex; align-items: center; gap: 6px; margin: 12px 16px 0; padding: 7px 14px; border-radius: 999px;
+  background: var(--accent); color: var(--accent-ink) !important; font-weight: 800; text-decoration: none; font-size: 13px;
 }
-.about::backdrop { background: rgb(16 24 40 / 0.4); }
-.about .ribbon { height: 8px; background: linear-gradient(90deg, #ffd3c2, #ffd9ec, #e8e0ff, #d3f0ff, #ccf5e3, #fff3c4); }
-.about .body { padding: 22px 24px 24px; display: grid; gap: 16px; }
-.about h2 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 26px; display: flex; align-items: center; gap: 10px; padding-right: 36px; }
-.about h2 .icon { width: 26px; height: 26px; color: #e0569a; }
-.about .intro { margin: 0; color: var(--muted); }
-.about .people { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
-.about .person { display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 14px; background: var(--surface); }
-.about .avatar { width: 48px; height: 48px; border-radius: 50%; flex: none; display: grid; place-items: center; background: var(--primary); color: var(--primary-ink); font-family: var(--font-display); font-weight: 600; font-size: 18px; }
-.about .person b { display: block; font-size: 16px; font-weight: 800; }
-.about .person small { color: var(--muted); font-size: 13px; }
-.about .story { display: grid; gap: 10px; line-height: 1.6; }
-.about .story p { margin: 0; }
-.about .signoff { margin: 0; font-family: var(--font-display); font-weight: 600; color: var(--primary); }
-.about .close { position: absolute; top: 18px; right: 16px; }
+.dir .icon { width: 15px; height: 15px; }
+.pop ul { list-style: none; margin: 0; padding: 12px 16px 16px; max-height: 250px; overflow-y: auto; display: grid; gap: 10px; }
+.pop li { display: grid; grid-template-columns: auto 1fr; gap: 0 10px; padding: 10px 12px; border-radius: 14px; background: var(--bg); }
+.pop li .dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 6px; }
+.pop li b { font-weight: 800; overflow-wrap: anywhere; }
+.pop li b a { color: var(--accent); }
+.pop li div { grid-column: 2; color: var(--muted); font-size: 13px; }
+.pop .phone { color: var(--ink); font-weight: 800; user-select: all; font-variant-numeric: tabular-nums; }
+.pop .office { display: inline-block; margin-top: 4px; font-size: 12px; font-weight: 800; color: var(--ink); background: var(--lemon); border-radius: 999px; padding: 1px 8px; }
+.pop .hidden-note { color: var(--muted); font-size: 13px; padding: 0 16px 14px; }
 
-/* ---------- phones: search on top, chips below, panels as bottom sheets ---------- */
-@media (max-width: 760px) {
-  :root { --panel-w: 100vw; }
-  .topbar { flex-wrap: wrap; }
-  .searchcard { width: auto; flex: 1 1 0; min-width: 0; }
-  .corner { order: 2; }
-  .roundbtn.about span { display: none; }
-  .chiprow { order: 3; flex-basis: 100%; }
-  .panel {
-    top: auto; height: min(60dvh, 560px); border-radius: 18px 18px 0 0; transform: translateY(105%);
-    padding-bottom: env(safe-area-inset-bottom, 0px);
-  }
-  .panel::before { content: ""; width: 40px; height: 4px; border-radius: 2px; background: var(--line); margin: 8px auto 0; flex: none; }
-  .panel-scroll { padding-top: 4px; }
-  /* with a sheet open, pinch to zoom; the zoom buttons step aside and the credits sit just above the sheet */
-  body.panel-open #map .leaflet-bottom.leaflet-left { display: none; }
-  body.panel-open #map .leaflet-bottom { bottom: min(60dvh, 560px); }
+@media (max-width: 820px) {
+  .about-btn span { display: none; }
+  .about-btn { width: 42px; padding: 0; justify-content: center; }
+  body { height: auto; display: block; }
+  .app { display: flex; flex-direction: column; }
+  .mapwrap { order: -1; height: 58vh; padding: 12px max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); }
+  .rail { overflow: visible; padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .brand h1 { font-size: 19px; }
+  .top { flex-wrap: nowrap; align-items: flex-start; }
+  .brand { flex: 1 1 0; }
+  .total { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 </style>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><path d="M12 13.2s-2.6-1.7-2.6-3.4a1.4 1.4 0 0 1 2.6-.8 1.4 1.4 0 0 1 2.6.8c0 1.7-2.6 3.4-2.6 3.4z"/></symbol>
   <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
   <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></symbol>
-  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></symbol>
-  <symbol id="i-go" viewBox="0 0 24 24"><path d="M3 11 21 3l-8 18-2-8-8-2z"/></symbol>
-  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
-  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
-  <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></symbol>
-  <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.2A5 5 0 0 1 21 19"/></symbol>
-  <symbol id="i-clinic" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M12 9v7M8.5 12.5h7"/></symbol>
   <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-5h4v5"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-hands" viewBox="0 0 24 24"><circle cx="8" cy="7" r="3"/><circle cx="16" cy="7" r="3"/><path d="M2 20c0-3.3 2.7-6 6-6 1.6 0 3 .6 4 1.6A5.6 5.6 0 0 1 16 14c3.3 0 6 2.7 6 6"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-8-4.6-8-10.2A4.3 4.3 0 0 1 12 7a4.3 4.3 0 0 1 8 2.8C20 15.4 12 20 12 20z"/><path d="M12 10v5M9.5 12.5h5"/></symbol>
+  <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M9 10h6M9 14h6M9 18h4"/></symbol>
   <symbol id="i-sun-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v2.5M12 20v2.5M3.6 3.6l1.8 1.8M18.6 18.6l1.8 1.8M1.5 12H4M20 12h2.5M3.6 20.4l1.8-1.8M18.6 5.4l1.8-1.8"/></symbol>
-  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></symbol>
   <symbol id="i-heart-solo" viewBox="0 0 24 24"><path d="M12 20s-8-4.6-8-10.2A4.3 4.3 0 0 1 12 7a4.3 4.3 0 0 1 8 2.8C20 15.4 12 20 12 20z"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></symbol>
+  <symbol id="i-go" viewBox="0 0 24 24"><path d="M3 11 21 3l-8 18-2-8-8-2z"/></symbol>
 </svg>
 
-<div id="map" role="region" aria-label="Map of provider locations"></div>
-
-<!-- Floating search, provider-type chips and corner buttons -->
-<div class="topbar">
-  <div class="searchcard">
-    <div class="searchrow">
-      <span class="brandmark" aria-hidden="true"><svg class="icon"><use href="#i-pin"/></svg></span>
-      <input id="q" type="search" autocomplete="off" placeholder="Search providers, places or ZIPs" aria-label="Search providers by name, street, ZIP or county">
-      <button id="clear" class="iconbtn" type="button" aria-label="Clear search" hidden><svg class="icon"><use href="#i-x"/></svg></button>
-      <button id="searchGo" class="iconbtn" type="button" aria-label="Search"><svg class="icon"><use href="#i-search"/></svg></button>
-    </div>
-    <div class="summary" id="summary" aria-live="polite"></div>
+<header class="top">
+  <span class="logo" aria-hidden="true"><svg class="icon"><use href="#i-pin"/></svg></span>
+  <div class="brand">
+    <h1>IDD Medicaid Provider Finder</h1>
+    <p>Find intellectual &amp; developmental disability services that accept <b>Medicaid</b>, all across New York State.</p>
   </div>
-  <div class="chiprow" id="chips" role="toolbar" aria-label="Provider types"></div>
-  <div class="corner">
-    <button id="aboutBtn" class="roundbtn about" type="button" aria-haspopup="dialog" hidden><svg class="icon" aria-hidden="true"><use href="#i-heart-solo"/></svg><span>About us</span></button>
-    <button id="themeToggle" class="roundbtn theme" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
-      <svg class="icon sun" aria-hidden="true"><use href="#i-sun-theme"/></svg>
-      <svg class="icon moon" aria-hidden="true"><use href="#i-moon"/></svg>
-    </button>
-  </div>
-</div>
-
-<!-- Left panel (bottom sheet on phones): filters, or the selected place -->
-<aside class="panel" id="panel" aria-label="Filters and place details">
-  <div class="panel-scroll">
-    <div id="filtersView" hidden>
-      <div class="panel-head"><h2>Filters</h2><button id="closeFilters" class="iconbtn" type="button" aria-label="Close filters"><svg class="icon"><use href="#i-x"/></svg></button></div>
-      <section>
-        <h3>OPWDD region <button id="allAreas" class="link" type="button" hidden>Show all regions</button></h3>
-        <div class="regions" id="areas"></div>
-      </section>
-      <section>
-        <h3>Services <span><button id="svcAll" class="link" type="button">All</button><button id="svcNone" class="link" type="button">None</button></span></h3>
-        <div id="groups"></div>
-      </section>
-      <section>
-        <p class="note">
-          <b>Good to know:</b> every provider here is IDD-specific and tied to Medicaid. Data comes from OPWDD's Article 16
-          clinic list, the NY Open Data directory of OPWDD agencies, the NY Medicaid Enrolled Provider Listing and the
-          NYS Department of Health list of special needs home health agencies, refreshed <span id="dataDate"></span>.
-          Please call ahead to confirm Medicaid acceptance and openings before referring.
-        </p>
-      </section>
-    </div>
-    <div id="placeView" hidden></div>
-  </div>
-</aside>
+  <span class="total" id="total"></span>
+  <button id="aboutBtn" class="about-btn" type="button" aria-haspopup="dialog" hidden><svg class="icon" aria-hidden="true"><use href="#i-heart-solo"/></svg><span>About us</span></button>
+  <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+    <svg class="icon sun" aria-hidden="true"><use href="#i-sun-theme"/></svg>
+    <svg class="icon moon" aria-hidden="true"><use href="#i-moon"/></svg>
+  </button>
+</header>
 
 <!-- About us: filled from site/about.json at build time -->
 <dialog id="about" class="about" aria-labelledby="aboutTitle">
   <div class="ribbon"></div>
-  <button id="aboutClose" class="iconbtn close" type="button" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+  <button id="aboutClose" class="close" type="button" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
   <div class="body">
     <h2 id="aboutTitle"><svg class="icon" aria-hidden="true"><use href="#i-heart-solo"/></svg><span></span></h2>
     <p class="intro" id="aboutIntro"></p>
@@ -354,11 +360,49 @@ body.panel-open #map .leaflet-bottom.leaflet-left { left: var(--panel-w); }
   </div>
 </dialog>
 
+<div class="app">
+  <aside class="rail" aria-label="Search and filters">
+    <section>
+      <div class="searchrow">
+        <div class="search">
+          <svg class="icon"><use href="#i-search"/></svg>
+          <input id="q" type="search" autocomplete="off" placeholder="Provider name, street or ZIP" aria-label="Search providers by name, street or ZIP">
+          <button id="clear" class="clear" type="button" aria-label="Clear search" hidden><svg class="icon"><use href="#i-x"/></svg></button>
+        </div>
+      </div>
+      <div class="summary" id="summary" aria-live="polite"></div>
+    </section>
+
+    <section>
+      <h2 class="title">Where? <button id="allAreas" class="link" type="button" hidden>Show all regions</button></h2>
+      <div class="chips" id="areas"></div>
+    </section>
+
+    <section>
+      <h2 class="title">Which kind of provider?</h2>
+      <div class="sources" id="sources"></div>
+    </section>
+
+    <section>
+      <h2 class="title">What services? <span><button id="svcAll" class="link" type="button">All</button><button id="svcNone" class="link" type="button">None</button></span></h2>
+      <div class="groups" id="groups"></div>
+    </section>
+
+    <p class="note">
+      <b>Good to know:</b> the IDD providers here are tied to Medicaid. Data comes from OPWDD's Article 16
+      clinic list, the NY Open Data directory of OPWDD agencies, the NY Medicaid Enrolled Provider Listing and the
+      NYS Department of Health list of special needs home health agencies,
+      refreshed <span id="dataDate"></span>. Please call ahead to confirm Medicaid acceptance and openings before referring.
+    </p>
+  </aside>
+  <div class="mapwrap"><div id="map" role="region" aria-label="Map of provider locations"></div></div>
+</div>
+
 <!-- Data as JSON: parsed with JSON.parse, which is much faster than an equivalent JavaScript literal -->
 <script type="application/json" id="locations-data">__LOCATIONS_JSON__</script>
 <script type="application/json" id="basemap-data">__BASEMAP_JSON__</script>
 <script>
-// Filters and search work straight away; the map is added once the deferred map library has loaded
+// The list and filters render straight away; the map is added once the deferred map library has loaded
 // (deferred scripts run before DOMContentLoaded), so nobody waits on the map to start browsing.
 (() => {
 const LOCATIONS = JSON.parse(document.getElementById("locations-data").textContent);
@@ -366,7 +410,7 @@ const BASEMAP = JSON.parse(document.getElementById("basemap-data").textContent);
 const DATA_DATE = /*__DATA_DATE__*/"";
 const ABOUT = /*__ABOUT__*/null;
 
-// The region filter shows the five OPWDD regions, in order. Each location's map area (a NYC borough, a Long Island
+// The area filter shows the five OPWDD regions, in order. Each location's map area (a NYC borough, a Long Island
 // county or an upstate region) belongs to one of them.
 const REGIONS = ["Region 1", "Region 2", "Region 3", "Region 4", "Region 5"];
 const REGION_INFO = {
@@ -380,7 +424,7 @@ const AREA_REGION = {
   Manhattan: "Region 4", Brooklyn: "Region 4", Bronx: "Region 4", Queens: "Region 4", "Staten Island": "Region 4",
   Nassau: "Region 5", Suffolk: "Region 5", "Region 1": "Region 1", "Region 2": "Region 2", "Region 3": "Region 3",
 };
-// Region names on the zoomed-out statewide view (Regions 4 and 5 offshore, clear of the pins)
+// Label positions for the regions on the statewide view (Regions 4 and 5 are labeled offshore, clear of the pins)
 const REGION_LABELS = [
   { at: [42.3, -78.6], name: "Region 1", sub: REGION_INFO["Region 1"] },
   { at: [43.55, -75.35], name: "Region 2", sub: REGION_INFO["Region 2"] },
@@ -389,18 +433,19 @@ const REGION_LABELS = [
   { at: [40.55, -72.85], name: "Region 5", sub: "" },
 ];
 const SOURCES = {
-  article16: { label: "Article 16 clinics", short: "Article 16 clinic", icon: "i-clinic" },
-  opwdd: { label: "OPWDD agencies", short: "OPWDD agency", icon: "i-people" },
-  homecare: { label: "Home health", short: "Home health agency", icon: "i-home" },
-  medicaid: { label: "Medicaid IDD sites", short: "Medicaid IDD site", icon: "i-home" },
+  article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy & IDD evaluations", tint: "--peach" },
+  opwdd: { label: "OPWDD agencies", short: "OPWDD agency", note: "Agencies offering Medicaid-funded services", tint: "--lilac" },
+  homecare: { label: "Home health agencies", short: "Home health", note: "State-approved to serve OPWDD-eligible people", tint: "--mint" },
+  medicaid: { label: "Medicaid IDD sites", short: "Medicaid site", note: "Residences, ICFs & day programs", tint: "--sky" },
 };
 // [service key, label, hint]
 const GROUPS = [
-  { name: "Evaluations", types: [["IDD Clinic Evaluations", "IDD clinic evaluations", "Article 16 & OPWDD state clinics"]] },
-  { name: "Home & residential", types: [["Residential (IRA)", "Group homes (IRA)"], ["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["Family Care", "Family care homes"], ["OPWDD Community Support Site", "Community support sites"], ["Developmental Centers", "Developmental centers"]] },
-  { name: "Day & work", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
-  { name: "Community & at home", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"], ["Special Needs Home Health", "Home health agencies", "Visits people at home"]] },
-  { name: "Clinics & therapy", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"]] },
+  { name: "Evaluations", icon: "i-clipboard", tint: "--lemon", types: [
+    ["IDD Clinic Evaluations", "IDD clinic evaluations", "Article 16 & OPWDD state clinics"]] },
+  { name: "Home & residential", icon: "i-home", tint: "--peach", types: [["Residential (IRA)", "Group homes (IRA)"], ["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["Family Care", "Family care homes"], ["OPWDD Community Support Site", "Community support sites"], ["Developmental Centers", "Developmental centers"]] },
+  { name: "Day & work", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
+  { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"], ["Special Needs Home Health", "Home health agencies", "Visits you at home · serves all 7 areas"]] },
+  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"]] },
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
@@ -414,9 +459,6 @@ const css = (name) => {
 const srcColor = (s) => css(`--src-${s}`);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const icon = (id) => `<svg class="icon" aria-hidden="true"><use href="#${id}"/></svg>`;
-const telHref = (ph) => `tel:${ph.replace(/\s*ext\.\s*/i, ",").replace(/[^\d,+]/g, "")}`;
-const siteHref = (w) => (/^https?:/i.test(w) ? w : `https://${w}`);
-const $ = (id) => document.getElementById(id);
 
 LOCATIONS.forEach((loc, i) => {
   loc.id = i;
@@ -424,11 +466,13 @@ LOCATIONS.forEach((loc, i) => {
   loc.p.forEach((p) => { p.types = p.t.split(", "); p.nameU = p.n.toUpperCase(); });
   loc.primary = SOURCE_ORDER.find((s) => loc.p.some((p) => p.s === s));
 });
+const iddProviders = LOCATIONS.reduce((n, l) => n + l.p.length, 0);
 
-const state = { q: "", regions: new Set(REGIONS), source: "all", types: new Set(ALL_TYPES), selected: null, panel: null };
+const state = { q: "", regions: new Set(REGIONS), source: "all", types: new Set(ALL_TYPES) };
 
 // ---------- filtering ----------
-// Regions a location counts toward: its own, plus any a provider there serves (home health agencies visit people at home)
+// Areas a location counts toward: its own, plus any area a provider there serves (home health agencies visit
+// people at home across several areas)
 function locRegions(loc) {
   if (!loc.regions) loc.regions = [...new Set([loc.r, ...loc.p.flatMap((p) => p.sv || [])].map((a) => AREA_REGION[a]))];
   return loc.regions;
@@ -453,34 +497,22 @@ function visible() {
 }
 
 // ---------- map ----------
-let map = null, baseLayer = null, tiles = null, clusters = null;
+let map = null, baseLayer = null, clusters = null;
 const markers = new Map();
-const isDark = () => (document.documentElement.dataset.theme || (darkQuery.matches ? "dark" : "light")) === "dark";
-const darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
 
-function tileLayer() {
-  // OpenStreetMap's standard map: free and needs no API key (dark mode darkens it with a CSS filter)
-  return L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  });
+function basemapStyle() {
+  return { color: css("--accent"), weight: 2, dashArray: "6 6", opacity: 0.7, fill: false };
 }
-function basemapStyle() { return { color: css("--muted"), weight: 1.5, dashArray: "5 6", opacity: 0.6, fill: false }; }
-function pinIcon(source, selected) {
-  const size = [30, 42];
-  return L.divIcon({
-    className: `pin${selected ? " selected" : ""}`, iconSize: size, iconAnchor: [15, 41], popupAnchor: [0, -36],
-    html: `<svg width="30" height="42" viewBox="0 0 30 42" aria-hidden="true"><path d="M15 41S2.5 26.8 2.5 15.5a12.5 12.5 0 0 1 25 0C27.5 26.8 15 41 15 41z" fill="${srcColor(source)}" stroke="#fff" stroke-width="2"/><circle cx="15" cy="15.5" r="5" fill="#fff"/></svg>`,
-  });
-}
-
 function initMap() {
   // whole zoom levels only: in-between levels stretch the map tiles and leave faint seams between them
   map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 6, maxZoom: 18, zoomSnap: 1 })
-    .fitBounds([[40.49, -79.77], [45.02, -71.85]], { paddingTopLeft: [0, 90] }); // all of New York State
+    .fitBounds([[40.49, -79.77], [45.02, -71.85]]); // all of New York State
   L.control.zoom({ position: "bottomleft", zoomInTitle: "Zoom in", zoomOutTitle: "Zoom out" }).addTo(map);
   map.attributionControl.setPrefix(false).addAttribution("Boundaries: U.S. Census TIGER via data.ny.gov");
-  tiles = tileLayer().addTo(map);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
   baseLayer = L.geoJSON(BASEMAP, { style: basemapStyle, interactive: false }).addTo(map);
   for (const r of REGION_LABELS) {
     L.marker(r.at, {
@@ -488,146 +520,97 @@ function initMap() {
       icon: L.divIcon({ className: "region-label", html: `${r.name}${r.sub ? `<em>${esc(r.sub)}</em>` : ""}`, iconSize: [190, 36], iconAnchor: [95, 18] }),
     }).addTo(map);
   }
+  // Region names only on the zoomed-out statewide view, where they don't cover pins
   // region names on the zoomed-out statewide view, on screens wide enough that they don't cover the pins
   const toggleRegionLabels = () => map.getContainer().classList.toggle("show-region-labels", map.getZoom() <= 8 && map.getSize().x > 700);
   map.on("zoomend resize", toggleRegionLabels);
   toggleRegionLabels();
   clusters = L.markerClusterGroup({
-    showCoverageOnHover: false, maxClusterRadius: 50, spiderfyOnMaxZoom: true, chunkedLoading: true,
+    showCoverageOnHover: false, maxClusterRadius: 46, spiderfyOnMaxZoom: true, chunkedLoading: true,
     iconCreateFunction: (c) => {
       const n = c.getChildCount();
-      const size = n < 10 ? 34 : n < 100 ? 40 : 48;
-      return L.divIcon({ html: `<div class="cluster" style="width:${size}px;height:${size}px">${n}</div>`, className: "", iconSize: [size, size] });
+      const [size, cls] = n < 10 ? [34, "s"] : n < 50 ? [42, "m"] : [50, "l"];
+      return L.divIcon({ html: `<div class="cluster ${cls}" style="width:${size}px;height:${size}px">${n}</div>`, className: "", iconSize: [size, size] });
     },
   });
   map.addLayer(clusters);
-  map.on("click", () => { if (state.panel === "place") closePanel(); });
   renderMap(visible());
+}
+
+function popupHTML(loc, ps) {
+  const hidden = loc.p.length - ps.length;
+  const sources = SOURCE_ORDER.filter((s) => loc.p.some((p) => p.s === s));
+  const dir = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(loc.a)}`;
+  return `<div class="pop">
+    <div class="head" style="--tint:var(${SOURCES[loc.primary].tint})">
+      <h4>${esc(loc.a)}</h4>
+      <div class="meta">${sources.map((s) => `<span class="badge"><i style="background:${srcColor(s)}"></i>${SOURCES[s].short}</span>`).join("")}
+        <span class="badge">${esc(`${AREA_REGION[loc.r]}${loc.co ? ` · ${loc.co} County` : ""}`)}</span></div>
+    </div>
+    <a class="dir" href="${dir}" target="_blank" rel="noopener noreferrer">${icon("i-go")}Get directions</a>
+    <ul>${ps.map((p) => `<li><span class="dot" style="background:${srcColor(p.s)}"></span>
+      <b>${p.w ? `<a href="${esc(/^https?:/i.test(p.w) ? p.w : "https://" + p.w)}" target="_blank" rel="noopener noreferrer">${esc(p.n)}</a>` : esc(p.n)}</b>
+      <div>${esc(p.types.map((t) => LABELS[t] || t).join(", "))}</div>
+      ${p.d ? `<div>${esc(p.d)}</div>` : ""}
+      ${p.ph ? `<div>Call <span class="phone">${esc(p.ph)}</span></div>` : ""}
+      ${p.sv ? `<div>Visits people at home in: ${esc(p.sv.join(", "))}</div>` : ""}
+      ${p.o ? `<div><span class="office">Office or billing address</span></div>` : ""}
+      ${p.u ? `<div><span class="office">Address from OPWDD's 2024 list, not confirmed in current Medicaid data. Call to confirm.</span></div>` : ""}</li>`).join("")}</ul>
+    ${hidden > 0 ? `<div class="hidden-note">${hidden} more provider${hidden > 1 ? "s" : ""} here hidden by your filters.</div>` : ""}
+  </div>`;
 }
 
 function renderMap(items) {
   if (!clusters) return; // map library still loading; initMap() draws the pins when it arrives
   clusters.clearLayers();
   markers.clear();
-  const layers = items.map(({ loc }) => {
-    const m = L.marker(loc.c, { icon: pinIcon(loc.primary, loc.id === state.selected), title: loc.p[0].n, riseOnHover: true });
-    m.on("click", () => selectPlace(loc.id, false));
+  const layers = items.map(({ loc, ps }) => {
+    const m = L.circleMarker(loc.c, {
+      radius: 8, weight: 3, color: "#ffffff", fillColor: srcColor(loc.primary), fillOpacity: 1,
+    });
+    m.bindPopup(() => popupHTML(loc, ps), { maxWidth: 340, autoPanPadding: [28, 28] });
     markers.set(loc.id, m);
     return m;
   });
   clusters.addLayers(layers);
 }
 
-// ---------- panel: filters or place details ----------
-function openPanel(kind) {
-  state.panel = kind;
-  document.body.classList.add("panel-open");
-  $("filtersView").hidden = kind !== "filters";
-  $("placeView").hidden = kind !== "place";
-  renderChips();
-}
-function closePanel() {
-  const wasPlace = state.panel === "place";
-  state.panel = null;
-  document.body.classList.remove("panel-open");
-  if (wasPlace) setSelected(null);
-  renderChips();
-}
-function setSelected(id) {
-  const prev = state.selected;
-  state.selected = id;
-  for (const pid of [prev, id]) {
-    const m = pid != null && markers.get(pid);
-    if (m) m.setIcon(pinIcon(LOCATIONS[pid].primary, pid === id));
-  }
-}
+// ---------- sidebar ----------
+const $ = (id) => document.getElementById(id);
 
-function placeHTML(loc, ps) {
-  const hidden = loc.p.length - ps.length;
-  const one = ps.length === 1 ? ps[0] : null;
-  const title = one ? one.n : loc.a.split(",")[0];
-  const kinds = SOURCE_ORDER.filter((s) => ps.some((p) => p.s === s)).map((s) => SOURCES[s].short);
-  const where = `${AREA_REGION[loc.r]}${loc.co ? ` · ${loc.co} County` : ""}`;
-  const dir = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(loc.a)}`;
-  const phone = one?.ph || ps.find((p) => p.ph)?.ph;
-  const website = one?.w;
-  return `
-    <div class="place-band" style="background:color-mix(in srgb, ${srcColor(loc.primary)} 22%, var(--panel))">
-      <span class="pinbig" style="color:${srcColor(loc.primary)}">${icon(SOURCES[loc.primary].icon)}</span>
-      <button class="iconbtn" type="button" data-close style="position:absolute;top:10px;right:10px;background:var(--panel)" aria-label="Close place details">${icon("i-x")}</button>
-    </div>
-    <div class="place-body">
-      <h2>${esc(title)}</h2>
-      <p class="place-sub">${esc(kinds.join(" · "))}${one ? "" : ` · ${ps.length} providers here`}</p>
-    </div>
-    <div class="actions">
-      <a class="action primary" href="${dir}" target="_blank" rel="noopener noreferrer"><span class="circle">${icon("i-go")}</span>Directions</a>
-      ${phone ? `<a class="action" href="${telHref(phone)}"><span class="circle">${icon("i-phone")}</span>Call</a>` : ""}
-      ${website ? `<a class="action" href="${esc(siteHref(website))}" target="_blank" rel="noopener noreferrer"><span class="circle">${icon("i-globe")}</span>Website</a>` : ""}
-    </div>
-    <div class="rows">
-      <div class="row">${icon("i-pin")}<span>${esc(loc.a)}</span></div>
-      <div class="row">${icon("i-map")}<span>${esc(where)}</span></div>
-      ${phone ? `<div class="row">${icon("i-phone")}<span><a href="${telHref(phone)}">${esc(phone)}</a>${one ? "" : " (first listed)"}</span></div>` : ""}
-    </div>
-    <div class="providers">
-      <h3>${one ? "Details" : `Providers at this address (${ps.length})`}</h3>
-      ${ps.map((p) => `<div class="prov">
-        <div class="name"><i style="background:${srcColor(p.s)}"></i>${p.w ? `<a href="${esc(siteHref(p.w))}" target="_blank" rel="noopener noreferrer">${esc(p.n)}</a>` : `<span>${esc(p.n)}</span>`}</div>
-        <div class="meta">${esc(p.types.map((t) => LABELS[t] || t).join(", "))}</div>
-        ${p.d ? `<div class="meta">${esc(p.d)}</div>` : ""}
-        ${p.sv ? `<div class="meta">Visits people at home in: ${esc([...new Set(p.sv.map((a) => AREA_REGION[a]))].sort().join(", "))}</div>` : ""}
-        ${p.ph ? `<div class="phone"><a href="${telHref(p.ph)}">${esc(p.ph)}</a></div>` : ""}
-        ${p.o ? `<span class="tag">Office or billing address</span>` : ""}
-        ${p.u ? `<span class="tag">Address from OPWDD's 2024 list, not confirmed in current Medicaid data. Call to confirm.</span>` : ""}
-      </div>`).join("")}
-      ${hidden > 0 ? `<p class="hidden-note">${hidden} more provider${hidden > 1 ? "s" : ""} here hidden by your filters.</p>` : ""}
-    </div>`;
-}
-
-function selectPlace(id, fly) {
-  const item = visible().find((it) => it.loc.id === id);
-  if (!item) return;
-  $("placeView").innerHTML = placeHTML(item.loc, item.ps);
-  $("placeView").querySelector("[data-close]").addEventListener("click", closePanel);
-  setSelected(id);
-  openPanel("place");
-  $("panel").querySelector(".panel-scroll").scrollTop = 0;
-  if (map && fly) map.setView(item.loc.c, Math.max(map.getZoom(), 15));
-  // keep the pin visible beside the panel (desktop) or above the sheet (phone)
-  if (map) {
-    const wide = window.matchMedia("(min-width: 761px)").matches;
-    const pt = map.latLngToContainerPoint(item.loc.c);
-    const size = map.getSize();
-    const panelW = wide ? $("panel").offsetWidth : 0;
-    const sheetH = wide ? 0 : $("panel").offsetHeight;
-    const targetX = wide ? panelW + (size.x - panelW) / 2 : size.x / 2;
-    const targetY = wide ? size.y / 2 : (size.y - sheetH) / 2 + 40;
-    if (pt.x < panelW + 40 || pt.y > size.y - sheetH - 20 || pt.y < 120) map.panBy([pt.x - targetX, pt.y - targetY]);
-  }
-}
-
-// ---------- chips, summary and filters ----------
-function filterCount() {
-  return (REGIONS.length - state.regions.size) + (ALL_TYPES.length - state.types.size > 0 ? 1 : 0);
-}
-function renderChips() {
-  const n = filterCount();
-  $("chips").innerHTML = `<button type="button" class="tchip" data-filters aria-pressed="${state.panel === "filters"}">${icon("i-sliders")}Filters${n ? `<span class="badge-n">${n}</span>` : ""}</button>`
-    + SOURCE_ORDER.map((s) => `<button type="button" class="tchip" data-source="${s}" aria-pressed="${state.source === s}"><span class="dot" style="background:${srcColor(s)}"></span>${SOURCES[s].label}</button>`).join("");
-}
-
-function renderFilters(items) {
+function renderSidebar(items) {
   const ts = terms();
-  // Regions: locations that match every other filter
+  const providerCount = items.reduce((n, it) => n + it.ps.length, 0);
+  $("summary").innerHTML = `Showing <b>${nf.format(items.length)}</b> places with <b>${nf.format(providerCount)}</b> providers`
+    + (items.length === 0 ? `<span class="empty-note">No matches yet. Try clearing the search, choosing more areas, or turning on more services.</span>` : "");
+
+  // Areas: locations that match every other filter
   const areaCounts = Object.fromEntries(REGIONS.map((r) => [r, 0]));
   for (const loc of LOCATIONS) if (loc.p.some((p) => providerMatches(p, loc, ts))) locRegions(loc).forEach((r) => areaCounts[r]++);
-  $("areas").innerHTML = REGIONS.map((r) => `<button type="button" class="region" data-region="${r}" aria-pressed="${state.regions.has(r)}">`
-    + `<span class="box">${icon("i-check")}</span><span><b>${r}</b><small>${esc(REGION_INFO[r])}</small></span>`
-    + `<span class="n">${nf.format(areaCounts[r])}</span></button>`).join("");
+  $("areas").innerHTML = `<div class="chips">${REGIONS.map((r) => `<button type="button" class="chip wide" data-region="${r}" aria-pressed="${state.regions.has(r)}">`
+    + `<svg class="icon tick" aria-hidden="true"><use href="#i-check"/></svg>`
+    + `<span class="txt">${r}<span class="sub">${esc(REGION_INFO[r])}</span></span>`
+    + `<span class="n">${nf.format(areaCounts[r])}</span></button>`).join("")}</div>`;
   $("allAreas").hidden = state.regions.size === REGIONS.length;
 
-  // Services: locations in the selected regions/source/search offering each service, and each group
+  // Sources: providers in the selected areas that match services + search
+  const srcCounts = { article16: 0, opwdd: 0, homecare: 0, medicaid: 0 };
+  let allCount = 0;
+  for (const loc of LOCATIONS) {
+    if (!inSelectedRegions(loc)) continue;
+    for (const p of loc.p) {
+      if (!p.types.some((t) => state.types.has(t)) || !textMatch(p, loc, ts)) continue;
+      srcCounts[p.s]++; allCount++;
+    }
+  }
+  const rainbow = `background:conic-gradient(${SOURCE_ORDER.map((s, i) => `${srcColor(s)} ${i * 120}deg ${(i + 1) * 120}deg`).join(",")})`;
+  $("sources").innerHTML = `<button type="button" class="src" data-source="all" aria-pressed="${state.source === "all"}">
+      <span class="bubble" style="background:var(--lemon)"><i style="${rainbow}"></i></span><span><b>Everyone</b><small>All kinds of providers</small></span><span class="n">${nf.format(allCount)}</span></button>`
+    + SOURCE_ORDER.map((s) => `<button type="button" class="src" data-source="${s}" aria-pressed="${state.source === s}">
+        <span class="bubble" style="background:var(${SOURCES[s].tint})"><i style="background:${srcColor(s)}"></i></span>
+        <span><b>${SOURCES[s].label}</b><small>${SOURCES[s].note}</small></span><span class="n">${nf.format(srcCounts[s])}</span></button>`).join("");
+
+  // Services: locations in the selected areas/source/search offering each service, and each group
   const typeCounts = Object.fromEntries(ALL_TYPES.map((t) => [t, 0]));
   const groupCounts = GROUPS.map(() => 0);
   for (const loc of LOCATIONS) {
@@ -644,11 +627,13 @@ function renderFilters(items) {
   $("groups").innerHTML = GROUPS.map((g, gi) => {
     const keys = g.types.map((t) => t[0]);
     const on = keys.filter((k) => state.types.has(k)).length;
-    return `<div class="group">
-      <h4><input type="checkbox" id="g${gi}" data-group="${gi}" ${on === keys.length ? "checked" : ""}><label for="g${gi}">${esc(g.name)}</label><span class="n">${nf.format(groupCounts[gi])}</span></h4>
+    return `<div class="group" style="--tint:var(${g.tint})">
+      <h3><span class="gicon">${icon(g.icon)}</span><label for="g${gi}">${esc(g.name)}</label>
+        <span class="n">${nf.format(groupCounts[gi])}</span>
+        <input type="checkbox" id="g${gi}" data-group="${gi}" ${on === keys.length ? "checked" : ""} aria-label="All ${esc(g.name)}"></h3>
       ${g.types.map(([k, label, hint], ti) => `<label class="svc ${typeCounts[k] ? "" : "zero"}" for="t${gi}-${ti}"><input type="checkbox" id="t${gi}-${ti}" data-type="${esc(k)}" ${state.types.has(k) ? "checked" : ""}>`
-        + `<span class="txt">${esc(label || k)}${hint ? `<small>${esc(hint)}</small>` : ""}</span>`
-        + `<span class="n">${nf.format(typeCounts[k])}</span></label>`).join("")}
+          + `<span class="txt">${esc(label || k)}${hint ? `<small>${esc(hint)}</small>` : ""}</span>`
+          + `<span class="n">${nf.format(typeCounts[k])}</span></label>`).join("")}
     </div>`;
   }).join("");
   GROUPS.forEach((g, gi) => {
@@ -659,25 +644,17 @@ function renderFilters(items) {
 }
 
 function render() {
+  $("total").textContent = `${nf.format(iddProviders)} IDD providers · all 5 OPWDD regions`;
   const items = visible();
-  const providerCount = items.reduce((n, it) => n + it.ps.length, 0);
-  const plural = (n, word) => `<b>${nf.format(n)}</b> ${word}${n === 1 ? "" : "s"}`;
-  $("summary").innerHTML = `${plural(items.length, "place")} · ${plural(providerCount, "IDD provider")} that accept Medicaid`
-    + (items.length === 0 ? `<span class="empty-note">No matches yet. Try clearing the search, or turning on more regions or services.</span>` : "");
   renderMap(items);
-  renderChips();
-  renderFilters(items);
-  // the open place card follows the filters (closes if its place is filtered out)
-  if (state.panel === "place" && state.selected != null) {
-    if (items.some((it) => it.loc.id === state.selected)) selectPlace(state.selected, false); else closePanel();
-  }
+  renderSidebar(items);
   return items;
 }
 
 // After a search, bring the matching places into view
 function zoomToMatches(items) {
   if (!map || !state.q.trim() || items.length === 0) return;
-  map.fitBounds(L.latLngBounds(items.map(({ loc }) => loc.c)), { maxZoom: 15, padding: [60, 60], paddingTopLeft: [state.panel ? $("panel").offsetWidth : 0, 110] });
+  map.fitBounds(L.latLngBounds(items.map(({ loc }) => loc.c)), { maxZoom: 15, padding: [48, 48] });
 }
 
 // ---------- events ----------
@@ -688,17 +665,7 @@ $("q").addEventListener("input", (e) => {
   clearTimeout(timer);
   timer = setTimeout(() => zoomToMatches(render()), 250);
 });
-$("q").addEventListener("keydown", (e) => { if (e.key === "Enter") { clearTimeout(timer); zoomToMatches(render()); } });
-$("searchGo").addEventListener("click", () => { clearTimeout(timer); zoomToMatches(render()); $("q").focus(); });
 $("clear").addEventListener("click", () => { $("q").value = ""; state.q = ""; $("clear").hidden = true; render(); $("q").focus(); });
-$("chips").addEventListener("click", (e) => {
-  const b = e.target.closest("button"); if (!b) return;
-  if (b.hasAttribute("data-filters")) { if (state.panel === "filters") closePanel(); else openPanel("filters"); return; }
-  const s = b.dataset.source;
-  state.source = state.source === s ? "all" : s; // tap again to show every kind
-  render();
-});
-$("closeFilters").addEventListener("click", closePanel);
 $("areas").addEventListener("click", (e) => {
   const b = e.target.closest("[data-region]"); if (!b) return;
   const r = b.dataset.region;
@@ -706,6 +673,10 @@ $("areas").addEventListener("click", (e) => {
   render();
 });
 $("allAreas").addEventListener("click", () => { state.regions = new Set(REGIONS); render(); });
+$("sources").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-source]"); if (!b) return;
+  state.source = b.dataset.source; render();
+});
 $("groups").addEventListener("change", (e) => {
   const t = e.target;
   if (t.dataset.type) { if (t.checked) state.types.add(t.dataset.type); else state.types.delete(t.dataset.type); }
@@ -714,15 +685,15 @@ $("groups").addEventListener("change", (e) => {
 });
 $("svcAll").addEventListener("click", () => { state.types = new Set(ALL_TYPES); render(); });
 $("svcNone").addEventListener("click", () => { state.types = new Set(); render(); });
-document.addEventListener("keydown", (e) => { if (e.key === "Escape" && state.panel && !$("about").open) closePanel(); });
 
-// About us (hidden until site/about.json is filled in). Opens from the corner button or a link to #about.
+// About us (hidden until site/about.json is filled in). Opens from the header button or a link to #about.
 if (ABOUT) {
   const dialog = $("about");
+  const tints = ["--peach", "--sky", "--mint", "--pink", "--lemon", "--lilac"];
   const initials = (name) => name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0].toUpperCase()).join("");
   $("aboutTitle").querySelector("span").textContent = ABOUT.heading;
   $("aboutIntro").textContent = ABOUT.intro; $("aboutIntro").hidden = !ABOUT.intro;
-  $("aboutPeople").innerHTML = ABOUT.people.map((p) => `<div class="person">`
+  $("aboutPeople").innerHTML = ABOUT.people.map((p, i) => `<div class="person" style="--tint:var(${tints[i % tints.length]})">`
     + `<span class="avatar" aria-hidden="true">${esc(initials(p.name))}</span><span><b>${esc(p.name)}</b>${p.role ? `<small>${esc(p.role)}</small>` : ""}</span></div>`).join("");
   $("aboutStory").innerHTML = ABOUT.story.map((para) => `<p>${esc(para)}</p>`).join("");
   $("aboutSignoff").textContent = ABOUT.signoff; $("aboutSignoff").hidden = !ABOUT.signoff;
@@ -738,6 +709,7 @@ if (ABOUT) {
 }
 
 // Light / dark toggle. The icon shows the current mode; a click switches to the other one and remembers it.
+const darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
 const currentTheme = () => document.documentElement.dataset.theme || (darkQuery.matches ? "dark" : "light");
 function syncThemeButton() {
   const mode = currentTheme(), next = mode === "dark" ? "light" : "dark";
@@ -745,7 +717,7 @@ function syncThemeButton() {
   btn.dataset.mode = mode;
   btn.setAttribute("aria-label", `Switch to ${next} mode`);
   btn.title = `Switch to ${next} mode`;
-  document.querySelector('meta[name="theme-color"]').content = mode === "dark" ? "#22262f" : "#ffffff";
+  document.querySelector('meta[name="theme-color"]').content = mode === "dark" ? "#17142b" : "#fdf8ff";
 }
 $("themeToggle").addEventListener("click", () => {
   const next = currentTheme() === "dark" ? "light" : "dark";
@@ -756,13 +728,9 @@ $("themeToggle").addEventListener("click", () => {
 darkQuery.addEventListener("change", syncThemeButton);
 syncThemeButton();
 
-// Re-color the map (pins, outlines and light/dark map tiles) when the theme changes
-const recolor = () => {
-  colorCache = new Map();
-  if (map) { map.removeLayer(tiles); tiles = tileLayer().addTo(map); tiles.bringToBack(); baseLayer.setStyle(basemapStyle); }
-  render();
-};
-darkQuery.addEventListener("change", recolor);
+// Re-color the map when the viewer's theme changes
+const recolor = () => { colorCache = new Map(); if (baseLayer) baseLayer.setStyle(basemapStyle); render(); };
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", recolor);
 new MutationObserver(recolor).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
 $("dataDate").textContent = DATA_DATE;
