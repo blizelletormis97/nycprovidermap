@@ -219,7 +219,10 @@ async function main() {
     .filter((t) => t && !["INC", "INCORPORATED", "THE", "OF", "AND", "FOR", "CORP", "CORPORATION", "LLC", "LTD", "CO"].includes(t)).join(" ");
   const directoryPhones = new Map<string, string>();
   const opwdd: CachedProvider[] = JSON.parse(readFileSync(join(process.cwd(), "src/data/opwdd-geocoded.json"), "utf-8"));
-  for (const p of opwdd) if (p.phone && !directoryPhones.has(agencyKey(p.name))) directoryPhones.set(agencyKey(p.name), p.phone);
+  for (const p of opwdd) {
+    const name = p.listedName ?? p.name;
+    if (p.phone && !directoryPhones.has(agencyKey(name))) directoryPhones.set(agencyKey(name), p.phone);
+  }
   const digits = (p?: string) => (p ?? "").replace(/\D/g, "").slice(0, 10);
   const updatedPhones = new Set<string>();
   for (const site of cached) {

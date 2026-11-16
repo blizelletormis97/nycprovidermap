@@ -165,8 +165,8 @@ bun run src/lib/seed-article16.ts
 # Check Article 16 addresses against current Medicaid clinic enrollments (flags the rest "call to confirm")
 bun run src/lib/verify-article16.ts
 
-# Add websites to clinics, Medicaid sites and home health agencies from the OPWDD agency directory (run last)
-bun run src/lib/link-websites.ts
+# Spell out provider names in full and add websites from the OPWDD agency directory (run last)
+bun run src/lib/link-agencies.ts
 ```
 
 To update Article 16 clinics, download the latest list from OPWDD, extract its table to
@@ -238,7 +238,12 @@ src/
   - **Addresses:** `verify-article16.ts` confirms each address against the weekly-updated Medicaid listing (a
     Medicaid-enrolled clinic at the same address today). Unconfirmed sites are labeled "check with the provider to confirm" on the map.
 - Phone extensions are kept in the data files (the public site does not show phone numbers).
-- **Websites:** only the OPWDD agency directory lists websites. `link-websites.ts` gives Article 16 clinics and
+- **Full names:** the state's lists shorten names ("COMM MAINSTREAMING INC SPT") and the Medicaid listing cuts them off
+  at 35 characters. `link-agencies.ts` shows each Medicaid site under its agency's full name (matched to the OPWDD
+  directory or the Article 16 list), and `src/lib/full-names.ts` spells out every abbreviation, drops Medicaid program
+  codes (DAY, SPV, ICF...) and "Inc."/"Ltd.", and fixes cut-off names from a hand-checked list. Organizations whose
+  name is an acronym (YAI, NYSARC, The ARC, AHRC, BOCES...) keep it. The name as listed is kept in `listedName`.
+- **Websites:** only the OPWDD agency directory lists websites. `link-agencies.ts` gives Article 16 clinics and
   Medicaid sites the website of the same agency in that directory, matching names word by word after expanding
   abbreviations ("MONROE CO CHAP NYSARC DAY" = "MONROE CO. NYSARC INC."); matches were checked by hand and known
   mismatches are excluded. State-operated offices and clinics link to opwdd.ny.gov. Home health agencies link to

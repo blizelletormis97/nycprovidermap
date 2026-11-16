@@ -1,7 +1,7 @@
 [
   {
     "source": "homecare",
-    "name": "Able Health Care Service Inc",
+    "name": "Able Health Care Service",
     "services": [
       "Special Needs Home Health"
     ],
@@ -21,11 +21,12 @@
     "phone": "(516) 933-7000",
     "website": "https://profiles.health.ny.gov/home_care/view/14059",
     "lat": 40.708217,
-    "lng": -73.618384
+    "lng": -73.618384,
+    "listedName": "Able Health Care Service Inc"
   },
   {
     "source": "homecare",
-    "name": "Americare Certified Special Services Inc",
+    "name": "Americare Certified Special Services",
     "services": [
       "Special Needs Home Health"
     ],
@@ -46,11 +47,12 @@
     "phone": "(718) 535-3100",
     "website": "https://profiles.health.ny.gov/home_care/view/14082",
     "lat": 40.609184,
-    "lng": -73.914093
+    "lng": -73.914093,
+    "listedName": "Americare Certified Special Services Inc"
   },
   {
     "source": "homecare",
-    "name": "Datahr Home Health Care, Inc.",
+    "name": "Datahr Home Health Care",
     "services": [
       "Special Needs Home Health"
     ],
@@ -64,7 +66,8 @@
     "phone": "(914) 242-1903",
     "website": "https://profiles.health.ny.gov/home_care/view/14107",
     "lat": 41.213188,
-    "lng": -73.727211
+    "lng": -73.727211,
+    "listedName": "Datahr Home Health Care, Inc."
   },
   {
     "source": "homecare",
@@ -92,7 +95,7 @@
   },
   {
     "source": "homecare",
-    "name": "People, Home Health Services-Certified, Inc",
+    "name": "People Home Health Services-Certified",
     "services": [
       "Special Needs Home Health"
     ],
@@ -106,7 +109,8 @@
     "phone": "(716) 634-8132",
     "website": "https://profiles.health.ny.gov/home_care/view/14103",
     "lat": 42.9733,
-    "lng": -78.80524
+    "lng": -78.80524,
+    "listedName": "People, Home Health Services-Certified, Inc"
   },
   {
     "source": "homecare",

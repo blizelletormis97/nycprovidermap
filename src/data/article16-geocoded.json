@@ -1,7 +1,7 @@
 [
   {
     "source": "article16",
-    "name": "ABILITY BEYOND DISABILITY",
+    "name": "Ability Beyond Disability",
     "services": [
       "Article 16 Clinic"
     ],
@@ -13,11 +13,12 @@
     "lat": 41.178047488054,
     "lng": -73.749955631123,
     "unconfirmed": true,
-    "website": "http://www.abilitybeyonddisability.org"
+    "website": "http://www.abilitybeyonddisability.org",
+    "listedName": "ABILITY BEYOND DISABILITY"
   },
   {
     "source": "article16",
-    "name": "ACCESSCNY, INC.",
+    "name": "AccessCNY",
     "services": [
       "Article 16 Clinic"
     ],
@@ -28,11 +29,12 @@
     "phone": "(315) 455-7591",
     "lat": 43.07913,
     "lng": -76.14518,
-    "website": "http://www.accesscny.org"
+    "website": "http://www.accesscny.org",
+    "listedName": "ACCESSCNY, INC."
   },
   {
     "source": "article16",
-    "name": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC.",
+    "name": "Adults and Children with Learning and Developmental Disabilities",
     "services": [
       "Article 16 Clinic"
     ],
@@ -42,11 +44,12 @@
     "county": "Nassau",
     "phone": "(516) 822-0028",
     "lat": 40.75768,
-    "lng": -73.49955
+    "lng": -73.49955,
+    "listedName": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC."
   },
   {
     "source": "article16",
-    "name": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC.",
+    "name": "Adults and Children with Learning and Developmental Disabilities",
     "services": [
       "Article 16 Satellite"
     ],
@@ -56,11 +59,12 @@
     "county": "Nassau",
     "phone": "(516) 822-0028",
     "lat": 40.75754773458,
-    "lng": -73.499596162312
+    "lng": -73.499596162312,
+    "listedName": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC."
   },
   {
     "source": "article16",
-    "name": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC.",
+    "name": "Adults and Children with Learning and Developmental Disabilities",
     "services": [
       "Article 16 Satellite"
     ],
@@ -70,11 +74,12 @@
     "county": "Suffolk",
     "phone": "(516) 822-0028",
     "lat": 40.816509747312,
-    "lng": -73.259152625214
+    "lng": -73.259152625214,
+    "listedName": "ADULTS AND CHILDREN WITH LEARNING AND DEVELOPMENTAL DISABILITIES, INC."
   },
   {
     "source": "article16",
-    "name": "ANDERSON CENTER SERVICES, INC.",
+    "name": "Anderson Center Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -85,11 +90,12 @@
     "phone": "(845) 889-4034",
     "lat": 42.050830508492,
     "lng": -73.95703299845,
-    "website": "https://www.andersoncenterforautism.org"
+    "website": "https://www.andersoncenterforautism.org",
+    "listedName": "ANDERSON CENTER SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "ANDERSON CENTER SERVICES, INC.",
+    "name": "Anderson Center Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -100,11 +106,12 @@
     "phone": "(845) 889-4034",
     "lat": 41.738062981465,
     "lng": -73.909376066458,
-    "website": "https://www.andersoncenterforautism.org"
+    "website": "https://www.andersoncenterforautism.org",
+    "listedName": "ANDERSON CENTER SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "ANDERSON CENTER SERVICES, INC.",
+    "name": "Anderson Center Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -115,11 +122,12 @@
     "phone": "(845) 889-4034",
     "lat": 41.748855828694,
     "lng": -73.839978265299,
-    "website": "https://www.andersoncenterforautism.org"
+    "website": "https://www.andersoncenterforautism.org",
+    "listedName": "ANDERSON CENTER SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "ANDERSON CENTER SERVICES, INC.",
+    "name": "Anderson Center Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -130,11 +138,12 @@
     "phone": "(845) 889-4034",
     "lat": 41.620822202088,
     "lng": -73.887701619134,
-    "website": "https://www.andersoncenterforautism.org"
+    "website": "https://www.andersoncenterforautism.org",
+    "listedName": "ANDERSON CENTER SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "ANDERSON CENTER SERVICES, INC.",
+    "name": "Anderson Center Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -145,11 +154,12 @@
     "phone": "(845) 889-4034",
     "lat": 42.771511622753,
     "lng": -73.754644460207,
-    "website": "https://www.andersoncenterforautism.org"
+    "website": "https://www.andersoncenterforautism.org",
+    "listedName": "ANDERSON CENTER SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "name": "ARC Health Resources of Rockland",
     "services": [
       "Article 16 Clinic"
     ],
@@ -160,11 +170,12 @@
     "phone": "(845) 267-2500",
     "lat": 41.164311437177,
     "lng": -73.993764273768,
-    "website": "http://www.thearcrockland.org"
+    "website": "http://www.thearcrockland.org",
+    "listedName": "ARC HEALTH RESOURCES OF ROCKLAND, INC."
   },
   {
     "source": "article16",
-    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "name": "ARC Health Resources of Rockland",
     "services": [
       "Article 16 Satellite"
     ],
@@ -175,11 +186,12 @@
     "phone": "(845) 267-2500",
     "lat": 41.058267199222,
     "lng": -74.020129485404,
-    "website": "http://www.thearcrockland.org"
+    "website": "http://www.thearcrockland.org",
+    "listedName": "ARC HEALTH RESOURCES OF ROCKLAND, INC."
   },
   {
     "source": "article16",
-    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "name": "ARC Health Resources of Rockland",
     "services": [
       "Article 16 Satellite"
     ],
@@ -190,11 +202,12 @@
     "phone": "(845) 267-2500",
     "lat": 41.116686988652,
     "lng": -74.15465064321,
-    "website": "http://www.thearcrockland.org"
+    "website": "http://www.thearcrockland.org",
+    "listedName": "ARC HEALTH RESOURCES OF ROCKLAND, INC."
   },
   {
     "source": "article16",
-    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "name": "ARC Health Resources of Rockland",
     "services": [
       "Article 16 Satellite"
     ],
@@ -205,11 +218,12 @@
     "phone": "(845) 267-2500",
     "lat": 41.08808,
     "lng": -74.03025,
-    "website": "http://www.thearcrockland.org"
+    "website": "http://www.thearcrockland.org",
+    "listedName": "ARC HEALTH RESOURCES OF ROCKLAND, INC."
   },
   {
     "source": "article16",
-    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "name": "ARC Health Resources of Rockland",
     "services": [
       "Article 16 Satellite"
     ],
@@ -221,11 +235,12 @@
     "lat": 41.043916570611,
     "lng": -73.953348489205,
     "unconfirmed": true,
-    "website": "http://www.thearcrockland.org"
+    "website": "http://www.thearcrockland.org",
+    "listedName": "ARC HEALTH RESOURCES OF ROCKLAND, INC."
   },
   {
     "source": "article16",
-    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "name": "ARC Health Resources of Rockland",
     "services": [
       "Article 16 Satellite"
     ],
@@ -236,11 +251,12 @@
     "phone": "(845) 267-2500",
     "lat": 41.12917,
     "lng": -73.94044,
-    "website": "http://www.thearcrockland.org"
+    "website": "http://www.thearcrockland.org",
+    "listedName": "ARC HEALTH RESOURCES OF ROCKLAND, INC."
   },
   {
     "source": "article16",
-    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "name": "ARC Health Resources of Rockland",
     "services": [
       "Article 16 Satellite"
     ],
@@ -252,11 +268,12 @@
     "lat": 41.162417122848,
     "lng": -73.97747285717,
     "unconfirmed": true,
-    "website": "http://www.thearcrockland.org"
+    "website": "http://www.thearcrockland.org",
+    "listedName": "ARC HEALTH RESOURCES OF ROCKLAND, INC."
   },
   {
     "source": "article16",
-    "name": "ARC HEALTH RESOURCES OF ROCKLAND, INC.",
+    "name": "ARC Health Resources of Rockland",
     "services": [
       "Article 16 Satellite"
     ],
@@ -267,11 +284,12 @@
     "phone": "(845) 267-2500",
     "lat": 41.088127294657,
     "lng": -73.922002226206,
-    "website": "http://www.thearcrockland.org"
+    "website": "http://www.thearcrockland.org",
+    "listedName": "ARC HEALTH RESOURCES OF ROCKLAND, INC."
   },
   {
     "source": "article16",
-    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "name": "Aspire of Western New York",
     "services": [
       "Article 16 Clinic"
     ],
@@ -282,11 +300,12 @@
     "phone": "(716) 505-5500",
     "lat": 42.932486155179,
     "lng": -78.774235355707,
-    "website": "http://www.aspirewny.org"
+    "website": "http://www.aspirewny.org",
+    "listedName": "ASPIRE OF WESTERN NEW YORK, INC."
   },
   {
     "source": "article16",
-    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "name": "Aspire of Western New York",
     "services": [
       "Article 16 Satellite"
     ],
@@ -297,11 +316,12 @@
     "phone": "(716) 505-5500",
     "lat": 43.008752928826,
     "lng": -78.775363772817,
-    "website": "http://www.aspirewny.org"
+    "website": "http://www.aspirewny.org",
+    "listedName": "ASPIRE OF WESTERN NEW YORK, INC."
   },
   {
     "source": "article16",
-    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "name": "Aspire of Western New York",
     "services": [
       "Article 16 Satellite"
     ],
@@ -312,11 +332,12 @@
     "phone": "(716) 505-5500",
     "lat": 42.95413,
     "lng": -78.72729,
-    "website": "http://www.aspirewny.org"
+    "website": "http://www.aspirewny.org",
+    "listedName": "ASPIRE OF WESTERN NEW YORK, INC."
   },
   {
     "source": "article16",
-    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "name": "Aspire of Western New York",
     "services": [
       "Article 16 Satellite"
     ],
@@ -327,11 +348,12 @@
     "phone": "(716) 505-5500",
     "lat": 42.93958,
     "lng": -78.83858,
-    "website": "http://www.aspirewny.org"
+    "website": "http://www.aspirewny.org",
+    "listedName": "ASPIRE OF WESTERN NEW YORK, INC."
   },
   {
     "source": "article16",
-    "name": "ASPIRE OF WESTERN NEW YORK, INC.",
+    "name": "Aspire of Western New York",
     "services": [
       "Article 16 Satellite"
     ],
@@ -342,11 +364,12 @@
     "phone": "(716) 505-5500",
     "lat": 42.715951632951,
     "lng": -78.831836544913,
-    "website": "http://www.aspirewny.org"
+    "website": "http://www.aspirewny.org",
+    "listedName": "ASPIRE OF WESTERN NEW YORK, INC."
   },
   {
     "source": "article16",
-    "name": "BERNARD M. FINESON DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Bernard M. Fineson Developmental Disabilities Services Office",
     "services": [
       "Article 16 Clinic"
     ],
@@ -357,11 +380,12 @@
     "phone": "(718) 217-4242",
     "lat": 40.74122,
     "lng": -73.73114,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BERNARD M. FINESON DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "BERNARD M. FINESON DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Bernard M. Fineson Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -372,11 +396,12 @@
     "phone": "(718) 217-4242",
     "lat": 40.81045,
     "lng": -73.27462,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BERNARD M. FINESON DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "BLOCK INSTITUTE, INC.",
+    "name": "Block Institute",
     "services": [
       "Article 16 Clinic"
     ],
@@ -387,11 +412,12 @@
     "phone": "(718) 946-9700",
     "lat": 40.592544337148,
     "lng": -73.984518653926,
-    "website": "http://blockinstitute.org"
+    "website": "http://blockinstitute.org",
+    "listedName": "BLOCK INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "BLOCK INSTITUTE, INC.",
+    "name": "Block Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -402,11 +428,12 @@
     "phone": "(718) 946-9700",
     "lat": 40.58897,
     "lng": -73.99102,
-    "website": "http://blockinstitute.org"
+    "website": "http://blockinstitute.org",
+    "listedName": "BLOCK INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Broome Developmental Disabilities Services Office",
     "services": [
       "Article 16 Clinic"
     ],
@@ -417,11 +444,12 @@
     "phone": "(607) 770-0211",
     "lat": 42.10988,
     "lng": -75.94251,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Broome Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -432,11 +460,12 @@
     "phone": "(607) 770-0211",
     "lat": 42.12404,
     "lng": -75.93603,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Broome Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -447,11 +476,12 @@
     "phone": "(607) 770-0211",
     "lat": 42.54081,
     "lng": -75.51029,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Broome Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -462,11 +492,12 @@
     "phone": "(607) 770-0211",
     "lat": 42.46657,
     "lng": -75.05466,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Broome Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -477,11 +508,12 @@
     "phone": "(607) 770-0211",
     "lat": 42.46553,
     "lng": -76.53578,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Broome Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -492,11 +524,12 @@
     "phone": "(607) 770-0211",
     "lat": 42.09218,
     "lng": -75.92641,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Broome Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -507,11 +540,12 @@
     "phone": "(607) 770-0211",
     "lat": 42.62317,
     "lng": -75.33733,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Broome Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -522,11 +556,12 @@
     "phone": "(607) 770-0211",
     "lat": 42.01194,
     "lng": -76.08131,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "BROOME DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Capital District Developmental Disabilities Services Office",
     "services": [
       "Article 16 Clinic"
     ],
@@ -537,11 +572,12 @@
     "phone": "(518) 370-7370",
     "lat": 43.24578,
     "lng": -73.81423,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Capital District Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -552,11 +588,12 @@
     "phone": "(518) 370-7370",
     "lat": 42.77954,
     "lng": -73.89095,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Capital District Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -567,11 +604,12 @@
     "phone": "(518) 370-7370",
     "lat": 43.28074,
     "lng": -73.59122,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Capital District Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -582,11 +620,12 @@
     "phone": "(518) 370-7370",
     "lat": 43.10472,
     "lng": -73.57946,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CAPITAL DISTRICT DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CATTARAUGUS REHABILITATION CENTER, INC.",
+    "name": "Cattaraugus Rehabilitation Center",
     "services": [
       "Article 16 Clinic"
     ],
@@ -597,11 +636,12 @@
     "phone": "(716) 375-4747",
     "lat": 42.082285645293,
     "lng": -78.4481218268,
-    "website": "http://www.rehabcenter.org"
+    "website": "http://www.rehabcenter.org",
+    "listedName": "CATTARAUGUS REHABILITATION CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "CATTARAUGUS REHABILITATION CENTER, INC.",
+    "name": "Cattaraugus Rehabilitation Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -612,11 +652,12 @@
     "phone": "(716) 375-4747",
     "lat": 42.091849193101,
     "lng": -78.506496251266,
-    "website": "http://www.rehabcenter.org"
+    "website": "http://www.rehabcenter.org",
+    "listedName": "CATTARAUGUS REHABILITATION CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "CATTARAUGUS REHABILITATION CENTER, INC.",
+    "name": "Cattaraugus Rehabilitation Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -627,11 +668,12 @@
     "phone": "(716) 375-4747",
     "lat": 42.151591120914,
     "lng": -78.718830960907,
-    "website": "http://www.rehabcenter.org"
+    "website": "http://www.rehabcenter.org",
+    "listedName": "CATTARAUGUS REHABILITATION CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "name": "Center for Disability Services",
     "services": [
       "Article 16 Clinic"
     ],
@@ -642,11 +684,12 @@
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.65748,
     "lng": -73.80429,
-    "website": "http://www.cfdsny.org"
+    "website": "http://www.cfdsny.org",
+    "listedName": "CENTER FOR DISABILITY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "name": "Center for Disability Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -657,11 +700,12 @@
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.629045301143,
     "lng": -73.766452729152,
-    "website": "http://www.cfdsny.org"
+    "website": "http://www.cfdsny.org",
+    "listedName": "CENTER FOR DISABILITY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "name": "Center for Disability Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -672,11 +716,12 @@
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.892026178172,
     "lng": -73.902215612305,
-    "website": "http://www.cfdsny.org"
+    "website": "http://www.cfdsny.org",
+    "listedName": "CENTER FOR DISABILITY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "name": "Center for Disability Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -687,11 +732,12 @@
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.702499858775,
     "lng": -73.876251938265,
-    "website": "http://www.cfdsny.org"
+    "website": "http://www.cfdsny.org",
+    "listedName": "CENTER FOR DISABILITY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "name": "Center for Disability Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -703,11 +749,12 @@
     "lat": 42.695422273531,
     "lng": -73.890002716159,
     "unconfirmed": true,
-    "website": "http://www.cfdsny.org"
+    "website": "http://www.cfdsny.org",
+    "listedName": "CENTER FOR DISABILITY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "name": "Center for Disability Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -719,11 +766,12 @@
     "lat": 42.628774981658,
     "lng": -73.812868762739,
     "unconfirmed": true,
-    "website": "http://www.cfdsny.org"
+    "website": "http://www.cfdsny.org",
+    "listedName": "CENTER FOR DISABILITY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "name": "Center for Disability Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -734,11 +782,12 @@
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.676096883683,
     "lng": -73.82220869351,
-    "website": "http://www.cfdsny.org"
+    "website": "http://www.cfdsny.org",
+    "listedName": "CENTER FOR DISABILITY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "name": "Center for Disability Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -749,11 +798,12 @@
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 43.33541,
     "lng": -73.71371,
-    "website": "http://www.cfdsny.org"
+    "website": "http://www.cfdsny.org",
+    "listedName": "CENTER FOR DISABILITY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "CENTER FOR DISABILITY SERVICES, INC.",
+    "name": "Center for Disability Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -764,11 +814,12 @@
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.640513066325,
     "lng": -74.323567063313,
-    "website": "http://www.cfdsny.org"
+    "website": "http://www.cfdsny.org",
+    "listedName": "CENTER FOR DISABILITY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Clinic"
     ],
@@ -779,11 +830,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.0923,
     "lng": -76.07028,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -794,11 +846,12 @@
     "phone": "(315) 473-2949",
     "lat": 42.988157391023,
     "lng": -76.20219287938,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -809,11 +862,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.21215,
     "lng": -75.46023,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -824,11 +878,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.21424,
     "lng": -75.46151,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -839,11 +894,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.13265,
     "lng": -75.58306,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -854,11 +910,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.88199,
     "lng": -75.5237,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -869,11 +926,12 @@
     "phone": "(315) 473-2949",
     "lat": 42.91933,
     "lng": -76.54602,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -884,11 +942,12 @@
     "phone": "(315) 473-2949",
     "lat": 42.59283,
     "lng": -76.1851,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -899,11 +958,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.28147,
     "lng": -75.45029,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -914,11 +974,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.04346,
     "lng": -75.07996,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -929,11 +990,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.12669,
     "lng": -76.1256,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -944,11 +1006,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.13367,
     "lng": -75.2569,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -959,11 +1022,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.21061,
     "lng": -75.46379,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -974,11 +1038,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.33078,
     "lng": -75.74288,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -989,11 +1054,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.26026,
     "lng": -75.46223,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1004,11 +1070,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.03987,
     "lng": -76.29252,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1019,11 +1086,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.04144003321,
     "lng": -76.119416986345,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1034,11 +1102,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.76821,
     "lng": -75.46398,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1049,11 +1118,12 @@
     "phone": "(315) 473-2949",
     "lat": 43.059944183787,
     "lng": -76.133148993516,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "CENTRAL NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Chemung-Schuyler Counties Chapter NYSARC",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1064,11 +1134,12 @@
     "phone": "(607) 535-6934",
     "lat": 42.10129,
     "lng": -76.79805,
-    "website": "http://www.arcofschuyler.org"
+    "website": "http://www.arcofschuyler.org",
+    "listedName": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Chemung-Schuyler Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1079,11 +1150,12 @@
     "phone": "(607) 535-6934",
     "lat": 42.164957138181,
     "lng": -76.836297529322,
-    "website": "http://www.arcofschuyler.org"
+    "website": "http://www.arcofschuyler.org",
+    "listedName": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Chemung-Schuyler Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1094,11 +1166,12 @@
     "phone": "(607) 535-6934",
     "lat": 42.37481,
     "lng": -76.86715,
-    "website": "http://www.arcofschuyler.org"
+    "website": "http://www.arcofschuyler.org",
+    "listedName": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Chemung-Schuyler Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1109,11 +1182,12 @@
     "phone": "(607) 535-6934",
     "lat": 42.376213634735,
     "lng": -76.867060281828,
-    "website": "http://www.arcofschuyler.org"
+    "website": "http://www.arcofschuyler.org",
+    "listedName": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Chemung-Schuyler Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1124,11 +1198,12 @@
     "phone": "(607) 535-6934",
     "lat": 42.141989331779,
     "lng": -77.050234334613,
-    "website": "http://www.arcofschuyler.org"
+    "website": "http://www.arcofschuyler.org",
+    "listedName": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Chemung-Schuyler Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1140,11 +1215,12 @@
     "lat": 42.360993322057,
     "lng": -77.298978431166,
     "unconfirmed": true,
-    "website": "http://www.arcofschuyler.org"
+    "website": "http://www.arcofschuyler.org",
+    "listedName": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Chemung-Schuyler Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1155,11 +1231,12 @@
     "phone": "(607) 535-6934",
     "lat": 42.328919216935,
     "lng": -77.661349491075,
-    "website": "http://www.arcofschuyler.org"
+    "website": "http://www.arcofschuyler.org",
+    "listedName": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Chemung-Schuyler Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1170,11 +1247,12 @@
     "phone": "(607) 535-6934",
     "lat": 42.129987063784,
     "lng": -77.950304361971,
-    "website": "http://www.arcofschuyler.org"
+    "website": "http://www.arcofschuyler.org",
+    "listedName": "CHEMUNG-SCHUYLER COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC.",
+    "name": "Community Assistance Resources and Extended Services",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1185,11 +1263,12 @@
     "phone": "(212) 420-1970",
     "lat": 40.71502,
     "lng": -73.98396,
-    "website": "http://www.caresnys.org"
+    "website": "http://www.caresnys.org",
+    "listedName": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC.",
+    "name": "Community Assistance Resources and Extended Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1200,11 +1279,12 @@
     "phone": "(212) 420-1970",
     "lat": 40.623921011371,
     "lng": -73.94141825117,
-    "website": "http://www.caresnys.org"
+    "website": "http://www.caresnys.org",
+    "listedName": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC.",
+    "name": "Community Assistance Resources and Extended Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1216,11 +1296,12 @@
     "lat": 40.60866988856,
     "lng": -73.997708867582,
     "unconfirmed": true,
-    "website": "http://www.caresnys.org"
+    "website": "http://www.caresnys.org",
+    "listedName": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC.",
+    "name": "Community Assistance Resources and Extended Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1231,11 +1312,12 @@
     "phone": "(212) 420-1970",
     "lat": 40.599654052469,
     "lng": -73.948387773169,
-    "website": "http://www.caresnys.org"
+    "website": "http://www.caresnys.org",
+    "listedName": "COMMUNITY ASSISTANCE RESOURCES & EXTENDED SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "COMMUNITY, WORK, AND INDEPENDENCE, INC.",
+    "name": "Community, Work and Independence",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1246,11 +1328,12 @@
     "phone": "(518) 793-4700",
     "lat": 43.326269737552,
     "lng": -73.646398128469,
-    "website": "http://www.cwinc.org"
+    "website": "http://www.cwinc.org",
+    "listedName": "COMMUNITY, WORK, AND INDEPENDENCE, INC."
   },
   {
     "source": "article16",
-    "name": "COMMUNITY, WORK, AND INDEPENDENCE, INC.",
+    "name": "Community, Work and Independence",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1261,11 +1344,12 @@
     "phone": "(518) 793-4700",
     "lat": 43.299710009128,
     "lng": -73.574615522773,
-    "website": "http://www.cwinc.org"
+    "website": "http://www.cwinc.org",
+    "listedName": "COMMUNITY, WORK, AND INDEPENDENCE, INC."
   },
   {
     "source": "article16",
-    "name": "COMMUNITY, WORK, AND INDEPENDENCE, INC.",
+    "name": "Community, Work and Independence",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1276,11 +1360,12 @@
     "phone": "(518) 793-4700",
     "lat": 43.299710009128,
     "lng": -73.574615522773,
-    "website": "http://www.cwinc.org"
+    "website": "http://www.cwinc.org",
+    "listedName": "COMMUNITY, WORK, AND INDEPENDENCE, INC."
   },
   {
     "source": "article16",
-    "name": "COMMUNITY, WORK, AND INDEPENDENCE, INC.",
+    "name": "Community, Work and Independence",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1291,11 +1376,12 @@
     "phone": "(518) 793-4700",
     "lat": 43.315975964423,
     "lng": -73.612308718936,
-    "website": "http://www.cwinc.org"
+    "website": "http://www.cwinc.org",
+    "listedName": "COMMUNITY, WORK, AND INDEPENDENCE, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1306,11 +1392,12 @@
     "phone": "(516) 739-7733",
     "lat": 40.72259,
     "lng": -73.57812,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1321,11 +1408,12 @@
     "phone": "(516) 739-7733",
     "lat": 40.777621909582,
     "lng": -73.048577455618,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1337,11 +1425,12 @@
     "lat": 40.81125,
     "lng": -72.95342,
     "unconfirmed": true,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1352,11 +1441,12 @@
     "phone": "(516) 739-7733",
     "lat": 40.80937844987,
     "lng": -73.019520385209,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1367,11 +1457,12 @@
     "phone": "(516) 739-7733",
     "lat": 40.767042895543,
     "lng": -73.006940028451,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1383,11 +1474,12 @@
     "lat": 40.934017580205,
     "lng": -73.054284890545,
     "unconfirmed": true,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1398,11 +1490,12 @@
     "phone": "(516) 739-7733",
     "lat": 40.92881,
     "lng": -73.05125,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1413,11 +1506,12 @@
     "phone": "(516) 739-7733",
     "lat": 40.928093756191,
     "lng": -72.678413343376,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1428,11 +1522,12 @@
     "phone": "(516) 739-7733",
     "lat": 41.27837,
     "lng": -73.93885,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1443,11 +1538,12 @@
     "phone": "(516) 739-7733",
     "lat": 40.83254,
     "lng": -73.48224,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1458,11 +1554,12 @@
     "phone": "(516) 739-7733",
     "lat": 40.69278,
     "lng": -73.50794,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "EPIC LONG ISLAND, INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1473,11 +1570,12 @@
     "phone": "(516) 739-7733",
     "lat": 40.767703650154,
     "lng": -73.006994881413,
-    "website": "http://www.efli.org"
+    "website": "http://www.efli.org",
+    "listedName": "EPIC LONG ISLAND, INC."
   },
   {
     "source": "article16",
-    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "name": "Finger Lakes Developmental Disabilities Services Office",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1487,11 +1585,12 @@
     "county": "Monroe",
     "phone": "(585) 461-8500",
     "lat": 43.11502,
-    "lng": -77.604
+    "lng": -77.604,
+    "listedName": "FINGER LAKES DEVELOPMENTAL DISABILITIES"
   },
   {
     "source": "article16",
-    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "name": "Finger Lakes Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1501,11 +1600,12 @@
     "county": "Monroe",
     "phone": "(585) 461-8500",
     "lat": 43.0773,
-    "lng": -77.60727
+    "lng": -77.60727,
+    "listedName": "FINGER LAKES DEVELOPMENTAL DISABILITIES"
   },
   {
     "source": "article16",
-    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "name": "Finger Lakes Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1515,11 +1615,12 @@
     "county": "Ontario",
     "phone": "(585) 461-8500",
     "lat": 42.873638673375,
-    "lng": -77.29143605806
+    "lng": -77.29143605806,
+    "listedName": "FINGER LAKES DEVELOPMENTAL DISABILITIES"
   },
   {
     "source": "article16",
-    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "name": "Finger Lakes Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1530,11 +1631,12 @@
     "phone": "(585) 461-8500",
     "lat": 42.852855928013,
     "lng": -77.010644970835,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "FINGER LAKES DEVELOPMENTAL DISABILITIES"
   },
   {
     "source": "article16",
-    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "name": "Finger Lakes Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1544,11 +1646,12 @@
     "county": "Wyoming",
     "phone": "(585) 461-8500",
     "lat": 42.71016,
-    "lng": -78.02015
+    "lng": -78.02015,
+    "listedName": "FINGER LAKES DEVELOPMENTAL DISABILITIES"
   },
   {
     "source": "article16",
-    "name": "FINGER LAKES DEVELOPMENTAL DISABILITIES",
+    "name": "Finger Lakes Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1559,11 +1662,12 @@
     "phone": "(585) 461-8500",
     "lat": 42.83336,
     "lng": -77.69333,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "FINGER LAKES DEVELOPMENTAL DISABILITIES"
   },
   {
     "source": "article16",
-    "name": "FINGER LAKES UNITED CEREBRAL PALSY, INC.",
+    "name": "Finger Lakes United Cerebral Palsy",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1573,11 +1677,12 @@
     "county": "Ontario",
     "phone": "(315) 789-6828",
     "lat": 42.89879446672,
-    "lng": -77.311586824281
+    "lng": -77.311586824281,
+    "listedName": "FINGER LAKES UNITED CEREBRAL PALSY, INC."
   },
   {
     "source": "article16",
-    "name": "FINGER LAKES UNITED CEREBRAL PALSY, INC.",
+    "name": "Finger Lakes United Cerebral Palsy",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1588,11 +1693,12 @@
     "phone": "(315) 789-6828",
     "lat": 42.86845,
     "lng": -77.00984,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "FINGER LAKES UNITED CEREBRAL PALSY, INC."
   },
   {
     "source": "article16",
-    "name": "FINGER LAKES UNITED CEREBRAL PALSY, INC.",
+    "name": "Finger Lakes United Cerebral Palsy",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1602,11 +1708,12 @@
     "county": "Ontario",
     "phone": "(315) 789-6828",
     "lat": 42.84379,
-    "lng": -76.9792
+    "lng": -76.9792,
+    "listedName": "FINGER LAKES UNITED CEREBRAL PALSY, INC."
   },
   {
     "source": "article16",
-    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Fulton-Schoharie Counties Chapter NYSARC",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1616,11 +1723,12 @@
     "county": "Fulton",
     "phone": "(518) 773-7931",
     "lat": 43.025401106143,
-    "lng": -74.367383729235
+    "lng": -74.367383729235,
+    "listedName": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Fulton-Schoharie Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1630,11 +1738,12 @@
     "county": "Fulton",
     "phone": "(518) 773-7931",
     "lat": 43.06817,
-    "lng": -74.33015
+    "lng": -74.33015,
+    "listedName": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Fulton-Schoharie Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1644,11 +1753,12 @@
     "county": "Fulton",
     "phone": "(518) 773-7931",
     "lat": 43.029211842487,
-    "lng": -74.35309598339
+    "lng": -74.35309598339,
+    "listedName": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Fulton-Schoharie Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1658,11 +1768,12 @@
     "county": "Fulton",
     "phone": "(518) 773-7931",
     "lat": 43.032760922793,
-    "lng": -74.354222895921
+    "lng": -74.354222895921,
+    "listedName": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Fulton-Schoharie Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1672,11 +1783,12 @@
     "county": "Fulton",
     "phone": "(518) 773-7931",
     "lat": 43.01441506201,
-    "lng": -74.36603361383
+    "lng": -74.36603361383,
+    "listedName": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Fulton-Schoharie Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1687,11 +1799,12 @@
     "phone": "(518) 773-7931",
     "lat": 42.702069197181,
     "lng": -73.815981337918,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC.",
+    "name": "Fulton-Schoharie Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1701,11 +1814,12 @@
     "county": "Schoharie",
     "phone": "(518) 773-7931",
     "lat": 42.640513066325,
-    "lng": -74.323567063313
+    "lng": -74.323567063313,
+    "listedName": "FULTON-SCHOHARIE COUNTIES CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "HAMASPIK OF KINGS COUNTY, INC.",
+    "name": "Hamaspik of Kings County",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1716,11 +1830,12 @@
     "phone": "(718) 387-8400",
     "lat": 40.707117243659,
     "lng": -73.955959324711,
-    "website": "http://www.hamaspikkings.org"
+    "website": "http://www.hamaspikkings.org",
+    "listedName": "HAMASPIK OF KINGS COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "HAMASPIK OF KINGS COUNTY, INC.",
+    "name": "Hamaspik of Kings County",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1732,11 +1847,12 @@
     "lat": 40.612808980509,
     "lng": -73.975383764869,
     "unconfirmed": true,
-    "website": "http://www.hamaspikkings.org"
+    "website": "http://www.hamaspikkings.org",
+    "listedName": "HAMASPIK OF KINGS COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "HAMASPIK OF KINGS COUNTY, INC.",
+    "name": "Hamaspik of Kings County",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1747,11 +1863,12 @@
     "phone": "(718) 387-8400",
     "lat": 40.63805,
     "lng": -73.9854,
-    "website": "http://www.hamaspikkings.org"
+    "website": "http://www.hamaspikkings.org",
+    "listedName": "HAMASPIK OF KINGS COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "HAMASPIK OF ORANGE COUNTY, INC.",
+    "name": "Hamaspik of Orange County",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1762,11 +1879,12 @@
     "phone": "(845) 774-8400",
     "lat": 41.33547,
     "lng": -74.1604,
-    "website": "http://www.hamaspikorange.org"
+    "website": "http://www.hamaspikorange.org",
+    "listedName": "HAMASPIK OF ORANGE COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "HAMASPIK OF ROCKLAND COUNTY, INC.",
+    "name": "Hamaspik of Rockland County",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1777,11 +1895,12 @@
     "phone": "(845) 356-8400",
     "lat": 41.10777,
     "lng": -74.06546,
-    "website": "http://www.hamaspikrockland.org"
+    "website": "http://www.hamaspikrockland.org",
+    "listedName": "HAMASPIK OF ROCKLAND COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "HAMASPIK OF ROCKLAND COUNTY, INC.",
+    "name": "Hamaspik of Rockland County",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1792,11 +1911,12 @@
     "phone": "(845) 356-8400",
     "lat": 41.109291884514,
     "lng": -74.046227727085,
-    "website": "http://www.hamaspikrockland.org"
+    "website": "http://www.hamaspikrockland.org",
+    "listedName": "HAMASPIK OF ROCKLAND COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "HAMASPIK OF ROCKLAND COUNTY, INC.",
+    "name": "Hamaspik of Rockland County",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1807,11 +1927,12 @@
     "phone": "(845) 356-8400",
     "lat": 41.105040689517,
     "lng": -74.045813269475,
-    "website": "http://www.hamaspikrockland.org"
+    "website": "http://www.hamaspikrockland.org",
+    "listedName": "HAMASPIK OF ROCKLAND COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "HAMASPIK OF ROCKLAND COUNTY, INC.",
+    "name": "Hamaspik of Rockland County",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1822,11 +1943,12 @@
     "phone": "(845) 356-8400",
     "lat": 41.08462981212,
     "lng": -74.055670774581,
-    "website": "http://www.hamaspikrockland.org"
+    "website": "http://www.hamaspikrockland.org",
+    "listedName": "HAMASPIK OF ROCKLAND COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "HARMONY SERVICES, INC.",
+    "name": "Harmony Services",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1836,11 +1958,12 @@
     "county": "Kings",
     "phone": "(718) 986-7648",
     "lat": 40.63949,
-    "lng": -73.98389
+    "lng": -73.98389,
+    "listedName": "HARMONY SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "name": "HASC Diagnostic and Treatment Center",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1851,11 +1974,12 @@
     "phone": "(718) 535-1956",
     "lat": 40.619811307331,
     "lng": -73.96124657695,
-    "website": "http://www.hasc.net"
+    "website": "http://www.hasc.net",
+    "listedName": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "name": "HASC Diagnostic and Treatment Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1866,11 +1990,12 @@
     "phone": "(718) 535-1956",
     "lat": 40.62233,
     "lng": -73.99253,
-    "website": "http://www.hasc.net"
+    "website": "http://www.hasc.net",
+    "listedName": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "name": "HASC Diagnostic and Treatment Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1881,11 +2006,12 @@
     "phone": "(718) 535-1956",
     "lat": 40.641647151978,
     "lng": -73.992650819468,
-    "website": "http://www.hasc.net"
+    "website": "http://www.hasc.net",
+    "listedName": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "name": "HASC Diagnostic and Treatment Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1896,11 +2022,12 @@
     "phone": "(718) 535-1956",
     "lat": 40.646982536662,
     "lng": -74.022609514018,
-    "website": "http://www.hasc.net"
+    "website": "http://www.hasc.net",
+    "listedName": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "name": "HASC Diagnostic and Treatment Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1911,11 +2038,12 @@
     "phone": "(718) 535-1956",
     "lat": 40.70981238399,
     "lng": -73.965971919704,
-    "website": "http://www.hasc.net"
+    "website": "http://www.hasc.net",
+    "listedName": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC.",
+    "name": "HASC Diagnostic and Treatment Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1926,11 +2054,12 @@
     "phone": "(718) 535-1956",
     "lat": 41.835191157285,
     "lng": -74.747637663073,
-    "website": "http://www.hasc.net"
+    "website": "http://www.hasc.net",
+    "listedName": "HASC DIAGNOSTIC AND TREATMENT CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Clinic"
     ],
@@ -1941,11 +2070,12 @@
     "phone": "(718) 422-3200",
     "lat": 40.690084924913,
     "lng": -73.986735325681,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1955,11 +2085,12 @@
     "county": "Queens",
     "phone": "(718) 422-3200",
     "lat": 40.753947625067,
-    "lng": -73.900158957966
+    "lng": -73.900158957966,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1969,11 +2100,12 @@
     "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.631903439236,
-    "lng": -74.026206118522
+    "lng": -74.026206118522,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1983,11 +2115,12 @@
     "county": "Richmond",
     "phone": "(718) 422-3200",
     "lat": 40.613840027362,
-    "lng": -74.158187546552
+    "lng": -74.158187546552,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -1997,11 +2130,12 @@
     "county": "Queens",
     "phone": "(718) 422-3200",
     "lat": 40.72075,
-    "lng": -73.80778
+    "lng": -73.80778,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2012,11 +2146,12 @@
     "phone": "(718) 422-3200",
     "lat": 40.690084924913,
     "lng": -73.986735325681,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2026,11 +2161,12 @@
     "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.658074510623,
-    "lng": -73.873755930341
+    "lng": -73.873755930341,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2040,11 +2176,12 @@
     "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.63672,
-    "lng": -74.02616
+    "lng": -74.02616,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2054,11 +2191,12 @@
     "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.636595623153,
-    "lng": -74.025615431369
+    "lng": -74.025615431369,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2068,11 +2206,12 @@
     "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.612341004445,
-    "lng": -73.940241627945
+    "lng": -73.940241627945,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2082,11 +2221,12 @@
     "county": "Queens",
     "phone": "(718) 422-3200",
     "lat": 40.70129,
-    "lng": -73.88589
+    "lng": -73.88589,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HEARTSHARE WELLNESS, LTD.",
+    "name": "HeartShare Wellness",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2096,11 +2236,12 @@
     "county": "Kings",
     "phone": "(718) 422-3200",
     "lat": 40.623218681641,
-    "lng": -73.932065619181
+    "lng": -73.932065619181,
+    "listedName": "HEARTSHARE WELLNESS, LTD."
   },
   {
     "source": "article16",
-    "name": "HUDSON VALLEY DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Hudson Valley Developmental Disabilities Services Office",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2111,11 +2252,12 @@
     "phone": "(845) 947-6100",
     "lat": 41.06404,
     "lng": -73.85265,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "HUDSON VALLEY DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "HUDSON VALLEY DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Hudson Valley Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2126,11 +2268,12 @@
     "phone": "(845) 947-6100",
     "lat": 41.45221,
     "lng": -74.34532,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "HUDSON VALLEY DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "JAWONIO, INC.",
+    "name": "Jawonio",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2141,11 +2284,12 @@
     "phone": "(845) 708-2000",
     "lat": 41.14841,
     "lng": -73.99416,
-    "website": "http://www.jawonio.org"
+    "website": "http://www.jawonio.org",
+    "listedName": "JAWONIO, INC."
   },
   {
     "source": "article16",
-    "name": "KELBERMAN CENTER, INC.",
+    "name": "Kelberman Center",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2157,11 +2301,12 @@
     "lat": 43.212350519646,
     "lng": -75.399222117837,
     "unconfirmed": true,
-    "website": "http://www.kelbermancenter.org"
+    "website": "http://www.kelbermancenter.org",
+    "listedName": "KELBERMAN CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "KELBERMAN CENTER, INC.",
+    "name": "Kelberman Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2172,11 +2317,12 @@
     "phone": "(315) 797-6241",
     "lat": 43.003317302646,
     "lng": -76.129964880048,
-    "website": "http://www.kelbermancenter.org"
+    "website": "http://www.kelbermancenter.org",
+    "listedName": "KELBERMAN CENTER, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2187,11 +2333,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.804152658018,
     "lng": -73.936737099756,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2202,11 +2349,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.709386187351,
     "lng": -73.774794292368,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2217,11 +2365,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.722808102256,
     "lng": -73.729288944268,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2232,11 +2381,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.704303645096,
     "lng": -73.797601609812,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2248,11 +2398,12 @@
     "lat": 40.700137624856,
     "lng": -73.828568336946,
     "unconfirmed": true,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2263,11 +2414,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.657843898251,
     "lng": -73.984710418596,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2278,11 +2430,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.650068074673,
     "lng": -74.015398047329,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2293,11 +2446,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.64943556299,
     "lng": -74.014593028083,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2309,11 +2463,12 @@
     "lat": 41.457435854496,
     "lng": -74.326790436542,
     "unconfirmed": true,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2324,11 +2479,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.60255,
     "lng": -74.17439,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2339,11 +2495,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.60303,
     "lng": -74.14075,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2354,11 +2511,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.607069296194,
     "lng": -74.090135779216,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2369,11 +2527,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.74778,
     "lng": -73.75712,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2384,11 +2543,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.644194683116,
     "lng": -73.912710776507,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2399,11 +2559,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.802165376418,
     "lng": -73.647105783215,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2414,11 +2575,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.825385748241,
     "lng": -73.908261768261,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2429,11 +2591,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.706369180397,
     "lng": -73.799826713891,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2445,11 +2608,12 @@
     "lat": 40.702030810574,
     "lng": -73.756515123311,
     "unconfirmed": true,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2460,11 +2624,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.66681,
     "lng": -73.77542,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LIFESPIRE, INC.",
+    "name": "Lifespire",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2475,11 +2640,12 @@
     "phone": "(212) 741-0100",
     "lat": 40.657628599863,
     "lng": -74.004627704025,
-    "website": "http://www.lifespire.org"
+    "website": "http://www.lifespire.org",
+    "listedName": "LIFESPIRE, INC."
   },
   {
     "source": "article16",
-    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "name": "Long Island Select Healthcare",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2489,11 +2655,12 @@
     "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.781918509878,
-    "lng": -73.200194387543
+    "lng": -73.200194387543,
+    "listedName": "LONG ISLAND SELECT HEALTHCARE, INC."
   },
   {
     "source": "article16",
-    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "name": "Long Island Select Healthcare",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2503,11 +2670,12 @@
     "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.873576548517,
-    "lng": -73.200430736128
+    "lng": -73.200430736128,
+    "listedName": "LONG ISLAND SELECT HEALTHCARE, INC."
   },
   {
     "source": "article16",
-    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "name": "Long Island Select Healthcare",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2517,11 +2685,12 @@
     "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.82139,
-    "lng": -73.2488
+    "lng": -73.2488,
+    "listedName": "LONG ISLAND SELECT HEALTHCARE, INC."
   },
   {
     "source": "article16",
-    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "name": "Long Island Select Healthcare",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2531,11 +2700,12 @@
     "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.82464,
-    "lng": -72.78696
+    "lng": -72.78696,
+    "listedName": "LONG ISLAND SELECT HEALTHCARE, INC."
   },
   {
     "source": "article16",
-    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "name": "Long Island Select Healthcare",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2545,11 +2715,12 @@
     "county": "Suffolk",
     "phone": "(631) 439-4300",
     "lat": 40.799845828661,
-    "lng": -72.79282762216
+    "lng": -72.79282762216,
+    "listedName": "LONG ISLAND SELECT HEALTHCARE, INC."
   },
   {
     "source": "article16",
-    "name": "LONG ISLAND SELECT HEALTHCARE, INC.",
+    "name": "Long Island Select Healthcare",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2560,11 +2731,12 @@
     "phone": "(631) 439-4300",
     "lat": 40.92354500894,
     "lng": -72.651675137234,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "LONG ISLAND SELECT HEALTHCARE, INC."
   },
   {
     "source": "article16",
-    "name": "MONTEFIORE CERC OPERATIONS, INC.",
+    "name": "Montefiore CERC Operations",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2574,11 +2746,12 @@
     "county": "Bronx",
     "phone": "(718) 920-4321",
     "lat": 40.851258858623,
-    "lng": -73.846926743632
+    "lng": -73.846926743632,
+    "listedName": "MONTEFIORE CERC OPERATIONS, INC."
   },
   {
     "source": "article16",
-    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "name": "Montgomery County Chapter NYSARC",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2588,11 +2761,12 @@
     "county": "Montgomery",
     "phone": "(518) 842-5080",
     "lat": 42.929158261978,
-    "lng": -74.208592614997
+    "lng": -74.208592614997,
+    "listedName": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "name": "Montgomery County Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2602,11 +2776,12 @@
     "county": "Montgomery",
     "phone": "(518) 842-5080",
     "lat": 42.931026476571,
-    "lng": -74.622020803125
+    "lng": -74.622020803125,
+    "listedName": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "name": "Montgomery County Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2616,11 +2791,12 @@
     "county": "Montgomery",
     "phone": "(518) 842-5080",
     "lat": 42.934341937137,
-    "lng": -74.625160213134
+    "lng": -74.625160213134,
+    "listedName": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "name": "Montgomery County Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2630,11 +2806,12 @@
     "county": "Montgomery",
     "phone": "(518) 842-5080",
     "lat": 42.906162009889,
-    "lng": -74.571825890405
+    "lng": -74.571825890405,
+    "listedName": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "name": "Montgomery County Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2644,11 +2821,12 @@
     "county": "Montgomery",
     "phone": "(518) 842-5080",
     "lat": 42.906194596795,
-    "lng": -74.573092996685
+    "lng": -74.573092996685,
+    "listedName": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "name": "Montgomery County Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2658,11 +2836,12 @@
     "county": "Schenectady",
     "phone": "(518) 842-5080",
     "lat": 42.814846262938,
-    "lng": -73.945740369675
+    "lng": -73.945740369675,
+    "listedName": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "name": "Montgomery County Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2672,11 +2851,12 @@
     "county": "Schenectady",
     "phone": "(518) 842-5080",
     "lat": 42.767585038006,
-    "lng": -73.937942799204
+    "lng": -73.937942799204,
+    "listedName": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC.",
+    "name": "Montgomery County Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2687,11 +2867,12 @@
     "phone": "(518) 842-5080",
     "lat": 42.661180471971,
     "lng": -73.840558049801,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "MONTGOMERY COUNTY CHAPTER, NYSARC, INC."
   },
   {
     "source": "article16",
-    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "name": "NYSARC Chautauqua County Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2701,11 +2882,12 @@
     "county": "Chautauqua",
     "phone": "(716) 483-2344",
     "lat": 42.10083091612,
-    "lng": -79.255295766832
+    "lng": -79.255295766832,
+    "listedName": "NYS ARC CHAUTAUQUA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "name": "NYSARC Chautauqua County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2715,11 +2897,12 @@
     "county": "Chautauqua",
     "phone": "(716) 483-2344",
     "lat": 42.099725084204,
-    "lng": -79.214418109083
+    "lng": -79.214418109083,
+    "listedName": "NYS ARC CHAUTAUQUA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "name": "NYSARC Chautauqua County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2730,11 +2913,12 @@
     "phone": "(716) 483-2344",
     "lat": 42.485727871728,
     "lng": -79.345989264748,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "NYS ARC CHAUTAUQUA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "name": "NYSARC Chautauqua County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2744,11 +2928,12 @@
     "county": "Chautauqua",
     "phone": "(716) 483-2344",
     "lat": 42.492014856512,
-    "lng": -79.311900975988
+    "lng": -79.311900975988,
+    "listedName": "NYS ARC CHAUTAUQUA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC CHAUTAUQUA COUNTY CHAPTER",
+    "name": "NYSARC Chautauqua County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2758,11 +2943,12 @@
     "county": "Chautauqua",
     "phone": "(716) 483-2344",
     "lat": 42.104829960649,
-    "lng": -79.225250396672
+    "lng": -79.225250396672,
+    "listedName": "NYS ARC CHAUTAUQUA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ESSEX COUNTY CHAPTER",
+    "name": "NYSARC Essex County Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2773,11 +2959,12 @@
     "phone": "(518) 546-3381",
     "lat": 44.04789,
     "lng": -73.45861,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "NYS ARC ESSEX COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ESSEX COUNTY CHAPTER",
+    "name": "NYSARC Essex County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2787,11 +2974,12 @@
     "county": "Clinton",
     "phone": "(518) 546-3381",
     "lat": 44.68948088707,
-    "lng": -73.511224984846
+    "lng": -73.511224984846,
+    "listedName": "NYS ARC ESSEX COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ESSEX COUNTY CHAPTER",
+    "name": "NYSARC Essex County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2801,11 +2989,12 @@
     "county": "Clinton",
     "phone": "(518) 546-3381",
     "lat": 44.668159769134,
-    "lng": -73.455570552895
+    "lng": -73.455570552895,
+    "listedName": "NYS ARC ESSEX COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ESSEX COUNTY CHAPTER",
+    "name": "NYSARC Essex County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2815,11 +3004,12 @@
     "county": "St. Lawrence",
     "phone": "(518) 546-3381",
     "lat": 44.58913,
-    "lng": -75.17744
+    "lng": -75.17744,
+    "listedName": "NYS ARC ESSEX COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -2830,11 +3020,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.094553939867,
     "lng": -75.651527491574,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2845,11 +3036,12 @@
     "phone": "(315) 363-3389",
     "lat": 42.591020667482,
     "lng": -76.180227544811,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2860,11 +3052,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.08581,
     "lng": -75.67033,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2875,11 +3068,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.086622232214,
     "lng": -75.668897462257,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2890,11 +3084,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.084672371526,
     "lng": -75.664844173302,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2905,11 +3100,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.02193,
     "lng": -74.9819,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2920,11 +3116,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.034210284988,
     "lng": -74.960433888073,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2935,11 +3132,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.0302341849,
     "lng": -74.983481578533,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2950,11 +3148,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.086822527107,
     "lng": -75.26157214588,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2965,11 +3164,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.259055435268,
     "lng": -75.531289395964,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2980,11 +3180,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.14219500955,
     "lng": -75.288008235249,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -2995,11 +3196,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.082193081511,
     "lng": -75.363397785708,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3010,11 +3212,12 @@
     "phone": "(315) 363-3389",
     "lat": 43.015283035436,
     "lng": -75.036329558611,
-    "website": "http://www.madisoncortlandarc.org"
+    "website": "http://www.madisoncortlandarc.org",
+    "listedName": "NYS ARC MADISON-CORTLAND COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "name": "NYSARC Monroe County Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -3026,11 +3229,12 @@
     "lat": 43.094504825022,
     "lng": -77.622049269389,
     "unconfirmed": true,
-    "website": "http://www.arcmonroe.org"
+    "website": "http://www.arcmonroe.org",
+    "listedName": "NYS ARC MONROE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "name": "NYSARC Monroe County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3041,11 +3245,12 @@
     "phone": "(585) 271-0660",
     "lat": 43.164640306305,
     "lng": -77.670591059481,
-    "website": "http://www.arcmonroe.org"
+    "website": "http://www.arcmonroe.org",
+    "listedName": "NYS ARC MONROE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "name": "NYSARC Monroe County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3056,11 +3261,12 @@
     "phone": "(585) 271-0660",
     "lat": 43.124871552728,
     "lng": -77.612453349792,
-    "website": "http://www.arcmonroe.org"
+    "website": "http://www.arcmonroe.org",
+    "listedName": "NYS ARC MONROE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "name": "NYSARC Monroe County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3071,11 +3277,12 @@
     "phone": "(585) 271-0660",
     "lat": 43.092937638612,
     "lng": -77.68214529942,
-    "website": "http://www.arcmonroe.org"
+    "website": "http://www.arcmonroe.org",
+    "listedName": "NYS ARC MONROE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "name": "NYSARC Monroe County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3086,11 +3293,12 @@
     "phone": "(585) 271-0660",
     "lat": 43.100354406199,
     "lng": -77.45793969338,
-    "website": "http://www.arcmonroe.org"
+    "website": "http://www.arcmonroe.org",
+    "listedName": "NYS ARC MONROE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "name": "NYSARC Monroe County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3101,11 +3309,12 @@
     "phone": "(585) 271-0660",
     "lat": 43.098345639635,
     "lng": -77.630898258058,
-    "website": "http://www.arcmonroe.org"
+    "website": "http://www.arcmonroe.org",
+    "listedName": "NYS ARC MONROE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC MONROE COUNTY CHAPTER",
+    "name": "NYSARC Monroe County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3116,11 +3325,12 @@
     "phone": "(585) 271-0660",
     "lat": 42.7249589515,
     "lng": -77.874428061087,
-    "website": "http://www.arcmonroe.org"
+    "website": "http://www.arcmonroe.org",
+    "listedName": "NYS ARC MONROE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -3131,11 +3341,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.70746,
     "lng": -74.00749,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3146,11 +3357,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.862135918658,
     "lng": -73.897024341252,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3162,11 +3374,12 @@
     "lat": 40.839551125477,
     "lng": -73.841701173484,
     "unconfirmed": true,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3177,11 +3390,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.839261200176,
     "lng": -73.84130382258,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3192,11 +3406,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.84656,
     "lng": -73.90964,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3207,11 +3422,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.850769585736,
     "lng": -73.833796426613,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3222,11 +3438,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.692249400307,
     "lng": -73.986192821232,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3238,11 +3455,12 @@
     "lat": 40.687816573494,
     "lng": -73.981233313307,
     "unconfirmed": true,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3253,11 +3471,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.650464324026,
     "lng": -73.958305537867,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3268,11 +3487,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.604789964045,
     "lng": -73.976798123492,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3283,11 +3503,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.647121176701,
     "lng": -73.904442821166,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3298,11 +3519,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.587739654878,
     "lng": -73.952296739338,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3313,11 +3535,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.614022071487,
     "lng": -74.013734438127,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3328,11 +3551,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.72868,
     "lng": -74.00543,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3343,11 +3567,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.718443802267,
     "lng": -73.987404059765,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3358,11 +3583,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.804451861114,
     "lng": -73.937448613796,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3373,11 +3599,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.605177276951,
     "lng": -73.760990157927,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3388,11 +3615,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.739069973671,
     "lng": -73.88815338318,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3403,11 +3631,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.637806444031,
     "lng": -74.076487988516,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3418,11 +3647,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.850769585736,
     "lng": -73.833796426613,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3433,11 +3663,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.752302835448,
     "lng": -73.932001898455,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3448,11 +3679,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.72868,
     "lng": -74.00543,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3463,11 +3695,12 @@
     "phone": "(212) 780-2500",
     "lat": 40.767910249797,
     "lng": -73.987947763168,
-    "website": "http://www.ahrcnyc.org"
+    "website": "http://www.ahrcnyc.org",
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "name": "NYSARC Onondaga County Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -3478,11 +3711,12 @@
     "phone": "(315) 476-7441",
     "lat": 43.04457,
     "lng": -76.17624,
-    "website": "http://www.arcon.org"
+    "website": "http://www.arcon.org",
+    "listedName": "NYS ARC ONONDAGA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "name": "NYSARC Onondaga County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3494,11 +3728,12 @@
     "lat": 43.062408448968,
     "lng": -76.035183105967,
     "unconfirmed": true,
-    "website": "http://www.arcon.org"
+    "website": "http://www.arcon.org",
+    "listedName": "NYS ARC ONONDAGA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "name": "NYSARC Onondaga County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3509,11 +3744,12 @@
     "phone": "(315) 476-7441",
     "lat": 43.087745944953,
     "lng": -76.187487736154,
-    "website": "http://www.arcon.org"
+    "website": "http://www.arcon.org",
+    "listedName": "NYS ARC ONONDAGA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "name": "NYSARC Onondaga County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3524,11 +3760,12 @@
     "phone": "(315) 476-7441",
     "lat": 43.076816121605,
     "lng": -76.106980979675,
-    "website": "http://www.arcon.org"
+    "website": "http://www.arcon.org",
+    "listedName": "NYS ARC ONONDAGA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "name": "NYSARC Onondaga County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3539,11 +3776,12 @@
     "phone": "(315) 476-7441",
     "lat": 42.448599146171,
     "lng": -75.097786711724,
-    "website": "http://www.arcon.org"
+    "website": "http://www.arcon.org",
+    "listedName": "NYS ARC ONONDAGA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "name": "NYSARC Onondaga County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3554,11 +3792,12 @@
     "phone": "(315) 476-7441",
     "lat": 42.659785214238,
     "lng": -75.049455610403,
-    "website": "http://www.arcon.org"
+    "website": "http://www.arcon.org",
+    "listedName": "NYS ARC ONONDAGA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "name": "NYSARC Onondaga County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3569,11 +3808,12 @@
     "phone": "(315) 476-7441",
     "lat": 43.985406218389,
     "lng": -75.940187205588,
-    "website": "http://www.arcon.org"
+    "website": "http://www.arcon.org",
+    "listedName": "NYS ARC ONONDAGA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC ONONDAGA COUNTY CHAPTER",
+    "name": "NYSARC Onondaga County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3584,11 +3824,12 @@
     "phone": "(315) 476-7441",
     "lat": 42.450847378403,
     "lng": -75.109380328071,
-    "website": "http://www.arcon.org"
+    "website": "http://www.arcon.org",
+    "listedName": "NYS ARC ONONDAGA COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -3599,11 +3840,12 @@
     "phone": "(315) 331-7741",
     "lat": 43.04798,
     "lng": -77.09394,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3614,11 +3856,12 @@
     "phone": "(315) 331-7741",
     "lat": 43.242981121239,
     "lng": -78.200344467206,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3629,11 +3872,12 @@
     "phone": "(315) 331-7741",
     "lat": 43.043835586111,
     "lng": -77.340549924424,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3644,11 +3888,12 @@
     "phone": "(315) 331-7741",
     "lat": 43.246458992079,
     "lng": -78.198023368415,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3659,11 +3904,12 @@
     "phone": "(315) 331-7741",
     "lat": 42.995249469587,
     "lng": -78.19235602004,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3674,11 +3920,12 @@
     "phone": "(315) 331-7741",
     "lat": 43.00681476505,
     "lng": -78.1985741937,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3689,11 +3936,12 @@
     "phone": "(315) 331-7741",
     "lat": 43.083614035082,
     "lng": -78.177535518414,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3704,11 +3952,12 @@
     "phone": "(315) 331-7741",
     "lat": 43.09377,
     "lng": -78.98624,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3719,11 +3968,12 @@
     "phone": "(315) 331-7741",
     "lat": 43.094066832487,
     "lng": -78.910597943963,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WAYNE COUNTY CHAPTER",
+    "name": "NYSARC Wayne County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3734,11 +3984,12 @@
     "phone": "(315) 331-7741",
     "lat": 43.169412902711,
     "lng": -78.71944920709,
-    "website": "http://www.waynearc.org"
+    "website": "http://www.waynearc.org",
+    "listedName": "NYS ARC WAYNE COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "name": "NYSARC Westchester County Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -3749,11 +4000,12 @@
     "phone": "(914) 428-8330",
     "lat": 41.10256,
     "lng": -73.80963,
-    "website": "http://www.westchesterarc.org"
+    "website": "http://www.westchesterarc.org",
+    "listedName": "NYS ARC WESTCHESTER COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "name": "NYSARC Westchester County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3764,11 +4016,12 @@
     "phone": "(914) 428-8330",
     "lat": 40.928166131125,
     "lng": -73.870501591828,
-    "website": "http://www.westchesterarc.org"
+    "website": "http://www.westchesterarc.org",
+    "listedName": "NYS ARC WESTCHESTER COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "name": "NYSARC Westchester County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3779,11 +4032,12 @@
     "phone": "(914) 428-8330",
     "lat": 41.190170052151,
     "lng": -73.730251424333,
-    "website": "http://www.westchesterarc.org"
+    "website": "http://www.westchesterarc.org",
+    "listedName": "NYS ARC WESTCHESTER COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "name": "NYSARC Westchester County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3794,11 +4048,12 @@
     "phone": "(914) 428-8330",
     "lat": 41.03730317533,
     "lng": -73.779646245811,
-    "website": "http://www.westchesterarc.org"
+    "website": "http://www.westchesterarc.org",
+    "listedName": "NYS ARC WESTCHESTER COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "name": "NYSARC Westchester County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3809,11 +4064,12 @@
     "phone": "(914) 428-8330",
     "lat": 41.27837,
     "lng": -73.93885,
-    "website": "http://www.westchesterarc.org"
+    "website": "http://www.westchesterarc.org",
+    "listedName": "NYS ARC WESTCHESTER COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "name": "NYSARC Westchester County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3824,11 +4080,12 @@
     "phone": "(914) 428-8330",
     "lat": 41.169962513245,
     "lng": -73.864100215521,
-    "website": "http://www.westchesterarc.org"
+    "website": "http://www.westchesterarc.org",
+    "listedName": "NYS ARC WESTCHESTER COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "name": "NYSARC Westchester County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3839,11 +4096,12 @@
     "phone": "(914) 428-8330",
     "lat": 40.906179536773,
     "lng": -73.782780836997,
-    "website": "http://www.westchesterarc.org"
+    "website": "http://www.westchesterarc.org",
+    "listedName": "NYS ARC WESTCHESTER COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "name": "NYSARC Westchester County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3854,11 +4112,12 @@
     "phone": "(914) 428-8330",
     "lat": 41.000442006002,
     "lng": -73.666701475666,
-    "website": "http://www.westchesterarc.org"
+    "website": "http://www.westchesterarc.org",
+    "listedName": "NYS ARC WESTCHESTER COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYS ARC WESTCHESTER COUNTY CHAPTER",
+    "name": "NYSARC Westchester County Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3869,11 +4128,12 @@
     "phone": "(914) 428-8330",
     "lat": 41.068722606885,
     "lng": -73.806738761225,
-    "website": "http://www.westchesterarc.org"
+    "website": "http://www.westchesterarc.org",
+    "listedName": "NYS ARC WESTCHESTER COUNTY CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -3884,11 +4144,12 @@
     "phone": "(315) 539-5067",
     "lat": 42.899629606969,
     "lng": -76.893136867555,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3898,11 +4159,12 @@
     "county": "Cayuga",
     "phone": "(315) 539-5067",
     "lat": 42.944444527655,
-    "lng": -76.566987053426
+    "lng": -76.566987053426,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3912,11 +4174,12 @@
     "county": "Ontario",
     "phone": "(315) 539-5067",
     "lat": 42.88474,
-    "lng": -77.21439
+    "lng": -77.21439,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3926,11 +4189,12 @@
     "county": "Seneca",
     "phone": "(315) 539-5067",
     "lat": 42.912839602661,
-    "lng": -76.800752503458
+    "lng": -76.800752503458,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3940,11 +4204,12 @@
     "county": "Ontario",
     "phone": "(315) 539-5067",
     "lat": 42.88474,
-    "lng": -77.21439
+    "lng": -77.21439,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3954,11 +4219,12 @@
     "county": "Cayuga",
     "phone": "(315) 539-5067",
     "lat": 42.927913287812,
-    "lng": -76.618728240057
+    "lng": -76.618728240057,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3968,11 +4234,12 @@
     "county": "Cayuga",
     "phone": "(315) 539-5067",
     "lat": 42.931794504821,
-    "lng": -76.570946839399
+    "lng": -76.570946839399,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3982,11 +4249,12 @@
     "county": "Ontario",
     "phone": "(315) 539-5067",
     "lat": 42.889205348678,
-    "lng": -77.218259998388
+    "lng": -77.218259998388,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -3996,11 +4264,12 @@
     "county": "Yates",
     "phone": "(315) 539-5067",
     "lat": 42.66959,
-    "lng": -77.05605
+    "lng": -77.05605,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC INC. MOZAIC CHAPTER",
+    "name": "NYSARC Mozaic Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4010,11 +4279,12 @@
     "county": "Tompkins",
     "phone": "(315) 539-5067",
     "lat": 42.42325,
-    "lng": -76.50067
+    "lng": -76.50067,
+    "listedName": "NYSARC INC. MOZAIC CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "name": "NYSARC Ulster Greene Putnam Counties Chapter",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4024,11 +4294,12 @@
     "county": "Ulster",
     "phone": "(845) 417-3596",
     "lat": 41.933416110749,
-    "lng": -73.999161239758
+    "lng": -73.999161239758,
+    "listedName": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "name": "NYSARC Ulster Greene Putnam Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4038,11 +4309,12 @@
     "county": "Greene",
     "phone": "(845) 417-3596",
     "lat": 42.214226089071,
-    "lng": -73.884954977382
+    "lng": -73.884954977382,
+    "listedName": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "name": "NYSARC Ulster Greene Putnam Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4052,11 +4324,12 @@
     "county": "Greene",
     "phone": "(845) 417-3596",
     "lat": 42.323024031957,
-    "lng": -74.039353883375
+    "lng": -74.039353883375,
+    "listedName": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "name": "NYSARC Ulster Greene Putnam Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4067,11 +4340,12 @@
     "phone": "(845) 417-3596",
     "lat": 41.848898412092,
     "lng": -74.112206723349,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "name": "NYSARC Ulster Greene Putnam Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4081,11 +4355,12 @@
     "county": "Ulster",
     "phone": "(845) 417-3596",
     "lat": 41.714971720501,
-    "lng": -74.389895552534
+    "lng": -74.389895552534,
+    "listedName": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "name": "NYSARC Ulster Greene Putnam Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4095,11 +4370,12 @@
     "county": "Ulster",
     "phone": "(845) 417-3596",
     "lat": 41.718695132424,
-    "lng": -73.965890360518
+    "lng": -73.965890360518,
+    "listedName": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "name": "NYSARC Ulster Greene Putnam Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4109,11 +4385,12 @@
     "county": "Putnam",
     "phone": "(845) 417-3596",
     "lat": 41.412684694123,
-    "lng": -73.66082430167
+    "lng": -73.66082430167,
+    "listedName": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "name": "NYSARC Ulster Greene Putnam Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4123,11 +4400,12 @@
     "county": "Putnam",
     "phone": "(845) 417-3596",
     "lat": 41.387962602953,
-    "lng": -73.667242583483
+    "lng": -73.667242583483,
+    "listedName": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER",
+    "name": "NYSARC Ulster Greene Putnam Counties Chapter",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4137,11 +4415,12 @@
     "county": "Putnam",
     "phone": "(845) 417-3596",
     "lat": 41.366110237088,
-    "lng": -73.611757086394
+    "lng": -73.611757086394,
+    "listedName": "NYSARC, INC., ULSTER, GREENE, PUTNAM COUNTIES CHAPTER"
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4152,11 +4431,12 @@
     "phone": "(716) 634-8132",
     "lat": 43.195859349983,
     "lng": -77.68071743718,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4167,11 +4447,12 @@
     "phone": "(716) 634-8132",
     "lat": 43.239409967964,
     "lng": -77.927337237758,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4182,11 +4463,12 @@
     "phone": "(716) 634-8132",
     "lat": 42.781779346183,
     "lng": -78.778583247259,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4197,11 +4479,12 @@
     "phone": "(716) 634-8132",
     "lat": 42.900093564209,
     "lng": -78.675881242513,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4212,11 +4495,12 @@
     "phone": "(716) 634-8132",
     "lat": 42.941731225293,
     "lng": -78.836263929402,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4227,11 +4511,12 @@
     "phone": "(716) 634-8132",
     "lat": 42.544234738055,
     "lng": -79.167468774032,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4242,11 +4527,12 @@
     "phone": "(716) 634-8132",
     "lat": 42.955280544247,
     "lng": -78.869141813139,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4257,11 +4543,12 @@
     "phone": "(716) 634-8132",
     "lat": 42.900643108671,
     "lng": -78.782869680721,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4272,11 +4559,12 @@
     "phone": "(716) 634-8132",
     "lat": 42.851978235036,
     "lng": -78.804585153021,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4287,11 +4575,12 @@
     "phone": "(716) 634-8132",
     "lat": 43.010235261321,
     "lng": -78.844444660401,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4302,11 +4591,12 @@
     "phone": "(716) 634-8132",
     "lat": 42.955012002373,
     "lng": -78.878399617419,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PEOPLE, INC.",
+    "name": "People Incorporated",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4317,11 +4607,12 @@
     "phone": "(716) 634-8132",
     "lat": 42.91608,
     "lng": -78.6925,
-    "website": "http://www.people-inc.org"
+    "website": "http://www.people-inc.org",
+    "listedName": "PEOPLE, INC."
   },
   {
     "source": "article16",
-    "name": "PREMIER HEALTHCARE, INC.",
+    "name": "Premier Healthcare",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4331,11 +4622,12 @@
     "county": "New York",
     "phone": "(212) 273-6515",
     "lat": 40.75009,
-    "lng": -73.97291
+    "lng": -73.97291,
+    "listedName": "PREMIER HEALTHCARE, INC."
   },
   {
     "source": "article16",
-    "name": "RICHMOND MEDICAL CENTER",
+    "name": "Richmond Medical Center",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4345,11 +4637,12 @@
     "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.634756294067,
-    "lng": -74.103784923607
+    "lng": -74.103784923607,
+    "listedName": "RICHMOND MEDICAL CENTER"
   },
   {
     "source": "article16",
-    "name": "RICHMOND MEDICAL CENTER",
+    "name": "Richmond Medical Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4359,11 +4652,12 @@
     "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.60303,
-    "lng": -74.14075
+    "lng": -74.14075,
+    "listedName": "RICHMOND MEDICAL CENTER"
   },
   {
     "source": "article16",
-    "name": "RICHMOND MEDICAL CENTER",
+    "name": "Richmond Medical Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4373,11 +4667,12 @@
     "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.618949685969,
-    "lng": -74.084864587811
+    "lng": -74.084864587811,
+    "listedName": "RICHMOND MEDICAL CENTER"
   },
   {
     "source": "article16",
-    "name": "RICHMOND MEDICAL CENTER",
+    "name": "Richmond Medical Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4387,11 +4682,12 @@
     "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.636088504936,
-    "lng": -74.089055428871
+    "lng": -74.089055428871,
+    "listedName": "RICHMOND MEDICAL CENTER"
   },
   {
     "source": "article16",
-    "name": "RICHMOND MEDICAL CENTER",
+    "name": "Richmond Medical Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4401,11 +4697,12 @@
     "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.634124218608,
-    "lng": -74.161705125842
+    "lng": -74.161705125842,
+    "listedName": "RICHMOND MEDICAL CENTER"
   },
   {
     "source": "article16",
-    "name": "RICHMOND MEDICAL CENTER",
+    "name": "Richmond Medical Center",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4415,11 +4712,12 @@
     "county": "Richmond",
     "phone": "(718) 818-2407",
     "lat": 40.588105258897,
-    "lng": -74.100985423677
+    "lng": -74.100985423677,
+    "listedName": "RICHMOND MEDICAL CENTER"
   },
   {
     "source": "article16",
-    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "name": "Suburban Adult Services",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4429,11 +4727,12 @@
     "county": "Erie",
     "phone": "(716) 805-1555",
     "lat": 42.79408,
-    "lng": -78.62551
+    "lng": -78.62551,
+    "listedName": "SUBURBAN ADULT SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "name": "Suburban Adult Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4443,11 +4742,12 @@
     "county": "Erie",
     "phone": "(716) 805-1555",
     "lat": 42.764116698065,
-    "lng": -78.612765205604
+    "lng": -78.612765205604,
+    "listedName": "SUBURBAN ADULT SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "name": "Suburban Adult Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4458,11 +4758,12 @@
     "phone": "(716) 805-1555",
     "lat": 42.85451710519,
     "lng": -78.789070209181,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "SUBURBAN ADULT SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "name": "Suburban Adult Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4472,11 +4773,12 @@
     "county": "Erie",
     "phone": "(716) 805-1555",
     "lat": 42.694865218728,
-    "lng": -78.9939490332
+    "lng": -78.9939490332,
+    "listedName": "SUBURBAN ADULT SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "name": "Suburban Adult Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4487,11 +4789,12 @@
     "phone": "(716) 805-1555",
     "lat": 42.654880441891,
     "lng": -79.037566916774,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "SUBURBAN ADULT SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "name": "Suburban Adult Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4501,11 +4804,12 @@
     "county": "Erie",
     "phone": "(716) 805-1555",
     "lat": 42.991371623004,
-    "lng": -78.642090596712
+    "lng": -78.642090596712,
+    "listedName": "SUBURBAN ADULT SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "SUBURBAN ADULT SERVICES, INC.",
+    "name": "Suburban Adult Services",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4515,11 +4819,12 @@
     "county": "Erie",
     "phone": "(716) 805-1555",
     "lat": 43.015421425806,
-    "lng": -78.834858528515
+    "lng": -78.834858528515,
+    "listedName": "SUBURBAN ADULT SERVICES, INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4529,11 +4834,12 @@
     "county": "Sullivan",
     "phone": "(845) 796-1350",
     "lat": 41.65253,
-    "lng": -74.6769
+    "lng": -74.6769,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4543,11 +4849,12 @@
     "county": "Sullivan",
     "phone": "(845) 796-1350",
     "lat": 41.714281700114,
-    "lng": -74.627321766987
+    "lng": -74.627321766987,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4558,11 +4865,12 @@
     "phone": "(845) 796-1350",
     "lat": 41.76471,
     "lng": -74.63944,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4572,11 +4880,12 @@
     "county": "Sullivan",
     "phone": "(845) 796-1350",
     "lat": 41.640573795809,
-    "lng": -74.634371543778
+    "lng": -74.634371543778,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4586,11 +4895,12 @@
     "county": "Orange",
     "phone": "(845) 796-1350",
     "lat": 41.45654,
-    "lng": -74.2659
+    "lng": -74.2659,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4600,11 +4910,12 @@
     "county": "Orange",
     "phone": "(845) 796-1350",
     "lat": 41.444167498526,
-    "lng": -74.445995214039
+    "lng": -74.445995214039,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4614,11 +4925,12 @@
     "county": "Orange",
     "phone": "(845) 796-1350",
     "lat": 41.354992760909,
-    "lng": -74.281073586105
+    "lng": -74.281073586105,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4629,11 +4941,12 @@
     "phone": "(845) 796-1350",
     "lat": 41.471963983536,
     "lng": -74.458637102271,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4643,11 +4956,12 @@
     "county": "Dutchess",
     "phone": "(845) 796-1350",
     "lat": 41.68275515045,
-    "lng": -73.854247442017
+    "lng": -73.854247442017,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4657,11 +4971,12 @@
     "county": "Dutchess",
     "phone": "(845) 796-1350",
     "lat": 41.740179910504,
-    "lng": -73.580837062745
+    "lng": -73.580837062745,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC.",
+    "name": "Sullivan-Orange-Dutchess Counties Chapter NYSARC",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4671,11 +4986,12 @@
     "county": "Dutchess",
     "phone": "(845) 796-1350",
     "lat": 41.73639,
-    "lng": -73.83551
+    "lng": -73.83551,
+    "listedName": "SULLIVAN-ORANGE-DUTCHESS COUNTIES CHAPTER, NYSARC INC."
   },
   {
     "source": "article16",
-    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Taconic Developmental Disabilities Services Office",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4686,11 +5002,12 @@
     "phone": "(845) 877-6821",
     "lat": 41.676310323826,
     "lng": -73.856065082927,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Taconic Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4701,11 +5018,12 @@
     "phone": "(845) 877-6821",
     "lat": 41.96841,
     "lng": -74.00245,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Taconic Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4716,11 +5034,12 @@
     "phone": "(845) 877-6821",
     "lat": 42.439639538579,
     "lng": -73.686744481969,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Taconic Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4731,11 +5050,12 @@
     "phone": "(845) 877-6821",
     "lat": 41.66369,
     "lng": -73.97704,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Taconic Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4746,11 +5066,12 @@
     "phone": "(845) 877-6821",
     "lat": 41.78515,
     "lng": -73.69373,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Taconic Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4761,11 +5082,12 @@
     "phone": "(845) 877-6821",
     "lat": 41.80529,
     "lng": -73.56361,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Taconic Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4776,11 +5098,12 @@
     "phone": "(845) 877-6821",
     "lat": 41.92933,
     "lng": -74.00425,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Taconic Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4791,11 +5114,12 @@
     "phone": "(845) 877-6821",
     "lat": 41.9958,
     "lng": -73.87779,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "TACONIC DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "THE EPILEPSY INSTITUTE",
+    "name": "The Epilepsy Institute",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4806,11 +5130,12 @@
     "phone": "(212) 677-8550",
     "lat": 40.705770105218,
     "lng": -74.009966785486,
-    "website": "http://www.efmny.org"
+    "website": "http://www.efmny.org",
+    "listedName": "THE EPILEPSY INSTITUTE"
   },
   {
     "source": "article16",
-    "name": "THE EPILEPSY INSTITUTE",
+    "name": "The Epilepsy Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4821,11 +5146,12 @@
     "phone": "(212) 677-8550",
     "lat": 41.191298980669,
     "lng": -73.738199546554,
-    "website": "http://www.efmny.org"
+    "website": "http://www.efmny.org",
+    "listedName": "THE EPILEPSY INSTITUTE"
   },
   {
     "source": "article16",
-    "name": "THE HANDICAPPED CHILDREN'S ASSOCIATION OF SOUTHERN NEW YORK, INC.",
+    "name": "The Handicapped Children's Association of Southern New York",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4835,11 +5161,12 @@
     "county": "Broome",
     "phone": "(607) 798-7117",
     "lat": 42.11404,
-    "lng": -75.95603
+    "lng": -75.95603,
+    "listedName": "THE HANDICAPPED CHILDREN'S ASSOCIATION OF SOUTHERN NEW YORK, INC."
   },
   {
     "source": "article16",
-    "name": "THE ROCHESTER SCHOOL OF THE HOLY CHILDHOOD, INC.",
+    "name": "The Rochester School of the Holy Childhood",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4850,11 +5177,12 @@
     "phone": "(585) 359-3710",
     "lat": 43.07752,
     "lng": -77.59578,
-    "website": "http://www.holychildhood.org"
+    "website": "http://www.holychildhood.org",
+    "listedName": "THE ROCHESTER SCHOOL OF THE HOLY CHILDHOOD, INC."
   },
   {
     "source": "article16",
-    "name": "THE SHIELD INSTITUTE",
+    "name": "The Shield Institute",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4865,11 +5193,12 @@
     "phone": "(718) 886-1534",
     "lat": 40.765535881215,
     "lng": -73.76984740873,
-    "website": "http://www.shield.org"
+    "website": "http://www.shield.org",
+    "listedName": "THE SHIELD INSTITUTE"
   },
   {
     "source": "article16",
-    "name": "THE SHIELD INSTITUTE",
+    "name": "The Shield Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4880,11 +5209,12 @@
     "phone": "(718) 886-1534",
     "lat": 40.74778,
     "lng": -73.75712,
-    "website": "http://www.shield.org"
+    "website": "http://www.shield.org",
+    "listedName": "THE SHIELD INSTITUTE"
   },
   {
     "source": "article16",
-    "name": "THE SHIELD INSTITUTE",
+    "name": "The Shield Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4895,11 +5225,12 @@
     "phone": "(718) 886-1534",
     "lat": 40.748032835116,
     "lng": -73.756242646955,
-    "website": "http://www.shield.org"
+    "website": "http://www.shield.org",
+    "listedName": "THE SHIELD INSTITUTE"
   },
   {
     "source": "article16",
-    "name": "THE SHIELD INSTITUTE",
+    "name": "The Shield Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4910,11 +5241,12 @@
     "phone": "(718) 886-1534",
     "lat": 40.64432,
     "lng": -73.99109,
-    "website": "http://www.shield.org"
+    "website": "http://www.shield.org",
+    "listedName": "THE SHIELD INSTITUTE"
   },
   {
     "source": "article16",
-    "name": "THE SHIELD INSTITUTE",
+    "name": "The Shield Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4925,11 +5257,12 @@
     "phone": "(718) 886-1534",
     "lat": 40.89675,
     "lng": -73.8644,
-    "website": "http://www.shield.org"
+    "website": "http://www.shield.org",
+    "listedName": "THE SHIELD INSTITUTE"
   },
   {
     "source": "article16",
-    "name": "THE SHIELD INSTITUTE",
+    "name": "The Shield Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4940,11 +5273,12 @@
     "phone": "(718) 886-1534",
     "lat": 40.749154979766,
     "lng": -73.727791517978,
-    "website": "http://www.shield.org"
+    "website": "http://www.shield.org",
+    "listedName": "THE SHIELD INSTITUTE"
   },
   {
     "source": "article16",
-    "name": "THE SHIELD INSTITUTE",
+    "name": "The Shield Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4955,11 +5289,12 @@
     "phone": "(718) 886-1534",
     "lat": 40.762,
     "lng": -73.82072,
-    "website": "http://www.shield.org"
+    "website": "http://www.shield.org",
+    "listedName": "THE SHIELD INSTITUTE"
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF NASSAU COUNTY, INC.",
+    "name": "United Cerebral Palsy Association of Nassau County",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4970,11 +5305,12 @@
     "phone": "(516) 378-2000",
     "lat": 40.67954,
     "lng": -73.57658,
-    "website": "http://www.ucpn.org"
+    "website": "http://www.ucpn.org",
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF NASSAU COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF NASSAU COUNTY, INC.",
+    "name": "United Cerebral Palsy Association of Nassau County",
     "services": [
       "Article 16 Satellite"
     ],
@@ -4985,11 +5321,12 @@
     "phone": "(516) 378-2000",
     "lat": 40.653577890964,
     "lng": -73.625599955772,
-    "website": "http://www.ucpn.org"
+    "website": "http://www.ucpn.org",
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF NASSAU COUNTY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Clinic"
     ],
@@ -4999,11 +5336,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.08475,
-    "lng": -77.58205
+    "lng": -77.58205,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5013,11 +5351,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.12517,
-    "lng": -77.60833
+    "lng": -77.60833,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5027,11 +5366,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.12161924795,
-    "lng": -77.506428256035
+    "lng": -77.506428256035,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5042,11 +5382,12 @@
     "phone": "(585) 334-6000",
     "lat": 43.187386008439,
     "lng": -77.503121696272,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5056,11 +5397,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.133623448334,
-    "lng": -77.438872574448
+    "lng": -77.438872574448,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5070,11 +5412,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.21699,
-    "lng": -77.4569
+    "lng": -77.4569,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5084,11 +5427,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.195859349983,
-    "lng": -77.68071743718
+    "lng": -77.68071743718,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5099,11 +5443,12 @@
     "phone": "(585) 334-6000",
     "lat": 43.115200644142,
     "lng": -77.664243456912,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5113,11 +5458,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.152108160235,
-    "lng": -77.732297301005
+    "lng": -77.732297301005,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5127,11 +5473,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.106541081797,
-    "lng": -77.715679247652
+    "lng": -77.715679247652,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5141,11 +5488,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.10635,
-    "lng": -77.71923
+    "lng": -77.71923,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5155,11 +5503,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.155506885386,
-    "lng": -77.754668687883
+    "lng": -77.754668687883,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5169,11 +5518,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.106462120682,
-    "lng": -77.747387903744
+    "lng": -77.747387903744,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5183,11 +5533,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.188514499051,
-    "lng": -77.788410080908
+    "lng": -77.788410080908,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC.",
+    "name": "United Cerebral Palsy Association of the Rochester Area",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5197,11 +5548,12 @@
     "county": "Monroe",
     "phone": "(585) 334-6000",
     "lat": 43.117858268769,
-    "lng": -77.615740340512
+    "lng": -77.615740340512,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATION OF THE ROCHESTER AREA, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATIONS OF NEW YORK STATE, INC.",
+    "name": "United Cerebral Palsy Associations of New York State",
     "services": [
       "Article 16 Clinic"
     ],
@@ -5211,11 +5563,12 @@
     "county": "Richmond",
     "phone": "(212) 947-5770",
     "lat": 40.627451595512,
-    "lng": -74.167290759041
+    "lng": -74.167290759041,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATIONS OF NEW YORK STATE, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATIONS OF NEW YORK STATE, INC.",
+    "name": "United Cerebral Palsy Associations of New York State",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5225,11 +5578,12 @@
     "county": "Queens",
     "phone": "(212) 947-5770",
     "lat": 40.74778,
-    "lng": -73.75712
+    "lng": -73.75712,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATIONS OF NEW YORK STATE, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY ASSOCIATIONS OF NEW YORK STATE, INC.",
+    "name": "United Cerebral Palsy Associations of New York State",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5239,11 +5593,12 @@
     "county": "Queens",
     "phone": "(212) 947-5770",
     "lat": 40.753337047421,
-    "lng": -73.925859740824
+    "lng": -73.925859740824,
+    "listedName": "UNITED CEREBRAL PALSY ASSOCIATIONS OF NEW YORK STATE, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "name": "United Cerebral Palsy of New York City",
     "services": [
       "Article 16 Clinic"
     ],
@@ -5253,11 +5608,12 @@
     "county": "Kings",
     "phone": "(212) 683-6700",
     "lat": 40.626963937911,
-    "lng": -73.976317210135
+    "lng": -73.976317210135,
+    "listedName": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "name": "United Cerebral Palsy of New York City",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5267,11 +5623,12 @@
     "county": "Kings",
     "phone": "(212) 683-6700",
     "lat": 40.630519595027,
-    "lng": -73.974016199066
+    "lng": -73.974016199066,
+    "listedName": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "name": "United Cerebral Palsy of New York City",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5281,11 +5638,12 @@
     "county": "Bronx",
     "phone": "(212) 683-6700",
     "lat": 40.808260900568,
-    "lng": -73.923125012368
+    "lng": -73.923125012368,
+    "listedName": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "name": "United Cerebral Palsy of New York City",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5295,11 +5653,12 @@
     "county": "Kings",
     "phone": "(212) 683-6700",
     "lat": 40.601766868283,
-    "lng": -73.973344009251
+    "lng": -73.973344009251,
+    "listedName": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "name": "United Cerebral Palsy of New York City",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5309,11 +5668,12 @@
     "county": "Bronx",
     "phone": "(212) 683-6700",
     "lat": 40.8580576202,
-    "lng": -73.834562077167
+    "lng": -73.834562077167,
+    "listedName": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "name": "United Cerebral Palsy of New York City",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5323,11 +5683,12 @@
     "county": "Richmond",
     "phone": "(212) 683-6700",
     "lat": 40.634481703129,
-    "lng": -74.135678415064
+    "lng": -74.135678415064,
+    "listedName": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "name": "United Cerebral Palsy of New York City",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5337,11 +5698,12 @@
     "county": "New York",
     "phone": "(212) 683-6700",
     "lat": 40.828124632179,
-    "lng": -73.93675248378
+    "lng": -73.93675248378,
+    "listedName": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "name": "United Cerebral Palsy of New York City",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5351,11 +5713,12 @@
     "county": "New York",
     "phone": "(212) 683-6700",
     "lat": 40.868942583471,
-    "lng": -73.91733946478
+    "lng": -73.91733946478,
+    "listedName": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC.",
+    "name": "United Cerebral Palsy of New York City",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5365,11 +5728,12 @@
     "county": "Bronx",
     "phone": "(212) 683-6700",
     "lat": 40.86077,
-    "lng": -73.89786
+    "lng": -73.89786,
+    "listedName": "UNITED CEREBRAL PALSY OF NEW YORK CITY, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF QUEENS, INC.",
+    "name": "United Cerebral Palsy of Queens",
     "services": [
       "Article 16 Clinic"
     ],
@@ -5380,11 +5744,12 @@
     "phone": "(718) 380-3000",
     "lat": 40.72006,
     "lng": -73.80369,
-    "website": "http://www.queenscp.org"
+    "website": "http://www.queenscp.org",
+    "listedName": "UNITED CEREBRAL PALSY OF QUEENS, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF QUEENS, INC.",
+    "name": "United Cerebral Palsy of Queens",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5395,11 +5760,12 @@
     "phone": "(718) 380-3000",
     "lat": 40.718609662868,
     "lng": -73.803712524035,
-    "website": "http://www.queenscp.org"
+    "website": "http://www.queenscp.org",
+    "listedName": "UNITED CEREBRAL PALSY OF QUEENS, INC."
   },
   {
     "source": "article16",
-    "name": "UNITED CEREBRAL PALSY OF QUEENS, INC.",
+    "name": "United Cerebral Palsy of Queens",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5410,11 +5776,12 @@
     "phone": "(718) 380-3000",
     "lat": 40.749915129686,
     "lng": -73.727442695302,
-    "website": "http://www.queenscp.org"
+    "website": "http://www.queenscp.org",
+    "listedName": "UNITED CEREBRAL PALSY OF QUEENS, INC."
   },
   {
     "source": "article16",
-    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "name": "Upstate Cerebral Palsy",
     "services": [
       "Article 16 Clinic"
     ],
@@ -5425,11 +5792,12 @@
     "phone": "(315) 724-6907",
     "lat": 43.251307671404,
     "lng": -75.177977705245,
-    "website": "http://www.upstatecp.org"
+    "website": "http://www.upstatecp.org",
+    "listedName": "UPSTATE CEREBRAL PALSY, INC."
   },
   {
     "source": "article16",
-    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "name": "Upstate Cerebral Palsy",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5440,11 +5808,12 @@
     "phone": "(315) 724-6907",
     "lat": 43.005365160977,
     "lng": -75.263182508305,
-    "website": "http://www.upstatecp.org"
+    "website": "http://www.upstatecp.org",
+    "listedName": "UPSTATE CEREBRAL PALSY, INC."
   },
   {
     "source": "article16",
-    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "name": "Upstate Cerebral Palsy",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5455,11 +5824,12 @@
     "phone": "(315) 724-6907",
     "lat": 43.079238070857,
     "lng": -75.2109298507,
-    "website": "http://www.upstatecp.org"
+    "website": "http://www.upstatecp.org",
+    "listedName": "UPSTATE CEREBRAL PALSY, INC."
   },
   {
     "source": "article16",
-    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "name": "Upstate Cerebral Palsy",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5470,11 +5840,12 @@
     "phone": "(315) 724-6907",
     "lat": 43.471460456482,
     "lng": -75.305729913995,
-    "website": "http://www.upstatecp.org"
+    "website": "http://www.upstatecp.org",
+    "listedName": "UPSTATE CEREBRAL PALSY, INC."
   },
   {
     "source": "article16",
-    "name": "UPSTATE CEREBRAL PALSY, INC.",
+    "name": "Upstate Cerebral Palsy",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5485,11 +5856,12 @@
     "phone": "(315) 724-6907",
     "lat": 42.898770719374,
     "lng": -75.644571905332,
-    "website": "http://www.upstatecp.org"
+    "website": "http://www.upstatecp.org",
+    "listedName": "UPSTATE CEREBRAL PALSY, INC."
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Clinic"
     ],
@@ -5500,11 +5872,12 @@
     "phone": "(716) 517-2000",
     "lat": 42.82027,
     "lng": -78.72477,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5516,11 +5889,12 @@
     "lat": 42.717951819547,
     "lng": -78.826051799866,
     "unconfirmed": true,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5532,11 +5906,12 @@
     "lat": 43.011623188773,
     "lng": -78.770742674055,
     "unconfirmed": true,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5547,11 +5922,12 @@
     "phone": "(716) 517-2000",
     "lat": 42.92377,
     "lng": -78.69679,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5562,11 +5938,12 @@
     "phone": "(716) 517-2000",
     "lat": 43.15985,
     "lng": -78.69674,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5577,11 +5954,12 @@
     "phone": "(716) 517-2000",
     "lat": 42.46174,
     "lng": -79.00205,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5592,11 +5970,12 @@
     "phone": "(716) 517-2000",
     "lat": 42.2197,
     "lng": -79.1105,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5607,11 +5986,12 @@
     "phone": "(716) 517-2000",
     "lat": 42.24858,
     "lng": -78.80828,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5622,11 +6002,12 @@
     "phone": "(716) 517-2000",
     "lat": 42.45012,
     "lng": -79.30905,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5637,11 +6018,12 @@
     "phone": "(716) 517-2000",
     "lat": 42.65246,
     "lng": -78.97616,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5652,11 +6034,12 @@
     "phone": "(716) 517-2000",
     "lat": 42.47435,
     "lng": -78.99845,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5667,11 +6050,12 @@
     "phone": "(716) 517-2000",
     "lat": 43.00571,
     "lng": -78.18867,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5682,11 +6066,12 @@
     "phone": "(716) 517-2000",
     "lat": 42.99954,
     "lng": -78.81479,
-    "website": "https://opwdd.ny.gov"
+    "website": "https://opwdd.ny.gov",
+    "listedName": "WESTERN NEW YORK DEVELOPMENTAL DISABILITIES SERVICES OFFICE"
   },
   {
     "source": "article16",
-    "name": "YEDEI CHESED, INC.",
+    "name": "Yedei Chesed",
     "services": [
       "Article 16 Clinic"
     ],
@@ -5697,11 +6082,12 @@
     "phone": "(845) 425-0887",
     "lat": 41.09782,
     "lng": -74.04194,
-    "website": "http://www.yedeichesed.org"
+    "website": "http://www.yedeichesed.org",
+    "listedName": "YEDEI CHESED, INC."
   },
   {
     "source": "article16",
-    "name": "YEDEI CHESED, INC.",
+    "name": "Yedei Chesed",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5712,11 +6098,12 @@
     "phone": "(845) 425-0887",
     "lat": 41.08462981212,
     "lng": -74.055670774581,
-    "website": "http://www.yedeichesed.org"
+    "website": "http://www.yedeichesed.org",
+    "listedName": "YEDEI CHESED, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Clinic"
     ],
@@ -5727,11 +6114,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.75009,
     "lng": -73.97291,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5742,11 +6130,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.693343349241,
     "lng": -73.991576265315,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5757,11 +6146,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.839060429398,
     "lng": -73.836251158781,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5772,11 +6162,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.76,
     "lng": -73.7717,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5787,11 +6178,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.602619116918,
     "lng": -73.942381945905,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5802,11 +6194,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.601777009288,
     "lng": -73.942222650247,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5817,11 +6210,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.751772818219,
     "lng": -73.980123927949,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5832,11 +6226,12 @@
     "phone": "(212) 273-6182",
     "lat": 41.062721762888,
     "lng": -73.837592335492,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5847,11 +6242,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.70697,
     "lng": -73.82922,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5862,11 +6258,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.755866602116,
     "lng": -73.923531459332,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5877,11 +6274,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.80628,
     "lng": -73.24863,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5892,11 +6290,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.833865118687,
     "lng": -73.845252492542,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5907,11 +6306,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.808153497152,
     "lng": -73.945119726729,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5922,11 +6322,12 @@
     "phone": "(212) 273-6182",
     "lat": 40.725247489191,
     "lng": -73.434309358603,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   },
   {
     "source": "article16",
-    "name": "YOUNG ADULT INSTITUTE, INC.",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Article 16 Satellite"
     ],
@@ -5937,6 +6338,7 @@
     "phone": "(212) 273-6182",
     "lat": 40.625342945948,
     "lng": -74.028482562614,
-    "website": "http://www.yai.org"
+    "website": "http://www.yai.org",
+    "listedName": "YOUNG ADULT INSTITUTE, INC."
   }
 ]
