@@ -1,7 +1,7 @@
 [
   {
     "source": "opwdd",
-    "name": "0225 - SUNMOUNT DDSO",
+    "name": "Sunmount Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -18,11 +18,12 @@
     "county": "Franklin",
     "phone": "(518) 359-3311",
     "lat": 44.22596,
-    "lng": -74.44058
+    "lng": -74.44058,
+    "listedName": "0225 - SUNMOUNT DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0227 - LONG ISLAND DDSO",
+    "name": "Long Island Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -37,11 +38,12 @@
     "county": "Suffolk",
     "phone": "(516) 493-1700",
     "lat": 40.81559,
-    "lng": -73.27218
+    "lng": -73.27218,
+    "listedName": "0227 - LONG ISLAND DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0233 - BROOME DDSO",
+    "name": "Broome Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -58,11 +60,12 @@
     "county": "Broome",
     "phone": "(607) 770-0211",
     "lat": 42.12488,
-    "lng": -75.93486
+    "lng": -75.93486,
+    "listedName": "0233 - BROOME DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0235 - BROOKLYN DDSO",
+    "name": "Brooklyn Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Residential (IRA)",
@@ -76,11 +79,12 @@
     "county": "Kings",
     "phone": "(718) 642-6000",
     "lat": 40.65873,
-    "lng": -73.8663
+    "lng": -73.8663,
+    "listedName": "0235 - BROOKLYN DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0260 - CAPITAL DISTRICT DDSO",
+    "name": "Capital District Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -97,11 +101,12 @@
     "county": "Schenectady",
     "phone": "(518) 370-7370",
     "lat": 42.77774,
-    "lng": -73.89349
+    "lng": -73.89349,
+    "listedName": "0260 - CAPITAL DISTRICT DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0261 - CENTRAL NEW YORK DDSO",
+    "name": "Central New York Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -116,11 +121,12 @@
     "county": "Onondaga",
     "phone": "(315) 473-2949",
     "lat": 43.10916,
-    "lng": -76.15319
+    "lng": -76.15319,
+    "listedName": "0261 - CENTRAL NEW YORK DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0263 - FINGER LAKES DDSO",
+    "name": "Finger Lakes Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -136,11 +142,12 @@
     "county": "Monroe",
     "phone": "(585) 461-8500",
     "lat": 43.11759,
-    "lng": -77.60518
+    "lng": -77.60518,
+    "listedName": "0263 - FINGER LAKES DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0264 - WESTERN NY DDSO",
+    "name": "Western New York Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -156,11 +163,12 @@
     "county": "Erie",
     "phone": "(716) 517-2000",
     "lat": 42.82027,
-    "lng": -78.72477
+    "lng": -78.72477,
+    "listedName": "0264 - WESTERN NY DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0265 - METRO NY DDSO",
+    "name": "Metro New York Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -174,11 +182,12 @@
     "county": "New York",
     "phone": "(212) 229-3000",
     "lat": 40.70498,
-    "lng": -74.01207
+    "lng": -74.01207,
+    "listedName": "0265 - METRO NY DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0275 - TACONIC DDSO",
+    "name": "Taconic Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Residential (IRA)",
@@ -192,11 +201,12 @@
     "county": "Dutchess",
     "phone": "(845) 877-6821",
     "lat": 41.77092,
-    "lng": -73.55975
+    "lng": -73.55975,
+    "listedName": "0275 - TACONIC DDSO"
   },
   {
     "source": "opwdd",
-    "name": "0276 - STATEN ISLAND DDSO",
+    "name": "Staten Island Developmental Disabilities Services Office",
     "services": [
       "Day Habilitation",
       "Residential (IRA)",
@@ -210,11 +220,12 @@
     "county": "Richmond",
     "phone": "(718) 983-5200",
     "lat": 40.59308,
-    "lng": -74.14421
+    "lng": -74.14421,
+    "listedName": "0276 - STATEN ISLAND DDSO"
   },
   {
     "source": "opwdd",
-    "name": "A VERY SPECIAL PLACE  INC.",
+    "name": "A Very Special Place",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -231,11 +242,12 @@
     "phone": "(718) 987-1234",
     "website": "http://www.veryspecialplace.org",
     "lat": 40.56334,
-    "lng": -74.09866
+    "lng": -74.09866,
+    "listedName": "A VERY SPECIAL PLACE  INC."
   },
   {
     "source": "opwdd",
-    "name": "A-1 UNIVERSAL CARE  INC.",
+    "name": "A-1 Universal Care",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -249,11 +261,12 @@
     "phone": "(516) 338-8777",
     "website": "http://www.a1universalcare.org",
     "lat": 40.79303,
-    "lng": -73.46463
+    "lng": -73.46463,
+    "listedName": "A-1 UNIVERSAL CARE  INC."
   },
   {
     "source": "opwdd",
-    "name": "A.C.L.D.",
+    "name": "ACLD",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -271,11 +284,12 @@
     "phone": "(516) 822-0028",
     "website": "http://www.acld.org",
     "lat": 40.76356,
-    "lng": -73.4996
+    "lng": -73.4996,
+    "listedName": "A.C.L.D."
   },
   {
     "source": "opwdd",
-    "name": "A.R.C.  INC.",
+    "name": "ARC",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -291,11 +305,12 @@
     "phone": "(718) 531-7500",
     "website": "http://www.arcny.org",
     "lat": 40.62899,
-    "lng": -73.92311
+    "lng": -73.92311,
+    "listedName": "A.R.C.  INC."
   },
   {
     "source": "opwdd",
-    "name": "AABR  INC.",
+    "name": "AABR",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -312,11 +327,12 @@
     "phone": "(718) 321-3800",
     "website": "http://www.aabr.org",
     "lat": 40.78353,
-    "lng": -73.8465
+    "lng": -73.8465,
+    "listedName": "AABR  INC."
   },
   {
     "source": "opwdd",
-    "name": "ABBOTT HOUSE",
+    "name": "Abbott House",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -334,11 +350,12 @@
     "phone": "(914) 591-7300",
     "website": "http://www.abbotthouse.net",
     "lat": 41.04589,
-    "lng": -73.86134
+    "lng": -73.86134,
+    "listedName": "ABBOTT HOUSE"
   },
   {
     "source": "opwdd",
-    "name": "ABILITIES  INC.",
+    "name": "Abilities",
     "services": [
       "Supported Employment",
       "Prevocational"
@@ -351,11 +368,12 @@
     "phone": "(516) 465-1575",
     "website": "http://www.viscardicenter.org/services/abilities-inc.html",
     "lat": 40.76923,
-    "lng": -73.65844
+    "lng": -73.65844,
+    "listedName": "ABILITIES  INC."
   },
   {
     "source": "opwdd",
-    "name": "ABILITIES FIRST  INC",
+    "name": "Abilities First",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -373,11 +391,12 @@
     "phone": "(845) 485-9803",
     "website": "http://www.abilitiesfirstny.org",
     "lat": 41.5998,
-    "lng": -73.88074
+    "lng": -73.88074,
+    "listedName": "ABILITIES FIRST  INC"
   },
   {
     "source": "opwdd",
-    "name": "ABILITY BEYOND DISABILITY",
+    "name": "Ability Beyond Disability",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -394,11 +413,12 @@
     "phone": "(914) 242-8720",
     "website": "http://www.abilitybeyonddisability.org",
     "lat": 41.17861,
-    "lng": -73.74906
+    "lng": -73.74906,
+    "listedName": "ABILITY BEYOND DISABILITY"
   },
   {
     "source": "opwdd",
-    "name": "ABLE2 ENHANCING POTENTIAL  INC",
+    "name": "Able2 Enhancing Potential",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -414,11 +434,12 @@
     "phone": "(607) 734-7107",
     "website": "http://www.able-2.org",
     "lat": 42.0631,
-    "lng": -76.79611
+    "lng": -76.79611,
+    "listedName": "ABLE2 ENHANCING POTENTIAL  INC"
   },
   {
     "source": "opwdd",
-    "name": "ACCESS: SUPPORTS FOR LIVING  INC.",
+    "name": "Access Supports for Living",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -437,11 +458,12 @@
     "phone": "(845) 692-4454",
     "website": "http://www.accesssupports.org",
     "lat": 41.47342,
-    "lng": -74.37266
+    "lng": -74.37266,
+    "listedName": "ACCESS: SUPPORTS FOR LIVING  INC."
   },
   {
     "source": "opwdd",
-    "name": "ACCESSCNY INC",
+    "name": "AccessCNY",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -460,11 +482,12 @@
     "phone": "(315) 455-7591",
     "website": "http://www.accesscny.org",
     "lat": 43.07917,
-    "lng": -76.14633
+    "lng": -76.14633,
+    "listedName": "ACCESSCNY INC"
   },
   {
     "source": "opwdd",
-    "name": "ACDS  INC.",
+    "name": "ACDS",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -479,11 +502,12 @@
     "phone": "(516) 933-4700",
     "website": "http://www.acds.org",
     "lat": 40.7743,
-    "lng": -73.49205
+    "lng": -73.49205,
+    "listedName": "ACDS  INC."
   },
   {
     "source": "opwdd",
-    "name": "ACHIEVE (DBA)",
+    "name": "Achieve",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -501,11 +525,12 @@
     "phone": "(607) 723-8361",
     "website": "http://www.achieveny.org",
     "lat": 42.12984,
-    "lng": -75.91162
+    "lng": -75.91162,
+    "listedName": "ACHIEVE (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "ADAPT COMMUNITY NETWORK (DBA)",
+    "name": "ADAPT Community Network",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -523,11 +548,12 @@
     "phone": "(212) 683-6700",
     "website": "http://www.ucpnyc.org",
     "lat": 40.70718,
-    "lng": -74.00738
+    "lng": -74.00738,
+    "listedName": "ADAPT COMMUNITY NETWORK (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "ADVOCATES INCORPORATED",
+    "name": "Advocates",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -541,11 +567,12 @@
     "phone": "(315) 469-9931",
     "website": "http://www.advocatesincorporated.org",
     "lat": 43.14802,
-    "lng": -76.19296
+    "lng": -76.19296,
+    "listedName": "ADVOCATES INCORPORATED"
   },
   {
     "source": "opwdd",
-    "name": "AHIVIM INC",
+    "name": "Ahivim",
     "services": [
       "Community Habilitation",
       "Prevocational",
@@ -560,11 +587,12 @@
     "phone": "(845) 774-7000",
     "website": "http://www.ahivim.org",
     "lat": 41.3277,
-    "lng": -74.14278
+    "lng": -74.14278,
+    "listedName": "AHIVIM INC"
   },
   {
     "source": "opwdd",
-    "name": "AIM INDEPENDENT LIVING CENTER (DBA)",
+    "name": "AIM Independent Living Center",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -580,11 +608,12 @@
     "phone": "(607) 962-8225",
     "website": "http://www.aimcil.com",
     "lat": 42.13953,
-    "lng": -77.04382
+    "lng": -77.04382,
+    "listedName": "AIM INDEPENDENT LIVING CENTER (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "AIM SERVICES  INC.",
+    "name": "AIM Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -603,11 +632,12 @@
     "phone": "(518) 587-3208",
     "website": "http://www.aimservicesinc.org",
     "lat": 43.12137,
-    "lng": -73.72335
+    "lng": -73.72335,
+    "listedName": "AIM SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "ALEXANDRIA & AKEA'S PLAYHOUSE INC",
+    "name": "Alexandria and Akea's Playhouse",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -620,11 +650,12 @@
     "phone": "(718) 587-9829",
     "website": "https://aapiservices.org/",
     "lat": 40.60714,
-    "lng": -74.08846
+    "lng": -74.08846,
+    "listedName": "ALEXANDRIA & AKEA'S PLAYHOUSE INC"
   },
   {
     "source": "opwdd",
-    "name": "ALLCARE PROVIDER SERVICES  INC",
+    "name": "Allcare Provider Services",
     "services": [
       "Individual Support (ISS)"
     ],
@@ -636,11 +667,12 @@
     "phone": "(877) 391-0977",
     "website": "http://allcareps.com",
     "lat": 40.83965,
-    "lng": -73.83684
+    "lng": -73.83684,
+    "listedName": "ALLCARE PROVIDER SERVICES  INC"
   },
   {
     "source": "opwdd",
-    "name": "ALLEGANY REGIONAL DEVELOPMENT CORP.",
+    "name": "Allegany Regional Development Corporation",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -652,11 +684,12 @@
     "county": "Cattaraugus",
     "phone": "(716) 945-4100",
     "lat": 42.15884,
-    "lng": -78.71484
+    "lng": -78.71484,
+    "listedName": "ALLEGANY REGIONAL DEVELOPMENT CORP."
   },
   {
     "source": "opwdd",
-    "name": "AMIC  INC.",
+    "name": "AMIC",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -670,11 +703,12 @@
     "phone": "(914) 941-9513",
     "website": "http://wwwclearviewschool.org",
     "lat": 41.13192,
-    "lng": -73.86075
+    "lng": -73.86075,
+    "listedName": "AMIC  INC."
   },
   {
     "source": "opwdd",
-    "name": "ANDERSON CENTER SERVICES",
+    "name": "Anderson Center Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -689,11 +723,12 @@
     "phone": "(845) 889-4034",
     "website": "https://www.andersoncenterforautism.org",
     "lat": 41.82656,
-    "lng": -73.93414
+    "lng": -73.93414,
+    "listedName": "ANDERSON CENTER SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "ANGELS UNAWARE  INC.",
+    "name": "Angels Unaware",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -709,11 +744,12 @@
     "phone": "(718) 410-7406",
     "website": "https://angelsunawareny.com/",
     "lat": 40.84128,
-    "lng": -73.92282
+    "lng": -73.92282,
+    "listedName": "ANGELS UNAWARE  INC."
   },
   {
     "source": "opwdd",
-    "name": "ANIBIC  INC.",
+    "name": "Anibic",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -730,11 +766,12 @@
     "phone": "(718) 423-9550",
     "website": "http://www.anibic.org",
     "lat": 40.74753,
-    "lng": -73.75703
+    "lng": -73.75703,
+    "listedName": "ANIBIC  INC."
   },
   {
     "source": "opwdd",
-    "name": "ANOTHER STEP  INC.",
+    "name": "Another Step",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -750,7 +787,8 @@
     "phone": "(845) 268-8200",
     "website": "http://anotherstep.org",
     "lat": 41.03353,
-    "lng": -73.97253
+    "lng": -73.97253,
+    "listedName": "ANOTHER STEP  INC."
   },
   {
     "source": "opwdd",
@@ -777,7 +815,7 @@
   },
   {
     "source": "opwdd",
-    "name": "ARC HERKIMER",
+    "name": "ARC Herkimer",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -794,11 +832,12 @@
     "phone": "(315) 574-7000",
     "website": "http://www.herkimerarc.org",
     "lat": 43.02152,
-    "lng": -74.98149
+    "lng": -74.98149,
+    "listedName": "ARC HERKIMER"
   },
   {
     "source": "opwdd",
-    "name": "ARC JEFFERSON-ST.LAWRENCE NEW YORK (THE)",
+    "name": "The ARC Jefferson-Saint Lawrence New York",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -817,11 +856,12 @@
     "phone": "(315) 788-2730",
     "website": "http://www.thejrc.org",
     "lat": 43.98397,
-    "lng": -75.94039
+    "lng": -75.94039,
+    "listedName": "ARC JEFFERSON-ST.LAWRENCE NEW YORK (THE)"
   },
   {
     "source": "opwdd",
-    "name": "ARISE  INC.",
+    "name": "ARISE",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -837,11 +877,12 @@
     "phone": "(315) 472-3171",
     "website": "http://www.ariseinc.org",
     "lat": 43.0549,
-    "lng": -76.14339
+    "lng": -76.14339,
+    "listedName": "ARISE  INC."
   },
   {
     "source": "opwdd",
-    "name": "ASPIRE OF WESTERN NEW YORK",
+    "name": "Aspire of Western New York",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -860,11 +901,12 @@
     "phone": "(716) 505-5500",
     "website": "http://www.aspirewny.org",
     "lat": 43.00862,
-    "lng": -78.77543
+    "lng": -78.77543,
+    "listedName": "ASPIRE OF WESTERN NEW YORK"
   },
   {
     "source": "opwdd",
-    "name": "AURORA OF CNY  INC.",
+    "name": "Aurora of Central New York",
     "services": [
       "Supported Employment"
     ],
@@ -876,11 +918,12 @@
     "phone": "(315) 422-7263",
     "website": "http://www.auroraofcny.org",
     "lat": 43.06071,
-    "lng": -76.13203
+    "lng": -76.13203,
+    "listedName": "AURORA OF CNY  INC."
   },
   {
     "source": "opwdd",
-    "name": "B.R.I.D.G.E.S. (DBA)",
+    "name": "BRIDGES",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -893,11 +936,12 @@
     "phone": "(845) 624-1366",
     "website": "https://www.bridgesrc.org/",
     "lat": 41.09833,
-    "lng": -73.9572
+    "lng": -73.9572,
+    "listedName": "B.R.I.D.G.E.S. (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "BATTENKILL COMMUNITY SERVICES  INC.",
+    "name": "Battenkill Community Services",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -911,11 +955,12 @@
     "phone": "(518) 692-2819",
     "website": "http://www.battenkill.org",
     "lat": 43.0892,
-    "lng": -73.4983
+    "lng": -73.4983,
+    "listedName": "BATTENKILL COMMUNITY SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "BEDFORD HAITIAN COMMUNITY CENTER",
+    "name": "Bedford Haitian Community Center",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -927,11 +972,12 @@
     "county": "Kings",
     "phone": "(718) 756-0600",
     "lat": 40.66859,
-    "lng": -73.95339
+    "lng": -73.95339,
+    "listedName": "BEDFORD HAITIAN COMMUNITY CENTER"
   },
   {
     "source": "opwdd",
-    "name": "BEYOND SUPPORT NETWORK (DBA)",
+    "name": "Beyond Support Network",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -949,11 +995,12 @@
     "phone": "(716) 710-5460",
     "website": "http://www.beyondwny.org",
     "lat": 42.93601,
-    "lng": -78.84259
+    "lng": -78.84259,
+    "listedName": "BEYOND SUPPORT NETWORK (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "BIRCH FAMILY SERVICES",
+    "name": "Birch Family Services",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -969,11 +1016,12 @@
     "phone": "(212) 616-1800",
     "website": "http://www.birchfamilyservices.org",
     "lat": 40.74691,
-    "lng": -73.99066
+    "lng": -73.99066,
+    "listedName": "BIRCH FAMILY SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "BLOCK INSTITUTE",
+    "name": "Block Institute",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -990,11 +1038,12 @@
     "phone": "(718) 946-9700",
     "website": "http://blockinstitute.org",
     "lat": 40.58762,
-    "lng": -73.9937
+    "lng": -73.9937,
+    "listedName": "BLOCK INSTITUTE"
   },
   {
     "source": "opwdd",
-    "name": "BRAVERHOOD  LTD.",
+    "name": "Braverhood",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1009,11 +1058,12 @@
     "phone": "(718) 336-6073",
     "website": "http://www.hihfs.org",
     "lat": 40.62569,
-    "lng": -73.99333
+    "lng": -73.99333,
+    "listedName": "BRAVERHOOD  LTD."
   },
   {
     "source": "opwdd",
-    "name": "BROOKLYN COMMUNITY SERVICES (DBA)",
+    "name": "Brooklyn Community Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1031,11 +1081,12 @@
     "phone": "(718) 310-5600",
     "website": "http://www.wearebcs.org",
     "lat": 40.69143,
-    "lng": -73.98632
+    "lng": -73.98632,
+    "listedName": "BROOKLYN COMMUNITY SERVICES (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "BROOKVILLE CNTR FOR CHILDREN'S SERVS INC",
+    "name": "Brookville Center for Children's Services",
     "services": [
       "Family Support",
       "Intermediate Care (ICF)"
@@ -1048,11 +1099,12 @@
     "phone": "(516) 626-1000 ext. 1105",
     "website": "http://www.ahrc.org",
     "lat": 40.80809,
-    "lng": -73.58149
+    "lng": -73.58149,
+    "listedName": "BROOKVILLE CNTR FOR CHILDREN'S SERVS INC"
   },
   {
     "source": "opwdd",
-    "name": "CAMPHILL HUDSON INC",
+    "name": "Camphill Hudson",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1066,11 +1118,12 @@
     "phone": "(518) 828-3431",
     "website": "http://www.camphillhudson.org",
     "lat": 42.25155,
-    "lng": -73.78922
+    "lng": -73.78922,
+    "listedName": "CAMPHILL HUDSON INC"
   },
   {
     "source": "opwdd",
-    "name": "CAPABILITIES  INC.",
+    "name": "Capabilities",
     "services": [
       "Supported Employment"
     ],
@@ -1082,11 +1135,12 @@
     "phone": "(607) 734-2006",
     "website": "http://www.capabilities.org",
     "lat": 42.10884,
-    "lng": -76.80279
+    "lng": -76.80279,
+    "listedName": "CAPABILITIES  INC."
   },
   {
     "source": "opwdd",
-    "name": "CARDINAL HAYES HOME FOR CHILDREN",
+    "name": "Cardinal Hayes Home for Children",
     "services": [
       "Day Habilitation",
       "Residential (IRA)",
@@ -1100,11 +1154,12 @@
     "phone": "(845) 677-6363",
     "website": "http://www.cardinalhayeshome.org",
     "lat": 41.78714,
-    "lng": -73.70119
+    "lng": -73.70119,
+    "listedName": "CARDINAL HAYES HOME FOR CHILDREN"
   },
   {
     "source": "opwdd",
-    "name": "CARDINAL MCCLOSKEY SERVICES",
+    "name": "Cardinal McCloskey Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1119,11 +1174,12 @@
     "phone": "(914) 997-8000",
     "website": "http://www.cardinalmccloskeyservices.org",
     "lat": 41.09819,
-    "lng": -73.77284
+    "lng": -73.77284,
+    "listedName": "CARDINAL MCCLOSKEY SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "CARL FENICHEL COMMUNITY SVCS.",
+    "name": "Carl Fenichel Community Services",
     "services": [
       "Day Habilitation",
       "Supported Employment",
@@ -1137,11 +1193,12 @@
     "phone": "(718) 643-5300",
     "website": "http://www.leaguecenter.org",
     "lat": 40.68303,
-    "lng": -73.96887
+    "lng": -73.96887,
+    "listedName": "CARL FENICHEL COMMUNITY SVCS."
   },
   {
     "source": "opwdd",
-    "name": "CATHOLIC CHARITIES - ROCKVILLE CENTER",
+    "name": "Catholic Charities of the Diocese of Rockville Centre",
     "services": [
       "Residential (IRA)"
     ],
@@ -1153,11 +1210,12 @@
     "phone": "(516) 733-7013",
     "website": "https://www.catholiccharities.cc/about-us/",
     "lat": 40.74702,
-    "lng": -73.53165
+    "lng": -73.53165,
+    "listedName": "CATHOLIC CHARITIES - ROCKVILLE CENTER"
   },
   {
     "source": "opwdd",
-    "name": "CATHOLIC CHARITIES FAM AND COMM SVCS DBA",
+    "name": "Catholic Charities Family and Community Services",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1175,11 +1233,12 @@
     "phone": "(585) 339-9800",
     "website": "http://www.cccsrochester.org",
     "lat": 43.15837,
-    "lng": -77.65062
+    "lng": -77.65062,
+    "listedName": "CATHOLIC CHARITIES FAM AND COMM SVCS DBA"
   },
   {
     "source": "opwdd",
-    "name": "CATHOLIC CHARITIES NEIGHBORHOOD SVCS",
+    "name": "Catholic Charities Neighborhood Services",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -1192,11 +1251,12 @@
     "phone": "(718) 722-6000",
     "website": "http://www.ccbq.org",
     "lat": 40.69265,
-    "lng": -73.99181
+    "lng": -73.99181,
+    "listedName": "CATHOLIC CHARITIES NEIGHBORHOOD SVCS"
   },
   {
     "source": "opwdd",
-    "name": "CATHOLIC CHARITIES OF BROOME  INC",
+    "name": "Catholic Charities of Broome",
     "services": [
       "Community Habilitation",
       "Residential (IRA)"
@@ -1209,11 +1269,12 @@
     "phone": "(607) 729-9166",
     "website": "http://catholiccharitiesbc.org",
     "lat": 42.10619,
-    "lng": -75.93557
+    "lng": -75.93557,
+    "listedName": "CATHOLIC CHARITIES OF BROOME  INC"
   },
   {
     "source": "opwdd",
-    "name": "CATHOLIC CHARITIES OF CHENANGO COUNTY",
+    "name": "Catholic Charities of Chenango County",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1227,11 +1288,12 @@
     "phone": "(607) 334-8244",
     "website": "https://ccofcc.com/",
     "lat": 42.52008,
-    "lng": -75.51999
+    "lng": -75.51999,
+    "listedName": "CATHOLIC CHARITIES OF CHENANGO COUNTY"
   },
   {
     "source": "opwdd",
-    "name": "CATHOLIC CHARITIES OF STATEN ISLAND  INC",
+    "name": "Catholic Charities of Staten Island",
     "services": [
       "Residential (IRA)",
       "Supported Employment",
@@ -1245,11 +1307,12 @@
     "phone": "(718) 317-2803",
     "website": "http://mountloretto.org",
     "lat": 40.51182,
-    "lng": -74.22241
+    "lng": -74.22241,
+    "listedName": "CATHOLIC CHARITIES OF STATEN ISLAND  INC"
   },
   {
     "source": "opwdd",
-    "name": "CATHOLIC CHARITIES OF THE DIOCESE OF ALB",
+    "name": "Catholic Charities of the Diocese of Albany",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1265,11 +1328,12 @@
     "phone": "(518) 783-1111",
     "website": "http://www.ccdservices.org",
     "lat": 42.71561,
-    "lng": -73.81419
+    "lng": -73.81419,
+    "listedName": "CATHOLIC CHARITIES OF THE DIOCESE OF ALB"
   },
   {
     "source": "opwdd",
-    "name": "CATHOLIC CHARITIES TOMPKINS & TIOGA CTY",
+    "name": "Catholic Charities of Tompkins and Tioga",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -1283,11 +1347,12 @@
     "phone": "(607) 272-5062",
     "website": "https://www.catholiccharitiestt.org/",
     "lat": 42.44121,
-    "lng": -76.50333
+    "lng": -76.50333,
+    "listedName": "CATHOLIC CHARITIES TOMPKINS & TIOGA CTY"
   },
   {
     "source": "opwdd",
-    "name": "CATHOLIC GUARDIAN SERVICES",
+    "name": "Catholic Guardian Services",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1301,11 +1366,12 @@
     "phone": "(212) 371-1000",
     "website": "http://www.catholicguardian.org",
     "lat": 40.7588,
-    "lng": -73.9749
+    "lng": -73.9749,
+    "listedName": "CATHOLIC GUARDIAN SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "CATTARAUGUS REHABILITATION CENTER",
+    "name": "Cattaraugus Rehabilitation Center",
     "services": [
       "Community Habilitation",
       "Individual Support (ISS)"
@@ -1318,11 +1384,12 @@
     "phone": "(716) 375-4747",
     "website": "http://www.rehabcenter.org",
     "lat": 42.0862,
-    "lng": -78.44798
+    "lng": -78.44798,
+    "listedName": "CATTARAUGUS REHABILITATION CENTER"
   },
   {
     "source": "opwdd",
-    "name": "CAYUGA CENTERS",
+    "name": "Cayuga Centers",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1337,11 +1404,12 @@
     "phone": "(315) 253-5383",
     "website": "http://www.cayugahome.org",
     "lat": 42.92448,
-    "lng": -76.55303
+    "lng": -76.55303,
+    "listedName": "CAYUGA CENTERS"
   },
   {
     "source": "opwdd",
-    "name": "CDS MONARCH  INC.",
+    "name": "CDS Monarch",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1360,11 +1428,12 @@
     "phone": "(585) 341-4600",
     "website": "http://www.cdslifetransitions.org",
     "lat": 43.21699,
-    "lng": -77.4569
+    "lng": -77.4569,
+    "listedName": "CDS MONARCH  INC."
   },
   {
     "source": "opwdd",
-    "name": "CENTER F/DEVELOPMENTAL DISABILITIES  INC",
+    "name": "Center for Developmental Disabilities",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1382,11 +1451,12 @@
     "phone": "(516) 921-7650",
     "website": "http://www.centerfor.com/careersatthecenter.html",
     "lat": 40.83317,
-    "lng": -73.48253
+    "lng": -73.48253,
+    "listedName": "CENTER F/DEVELOPMENTAL DISABILITIES  INC"
   },
   {
     "source": "opwdd",
-    "name": "CENTER FOR DISABILITY RIGHTS  INC.",
+    "name": "Center for Disability Rights",
     "services": [
       "Community Habilitation"
     ],
@@ -1398,11 +1468,12 @@
     "phone": "(585) 546-7510",
     "website": "http://www.cdrnys.org",
     "lat": 43.16325,
-    "lng": -77.6223
+    "lng": -77.6223,
+    "listedName": "CENTER FOR DISABILITY RIGHTS  INC."
   },
   {
     "source": "opwdd",
-    "name": "CENTER FOR DISABILITY SERVICES  INC",
+    "name": "Center for Disability Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1419,11 +1490,12 @@
     "phone": "(518) 738-0020 ext. 3712",
     "website": "http://www.cfdsny.org",
     "lat": 42.65441,
-    "lng": -73.8077
+    "lng": -73.8077,
+    "listedName": "CENTER FOR DISABILITY SERVICES  INC"
   },
   {
     "source": "opwdd",
-    "name": "CENTER FOR FAMILY SUPPORT  INC. (THE)",
+    "name": "The Center for Family Support",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1440,11 +1512,12 @@
     "phone": "(516) 292-3000",
     "website": "http://www.cfsny.org",
     "lat": 40.74749,
-    "lng": -73.99316
+    "lng": -73.99316,
+    "listedName": "CENTER FOR FAMILY SUPPORT  INC. (THE)"
   },
   {
     "source": "opwdd",
-    "name": "CENTER FOR RAPID RECOVERY",
+    "name": "Center for Rapid Recovery",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1459,11 +1532,12 @@
     "phone": "(516) 292-6449",
     "website": "http://www.rapidrecovery.org",
     "lat": 40.69933,
-    "lng": -73.61357
+    "lng": -73.61357,
+    "listedName": "CENTER FOR RAPID RECOVERY"
   },
   {
     "source": "opwdd",
-    "name": "CENTRAL NEW YORK QUEST  INC.",
+    "name": "Central New York Quest",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -1479,11 +1553,12 @@
     "phone": "(315) 732-3431",
     "website": "https://cnyquest.com/",
     "lat": 43.09235,
-    "lng": -75.28448
+    "lng": -75.28448,
+    "listedName": "CENTRAL NEW YORK QUEST  INC."
   },
   {
     "source": "opwdd",
-    "name": "CENTRO SOCIAL LA ESPERANZA  INC.",
+    "name": "Centro Social La Esperanza",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1498,11 +1573,12 @@
     "phone": "(212) 928-5810",
     "website": "http://www.esperanzacenter.com/about-us.html",
     "lat": 40.84857,
-    "lng": -73.93195
+    "lng": -73.93195,
+    "listedName": "CENTRO SOCIAL LA ESPERANZA  INC."
   },
   {
     "source": "opwdd",
-    "name": "CEREBRAL PALSY OF WESTCHESTER  INC.",
+    "name": "Cerebral Palsy of Westchester",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1519,11 +1595,12 @@
     "phone": "(914) 937-3800",
     "website": "http://www.cpwestchester.org",
     "lat": 41.05295,
-    "lng": -73.68911
+    "lng": -73.68911,
+    "listedName": "CEREBRAL PALSY OF WESTCHESTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "CFS SELF-DIRECTED SUPPORTS  INC.",
+    "name": "CFS Self-Directed Supports",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -1538,11 +1615,12 @@
     "phone": "(212) 629-7939",
     "website": "https://www.cfsny.org/",
     "lat": 40.74749,
-    "lng": -73.99316
+    "lng": -73.99316,
+    "listedName": "CFS SELF-DIRECTED SUPPORTS  INC."
   },
   {
     "source": "opwdd",
-    "name": "CHALLENGE INDUSTRIES  INC.",
+    "name": "Challenge Industries",
     "services": [
       "Supported Employment",
       "Prevocational"
@@ -1555,11 +1633,12 @@
     "phone": "(607) 272-8990",
     "website": "http://aboutchallenge.org",
     "lat": 42.423665,
-    "lng": -76.500445
+    "lng": -76.500445,
+    "listedName": "CHALLENGE INDUSTRIES  INC."
   },
   {
     "source": "opwdd",
-    "name": "CHDFS  INC.",
+    "name": "CHDFS",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -1572,11 +1651,12 @@
     "phone": "(212) 695-4562",
     "website": "https://chdfs.org/our-mission",
     "lat": 40.75499,
-    "lng": -73.99229
+    "lng": -73.99229,
+    "listedName": "CHDFS  INC."
   },
   {
     "source": "opwdd",
-    "name": "CHEMLU DEVELOP DISABILITY CTR INC.",
+    "name": "Chemlu Developmental Disability Center",
     "services": [
       "Community Habilitation",
       "Prevocational",
@@ -1590,11 +1670,12 @@
     "phone": "(845) 774-1422",
     "website": "https://www.chemlu.org/",
     "lat": 41.33929,
-    "lng": -74.16991
+    "lng": -74.16991,
+    "listedName": "CHEMLU DEVELOP DISABILITY CTR INC."
   },
   {
     "source": "opwdd",
-    "name": "CHILD & FAMILY SUPPORT SERVICES",
+    "name": "Child and Family Support Services",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -1609,11 +1690,12 @@
     "phone": "(718) 618-7535",
     "website": "http://nycfss.org",
     "lat": 40.82615,
-    "lng": -73.92301
+    "lng": -73.92301,
+    "listedName": "CHILD & FAMILY SUPPORT SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "CHILDREN AT PLAY EARLY INTERVENTION CNTR",
+    "name": "Children at Play Early Intervention Center",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -1627,11 +1709,12 @@
     "phone": "(718) 370-7529",
     "website": "http://www.childrenatplayeic.org",
     "lat": 40.61005,
-    "lng": -74.16207
+    "lng": -74.16207,
+    "listedName": "CHILDREN AT PLAY EARLY INTERVENTION CNTR"
   },
   {
     "source": "opwdd",
-    "name": "CITIZEN ADVOCATES  INC.",
+    "name": "Citizen Advocates",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1649,11 +1732,12 @@
     "phone": "(518) 651-2245",
     "website": "https://citizenadvocates.net/",
     "lat": 44.85314,
-    "lng": -74.3385
+    "lng": -74.3385,
+    "listedName": "CITIZEN ADVOCATES  INC."
   },
   {
     "source": "opwdd",
-    "name": "CITIZENS OPTIONS UNLIMITED  INC.",
+    "name": "Citizens Options Unlimited",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1670,11 +1754,12 @@
     "phone": "(516) 626-1000",
     "website": "https://www.ahrcfoundation.org",
     "lat": 40.80809,
-    "lng": -73.58149
+    "lng": -73.58149,
+    "listedName": "CITIZENS OPTIONS UNLIMITED  INC."
   },
   {
     "source": "opwdd",
-    "name": "CITY ACCESS NEW YORK",
+    "name": "City Access New York",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -1689,11 +1774,12 @@
     "phone": "(718) 285-6548",
     "website": "http://www.cityaccessny.org",
     "lat": 40.63411,
-    "lng": -74.12265
+    "lng": -74.12265,
+    "listedName": "CITY ACCESS NEW YORK"
   },
   {
     "source": "opwdd",
-    "name": "CLARKE INST FOR COMMUNITY INCLUSION  INC",
+    "name": "Clarke Institute for Community Inclusion",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -1707,11 +1793,12 @@
     "phone": "(516) 280-9361",
     "website": "https://www.ciciny.org/",
     "lat": 40.6894,
-    "lng": -73.92303
+    "lng": -73.92303,
+    "listedName": "CLARKE INST FOR COMMUNITY INCLUSION  INC"
   },
   {
     "source": "opwdd",
-    "name": "CLINTON CO. NYSARC  INC.",
+    "name": "Clinton County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1730,11 +1817,12 @@
     "phone": "(518) 563-0930",
     "website": "http://www.cviarc.org",
     "lat": 44.67025,
-    "lng": -73.45375
+    "lng": -73.45375,
+    "listedName": "CLINTON CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
-    "name": "CLINTON-ESSEX-WARREN-WASHINGTON BOCES",
+    "name": "Clinton-Essex-Warren-Washington BOCES",
     "services": [
       "Supported Employment",
       "Prevocational"
@@ -1747,7 +1835,8 @@
     "phone": "(518) 561-0100",
     "website": "http://www.cves.org",
     "lat": 44.69303,
-    "lng": -73.51707
+    "lng": -73.51707,
+    "listedName": "CLINTON-ESSEX-WARREN-WASHINGTON BOCES"
   },
   {
     "source": "opwdd",
@@ -1774,7 +1863,7 @@
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY ACTION F/HUMAN SERVICES  INC",
+    "name": "Community Action for Human Services",
     "services": [
       "Day Habilitation",
       "Residential (IRA)"
@@ -1787,11 +1876,12 @@
     "phone": "(718) 655-7700",
     "website": "https://cahsinc.org/",
     "lat": 40.85202,
-    "lng": -73.82719
+    "lng": -73.82719,
+    "listedName": "COMMUNITY ACTION F/HUMAN SERVICES  INC"
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY ASST. RESOURCES & EXTENDED SVC",
+    "name": "Community Assistance Resources and Extended Services",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -1804,11 +1894,12 @@
     "phone": "(212) 420-1970",
     "website": "http://www.caresnys.org",
     "lat": 40.71501,
-    "lng": -73.98361
+    "lng": -73.98361,
+    "listedName": "COMMUNITY ASST. RESOURCES & EXTENDED SVC"
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY BASED SERVICES  INC.",
+    "name": "Community Based Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1826,11 +1917,12 @@
     "phone": "(914) 277-4771",
     "website": "http://www.commbasedservices.org",
     "lat": 41.3498,
-    "lng": -73.64612
+    "lng": -73.64612,
+    "listedName": "COMMUNITY BASED SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY LIVING CORPORATION",
+    "name": "Community Living Corporation",
     "services": [
       "Residential (IRA)"
     ],
@@ -1842,11 +1934,12 @@
     "phone": "(914) 239-4700",
     "website": "http://www.clcgroup.org",
     "lat": 41.19199,
-    "lng": -73.74
+    "lng": -73.74,
+    "listedName": "COMMUNITY LIVING CORPORATION"
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY MAINSTREAMING ASSOC.  INC.",
+    "name": "Community Mainstreaming Associates",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1864,11 +1957,12 @@
     "phone": "(516) 683-0710",
     "website": "http://communitymainstreaming.org/",
     "lat": 40.75522,
-    "lng": -73.55784
+    "lng": -73.55784,
+    "listedName": "COMMUNITY MAINSTREAMING ASSOC.  INC."
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY OPTIONS NEW YORK  INC.",
+    "name": "Community Options New York",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1884,11 +1978,12 @@
     "phone": "(212) 227-9110",
     "website": "http://www.comop.org",
     "lat": 40.74812,
-    "lng": -73.9848
+    "lng": -73.9848,
+    "listedName": "COMMUNITY OPTIONS NEW YORK  INC."
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY PROGRAMS OF WJCS",
+    "name": "Community Programs of Westchester Jewish Community Services",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1903,11 +1998,12 @@
     "county": "Westchester",
     "website": "http://www.wjcs.com",
     "lat": 41.06106,
-    "lng": -73.76625
+    "lng": -73.76625,
+    "listedName": "COMMUNITY PROGRAMS OF WJCS"
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY RESOURCE CENTER FOR DD",
+    "name": "Community Resource Center for the Developmentally Disabled",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -1921,11 +2017,12 @@
     "phone": "(718) 292-1705",
     "website": "http://www.crcdd.net/contact-us.html",
     "lat": 40.86077,
-    "lng": -73.89786
+    "lng": -73.89786,
+    "listedName": "COMMUNITY RESOURCE CENTER FOR DD"
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY RESOURCES & SVCS FOR CHILDREN",
+    "name": "Community Resources and Services for Children",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -1938,11 +2035,12 @@
     "county": "Queens",
     "phone": "(718) 206-3400",
     "lat": 40.70496,
-    "lng": -73.79913
+    "lng": -73.79913,
+    "listedName": "COMMUNITY RESOURCES & SVCS FOR CHILDREN"
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY RESOURCES STATEN ISLAND",
+    "name": "Community Resources Staten Island",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1959,11 +2057,12 @@
     "phone": "(718) 447-5200",
     "website": "https://cr-si.org/about-community-resources/",
     "lat": 40.60318,
-    "lng": -74.17364
+    "lng": -74.17364,
+    "listedName": "COMMUNITY RESOURCES STATEN ISLAND"
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY SERVICES FOR EVERY1  INC.",
+    "name": "Community Services for Every1",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -1982,11 +2081,12 @@
     "phone": "(716) 883-8888",
     "website": "http://www.csevery1.com",
     "lat": 42.88656,
-    "lng": -78.8703
+    "lng": -78.8703,
+    "listedName": "COMMUNITY SERVICES FOR EVERY1  INC."
   },
   {
     "source": "opwdd",
-    "name": "COMMUNITY WORK AND INDEPENDENCE INC",
+    "name": "Community, Work and Independence",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2004,11 +2104,12 @@
     "phone": "(518) 793-4700",
     "website": "http://www.cwinc.org",
     "lat": 43.3262,
-    "lng": -73.6478
+    "lng": -73.6478,
+    "listedName": "COMMUNITY WORK AND INDEPENDENCE INC"
   },
   {
     "source": "opwdd",
-    "name": "CONSTRUCTIVE PARTNERSHIPS UNLIMITED",
+    "name": "Constructive Partnerships Unlimited",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2025,11 +2126,12 @@
     "phone": "(212) 947-5770",
     "website": "http://www.cpunlimited.org",
     "lat": 40.70836,
-    "lng": -74.01482
+    "lng": -74.01482,
+    "listedName": "CONSTRUCTIVE PARTNERSHIPS UNLIMITED"
   },
   {
     "source": "opwdd",
-    "name": "COVENANT HOUSING CORP OF CNY",
+    "name": "Covenant Housing Corporation of Central New York",
     "services": [
       "Individual Support (ISS)"
     ],
@@ -2040,11 +2142,12 @@
     "county": "Onondaga",
     "phone": "(315) 834-2420",
     "lat": 43.06369,
-    "lng": -76.12259
+    "lng": -76.12259,
+    "listedName": "COVENANT HOUSING CORP OF CNY"
   },
   {
     "source": "opwdd",
-    "name": "CP ROCHESTER (DBA)",
+    "name": "Cerebral Palsy Rochester",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2060,11 +2163,12 @@
     "phone": "(585) 334-6000",
     "website": "http://www.cprochester.org",
     "lat": 43.08398,
-    "lng": -77.58247
+    "lng": -77.58247,
+    "listedName": "CP ROCHESTER (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "CREATIVE LIVING SOLUTIONS  INC.",
+    "name": "Creative Living Solutions",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -2079,11 +2183,12 @@
     "phone": "(518) 810-8535",
     "website": "https://www.clsinc.org/",
     "lat": 42.71731,
-    "lng": -73.80755
+    "lng": -73.80755,
+    "listedName": "CREATIVE LIVING SOLUTIONS  INC."
   },
   {
     "source": "opwdd",
-    "name": "CROSSROADS UNLIMITED  INC.",
+    "name": "Crossroads Unlimited",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -2098,11 +2203,12 @@
     "phone": "(718) 420-6330",
     "website": "http://crossroadsunlimitedinc.org",
     "lat": 40.63132,
-    "lng": -74.09372
+    "lng": -74.09372,
+    "listedName": "CROSSROADS UNLIMITED  INC."
   },
   {
     "source": "opwdd",
-    "name": "DAYBREAK INDEPENDENT SERVICES  INC.",
+    "name": "Daybreak Independent Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2116,11 +2222,12 @@
     "phone": "(914) 733-3327",
     "website": "http://www.daybreakis.org",
     "lat": 40.89565,
-    "lng": -73.86445
+    "lng": -73.86445,
+    "listedName": "DAYBREAK INDEPENDENT SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "DELAWARE CO. NYSARC  INC.",
+    "name": "Delaware County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2136,11 +2243,12 @@
     "phone": "(607) 865-7126",
     "website": "http://www.delarc.org",
     "lat": 42.18167,
-    "lng": -75.01321
+    "lng": -75.01321,
+    "listedName": "DELAWARE CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
-    "name": "DELAWARE OPPORTUNITIES INC.",
+    "name": "Delaware Opportunities",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -2153,11 +2261,12 @@
     "phone": "(607) 746-1600",
     "website": "http://www.delawareopportunities.org",
     "lat": 42.18807,
-    "lng": -74.99998
+    "lng": -74.99998,
+    "listedName": "DELAWARE OPPORTUNITIES INC."
   },
   {
     "source": "opwdd",
-    "name": "DEVELOPMENTAL DISABILITIES INSTITUTE",
+    "name": "Developmental Disabilities Institute",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2176,11 +2285,12 @@
     "phone": "(631) 366-2950",
     "website": "http://www.ddiny.org",
     "lat": 40.85081,
-    "lng": -73.23651
+    "lng": -73.23651,
+    "listedName": "DEVELOPMENTAL DISABILITIES INSTITUTE"
   },
   {
     "source": "opwdd",
-    "name": "DEVEREUX FOUNDATION (THE)",
+    "name": "The Devereux Foundation",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2195,11 +2305,12 @@
     "phone": "(845) 758-1899",
     "website": "http://www.devereux.org",
     "lat": 42.0372,
-    "lng": -73.84569
+    "lng": -73.84569,
+    "listedName": "DEVEREUX FOUNDATION (THE)"
   },
   {
     "source": "opwdd",
-    "name": "DIRECTIONS IN INDEPENDENT LIVING INC",
+    "name": "Directions in Independent Living",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -2212,11 +2323,12 @@
     "phone": "(716) 373-4602",
     "website": "http://www.oleanilc.org",
     "lat": 42.07746,
-    "lng": -78.43568
+    "lng": -78.43568,
+    "listedName": "DIRECTIONS IN INDEPENDENT LIVING INC"
   },
   {
     "source": "opwdd",
-    "name": "DISABLED PERSON'S ACTION ORG.",
+    "name": "Disabled Person's Action Organization",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2233,11 +2345,12 @@
     "phone": "(315) 782-3577",
     "website": "http://dpao.org",
     "lat": 43.98231,
-    "lng": -75.90939
+    "lng": -75.90939,
+    "listedName": "DISABLED PERSON'S ACTION ORG."
   },
   {
     "source": "opwdd",
-    "name": "E. JOHN GAVRAS CENTER (DBA)",
+    "name": "E. John Gavras Center",
     "services": [
       "Day Habilitation"
     ],
@@ -2249,11 +2362,12 @@
     "phone": "(315) 255-2746",
     "website": "http://www.gavrascenter.com",
     "lat": 42.94436,
-    "lng": -76.5666
+    "lng": -76.5666,
+    "listedName": "E. JOHN GAVRAS CENTER (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "EAST END DISABILITY ASSOCIATES  INC.",
+    "name": "East End Disability Associates",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2272,11 +2386,12 @@
     "phone": "(631) 369-7345",
     "website": "http://www.eed-a.org",
     "lat": 40.91722,
-    "lng": -72.66223
+    "lng": -72.66223,
+    "listedName": "EAST END DISABILITY ASSOCIATES  INC."
   },
   {
     "source": "opwdd",
-    "name": "EAST HARLEM COUNCIL FOR COMMUNITY IMPROV",
+    "name": "East Harlem Council for Community Improvement",
     "services": [
       "Community Habilitation",
       "Residential (IRA)"
@@ -2289,11 +2404,12 @@
     "phone": "(718) 299-1100 ext. 5238",
     "website": "http://www.acacianetwork.org",
     "lat": 40.8154,
-    "lng": -73.91886
+    "lng": -73.91886,
+    "listedName": "EAST HARLEM COUNCIL FOR COMMUNITY IMPROV"
   },
   {
     "source": "opwdd",
-    "name": "EASTERN SUFFOLK BOCES",
+    "name": "Eastern Suffolk BOCES",
     "services": [
       "Supported Employment"
     ],
@@ -2305,11 +2421,12 @@
     "phone": "(631) 687-3056",
     "website": "http://www.esboces.org",
     "lat": 40.78153,
-    "lng": -72.99653
+    "lng": -72.99653,
+    "listedName": "EASTERN SUFFOLK BOCES"
   },
   {
     "source": "opwdd",
-    "name": "ECONOMIC OPPORTUNITY COUNCIL OF SUFFOLK",
+    "name": "Economic Opportunity Council of Suffolk",
     "services": [
       "Community Habilitation",
       "Prevocational",
@@ -2325,11 +2442,12 @@
     "phone": "(631) 289-2124",
     "website": "http://eoc-suffolk.com",
     "lat": 40.76574,
-    "lng": -73.01589
+    "lng": -73.01589,
+    "listedName": "ECONOMIC OPPORTUNITY COUNCIL OF SUFFOLK"
   },
   {
     "source": "opwdd",
-    "name": "EDEN II SCHOOL FOR AUTISTIC CHILDREN",
+    "name": "Eden II School for Autistic Children",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2344,11 +2462,12 @@
     "phone": "(718) 816-1422",
     "website": "http://www.eden2.org",
     "lat": 40.62745,
-    "lng": -74.07694
+    "lng": -74.07694,
+    "listedName": "EDEN II SCHOOL FOR AUTISTIC CHILDREN"
   },
   {
     "source": "opwdd",
-    "name": "EIHAB HUMAN SERVICES  INC.",
+    "name": "Eihab Human Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2364,11 +2483,12 @@
     "phone": "(718) 276-6101",
     "website": "http://www.eihab.org",
     "lat": 40.66707,
-    "lng": -73.77548
+    "lng": -73.77548,
+    "listedName": "EIHAB HUMAN SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "ELMY'S SPECIAL SERVICES  INC.",
+    "name": "Elmy's Special Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2384,11 +2504,12 @@
     "phone": "(718) 789-7539",
     "website": "http://www.elmysspecialservices.org",
     "lat": 40.69045,
-    "lng": -73.93973
+    "lng": -73.93973,
+    "listedName": "ELMY'S SPECIAL SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "EMPOWER (DBA)",
+    "name": "Empower",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2407,11 +2528,12 @@
     "phone": "(716) 297-0798",
     "website": "http://www.niagaracp.org",
     "lat": 43.12153,
-    "lng": -78.94887
+    "lng": -78.94887,
+    "listedName": "EMPOWER (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "EMPOWERING PEOPLE'S INDEPENDENCE",
+    "name": "Empowering People's Independence",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2428,11 +2550,12 @@
     "phone": "(585) 442-6420",
     "website": "http://www.epiny.org",
     "lat": 43.12431,
-    "lng": -77.6145
+    "lng": -77.6145,
+    "listedName": "EMPOWERING PEOPLE'S INDEPENDENCE"
   },
   {
     "source": "opwdd",
-    "name": "EPIC LONG ISLAND  INC.",
+    "name": "EPIC Long Island",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2447,11 +2570,12 @@
     "phone": "(516) 739-7733",
     "website": "http://www.efli.org",
     "lat": 40.72223,
-    "lng": -73.57861
+    "lng": -73.57861,
+    "listedName": "EPIC LONG ISLAND  INC."
   },
   {
     "source": "opwdd",
-    "name": "EPILEPSY INSTITUTE (THE)",
+    "name": "The Epilepsy Institute",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2466,11 +2590,12 @@
     "phone": "(212) 677-8550",
     "website": "http://www.efmny.org/",
     "lat": 40.70588,
-    "lng": -74.0101
+    "lng": -74.0101,
+    "listedName": "EPILEPSY INSTITUTE (THE)"
   },
   {
     "source": "opwdd",
-    "name": "EPRINE COMMUNITY SERVICES  INC.",
+    "name": "Eprine Community Services",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -2483,11 +2608,12 @@
     "phone": "(718) 255-5946",
     "website": "https://eprine.com/",
     "lat": 40.67207,
-    "lng": -73.91358
+    "lng": -73.91358,
+    "listedName": "EPRINE COMMUNITY SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "EVERYONENY  INC.",
+    "name": "EveryoneNY",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2501,11 +2627,12 @@
     "phone": "(718) 788-5252",
     "website": "http://www.hhcsny.org",
     "lat": 40.70154,
-    "lng": -73.8857
+    "lng": -73.8857,
+    "listedName": "EVERYONENY  INC."
   },
   {
     "source": "opwdd",
-    "name": "EXCEPTIONAL FAMILY RESOURCES  INC",
+    "name": "Exceptional Family Resources",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -2521,11 +2648,12 @@
     "phone": "(315) 478-1462",
     "website": "http://www.contactefr.org",
     "lat": 43.08634,
-    "lng": -76.14511
+    "lng": -76.14511,
+    "listedName": "EXCEPTIONAL FAMILY RESOURCES  INC"
   },
   {
     "source": "opwdd",
-    "name": "FAMILY & CHILD SVCS OF SCHENECTADY",
+    "name": "Family and Child Services of Schenectady",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -2539,11 +2667,12 @@
     "phone": "(518) 393-1369",
     "website": "http://www.familyandchildservice.com",
     "lat": 42.70865,
-    "lng": -73.86637
+    "lng": -73.86637,
+    "listedName": "FAMILY & CHILD SVCS OF SCHENECTADY"
   },
   {
     "source": "opwdd",
-    "name": "FAMILY ENRICHMENT NETWORK  INC.",
+    "name": "Family Enrichment Network",
     "services": [
       "Community Habilitation",
       "Prevocational"
@@ -2556,11 +2685,12 @@
     "phone": "(607) 723-8313",
     "website": "http://www.familyenrichment.cc",
     "lat": 42.1096,
-    "lng": -75.9554
+    "lng": -75.9554,
+    "listedName": "FAMILY ENRICHMENT NETWORK  INC."
   },
   {
     "source": "opwdd",
-    "name": "FAMILY RESID AND ESSENT ENTERPRISES  INC",
+    "name": "Family Residences and Essential Enterprises",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2581,11 +2711,12 @@
     "phone": "(518) 870-1600",
     "website": "http://www.familyres.org",
     "lat": 40.75975,
-    "lng": -73.44195
+    "lng": -73.44195,
+    "listedName": "FAMILY RESID AND ESSENT ENTERPRISES  INC"
   },
   {
     "source": "opwdd",
-    "name": "FERNCLIFF MANOR  INC.",
+    "name": "Ferncliff Manor",
     "services": [
       "Residential (IRA)"
     ],
@@ -2597,11 +2728,12 @@
     "phone": "(914) 968-4854",
     "website": "http://www.ferncliffmanor.org",
     "lat": 40.97384,
-    "lng": -73.86693
+    "lng": -73.86693,
+    "listedName": "FERNCLIFF MANOR  INC."
   },
   {
     "source": "opwdd",
-    "name": "FRANZISKA RACKER CENTERS  INC.",
+    "name": "Franziska Racker Centers",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -2616,11 +2748,12 @@
     "phone": "(607) 272-5891",
     "website": "http://www.racker.org",
     "lat": 42.49237,
-    "lng": -76.55732
+    "lng": -76.55732,
+    "listedName": "FRANZISKA RACKER CENTERS  INC."
   },
   {
     "source": "opwdd",
-    "name": "GATEWAY COUNSELING CENTER  INC.",
+    "name": "Gateway Counseling Center",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2634,11 +2767,12 @@
     "phone": "(718) 325-5021",
     "website": "http://www.gccnyc.org",
     "lat": 40.84923,
-    "lng": -73.84504
+    "lng": -73.84504,
+    "listedName": "GATEWAY COUNSELING CENTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "GATEWAY HUDSON VALLEY",
+    "name": "Gateway Hudson Valley",
     "services": [
       "Day Habilitation",
       "Residential (IRA)"
@@ -2651,11 +2785,12 @@
     "phone": "(845) 331-1261",
     "website": "http://www.ghv.org",
     "lat": 41.9164,
-    "lng": -74.01646
+    "lng": -74.01646,
+    "listedName": "GATEWAY HUDSON VALLEY"
   },
   {
     "source": "opwdd",
-    "name": "GENERAL HUMAN OUTREACH IN THE COMMUNITY",
+    "name": "General Human Outreach in the Community",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2672,11 +2807,12 @@
     "phone": "(718) 261-6552",
     "website": "http://www.ghoinc.org",
     "lat": 40.71226,
-    "lng": -73.82625
+    "lng": -73.82625,
+    "listedName": "GENERAL HUMAN OUTREACH IN THE COMMUNITY"
   },
   {
     "source": "opwdd",
-    "name": "GOODWILL INDUS. OF GREATER NY",
+    "name": "Goodwill Industries of Greater New York",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -2691,11 +2827,12 @@
     "phone": "(718) 777-6330",
     "website": "http://www.goodwillny.org",
     "lat": 40.68963,
-    "lng": -73.98442
+    "lng": -73.98442,
+    "listedName": "GOODWILL INDUS. OF GREATER NY"
   },
   {
     "source": "opwdd",
-    "name": "GRACE FOUNDATION",
+    "name": "Grace Foundation",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -2708,11 +2845,12 @@
     "phone": "(718) 983-3800",
     "website": "http://www.graceofny.org",
     "lat": 40.59258,
-    "lng": -74.13181
+    "lng": -74.13181,
+    "listedName": "GRACE FOUNDATION"
   },
   {
     "source": "opwdd",
-    "name": "GREYSTONE PROGRAMS  INC.",
+    "name": "Greystone Programs",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -2728,11 +2866,12 @@
     "phone": "(845) 452-5772",
     "website": "http://www.greystoneprograms.org",
     "lat": 41.536,
-    "lng": -73.82116
+    "lng": -73.82116,
+    "listedName": "GREYSTONE PROGRAMS  INC."
   },
   {
     "source": "opwdd",
-    "name": "GUILD FOR THE EXCEPTIONAL CHILDREN  INC.",
+    "name": "Guild for Exceptional Children",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2748,11 +2887,12 @@
     "phone": "(718) 833-6633",
     "website": "http://www.gecbklyn.org",
     "lat": 40.63688,
-    "lng": -74.0264
+    "lng": -74.0264,
+    "listedName": "GUILD FOR THE EXCEPTIONAL CHILDREN  INC."
   },
   {
     "source": "opwdd",
-    "name": "HALO NETWORK INC",
+    "name": "HALO Network",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -2768,11 +2908,12 @@
     "phone": "(631) 493-1745",
     "website": "http://www.halonetworkinc.com",
     "lat": 40.66942,
-    "lng": -73.41003
+    "lng": -73.41003,
+    "listedName": "HALO NETWORK INC"
   },
   {
     "source": "opwdd",
-    "name": "HAMASPIK OF KINGS COUNTY  INC.",
+    "name": "Hamaspik of Kings County",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2792,11 +2933,12 @@
     "phone": "(718) 387-8400",
     "website": "http://www.hamaspikkings.org",
     "lat": 40.63805,
-    "lng": -73.9854
+    "lng": -73.9854,
+    "listedName": "HAMASPIK OF KINGS COUNTY  INC."
   },
   {
     "source": "opwdd",
-    "name": "HAMASPIK OF ORANGE CO  INC.",
+    "name": "Hamaspik of Orange County",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2816,11 +2958,12 @@
     "phone": "(845) 774-8400",
     "website": "http://www.hamaspikorange.org",
     "lat": 41.33536,
-    "lng": -74.16051
+    "lng": -74.16051,
+    "listedName": "HAMASPIK OF ORANGE CO  INC."
   },
   {
     "source": "opwdd",
-    "name": "HAMASPIK OF ROCKLAND COUNTY  INC",
+    "name": "Hamaspik of Rockland County",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2840,11 +2983,12 @@
     "phone": "(845) 356-8400",
     "website": "http://www.hamaspikrockland.org",
     "lat": 41.10788,
-    "lng": -74.06548
+    "lng": -74.06548,
+    "listedName": "HAMASPIK OF ROCKLAND COUNTY  INC"
   },
   {
     "source": "opwdd",
-    "name": "HAPPINESS HOUSE",
+    "name": "Happiness House",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2861,11 +3005,12 @@
     "phone": "(315) 789-6828",
     "website": "http://www.happinesshouse.org",
     "lat": 42.86845,
-    "lng": -77.00984
+    "lng": -77.00984,
+    "listedName": "HAPPINESS HOUSE"
   },
   {
     "source": "opwdd",
-    "name": "HARMONY SERVICES  INC.",
+    "name": "Harmony Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2879,11 +3024,12 @@
     "county": "Kings",
     "phone": "(718) 986-7648",
     "lat": 40.63949,
-    "lng": -73.98389
+    "lng": -73.98389,
+    "listedName": "HARMONY SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "HARRIS HANDS COMMUNITY SERVICES  INC.",
+    "name": "Harris Hands Community Services",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -2896,11 +3042,12 @@
     "phone": "(718) 766-9289",
     "website": "http://harrishands.org",
     "lat": 40.84646,
-    "lng": -73.82653
+    "lng": -73.82653,
+    "listedName": "HARRIS HANDS COMMUNITY SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "HASC CENTER  INC.",
+    "name": "HASC Center",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2919,11 +3066,12 @@
     "phone": "(718) 745-7575",
     "website": "http://www.hasc.net/",
     "lat": 40.64689,
-    "lng": -74.02278
+    "lng": -74.02278,
+    "listedName": "HASC CENTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "HAWTHORNE FOUNDATION",
+    "name": "Hawthorne Foundation",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2939,11 +3087,12 @@
     "phone": "(914) 592-8526",
     "website": "http://hawthornecountryday.org",
     "lat": 41.08598,
-    "lng": -73.79805
+    "lng": -73.79805,
+    "listedName": "HAWTHORNE FOUNDATION"
   },
   {
     "source": "opwdd",
-    "name": "HEAD INJURY ASSOCIATION  INC.",
+    "name": "Head Injury Association",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2960,11 +3109,12 @@
     "phone": "(631) 543-2245",
     "website": "http://www.headinjuryassoc.org",
     "lat": 40.81015,
-    "lng": -73.24453
+    "lng": -73.24453,
+    "listedName": "HEAD INJURY ASSOCIATION  INC."
   },
   {
     "source": "opwdd",
-    "name": "HEART AND SOUL SERVICES  INC.",
+    "name": "Heart and Soul Services",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -2976,11 +3126,12 @@
     "county": "Kings",
     "phone": "(718) 612-1080",
     "lat": 40.63819,
-    "lng": -73.96969
+    "lng": -73.96969,
+    "listedName": "HEART AND SOUL SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "HEARTSHARE HUMAN SERVICES OF NEW YORK",
+    "name": "HeartShare Human Services of New York",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -2999,11 +3150,12 @@
     "phone": "(718) 422-4200",
     "website": "http://www.heartshare.org",
     "lat": 40.69471,
-    "lng": -73.98719
+    "lng": -73.98719,
+    "listedName": "HEARTSHARE HUMAN SERVICES OF NEW YORK"
   },
   {
     "source": "opwdd",
-    "name": "HELEN KELLER SERVICES",
+    "name": "Helen Keller Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3019,11 +3171,12 @@
     "phone": "(516) 485-1234",
     "website": "http://www.helenkeller.org",
     "lat": 40.70833,
-    "lng": -73.62283
+    "lng": -73.62283,
+    "listedName": "HELEN KELLER SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "HELP ON THE WAY  INC.",
+    "name": "Help on the Way",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -3037,11 +3190,12 @@
     "phone": "(718) 484-7810",
     "website": "https://hotwny.org/",
     "lat": 40.83207,
-    "lng": -73.89094
+    "lng": -73.89094,
+    "listedName": "HELP ON THE WAY  INC."
   },
   {
     "source": "opwdd",
-    "name": "HELPING CELEBRATE ABILITIES",
+    "name": "Helping Celebrate Abilities",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -3058,11 +3212,12 @@
     "phone": "(607) 798-7117",
     "website": "http://www.hcaserves.com",
     "lat": 42.11459,
-    "lng": -75.95644
+    "lng": -75.95644,
+    "listedName": "HELPING CELEBRATE ABILITIES"
   },
   {
     "source": "opwdd",
-    "name": "HERITAGE CHRISTIAN SERVICES  INC.",
+    "name": "Heritage Christian Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3081,11 +3236,12 @@
     "phone": "(585) 340-2000",
     "website": "http://www.heritagechristianservices.org",
     "lat": 43.06151,
-    "lng": -77.64449
+    "lng": -77.64449,
+    "listedName": "HERITAGE CHRISTIAN SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "HERITAGE FARM  INC.",
+    "name": "Heritage Farm",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3101,11 +3257,12 @@
     "phone": "(315) 893-1889",
     "website": "http://heritagefarminc.org",
     "lat": 42.89955,
-    "lng": -75.58054
+    "lng": -75.58054,
+    "listedName": "HERITAGE FARM  INC."
   },
   {
     "source": "opwdd",
-    "name": "HERITAGE HUMAN SERVICES  INC.",
+    "name": "Heritage Human Services",
     "services": [
       "Community Habilitation",
       "Prevocational",
@@ -3119,11 +3276,12 @@
     "phone": "(718) 444-4340",
     "website": "http://www.heritagehumanservices.org",
     "lat": 40.63958,
-    "lng": -73.9194
+    "lng": -73.9194,
+    "listedName": "HERITAGE HUMAN SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "HIGHER GROUND INTEGRATED HUMAN SERVICES",
+    "name": "Higher Ground Integrated Human Services",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -3138,11 +3296,12 @@
     "phone": "(518) 330-7552",
     "website": "https://highergroundinc.org/",
     "lat": 42.66519,
-    "lng": -73.84792
+    "lng": -73.84792,
+    "listedName": "HIGHER GROUND INTEGRATED HUMAN SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "HILLSIDE CHILDREN'S CENTER",
+    "name": "Hillside Children's Center",
     "services": [
       "Residential (IRA)",
       "Individual Support (ISS)"
@@ -3155,11 +3314,12 @@
     "phone": "(585) 256-7500",
     "website": "http://www.hillside.com",
     "lat": 43.13779,
-    "lng": -77.57831
+    "lng": -77.57831,
+    "listedName": "HILLSIDE CHILDREN'S CENTER"
   },
   {
     "source": "opwdd",
-    "name": "HUMAN CARE SVCS FOR FAMILIES & CHILDREN",
+    "name": "Human Care Services for Families and Children",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3177,11 +3337,12 @@
     "phone": "(718) 854-2747",
     "website": "http://www.humancareservices.org",
     "lat": 40.64443,
-    "lng": -73.99111
+    "lng": -73.99111,
+    "listedName": "HUMAN CARE SVCS FOR FAMILIES & CHILDREN"
   },
   {
     "source": "opwdd",
-    "name": "HUMAN FIRST  INC",
+    "name": "Human First",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3195,11 +3356,12 @@
     "phone": "(516) 823-9500",
     "website": "http://www.humanfirst.org",
     "lat": 40.70718,
-    "lng": -74.00738
+    "lng": -74.00738,
+    "listedName": "HUMAN FIRST  INC"
   },
   {
     "source": "opwdd",
-    "name": "HUMANITARIAN ORG. FOR MULTICULTURAL EXP.",
+    "name": "Humanitarian Organization for Multicultural Experience",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3214,11 +3376,12 @@
     "phone": "(315) 472-5110",
     "website": "http://www.homeincny.org",
     "lat": 43.05735,
-    "lng": -76.13979
+    "lng": -76.13979,
+    "listedName": "HUMANITARIAN ORG. FOR MULTICULTURAL EXP."
   },
   {
     "source": "opwdd",
-    "name": "IBERO - AMERICAN ACTION LEAGUE",
+    "name": "Ibero-American Action League",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3234,11 +3397,12 @@
     "phone": "(585) 256-8900",
     "website": "http://www.iaal.org",
     "lat": 43.1751,
-    "lng": -77.61855
+    "lng": -77.61855,
+    "listedName": "IBERO - AMERICAN ACTION LEAGUE"
   },
   {
     "source": "opwdd",
-    "name": "ICL JOSELOW HOUSE  INC.",
+    "name": "ICL Joselow House",
     "services": [
       "Residential (IRA)"
     ],
@@ -3250,11 +3414,12 @@
     "phone": "(212) 724-6652",
     "website": "http://www.iclinc.net",
     "lat": 40.70202,
-    "lng": -74.01124
+    "lng": -74.01124,
+    "listedName": "ICL JOSELOW HOUSE  INC."
   },
   {
     "source": "opwdd",
-    "name": "IKAN  INC.",
+    "name": "IKAN",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -3268,11 +3433,12 @@
     "phone": "(845) 508-6299",
     "website": "http://www.ikanny.org",
     "lat": 41.33832,
-    "lng": -74.36053
+    "lng": -74.36053,
+    "listedName": "IKAN  INC."
   },
   {
     "source": "opwdd",
-    "name": "IMAGINE FOUNDATION  INC.",
+    "name": "Imagine Foundation",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -3285,11 +3451,12 @@
     "phone": "(718) 376-8882",
     "website": "https://www.imagineacademyforautism.org/",
     "lat": 40.61399,
-    "lng": -73.96021
+    "lng": -73.96021,
+    "listedName": "IMAGINE FOUNDATION  INC."
   },
   {
     "source": "opwdd",
-    "name": "IN FLIGHT  INC.",
+    "name": "In Flight",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3306,11 +3473,12 @@
     "phone": "(845) 835-6060",
     "website": "https://inflightinc.org/",
     "lat": 41.99639,
-    "lng": -73.87472
+    "lng": -73.87472,
+    "listedName": "IN FLIGHT  INC."
   },
   {
     "source": "opwdd",
-    "name": "INCLUSIVE LINKS INC",
+    "name": "Inclusive Links",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -3324,11 +3492,12 @@
     "phone": "(914) 294-0083",
     "website": "http://www.inclusivelinks.org/home.html",
     "lat": 40.92396,
-    "lng": -73.8977
+    "lng": -73.8977,
+    "listedName": "INCLUSIVE LINKS INC"
   },
   {
     "source": "opwdd",
-    "name": "INDEPENDENT GROUP HOME LIVING PRGRM  INC",
+    "name": "Independent Group Home Living Program",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3344,11 +3513,12 @@
     "phone": "(631) 878-8900",
     "website": "http://www.ighl.org",
     "lat": 40.8251,
-    "lng": -72.78364
+    "lng": -72.78364,
+    "listedName": "INDEPENDENT GROUP HOME LIVING PRGRM  INC"
   },
   {
     "source": "opwdd",
-    "name": "INDEPENDENT HOME CARE  INC.",
+    "name": "Independent Home Care",
     "services": [
       "Individual Support (ISS)"
     ],
@@ -3360,11 +3530,12 @@
     "phone": "(845) 565-1162",
     "website": "https://myindependenthomecare.org/",
     "lat": 41.4992,
-    "lng": -74.02744
+    "lng": -74.02744,
+    "listedName": "INDEPENDENT HOME CARE  INC."
   },
   {
     "source": "opwdd",
-    "name": "INDEPENDENT LIVING  INC.",
+    "name": "Independent Living",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3379,11 +3550,12 @@
     "phone": "(845) 565-1162 ext. 225",
     "website": "http://www.myindependentliving.org",
     "lat": 41.4992,
-    "lng": -74.02744
+    "lng": -74.02744,
+    "listedName": "INDEPENDENT LIVING  INC."
   },
   {
     "source": "opwdd",
-    "name": "INDEPENDENT LIVING ASSOCIATION  INC.",
+    "name": "Independent Living Association",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -3398,11 +3570,12 @@
     "phone": "(718) 852-2000",
     "website": "http://www.ilaonline.org",
     "lat": 40.70153,
-    "lng": -73.98695
+    "lng": -73.98695,
+    "listedName": "INDEPENDENT LIVING ASSOCIATION  INC."
   },
   {
     "source": "opwdd",
-    "name": "INDEPENDENT SUPPORT SERVICES",
+    "name": "Independent Support Services",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -3416,11 +3589,12 @@
     "phone": "(845) 794-5218",
     "website": "https://www.issny.org/",
     "lat": 41.66289,
-    "lng": -74.68862
+    "lng": -74.68862,
+    "listedName": "INDEPENDENT SUPPORT SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "INSTITUTE FOR COMMUNITY LIVING",
+    "name": "Institute for Community Living",
     "services": [
       "Community Habilitation",
       "Residential (IRA)"
@@ -3433,11 +3607,12 @@
     "phone": "(212) 385-3030",
     "website": "http://www.iclinc.net",
     "lat": 40.70202,
-    "lng": -74.01124
+    "lng": -74.01124,
+    "listedName": "INSTITUTE FOR COMMUNITY LIVING"
   },
   {
     "source": "opwdd",
-    "name": "INSTITUTE OF APPLIED HUMAN DYNAMICS",
+    "name": "Institutes of Applied Human Dynamics",
     "services": [
       "Day Habilitation",
       "Residential (IRA)",
@@ -3452,11 +3627,12 @@
     "phone": "(914) 220-4300",
     "website": "http://iahdny.org",
     "lat": 41.07917,
-    "lng": -73.85231
+    "lng": -73.85231,
+    "listedName": "INSTITUTE OF APPLIED HUMAN DYNAMICS"
   },
   {
     "source": "opwdd",
-    "name": "IRI: INNOVATIVE RES FOR INDEPEND  INC.",
+    "name": "IRI: Innovative Resources for Independence",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3471,11 +3647,12 @@
     "phone": "(718) 805-6796",
     "website": "http://www.in-res.org",
     "lat": 40.68838,
-    "lng": -73.71879
+    "lng": -73.71879,
+    "listedName": "IRI: INNOVATIVE RES FOR INDEPEND  INC."
   },
   {
     "source": "opwdd",
-    "name": "IT'S MY PLACE INC",
+    "name": "It's My Place",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -3489,11 +3666,12 @@
     "phone": "(631) 582-4534",
     "website": "https://www.itsmyplace4.me/index.html",
     "lat": 40.80829,
-    "lng": -73.17782
+    "lng": -73.17782,
+    "listedName": "IT'S MY PLACE INC"
   },
   {
     "source": "opwdd",
-    "name": "IYAHO SOCIAL SERVICES  INC.",
+    "name": "Iyaho Social Services",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -3506,11 +3684,12 @@
     "phone": "(516) 280-5930",
     "website": "http://iyaho.org",
     "lat": 40.70825,
-    "lng": -73.62746
+    "lng": -73.62746,
+    "listedName": "IYAHO SOCIAL SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "J. M. MURRAY CENTER  INC.",
+    "name": "J. M. Murray Center",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3528,11 +3707,12 @@
     "phone": "(607) 756-9913",
     "website": "http://www.jmmurray.com",
     "lat": 42.56797,
-    "lng": -76.2207
+    "lng": -76.2207,
+    "listedName": "J. M. MURRAY CENTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "JAWONIO  INC.",
+    "name": "Jawonio",
     "services": [
       "Supported Employment",
       "Prevocational",
@@ -3547,11 +3727,12 @@
     "phone": "(845) 708-2000",
     "website": "http://www.jawonio.org",
     "lat": 41.16397,
-    "lng": -74.00328
+    "lng": -74.00328,
+    "listedName": "JAWONIO  INC."
   },
   {
     "source": "opwdd",
-    "name": "JEWEL HUMAN SERVICES  INC.",
+    "name": "Jewel Human Services",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -3567,11 +3748,12 @@
     "phone": "(347) 436-8070",
     "website": "https://www.jewelhumanservices.org/",
     "lat": 40.67733,
-    "lng": -73.78862
+    "lng": -73.78862,
+    "listedName": "JEWEL HUMAN SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "JEWISH BOARD OF FAMILY/CHILDREN SERVICES",
+    "name": "Jewish Board of Family and Children's Services",
     "services": [
       "Residential (IRA)"
     ],
@@ -3583,11 +3765,12 @@
     "phone": "(212) 582-9100",
     "website": "http://www.jbfcs.org",
     "lat": 40.75184,
-    "lng": -73.98996
+    "lng": -73.98996,
+    "listedName": "JEWISH BOARD OF FAMILY/CHILDREN SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "JEWISH UNION FOUNDATION",
+    "name": "Jewish Union Foundation",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -3601,11 +3784,12 @@
     "phone": "(212) 613-8104",
     "website": "http://www.njcd.org/staff/jewishunionfoundation",
     "lat": 40.70836,
-    "lng": -74.01482
+    "lng": -74.01482,
+    "listedName": "JEWISH UNION FOUNDATION"
   },
   {
     "source": "opwdd",
-    "name": "JOB PATH  INC.",
+    "name": "Job Path",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3623,11 +3807,12 @@
     "phone": "(212) 944-0564",
     "website": "http://www.jobpathnyc.org",
     "lat": 40.75433,
-    "lng": -73.99072
+    "lng": -73.99072,
+    "listedName": "JOB PATH  INC."
   },
   {
     "source": "opwdd",
-    "name": "KELBERMAN CENTER  INC.",
+    "name": "Kelberman Center",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -3644,11 +3829,12 @@
     "phone": "(315) 797-6241",
     "website": "http://www.kelbermancenter.org",
     "lat": 43.0805,
-    "lng": -75.27529
+    "lng": -75.27529,
+    "listedName": "KELBERMAN CENTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "KELI HOUSE COMMUNITY SERVICES  INC.",
+    "name": "Keli House Community Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3663,11 +3849,12 @@
     "phone": "(845) 226-1246",
     "website": "http://www.kelihouse.com",
     "lat": 41.57098,
-    "lng": -73.74758
+    "lng": -73.74758,
+    "listedName": "KELI HOUSE COMMUNITY SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "KULANU ACADEMY",
+    "name": "Kulanu Academy",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -3682,11 +3869,12 @@
     "phone": "(516) 569-6664",
     "website": "http://www.kulanukids.org",
     "lat": 40.62467,
-    "lng": -73.72091
+    "lng": -73.72091,
+    "listedName": "KULANU ACADEMY"
   },
   {
     "source": "opwdd",
-    "name": "LAUNCH",
+    "name": "Launch",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -3702,11 +3890,12 @@
     "phone": "(315) 432-0665",
     "website": "http://www.launchcny.org",
     "lat": 43.05301,
-    "lng": -76.14962
+    "lng": -76.14962,
+    "listedName": "LAUNCH"
   },
   {
     "source": "opwdd",
-    "name": "LEXINGTON VOCATIONAL SERVICES CTR  INC",
+    "name": "Lexington Vocational Services Center",
     "services": [
       "Supported Employment"
     ],
@@ -3718,11 +3907,12 @@
     "phone": "(718) 350-3110",
     "website": "http://www.lexnyc.org",
     "lat": 40.76048,
-    "lng": -73.8929
+    "lng": -73.8929,
+    "listedName": "LEXINGTON VOCATIONAL SERVICES CTR  INC"
   },
   {
     "source": "opwdd",
-    "name": "LIBERTY ARC (DBA)",
+    "name": "Liberty ARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3742,11 +3932,12 @@
     "phone": "(518) 842-5080",
     "website": "http://www.libertyarc.org",
     "lat": 42.93133,
-    "lng": -74.20942
+    "lng": -74.20942,
+    "listedName": "LIBERTY ARC (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "LIBERTY HOUSE",
+    "name": "Liberty House",
     "services": [
       "Supported Employment",
       "Prevocational"
@@ -3759,11 +3950,12 @@
     "phone": "(518) 798-1066",
     "website": "http://www.libertyhousefoundation.net",
     "lat": 43.31263,
-    "lng": -73.64692
+    "lng": -73.64692,
+    "listedName": "LIBERTY HOUSE"
   },
   {
     "source": "opwdd",
-    "name": "LIBERTY RESOURCES  INC.",
+    "name": "Liberty Resources",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3779,11 +3971,12 @@
     "phone": "(315) 425-1004",
     "website": "http://www.liberty-resources.org",
     "lat": 43.06064,
-    "lng": -76.13339
+    "lng": -76.13339,
+    "listedName": "LIBERTY RESOURCES  INC."
   },
   {
     "source": "opwdd",
-    "name": "LIFE ADJUSTMENT CENTER  INC.",
+    "name": "Life Adjustment Center",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3797,11 +3990,12 @@
     "phone": "(212) 938-1223",
     "website": "http://www.lifeadjustmentcenter.com",
     "lat": 40.75411,
-    "lng": -73.98693
+    "lng": -73.98693,
+    "listedName": "LIFE ADJUSTMENT CENTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "LIFE'S W.O.R.C.  INC.",
+    "name": "Life's WORC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3819,11 +4013,12 @@
     "phone": "(516) 741-9000",
     "website": "http://www.lifesworc.org",
     "lat": 40.73755,
-    "lng": -73.63867
+    "lng": -73.63867,
+    "listedName": "LIFE'S W.O.R.C.  INC."
   },
   {
     "source": "opwdd",
-    "name": "LIFESONG INC",
+    "name": "Lifesong",
     "services": [
       "Supported Employment"
     ],
@@ -3835,11 +4030,12 @@
     "phone": "(518) 406-5157",
     "website": "http://www.lifesonginc.org/",
     "lat": 42.8185,
-    "lng": -73.77293
+    "lng": -73.77293,
+    "listedName": "LIFESONG INC"
   },
   {
     "source": "opwdd",
-    "name": "LIFESPAN OF GREATER ROCHESTER  INC.",
+    "name": "Lifespan of Greater Rochester",
     "services": [
       "Family Support",
       "Individual Support (ISS)"
@@ -3852,11 +4048,12 @@
     "phone": "(585) 244-8400",
     "website": "http://www.lifespan-roch.org",
     "lat": 43.11974,
-    "lng": -77.59407
+    "lng": -77.59407,
+    "listedName": "LIFESPAN OF GREATER ROCHESTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "LIFESPIRE  INC.",
+    "name": "Lifespire",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3873,11 +4070,12 @@
     "phone": "(212) 741-0100",
     "website": "http://www.lifespire.org",
     "lat": 40.75181,
-    "lng": -73.98999
+    "lng": -73.98999,
+    "listedName": "LIFESPIRE  INC."
   },
   {
     "source": "opwdd",
-    "name": "LIFESTYLES FOR THE DISABLED",
+    "name": "Lifestyles for the Disabled",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3894,11 +4092,12 @@
     "phone": "(718) 983-5351",
     "website": "http://www.lfdsi.org",
     "lat": 40.60299,
-    "lng": -74.14318
+    "lng": -74.14318,
+    "listedName": "LIFESTYLES FOR THE DISABLED"
   },
   {
     "source": "opwdd",
-    "name": "LIFETIME ASSISTANCE  INC.",
+    "name": "Lifetime Assistance",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3918,11 +4117,12 @@
     "phone": "(585) 426-4120",
     "website": "http://www.lifetimeassistance.org",
     "lat": 43.10615,
-    "lng": -77.71039
+    "lng": -77.71039,
+    "listedName": "LIFETIME ASSISTANCE  INC."
   },
   {
     "source": "opwdd",
-    "name": "LITTLE FLOWER CHILDREN & FAMILY SVCS",
+    "name": "Little Flower Children and Family Services",
     "services": [
       "Family Support",
       "Family Care"
@@ -3935,11 +4135,12 @@
     "phone": "(631) 929-6200",
     "website": "http://www.littleflowerny.org",
     "lat": 40.96019,
-    "lng": -72.83313
+    "lng": -72.83313,
+    "listedName": "LITTLE FLOWER CHILDREN & FAMILY SVCS"
   },
   {
     "source": "opwdd",
-    "name": "LIVING RESOURCES CORPORATION",
+    "name": "Living Resources Corporation",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3957,11 +4158,12 @@
     "phone": "(518) 218-0000",
     "website": "http://www.livingresources.org",
     "lat": 42.70865,
-    "lng": -73.86637
+    "lng": -73.86637,
+    "listedName": "LIVING RESOURCES CORPORATION"
   },
   {
     "source": "opwdd",
-    "name": "LOCHLAND SCHOOL  INC.",
+    "name": "Lochland School",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -3976,11 +4178,12 @@
     "phone": "(315) 789-5208",
     "website": "http://www.lochlandinc.org",
     "lat": 42.84274,
-    "lng": -76.97914
+    "lng": -76.97914,
+    "listedName": "LOCHLAND SCHOOL  INC."
   },
   {
     "source": "opwdd",
-    "name": "LONG ISLAND HOME (THE)",
+    "name": "The Long Island Home",
     "services": [
       "Supported Employment"
     ],
@@ -3992,11 +4195,12 @@
     "phone": "(631) 608-5100",
     "website": "http://www.longislandhome.org",
     "lat": 40.68624,
-    "lng": -73.42281
+    "lng": -73.42281,
+    "listedName": "LONG ISLAND HOME (THE)"
   },
   {
     "source": "opwdd",
-    "name": "LONG LIFE INFO & REFERRAL NETWORK",
+    "name": "Long Life Information and Referral Network",
     "services": [
       "Individual Support (ISS)"
     ],
@@ -4007,11 +4211,12 @@
     "county": "Kings",
     "phone": "(718) 778-0009",
     "lat": 40.67879,
-    "lng": -73.92016
+    "lng": -73.92016,
+    "listedName": "LONG LIFE INFO & REFERRAL NETWORK"
   },
   {
     "source": "opwdd",
-    "name": "MADISON CORTLAND CO NYSARC",
+    "name": "NYSARC Madison-Cortland Counties Chapter",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4029,11 +4234,12 @@
     "phone": "(315) 363-3389",
     "website": "http://www.madisoncortlandarc.org",
     "lat": 43.08726,
-    "lng": -75.66787
+    "lng": -75.66787,
+    "listedName": "MADISON CORTLAND CO NYSARC"
   },
   {
     "source": "opwdd",
-    "name": "MARY CARIOLA CHILDREN'S CENTER  INC.",
+    "name": "Mary Cariola Children's Center",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -4047,11 +4253,12 @@
     "phone": "(585) 271-0761",
     "website": "http://www.marycariola.org",
     "lat": 43.12545,
-    "lng": -77.6121
+    "lng": -77.6121,
+    "listedName": "MARY CARIOLA CHILDREN'S CENTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "MARYHAVEN CENTER OF HOPE  INC.",
+    "name": "Maryhaven Center of Hope",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4069,11 +4276,12 @@
     "phone": "(631) 474-4120",
     "website": "http://www.maryhaven.org",
     "lat": 40.92684,
-    "lng": -73.0521
+    "lng": -73.0521,
+    "listedName": "MARYHAVEN CENTER OF HOPE  INC."
   },
   {
     "source": "opwdd",
-    "name": "MEANINGFUL NY INITIATVES PPL W/DISAB INC",
+    "name": "Meaningful New York Initiatives for People with Disabilities",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -4087,11 +4295,12 @@
     "phone": "(929) 409-1027",
     "website": "https://meaningfulny.org/",
     "lat": 40.65013,
-    "lng": -73.83794
+    "lng": -73.83794,
+    "listedName": "MEANINGFUL NY INITIATVES PPL W/DISAB INC"
   },
   {
     "source": "opwdd",
-    "name": "MENORAH PARK GROUP RESIDENCES  INC",
+    "name": "Menorah Park Group Residences",
     "services": [
       "Residential (IRA)"
     ],
@@ -4103,11 +4312,12 @@
     "phone": "(315) 446-9111",
     "website": "http://menorahparkofcny.com",
     "lat": 43.03845,
-    "lng": -76.07494
+    "lng": -76.07494,
+    "listedName": "MENORAH PARK GROUP RESIDENCES  INC"
   },
   {
     "source": "opwdd",
-    "name": "MERCY DRIVE  INC.",
+    "name": "Mercy Drive",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -4120,11 +4330,12 @@
     "phone": "(718) 275-9326",
     "website": "http://www.mercydriveinc.org",
     "lat": 40.72062,
-    "lng": -73.83811
+    "lng": -73.83811,
+    "listedName": "MERCY DRIVE  INC."
   },
   {
     "source": "opwdd",
-    "name": "MERCY HOME FOR CHILDREN",
+    "name": "Mercy Home for Children",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -4139,11 +4350,12 @@
     "phone": "(718) 832-1075",
     "website": "http://www.mercyhomeny.org",
     "lat": 40.69267,
-    "lng": -73.96005
+    "lng": -73.96005,
+    "listedName": "MERCY HOME FOR CHILDREN"
   },
   {
     "source": "opwdd",
-    "name": "METROPOLITAN DEVELOPMENT CENTER",
+    "name": "Metropolitan Development Center",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -4158,11 +4370,12 @@
     "phone": "(718) 633-3334",
     "website": "https://www.metdevcenter.org/",
     "lat": 40.64436,
-    "lng": -73.991
+    "lng": -73.991,
+    "listedName": "METROPOLITAN DEVELOPMENT CENTER"
   },
   {
     "source": "opwdd",
-    "name": "METROPOLITAN FAMILY SERVICES  INC.",
+    "name": "Metropolitan Family Services",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -4175,11 +4388,12 @@
     "phone": "(718) 858-7234",
     "website": "https://mfsny.org/",
     "lat": 40.67879,
-    "lng": -73.92016
+    "lng": -73.92016,
+    "listedName": "METROPOLITAN FAMILY SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "MILL NECK SERVICES  INC.",
+    "name": "Mill Neck Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4195,11 +4409,12 @@
     "phone": "(516) 922-3818",
     "website": "https://www.millneck.org/mns/",
     "lat": 40.87903,
-    "lng": -73.55867
+    "lng": -73.55867,
+    "listedName": "MILL NECK SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "MODERN GUIDANCE SERVICE",
+    "name": "Modern Guidance Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4212,11 +4427,12 @@
     "county": "New York",
     "phone": "(212) 665-0091",
     "lat": 40.81144,
-    "lng": -73.96018
+    "lng": -73.96018,
+    "listedName": "MODERN GUIDANCE SERVICE"
   },
   {
     "source": "opwdd",
-    "name": "MODEST COMMUNITY SERVICES ASSOCIATION",
+    "name": "Modest Community Services Association",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4232,11 +4448,12 @@
     "phone": "(718) 447-8200",
     "website": "http://modestservices.org",
     "lat": 40.5344,
-    "lng": -74.15419
+    "lng": -74.15419,
+    "listedName": "MODEST COMMUNITY SERVICES ASSOCIATION"
   },
   {
     "source": "opwdd",
-    "name": "MONROE CO. NYSARC  INC.",
+    "name": "Monroe County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4254,11 +4471,12 @@
     "phone": "(585) 271-0660",
     "website": "http://www.arcmonroe.org",
     "lat": 43.09548,
-    "lng": -77.62087
+    "lng": -77.62087,
+    "listedName": "MONROE CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
-    "name": "MOUNTAIN LAKE SERVICES",
+    "name": "Mountain Lake Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4277,11 +4495,12 @@
     "phone": "(518) 546-3381",
     "website": "http://www.mountainlakeservices.org/contact-us/",
     "lat": 44.04789,
-    "lng": -73.45861
+    "lng": -73.45861,
+    "listedName": "MOUNTAIN LAKE SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "MOZAIC",
+    "name": "Mozaic",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4299,11 +4518,12 @@
     "phone": "(315) 539-5067",
     "website": "http://www.sencayarc.org",
     "lat": 42.8997,
-    "lng": -76.89265
+    "lng": -76.89265,
+    "listedName": "MOZAIC"
   },
   {
     "source": "opwdd",
-    "name": "MULTI-FUNCTIONAL FAMILY SERVICES  INC.",
+    "name": "Multi-Functional Family Services",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -4316,11 +4536,12 @@
     "phone": "(718) 486-3780",
     "website": "http://www.crs.buffalo.edu",
     "lat": 40.71194,
-    "lng": -73.93802
+    "lng": -73.93802,
+    "listedName": "MULTI-FUNCTIONAL FAMILY SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "N Y S INSTITUTE ON DISABILITY  INC.",
+    "name": "New York State Institute on Disability",
     "services": [
       "Family Support",
       "Individual Support (ISS)"
@@ -4332,11 +4553,12 @@
     "county": "Richmond",
     "phone": "(212) 487-5316",
     "lat": 40.60299,
-    "lng": -74.14318
+    "lng": -74.14318,
+    "listedName": "N Y S INSTITUTE ON DISABILITY  INC."
   },
   {
     "source": "opwdd",
-    "name": "NASSAU BOCES",
+    "name": "Nassau BOCES",
     "services": [
       "Supported Employment"
     ],
@@ -4348,11 +4570,12 @@
     "phone": "(516) 997-8700",
     "website": "http://www.nassauboces.org",
     "lat": 40.7295,
-    "lng": -73.61937
+    "lng": -73.61937,
+    "listedName": "NASSAU BOCES"
   },
   {
     "source": "opwdd",
-    "name": "NASSAU CO. NYSARC  INC.",
+    "name": "Nassau County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4369,11 +4592,12 @@
     "phone": "(516) 626-1000",
     "website": "http://www.ahrc.org/",
     "lat": 40.80809,
-    "lng": -73.58149
+    "lng": -73.58149,
+    "listedName": "NASSAU CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
-    "name": "NASSAU/SUFFOLK SERVICES FOR THE AUTISTIC",
+    "name": "Nassau Suffolk Services for the Autistic",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -4386,11 +4610,12 @@
     "phone": "(631) 462-0386",
     "website": "http://www.nssa.net",
     "lat": 40.82781,
-    "lng": -73.30499
+    "lng": -73.30499,
+    "listedName": "NASSAU/SUFFOLK SERVICES FOR THE AUTISTIC"
   },
   {
     "source": "opwdd",
-    "name": "NEW BEGINNINGS MSC  INC.",
+    "name": "New Beginnings MSC",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -4402,11 +4627,12 @@
     "county": "Rensselaer",
     "phone": "(518) 238-3388",
     "lat": 42.6902,
-    "lng": -73.63533
+    "lng": -73.63533,
+    "listedName": "NEW BEGINNINGS MSC  INC."
   },
   {
     "source": "opwdd",
-    "name": "NEW HORIZON COUNSELING CENTER INC.",
+    "name": "New Horizon Counseling Center",
     "services": [
       "Community Habilitation",
       "Prevocational",
@@ -4420,11 +4646,12 @@
     "phone": "(718) 327-3180",
     "website": "http://www.nhcc.us",
     "lat": 40.60178,
-    "lng": -73.75165
+    "lng": -73.75165,
+    "listedName": "NEW HORIZON COUNSELING CENTER INC."
   },
   {
     "source": "opwdd",
-    "name": "NEW HORIZONS RESOURCES  INC.",
+    "name": "New Horizons Resources",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4440,11 +4667,12 @@
     "phone": "(845) 473-3000",
     "website": "http://www.nhrny.org",
     "lat": 41.74805,
-    "lng": -73.83619
+    "lng": -73.83619,
+    "listedName": "NEW HORIZONS RESOURCES  INC."
   },
   {
     "source": "opwdd",
-    "name": "NICHOLAS CENTER",
+    "name": "Nicholas Center",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -4458,11 +4686,12 @@
     "phone": "(516) 767-7177",
     "website": "https://tncnewyork.org/",
     "lat": 40.83051,
-    "lng": -73.70155
+    "lng": -73.70155,
+    "listedName": "NICHOLAS CENTER"
   },
   {
     "source": "opwdd",
-    "name": "NY FAMILIES FOR AUTISTIC CHILDREN",
+    "name": "New York Families for Autistic Children",
     "services": [
       "Community Habilitation",
       "Prevocational",
@@ -4476,11 +4705,12 @@
     "phone": "(347) 566-3122",
     "website": "http://nyfac.org",
     "lat": 40.65013,
-    "lng": -73.83794
+    "lng": -73.83794,
+    "listedName": "NY FAMILIES FOR AUTISTIC CHILDREN"
   },
   {
     "source": "opwdd",
-    "name": "NY FOUNDATION FOR SENIOR CITIZENS",
+    "name": "New York Foundation for Senior Citizens",
     "services": [
       "Individual Support (ISS)"
     ],
@@ -4491,11 +4721,12 @@
     "county": "New York",
     "website": "http://www.nyfsc.org",
     "lat": 40.71154,
-    "lng": -74.006
+    "lng": -74.006,
+    "listedName": "NY FOUNDATION FOR SENIOR CITIZENS"
   },
   {
     "source": "opwdd",
-    "name": "NYS ARC NEW YORK CITY CHAPTER",
+    "name": "NYSARC New York City Chapter",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4515,11 +4746,12 @@
     "phone": "(212) 780-2500",
     "website": "http://www.ahrcnyc.org",
     "lat": 40.70741,
-    "lng": -74.00758
+    "lng": -74.00758,
+    "listedName": "NYS ARC NEW YORK CITY CHAPTER"
   },
   {
     "source": "opwdd",
-    "name": "NYS ARC RENSSELAER COUNTY CHAPTER",
+    "name": "NYSARC Rensselaer County Chapter",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4537,11 +4769,12 @@
     "phone": "(518) 274-3110",
     "website": "http://www.renarc.org/",
     "lat": 42.67854,
-    "lng": -73.69929
+    "lng": -73.69929,
+    "listedName": "NYS ARC RENSSELAER COUNTY CHAPTER"
   },
   {
     "source": "opwdd",
-    "name": "NYSARC - WARREN  WASHINGTON & ALBANY CTY",
+    "name": "NYSARC – Warren Washington and Albany County",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4560,11 +4793,12 @@
     "phone": "(518) 793-4204",
     "website": "http://www.wwaarc.org",
     "lat": 43.32987,
-    "lng": -73.63492
+    "lng": -73.63492,
+    "listedName": "NYSARC - WARREN  WASHINGTON & ALBANY CTY"
   },
   {
     "source": "opwdd",
-    "name": "NYSARC INC CATTARAUGUS-NIAGARA CNTY CHAP",
+    "name": "NYSARC Cattaraugus-Niagara County Chapter",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4583,11 +4817,12 @@
     "phone": "(716) 375-4747",
     "website": "http://www.rehabcenter.org",
     "lat": 42.0862,
-    "lng": -78.44798
+    "lng": -78.44798,
+    "listedName": "NYSARC INC CATTARAUGUS-NIAGARA CNTY CHAP"
   },
   {
     "source": "opwdd",
-    "name": "OHEL CHILDREN'S HOME & FAMILY SRVCS  INC",
+    "name": "Ohel Children's Home and Family Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4605,11 +4840,12 @@
     "phone": "(718) 435-5533",
     "website": "http://www.ohelfamily.org",
     "lat": 40.61872,
-    "lng": -73.9611
+    "lng": -73.9611,
+    "listedName": "OHEL CHILDREN'S HOME & FAMILY SRVCS  INC"
   },
   {
     "source": "opwdd",
-    "name": "OLV HUMAN SERVICES (DBA)",
+    "name": "OLV Human Services",
     "services": [
       "Residential (IRA)",
       "Supported Employment"
@@ -4622,11 +4858,12 @@
     "phone": "(716) 828-9500",
     "website": "http://www.bakervictoryservices.org",
     "lat": 42.82591,
-    "lng": -78.82225
+    "lng": -78.82225,
+    "listedName": "OLV HUMAN SERVICES (DBA)"
   },
   {
     "source": "opwdd",
-    "name": "ON YOUR MARK  INC.",
+    "name": "On Your Mark",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4643,11 +4880,12 @@
     "phone": "(718) 720-9233",
     "website": "http://www.onyourmark.org",
     "lat": 40.63051,
-    "lng": -74.08864
+    "lng": -74.08864,
+    "listedName": "ON YOUR MARK  INC."
   },
   {
     "source": "opwdd",
-    "name": "ONONDAGA CO. NYSARC  INC.",
+    "name": "Onondaga County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4664,11 +4902,12 @@
     "phone": "(315) 476-7441",
     "website": "http://www.arcon.org",
     "lat": 43.04372,
-    "lng": -76.17614
+    "lng": -76.17614,
+    "listedName": "ONONDAGA CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
-    "name": "ONONDAGA COMMUNITY COLLEGE",
+    "name": "Onondaga Community College",
     "services": [
       "Prevocational"
     ],
@@ -4680,11 +4919,12 @@
     "phone": "(315) 469-2214",
     "website": "http://www.sunyocc.edu",
     "lat": 43.00078,
-    "lng": -76.19566
+    "lng": -76.19566,
+    "listedName": "ONONDAGA COMMUNITY COLLEGE"
   },
   {
     "source": "opwdd",
-    "name": "ONTARIO CO. NYSARC  INC.",
+    "name": "Ontario County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4702,11 +4942,12 @@
     "phone": "(585) 394-7500",
     "website": "http://www.ontarioarc.org",
     "lat": 42.88412,
-    "lng": -77.21385
+    "lng": -77.21385,
+    "listedName": "ONTARIO CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
-    "name": "OPENGATE  INC.",
+    "name": "Open Gate",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4722,11 +4963,12 @@
     "phone": "(914) 277-5350",
     "website": "http://www.opengateinc.org",
     "lat": 41.1245,
-    "lng": -73.71536
+    "lng": -73.71536,
+    "listedName": "OPENGATE  INC."
   },
   {
     "source": "opwdd",
-    "name": "ORANGE CO UCPA (DBA INSPIRE)",
+    "name": "Orange County United Cerebral Palsy Association (Inspire)",
     "services": [
       "Family Support",
       "Individual Support (ISS)"
@@ -4739,11 +4981,12 @@
     "phone": "(845) 294-7300",
     "website": "http://www.inspirecp.org",
     "lat": 41.40414,
-    "lng": -74.3355
+    "lng": -74.3355,
+    "listedName": "ORANGE CO UCPA (DBA INSPIRE)"
   },
   {
     "source": "opwdd",
-    "name": "OSWEGO COUNTY NYSARC  INC",
+    "name": "Oswego County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4757,11 +5000,12 @@
     "phone": "(315) 598-3108",
     "website": "http://www.nysarc.org",
     "lat": 43.32067,
-    "lng": -76.43034
+    "lng": -76.43034,
+    "listedName": "OSWEGO COUNTY NYSARC  INC"
   },
   {
     "source": "opwdd",
-    "name": "OSWEGO COUNTY OPPORTUNITIES  INC.",
+    "name": "Oswego County Opportunities",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4777,11 +5021,12 @@
     "phone": "(315) 598-4710",
     "website": "http://www.oco.org/",
     "lat": 43.32532,
-    "lng": -76.41507
+    "lng": -76.41507,
+    "listedName": "OSWEGO COUNTY OPPORTUNITIES  INC."
   },
   {
     "source": "opwdd",
-    "name": "OSWEGO INDUSTRIES",
+    "name": "Oswego Industries",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4796,11 +5041,12 @@
     "phone": "(315) 598-3108",
     "website": "http://www.oswegoindustriesinc.org",
     "lat": 43.32067,
-    "lng": -76.43034
+    "lng": -76.43034,
+    "listedName": "OSWEGO INDUSTRIES"
   },
   {
     "source": "opwdd",
-    "name": "OTSEGO CO. NYSARC  INC.",
+    "name": "Otsego County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4818,11 +5064,12 @@
     "phone": "(607) 432-8595",
     "website": "http://www.arcotsego.org",
     "lat": 42.45263,
-    "lng": -75.06563
+    "lng": -75.06563,
+    "listedName": "OTSEGO CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
-    "name": "PARENTAL LOVING CARE  INC.",
+    "name": "Parental Loving Care",
     "services": [
       "Residential (IRA)"
     ],
@@ -4833,11 +5080,12 @@
     "county": "Richmond",
     "phone": "(718) 494-9006",
     "lat": 40.60937,
-    "lng": -74.16731
+    "lng": -74.16731,
+    "listedName": "PARENTAL LOVING CARE  INC."
   },
   {
     "source": "opwdd",
-    "name": "PARTNERSHIP FOR INNOVATIVE COMPREHENSIVE",
+    "name": "Partnership for Innovative Comprehensive Care",
     "services": [
       "Community Habilitation",
       "Individual Support (ISS)"
@@ -4849,11 +5097,12 @@
     "county": "New York",
     "phone": "(212) 480-9169",
     "lat": 40.74733,
-    "lng": -73.99166
+    "lng": -73.99166,
+    "listedName": "PARTNERSHIP FOR INNOVATIVE COMPREHENSIVE"
   },
   {
     "source": "opwdd",
-    "name": "PATHFINDER VILLAGE  INC.",
+    "name": "Pathfinder Village",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -4868,11 +5117,12 @@
     "phone": "(607) 965-8377",
     "website": "http://www.pathfindervillage.org",
     "lat": 42.70231,
-    "lng": -75.20811
+    "lng": -75.20811,
+    "listedName": "PATHFINDER VILLAGE  INC."
   },
   {
     "source": "opwdd",
-    "name": "PATHWAYS  INC.",
+    "name": "Pathways",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4890,11 +5140,12 @@
     "phone": "(607) 937-3200",
     "website": "http://www.pathwaysforyou.org",
     "lat": 42.14291,
-    "lng": -77.05564
+    "lng": -77.05564,
+    "listedName": "PATHWAYS  INC."
   },
   {
     "source": "opwdd",
-    "name": "PAUL J. COOPER CTR FOR HUMAN SVCS",
+    "name": "Paul J. Cooper Center for Human Services",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -4908,11 +5159,12 @@
     "phone": "(718) 498-5555",
     "website": "http://www.pauljcooper.org",
     "lat": 40.69994,
-    "lng": -73.94869
+    "lng": -73.94869,
+    "listedName": "PAUL J. COOPER CTR FOR HUMAN SVCS"
   },
   {
     "source": "opwdd",
-    "name": "PEOPLE  INC.",
+    "name": "People Incorporated",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -4933,11 +5185,12 @@
     "phone": "(716) 634-8132",
     "website": "http://www.people-inc.org",
     "lat": 42.98899,
-    "lng": -78.76001
+    "lng": -78.76001,
+    "listedName": "PEOPLE  INC."
   },
   {
     "source": "opwdd",
-    "name": "PERSON CENTERED CARE SERVICES  INC.",
+    "name": "Person Centered Care Services",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -4955,11 +5208,12 @@
     "phone": "(718) 370-1088",
     "website": "http://www.pccsny.org",
     "lat": 40.63355,
-    "lng": -74.14828
+    "lng": -74.14828,
+    "listedName": "PERSON CENTERED CARE SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "PESACH TIKVAH-HOPE DEVELOPMENT",
+    "name": "Pesach Tikvah-Hope Development",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -4974,11 +5228,12 @@
     "phone": "(718) 875-6900",
     "website": "http://www.pesachtikvah.org",
     "lat": 40.69294,
-    "lng": -73.95619
+    "lng": -73.95619,
+    "listedName": "PESACH TIKVAH-HOPE DEVELOPMENT"
   },
   {
     "source": "opwdd",
-    "name": "PLUS GROUP HOMES",
+    "name": "Plus Group Homes",
     "services": [
       "Residential (IRA)",
       "Intermediate Care (ICF)"
@@ -4991,11 +5246,12 @@
     "phone": "(516) 409-9450",
     "website": "http://plusgrouphomes.org",
     "lat": 40.69239,
-    "lng": -73.50832
+    "lng": -73.50832,
+    "listedName": "PLUS GROUP HOMES"
   },
   {
     "source": "opwdd",
-    "name": "PRIME SUPPORT  INC.",
+    "name": "Prime Support",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -5007,11 +5263,12 @@
     "county": "Richmond",
     "phone": "(347) 824-3642",
     "lat": 40.57281,
-    "lng": -74.1169
+    "lng": -74.1169,
+    "listedName": "PRIME SUPPORT  INC."
   },
   {
     "source": "opwdd",
-    "name": "PROGRAM DEVELOPMENT SERVICES",
+    "name": "Program Development Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5027,11 +5284,12 @@
     "phone": "(718) 256-2212",
     "website": "http://www.4pds.org",
     "lat": 40.65707,
-    "lng": -74.00752
+    "lng": -74.00752,
+    "listedName": "PROGRAM DEVELOPMENT SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "PUERTO RICAN FAMILY INSTITUTE  INC.",
+    "name": "Puerto Rican Family Institute",
     "services": [
       "Residential (IRA)",
       "Intermediate Care (ICF)"
@@ -5044,11 +5302,12 @@
     "phone": "(212) 924-6320",
     "website": "http://www.prfi.org",
     "lat": 40.73876,
-    "lng": -73.99804
+    "lng": -73.99804,
+    "listedName": "PUERTO RICAN FAMILY INSTITUTE  INC."
   },
   {
     "source": "opwdd",
-    "name": "QSAC  INC.",
+    "name": "QSAC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5063,11 +5322,12 @@
     "phone": "(212) 244-5560",
     "website": "http://www.qsac.com",
     "lat": 40.7525,
-    "lng": -73.99215
+    "lng": -73.99215,
+    "listedName": "QSAC  INC."
   },
   {
     "source": "opwdd",
-    "name": "QUEENS PARENT RESOURCE CENTER  INC",
+    "name": "Queens Parent Resource Center",
     "services": [
       "Individual Support (ISS)"
     ],
@@ -5079,11 +5339,12 @@
     "phone": "(347) 947-6840",
     "website": "http://www.qprc.net",
     "lat": 40.70316,
-    "lng": -73.74933
+    "lng": -73.74933,
+    "listedName": "QUEENS PARENT RESOURCE CENTER  INC"
   },
   {
     "source": "opwdd",
-    "name": "RAYIM OF HUDSON VALLEY  INC.",
+    "name": "Rayim of Hudson Valley",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -5098,11 +5359,12 @@
     "county": "Orange",
     "phone": "(845) 782-7700",
     "lat": 41.3391,
-    "lng": -74.17014
+    "lng": -74.17014,
+    "listedName": "RAYIM OF HUDSON VALLEY  INC."
   },
   {
     "source": "opwdd",
-    "name": "RESIDENTIAL RESOURCES INC.",
+    "name": "Residential Resources",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -5117,11 +5379,12 @@
     "phone": "(877) 643-0303",
     "website": "http://www.resresources.com",
     "lat": 44.68372,
-    "lng": -73.4459
+    "lng": -73.4459,
+    "listedName": "RESIDENTIAL RESOURCES INC."
   },
   {
     "source": "opwdd",
-    "name": "RESOURCE CTR F/ACCESSIBLE LIVING  INC.",
+    "name": "Resource Center for Accessible Living",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -5137,11 +5400,12 @@
     "phone": "(845) 331-0541",
     "website": "http://www.rcal.org",
     "lat": 41.94979,
-    "lng": -73.99441
+    "lng": -73.99441,
+    "listedName": "RESOURCE CTR F/ACCESSIBLE LIVING  INC."
   },
   {
     "source": "opwdd",
-    "name": "RESOURCE CTR F/INDEPENDENT LIVING  INC.",
+    "name": "Resource Center for Independent Living",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5158,11 +5422,12 @@
     "phone": "(315) 797-4642",
     "website": "http://www.rcil.com",
     "lat": 43.10249,
-    "lng": -75.22912
+    "lng": -75.22912,
+    "listedName": "RESOURCE CTR F/INDEPENDENT LIVING  INC."
   },
   {
     "source": "opwdd",
-    "name": "REWARDING ENVIRONMTS FOR ADULT LVNG INC",
+    "name": "Rewarding Environments for Adult Living",
     "services": [
       "Community Habilitation"
     ],
@@ -5174,11 +5439,12 @@
     "phone": "(718) 848-2507",
     "website": "http://www.real-nyc.org",
     "lat": 40.70629,
-    "lng": -73.69964
+    "lng": -73.69964,
+    "listedName": "REWARDING ENVIRONMTS FOR ADULT LVNG INC"
   },
   {
     "source": "opwdd",
-    "name": "RICHMOND CHILDREN'S CENTER",
+    "name": "Richmond Children's Center",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5194,11 +5460,12 @@
     "phone": "(914) 471-4100",
     "website": "http://www.richmondcommserv.org",
     "lat": 41.21742,
-    "lng": -73.7183
+    "lng": -73.7183,
+    "listedName": "RICHMOND CHILDREN'S CENTER"
   },
   {
     "source": "opwdd",
-    "name": "RISE LIFE SERVICES",
+    "name": "Rise Life Services",
     "services": [
       "Day Habilitation",
       "Residential (IRA)",
@@ -5212,11 +5479,12 @@
     "phone": "(631) 727-6220",
     "website": "http://www.addny.com",
     "lat": 40.92424,
-    "lng": -72.65116
+    "lng": -72.65116,
+    "listedName": "RISE LIFE SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "RISING GROUND  INC.",
+    "name": "Rising Ground",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -5233,11 +5501,12 @@
     "phone": "(914) 375-8700",
     "website": "http://www.leakeandwatts.org",
     "lat": 40.7511,
-    "lng": -73.9877
+    "lng": -73.9877,
+    "listedName": "RISING GROUND  INC."
   },
   {
     "source": "opwdd",
-    "name": "S.K.I.P. OF NEW YORK  INC.",
+    "name": "SKIP of New York",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -5250,11 +5519,12 @@
     "phone": "(212) 268-5999",
     "website": "http://www.skipny.org",
     "lat": 40.75582,
-    "lng": -73.99233
+    "lng": -73.99233,
+    "listedName": "S.K.I.P. OF NEW YORK  INC."
   },
   {
     "source": "opwdd",
-    "name": "S.U.N.Y. PLATTSBURGH",
+    "name": "State University of New York at Plattsburgh",
     "services": [
       "Day Habilitation",
       "Family Support"
@@ -5267,11 +5537,12 @@
     "phone": "(518) 564-3377",
     "website": "http://www.plattsburgh.edu",
     "lat": 44.6946,
-    "lng": -73.46589
+    "lng": -73.46589,
+    "listedName": "S.U.N.Y. PLATTSBURGH"
   },
   {
     "source": "opwdd",
-    "name": "SAINT DOMINIC'S FAMILY SERVICES",
+    "name": "Saint Dominic's Family Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5285,11 +5556,12 @@
     "phone": "(845) 359-3400",
     "website": "http://www.sdfs.org/",
     "lat": 41.05435,
-    "lng": -73.95688
+    "lng": -73.95688,
+    "listedName": "SAINT DOMINIC'S FAMILY SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "SALVATION ARMY (THE)",
+    "name": "The Salvation Army",
     "services": [
       "Residential (IRA)",
       "Family Care"
@@ -5301,11 +5573,12 @@
     "county": "New York",
     "website": "http://www.use.salvationarmy.org",
     "lat": 40.73794,
-    "lng": -73.99824
+    "lng": -73.99824,
+    "listedName": "SALVATION ARMY (THE)"
   },
   {
     "source": "opwdd",
-    "name": "SARATOGA CO. NYSARC  INC.",
+    "name": "Saratoga County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5324,7 +5597,8 @@
     "phone": "(518) 587-0723",
     "website": "http://www.saratogabridges.org",
     "lat": 43.01728,
-    "lng": -73.79121
+    "lng": -73.79121,
+    "listedName": "SARATOGA CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
@@ -5351,7 +5625,7 @@
   },
   {
     "source": "opwdd",
-    "name": "SCHOOL OF HOLY CHILDHOOD",
+    "name": "The Rochester School of the Holy Childhood",
     "services": [
       "Day Habilitation",
       "Supported Employment",
@@ -5366,11 +5640,12 @@
     "phone": "(585) 359-3710",
     "website": "http://www.holychildhood.org",
     "lat": 43.07782,
-    "lng": -77.59423
+    "lng": -77.59423,
+    "listedName": "SCHOOL OF HOLY CHILDHOOD"
   },
   {
     "source": "opwdd",
-    "name": "SCO FAMILY OF SERVICES",
+    "name": "SCO Family of Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5387,11 +5662,12 @@
     "phone": "(516) 953-1901",
     "website": "http://www.sco.org",
     "lat": 40.73667,
-    "lng": -73.63734
+    "lng": -73.63734,
+    "listedName": "SCO FAMILY OF SERVICES"
   },
   {
     "source": "opwdd",
-    "name": "SELECT HUMAN SERVICES INC",
+    "name": "Select Human Services",
     "services": [
       "Community Habilitation"
     ],
@@ -5403,11 +5679,12 @@
     "phone": "(914) 741-6300",
     "website": "http://www.selectcompanies.org",
     "lat": 41.13266,
-    "lng": -73.79223
+    "lng": -73.79223,
+    "listedName": "SELECT HUMAN SERVICES INC"
   },
   {
     "source": "opwdd",
-    "name": "SERENITY HUMAN SERVICES  INC.",
+    "name": "Serenity Human Services",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -5421,11 +5698,12 @@
     "phone": "(718) 526-6125",
     "website": "http://tendercareny.org",
     "lat": 40.67416,
-    "lng": -73.7328
+    "lng": -73.7328,
+    "listedName": "SERENITY HUMAN SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "SERVICES FOR THE DEVELOP. CHALLENGED",
+    "name": "Services for the Developmentally Challenged",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5441,11 +5719,12 @@
     "phone": "(718) 432-8469",
     "website": "http://sdcnyc.org",
     "lat": 40.90348,
-    "lng": -73.90087
+    "lng": -73.90087,
+    "listedName": "SERVICES FOR THE DEVELOP. CHALLENGED"
   },
   {
     "source": "opwdd",
-    "name": "SERVICES FOR THE UNDERSERVED  INC.",
+    "name": "Services for the Underserved",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5461,11 +5740,12 @@
     "phone": "(212) 633-6900",
     "website": "http://sus.org",
     "lat": 40.75184,
-    "lng": -73.98996
+    "lng": -73.98996,
+    "listedName": "SERVICES FOR THE UNDERSERVED  INC."
   },
   {
     "source": "opwdd",
-    "name": "SHARE OF NEW SQUARE",
+    "name": "Share of New Square",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5482,11 +5762,12 @@
     "phone": "(845) 354-3233",
     "website": "http://chesed247.org",
     "lat": 41.12544,
-    "lng": -74.04076
+    "lng": -74.04076,
+    "listedName": "SHARE OF NEW SQUARE"
   },
   {
     "source": "opwdd",
-    "name": "SHEMA KOLAINU",
+    "name": "Shema Kolainu",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -5500,11 +5781,12 @@
     "phone": "(718) 686-9600",
     "website": "http://www.hear-our-voices.org",
     "lat": 40.64176,
-    "lng": -73.99428
+    "lng": -73.99428,
+    "listedName": "SHEMA KOLAINU"
   },
   {
     "source": "opwdd",
-    "name": "SHIELD INSTITUTE (THE)",
+    "name": "The Shield Institute",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5519,11 +5801,12 @@
     "phone": "(718) 886-1534",
     "website": "http://www.shield.org",
     "lat": 40.76221,
-    "lng": -73.81987
+    "lng": -73.81987,
+    "listedName": "SHIELD INSTITUTE (THE)"
   },
   {
     "source": "opwdd",
-    "name": "SINERGIA",
+    "name": "Sinergia",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5542,11 +5825,12 @@
     "phone": "(212) 643-2840",
     "website": "http://www.sinergiany.org",
     "lat": 40.80476,
-    "lng": -73.93714
+    "lng": -73.93714,
+    "listedName": "SINERGIA"
   },
   {
     "source": "opwdd",
-    "name": "SOCIAL ACTION CENTER  INC.",
+    "name": "Social Action Center",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5560,11 +5844,12 @@
     "phone": "(718) 654-1815",
     "website": "http://www.socialactioncenterinc.com/home_1.html",
     "lat": 40.85802,
-    "lng": -73.86868
+    "lng": -73.86868,
+    "listedName": "SOCIAL ACTION CENTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "SOUTHEAST BRONX NEIGHBORHOOD CENTER  INC",
+    "name": "Southeast Bronx Neighborhood Center",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5580,11 +5865,12 @@
     "phone": "(718) 542-2727",
     "website": "http://www.sebnc.org",
     "lat": 40.82324,
-    "lng": -73.90292
+    "lng": -73.90292,
+    "listedName": "SOUTHEAST BRONX NEIGHBORHOOD CENTER  INC"
   },
   {
     "source": "opwdd",
-    "name": "SOUTHERN TIER INDEPENDENCE CTR (STIC)",
+    "name": "Southern Tier Independence Center",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -5601,11 +5887,12 @@
     "phone": "(607) 724-2111",
     "website": "http://www.stic-cil.org",
     "lat": 42.11134,
-    "lng": -75.89003
+    "lng": -75.89003,
+    "listedName": "SOUTHERN TIER INDEPENDENCE CTR (STIC)"
   },
   {
     "source": "opwdd",
-    "name": "SPECIAL CARE FOR FAMILIES & CHILDREN SVC",
+    "name": "Special Care for Families and Children Services",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -5620,11 +5907,12 @@
     "phone": "(718) 252-3365",
     "website": "http://specialcarefcs.com/",
     "lat": 40.61503,
-    "lng": -73.97307
+    "lng": -73.97307,
+    "listedName": "SPECIAL CARE FOR FAMILIES & CHILDREN SVC"
   },
   {
     "source": "opwdd",
-    "name": "SPECIAL CITIZENS FUTURES UNLIMITED  INC.",
+    "name": "Special Citizens Futures Unlimited",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5640,11 +5928,12 @@
     "phone": "(212) 643-2663",
     "website": "http://www.specialcitizens.org",
     "lat": 40.84626,
-    "lng": -73.90991
+    "lng": -73.90991,
+    "listedName": "SPECIAL CITIZENS FUTURES UNLIMITED  INC."
   },
   {
     "source": "opwdd",
-    "name": "SPRINGBROOK NY  INC.",
+    "name": "Springbrook New York",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5663,11 +5952,12 @@
     "phone": "(607) 286-7171",
     "website": "http://www.springbrookny.org",
     "lat": 42.53076,
-    "lng": -74.98045
+    "lng": -74.98045,
+    "listedName": "SPRINGBROOK NY  INC."
   },
   {
     "source": "opwdd",
-    "name": "ST REGIS MOHAWK TRIBE",
+    "name": "Saint Regis Mohawk Tribe",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -5682,11 +5972,12 @@
     "phone": "(518) 358-9481",
     "website": "http://www.srmt-nsn.gov/contact",
     "lat": 44.97858,
-    "lng": -74.66879
+    "lng": -74.66879,
+    "listedName": "ST REGIS MOHAWK TRIBE"
   },
   {
     "source": "opwdd",
-    "name": "STARBRIDGE SERVICES  INC.",
+    "name": "Starbridge Services",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -5704,11 +5995,12 @@
     "phone": "(585) 224-7231",
     "website": "http://www.ldagvi.org",
     "lat": 43.12431,
-    "lng": -77.6145
+    "lng": -77.6145,
+    "listedName": "STARBRIDGE SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "SUPPORT-LINK  INC.",
+    "name": "Support-Link",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -5722,11 +6014,12 @@
     "county": "Warren",
     "phone": "(518) 798-2972",
     "lat": 43.3358,
-    "lng": -73.65347
+    "lng": -73.65347,
+    "listedName": "SUPPORT-LINK  INC."
   },
   {
     "source": "opwdd",
-    "name": "TACONIC INNOVATIONS  INC.",
+    "name": "Taconic Innovations",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5740,11 +6033,12 @@
     "phone": "(845) 296-1042",
     "website": "http://www.taconicinnovations.com",
     "lat": 41.60641,
-    "lng": -73.82656
+    "lng": -73.82656,
+    "listedName": "TACONIC INNOVATIONS  INC."
   },
   {
     "source": "opwdd",
-    "name": "THE ADIRONDACK ARC",
+    "name": "The Adirondack ARC",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -5758,11 +6052,12 @@
     "phone": "(518) 359-3351",
     "website": "http://www.adirondackarc.org",
     "lat": 44.24102,
-    "lng": -74.48631
+    "lng": -74.48631,
+    "listedName": "THE ADIRONDACK ARC"
   },
   {
     "source": "opwdd",
-    "name": "THE ARC  LEXINGTON  NEW YORK",
+    "name": "The ARC Lexington New York",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5782,11 +6077,12 @@
     "phone": "(518) 773-7931",
     "website": "http://www.lexingtoncenter.org",
     "lat": 43.06956,
-    "lng": -74.32964
+    "lng": -74.32964,
+    "listedName": "THE ARC  LEXINGTON  NEW YORK"
   },
   {
     "source": "opwdd",
-    "name": "THE ARC (ONEIDA-LEWIS NYSARC CHAPTERS)",
+    "name": "The ARC Oneida-Lewis NYSARC Chapters",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5805,11 +6101,12 @@
     "phone": "(315) 735-6477",
     "website": "http://www.thearcolc.org",
     "lat": 43.10007,
-    "lng": -75.23391
+    "lng": -75.23391,
+    "listedName": "THE ARC (ONEIDA-LEWIS NYSARC CHAPTERS)"
   },
   {
     "source": "opwdd",
-    "name": "THE ARC ALLEGANY-STEUBEN",
+    "name": "The ARC Allegany-Steuben",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5829,11 +6126,12 @@
     "phone": "(585) 593-5700",
     "website": "http://www.alleganyarc.org",
     "lat": 42.12755,
-    "lng": -77.95198
+    "lng": -77.95198,
+    "listedName": "THE ARC ALLEGANY-STEUBEN"
   },
   {
     "source": "opwdd",
-    "name": "THE ARC ERIE COUNTY NEW YORK",
+    "name": "The ARC Erie County New York",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5851,11 +6149,12 @@
     "phone": "(833) 272-3743",
     "website": "http://arceriecounty.org",
     "lat": 42.95377,
-    "lng": -78.72819
+    "lng": -78.72819,
+    "listedName": "THE ARC ERIE COUNTY NEW YORK"
   },
   {
     "source": "opwdd",
-    "name": "THE ARC GREATER HUDSON VALLEY",
+    "name": "The ARC Greater Hudson Valley",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5873,11 +6172,12 @@
     "phone": "(845) 796-1350",
     "website": "http://www.sullivanarc.org",
     "lat": 41.64841,
-    "lng": -74.66176
+    "lng": -74.66176,
+    "listedName": "THE ARC GREATER HUDSON VALLEY"
   },
   {
     "source": "opwdd",
-    "name": "THE ARC MID-HUDSON",
+    "name": "The ARC Mid-Hudson",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5897,11 +6197,12 @@
     "phone": "(845) 417-3596",
     "website": "http://www.ulster-greenearc.org",
     "lat": 41.94184,
-    "lng": -73.99938
+    "lng": -73.99938,
+    "listedName": "THE ARC MID-HUDSON"
   },
   {
     "source": "opwdd",
-    "name": "THE ARC OF CHEMUNG-SCHUYLER",
+    "name": "The ARC of Chemung-Schuyler",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5920,11 +6221,12 @@
     "phone": "(607) 734-6151",
     "website": "http://www.arcofschuyler.org",
     "lat": 42.09957,
-    "lng": -76.79768
+    "lng": -76.79768,
+    "listedName": "THE ARC OF CHEMUNG-SCHUYLER"
   },
   {
     "source": "opwdd",
-    "name": "THE ARC ROCKLAND",
+    "name": "The ARC Rockland",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5941,11 +6243,12 @@
     "phone": "(845) 267-2500",
     "website": "http://www.thearcrockland.org",
     "lat": 41.12917,
-    "lng": -73.94044
+    "lng": -73.94044,
+    "listedName": "THE ARC ROCKLAND"
   },
   {
     "source": "opwdd",
-    "name": "THE COMMUNITY PLACE OF GREATER ROCHESTER",
+    "name": "The Community Place of Greater Rochester",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -5959,11 +6262,12 @@
     "phone": "(585) 327-7200",
     "website": "http://www.communityplace.org",
     "lat": 43.1693,
-    "lng": -77.59378
+    "lng": -77.59378,
+    "listedName": "THE COMMUNITY PLACE OF GREATER ROCHESTER"
   },
   {
     "source": "opwdd",
-    "name": "THE EPILEPSY SOCIETY OF SOUTHERN NY",
+    "name": "The Epilepsy Society of Southern New York",
     "services": [
       "Supported Employment",
       "Family Support",
@@ -5977,11 +6281,12 @@
     "phone": "(845) 627-0627",
     "website": "http://www.essny.com",
     "lat": 41.04896,
-    "lng": -74.00703
+    "lng": -74.00703,
+    "listedName": "THE EPILEPSY SOCIETY OF SOUTHERN NY"
   },
   {
     "source": "opwdd",
-    "name": "THE FRIENDS NETWORK  INC.",
+    "name": "The Friends Network",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -5995,11 +6300,12 @@
     "phone": "(845) 278-0820",
     "website": "http://www.thefriendsnetwork.org",
     "lat": 41.3846,
-    "lng": -73.58289
+    "lng": -73.58289,
+    "listedName": "THE FRIENDS NETWORK  INC."
   },
   {
     "source": "opwdd",
-    "name": "THE GOOD SHEPHARD",
+    "name": "The Good Shephard",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -6013,11 +6319,12 @@
     "phone": "(917) 678-3510",
     "website": "http://www.thegoodshephard.com",
     "lat": 40.63809,
-    "lng": -74.16743
+    "lng": -74.16743,
+    "listedName": "THE GOOD SHEPHARD"
   },
   {
     "source": "opwdd",
-    "name": "THE NEW YORK FOUNDLING",
+    "name": "The New York Foundling",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -6033,11 +6340,12 @@
     "phone": "(212) 886-4005",
     "website": "http://www.nyfoundling.org",
     "lat": 40.73906,
-    "lng": -73.99559
+    "lng": -73.99559,
+    "listedName": "THE NEW YORK FOUNDLING"
   },
   {
     "source": "opwdd",
-    "name": "THE PEOPLE'S ARC OF SUFFOLK",
+    "name": "The People's ARC of Suffolk",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6055,11 +6363,12 @@
     "phone": "(631) 585-0100",
     "website": "http://www.ahrcsuffolk.org",
     "lat": 40.78759,
-    "lng": -73.14549
+    "lng": -73.14549,
+    "listedName": "THE PEOPLE'S ARC OF SUFFOLK"
   },
   {
     "source": "opwdd",
-    "name": "THE RESOURCE CENTER",
+    "name": "The Resource Center",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6080,11 +6389,12 @@
     "phone": "(716) 483-2344",
     "website": "http://resourcecenter.org/",
     "lat": 42.10212,
-    "lng": -79.28349
+    "lng": -79.28349,
+    "listedName": "THE RESOURCE CENTER"
   },
   {
     "source": "opwdd",
-    "name": "THE SUMMIT CENTER  INC.",
+    "name": "The Summit Center",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -6099,11 +6409,12 @@
     "phone": "(716) 629-3400",
     "website": "http://www.summited.org",
     "lat": 43.01053,
-    "lng": -78.76987
+    "lng": -78.76987,
+    "listedName": "THE SUMMIT CENTER  INC."
   },
   {
     "source": "opwdd",
-    "name": "TIEGERMAN COMMUNITY SERVICES  INC.",
+    "name": "Tiegerman Community Services",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6119,11 +6430,12 @@
     "phone": "(516) 609-2000",
     "website": "https://tiegerman.org/tcs/",
     "lat": 40.85851,
-    "lng": -73.63547
+    "lng": -73.63547,
+    "listedName": "TIEGERMAN COMMUNITY SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "TIEGERMAN SCHOOL",
+    "name": "Tiegerman School",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -6136,11 +6448,12 @@
     "phone": "(518) 609-2000",
     "website": "http://www.slcd.org",
     "lat": 40.85851,
-    "lng": -73.63547
+    "lng": -73.63547,
+    "listedName": "TIEGERMAN SCHOOL"
   },
   {
     "source": "opwdd",
-    "name": "TOOMEY RESIDENTIAL AND COMMUNITY SERVICE",
+    "name": "Toomey Residential and Community Services",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -6154,11 +6467,12 @@
     "phone": "(315) 424-1845",
     "website": "http://www.ccoc.us/affiliates/toomey-residential",
     "lat": 43.03435,
-    "lng": -76.18158
+    "lng": -76.18158,
+    "listedName": "TOOMEY RESIDENTIAL AND COMMUNITY SERVICE"
   },
   {
     "source": "opwdd",
-    "name": "UCPA OF GREATER SUFFOLK  INC",
+    "name": "United Cerebral Palsy Association of Greater Suffolk",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6176,11 +6490,12 @@
     "phone": "(631) 232-0011",
     "website": "http://www.ucp-suffolk.org",
     "lat": 40.81831,
-    "lng": -73.24843
+    "lng": -73.24843,
+    "listedName": "UCPA OF GREATER SUFFOLK  INC"
   },
   {
     "source": "opwdd",
-    "name": "UCPA OF NASSAU CO.  INC.",
+    "name": "United Cerebral Palsy Association of Nassau County",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6197,11 +6512,12 @@
     "phone": "(516) 378-2000",
     "website": "http://www.ucpn.org",
     "lat": 40.67942,
-    "lng": -73.57487
+    "lng": -73.57487,
+    "listedName": "UCPA OF NASSAU CO.  INC."
   },
   {
     "source": "opwdd",
-    "name": "UCPA OF THE NORTH COUNTRY",
+    "name": "United Cerebral Palsy Association of the North Country",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -6216,11 +6532,12 @@
     "phone": "(315) 379-9667",
     "website": "http://www.cpnorthcountry.org",
     "lat": 44.58958,
-    "lng": -75.17847
+    "lng": -75.17847,
+    "listedName": "UCPA OF THE NORTH COUNTRY"
   },
   {
     "source": "opwdd",
-    "name": "UNIQUE CARE COMMUNITY SERVICES  INC.",
+    "name": "Unique Care Community Services",
     "services": [
       "Community Habilitation",
       "Family Support"
@@ -6233,11 +6550,12 @@
     "phone": "(347) 502-2956",
     "website": "https://www.uniquecarecommunityservice.org/",
     "lat": 40.63704,
-    "lng": -73.89781
+    "lng": -73.89781,
+    "listedName": "UNIQUE CARE COMMUNITY SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "UNIQUE LIFE  INC.",
+    "name": "Unique Life",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6253,11 +6571,12 @@
     "phone": "(347) 449-7890",
     "website": "http://www.uniquelifeinc.org",
     "lat": 40.88197,
-    "lng": -73.83015
+    "lng": -73.83015,
+    "listedName": "UNIQUE LIFE  INC."
   },
   {
     "source": "opwdd",
-    "name": "UNIQUE PEOPLE SERVICES  INC.",
+    "name": "Unique People Services",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -6271,11 +6590,12 @@
     "phone": "(718) 231-7711",
     "website": "http://www.uniquepeopleservices.org",
     "lat": 40.85233,
-    "lng": -73.90332
+    "lng": -73.90332,
+    "listedName": "UNIQUE PEOPLE SERVICES  INC."
   },
   {
     "source": "opwdd",
-    "name": "UNITED CEREBRAL PALSY OF QUEENS  INC.",
+    "name": "United Cerebral Palsy of Queens",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6293,11 +6613,12 @@
     "phone": "(718) 380-3000",
     "website": "http://www.queenscp.org",
     "lat": 40.72003,
-    "lng": -73.80409
+    "lng": -73.80409,
+    "listedName": "UNITED CEREBRAL PALSY OF QUEENS  INC."
   },
   {
     "source": "opwdd",
-    "name": "UNITED HLPRS BEHVRL HEALTH & LIFE SKILLS",
+    "name": "United Helpers Behavioral Health and Life Skills",
     "services": [
       "Community Habilitation",
       "Residential (IRA)"
@@ -6310,11 +6631,12 @@
     "phone": "(315) 393-3072",
     "website": "http://www.unitedhelpers.org",
     "lat": 44.68051,
-    "lng": -75.5163
+    "lng": -75.5163,
+    "listedName": "UNITED HLPRS BEHVRL HEALTH & LIFE SKILLS"
   },
   {
     "source": "opwdd",
-    "name": "UNITY HOUSE OF CAYUGA COUNTY INC.",
+    "name": "Unity House of Cayuga County",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6333,11 +6655,12 @@
     "phone": "(315) 253-6227",
     "website": "http://www.unityhouse.com",
     "lat": 42.92661,
-    "lng": -76.57835
+    "lng": -76.57835,
+    "listedName": "UNITY HOUSE OF CAYUGA COUNTY INC."
   },
   {
     "source": "opwdd",
-    "name": "UNITY HOUSE OF TROY",
+    "name": "Unity House of Troy",
     "services": [
       "Supported Employment",
       "Prevocational"
@@ -6350,11 +6673,12 @@
     "phone": "(518) 274-2607",
     "website": "https://www.unityhouseny.org/",
     "lat": 42.74015,
-    "lng": -73.6833
+    "lng": -73.6833,
+    "listedName": "UNITY HOUSE OF TROY"
   },
   {
     "source": "opwdd",
-    "name": "UPSTATE CEREBRAL PALSY  INC.",
+    "name": "Upstate Cerebral Palsy",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6373,11 +6697,12 @@
     "phone": "(315) 724-6907",
     "website": "http://www.upstatecp.org",
     "lat": 43.09134,
-    "lng": -75.28662
+    "lng": -75.28662,
+    "listedName": "UPSTATE CEREBRAL PALSY  INC."
   },
   {
     "source": "opwdd",
-    "name": "VACPA - COBBLESTONE ARTS CENTER",
+    "name": "VACPA – Cobblestone Arts Center",
     "services": [
       "Day Habilitation"
     ],
@@ -6389,11 +6714,12 @@
     "phone": "(585) 398-0220",
     "website": "http://www.cobblestoneartscenter.com",
     "lat": 43.00769,
-    "lng": -77.36674
+    "lng": -77.36674,
+    "listedName": "VACPA - COBBLESTONE ARTS CENTER"
   },
   {
     "source": "opwdd",
-    "name": "VANDERHEYDEN HALL  INC.",
+    "name": "Vanderheyden Hall",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6409,11 +6735,12 @@
     "phone": "(518) 283-6500",
     "website": "http://www.vanderheydenhall.org",
     "lat": 42.6912,
-    "lng": -73.61509
+    "lng": -73.61509,
+    "listedName": "VANDERHEYDEN HALL  INC."
   },
   {
     "source": "opwdd",
-    "name": "VENTURE TOGETHER  INC.",
+    "name": "Venture Together",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6431,11 +6758,12 @@
     "phone": "(845) 624-3860",
     "website": "http://www.campventure.org",
     "lat": 41.09561,
-    "lng": -73.99973
+    "lng": -73.99973,
+    "listedName": "VENTURE TOGETHER  INC."
   },
   {
     "source": "opwdd",
-    "name": "VIABILITY  INC.",
+    "name": "Viability",
     "services": [
       "Community Habilitation",
       "Supported Employment",
@@ -6449,11 +6777,12 @@
     "phone": "(631) 952-9529",
     "website": "http://www.communityenterprises.com/locations/islandia",
     "lat": 40.78769,
-    "lng": -73.13193
+    "lng": -73.13193,
+    "listedName": "VIABILITY  INC."
   },
   {
     "source": "opwdd",
-    "name": "WAYNE CO. NYSARC  INC.",
+    "name": "Wayne County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6471,11 +6800,12 @@
     "phone": "(315) 331-7741",
     "website": "http://www.waynearc.org",
     "lat": 43.04845,
-    "lng": -77.09355
+    "lng": -77.09355,
+    "listedName": "WAYNE CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
-    "name": "WESTCHESTER CO. NYSARC  INC.",
+    "name": "Westchester County NYSARC",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6494,11 +6824,12 @@
     "phone": "(914) 428-8330",
     "website": "http://www.westchesterarc.org",
     "lat": 41.10256,
-    "lng": -73.80963
+    "lng": -73.80963,
+    "listedName": "WESTCHESTER CO. NYSARC  INC."
   },
   {
     "source": "opwdd",
-    "name": "WESTCHESTER INST FOR HUMAN DEVELOPMENT",
+    "name": "Westchester Institute for Human Development",
     "services": [
       "Prevocational",
       "Family Support"
@@ -6511,11 +6842,12 @@
     "phone": "(914) 493-8367",
     "website": "http://www.wihd.org",
     "lat": 41.08298,
-    "lng": -73.80722
+    "lng": -73.80722,
+    "listedName": "WESTCHESTER INST FOR HUMAN DEVELOPMENT"
   },
   {
     "source": "opwdd",
-    "name": "WILDWOOD PROGRAMS  INC.",
+    "name": "Wildwood Programs",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6534,11 +6866,12 @@
     "phone": "(518) 640-3111",
     "website": "https://www.wildwoodprograms.org/",
     "lat": 42.77092,
-    "lng": -73.82224
+    "lng": -73.82224,
+    "listedName": "WILDWOOD PROGRAMS  INC."
   },
   {
     "source": "opwdd",
-    "name": "WNY INDEPENDENT LIVING  INC.",
+    "name": "Western New York Independent Living",
     "services": [
       "Family Support",
       "Individual Support (ISS)"
@@ -6551,11 +6884,12 @@
     "phone": "(716) 836-0822",
     "website": "http://www.wnyil.org",
     "lat": 42.94957,
-    "lng": -78.82865
+    "lng": -78.82865,
+    "listedName": "WNY INDEPENDENT LIVING  INC."
   },
   {
     "source": "opwdd",
-    "name": "WOMEN'S LEAGUE COM. RESIDENCES",
+    "name": "Women's League Community Residences",
     "services": [
       "Community Habilitation",
       "Residential (IRA)",
@@ -6574,11 +6908,12 @@
     "phone": "(718) 853-0900",
     "website": "http://www.womensleague.org",
     "lat": 40.62343,
-    "lng": -73.96493
+    "lng": -73.96493,
+    "listedName": "WOMEN'S LEAGUE COM. RESIDENCES"
   },
   {
     "source": "opwdd",
-    "name": "WRAPAROUND SERVICES HUDSON VALLEY  INC.",
+    "name": "Wraparound Services of the Hudson Valley",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6595,11 +6930,12 @@
     "phone": "(845) 336-7235",
     "website": "https://wshv.org/",
     "lat": 41.98545,
-    "lng": -73.9865
+    "lng": -73.9865,
+    "listedName": "WRAPAROUND SERVICES HUDSON VALLEY  INC."
   },
   {
     "source": "opwdd",
-    "name": "YAI - YOUNG ADULT INSTITUTE",
+    "name": "YAI – Young Adult Institute",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6618,11 +6954,12 @@
     "phone": "(212) 273-6182",
     "website": "http://www.yai.org",
     "lat": 40.75009,
-    "lng": -73.97291
+    "lng": -73.97291,
+    "listedName": "YAI - YOUNG ADULT INSTITUTE"
   },
   {
     "source": "opwdd",
-    "name": "YALDEINU SCHOOL INC",
+    "name": "Yaldeinu School",
     "services": [
       "Community Habilitation",
       "Family Support",
@@ -6636,11 +6973,12 @@
     "phone": "(718) 851-0123",
     "website": "http://yaldeinu.net",
     "lat": 40.62299,
-    "lng": -73.99345
+    "lng": -73.99345,
+    "listedName": "YALDEINU SCHOOL INC"
   },
   {
     "source": "opwdd",
-    "name": "YEDEI CHESED  INC.",
+    "name": "Yedei Chesed",
     "services": [
       "Day Habilitation",
       "Community Habilitation",
@@ -6660,11 +6998,12 @@
     "phone": "(845) 425-0887",
     "website": "http://www.yedeichesed.org",
     "lat": 41.09834,
-    "lng": -74.04123
+    "lng": -74.04123,
+    "listedName": "YEDEI CHESED  INC."
   },
   {
     "source": "opwdd",
-    "name": "YELED V'YALDA EARLY CHILDHOOD CENTER",
+    "name": "Yeled V'Yalda Early Childhood Center",
     "services": [
       "Community Habilitation"
     ],
@@ -6676,6 +7015,7 @@
     "phone": "(718) 686-3700",
     "website": "http://www.yeled.org",
     "lat": 40.64087,
-    "lng": -73.98521
+    "lng": -73.98521,
+    "listedName": "YELED V'YALDA EARLY CHILDHOOD CENTER"
   }
 ]

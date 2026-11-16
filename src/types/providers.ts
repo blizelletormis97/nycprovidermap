@@ -11,7 +11,10 @@ export type Region =
 // Unified cached provider — all sources share this shape
 export interface CachedProvider {
   source: DataSource;
+  /** Full name shown on the map (spelled out by link-agencies.ts) */
   name: string;
+  /** The name exactly as the source lists it, when it differs from `name` */
+  listedName?: string;
   services: string[]; // service category keys from constants.ts SERVICE_GROUPS
   detail?: string; // extra context shown in the popup
   office?: boolean; // administrative office or billing address, not where services are delivered
