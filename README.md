@@ -24,7 +24,7 @@ Schuyler, Yates, Hamilton, Lewis, Greene, Schoharie) follow OPWDD's regional str
 - Search by provider name, street or ZIP code, and jump straight to a result
 - Filter by OPWDD region (Region 1 to Region 5), data source and service
 - Search also matches county names (e.g. "Monroe", "Albany")
-- Click a location to see every provider there, with website, program details and a directions link (the public site
+- Click a location to see every provider there, with a website link when one is known, program details and a directions link (the public site
   leaves out phone numbers; they stay in the data files)
 - Providers at the same building are grouped onto one pin, even across datasets
 - Zoom and "locate me" controls, mobile-friendly layout, dark/light theme
@@ -164,6 +164,9 @@ bun run src/lib/seed-article16.ts
 
 # Check Article 16 addresses against current Medicaid clinic enrollments (flags the rest "call to confirm")
 bun run src/lib/verify-article16.ts
+
+# Add websites to clinics, Medicaid sites and home health agencies from the OPWDD agency directory (run last)
+bun run src/lib/link-websites.ts
 ```
 
 To update Article 16 clinics, download the latest list from OPWDD, extract its table to
@@ -234,5 +237,10 @@ src/
     the directory's number is used.
   - **Addresses:** `verify-article16.ts` confirms each address against the weekly-updated Medicaid listing (a
     Medicaid-enrolled clinic at the same address today). Unconfirmed sites are labeled "check with the provider to confirm" on the map.
-- Phone extensions are kept and shown as "ext. 1234".
+- Phone extensions are kept in the data files (the public site does not show phone numbers).
+- **Websites:** only the OPWDD agency directory lists websites. `link-websites.ts` gives Article 16 clinics and
+  Medicaid sites the website of the same agency in that directory, matching names word by word after expanding
+  abbreviations ("MONROE CO CHAP NYSARC DAY" = "MONROE CO. NYSARC INC."); matches were checked by hand and known
+  mismatches are excluded. State-operated offices and clinics link to opwdd.ny.gov. Home health agencies link to
+  their NYS Health Department profile. Providers with no match show no website.
 - Medicaid enrollment does not mean a provider has openings. Confirm with the provider before referring.

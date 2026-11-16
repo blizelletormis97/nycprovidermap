@@ -12,7 +12,8 @@
     "phone": "(914) 242-8720",
     "lat": 41.178047488054,
     "lng": -73.749955631123,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.abilitybeyonddisability.org"
   },
   {
     "source": "article16",
@@ -26,7 +27,8 @@
     "county": "Onondaga",
     "phone": "(315) 455-7591",
     "lat": 43.07913,
-    "lng": -76.14518
+    "lng": -76.14518,
+    "website": "http://www.accesscny.org"
   },
   {
     "source": "article16",
@@ -82,7 +84,8 @@
     "county": "Ulster",
     "phone": "(845) 889-4034",
     "lat": 42.050830508492,
-    "lng": -73.95703299845
+    "lng": -73.95703299845,
+    "website": "https://www.andersoncenterforautism.org"
   },
   {
     "source": "article16",
@@ -96,7 +99,8 @@
     "county": "Dutchess",
     "phone": "(845) 889-4034",
     "lat": 41.738062981465,
-    "lng": -73.909376066458
+    "lng": -73.909376066458,
+    "website": "https://www.andersoncenterforautism.org"
   },
   {
     "source": "article16",
@@ -110,7 +114,8 @@
     "county": "Dutchess",
     "phone": "(845) 889-4034",
     "lat": 41.748855828694,
-    "lng": -73.839978265299
+    "lng": -73.839978265299,
+    "website": "https://www.andersoncenterforautism.org"
   },
   {
     "source": "article16",
@@ -124,7 +129,8 @@
     "county": "Dutchess",
     "phone": "(845) 889-4034",
     "lat": 41.620822202088,
-    "lng": -73.887701619134
+    "lng": -73.887701619134,
+    "website": "https://www.andersoncenterforautism.org"
   },
   {
     "source": "article16",
@@ -138,7 +144,8 @@
     "county": "Albany",
     "phone": "(845) 889-4034",
     "lat": 42.771511622753,
-    "lng": -73.754644460207
+    "lng": -73.754644460207,
+    "website": "https://www.andersoncenterforautism.org"
   },
   {
     "source": "article16",
@@ -152,7 +159,8 @@
     "county": "Rockland",
     "phone": "(845) 267-2500",
     "lat": 41.164311437177,
-    "lng": -73.993764273768
+    "lng": -73.993764273768,
+    "website": "http://www.thearcrockland.org"
   },
   {
     "source": "article16",
@@ -166,7 +174,8 @@
     "county": "Rockland",
     "phone": "(845) 267-2500",
     "lat": 41.058267199222,
-    "lng": -74.020129485404
+    "lng": -74.020129485404,
+    "website": "http://www.thearcrockland.org"
   },
   {
     "source": "article16",
@@ -180,7 +189,8 @@
     "county": "Rockland",
     "phone": "(845) 267-2500",
     "lat": 41.116686988652,
-    "lng": -74.15465064321
+    "lng": -74.15465064321,
+    "website": "http://www.thearcrockland.org"
   },
   {
     "source": "article16",
@@ -194,7 +204,8 @@
     "county": "Rockland",
     "phone": "(845) 267-2500",
     "lat": 41.08808,
-    "lng": -74.03025
+    "lng": -74.03025,
+    "website": "http://www.thearcrockland.org"
   },
   {
     "source": "article16",
@@ -209,7 +220,8 @@
     "phone": "(845) 267-2500",
     "lat": 41.043916570611,
     "lng": -73.953348489205,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.thearcrockland.org"
   },
   {
     "source": "article16",
@@ -223,7 +235,8 @@
     "county": "Rockland",
     "phone": "(845) 267-2500",
     "lat": 41.12917,
-    "lng": -73.94044
+    "lng": -73.94044,
+    "website": "http://www.thearcrockland.org"
   },
   {
     "source": "article16",
@@ -238,7 +251,8 @@
     "phone": "(845) 267-2500",
     "lat": 41.162417122848,
     "lng": -73.97747285717,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.thearcrockland.org"
   },
   {
     "source": "article16",
@@ -252,7 +266,8 @@
     "county": "Rockland",
     "phone": "(845) 267-2500",
     "lat": 41.088127294657,
-    "lng": -73.922002226206
+    "lng": -73.922002226206,
+    "website": "http://www.thearcrockland.org"
   },
   {
     "source": "article16",
@@ -266,7 +281,8 @@
     "county": "Erie",
     "phone": "(716) 505-5500",
     "lat": 42.932486155179,
-    "lng": -78.774235355707
+    "lng": -78.774235355707,
+    "website": "http://www.aspirewny.org"
   },
   {
     "source": "article16",
@@ -280,7 +296,8 @@
     "county": "Erie",
     "phone": "(716) 505-5500",
     "lat": 43.008752928826,
-    "lng": -78.775363772817
+    "lng": -78.775363772817,
+    "website": "http://www.aspirewny.org"
   },
   {
     "source": "article16",
@@ -294,7 +311,8 @@
     "county": "Erie",
     "phone": "(716) 505-5500",
     "lat": 42.95413,
-    "lng": -78.72729
+    "lng": -78.72729,
+    "website": "http://www.aspirewny.org"
   },
   {
     "source": "article16",
@@ -308,7 +326,8 @@
     "county": "Erie",
     "phone": "(716) 505-5500",
     "lat": 42.93958,
-    "lng": -78.83858
+    "lng": -78.83858,
+    "website": "http://www.aspirewny.org"
   },
   {
     "source": "article16",
@@ -322,7 +341,8 @@
     "county": "Erie",
     "phone": "(716) 505-5500",
     "lat": 42.715951632951,
-    "lng": -78.831836544913
+    "lng": -78.831836544913,
+    "website": "http://www.aspirewny.org"
   },
   {
     "source": "article16",
@@ -336,7 +356,8 @@
     "county": "Queens",
     "phone": "(718) 217-4242",
     "lat": 40.74122,
-    "lng": -73.73114
+    "lng": -73.73114,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -350,7 +371,8 @@
     "county": "Suffolk",
     "phone": "(718) 217-4242",
     "lat": 40.81045,
-    "lng": -73.27462
+    "lng": -73.27462,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -364,7 +386,8 @@
     "county": "Kings",
     "phone": "(718) 946-9700",
     "lat": 40.592544337148,
-    "lng": -73.984518653926
+    "lng": -73.984518653926,
+    "website": "http://blockinstitute.org"
   },
   {
     "source": "article16",
@@ -378,7 +401,8 @@
     "county": "Kings",
     "phone": "(718) 946-9700",
     "lat": 40.58897,
-    "lng": -73.99102
+    "lng": -73.99102,
+    "website": "http://blockinstitute.org"
   },
   {
     "source": "article16",
@@ -392,7 +416,8 @@
     "county": "Broome",
     "phone": "(607) 770-0211",
     "lat": 42.10988,
-    "lng": -75.94251
+    "lng": -75.94251,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -406,7 +431,8 @@
     "county": "Broome",
     "phone": "(607) 770-0211",
     "lat": 42.12404,
-    "lng": -75.93603
+    "lng": -75.93603,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -420,7 +446,8 @@
     "county": "Chenango",
     "phone": "(607) 770-0211",
     "lat": 42.54081,
-    "lng": -75.51029
+    "lng": -75.51029,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -434,7 +461,8 @@
     "county": "Otsego",
     "phone": "(607) 770-0211",
     "lat": 42.46657,
-    "lng": -75.05466
+    "lng": -75.05466,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -448,7 +476,8 @@
     "county": "Tompkins",
     "phone": "(607) 770-0211",
     "lat": 42.46553,
-    "lng": -76.53578
+    "lng": -76.53578,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -462,7 +491,8 @@
     "county": "Broome",
     "phone": "(607) 770-0211",
     "lat": 42.09218,
-    "lng": -75.92641
+    "lng": -75.92641,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -476,7 +506,8 @@
     "county": "Chenango",
     "phone": "(607) 770-0211",
     "lat": 42.62317,
-    "lng": -75.33733
+    "lng": -75.33733,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -490,7 +521,8 @@
     "county": "Broome",
     "phone": "(607) 770-0211",
     "lat": 42.01194,
-    "lng": -76.08131
+    "lng": -76.08131,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -504,7 +536,8 @@
     "county": "Saratoga",
     "phone": "(518) 370-7370",
     "lat": 43.24578,
-    "lng": -73.81423
+    "lng": -73.81423,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -518,7 +551,8 @@
     "county": "Schenectady",
     "phone": "(518) 370-7370",
     "lat": 42.77954,
-    "lng": -73.89095
+    "lng": -73.89095,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -532,7 +566,8 @@
     "county": "Washington",
     "phone": "(518) 370-7370",
     "lat": 43.28074,
-    "lng": -73.59122
+    "lng": -73.59122,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -546,7 +581,8 @@
     "county": "Saratoga",
     "phone": "(518) 370-7370",
     "lat": 43.10472,
-    "lng": -73.57946
+    "lng": -73.57946,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -560,7 +596,8 @@
     "county": "Cattaraugus",
     "phone": "(716) 375-4747",
     "lat": 42.082285645293,
-    "lng": -78.4481218268
+    "lng": -78.4481218268,
+    "website": "http://www.rehabcenter.org"
   },
   {
     "source": "article16",
@@ -574,7 +611,8 @@
     "county": "Cattaraugus",
     "phone": "(716) 375-4747",
     "lat": 42.091849193101,
-    "lng": -78.506496251266
+    "lng": -78.506496251266,
+    "website": "http://www.rehabcenter.org"
   },
   {
     "source": "article16",
@@ -588,7 +626,8 @@
     "county": "Cattaraugus",
     "phone": "(716) 375-4747",
     "lat": 42.151591120914,
-    "lng": -78.718830960907
+    "lng": -78.718830960907,
+    "website": "http://www.rehabcenter.org"
   },
   {
     "source": "article16",
@@ -602,7 +641,8 @@
     "county": "Albany",
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.65748,
-    "lng": -73.80429
+    "lng": -73.80429,
+    "website": "http://www.cfdsny.org"
   },
   {
     "source": "article16",
@@ -616,7 +656,8 @@
     "county": "Albany",
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.629045301143,
-    "lng": -73.766452729152
+    "lng": -73.766452729152,
+    "website": "http://www.cfdsny.org"
   },
   {
     "source": "article16",
@@ -630,7 +671,8 @@
     "county": "Schenectady",
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.892026178172,
-    "lng": -73.902215612305
+    "lng": -73.902215612305,
+    "website": "http://www.cfdsny.org"
   },
   {
     "source": "article16",
@@ -644,7 +686,8 @@
     "county": "Albany",
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.702499858775,
-    "lng": -73.876251938265
+    "lng": -73.876251938265,
+    "website": "http://www.cfdsny.org"
   },
   {
     "source": "article16",
@@ -659,7 +702,8 @@
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.695422273531,
     "lng": -73.890002716159,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.cfdsny.org"
   },
   {
     "source": "article16",
@@ -674,7 +718,8 @@
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.628774981658,
     "lng": -73.812868762739,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.cfdsny.org"
   },
   {
     "source": "article16",
@@ -688,7 +733,8 @@
     "county": "Albany",
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.676096883683,
-    "lng": -73.82220869351
+    "lng": -73.82220869351,
+    "website": "http://www.cfdsny.org"
   },
   {
     "source": "article16",
@@ -702,7 +748,8 @@
     "county": "Warren",
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 43.33541,
-    "lng": -73.71371
+    "lng": -73.71371,
+    "website": "http://www.cfdsny.org"
   },
   {
     "source": "article16",
@@ -716,7 +763,8 @@
     "county": "Schoharie",
     "phone": "(518) 738-0020 ext. 3712",
     "lat": 42.640513066325,
-    "lng": -74.323567063313
+    "lng": -74.323567063313,
+    "website": "http://www.cfdsny.org"
   },
   {
     "source": "article16",
@@ -730,7 +778,8 @@
     "county": "Onondaga",
     "phone": "(315) 473-2949",
     "lat": 43.0923,
-    "lng": -76.07028
+    "lng": -76.07028,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -744,7 +793,8 @@
     "county": "Onondaga",
     "phone": "(315) 473-2949",
     "lat": 42.988157391023,
-    "lng": -76.20219287938
+    "lng": -76.20219287938,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -758,7 +808,8 @@
     "county": "Oneida",
     "phone": "(315) 473-2949",
     "lat": 43.21215,
-    "lng": -75.46023
+    "lng": -75.46023,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -772,7 +823,8 @@
     "county": "Oneida",
     "phone": "(315) 473-2949",
     "lat": 43.21424,
-    "lng": -75.46151
+    "lng": -75.46151,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -786,7 +838,8 @@
     "county": "Oneida",
     "phone": "(315) 473-2949",
     "lat": 43.13265,
-    "lng": -75.58306
+    "lng": -75.58306,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -800,7 +853,8 @@
     "county": "Lewis",
     "phone": "(315) 473-2949",
     "lat": 43.88199,
-    "lng": -75.5237
+    "lng": -75.5237,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -814,7 +868,8 @@
     "county": "Cayuga",
     "phone": "(315) 473-2949",
     "lat": 42.91933,
-    "lng": -76.54602
+    "lng": -76.54602,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -828,7 +883,8 @@
     "county": "Cortland",
     "phone": "(315) 473-2949",
     "lat": 42.59283,
-    "lng": -76.1851
+    "lng": -76.1851,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -842,7 +898,8 @@
     "county": "Oneida",
     "phone": "(315) 473-2949",
     "lat": 43.28147,
-    "lng": -75.45029
+    "lng": -75.45029,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -856,7 +913,8 @@
     "county": "Herkimer",
     "phone": "(315) 473-2949",
     "lat": 43.04346,
-    "lng": -75.07996
+    "lng": -75.07996,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -870,7 +928,8 @@
     "county": "Onondaga",
     "phone": "(315) 473-2949",
     "lat": 43.12669,
-    "lng": -76.1256
+    "lng": -76.1256,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -884,7 +943,8 @@
     "county": "Oneida",
     "phone": "(315) 473-2949",
     "lat": 43.13367,
-    "lng": -75.2569
+    "lng": -75.2569,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -898,7 +958,8 @@
     "county": "Oneida",
     "phone": "(315) 473-2949",
     "lat": 43.21061,
-    "lng": -75.46379
+    "lng": -75.46379,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -912,7 +973,8 @@
     "county": "Oneida",
     "phone": "(315) 473-2949",
     "lat": 43.33078,
-    "lng": -75.74288
+    "lng": -75.74288,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -926,7 +988,8 @@
     "county": "Oneida",
     "phone": "(315) 473-2949",
     "lat": 43.26026,
-    "lng": -75.46223
+    "lng": -75.46223,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -940,7 +1003,8 @@
     "county": "Onondaga",
     "phone": "(315) 473-2949",
     "lat": 43.03987,
-    "lng": -76.29252
+    "lng": -76.29252,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -954,7 +1018,8 @@
     "county": "Onondaga",
     "phone": "(315) 473-2949",
     "lat": 43.04144003321,
-    "lng": -76.119416986345
+    "lng": -76.119416986345,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -968,7 +1033,8 @@
     "county": "Lewis",
     "phone": "(315) 473-2949",
     "lat": 43.76821,
-    "lng": -75.46398
+    "lng": -75.46398,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -982,7 +1048,8 @@
     "county": "Onondaga",
     "phone": "(315) 473-2949",
     "lat": 43.059944183787,
-    "lng": -76.133148993516
+    "lng": -76.133148993516,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -996,7 +1063,8 @@
     "county": "Chemung",
     "phone": "(607) 535-6934",
     "lat": 42.10129,
-    "lng": -76.79805
+    "lng": -76.79805,
+    "website": "http://www.arcofschuyler.org"
   },
   {
     "source": "article16",
@@ -1010,7 +1078,8 @@
     "county": "Chemung",
     "phone": "(607) 535-6934",
     "lat": 42.164957138181,
-    "lng": -76.836297529322
+    "lng": -76.836297529322,
+    "website": "http://www.arcofschuyler.org"
   },
   {
     "source": "article16",
@@ -1024,7 +1093,8 @@
     "county": "Schuyler",
     "phone": "(607) 535-6934",
     "lat": 42.37481,
-    "lng": -76.86715
+    "lng": -76.86715,
+    "website": "http://www.arcofschuyler.org"
   },
   {
     "source": "article16",
@@ -1038,7 +1108,8 @@
     "county": "Schuyler",
     "phone": "(607) 535-6934",
     "lat": 42.376213634735,
-    "lng": -76.867060281828
+    "lng": -76.867060281828,
+    "website": "http://www.arcofschuyler.org"
   },
   {
     "source": "article16",
@@ -1052,7 +1123,8 @@
     "county": "Steuben",
     "phone": "(607) 535-6934",
     "lat": 42.141989331779,
-    "lng": -77.050234334613
+    "lng": -77.050234334613,
+    "website": "http://www.arcofschuyler.org"
   },
   {
     "source": "article16",
@@ -1067,7 +1139,8 @@
     "phone": "(607) 535-6934",
     "lat": 42.360993322057,
     "lng": -77.298978431166,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.arcofschuyler.org"
   },
   {
     "source": "article16",
@@ -1081,7 +1154,8 @@
     "county": "Steuben",
     "phone": "(607) 535-6934",
     "lat": 42.328919216935,
-    "lng": -77.661349491075
+    "lng": -77.661349491075,
+    "website": "http://www.arcofschuyler.org"
   },
   {
     "source": "article16",
@@ -1095,7 +1169,8 @@
     "county": "Allegany",
     "phone": "(607) 535-6934",
     "lat": 42.129987063784,
-    "lng": -77.950304361971
+    "lng": -77.950304361971,
+    "website": "http://www.arcofschuyler.org"
   },
   {
     "source": "article16",
@@ -1109,7 +1184,8 @@
     "county": "New York",
     "phone": "(212) 420-1970",
     "lat": 40.71502,
-    "lng": -73.98396
+    "lng": -73.98396,
+    "website": "http://www.caresnys.org"
   },
   {
     "source": "article16",
@@ -1123,7 +1199,8 @@
     "county": "Kings",
     "phone": "(212) 420-1970",
     "lat": 40.623921011371,
-    "lng": -73.94141825117
+    "lng": -73.94141825117,
+    "website": "http://www.caresnys.org"
   },
   {
     "source": "article16",
@@ -1138,7 +1215,8 @@
     "phone": "(212) 420-1970",
     "lat": 40.60866988856,
     "lng": -73.997708867582,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.caresnys.org"
   },
   {
     "source": "article16",
@@ -1152,7 +1230,8 @@
     "county": "Kings",
     "phone": "(212) 420-1970",
     "lat": 40.599654052469,
-    "lng": -73.948387773169
+    "lng": -73.948387773169,
+    "website": "http://www.caresnys.org"
   },
   {
     "source": "article16",
@@ -1166,7 +1245,8 @@
     "county": "Warren",
     "phone": "(518) 793-4700",
     "lat": 43.326269737552,
-    "lng": -73.646398128469
+    "lng": -73.646398128469,
+    "website": "http://www.cwinc.org"
   },
   {
     "source": "article16",
@@ -1180,7 +1260,8 @@
     "county": "Washington",
     "phone": "(518) 793-4700",
     "lat": 43.299710009128,
-    "lng": -73.574615522773
+    "lng": -73.574615522773,
+    "website": "http://www.cwinc.org"
   },
   {
     "source": "article16",
@@ -1194,7 +1275,8 @@
     "county": "Washington",
     "phone": "(518) 793-4700",
     "lat": 43.299710009128,
-    "lng": -73.574615522773
+    "lng": -73.574615522773,
+    "website": "http://www.cwinc.org"
   },
   {
     "source": "article16",
@@ -1208,7 +1290,8 @@
     "county": "Warren",
     "phone": "(518) 793-4700",
     "lat": 43.315975964423,
-    "lng": -73.612308718936
+    "lng": -73.612308718936,
+    "website": "http://www.cwinc.org"
   },
   {
     "source": "article16",
@@ -1222,7 +1305,8 @@
     "county": "Nassau",
     "phone": "(516) 739-7733",
     "lat": 40.72259,
-    "lng": -73.57812
+    "lng": -73.57812,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1236,7 +1320,8 @@
     "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.777621909582,
-    "lng": -73.048577455618
+    "lng": -73.048577455618,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1251,7 +1336,8 @@
     "phone": "(516) 739-7733",
     "lat": 40.81125,
     "lng": -72.95342,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1265,7 +1351,8 @@
     "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.80937844987,
-    "lng": -73.019520385209
+    "lng": -73.019520385209,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1279,7 +1366,8 @@
     "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.767042895543,
-    "lng": -73.006940028451
+    "lng": -73.006940028451,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1294,7 +1382,8 @@
     "phone": "(516) 739-7733",
     "lat": 40.934017580205,
     "lng": -73.054284890545,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1308,7 +1397,8 @@
     "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.92881,
-    "lng": -73.05125
+    "lng": -73.05125,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1322,7 +1412,8 @@
     "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.928093756191,
-    "lng": -72.678413343376
+    "lng": -72.678413343376,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1336,7 +1427,8 @@
     "county": "Westchester",
     "phone": "(516) 739-7733",
     "lat": 41.27837,
-    "lng": -73.93885
+    "lng": -73.93885,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1350,7 +1442,8 @@
     "county": "Nassau",
     "phone": "(516) 739-7733",
     "lat": 40.83254,
-    "lng": -73.48224
+    "lng": -73.48224,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1364,7 +1457,8 @@
     "county": "Nassau",
     "phone": "(516) 739-7733",
     "lat": 40.69278,
-    "lng": -73.50794
+    "lng": -73.50794,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1378,7 +1472,8 @@
     "county": "Suffolk",
     "phone": "(516) 739-7733",
     "lat": 40.767703650154,
-    "lng": -73.006994881413
+    "lng": -73.006994881413,
+    "website": "http://www.efli.org"
   },
   {
     "source": "article16",
@@ -1620,7 +1715,8 @@
     "county": "Kings",
     "phone": "(718) 387-8400",
     "lat": 40.707117243659,
-    "lng": -73.955959324711
+    "lng": -73.955959324711,
+    "website": "http://www.hamaspikkings.org"
   },
   {
     "source": "article16",
@@ -1635,7 +1731,8 @@
     "phone": "(718) 387-8400",
     "lat": 40.612808980509,
     "lng": -73.975383764869,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.hamaspikkings.org"
   },
   {
     "source": "article16",
@@ -1649,7 +1746,8 @@
     "county": "Kings",
     "phone": "(718) 387-8400",
     "lat": 40.63805,
-    "lng": -73.9854
+    "lng": -73.9854,
+    "website": "http://www.hamaspikkings.org"
   },
   {
     "source": "article16",
@@ -1663,7 +1761,8 @@
     "county": "Orange",
     "phone": "(845) 774-8400",
     "lat": 41.33547,
-    "lng": -74.1604
+    "lng": -74.1604,
+    "website": "http://www.hamaspikorange.org"
   },
   {
     "source": "article16",
@@ -1677,7 +1776,8 @@
     "county": "Rockland",
     "phone": "(845) 356-8400",
     "lat": 41.10777,
-    "lng": -74.06546
+    "lng": -74.06546,
+    "website": "http://www.hamaspikrockland.org"
   },
   {
     "source": "article16",
@@ -1691,7 +1791,8 @@
     "county": "Rockland",
     "phone": "(845) 356-8400",
     "lat": 41.109291884514,
-    "lng": -74.046227727085
+    "lng": -74.046227727085,
+    "website": "http://www.hamaspikrockland.org"
   },
   {
     "source": "article16",
@@ -1705,7 +1806,8 @@
     "county": "Rockland",
     "phone": "(845) 356-8400",
     "lat": 41.105040689517,
-    "lng": -74.045813269475
+    "lng": -74.045813269475,
+    "website": "http://www.hamaspikrockland.org"
   },
   {
     "source": "article16",
@@ -1719,7 +1821,8 @@
     "county": "Rockland",
     "phone": "(845) 356-8400",
     "lat": 41.08462981212,
-    "lng": -74.055670774581
+    "lng": -74.055670774581,
+    "website": "http://www.hamaspikrockland.org"
   },
   {
     "source": "article16",
@@ -1747,7 +1850,8 @@
     "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.619811307331,
-    "lng": -73.96124657695
+    "lng": -73.96124657695,
+    "website": "http://www.hasc.net"
   },
   {
     "source": "article16",
@@ -1761,7 +1865,8 @@
     "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.62233,
-    "lng": -73.99253
+    "lng": -73.99253,
+    "website": "http://www.hasc.net"
   },
   {
     "source": "article16",
@@ -1775,7 +1880,8 @@
     "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.641647151978,
-    "lng": -73.992650819468
+    "lng": -73.992650819468,
+    "website": "http://www.hasc.net"
   },
   {
     "source": "article16",
@@ -1789,7 +1895,8 @@
     "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.646982536662,
-    "lng": -74.022609514018
+    "lng": -74.022609514018,
+    "website": "http://www.hasc.net"
   },
   {
     "source": "article16",
@@ -1803,7 +1910,8 @@
     "county": "Kings",
     "phone": "(718) 535-1956",
     "lat": 40.70981238399,
-    "lng": -73.965971919704
+    "lng": -73.965971919704,
+    "website": "http://www.hasc.net"
   },
   {
     "source": "article16",
@@ -1817,7 +1925,8 @@
     "county": "Sullivan",
     "phone": "(718) 535-1956",
     "lat": 41.835191157285,
-    "lng": -74.747637663073
+    "lng": -74.747637663073,
+    "website": "http://www.hasc.net"
   },
   {
     "source": "article16",
@@ -2001,7 +2110,8 @@
     "county": "Westchester",
     "phone": "(845) 947-6100",
     "lat": 41.06404,
-    "lng": -73.85265
+    "lng": -73.85265,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -2015,7 +2125,8 @@
     "county": "Orange",
     "phone": "(845) 947-6100",
     "lat": 41.45221,
-    "lng": -74.34532
+    "lng": -74.34532,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -2029,7 +2140,8 @@
     "county": "Rockland",
     "phone": "(845) 708-2000",
     "lat": 41.14841,
-    "lng": -73.99416
+    "lng": -73.99416,
+    "website": "http://www.jawonio.org"
   },
   {
     "source": "article16",
@@ -2044,7 +2156,8 @@
     "phone": "(315) 797-6241",
     "lat": 43.212350519646,
     "lng": -75.399222117837,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.kelbermancenter.org"
   },
   {
     "source": "article16",
@@ -2058,7 +2171,8 @@
     "county": "Onondaga",
     "phone": "(315) 797-6241",
     "lat": 43.003317302646,
-    "lng": -76.129964880048
+    "lng": -76.129964880048,
+    "website": "http://www.kelbermancenter.org"
   },
   {
     "source": "article16",
@@ -2072,7 +2186,8 @@
     "county": "New York",
     "phone": "(212) 741-0100",
     "lat": 40.804152658018,
-    "lng": -73.936737099756
+    "lng": -73.936737099756,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2086,7 +2201,8 @@
     "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.709386187351,
-    "lng": -73.774794292368
+    "lng": -73.774794292368,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2100,7 +2216,8 @@
     "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.722808102256,
-    "lng": -73.729288944268
+    "lng": -73.729288944268,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2114,7 +2231,8 @@
     "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.704303645096,
-    "lng": -73.797601609812
+    "lng": -73.797601609812,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2129,7 +2247,8 @@
     "phone": "(212) 741-0100",
     "lat": 40.700137624856,
     "lng": -73.828568336946,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2143,7 +2262,8 @@
     "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.657843898251,
-    "lng": -73.984710418596
+    "lng": -73.984710418596,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2157,7 +2277,8 @@
     "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.650068074673,
-    "lng": -74.015398047329
+    "lng": -74.015398047329,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2171,7 +2292,8 @@
     "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.64943556299,
-    "lng": -74.014593028083
+    "lng": -74.014593028083,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2186,7 +2308,8 @@
     "phone": "(212) 741-0100",
     "lat": 41.457435854496,
     "lng": -74.326790436542,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2200,7 +2323,8 @@
     "county": "Richmond",
     "phone": "(212) 741-0100",
     "lat": 40.60255,
-    "lng": -74.17439
+    "lng": -74.17439,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2214,7 +2338,8 @@
     "county": "Richmond",
     "phone": "(212) 741-0100",
     "lat": 40.60303,
-    "lng": -74.14075
+    "lng": -74.14075,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2228,7 +2353,8 @@
     "county": "Richmond",
     "phone": "(212) 741-0100",
     "lat": 40.607069296194,
-    "lng": -74.090135779216
+    "lng": -74.090135779216,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2242,7 +2368,8 @@
     "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.74778,
-    "lng": -73.75712
+    "lng": -73.75712,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2256,7 +2383,8 @@
     "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.644194683116,
-    "lng": -73.912710776507
+    "lng": -73.912710776507,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2270,7 +2398,8 @@
     "county": "Nassau",
     "phone": "(212) 741-0100",
     "lat": 40.802165376418,
-    "lng": -73.647105783215
+    "lng": -73.647105783215,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2284,7 +2413,8 @@
     "county": "Bronx",
     "phone": "(212) 741-0100",
     "lat": 40.825385748241,
-    "lng": -73.908261768261
+    "lng": -73.908261768261,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2298,7 +2428,8 @@
     "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.706369180397,
-    "lng": -73.799826713891
+    "lng": -73.799826713891,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2313,7 +2444,8 @@
     "phone": "(212) 741-0100",
     "lat": 40.702030810574,
     "lng": -73.756515123311,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2327,7 +2459,8 @@
     "county": "Queens",
     "phone": "(212) 741-0100",
     "lat": 40.66681,
-    "lng": -73.77542
+    "lng": -73.77542,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2341,7 +2474,8 @@
     "county": "Kings",
     "phone": "(212) 741-0100",
     "lat": 40.657628599863,
-    "lng": -74.004627704025
+    "lng": -74.004627704025,
+    "website": "http://www.lifespire.org"
   },
   {
     "source": "article16",
@@ -2695,7 +2829,8 @@
     "county": "Madison",
     "phone": "(315) 363-3389",
     "lat": 43.094553939867,
-    "lng": -75.651527491574
+    "lng": -75.651527491574,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2709,7 +2844,8 @@
     "county": "Cortland",
     "phone": "(315) 363-3389",
     "lat": 42.591020667482,
-    "lng": -76.180227544811
+    "lng": -76.180227544811,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2723,7 +2859,8 @@
     "county": "Madison",
     "phone": "(315) 363-3389",
     "lat": 43.08581,
-    "lng": -75.67033
+    "lng": -75.67033,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2737,7 +2874,8 @@
     "county": "Madison",
     "phone": "(315) 363-3389",
     "lat": 43.086622232214,
-    "lng": -75.668897462257
+    "lng": -75.668897462257,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2751,7 +2889,8 @@
     "county": "Madison",
     "phone": "(315) 363-3389",
     "lat": 43.084672371526,
-    "lng": -75.664844173302
+    "lng": -75.664844173302,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2765,7 +2904,8 @@
     "county": "Herkimer",
     "phone": "(315) 363-3389",
     "lat": 43.02193,
-    "lng": -74.9819
+    "lng": -74.9819,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2779,7 +2919,8 @@
     "county": "Herkimer",
     "phone": "(315) 363-3389",
     "lat": 43.034210284988,
-    "lng": -74.960433888073
+    "lng": -74.960433888073,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2793,7 +2934,8 @@
     "county": "Herkimer",
     "phone": "(315) 363-3389",
     "lat": 43.0302341849,
-    "lng": -74.983481578533
+    "lng": -74.983481578533,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2807,7 +2949,8 @@
     "county": "Oneida",
     "phone": "(315) 363-3389",
     "lat": 43.086822527107,
-    "lng": -75.26157214588
+    "lng": -75.26157214588,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2821,7 +2964,8 @@
     "county": "Oneida",
     "phone": "(315) 363-3389",
     "lat": 43.259055435268,
-    "lng": -75.531289395964
+    "lng": -75.531289395964,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2835,7 +2979,8 @@
     "county": "Oneida",
     "phone": "(315) 363-3389",
     "lat": 43.14219500955,
-    "lng": -75.288008235249
+    "lng": -75.288008235249,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2849,7 +2994,8 @@
     "county": "Oneida",
     "phone": "(315) 363-3389",
     "lat": 43.082193081511,
-    "lng": -75.363397785708
+    "lng": -75.363397785708,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2863,7 +3009,8 @@
     "county": "Herkimer",
     "phone": "(315) 363-3389",
     "lat": 43.015283035436,
-    "lng": -75.036329558611
+    "lng": -75.036329558611,
+    "website": "http://www.madisoncortlandarc.org"
   },
   {
     "source": "article16",
@@ -2878,7 +3025,8 @@
     "phone": "(585) 271-0660",
     "lat": 43.094504825022,
     "lng": -77.622049269389,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.arcmonroe.org"
   },
   {
     "source": "article16",
@@ -2892,7 +3040,8 @@
     "county": "Monroe",
     "phone": "(585) 271-0660",
     "lat": 43.164640306305,
-    "lng": -77.670591059481
+    "lng": -77.670591059481,
+    "website": "http://www.arcmonroe.org"
   },
   {
     "source": "article16",
@@ -2906,7 +3055,8 @@
     "county": "Monroe",
     "phone": "(585) 271-0660",
     "lat": 43.124871552728,
-    "lng": -77.612453349792
+    "lng": -77.612453349792,
+    "website": "http://www.arcmonroe.org"
   },
   {
     "source": "article16",
@@ -2920,7 +3070,8 @@
     "county": "Monroe",
     "phone": "(585) 271-0660",
     "lat": 43.092937638612,
-    "lng": -77.68214529942
+    "lng": -77.68214529942,
+    "website": "http://www.arcmonroe.org"
   },
   {
     "source": "article16",
@@ -2934,7 +3085,8 @@
     "county": "Monroe",
     "phone": "(585) 271-0660",
     "lat": 43.100354406199,
-    "lng": -77.45793969338
+    "lng": -77.45793969338,
+    "website": "http://www.arcmonroe.org"
   },
   {
     "source": "article16",
@@ -2948,7 +3100,8 @@
     "county": "Monroe",
     "phone": "(585) 271-0660",
     "lat": 43.098345639635,
-    "lng": -77.630898258058
+    "lng": -77.630898258058,
+    "website": "http://www.arcmonroe.org"
   },
   {
     "source": "article16",
@@ -2962,7 +3115,8 @@
     "county": "Livingston",
     "phone": "(585) 271-0660",
     "lat": 42.7249589515,
-    "lng": -77.874428061087
+    "lng": -77.874428061087,
+    "website": "http://www.arcmonroe.org"
   },
   {
     "source": "article16",
@@ -2976,7 +3130,8 @@
     "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.70746,
-    "lng": -74.00749
+    "lng": -74.00749,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -2990,7 +3145,8 @@
     "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.862135918658,
-    "lng": -73.897024341252
+    "lng": -73.897024341252,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3005,7 +3161,8 @@
     "phone": "(212) 780-2500",
     "lat": 40.839551125477,
     "lng": -73.841701173484,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3019,7 +3176,8 @@
     "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.839261200176,
-    "lng": -73.84130382258
+    "lng": -73.84130382258,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3033,7 +3191,8 @@
     "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.84656,
-    "lng": -73.90964
+    "lng": -73.90964,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3047,7 +3206,8 @@
     "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.850769585736,
-    "lng": -73.833796426613
+    "lng": -73.833796426613,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3061,7 +3221,8 @@
     "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.692249400307,
-    "lng": -73.986192821232
+    "lng": -73.986192821232,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3076,7 +3237,8 @@
     "phone": "(212) 780-2500",
     "lat": 40.687816573494,
     "lng": -73.981233313307,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3090,7 +3252,8 @@
     "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.650464324026,
-    "lng": -73.958305537867
+    "lng": -73.958305537867,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3104,7 +3267,8 @@
     "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.604789964045,
-    "lng": -73.976798123492
+    "lng": -73.976798123492,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3118,7 +3282,8 @@
     "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.647121176701,
-    "lng": -73.904442821166
+    "lng": -73.904442821166,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3132,7 +3297,8 @@
     "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.587739654878,
-    "lng": -73.952296739338
+    "lng": -73.952296739338,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3146,7 +3312,8 @@
     "county": "Kings",
     "phone": "(212) 780-2500",
     "lat": 40.614022071487,
-    "lng": -74.013734438127
+    "lng": -74.013734438127,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3160,7 +3327,8 @@
     "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.72868,
-    "lng": -74.00543
+    "lng": -74.00543,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3174,7 +3342,8 @@
     "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.718443802267,
-    "lng": -73.987404059765
+    "lng": -73.987404059765,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3188,7 +3357,8 @@
     "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.804451861114,
-    "lng": -73.937448613796
+    "lng": -73.937448613796,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3202,7 +3372,8 @@
     "county": "Queens",
     "phone": "(212) 780-2500",
     "lat": 40.605177276951,
-    "lng": -73.760990157927
+    "lng": -73.760990157927,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3216,7 +3387,8 @@
     "county": "Queens",
     "phone": "(212) 780-2500",
     "lat": 40.739069973671,
-    "lng": -73.88815338318
+    "lng": -73.88815338318,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3230,7 +3402,8 @@
     "county": "Richmond",
     "phone": "(212) 780-2500",
     "lat": 40.637806444031,
-    "lng": -74.076487988516
+    "lng": -74.076487988516,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3244,7 +3417,8 @@
     "county": "Bronx",
     "phone": "(212) 780-2500",
     "lat": 40.850769585736,
-    "lng": -73.833796426613
+    "lng": -73.833796426613,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3258,7 +3432,8 @@
     "county": "Queens",
     "phone": "(212) 780-2500",
     "lat": 40.752302835448,
-    "lng": -73.932001898455
+    "lng": -73.932001898455,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3272,7 +3447,8 @@
     "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.72868,
-    "lng": -74.00543
+    "lng": -74.00543,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3286,7 +3462,8 @@
     "county": "New York",
     "phone": "(212) 780-2500",
     "lat": 40.767910249797,
-    "lng": -73.987947763168
+    "lng": -73.987947763168,
+    "website": "http://www.ahrcnyc.org"
   },
   {
     "source": "article16",
@@ -3300,7 +3477,8 @@
     "county": "Onondaga",
     "phone": "(315) 476-7441",
     "lat": 43.04457,
-    "lng": -76.17624
+    "lng": -76.17624,
+    "website": "http://www.arcon.org"
   },
   {
     "source": "article16",
@@ -3315,7 +3493,8 @@
     "phone": "(315) 476-7441",
     "lat": 43.062408448968,
     "lng": -76.035183105967,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "http://www.arcon.org"
   },
   {
     "source": "article16",
@@ -3329,7 +3508,8 @@
     "county": "Onondaga",
     "phone": "(315) 476-7441",
     "lat": 43.087745944953,
-    "lng": -76.187487736154
+    "lng": -76.187487736154,
+    "website": "http://www.arcon.org"
   },
   {
     "source": "article16",
@@ -3343,7 +3523,8 @@
     "county": "Onondaga",
     "phone": "(315) 476-7441",
     "lat": 43.076816121605,
-    "lng": -76.106980979675
+    "lng": -76.106980979675,
+    "website": "http://www.arcon.org"
   },
   {
     "source": "article16",
@@ -3357,7 +3538,8 @@
     "county": "Otsego",
     "phone": "(315) 476-7441",
     "lat": 42.448599146171,
-    "lng": -75.097786711724
+    "lng": -75.097786711724,
+    "website": "http://www.arcon.org"
   },
   {
     "source": "article16",
@@ -3371,7 +3553,8 @@
     "county": "Otsego",
     "phone": "(315) 476-7441",
     "lat": 42.659785214238,
-    "lng": -75.049455610403
+    "lng": -75.049455610403,
+    "website": "http://www.arcon.org"
   },
   {
     "source": "article16",
@@ -3385,7 +3568,8 @@
     "county": "Jefferson",
     "phone": "(315) 476-7441",
     "lat": 43.985406218389,
-    "lng": -75.940187205588
+    "lng": -75.940187205588,
+    "website": "http://www.arcon.org"
   },
   {
     "source": "article16",
@@ -3399,7 +3583,8 @@
     "county": "Otsego",
     "phone": "(315) 476-7441",
     "lat": 42.450847378403,
-    "lng": -75.109380328071
+    "lng": -75.109380328071,
+    "website": "http://www.arcon.org"
   },
   {
     "source": "article16",
@@ -3413,7 +3598,8 @@
     "county": "Wayne",
     "phone": "(315) 331-7741",
     "lat": 43.04798,
-    "lng": -77.09394
+    "lng": -77.09394,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3427,7 +3613,8 @@
     "county": "Orleans",
     "phone": "(315) 331-7741",
     "lat": 43.242981121239,
-    "lng": -78.200344467206
+    "lng": -78.200344467206,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3441,7 +3628,8 @@
     "county": "Wayne",
     "phone": "(315) 331-7741",
     "lat": 43.043835586111,
-    "lng": -77.340549924424
+    "lng": -77.340549924424,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3455,7 +3643,8 @@
     "county": "Orleans",
     "phone": "(315) 331-7741",
     "lat": 43.246458992079,
-    "lng": -78.198023368415
+    "lng": -78.198023368415,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3469,7 +3658,8 @@
     "county": "Genesee",
     "phone": "(315) 331-7741",
     "lat": 42.995249469587,
-    "lng": -78.19235602004
+    "lng": -78.19235602004,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3483,7 +3673,8 @@
     "county": "Genesee",
     "phone": "(315) 331-7741",
     "lat": 43.00681476505,
-    "lng": -78.1985741937
+    "lng": -78.1985741937,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3497,7 +3688,8 @@
     "county": "Genesee",
     "phone": "(315) 331-7741",
     "lat": 43.083614035082,
-    "lng": -78.177535518414
+    "lng": -78.177535518414,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3511,7 +3703,8 @@
     "county": "Niagara",
     "phone": "(315) 331-7741",
     "lat": 43.09377,
-    "lng": -78.98624
+    "lng": -78.98624,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3525,7 +3718,8 @@
     "county": "Niagara",
     "phone": "(315) 331-7741",
     "lat": 43.094066832487,
-    "lng": -78.910597943963
+    "lng": -78.910597943963,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3539,7 +3733,8 @@
     "county": "Niagara",
     "phone": "(315) 331-7741",
     "lat": 43.169412902711,
-    "lng": -78.71944920709
+    "lng": -78.71944920709,
+    "website": "http://www.waynearc.org"
   },
   {
     "source": "article16",
@@ -3553,7 +3748,8 @@
     "county": "Westchester",
     "phone": "(914) 428-8330",
     "lat": 41.10256,
-    "lng": -73.80963
+    "lng": -73.80963,
+    "website": "http://www.westchesterarc.org"
   },
   {
     "source": "article16",
@@ -3567,7 +3763,8 @@
     "county": "Westchester",
     "phone": "(914) 428-8330",
     "lat": 40.928166131125,
-    "lng": -73.870501591828
+    "lng": -73.870501591828,
+    "website": "http://www.westchesterarc.org"
   },
   {
     "source": "article16",
@@ -3581,7 +3778,8 @@
     "county": "Westchester",
     "phone": "(914) 428-8330",
     "lat": 41.190170052151,
-    "lng": -73.730251424333
+    "lng": -73.730251424333,
+    "website": "http://www.westchesterarc.org"
   },
   {
     "source": "article16",
@@ -3595,7 +3793,8 @@
     "county": "Westchester",
     "phone": "(914) 428-8330",
     "lat": 41.03730317533,
-    "lng": -73.779646245811
+    "lng": -73.779646245811,
+    "website": "http://www.westchesterarc.org"
   },
   {
     "source": "article16",
@@ -3609,7 +3808,8 @@
     "county": "Westchester",
     "phone": "(914) 428-8330",
     "lat": 41.27837,
-    "lng": -73.93885
+    "lng": -73.93885,
+    "website": "http://www.westchesterarc.org"
   },
   {
     "source": "article16",
@@ -3623,7 +3823,8 @@
     "county": "Westchester",
     "phone": "(914) 428-8330",
     "lat": 41.169962513245,
-    "lng": -73.864100215521
+    "lng": -73.864100215521,
+    "website": "http://www.westchesterarc.org"
   },
   {
     "source": "article16",
@@ -3637,7 +3838,8 @@
     "county": "Westchester",
     "phone": "(914) 428-8330",
     "lat": 40.906179536773,
-    "lng": -73.782780836997
+    "lng": -73.782780836997,
+    "website": "http://www.westchesterarc.org"
   },
   {
     "source": "article16",
@@ -3651,7 +3853,8 @@
     "county": "Westchester",
     "phone": "(914) 428-8330",
     "lat": 41.000442006002,
-    "lng": -73.666701475666
+    "lng": -73.666701475666,
+    "website": "http://www.westchesterarc.org"
   },
   {
     "source": "article16",
@@ -3665,7 +3868,8 @@
     "county": "Westchester",
     "phone": "(914) 428-8330",
     "lat": 41.068722606885,
-    "lng": -73.806738761225
+    "lng": -73.806738761225,
+    "website": "http://www.westchesterarc.org"
   },
   {
     "source": "article16",
@@ -3947,7 +4151,8 @@
     "county": "Monroe",
     "phone": "(716) 634-8132",
     "lat": 43.195859349983,
-    "lng": -77.68071743718
+    "lng": -77.68071743718,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -3961,7 +4166,8 @@
     "county": "Monroe",
     "phone": "(716) 634-8132",
     "lat": 43.239409967964,
-    "lng": -77.927337237758
+    "lng": -77.927337237758,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -3975,7 +4181,8 @@
     "county": "Erie",
     "phone": "(716) 634-8132",
     "lat": 42.781779346183,
-    "lng": -78.778583247259
+    "lng": -78.778583247259,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -3989,7 +4196,8 @@
     "county": "Erie",
     "phone": "(716) 634-8132",
     "lat": 42.900093564209,
-    "lng": -78.675881242513
+    "lng": -78.675881242513,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -4003,7 +4211,8 @@
     "county": "Erie",
     "phone": "(716) 634-8132",
     "lat": 42.941731225293,
-    "lng": -78.836263929402
+    "lng": -78.836263929402,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -4017,7 +4226,8 @@
     "county": "Chautauqua",
     "phone": "(716) 634-8132",
     "lat": 42.544234738055,
-    "lng": -79.167468774032
+    "lng": -79.167468774032,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -4031,7 +4241,8 @@
     "county": "Erie",
     "phone": "(716) 634-8132",
     "lat": 42.955280544247,
-    "lng": -78.869141813139
+    "lng": -78.869141813139,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -4045,7 +4256,8 @@
     "county": "Erie",
     "phone": "(716) 634-8132",
     "lat": 42.900643108671,
-    "lng": -78.782869680721
+    "lng": -78.782869680721,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -4059,7 +4271,8 @@
     "county": "Erie",
     "phone": "(716) 634-8132",
     "lat": 42.851978235036,
-    "lng": -78.804585153021
+    "lng": -78.804585153021,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -4073,7 +4286,8 @@
     "county": "Erie",
     "phone": "(716) 634-8132",
     "lat": 43.010235261321,
-    "lng": -78.844444660401
+    "lng": -78.844444660401,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -4087,7 +4301,8 @@
     "county": "Erie",
     "phone": "(716) 634-8132",
     "lat": 42.955012002373,
-    "lng": -78.878399617419
+    "lng": -78.878399617419,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -4101,7 +4316,8 @@
     "county": "Erie",
     "phone": "(716) 634-8132",
     "lat": 42.91608,
-    "lng": -78.6925
+    "lng": -78.6925,
+    "website": "http://www.people-inc.org"
   },
   {
     "source": "article16",
@@ -4469,7 +4685,8 @@
     "county": "Dutchess",
     "phone": "(845) 877-6821",
     "lat": 41.676310323826,
-    "lng": -73.856065082927
+    "lng": -73.856065082927,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -4483,7 +4700,8 @@
     "county": "Ulster",
     "phone": "(845) 877-6821",
     "lat": 41.96841,
-    "lng": -74.00245
+    "lng": -74.00245,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -4497,7 +4715,8 @@
     "county": "Columbia",
     "phone": "(845) 877-6821",
     "lat": 42.439639538579,
-    "lng": -73.686744481969
+    "lng": -73.686744481969,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -4511,7 +4730,8 @@
     "county": "Ulster",
     "phone": "(845) 877-6821",
     "lat": 41.66369,
-    "lng": -73.97704
+    "lng": -73.97704,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -4525,7 +4745,8 @@
     "county": "Dutchess",
     "phone": "(845) 877-6821",
     "lat": 41.78515,
-    "lng": -73.69373
+    "lng": -73.69373,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -4539,7 +4760,8 @@
     "county": "Dutchess",
     "phone": "(845) 877-6821",
     "lat": 41.80529,
-    "lng": -73.56361
+    "lng": -73.56361,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -4553,7 +4775,8 @@
     "county": "Ulster",
     "phone": "(845) 877-6821",
     "lat": 41.92933,
-    "lng": -74.00425
+    "lng": -74.00425,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -4567,7 +4790,8 @@
     "county": "Dutchess",
     "phone": "(845) 877-6821",
     "lat": 41.9958,
-    "lng": -73.87779
+    "lng": -73.87779,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -4581,7 +4805,8 @@
     "county": "New York",
     "phone": "(212) 677-8550",
     "lat": 40.705770105218,
-    "lng": -74.009966785486
+    "lng": -74.009966785486,
+    "website": "http://www.efmny.org"
   },
   {
     "source": "article16",
@@ -4595,7 +4820,8 @@
     "county": "Westchester",
     "phone": "(212) 677-8550",
     "lat": 41.191298980669,
-    "lng": -73.738199546554
+    "lng": -73.738199546554,
+    "website": "http://www.efmny.org"
   },
   {
     "source": "article16",
@@ -4623,7 +4849,8 @@
     "county": "Monroe",
     "phone": "(585) 359-3710",
     "lat": 43.07752,
-    "lng": -77.59578
+    "lng": -77.59578,
+    "website": "http://www.holychildhood.org"
   },
   {
     "source": "article16",
@@ -4637,7 +4864,8 @@
     "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.765535881215,
-    "lng": -73.76984740873
+    "lng": -73.76984740873,
+    "website": "http://www.shield.org"
   },
   {
     "source": "article16",
@@ -4651,7 +4879,8 @@
     "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.74778,
-    "lng": -73.75712
+    "lng": -73.75712,
+    "website": "http://www.shield.org"
   },
   {
     "source": "article16",
@@ -4665,7 +4894,8 @@
     "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.748032835116,
-    "lng": -73.756242646955
+    "lng": -73.756242646955,
+    "website": "http://www.shield.org"
   },
   {
     "source": "article16",
@@ -4679,7 +4909,8 @@
     "county": "Kings",
     "phone": "(718) 886-1534",
     "lat": 40.64432,
-    "lng": -73.99109
+    "lng": -73.99109,
+    "website": "http://www.shield.org"
   },
   {
     "source": "article16",
@@ -4693,7 +4924,8 @@
     "county": "Bronx",
     "phone": "(718) 886-1534",
     "lat": 40.89675,
-    "lng": -73.8644
+    "lng": -73.8644,
+    "website": "http://www.shield.org"
   },
   {
     "source": "article16",
@@ -4707,7 +4939,8 @@
     "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.749154979766,
-    "lng": -73.727791517978
+    "lng": -73.727791517978,
+    "website": "http://www.shield.org"
   },
   {
     "source": "article16",
@@ -4721,7 +4954,8 @@
     "county": "Queens",
     "phone": "(718) 886-1534",
     "lat": 40.762,
-    "lng": -73.82072
+    "lng": -73.82072,
+    "website": "http://www.shield.org"
   },
   {
     "source": "article16",
@@ -4735,7 +4969,8 @@
     "county": "Nassau",
     "phone": "(516) 378-2000",
     "lat": 40.67954,
-    "lng": -73.57658
+    "lng": -73.57658,
+    "website": "http://www.ucpn.org"
   },
   {
     "source": "article16",
@@ -4749,7 +4984,8 @@
     "county": "Nassau",
     "phone": "(516) 378-2000",
     "lat": 40.653577890964,
-    "lng": -73.625599955772
+    "lng": -73.625599955772,
+    "website": "http://www.ucpn.org"
   },
   {
     "source": "article16",
@@ -5143,7 +5379,8 @@
     "county": "Queens",
     "phone": "(718) 380-3000",
     "lat": 40.72006,
-    "lng": -73.80369
+    "lng": -73.80369,
+    "website": "http://www.queenscp.org"
   },
   {
     "source": "article16",
@@ -5157,7 +5394,8 @@
     "county": "Queens",
     "phone": "(718) 380-3000",
     "lat": 40.718609662868,
-    "lng": -73.803712524035
+    "lng": -73.803712524035,
+    "website": "http://www.queenscp.org"
   },
   {
     "source": "article16",
@@ -5171,7 +5409,8 @@
     "county": "Queens",
     "phone": "(718) 380-3000",
     "lat": 40.749915129686,
-    "lng": -73.727442695302
+    "lng": -73.727442695302,
+    "website": "http://www.queenscp.org"
   },
   {
     "source": "article16",
@@ -5185,7 +5424,8 @@
     "county": "Oneida",
     "phone": "(315) 724-6907",
     "lat": 43.251307671404,
-    "lng": -75.177977705245
+    "lng": -75.177977705245,
+    "website": "http://www.upstatecp.org"
   },
   {
     "source": "article16",
@@ -5199,7 +5439,8 @@
     "county": "Oneida",
     "phone": "(315) 724-6907",
     "lat": 43.005365160977,
-    "lng": -75.263182508305
+    "lng": -75.263182508305,
+    "website": "http://www.upstatecp.org"
   },
   {
     "source": "article16",
@@ -5213,7 +5454,8 @@
     "county": "Oneida",
     "phone": "(315) 724-6907",
     "lat": 43.079238070857,
-    "lng": -75.2109298507
+    "lng": -75.2109298507,
+    "website": "http://www.upstatecp.org"
   },
   {
     "source": "article16",
@@ -5227,7 +5469,8 @@
     "county": "Oneida",
     "phone": "(315) 724-6907",
     "lat": 43.471460456482,
-    "lng": -75.305729913995
+    "lng": -75.305729913995,
+    "website": "http://www.upstatecp.org"
   },
   {
     "source": "article16",
@@ -5241,7 +5484,8 @@
     "county": "Madison",
     "phone": "(315) 724-6907",
     "lat": 42.898770719374,
-    "lng": -75.644571905332
+    "lng": -75.644571905332,
+    "website": "http://www.upstatecp.org"
   },
   {
     "source": "article16",
@@ -5255,7 +5499,8 @@
     "county": "Erie",
     "phone": "(716) 517-2000",
     "lat": 42.82027,
-    "lng": -78.72477
+    "lng": -78.72477,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5270,7 +5515,8 @@
     "phone": "(716) 517-2000",
     "lat": 42.717951819547,
     "lng": -78.826051799866,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5285,7 +5531,8 @@
     "phone": "(716) 517-2000",
     "lat": 43.011623188773,
     "lng": -78.770742674055,
-    "unconfirmed": true
+    "unconfirmed": true,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5299,7 +5546,8 @@
     "county": "Erie",
     "phone": "(716) 517-2000",
     "lat": 42.92377,
-    "lng": -78.69679
+    "lng": -78.69679,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5313,7 +5561,8 @@
     "county": "Niagara",
     "phone": "(716) 517-2000",
     "lat": 43.15985,
-    "lng": -78.69674
+    "lng": -78.69674,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5327,7 +5576,8 @@
     "county": "Cattaraugus",
     "phone": "(716) 517-2000",
     "lat": 42.46174,
-    "lng": -79.00205
+    "lng": -79.00205,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5341,7 +5591,8 @@
     "county": "Chautauqua",
     "phone": "(716) 517-2000",
     "lat": 42.2197,
-    "lng": -79.1105
+    "lng": -79.1105,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5355,7 +5606,8 @@
     "county": "Cattaraugus",
     "phone": "(716) 517-2000",
     "lat": 42.24858,
-    "lng": -78.80828
+    "lng": -78.80828,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5369,7 +5621,8 @@
     "county": "Chautauqua",
     "phone": "(716) 517-2000",
     "lat": 42.45012,
-    "lng": -79.30905
+    "lng": -79.30905,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5383,7 +5636,8 @@
     "county": "Erie",
     "phone": "(716) 517-2000",
     "lat": 42.65246,
-    "lng": -78.97616
+    "lng": -78.97616,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5397,7 +5651,8 @@
     "county": "Cattaraugus",
     "phone": "(716) 517-2000",
     "lat": 42.47435,
-    "lng": -78.99845
+    "lng": -78.99845,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5411,7 +5666,8 @@
     "county": "Genesee",
     "phone": "(716) 517-2000",
     "lat": 43.00571,
-    "lng": -78.18867
+    "lng": -78.18867,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5425,7 +5681,8 @@
     "county": "Erie",
     "phone": "(716) 517-2000",
     "lat": 42.99954,
-    "lng": -78.81479
+    "lng": -78.81479,
+    "website": "https://opwdd.ny.gov"
   },
   {
     "source": "article16",
@@ -5439,7 +5696,8 @@
     "county": "Rockland",
     "phone": "(845) 425-0887",
     "lat": 41.09782,
-    "lng": -74.04194
+    "lng": -74.04194,
+    "website": "http://www.yedeichesed.org"
   },
   {
     "source": "article16",
@@ -5453,7 +5711,8 @@
     "county": "Rockland",
     "phone": "(845) 425-0887",
     "lat": 41.08462981212,
-    "lng": -74.055670774581
+    "lng": -74.055670774581,
+    "website": "http://www.yedeichesed.org"
   },
   {
     "source": "article16",
@@ -5467,7 +5726,8 @@
     "county": "New York",
     "phone": "(212) 273-6182",
     "lat": 40.75009,
-    "lng": -73.97291
+    "lng": -73.97291,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5481,7 +5741,8 @@
     "county": "Kings",
     "phone": "(212) 273-6182",
     "lat": 40.693343349241,
-    "lng": -73.991576265315
+    "lng": -73.991576265315,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5495,7 +5756,8 @@
     "county": "Bronx",
     "phone": "(212) 273-6182",
     "lat": 40.839060429398,
-    "lng": -73.836251158781
+    "lng": -73.836251158781,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5509,7 +5771,8 @@
     "county": "Queens",
     "phone": "(212) 273-6182",
     "lat": 40.76,
-    "lng": -73.7717
+    "lng": -73.7717,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5523,7 +5786,8 @@
     "county": "Kings",
     "phone": "(212) 273-6182",
     "lat": 40.602619116918,
-    "lng": -73.942381945905
+    "lng": -73.942381945905,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5537,7 +5801,8 @@
     "county": "Kings",
     "phone": "(212) 273-6182",
     "lat": 40.601777009288,
-    "lng": -73.942222650247
+    "lng": -73.942222650247,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5551,7 +5816,8 @@
     "county": "New York",
     "phone": "(212) 273-6182",
     "lat": 40.751772818219,
-    "lng": -73.980123927949
+    "lng": -73.980123927949,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5565,7 +5831,8 @@
     "county": "Westchester",
     "phone": "(212) 273-6182",
     "lat": 41.062721762888,
-    "lng": -73.837592335492
+    "lng": -73.837592335492,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5579,7 +5846,8 @@
     "county": "Queens",
     "phone": "(212) 273-6182",
     "lat": 40.70697,
-    "lng": -73.82922
+    "lng": -73.82922,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5593,7 +5861,8 @@
     "county": "Queens",
     "phone": "(212) 273-6182",
     "lat": 40.755866602116,
-    "lng": -73.923531459332
+    "lng": -73.923531459332,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5607,7 +5876,8 @@
     "county": "Suffolk",
     "phone": "(212) 273-6182",
     "lat": 40.80628,
-    "lng": -73.24863
+    "lng": -73.24863,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5621,7 +5891,8 @@
     "county": "Bronx",
     "phone": "(212) 273-6182",
     "lat": 40.833865118687,
-    "lng": -73.845252492542
+    "lng": -73.845252492542,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5635,7 +5906,8 @@
     "county": "New York",
     "phone": "(212) 273-6182",
     "lat": 40.808153497152,
-    "lng": -73.945119726729
+    "lng": -73.945119726729,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5649,7 +5921,8 @@
     "county": "Nassau",
     "phone": "(212) 273-6182",
     "lat": 40.725247489191,
-    "lng": -73.434309358603
+    "lng": -73.434309358603,
+    "website": "http://www.yai.org"
   },
   {
     "source": "article16",
@@ -5663,6 +5936,7 @@
     "county": "Kings",
     "phone": "(212) 273-6182",
     "lat": 40.625342945948,
-    "lng": -74.028482562614
+    "lng": -74.028482562614,
+    "website": "http://www.yai.org"
   }
 ]

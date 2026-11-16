@@ -304,6 +304,10 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 .pop li b { font-weight: 800; overflow-wrap: anywhere; }
 .pop li b a { color: var(--accent); }
 .pop li div { grid-column: 2; color: var(--muted); font-size: 13px; }
+.pop li .site { display: inline-flex; align-items: center; gap: 5px; margin-top: 4px; padding: 3px 10px; border-radius: 999px;
+  background: var(--lilac); color: var(--ink); font-weight: 800; font-size: 12.5px; text-decoration: none; overflow-wrap: anywhere; }
+.pop li .site:hover { background: color-mix(in srgb, var(--accent) 22%, var(--lilac)); }
+.pop li .site .icon { width: 13px; height: 13px; flex: none; }
 .pop .office { display: inline-block; margin-top: 4px; font-size: 12px; font-weight: 800; color: var(--ink); background: var(--lemon); border-radius: 999px; padding: 1px 8px; }
 .pop .hidden-note { color: var(--muted); font-size: 13px; padding: 0 16px 14px; }
 
@@ -336,6 +340,7 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
   <symbol id="i-sun-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v2.5M12 20v2.5M3.6 3.6l1.8 1.8M18.6 18.6l1.8 1.8M1.5 12H4M20 12h2.5M3.6 20.4l1.8-1.8M18.6 5.4l1.8-1.8"/></symbol>
   <symbol id="i-heart-solo" viewBox="0 0 24 24"><path d="M12 20s-8-4.6-8-10.2A4.3 4.3 0 0 1 12 7a4.3 4.3 0 0 1 8 2.8C20 15.4 12 20 12 20z"/></symbol>
   <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></symbol>
   <symbol id="i-go" viewBox="0 0 24 24"><path d="M3 11 21 3l-8 18-2-8-8-2z"/></symbol>
 </svg>
 
@@ -559,11 +564,23 @@ function popupHTML(loc, ps) {
       <b>${p.w ? `<a href="${esc(/^https?:/i.test(p.w) ? p.w : "https://" + p.w)}" target="_blank" rel="noopener noreferrer">${esc(p.n)}</a>` : esc(p.n)}</b>
       <div>${esc(p.types.map((t) => LABELS[t] || t).join(", "))}</div>
       ${p.d ? `<div>${esc(p.d)}</div>` : ""}
+      ${p.w ? `<div>${websiteLink(p.w)}</div>` : ""}
       ${p.sv ? `<div>Visits people at home in: ${esc(p.sv.join(", "))}</div>` : ""}
       ${p.o ? `<div><span class="office">Office or billing address</span></div>` : ""}
       ${p.u ? `<div><span class="office">Address from OPWDD's 2024 list, not confirmed in current Medicaid data. Check with the provider to confirm.</span></div>` : ""}</li>`).join("")}</ul>
     ${hidden > 0 ? `<div class="hidden-note">${hidden} more provider${hidden > 1 ? "s" : ""} here hidden by your filters.</div>` : ""}
   </div>`;
+}
+
+// "Website" pill under each provider. State-run sites and the DOH profile page get plain-language labels.
+function websiteLink(w) {
+  const url = /^https?:/i.test(w) ? w : "https://" + w;
+  let label;
+  try { label = new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
+  if (label === "opwdd.ny.gov") label = "OPWDD (state-run) website";
+  else if (label === "profiles.health.ny.gov") label = "NYS Health Department profile";
+  else label = `Website: ${label}`;
+  return `<a class="site" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${icon("i-globe")}${esc(label)}</a>`;
 }
 
 function renderMap(items) {
