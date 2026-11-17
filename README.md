@@ -27,7 +27,8 @@ Schuyler, Yates, Hamilton, Lewis, Greene, Schoharie) follow OPWDD's regional str
 - Click a location to see every provider there, with a website link when one is known, program details and a directions link (the public site
   leaves out phone numbers; they stay in the data files)
 - Providers at the same building are grouped onto one pin, even across datasets
-- Zoom and "locate me" controls, mobile-friendly layout, dark/light theme
+- Zoom buttons, plus zoom by clicking the map: double-click (double-tap) zooms in, right-click (two-finger tap) zooms out
+- Mobile-friendly layout, dark/light theme
 
 ## Tech Stack
 
