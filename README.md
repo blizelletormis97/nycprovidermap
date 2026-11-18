@@ -71,14 +71,18 @@ The app needs a Node server (`next start` or Vercel): provider details and searc
 
 ## Public website (GitHub Pages)
 
-A static version of the map is published to GitHub Pages at
-**https://blizelletormis97.github.io/nycprovidermap/** by `.github/workflows/pages.yml` on every push to `main`
+A static version of the map is published to GitHub Pages at **https://iddproviderfinderny.org** (the old
+`blizelletormis97.github.io/nycprovidermap/` link forwards there) by `.github/workflows/pages.yml` on every push to `main`
 (or run it by hand from the Actions tab). It uses OpenStreetMap street tiles, so it needs no Mapbox token, and
 runs entirely in the browser with the provider data built into the page.
 
 - Page template: `site/template.html`
 - Build locally: `bun run build:site` writes `site-dist/index.html`
 - One-time setup: in the repo go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**
+- Custom domain: `iddproviderfinderny.org`, registered with Cloudflare. Its DNS has four `A` records for `@`
+  (185.199.108.153, .109, .110, .111) and a `www` `CNAME` to `blizelletormis97.github.io`, all **DNS only** (not
+  proxied, or GitHub cannot issue the HTTPS certificate), plus GitHub's `_github-pages-challenge-blizelletormis97`
+  TXT record that verifies the domain. The domain is set in **Settings → Pages → Custom domain**, with **Enforce HTTPS** on.
 
 After refreshing provider data with the seed scripts, commit the updated `src/data/*.json` and merge to `main`;
 the site rebuilds automatically.
