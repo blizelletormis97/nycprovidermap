@@ -104,27 +104,6 @@ const vendorCss = [
   .replace(/[^{}]*\{[^{}]*url\([^)]*\)[^{}]*\}/g, "")
   .replace(/\s*\n\s*/g, "\n");
 
-// Languages: English is inlined; each other language is a separate file the page loads when it is chosen.
-// Order of the menu, and right-to-left scripts.
-const LANGUAGES: { code: string; dir?: "rtl" }[] = [
-  { code: "en" }, { code: "es" }, { code: "zh" }, { code: "ru" }, { code: "yi", dir: "rtl" }, { code: "bn" }, { code: "ko" },
-  { code: "ht" }, { code: "it" }, { code: "ar", dir: "rtl" }, { code: "pl" }, { code: "fr" }, { code: "ur", dir: "rtl" }, { code: "tl" },
-];
-const english: Record<string, string> = JSON.parse(readFileSync(join(root, "site/i18n/en.json"), "utf-8"));
-const langs = LANGUAGES.map(({ code, dir }) => {
-  const file = `site/i18n/${code}.json`;
-  const strings: Record<string, string> = JSON.parse(readFileSync(join(root, file), "utf-8"));
-  const missing = Object.keys(english).filter((k) => !(k in strings));
-  if (missing.length) throw new Error(`${file} is missing ${missing.length} keys: ${missing.slice(0, 5).join(", ")}`);
-  // Every {placeholder} in the English text must be kept in the translation
-  for (const [k, v] of Object.entries(english)) {
-    const want = (v.match(/\{\w+\}/g) ?? []).sort().join();
-    if ((strings[k].match(/\{\w+\}/g) ?? []).sort().join() !== want) throw new Error(`${file}: "${k}" must keep ${want}`);
-  }
-  return { code, name: strings._name, dir: dir ?? "ltr", url: code === "en" ? "" : asset(file, `i18n-${code}.json`) };
-});
-const i18n = { en: english, langs };
-
 const html = readFileSync(join(root, "site/template.html"), "utf-8")
   .replace("/*__VENDOR_CSS__*/", vendorCss)
   .replaceAll("__LEAFLET_JS__", asset("node_modules/leaflet/dist/leaflet.js", "leaflet.js"))
@@ -134,8 +113,7 @@ const html = readFileSync(join(root, "site/template.html"), "utf-8")
   .replace("__LOCATIONS_JSON__", () => inline(JSON.stringify(locations)))
   .replace("__BASEMAP_JSON__", () => inline(basemap))
   .replace('/*__DATA_DATE__*/""', JSON.stringify(dataDateLabel))
-  .replace("/*__ABOUT__*/null", () => inline(JSON.stringify(aboutSection())))
-  .replace("/*__I18N__*/{ en: {}, langs: [] }", () => inline(JSON.stringify(i18n)));
+  .replace("/*__ABOUT__*/null", () => inline(JSON.stringify(aboutSection())));
 
 const leftover = html.match(/__[A-Z_]+__/);
 if (leftover) throw new Error(`Unfilled placeholder in site/template.html: ${leftover[0]}`);
