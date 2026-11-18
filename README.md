@@ -150,6 +150,25 @@ Provider Identifier (`PRACTICES` in `src/lib/seed-registered.ts`); the pin is it
 Medicaid enrollment and the areas it serves come from the Medicaid Enrolled Provider Listing. Six practices could not
 be matched with confidence and are left out. Popups say to call and ask whether the practice also sees families directly.
 
+### ABA Therapy Practices (Medicaid-enrolled)
+
+**Source**: [NY Health Data - Medicaid Enrolled Provider Listing](https://health.data.ny.gov/Health/Medicaid-Enrolled-Provider-Listing/keti-qx5t),
+office addresses from the federal [NPI Registry](https://npiregistry.cms.hhs.gov/)
+
+Applied behavior analysis (ABA) group practices enrolled in NY Medicaid (group practice, early intervention or case
+management enrollments whose name says ABA, applied behavior analysis or licensed behavior analyst; individual
+licensed behavior analysts are not shown). The listing's Medicaid type says how each accepts Medicaid:
+
+| Medicaid type | Shown as |
+|---|---|
+| FFS (fee-for-service) | Accepts straight Medicaid; families on managed Medicaid should ask whether the practice is in their plan |
+| MCO | Managed Medicaid plans only |
+
+The listing does not say which managed care plans a practice is in. Many practices list clients' homes as service
+addresses, so each practice has one pin at its NPI office address (or its only Medicaid address when the NPI office is
+out of state); the counties of its service addresses decide the areas it serves. Nine practices are left out: six
+with an office outside New York and more than one New York service address, and three that could not be placed.
+
 ### Evaluations
 
 The **IDD clinic evaluations** filter shows the Article 16 clinics and OPWDD state clinics, which are certified to
@@ -180,6 +199,9 @@ bun run src/lib/verify-article16.ts
 
 # OPWDD registered therapy practices (OPWDD list + NPI Registry + Medicaid listing)
 bun run src/lib/seed-registered.ts
+
+# ABA therapy practices (Medicaid listing + NPI Registry; ~10 minutes)
+bun run src/lib/seed-aba.ts
 
 # Spell out provider names in full and add websites from the OPWDD agency directory (run last)
 bun run src/lib/link-agencies.ts
@@ -225,7 +247,8 @@ src/
 | Medicaid-enrolled IDD sites | 1,458 |
 | Home health agencies (OPWDD special needs) | 6 |
 | Registered therapy practices (OPWDD Registered Provider List) | 19 |
-| **Total** | **2,228** at 1,417 map locations |
+| ABA therapy practices (186 straight Medicaid, 5 managed Medicaid only) | 191 |
+| **Total** | **2,419** at 1,592 map locations |
 
 | Area | Map locations |
 |------|-----------|

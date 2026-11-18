@@ -48,6 +48,7 @@
   --src-medicaid: #3fc1e9;
   --src-homecare: #4fcf8e;
   --src-registered: #f27fbb;
+  --src-aba: #f5b83d;
 
   --shadow: 0 6px 20px rgb(123 97 255 / 0.12);
   --font-display: "Fredoka", "Nunito", system-ui, sans-serif;
@@ -58,7 +59,7 @@
     --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
     --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
     --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf;
+    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf; --src-aba: #f7c968;
     --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
     color-scheme: dark;
   }
@@ -67,7 +68,7 @@
   --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
   --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
   --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf;
+  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf; --src-aba: #f7c968;
   --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
   color-scheme: dark;
 }
@@ -452,11 +453,15 @@ const SOURCES = {
   article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy & IDD evaluations", tint: "--peach" },
   opwdd: { label: "OPWDD agencies", short: "OPWDD agency", note: "Agencies offering Medicaid-funded services", tint: "--lilac" },
   homecare: { label: "Home health agencies", short: "Home health", note: "State-approved to serve OPWDD-eligible people", tint: "--mint" },
+  aba: { label: "ABA therapy", short: "ABA therapy", note: "Applied behavior analysis practices enrolled in Medicaid", tint: "--lemon" },
   registered: { label: "Registered therapy practices", short: "Registered practice", note: "Speech, occupational & physical therapy and psychology practices that OPWDD agencies hire", tint: "--pink" },
   medicaid: { label: "Medicaid IDD sites", short: "Medicaid site", note: "Residences, ICFs & day programs", tint: "--sky" },
 };
 // [service key, label, hint]
 const GROUPS = [
+  { name: "ABA therapy", icon: "i-heart-solo", tint: "--lilac", types: [
+    ["ABA Therapy (Straight Medicaid)", "Accepts straight Medicaid", "Fee-for-service; ask about your managed care plan"],
+    ["ABA Therapy (Managed Medicaid Only)", "Managed Medicaid plans only", "Enrolled only for managed care plans"]] },
   { name: "Evaluations", icon: "i-clipboard", tint: "--lemon", types: [
     ["IDD Clinic Evaluations", "IDD clinic evaluations", "Article 16 & OPWDD state clinics"]] },
   { name: "Home & residential", icon: "i-home", tint: "--peach", types: [["Residential (IRA)", "Group homes (IRA)"], ["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["Family Care", "Family care homes"], ["OPWDD Community Support Site", "Community support sites"], ["Developmental Centers", "Developmental centers"]] },
@@ -466,7 +471,7 @@ const GROUPS = [
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
-const SOURCE_ORDER = ["article16", "opwdd", "homecare", "registered", "medicaid"];
+const SOURCE_ORDER = ["article16", "opwdd", "homecare", "registered", "aba", "medicaid"];
 const nf = new Intl.NumberFormat("en-US");
 let colorCache = new Map();
 const css = (name) => {

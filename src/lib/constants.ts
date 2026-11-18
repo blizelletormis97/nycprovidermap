@@ -128,6 +128,14 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
     ],
   },
   {
+    id: "aba",
+    heading: "ABA Therapy",
+    types: [
+      t("ABA Therapy (Straight Medicaid)", "ABA therapy - accepts straight Medicaid"),
+      t("ABA Therapy (Managed Medicaid Only)", "ABA therapy - managed Medicaid plans only"),
+    ],
+  },
+  {
     id: "evaluations",
     heading: "Evaluations",
     types: [
@@ -149,7 +157,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
 export const ALL_SERVICE_KEYS: string[] = SERVICE_GROUPS.flatMap((g) => g.types.map((type) => type.key));
 export const KNOWN_SERVICE_KEYS = new Set(ALL_SERVICE_KEYS);
 
-export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "homecare", "registered", "medicaid"];
+export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "homecare", "registered", "aba", "medicaid"];
 
 // Services whose providers also complete IDD evaluations (psychological, psychosocial and OPWDD eligibility).
 // Article 16 clinics are certified to provide psychology services including evaluations.
@@ -180,6 +188,12 @@ export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: strin
     longLabel: "OPWDD Registered Therapy Practices",
     className: "bg-pink-500/20 text-pink-700 dark:text-pink-400",
     color: "#f27fbb",
+  },
+  aba: {
+    label: "ABA",
+    longLabel: "ABA Therapy Practices (Medicaid-enrolled)",
+    className: "bg-amber-500/20 text-amber-700 dark:text-amber-400",
+    color: "#f5b83d",
   },
   medicaid: {
     label: "Medicaid IDD",
