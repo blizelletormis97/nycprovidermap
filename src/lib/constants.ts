@@ -125,6 +125,14 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
     ],
   },
   {
+    id: "cdpap",
+    heading: "CDPAP (PPL)",
+    types: [
+      t("CDPAP Facilitator (Developmental Disabilities Focus)", "CDPAP facilitators - developmental disabilities focus"),
+      t("CDPAP Facilitator", "CDPAP facilitators - all other"),
+    ],
+  },
+  {
     id: "aba",
     heading: "ABA Therapy",
     types: [
@@ -147,7 +155,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
 export const ALL_SERVICE_KEYS: string[] = SERVICE_GROUPS.flatMap((g) => g.types.map((type) => type.key));
 export const KNOWN_SERVICE_KEYS = new Set(ALL_SERVICE_KEYS);
 
-export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "homecare", "registered", "aba", "medicaid"];
+export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "homecare", "cdpap", "registered", "aba", "medicaid"];
 
 // Services the map does not show (removed at the owner's request): group homes, family care homes and developmental
 // centers. A provider offering only these is left off the map.
@@ -178,6 +186,12 @@ export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: strin
     longLabel: "OPWDD Registered Therapy Practices",
     className: "bg-pink-500/20 text-pink-700 dark:text-pink-400",
     color: "#f27fbb",
+  },
+  cdpap: {
+    label: "CDPAP",
+    longLabel: "CDPAP Facilitators (PPL)",
+    className: "bg-teal-500/20 text-teal-700 dark:text-teal-400",
+    color: "#2fbfae",
   },
   aba: {
     label: "ABA",

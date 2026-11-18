@@ -49,6 +49,7 @@
   --src-homecare: #4fcf8e;
   --src-registered: #f27fbb;
   --src-aba: #f5b83d;
+  --src-cdpap: #2fbfae;
 
   --shadow: 0 6px 20px rgb(123 97 255 / 0.12);
   --font-display: "Fredoka", "Nunito", system-ui, sans-serif;
@@ -59,7 +60,7 @@
     --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
     --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
     --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf; --src-aba: #f7c968;
+    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf; --src-aba: #f7c968; --src-cdpap: #5fd6c7;
     --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
     color-scheme: dark;
   }
@@ -68,7 +69,7 @@
   --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
   --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
   --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf; --src-aba: #f7c968;
+  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf; --src-aba: #f7c968; --src-cdpap: #5fd6c7;
   --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
   color-scheme: dark;
 }
@@ -453,12 +454,16 @@ const SOURCES = {
   article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy & IDD evaluations", tint: "--peach" },
   opwdd: { label: "OPWDD agencies", short: "OPWDD agency", note: "Agencies offering Medicaid-funded services", tint: "--lilac" },
   homecare: { label: "Home health agencies", short: "Home health", note: "State-approved to serve OPWDD-eligible people", tint: "--mint" },
+  cdpap: { label: "CDPAP facilitators (PPL)", short: "CDPAP (PPL)", note: "Help with consumer directed personal assistance through PPL", tint: "--mint" },
   aba: { label: "ABA therapy", short: "ABA therapy", note: "Applied behavior analysis practices enrolled in Medicaid", tint: "--lemon" },
   registered: { label: "Registered therapy practices", short: "Registered practice", note: "Speech, occupational & physical therapy and psychology practices that OPWDD agencies hire", tint: "--pink" },
   medicaid: { label: "Medicaid IDD sites", short: "Medicaid site", note: "Residences, ICFs & day programs", tint: "--sky" },
 };
 // [service key, label, hint]
 const GROUPS = [
+  { name: "CDPAP (PPL)", icon: "i-hands", tint: "--mint", types: [
+    ["CDPAP Facilitator (Developmental Disabilities Focus)", "Developmental disabilities focus", "Authorized PPL facilitators"],
+    ["CDPAP Facilitator", "All other facilitators", "Authorized PPL facilitators"]] },
   { name: "ABA therapy", icon: "i-heart-solo", tint: "--lilac", types: [
     ["ABA Therapy (Straight Medicaid)", "Accepts straight Medicaid", "Fee-for-service; ask about your managed care plan"],
     ["ABA Therapy (Managed Medicaid Only)", "Managed Medicaid plans only", "Enrolled only for managed care plans"]] },
@@ -469,7 +474,7 @@ const GROUPS = [
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
-const SOURCE_ORDER = ["article16", "opwdd", "homecare", "registered", "aba", "medicaid"];
+const SOURCE_ORDER = ["article16", "opwdd", "homecare", "cdpap", "registered", "aba", "medicaid"];
 const nf = new Intl.NumberFormat("en-US");
 let colorCache = new Map();
 const css = (name) => {
@@ -640,11 +645,18 @@ function popupHTML(loc, ps) {
       <div>${esc(p.types.map((t) => LABELS[t] || t).join(", "))}</div>
       ${p.d ? `<div>${esc(p.d)}</div>` : ""}
       ${p.w ? `<div>${websiteLink(p.w)}</div>` : ""}
-      ${p.sv ? `<div>Visits people at home in: ${esc(p.sv.join(", "))}</div>` : ""}
+      ${p.sv ? `<div>${servesText(p)}</div>` : ""}
       ${p.o ? `<div><span class="office">Office or billing address</span></div>` : ""}
       ${p.u ? `<div><span class="office">Address from OPWDD's 2024 list, not confirmed in current Medicaid data. Check with the provider to confirm.</span></div>` : ""}</li>`).join("")}</ul>
     ${hidden > 0 ? `<div class="hidden-note">${hidden} more provider${hidden > 1 ? "s" : ""} here hidden by your filters.</div>` : ""}
   </div>`;
+}
+
+// Areas a provider serves beyond its office: all five OPWDD regions read as "all of New York State"
+function servesText(p) {
+  const regions = [...new Set(p.sv.map((a) => AREA_REGION[a]))];
+  const where = regions.length === REGIONS.length ? "all of New York State" : p.sv.join(", ");
+  return esc(p.s === "cdpap" ? `Serves ${where}` : `Visits people at home in: ${where}`);
 }
 
 // "Website" pill under each provider. State-run sites and the DOH profile page get plain-language labels.
