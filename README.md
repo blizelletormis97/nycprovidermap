@@ -150,6 +150,17 @@ Provider Identifier (`PRACTICES` in `src/lib/seed-registered.ts`); the pin is it
 Medicaid enrollment and the areas it serves come from the Medicaid Enrolled Provider Listing. Six practices could not
 be matched with confidence and are left out. Popups say to call and ask whether the practice also sees families directly.
 
+### CDPAP Facilitators (PPL)
+
+**Source**: [PPL - CDPAP Facilitators](https://pplfirst.com/cdpap-facilitators/)
+
+Since April 1, 2025, PPL (Public Partnerships LLC) is New York's only fiscal intermediary for the Consumer Directed
+Personal Assistance Program (CDPAP); home care agencies no longer run CDPAP themselves. PPL authorizes community
+organizations as facilitators to help people enroll and with PPL payroll and timekeeping ("Only organizations listed
+here are authorized PPL facilitators"). Every office on PPL's list is placed with the Census geocoder; the counties each
+facilitator serves decide the areas it shows in. Facilitators whose focus mentions developmental disabilities, OPWDD,
+autism or Down syndrome are marked "developmental disabilities focus". 4 of the 109 offices could not be placed.
+
 ### ABA Therapy Practices (Medicaid-enrolled)
 
 **Source**: [NY Health Data - Medicaid Enrolled Provider Listing](https://health.data.ny.gov/Health/Medicaid-Enrolled-Provider-Listing/keti-qx5t),
@@ -200,6 +211,9 @@ bun run src/lib/verify-article16.ts
 # OPWDD registered therapy practices (OPWDD list + NPI Registry + Medicaid listing)
 bun run src/lib/seed-registered.ts
 
+# CDPAP facilitators (PPL's list)
+bun run src/lib/seed-cdpap.ts
+
 # ABA therapy practices (Medicaid listing + NPI Registry; ~10 minutes)
 bun run src/lib/seed-aba.ts
 
@@ -248,7 +262,8 @@ src/
 | Home health agencies (OPWDD special needs) | 6 |
 | Registered therapy practices (OPWDD Registered Provider List) | 19 |
 | ABA therapy practices (186 straight Medicaid, 5 managed Medicaid only) | 191 |
-| **Total** | **2,419** in the data; **2,411** shown at 1,591 map locations (see "Services not shown") |
+| CDPAP facilitators (PPL), offices of 37 facilitators | 105 |
+| **Total** | **2,524** in the data; **2,516** shown at 1,693 map locations (see "Services not shown") |
 
 | Area | Map locations |
 |------|-----------|
