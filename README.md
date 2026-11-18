@@ -169,11 +169,11 @@ addresses, so each practice has one pin at its NPI office address (or its only M
 out of state); the counties of its service addresses decide the areas it serves. Nine practices are left out: six
 with an office outside New York and more than one New York service address, and three that could not be placed.
 
-### Evaluations
+### Services not shown
 
-The **IDD clinic evaluations** filter shows the Article 16 clinics and OPWDD state clinics, which are certified to
-provide psychological evaluations and OPWDD eligibility evaluations. The data does not say which clinics do autism
-diagnosis specifically, so call to confirm.
+Group homes (IRA), family care homes and developmental centers are not shown, and there is no separate IDD clinic
+evaluations filter (`HIDDEN_SERVICES` in `src/lib/constants.ts`). Providers that offer only those services are left
+off the map (8 agencies); the others are shown with their remaining services.
 
 ## Refreshing Data
 
@@ -248,7 +248,7 @@ src/
 | Home health agencies (OPWDD special needs) | 6 |
 | Registered therapy practices (OPWDD Registered Provider List) | 19 |
 | ABA therapy practices (186 straight Medicaid, 5 managed Medicaid only) | 191 |
-| **Total** | **2,419** at 1,592 map locations |
+| **Total** | **2,419** in the data; **2,411** shown at 1,591 map locations (see "Services not shown") |
 
 | Area | Map locations |
 |------|-----------|
