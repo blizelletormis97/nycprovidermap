@@ -47,6 +47,7 @@
   --src-opwdd: #a68bff;
   --src-medicaid: #3fc1e9;
   --src-homecare: #4fcf8e;
+  --src-registered: #f27fbb;
 
   --shadow: 0 6px 20px rgb(123 97 255 / 0.12);
   --font-display: "Fredoka", "Nunito", system-ui, sans-serif;
@@ -57,7 +58,7 @@
     --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
     --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
     --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad;
+    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf;
     --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
     color-scheme: dark;
   }
@@ -66,7 +67,7 @@
   --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
   --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
   --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad;
+  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf;
   --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
   color-scheme: dark;
 }
@@ -451,6 +452,7 @@ const SOURCES = {
   article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy & IDD evaluations", tint: "--peach" },
   opwdd: { label: "OPWDD agencies", short: "OPWDD agency", note: "Agencies offering Medicaid-funded services", tint: "--lilac" },
   homecare: { label: "Home health agencies", short: "Home health", note: "State-approved to serve OPWDD-eligible people", tint: "--mint" },
+  registered: { label: "Registered therapy practices", short: "Registered practice", note: "Speech, occupational & physical therapy and psychology practices that OPWDD agencies hire", tint: "--pink" },
   medicaid: { label: "Medicaid IDD sites", short: "Medicaid site", note: "Residences, ICFs & day programs", tint: "--sky" },
 };
 // [service key, label, hint]
@@ -460,11 +462,11 @@ const GROUPS = [
   { name: "Home & residential", icon: "i-home", tint: "--peach", types: [["Residential (IRA)", "Group homes (IRA)"], ["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["Family Care", "Family care homes"], ["OPWDD Community Support Site", "Community support sites"], ["Developmental Centers", "Developmental centers"]] },
   { name: "Day & work", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
   { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"], ["Special Needs Home Health", "Home health agencies", "Visits you at home · serves all 7 areas"]] },
-  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"]] },
+  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"], ["OPWDD Registered Therapy Practice", "Registered therapy practices", "Work under contract with OPWDD agencies"]] },
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
-const SOURCE_ORDER = ["article16", "opwdd", "homecare", "medicaid"];
+const SOURCE_ORDER = ["article16", "opwdd", "homecare", "registered", "medicaid"];
 const nf = new Intl.NumberFormat("en-US");
 let colorCache = new Map();
 const css = (name) => {
@@ -687,7 +689,7 @@ function renderSidebar(items) {
   $("allAreas").hidden = state.regions.size === REGIONS.length;
 
   // Sources: providers in the selected areas that match services + search
-  const srcCounts = { article16: 0, opwdd: 0, homecare: 0, medicaid: 0 };
+  const srcCounts = Object.fromEntries(SOURCE_ORDER.map((s) => [s, 0]));
   let allCount = 0;
   for (const loc of LOCATIONS) {
     if (!inSelectedRegions(loc)) continue;
@@ -696,7 +698,7 @@ function renderSidebar(items) {
       srcCounts[p.s]++; allCount++;
     }
   }
-  const rainbow = `background:conic-gradient(${SOURCE_ORDER.map((s, i) => `${srcColor(s)} ${i * 120}deg ${(i + 1) * 120}deg`).join(",")})`;
+  const rainbow = `background:conic-gradient(${SOURCE_ORDER.map((s, i) => `${srcColor(s)} ${(i * 360) / SOURCE_ORDER.length}deg ${((i + 1) * 360) / SOURCE_ORDER.length}deg`).join(",")})`;
   $("sources").innerHTML = `<button type="button" class="src" data-source="all" style="--tint:var(--lemon)" aria-pressed="${state.source === "all"}">
       <span class="bubble" style="background:var(--lemon)"><i style="${rainbow}"></i></span><span><b>Everyone</b><small>All kinds of providers</small></span><span class="n">${nf.format(allCount)}</span></button>`
     + SOURCE_ORDER.map((s) => `<button type="button" class="src" data-source="${s}" style="--tint:var(${SOURCES[s].tint})" aria-pressed="${state.source === s}">

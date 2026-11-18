@@ -1,0 +1,309 @@
+[
+  {
+    "source": "registered",
+    "name": "Access Therapy Group",
+    "listedName": "Access Therapy Group PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers physical, occupational and speech therapy and psychology. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 03307462).",
+    "address": "515 Moe Rd, Clifton Park, NY, 12065",
+    "region": "Region 3",
+    "county": "Saratoga",
+    "phone": "(518) 280-4294",
+    "lat": 42.862395730831,
+    "lng": -73.794383570304
+  },
+  {
+    "source": "registered",
+    "name": "Beacon Therapy Services",
+    "listedName": "Beacon Therapy Services",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers speech, physical and occupational therapy. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Not in the NY Medicaid listing; paid through the agency that hires them.",
+    "address": "1441 Old Northern Blvd, Roslyn, NY, 11576",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(516) 625-6846",
+    "lat": 40.802165376418,
+    "lng": -73.647105783215
+  },
+  {
+    "source": "registered",
+    "name": "Caring Speech-Language Pathology, Psychology, Occupational Therapy and Nutrition Services",
+    "listedName": "Caring SLP, Psychology, OT & Nutrition Services, PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers speech therapy, psychology, occupational therapy and nutrition. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 07738301, 04633785).",
+    "address": "17 N Plank Rd, Newburgh, NY, 12550",
+    "region": "Region 3",
+    "county": "Orange",
+    "serves": [
+      "Region 3",
+      "Manhattan",
+      "Queens",
+      "Region 1",
+      "Bronx",
+      "Brooklyn"
+    ],
+    "phone": "(804) 544-1086",
+    "lat": 41.521025216906,
+    "lng": -74.024968602652
+  },
+  {
+    "source": "registered",
+    "name": "Complete Speech-Language Pathology, Occupational Therapy, Physical Therapy and Psychology Services",
+    "listedName": "Complete SLP, OT, PT & Psychology Services, PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers speech, occupational and physical therapy and psychology. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 06047992).",
+    "address": "4377 Bronx Boulevard, Bronx, NY, 10466",
+    "region": "Bronx",
+    "county": "Bronx",
+    "phone": "(203) 809-9948",
+    "lat": 40.899088350518,
+    "lng": -73.858381035974
+  },
+  {
+    "source": "registered",
+    "name": "Comprehensive Occupational Therapy, Physical Therapy, Speech-Language Pathology and Adult Health Nurse Practitioner Services",
+    "listedName": "Comprehensive OT, PT, SLP & Adult Health NP Services, PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers occupational, physical and speech therapy and nurse practitioner care. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 07282433).",
+    "address": "5020 Route 9W Suite 16, Newburgh, NY, 12550",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 641-9413",
+    "lat": 41.526233091786,
+    "lng": -74.019538141833
+  },
+  {
+    "source": "registered",
+    "name": "Essential Occupational Therapy, Physical Therapy, Speech-Language Pathology and Psychology Services",
+    "listedName": "Essential OT, PT, SLP & Psychology Services PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers occupational, physical and speech therapy and psychology. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 05417496).",
+    "address": "2703 Milburn Ave, Baldwin, NY, 11510",
+    "region": "Nassau",
+    "county": "Nassau",
+    "serves": [
+      "Nassau",
+      "Bronx"
+    ],
+    "phone": "(917) 499-8496",
+    "lat": 40.643852044765,
+    "lng": -73.605521313419
+  },
+  {
+    "source": "registered",
+    "name": "Global Communication Services",
+    "listedName": "Global Communication Services, Inc.",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers speech therapy. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 04238482).",
+    "address": "1979 Marcus Ave Ste 204, New Hyde Park, NY, 11042",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(516) 327-4681",
+    "lat": 40.757784198802,
+    "lng": -73.694392581945
+  },
+  {
+    "source": "registered",
+    "name": "Infinite Speech Rehabilitation Services",
+    "listedName": "Infinite Speech Rehab Services",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers speech therapy. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Not in the NY Medicaid listing; paid through the agency that hires them.",
+    "address": "7649 Hewlett St, New Hyde Park, NY, 11040",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(718) 343-5340",
+    "lat": 40.753834752714,
+    "lng": -73.704724900351
+  },
+  {
+    "source": "registered",
+    "name": "Kidz Educational Services",
+    "listedName": "Kidz Educational Services, SLP, OT, PT, LMSW, Psychology, Audiology, PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers speech, occupational and physical therapy, social work, psychology and audiology. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Not in the NY Medicaid listing; paid through the agency that hires them.",
+    "address": "1400 Old Country Rd, Westbury, NY, 11590",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(516) 521-9309",
+    "lat": 40.75611619588,
+    "lng": -73.552074590708
+  },
+  {
+    "source": "registered",
+    "name": "Leah Rubin Psychology",
+    "listedName": "Leah Rubin Psychology P.C.",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers psychology and neuropsychology. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Not in the NY Medicaid listing; paid through the agency that hires them.",
+    "address": "1019 Broadway, Woodmere, NY, 11598",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(347) 746-6613",
+    "lat": 40.63098616609,
+    "lng": -73.707596637364
+  },
+  {
+    "source": "registered",
+    "name": "New Hartford Psychiatric Services",
+    "listedName": "New Hartford Psychiatric Services",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers psychiatry and neuropsychology. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 04128612).",
+    "address": "327 Oriskany Blvd, Whitesboro, NY, 13492",
+    "region": "Region 2",
+    "county": "Oneida",
+    "phone": "(315) 768-7181",
+    "lat": 43.131465856231,
+    "lng": -75.301805912737
+  },
+  {
+    "source": "registered",
+    "name": "NPORT (Nursing, Physical and Occupational Therapy and Speech-Language Pathology Services)",
+    "listedName": "NPORT, PLLC.",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers nursing, physical and occupational therapy and speech therapy. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Not in the NY Medicaid listing; paid through the agency that hires them.",
+    "address": "3041 Avenue U, Brooklyn, NY, 11229",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 615-0049",
+    "lat": 40.600977105126,
+    "lng": -73.937423143048
+  },
+  {
+    "source": "registered",
+    "name": "Optimized Independence Occupational Therapy",
+    "listedName": "Optimized Independence OT PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers occupational therapy. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 04819150).",
+    "address": "78 Reed Dr, Roslyn, NY, 11576",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(917) 749-6635",
+    "lat": 40.766240210392,
+    "lng": -73.66233068279
+  },
+  {
+    "source": "registered",
+    "name": "Rajeev Puttaswamy Speech Services",
+    "listedName": "Rajeev Puttaswamy Speech Services, PLL",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers speech therapy. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 04755726).",
+    "address": "50 Dogwood Dr, Middletown, NY, 10940",
+    "region": "Region 3",
+    "county": "Orange",
+    "serves": [
+      "Region 3",
+      "Bronx",
+      "Brooklyn"
+    ],
+    "phone": "(845) 645-1253",
+    "lat": 41.429051735616,
+    "lng": -74.445256414219
+  },
+  {
+    "source": "registered",
+    "name": "Restore Occupational and Physical Therapy, Speech-Language Pathology and Nutrition",
+    "listedName": "Restore Occupational & Physical Therapy, Speech Language Pathology & Nutrition, PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers occupational, physical and speech therapy and nutrition. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 04380214).",
+    "address": "81 Mohawk St, Cohoes, NY, 12047",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(518) 235-2329",
+    "lat": 42.775101425087,
+    "lng": -73.700022267045
+  },
+  {
+    "source": "registered",
+    "name": "Speech To Go",
+    "listedName": "Speech To Go PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers speech therapy. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 08021381).",
+    "address": "122 Husson Ave, Bronx, NY, 10473",
+    "region": "Bronx",
+    "county": "Bronx",
+    "phone": "(816) 977-3938",
+    "lat": 40.808309296755,
+    "lng": -73.85071928019
+  },
+  {
+    "source": "registered",
+    "name": "Superior Clinical Care",
+    "listedName": "Superior Clinical Care Pllc",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers clinical therapies. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 04358196).",
+    "address": "178 Morrison Ave, Staten Island, NY, 10310",
+    "region": "Staten Island",
+    "county": "Richmond",
+    "serves": [
+      "Staten Island",
+      "Brooklyn",
+      "Manhattan"
+    ],
+    "phone": "(718) 442-3646",
+    "lat": 40.628642635774,
+    "lng": -74.112037470908
+  },
+  {
+    "source": "registered",
+    "name": "The Caring Physical Therapy Group",
+    "listedName": "The Caring PT Group, PLLC",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers physical therapy. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Not in the NY Medicaid listing; paid through the agency that hires them.",
+    "address": "17 N Plank Rd Ste 10, Newburgh, NY, 12550",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 800-9305",
+    "lat": 41.521025216906,
+    "lng": -74.024968602652
+  },
+  {
+    "source": "registered",
+    "name": "University Psychiatric Practice",
+    "listedName": "University Psychiatric Practice, Inc",
+    "services": [
+      "OPWDD Registered Therapy Practice"
+    ],
+    "detail": "Offers psychiatry. Registered with OPWDD to work under contract with OPWDD agencies; call to ask whether they also see families directly. Enrolled in NY Medicaid (ID 01398338).",
+    "address": "462 Grider St, Buffalo, NY, 14215",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 898-4884",
+    "lat": 42.926458376317,
+    "lng": -78.829223343283
+  }
+]

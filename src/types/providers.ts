@@ -1,5 +1,5 @@
 // Data source type — every source lists IDD providers that accept Medicaid
-export type DataSource = "article16" | "opwdd" | "homecare" | "medicaid";
+export type DataSource = "article16" | "opwdd" | "homecare" | "registered" | "medicaid";
 
 // Service area: all five NYC boroughs plus Long Island's Nassau and Suffolk counties
 // Map areas: the NYC boroughs (OPWDD Region 4), Long Island counties (Region 5) and the upstate OPWDD regions 1-3
