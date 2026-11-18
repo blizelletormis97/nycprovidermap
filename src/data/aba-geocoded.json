@@ -1,0 +1,2981 @@
+[
+  {
+    "source": "aba",
+    "name": "Achieve Applied Behavioral Analysis",
+    "listedName": "ACHIEVE APPLIED BEHAVIORAL ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08207398.",
+    "address": "2241 Ocean Ave, Brooklyn, NY, 11229",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(917) 359-2111",
+    "lat": 40.60759,
+    "lng": -73.95284
+  },
+  {
+    "source": "aba",
+    "name": "Achieve Beyond Licensed Behavior Analyst Services",
+    "listedName": "ACHIEVE BEYOND LICENSED BEHAVIOR ANALYST SERVICES PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07463156.",
+    "address": "225 Broadhollow Rd Ste 402, Melville, NY, 11747",
+    "region": "Suffolk",
+    "county": "Suffolk",
+    "serves": [
+      "Suffolk",
+      "Queens",
+      "Region 3"
+    ],
+    "phone": "(631) 385-7780",
+    "lat": 40.76951,
+    "lng": -73.42617
+  },
+  {
+    "source": "aba",
+    "name": "Ahava Applied Behavior Analysis",
+    "listedName": "AHAVA APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08276437.",
+    "address": "1 Slevin Ct, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(917) 676-7251",
+    "lat": 41.11521,
+    "lng": -74.0945
+  },
+  {
+    "source": "aba",
+    "name": "Alina Lerman Licensed Behavior Analyst",
+    "listedName": "ALINA LERMAN LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08126565.",
+    "address": "1647 E 38th St, Brooklyn, NY, 11234",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(212) 810-1436",
+    "lat": 40.616484739402,
+    "lng": -73.936250420122
+  },
+  {
+    "source": "aba",
+    "name": "Aliza Roth Applied Behavior Analysis",
+    "listedName": "ALIZA ROTH APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08391980.",
+    "address": "926 Mayfield Rd, Woodmere, NY, 11598",
+    "region": "Nassau",
+    "county": "Nassau",
+    "serves": [
+      "Nassau",
+      "Brooklyn"
+    ],
+    "phone": "(516) 754-1625",
+    "lat": 40.637091026302,
+    "lng": -73.71609259291
+  },
+  {
+    "source": "aba",
+    "name": "Anchor Applied Behavior Analysis",
+    "listedName": "ANCHOR APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08444415.",
+    "address": "2446 E 2nd St, Brooklyn, NY, 11223",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 893-4329",
+    "lat": 40.58966,
+    "lng": -73.96828
+  },
+  {
+    "source": "aba",
+    "name": "Anchor Play Applied Behavior Analysis",
+    "listedName": "ANCHOR PLAY APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08440493.",
+    "address": "2 Marine Ave Apt 3g, Brooklyn, NY, 11209",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 414-2070",
+    "lat": 40.62055,
+    "lng": -74.0382
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analysis Abode",
+    "listedName": "APPLIED BEHAVIOR ANALYSIS ABODE PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08233043.",
+    "address": "16 Austra Pkwy Unit 404, Monroe, NY, 10950",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(518) 797-1220",
+    "lat": 41.33087,
+    "lng": -74.18386
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analysis Corporation",
+    "listedName": "APPLIED BEHAVIOR ANALYSIS CORP.",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 03253858.",
+    "address": "1 Odell Plz, Yonkers, NY, 10701",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 965-1152",
+    "lat": 40.969665248837,
+    "lng": -73.880605012118
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analysis Interventions",
+    "listedName": "APPLIED BEHAVIOR ANALYSIS INTERVENTIONS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07698819.",
+    "address": "1930 Bedford Ave, Brooklyn, NY, 11225",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "serves": [
+      "Brooklyn",
+      "Bronx",
+      "Nassau",
+      "Region 3"
+    ],
+    "phone": "(718) 701-4051",
+    "lat": 40.65799,
+    "lng": -73.95673
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analysis Moments",
+    "listedName": "APPLIED BEHAVIOR ANALYSIS MOMENTS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08196747.",
+    "address": "167 Hooper St, Brooklyn, NY, 11211",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(646) 357-0042",
+    "lat": 40.70443,
+    "lng": -73.95808
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analysis of New York",
+    "listedName": "APPLIED BEHAVIOR ANALYSIS OF NY PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07847749.",
+    "address": "4498 Main St Ste 41381, Buffalo, NY, 14226",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(347) 489-8817",
+    "lat": 42.96337,
+    "lng": -78.78354
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analysis Services",
+    "listedName": "APPLIED BEHAVIOR ANALYSIS SERVICES PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08373099.",
+    "address": "11821 Queens Blvd Ste 612, Forest Hills, NY, 11375",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(917) 691-0156",
+    "lat": 40.715018526934,
+    "lng": -73.831974249431
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analysis Shaping Service",
+    "listedName": "ABA SHAPING SERVICE LLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08137780.",
+    "address": "9918 Avenue M, Brooklyn, NY, 11236",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(929) 551-8799",
+    "lat": 40.638221855441,
+    "lng": -73.89153784883
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analysis Therapy and Associated Services",
+    "listedName": "ABA THERAPY AND ASSOCIATED SERVICES PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08383924.",
+    "address": "1178 Broadway Fl 3 # 3381, New York, NY, 10001",
+    "region": "Manhattan",
+    "county": "New York",
+    "phone": "(917) 284-9393",
+    "lat": 40.74527,
+    "lng": -73.98861
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analysis with Aligned Related Development",
+    "listedName": "APPLIED BEHAVIOR ANALYSIS WITH ALIGNED RELATED DEVELOPMENT, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07708469.",
+    "address": "75 Montebello Rd, Suffern, NY, 10901",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(800) 249-9569",
+    "lat": 41.12309,
+    "lng": -74.12668
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavior Analyst Journey",
+    "listedName": "APPLIED BEHAVIOR ANALYST JOURNEY PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08176134.",
+    "address": "1232b Sterling Pl, Brooklyn, NY, 11213",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 663-4023",
+    "lat": 40.67177,
+    "lng": -73.93806
+  },
+  {
+    "source": "aba",
+    "name": "Applied Behavioral Interventions Psychology Physical Therapy Occupational Therapy Speech-Language Pathology Licensed Master Social Work",
+    "listedName": "APPLIED BEHAVIORAL INTERVENTIONS, PSYCHOLOGY, PT, OT, SLP, LMSW, PLLC.",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07864780.",
+    "address": "2625 E 14th St Ste 200, Brooklyn, NY, 11235",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "serves": [
+      "Brooklyn",
+      "Bronx",
+      "Nassau"
+    ],
+    "phone": "(718) 701-4050",
+    "lat": 40.587190531101,
+    "lng": -73.955061014219
+  },
+  {
+    "source": "aba",
+    "name": "Ardor Licensed Behavior Analyst Services",
+    "listedName": "ARDOR LICENSED BEHAVIOR ANALYST SERVICES PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08374389.",
+    "address": "245 Saw Mill River Rd, Hawthorne, NY, 10532",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(347) 990-6901",
+    "lat": 41.10333,
+    "lng": -73.8082
+  },
+  {
+    "source": "aba",
+    "name": "Ascend Licensed Behavior Analyst",
+    "listedName": "ASCEND LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07726483.",
+    "address": "21 Vincent St, Nanuet, NY, 10954",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 659-7008",
+    "lat": 41.0825,
+    "lng": -74.03324
+  },
+  {
+    "source": "aba",
+    "name": "Aspire Applied Behavior Analysis",
+    "listedName": "ASPIRE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08216942.",
+    "address": "18 Spencer St Ste 901, Brooklyn, NY, 11205",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(800) 425-7178",
+    "lat": 40.698487324907,
+    "lng": -73.956031245023
+  },
+  {
+    "source": "aba",
+    "name": "Beacon Applied Behavior Analysis",
+    "listedName": "BEACON APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08346325.",
+    "address": "12 Pinewood Dr, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(718) 915-9607",
+    "lat": 41.114378717427,
+    "lng": -74.078779450888
+  },
+  {
+    "source": "aba",
+    "name": "Bloom Licensed Behavioral Analyst",
+    "listedName": "BLOOM LICENSED BEHAVIORAL ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08320963.",
+    "address": "21 Grove St # 108, Spring Valley, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 285-6626",
+    "lat": 41.11444,
+    "lng": -74.04579
+  },
+  {
+    "source": "aba",
+    "name": "Blossom Applied Behavior Analysis Therapy",
+    "listedName": "BLOSSOM APPLIED BEHAVIOR ANALYSIS THERAPY P.L.L.C",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08254304.",
+    "address": "115 Montrose Ave, Buffalo, NY, 14214",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 382-3585",
+    "lat": 42.957,
+    "lng": -78.8283
+  },
+  {
+    "source": "aba",
+    "name": "Blueprint Licensed Behavior Analyst",
+    "listedName": "BLUEPRINT LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08175826.",
+    "address": "66 Main St Apt 207, Yonkers, NY, 10701",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(516) 476-6926",
+    "lat": 40.93448,
+    "lng": -73.90075
+  },
+  {
+    "source": "aba",
+    "name": "Bold Arrow Licensed Behavior Analyst",
+    "listedName": "BOLD ARROW LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07426502.",
+    "address": "6 Laura Dr, Airmont, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(718) 222-5999",
+    "lat": 41.10884,
+    "lng": -74.09245
+  },
+  {
+    "source": "aba",
+    "name": "Branch Out Licensed Behavior Analysts",
+    "listedName": "BRANCH OUT LICENSED BEHAVIOR ANALYSTS, PLLC",
+    "services": [
+      "ABA Therapy (Managed Medicaid Only)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Enrolled in Medicaid only for managed care plans: ask whether they are in your health plan's network. Medicaid ID 07984747.",
+    "address": "81 Fleet Pl Apt 16c, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(952) 215-6608",
+    "lat": 40.693108027049,
+    "lng": -73.981636429357
+  },
+  {
+    "source": "aba",
+    "name": "Brian Goldman Licensed Behavioral Analysis",
+    "listedName": "BRIAN GOLDMAN LICENSED BEHAVIORAL ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07705113.",
+    "address": "35 Lee Ave, East Williston, NY, 11596",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(516) 376-2055",
+    "lat": 40.75515,
+    "lng": -73.63649
+  },
+  {
+    "source": "aba",
+    "name": "Bridge Licensed Behavior Analysis",
+    "listedName": "BRIDGE LICENSED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07909346.",
+    "address": "457 Mountainview Ave, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "county": "Richmond",
+    "phone": "(929) 262-1603",
+    "lat": 40.5994,
+    "lng": -74.12462
+  },
+  {
+    "source": "aba",
+    "name": "Bright Horizons Applied Behavior Analysis",
+    "listedName": "BRIGHT HORIZONS APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08340567.",
+    "address": "43 Gottlieb Dr, Pearl River, NY, 10965",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(718) 222-5999",
+    "lat": 41.06605,
+    "lng": -74.04323
+  },
+  {
+    "source": "aba",
+    "name": "Bright Shine Licensed Behavior Analyst",
+    "listedName": "BRIGHT SHINE LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07715680.",
+    "address": "1458 50th St Apt 4, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "serves": [
+      "Brooklyn",
+      "Region 2"
+    ],
+    "phone": "(917) 573-9007",
+    "lat": 40.632309863279,
+    "lng": -73.989252282562
+  },
+  {
+    "source": "aba",
+    "name": "Bright Steps Licensed Behavior Analyst",
+    "listedName": "BRIGHT STEPS LICENSED BEHAVIOR ANALYST",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08298491.",
+    "address": "30 La Vista Dr, South Fallsburg, NY, 12779",
+    "region": "Region 3",
+    "county": "Sullivan",
+    "phone": "(845) 376-2073",
+    "lat": 41.6972,
+    "lng": -74.64069
+  },
+  {
+    "source": "aba",
+    "name": "Care Services Applied Behavior Analysis",
+    "listedName": "CARE SERVICES ABA PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08438355.",
+    "address": "1983 Coney Island Ave, Brooklyn, NY, 11223",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(917) 476-8294",
+    "lat": 40.6088,
+    "lng": -73.96203
+  },
+  {
+    "source": "aba",
+    "name": "Care to Care Licensed Behavior Analyst",
+    "listedName": "CARE TO CARE LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07392083.",
+    "address": "1465 51st St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(646) 762-1600",
+    "lat": 40.63197,
+    "lng": -73.98988
+  },
+  {
+    "source": "aba",
+    "name": "Carelink Applied Behavior Analysis",
+    "listedName": "CARELINK ABA PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08318563.",
+    "address": "1481 Mcdonald Ave, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(732) 998-0415",
+    "lat": 40.61814,
+    "lng": -73.97465
+  },
+  {
+    "source": "aba",
+    "name": "Carepoint Applied Behavior Analysis Services",
+    "listedName": "CAREPOINT APPLIED BEHAVIOR ANALYSIS SRVICES PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08025514.",
+    "address": "1985 W 6th St, Brooklyn, NY, 11223",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 535-3050",
+    "lat": 40.59912,
+    "lng": -73.97788
+  },
+  {
+    "source": "aba",
+    "name": "Cares Licensed Behavior Analyst",
+    "listedName": "CARES LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07877329.",
+    "address": "1305 53rd St Ste 141, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "serves": [
+      "Brooklyn",
+      "Staten Island"
+    ],
+    "phone": "(718) 419-6543",
+    "lat": 40.632742884172,
+    "lng": -73.994259733279
+  },
+  {
+    "source": "aba",
+    "name": "Carousel Care Applied Behavioral Analysis",
+    "listedName": "CAROUSEL CARE APPLIED BEHAVIORAL ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08346334.",
+    "address": "5016 11th Ave, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(212) 000-0000",
+    "lat": 40.63709,
+    "lng": -73.99729
+  },
+  {
+    "source": "aba",
+    "name": "Comprehensive Applied Behavior Analysis",
+    "listedName": "COMPREHENSIVE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08248184.",
+    "address": "2204 Corner St, Spring Valley, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(347) 907-1591",
+    "lat": 41.14472,
+    "lng": -74.04093
+  },
+  {
+    "source": "aba",
+    "name": "Comprehensive Licensed Behavior Analyst",
+    "listedName": "COMPREHENSIVE LICENSED BEHAVIOR ANALYST, PLLC.",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08362618.",
+    "address": "6264 Saunders St Apt D3, Rego Park, NY, 11374",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(646) 868-3815",
+    "lat": 40.730342742676,
+    "lng": -73.86589502382
+  },
+  {
+    "source": "aba",
+    "name": "Core Applied Behavior Analysis",
+    "listedName": "CORE APPLIED BEHAVIOR ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08319591.",
+    "address": "2115 Garrett Pl Apt 2, Bronx, NY, 10466",
+    "region": "Bronx",
+    "county": "Bronx",
+    "phone": "(646) 400-7842",
+    "lat": 40.888678986898,
+    "lng": -73.834218987896
+  },
+  {
+    "source": "aba",
+    "name": "Daniel Guglielmo Licensed Behavior Analyst",
+    "listedName": "DANIEL GUGLIELMO LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08254386.",
+    "address": "418 Broadway # 8387, Albany, NY, 12207",
+    "region": "Region 3",
+    "county": "Albany",
+    "phone": "(315) 335-7114",
+    "lat": 42.649146843828,
+    "lng": -73.750829578469
+  },
+  {
+    "source": "aba",
+    "name": "Denise Wright Licensed Behavior Analyst",
+    "listedName": "DENISE WRIGHT LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07414506.",
+    "address": "4250 Sunrise Hwy, Massapequa, NY, 11758",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(516) 640-0798",
+    "lat": 40.67522,
+    "lng": -73.47853
+  },
+  {
+    "source": "aba",
+    "name": "Discover Licensed Behavior Analyst",
+    "listedName": "DISCOVER LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07542950.",
+    "address": "1350 55th St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(134) 727-1079",
+    "lat": 40.63087,
+    "lng": -73.99449
+  },
+  {
+    "source": "aba",
+    "name": "Dragonfly Applied Behavior Analysis",
+    "listedName": "DRAGONFLY APPLIED BEHAVIOR ANALYSIS PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07939926.",
+    "address": "3 Hynes Ct, Farmingdale, NY, 11735",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(619) 701-8005",
+    "lat": 40.73361,
+    "lng": -73.44911
+  },
+  {
+    "source": "aba",
+    "name": "Dragonfly Applied Behavior Analysis",
+    "listedName": "DRAGONFLY APPLIED BEHAVIOR ANALYSIS PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08159900.",
+    "address": "3 Hynes Ct, Farmingdale, NY, 11735",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(619) 701-8005",
+    "lat": 40.73361,
+    "lng": -73.44911
+  },
+  {
+    "source": "aba",
+    "name": "Elevate Applied Behavior Analysis",
+    "listedName": "ELEVATE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08242220.",
+    "address": "4502 13th Ave Ste 413, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 650-7894",
+    "lat": 40.637245107223,
+    "lng": -73.98990504354
+  },
+  {
+    "source": "aba",
+    "name": "Elevate Applied Behavior Analysis and Consulting",
+    "listedName": "ELEVATE APPLIED BEHAVIOR ANALYSIS AND CONSULTING",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08334567.",
+    "address": "564 Leheigh Ln, Woodmere, NY, 11598",
+    "region": "Nassau",
+    "county": "Nassau",
+    "serves": [
+      "Nassau",
+      "Region 3"
+    ],
+    "phone": "(516) 732-2949",
+    "lat": 40.64484,
+    "lng": -73.71314
+  },
+  {
+    "source": "aba",
+    "name": "Elm Applied Behavior Analysis",
+    "listedName": "ELM APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08316709.",
+    "address": "386 Route 59 Ste 101, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(646) 894-4814",
+    "lat": 41.11057,
+    "lng": -74.09368
+  },
+  {
+    "source": "aba",
+    "name": "Emerge Licensed Behavior Analyst",
+    "listedName": "EMERGE LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07854488.",
+    "address": "1107 Old Liberty Rd, Monticello, NY, 12701",
+    "region": "Region 3",
+    "county": "Sullivan",
+    "phone": "(718) 534-7014",
+    "lat": 41.72285,
+    "lng": -74.68154
+  },
+  {
+    "source": "aba",
+    "name": "Empower Licensed Behavior Analyst",
+    "listedName": "EMPOWER LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07375042.",
+    "address": "381 S 5th St, Brooklyn, NY, 11211",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 787-6337",
+    "lat": 40.70776,
+    "lng": -73.95337
+  },
+  {
+    "source": "aba",
+    "name": "Empowered Applied Behavior Analysis",
+    "listedName": "EMPOWERED APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08019216.",
+    "address": "1265 50th St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 455-8050",
+    "lat": 40.634971691421,
+    "lng": -73.993415663567
+  },
+  {
+    "source": "aba",
+    "name": "Encore Licensed Behavior Analyst",
+    "listedName": "ENCORE LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 06024515.",
+    "address": "1278 42nd St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "serves": [
+      "Brooklyn",
+      "Region 3"
+    ],
+    "phone": "(718) 304-9977",
+    "lat": 40.639194213478,
+    "lng": -73.988570941937
+  },
+  {
+    "source": "aba",
+    "name": "Engage Therapy Licensed Behavior Analyst",
+    "listedName": "ENGAGE THERAPY LICENSED BEHAVIOR ANALYST, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07925193.",
+    "address": "428 River Ave, Pelham, NY, 10803",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(914) 246-1154",
+    "lat": 40.918195789488,
+    "lng": -73.810978150476
+  },
+  {
+    "source": "aba",
+    "name": "Engaging Growth Applied Behavior Analysis Therapy",
+    "listedName": "ENGAGING GROWTH ABA THERAPY PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08463738.",
+    "address": "8200 Shore Front Pkwy Apt 8b, Rockaway Beach, NY, 11693",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(917) 599-1125",
+    "lat": 40.58604,
+    "lng": -73.80759
+  },
+  {
+    "source": "aba",
+    "name": "ES Licensed Behavior Analysis",
+    "listedName": "ES LICENSED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08359973.",
+    "address": "6527 Alderton St, Rego Park, NY, 11374",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(347) 476-4330",
+    "lat": 40.71977,
+    "lng": -73.85897
+  },
+  {
+    "source": "aba",
+    "name": "Everest Applied Behavior Analysis",
+    "listedName": "EVEREST APPLIED BEHAVIOR ANALYSIS",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08170147.",
+    "address": "22 Woodridge Dr, Thiells, NY, 10984",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(862) 571-9452",
+    "lat": 41.19803,
+    "lng": -74.01561
+  },
+  {
+    "source": "aba",
+    "name": "Excel Together Licensed Behavior Analysis",
+    "listedName": "EXCEL TOGETHER LICENSED BEHAVIOR ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08203885.",
+    "address": "14820 9th Ave, Whitestone, NY, 11357",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(646) 549-6291",
+    "lat": 40.792373128751,
+    "lng": -73.818527709165
+  },
+  {
+    "source": "aba",
+    "name": "Eyra Beato Licensed Applied Behavior Analyst",
+    "listedName": "EYRA BEATO LICENSED APPLIED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08154010.",
+    "address": "10413 105th St, Ozone Park, NY, 11417",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(516) 641-7570",
+    "lat": 40.68283,
+    "lng": -73.83623
+  },
+  {
+    "source": "aba",
+    "name": "Five Boroughs Applied Behavior Analysis",
+    "listedName": "FIVE BOROUGHS APPLIED BEHAVIOR ANALYSIS PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07723811.",
+    "address": "117 Ditmas Ave, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 534-7400",
+    "lat": 40.63567,
+    "lng": -73.97776
+  },
+  {
+    "source": "aba",
+    "name": "Flourishing Hope Applied Behavior Analysis",
+    "listedName": "FLOURISHING HOPE, APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07926492.",
+    "address": "22 Garfield St, Buffalo, NY, 14207",
+    "region": "Region 1",
+    "county": "Erie",
+    "phone": "(716) 903-5225",
+    "lat": 42.94286,
+    "lng": -78.90613
+  },
+  {
+    "source": "aba",
+    "name": "Flying Colors Applied Behavior Analysis",
+    "listedName": "FLYING COLORS APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07802115.",
+    "address": "1163 43rd St Apt B5, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 614-1191",
+    "lat": 40.64035,
+    "lng": -73.99168
+  },
+  {
+    "source": "aba",
+    "name": "Focused Licensed Behavior Analysis Services",
+    "listedName": "FOCUSED LICENSED BEHAVIOR ANALYSIS SERVICES PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08159946.",
+    "address": "1458 51st St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(917) 588-6547",
+    "lat": 40.63175030928,
+    "lng": -73.989835616259
+  },
+  {
+    "source": "aba",
+    "name": "Forest Applied Behavior Analysis",
+    "listedName": "FOREST APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08319188.",
+    "address": "386 Route 59 Ste 101, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(646) 894-4814",
+    "lat": 41.11057,
+    "lng": -74.09368
+  },
+  {
+    "source": "aba",
+    "name": "FP Applied Behavior Analysis",
+    "listedName": "FP APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07983553.",
+    "address": "1435 49th St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(732) 813-7333",
+    "lat": 40.63309,
+    "lng": -73.98872
+  },
+  {
+    "source": "aba",
+    "name": "Functional Applied Behavioral Analysis",
+    "listedName": "FUNCTIONAL APPLIED BEHAVIORAL ANALYSIS",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08501475.",
+    "address": "230 Haines Rd, Bedford Hills, NY, 10507",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(646) 769-0706",
+    "lat": 41.23939,
+    "lng": -73.71532
+  },
+  {
+    "source": "aba",
+    "name": "Fundamental Licensed Behavior Analyst",
+    "listedName": "FUNDAMENTAL LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07739811.",
+    "address": "1054 59th St Ste 1r, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(917) 831-9691",
+    "lat": 40.63228,
+    "lng": -74.00287
+  },
+  {
+    "source": "aba",
+    "name": "Gentle Steps Licensed Behavior Analysis",
+    "listedName": "GENTLE STEPS LICENSED BEHAVIOR ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08407545.",
+    "address": "2035 Ralph Ave Ste A1, Brooklyn, NY, 11234",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 232-9067",
+    "lat": 40.62813,
+    "lng": -73.91806
+  },
+  {
+    "source": "aba",
+    "name": "Gerald Pucillo Applied Behavior Analyst",
+    "listedName": "GERALD PUCILLO APPLIED BEHAVIOR ANALYST, P.C.",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07727420.",
+    "address": "875 Page Ave, Lewiston, NY, 14092",
+    "region": "Region 1",
+    "county": "Niagara",
+    "phone": "(716) 316-5069",
+    "lat": 43.1761,
+    "lng": -79.03384
+  },
+  {
+    "source": "aba",
+    "name": "GLOW Applied Behavior Analysis",
+    "listedName": "GLOW APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08302229.",
+    "address": "182 Webster Ave, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(646) 939-6966",
+    "lat": 40.631356927926,
+    "lng": -73.973765651169
+  },
+  {
+    "source": "aba",
+    "name": "Grandview Applied Behavior Analysis",
+    "listedName": "GRANDVIEW APPLIED BEHAVIOR ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08356030.",
+    "address": "386 Rt 59 Suite 101, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(646) 894-4814",
+    "lat": 41.11057,
+    "lng": -74.09368
+  },
+  {
+    "source": "aba",
+    "name": "Guided Applied Behavior Analysis New York",
+    "listedName": "GUIDED APPLIED BEHAVIOR ANYLASIS NY PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08443827.",
+    "address": "1651 E 23rd St, Brooklyn, NY, 11229",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(323) 241-2919",
+    "lat": 40.61018,
+    "lng": -73.95038
+  },
+  {
+    "source": "aba",
+    "name": "Haim Licensed Behavior Analyst",
+    "listedName": "HAIM LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07544916.",
+    "address": "3611 14th Ave Ste 426, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 750-4246",
+    "lat": 40.64086,
+    "lng": -73.9823
+  },
+  {
+    "source": "aba",
+    "name": "Happy Gems Applied Behavior Analysis",
+    "listedName": "HAPPY GEMS APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07952876.",
+    "address": "4815 15th Ave Apt 5d, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 380-0505",
+    "lat": 40.63279,
+    "lng": -73.98712
+  },
+  {
+    "source": "aba",
+    "name": "Happy Steps Licensed Behavior Analyst",
+    "listedName": "HAPPY STEPS LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08345493.",
+    "address": "44 Court St Ste 1217, Brooklyn, NY, 11201",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(914) 888-6172",
+    "lat": 40.69258,
+    "lng": -73.99108
+  },
+  {
+    "source": "aba",
+    "name": "Harmony Applied Behavioral Analysis",
+    "listedName": "HARMONY APPLIED BEHAVIORAL ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08254377.",
+    "address": "1908 Coney Island Ave, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(646) 883-5394",
+    "lat": 40.61177,
+    "lng": -73.96283
+  },
+  {
+    "source": "aba",
+    "name": "Headway Service Applied Behavior Analysis",
+    "listedName": "HEADWAY SERVICE APPLIED BEHAVIOR ANALYSIS LLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08140778.",
+    "address": "4802 13th Ave, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 306-9893",
+    "lat": 40.63535,
+    "lng": -73.99193
+  },
+  {
+    "source": "aba",
+    "name": "Heart to Heart Applied Behavior Analysis",
+    "listedName": "HEART TO HEART APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08449438.",
+    "address": "1317 Avenue J Fl 2, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(917) 362-1554",
+    "lat": 40.62505667297,
+    "lng": -73.963056533573
+  },
+  {
+    "source": "aba",
+    "name": "Hillside Applied Behavior Analysis",
+    "listedName": "HILLSIDE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08316694.",
+    "address": "9 Bush Ln, Spring Valley, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(646) 894-4814",
+    "lat": 41.14138,
+    "lng": -74.03073
+  },
+  {
+    "source": "aba",
+    "name": "Horizon Blue Applied Behavioral Analysis",
+    "listedName": "HORIZON BLUE APPLIED BEHAVIORAL ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07996463.",
+    "address": "1221 Mcdonald Ave Fl 3, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 212-0222",
+    "lat": 40.62224,
+    "lng": -73.97543
+  },
+  {
+    "source": "aba",
+    "name": "HR Applied Behavior Analysis",
+    "listedName": "HR APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08443863.",
+    "address": "210 Mountainview Dr, Monroe, NY, 10950",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(212) 111-0000",
+    "lat": 41.34483,
+    "lng": -74.17895
+  },
+  {
+    "source": "aba",
+    "name": "Hudson Valley Licensed Behavior Analyst",
+    "listedName": "HUDSON VALLEY LICENSED BEHAVIOR ANALYST P.C.",
+    "services": [
+      "ABA Therapy (Managed Medicaid Only)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Enrolled in Medicaid only for managed care plans: ask whether they are in your health plan's network. Medicaid ID 07274353.",
+    "address": "422 Blooming Grove Tpke, New Windsor, NY, 12553",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 300-9301",
+    "lat": 41.464321101464,
+    "lng": -74.036408972568
+  },
+  {
+    "source": "aba",
+    "name": "IC Licensed Behavior Analysis",
+    "listedName": "IC LICENSED BEHAVIOR ANALYSIS PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08165780.",
+    "address": "3021 Quentin Rd, Brooklyn, NY, 11234",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 415-9046",
+    "lat": 40.61214,
+    "lng": -73.94085
+  },
+  {
+    "source": "aba",
+    "name": "Ignite Applied Behavior Analysis Licensed Behavior Analysis",
+    "listedName": "IGNITE ABA LICENSED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08095961.",
+    "address": "49 Lorimer St Apt 4, Brooklyn, NY, 11206",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(845) 659-2861",
+    "lat": 40.70121,
+    "lng": -73.95253
+  },
+  {
+    "source": "aba",
+    "name": "Impact Licensed Behavior Analysis",
+    "listedName": "IMPACT LICENSED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07874404.",
+    "address": "134 Stockton St Apt 2b, Brooklyn, NY, 11206",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 963-0007",
+    "lat": 40.69626,
+    "lng": -73.94741
+  },
+  {
+    "source": "aba",
+    "name": "Innoba Applied Behavior Analysis",
+    "listedName": "INNOBA ABA, INC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07751119.",
+    "address": "5402 217th St, Bayside Hills, NY, 11364",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(718) 819-8828",
+    "lat": 40.752366084002,
+    "lng": -73.762906038196
+  },
+  {
+    "source": "aba",
+    "name": "Integrative Applied Behavior Analysis",
+    "listedName": "INTEGRATIVE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08469394.",
+    "address": "154 Trenton Ave, White Plains, NY, 10606",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(909) 534-9841",
+    "lat": 41.0288,
+    "lng": -73.7878
+  },
+  {
+    "source": "aba",
+    "name": "Integrative Interventions",
+    "listedName": "INTEGRATIVE INTERVENTIONS LLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08365120.",
+    "address": "154 Trenton Ave, White Plains, NY, 10606",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(917) 656-4696",
+    "lat": 41.028814740989,
+    "lng": -73.78747136338
+  },
+  {
+    "source": "aba",
+    "name": "IS Licensed Behavior Analyst",
+    "listedName": "IS LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08012851.",
+    "address": "301 Mill Rd Ste U9, Hewlett, NY, 11557",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(917) 971-8746",
+    "lat": 40.63888,
+    "lng": -73.70273
+  },
+  {
+    "source": "aba",
+    "name": "JT License Behavior Analyst",
+    "listedName": "JT LICENSE BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07544892.",
+    "address": "1252 42nd St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 916-2192",
+    "lat": 40.6395,
+    "lng": -73.98915
+  },
+  {
+    "source": "aba",
+    "name": "Kairos Applied Behavior Analysis",
+    "listedName": "KAIROS APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08040099.",
+    "address": "140 Van Cortlandt Ave W # 2j, Bronx, NY, 10463",
+    "region": "Bronx",
+    "county": "Bronx",
+    "serves": [
+      "Bronx",
+      "Manhattan"
+    ],
+    "phone": "(347) 205-2494",
+    "lat": 40.884285027723,
+    "lng": -73.893628921362
+  },
+  {
+    "source": "aba",
+    "name": "Kids Learning Loft Applied Behavior Analysis Services",
+    "listedName": "KIDS LEARNING LOFT ABA SERVICES, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08459721.",
+    "address": "436 Willis Ave Ste 3, Williston Park, NY, 11596",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(516) 741-0729",
+    "lat": 40.755205234367,
+    "lng": -73.644446758571
+  },
+  {
+    "source": "aba",
+    "name": "Kids Thrive Applied Behavior Analysis",
+    "listedName": "KIDS THRIVE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07847890.",
+    "address": "7424 13th Ave, Brooklyn, NY, 11228",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(212) 512-5200",
+    "lat": 40.62065,
+    "lng": -74.00721
+  },
+  {
+    "source": "aba",
+    "name": "Kind Hearts Applied Behavior Analysis",
+    "listedName": "KIND HEARTS APPLIED BEHAVIOR ANALYSIS, PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08207150.",
+    "address": "26 Greencroft Lane, Staten Island, NY, 10308",
+    "region": "Staten Island",
+    "county": "Richmond",
+    "phone": "(917) 494-9210",
+    "lat": 40.54701,
+    "lng": -74.14132
+  },
+  {
+    "source": "aba",
+    "name": "Lake Effect Applied Behavior Analysis",
+    "listedName": "LAKE EFFECT APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08215698.",
+    "address": "4195 Route 219 Trlr 39, Salamanca, NY, 14779",
+    "region": "Region 1",
+    "county": "Cattaraugus",
+    "phone": "(716) 249-1310",
+    "lat": 42.16297,
+    "lng": -78.72012
+  },
+  {
+    "source": "aba",
+    "name": "Level Ahead Licensed Behavior Analyst",
+    "listedName": "LEVEL AHEAD LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07684935.",
+    "address": "4208 18th Ave, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 577-2240",
+    "lat": 40.63155,
+    "lng": -73.97568
+  },
+  {
+    "source": "aba",
+    "name": "Licensed Applied Behavior Analyst Group",
+    "listedName": "LICENSED APPLIED BEHAVIOR ANALYST GROUP, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07341028.",
+    "address": "248 Riviera Dr W, Massapequa, NY, 11758",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(631) 954-2657",
+    "lat": 40.65098,
+    "lng": -73.46264
+  },
+  {
+    "source": "aba",
+    "name": "Licensed Behavior Analyst Empowering",
+    "listedName": "LICENSED BEHAVIOR ANALYST EMPOWERING PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08457132.",
+    "address": "1642 Coney Island Ave, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 352-6622",
+    "lat": 40.61693,
+    "lng": -73.96381
+  },
+  {
+    "source": "aba",
+    "name": "Licensed Behavior Analyst Professional Services",
+    "listedName": "LICENSED BEHAVIOR ANALYST PROFESSIONAL SERVICES PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07548167.",
+    "address": "1326 E 10th St, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "serves": [
+      "Brooklyn",
+      "Region 3"
+    ],
+    "phone": "(845) 596-2271",
+    "lat": 40.61688,
+    "lng": -73.96482
+  },
+  {
+    "source": "aba",
+    "name": "Licensed Behavior Analyst Spectrum",
+    "listedName": "LICENSED BEHAVIOR ANALYST SPECTRUM PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07718876.",
+    "address": "2389 Adam Clayton Powell Jr Blvd, New York, NY, 10030",
+    "region": "Manhattan",
+    "county": "New York",
+    "phone": "(929) 275-4246",
+    "lat": 40.81812,
+    "lng": -73.94151
+  },
+  {
+    "source": "aba",
+    "name": "Lighthouse Licensed Behavior Analysts",
+    "listedName": "LIGHTHOUSE LICENSED BEHAVIOR ANALYSTS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07341000.",
+    "address": "13636 72nd Ave, Flushing, NY, 11367",
+    "region": "Queens",
+    "county": "Queens",
+    "serves": [
+      "Queens",
+      "Bronx",
+      "Staten Island",
+      "Brooklyn",
+      "Manhattan"
+    ],
+    "phone": "(347) 277-2575",
+    "lat": 40.725420336733,
+    "lng": -73.825903398566
+  },
+  {
+    "source": "aba",
+    "name": "Lin Applied Behavior Analysis Services",
+    "listedName": "LIN ABA SERVICES INC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07993997.",
+    "address": "15011 72nd Rd Apt 4e, Flushing, NY, 11367",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(929) 402-7244",
+    "lat": 40.72802,
+    "lng": -73.81751
+  },
+  {
+    "source": "aba",
+    "name": "Little Chats Applied Behavior Analysis",
+    "listedName": "LITTLE CHATS APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08258766.",
+    "address": "5 Mcnally St, Goshen, NY, 10924",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(908) 514-1634",
+    "lat": 41.411035976023,
+    "lng": -74.321808952971
+  },
+  {
+    "source": "aba",
+    "name": "LS Licensed Behavior Analysts",
+    "listedName": "LS LICENSED BEHAVIOR ANALYSTS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07657156.",
+    "address": "1647 E 38th St, Brooklyn, NY, 11234",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(212) 810-1436",
+    "lat": 40.61644,
+    "lng": -73.93615
+  },
+  {
+    "source": "aba",
+    "name": "Luminary Applied Behavior Analysis",
+    "listedName": "LUMINARY APPLIED BEHAVIOR ANALYSIS P.C.",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08191848.",
+    "address": "1115 Vincent Ave Apt 3, Bronx, NY, 10465",
+    "region": "Bronx",
+    "county": "Bronx",
+    "phone": "(646) 290-0962",
+    "lat": 40.83531,
+    "lng": -73.82091
+  },
+  {
+    "source": "aba",
+    "name": "Malka Nussbaum Licensed Behavioral Analyst",
+    "listedName": "MALKA NUSSBAUM LICENSED BEHAVIORAL ANALYST, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08423461.",
+    "address": "685 E 7th St, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(732) 886-8113",
+    "lat": 40.63575,
+    "lng": -73.97114
+  },
+  {
+    "source": "aba",
+    "name": "Milestones Licensed Behavior Analyst",
+    "listedName": "MILESTONES LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08086591.",
+    "address": "12 Riverglen Dr, Thiells, NY, 10984",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 608-6933",
+    "lat": 41.20413,
+    "lng": -74.02173
+  },
+  {
+    "source": "aba",
+    "name": "Mind Orientation Licensed Behavior Analyst",
+    "listedName": "MIND ORIENTATION LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07353744.",
+    "address": "4205 17th Ave Apt 3, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 675-6102",
+    "lat": 40.63332,
+    "lng": -73.97899
+  },
+  {
+    "source": "aba",
+    "name": "Miriam Levy Licensed Behavior Analyst",
+    "listedName": "MIRIAM LEVY LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07608400.",
+    "address": "1830 E 24th St, Brooklyn, NY, 11229",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 757-5680",
+    "lat": 40.60557,
+    "lng": -73.9488
+  },
+  {
+    "source": "aba",
+    "name": "Miriam Polter Licensed Behavior Analyst",
+    "listedName": "MIRIAM POLTER LICENSED BEHAVIOR ANALYST",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08025490.",
+    "address": "22 Cameo Ridge Rd, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(347) 452-9894",
+    "lat": 41.11896223607,
+    "lng": -74.074674876324
+  },
+  {
+    "source": "aba",
+    "name": "Momentum Applied Behavior Analysis",
+    "listedName": "MOMENTUM APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08244988.",
+    "address": "13102a 40th Rd Apt 9b, Flushing, NY, 11354",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(646) 763-3391",
+    "lat": 40.755656815891,
+    "lng": -73.836378547828
+  },
+  {
+    "source": "aba",
+    "name": "Momentum Applied Behavior Analysis Licensed Behavior Analyst Services",
+    "listedName": "MOMENTUM ABA LICENSED BEHAVIOR ANALYST SERVICES PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08036362.",
+    "address": "1225 Franklin Ave Ste 325, Garden City, NY, 11530",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(516) 233-7886",
+    "lat": 40.73315,
+    "lng": -73.63689
+  },
+  {
+    "source": "aba",
+    "name": "Mordechai Meisels Licensed Behavior Analyst",
+    "listedName": "MORDECHAI MEISELS LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07969973.",
+    "address": "4202 13th Ave, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 743-7013",
+    "lat": 40.638927644464,
+    "lng": -73.988154959633
+  },
+  {
+    "source": "aba",
+    "name": "My Lane Applied Behavior Analysis",
+    "listedName": "MY LANE APPLIED BEHAVIOR ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08349800.",
+    "address": "88 Wisseman Rd, Lagrangeville, NY, 12540",
+    "region": "Region 3",
+    "county": "Dutchess",
+    "phone": "(917) 530-3208",
+    "lat": 41.664561838203,
+    "lng": -73.732116463224
+  },
+  {
+    "source": "aba",
+    "name": "Navigate Licensed Behavior Analyst",
+    "listedName": "NAVIGATE LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08264019.",
+    "address": "110 Spencer St Apt 4a, Brooklyn, NY, 11205",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 526-1053",
+    "lat": 40.695390061138,
+    "lng": -73.955413475178
+  },
+  {
+    "source": "aba",
+    "name": "New Directions Licensed Behavior Analysis",
+    "listedName": "NEW DIRECTIONS LICENSED BEHAVIOR ANALYSIS",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07460144.",
+    "address": "488 85th St Apt 4f, Brooklyn, NY, 11209",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 207-0959",
+    "lat": 40.62222,
+    "lng": -74.02598
+  },
+  {
+    "source": "aba",
+    "name": "New York Behavior Analysis and Psychological Services",
+    "listedName": "NY BEHAVIOR ANALYSIS AND PSYCHOLOGICAL SERVICES",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07808111.",
+    "address": "40 Exchange Pl #1413, New York, NY, 10005",
+    "region": "Manhattan",
+    "county": "New York",
+    "serves": [
+      "Manhattan",
+      "Staten Island"
+    ],
+    "phone": "(646) 780-9227",
+    "lat": 40.70572,
+    "lng": -74.00981
+  },
+  {
+    "source": "aba",
+    "name": "New York City Licensed Behavior Analysts",
+    "listedName": "NYC LICENSED BEHAVIOR ANALYSTS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08256851.",
+    "address": "1551 E 37th St, Brooklyn, NY, 11234",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(000) 000-0000",
+    "lat": 40.61759,
+    "lng": -73.93865
+  },
+  {
+    "source": "aba",
+    "name": "Next Step Applied Behavior Analysis",
+    "listedName": "NEXT STEP APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08196536.",
+    "address": "1538 E 4th St, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 217-1153",
+    "lat": 40.61259,
+    "lng": -73.97074
+  },
+  {
+    "source": "aba",
+    "name": "Okeefe Applied Behavior Analysis",
+    "listedName": "OKEEFE APPLIED BEHAVIOR ANALYSIS",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07601105.",
+    "address": "75 S Broadway, White Plains, NY, 10601",
+    "region": "Region 3",
+    "county": "Westchester",
+    "phone": "(201) 477-0079",
+    "lat": 41.03031,
+    "lng": -73.76271
+  },
+  {
+    "source": "aba",
+    "name": "One Step Forward Applied Behavior Analysis",
+    "listedName": "ONE STEP FORWARD APPLIED BEHAVIOR ANALYSIS",
+    "services": [
+      "ABA Therapy (Managed Medicaid Only)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Enrolled in Medicaid only for managed care plans: ask whether they are in your health plan's network. Medicaid ID 07213656.",
+    "address": "1883 58th St, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(201) 972-6318",
+    "lat": 40.6221,
+    "lng": -73.98412
+  },
+  {
+    "source": "aba",
+    "name": "One Step Licensed Behavior Analysts",
+    "listedName": "ONE STEP LICENSED BEHAVIOR ANALYSTS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08102334.",
+    "address": "866 E New York Ave, Brooklyn, NY, 11203",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(917) 971-1052",
+    "lat": 40.66258,
+    "lng": -73.93286
+  },
+  {
+    "source": "aba",
+    "name": "Park Avenue Applied Behavior Analysis Licensed Behavior Analysis",
+    "listedName": "PARK AVENUE ABA LICENSED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08240939.",
+    "address": "48 Spencer St, Brooklyn, NY, 11205",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 909-0720",
+    "lat": 40.69745,
+    "lng": -73.95587
+  },
+  {
+    "source": "aba",
+    "name": "Peer Licensed Behavior Analyst",
+    "listedName": "PEER LICENSED BEHAVIOR ANALYST, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07559548.",
+    "address": "24 Witzel Ct Unit 206, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "serves": [
+      "Region 3",
+      "Brooklyn"
+    ],
+    "phone": "(347) 489-8817",
+    "lat": 41.110835061218,
+    "lng": -74.08440469622
+  },
+  {
+    "source": "aba",
+    "name": "Perspective Licensed Behavior Analyst",
+    "listedName": "PERSPECTIVE LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07458024.",
+    "address": "1223 Mcdonald Ave, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 809-7996",
+    "lat": 40.62224,
+    "lng": -73.97543
+  },
+  {
+    "source": "aba",
+    "name": "Planting Seeds Licensed Behavior Analysis",
+    "listedName": "PLANTING SEEDS LICENSED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07971011.",
+    "address": "533 Dahill Rd, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 404-8638",
+    "lat": 40.634600370377,
+    "lng": -73.978873998891
+  },
+  {
+    "source": "aba",
+    "name": "Play Learn Behave with Applied Behavior Analysis",
+    "listedName": "PLAY LEARN BEHAVE WITH ABA, APPLIED BEHAVIOR ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08010322.",
+    "address": "14 Frostfield Pl, Melville, NY, 11747",
+    "region": "Suffolk",
+    "county": "Suffolk",
+    "phone": "(631) 912-7350",
+    "lat": 40.80721,
+    "lng": -73.40187
+  },
+  {
+    "source": "aba",
+    "name": "Potential Licensed Behavior Analysts",
+    "listedName": "POTENTIAL LICENSED BEHAVIOR ANALYSTS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07958809.",
+    "address": "8 Barbara Ln, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 426-6995",
+    "lat": 41.11712,
+    "lng": -74.08816
+  },
+  {
+    "source": "aba",
+    "name": "Power Hour Applied Behavior Analysis",
+    "listedName": "POWER HOUR APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08481638.",
+    "address": "5014 16th Ave, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(929) 549-8694",
+    "lat": 40.63027,
+    "lng": -73.98657
+  },
+  {
+    "source": "aba",
+    "name": "Precision Applied Behavior Analysis Therapy",
+    "listedName": "PRECISION APPLIED BEHAVIOR ANALYSIS THERAPY PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08450979.",
+    "address": "2133 Coleman St, Brooklyn, NY, 11234",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 431-4671",
+    "lat": 40.60967,
+    "lng": -73.92491
+  },
+  {
+    "source": "aba",
+    "name": "Progressive Applied Behavior Analysis",
+    "listedName": "PROGRESSIVE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08010304.",
+    "address": "16 Lenmore Dr, Old Bethpage, NY, 11804",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(917) 496-6144",
+    "lat": 40.7712,
+    "lng": -73.44678
+  },
+  {
+    "source": "aba",
+    "name": "Propel Licensed Behavior Analyst",
+    "listedName": "PROPEL LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07350301.",
+    "address": "1660 44th St, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(929) 236-6849",
+    "lat": 40.63286,
+    "lng": -73.98117
+  },
+  {
+    "source": "aba",
+    "name": "Proud Moments Applied Behavior Analysis Services",
+    "listedName": "PROUD MOMENTS ABA SERVICES LLC",
+    "services": [
+      "ABA Therapy (Managed Medicaid Only)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Enrolled in Medicaid only for managed care plans: ask whether they are in your health plan's network. Medicaid ID 08291912.",
+    "address": "350 5th Ave Ste 6115, New York, NY, 10118",
+    "region": "Manhattan",
+    "county": "New York",
+    "serves": [
+      "Manhattan",
+      "Region 2",
+      "Nassau",
+      "Region 1",
+      "Staten Island",
+      "Suffolk",
+      "Brooklyn"
+    ],
+    "phone": "(718) 215-5311",
+    "lat": 40.747850846857,
+    "lng": -73.985075577551
+  },
+  {
+    "source": "aba",
+    "name": "Proud Moments Licensed Behavior Analysts",
+    "listedName": "PROUD MOMENTS LICENSED BEHAVIOR ANALYSTS PLLC",
+    "services": [
+      "ABA Therapy (Managed Medicaid Only)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Enrolled in Medicaid only for managed care plans: ask whether they are in your health plan's network. Medicaid ID 07466282.",
+    "address": "350 5th Ave Ste 6115, New York, NY, 10118",
+    "region": "Manhattan",
+    "county": "New York",
+    "serves": [
+      "Manhattan",
+      "Region 2",
+      "Brooklyn",
+      "Region 1"
+    ],
+    "phone": "(718) 215-5311",
+    "lat": 40.747850846857,
+    "lng": -73.985075577551
+  },
+  {
+    "source": "aba",
+    "name": "Rachael Schneider Licensed Behavior Analyst",
+    "listedName": "RACHAEL SCHNEIDER LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07767128.",
+    "address": "550 Orchard Park Rd Ste B105, West Seneca, NY, 14224",
+    "region": "Region 1",
+    "county": "Erie",
+    "serves": [
+      "Region 1",
+      "Region 3"
+    ],
+    "phone": "(855) 295-3276",
+    "lat": 42.832029550811,
+    "lng": -78.779059850077
+  },
+  {
+    "source": "aba",
+    "name": "Rays Applied Behavioral Analysis",
+    "listedName": "RAYS APPLIED BEHAVIORAL ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08147591.",
+    "address": "1446 E 12th St, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 640-7900",
+    "lat": 40.614053757177,
+    "lng": -73.962200065314
+  },
+  {
+    "source": "aba",
+    "name": "Reaching Higher Licensed Behavior Analyst",
+    "listedName": "REACHING HIGHER LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08352527.",
+    "address": "204 Clermont Pl, Staten Island, NY, 10314",
+    "region": "Staten Island",
+    "county": "Richmond",
+    "phone": "(347) 770-4382",
+    "lat": 40.60779,
+    "lng": -74.12786
+  },
+  {
+    "source": "aba",
+    "name": "Rebecca's Applied Behavior Analysis Play",
+    "listedName": "REBECCA'S ABA PLAY PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07726341.",
+    "address": "7547 181st St, Fresh Meadows, NY, 11366",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(718) 503-2502",
+    "lat": 40.72839,
+    "lng": -73.78802
+  },
+  {
+    "source": "aba",
+    "name": "Response License Behavior Analyst",
+    "listedName": "RESPONSE LICENSE BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07544883.",
+    "address": "1252 42nd St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 916-2192",
+    "lat": 40.639527647412,
+    "lng": -73.989124567573
+  },
+  {
+    "source": "aba",
+    "name": "Right Path Applied Behavior Analysis",
+    "listedName": "RIGHT PATH ABA INC.",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07541275.",
+    "address": "1985 W 6th St, Brooklyn, NY, 11223",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(917) 560-1602",
+    "lat": 40.59912,
+    "lng": -73.97788
+  },
+  {
+    "source": "aba",
+    "name": "Rise and Shine Applied Behavior Analysis",
+    "listedName": "RISE AND SHINE ABA LLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08258817.",
+    "address": "424 Grandview Ave, Staten Island, NY, 10303",
+    "region": "Staten Island",
+    "county": "Richmond",
+    "phone": "(929) 460-9600",
+    "lat": 40.62968,
+    "lng": -74.16547
+  },
+  {
+    "source": "aba",
+    "name": "Rise to Shine Applied Behavior Analysis",
+    "listedName": "RISE TO SHINE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07688360.",
+    "address": "1265 55th St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "serves": [
+      "Brooklyn",
+      "Region 2"
+    ],
+    "phone": "(718) 701-7701",
+    "lat": 40.6322,
+    "lng": -73.99631
+  },
+  {
+    "source": "aba",
+    "name": "Rivka Gottehrer Applied Behavioral Analysis Therapy",
+    "listedName": "RIVKA GOTTEHRER APPLIED BEHAVIORAL ANALYSIS THERAPY PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08439925.",
+    "address": "2177 60th St, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 491-8222",
+    "lat": 40.617073643761,
+    "lng": -73.978940437421
+  },
+  {
+    "source": "aba",
+    "name": "Rivky Reich Applied Behavior Analysis Professional Services",
+    "listedName": "RIVKY REICH APPLIED BEHAVIOR ANALYSIS PROFESSIONAL SERVICES PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08412053.",
+    "address": "14 Manor Dr, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(914) 953-9139",
+    "lat": 41.12006,
+    "lng": -74.07068
+  },
+  {
+    "source": "aba",
+    "name": "Rockland Licensed Behavior Analyst",
+    "listedName": "ROCKLAND LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08236151.",
+    "address": "3 Smith Ct, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "serves": [
+      "Region 3",
+      "Brooklyn"
+    ],
+    "phone": "(845) 538-5327",
+    "lat": 41.095936019216,
+    "lng": -74.09936297326
+  },
+  {
+    "source": "aba",
+    "name": "Sapphire Applied Behavior Analysis",
+    "listedName": "SAPPHIRE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08450988.",
+    "address": "1473 E 9th St, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 217-1153",
+    "lat": 40.613071793176,
+    "lng": -73.964845587605
+  },
+  {
+    "source": "aba",
+    "name": "Scotland Applied Behavior Analysis",
+    "listedName": "SCOTLAND APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08356916.",
+    "address": "386 Rt 59 Suite 101, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(646) 894-4814",
+    "lat": 41.11057,
+    "lng": -74.09368
+  },
+  {
+    "source": "aba",
+    "name": "SG Licensed Behavior Analyst",
+    "listedName": "SG LISENCED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08008880.",
+    "address": "31 Quads Way, Windham, NY, 12496",
+    "region": "Region 3",
+    "county": "Greene",
+    "serves": [
+      "Region 3",
+      "Brooklyn"
+    ],
+    "phone": "(917) 254-9292",
+    "lat": 42.30337,
+    "lng": -74.21224
+  },
+  {
+    "source": "aba",
+    "name": "Shining Star Licensed Behavior Analyst",
+    "listedName": "SHINING STAR LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07717435.",
+    "address": "4819 14th Ave, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 298-3695",
+    "lat": 40.6341,
+    "lng": -73.98935
+  },
+  {
+    "source": "aba",
+    "name": "Simply Innovative Behavior Analysis",
+    "listedName": "SIMPLY INNOVATIVE BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08231234.",
+    "address": "10 New Mill Rd, Smithtown, NY, 11787",
+    "region": "Suffolk",
+    "county": "Suffolk",
+    "phone": "(631) 352-2651",
+    "lat": 40.854940818893,
+    "lng": -73.207267345753
+  },
+  {
+    "source": "aba",
+    "name": "Skills Applied Behavior Analyst",
+    "listedName": "SKILLS APPLIED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08158041.",
+    "address": "16216 Union Tpke Ste 303, Fresh Meadows, NY, 11366",
+    "region": "Queens",
+    "county": "Queens",
+    "serves": [
+      "Queens",
+      "Staten Island"
+    ],
+    "phone": "(718) 222-5999",
+    "lat": 40.72112,
+    "lng": -73.80714
+  },
+  {
+    "source": "aba",
+    "name": "Small Footsteps Licensed Behavior Analysis",
+    "listedName": "SMALL FOOTSTEPS LICENSED BEHAVIOR ANALYSIS PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08216915.",
+    "address": "181 Pine Tree Rd, Monroe, NY, 10950",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(646) 296-9221",
+    "lat": 41.308046030145,
+    "lng": -74.179271321505
+  },
+  {
+    "source": "aba",
+    "name": "Smart Steps Licensed Behavior Analyst",
+    "listedName": "SMART STEPS LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08471854.",
+    "address": "33 State Route 17m Ste C, Harriman, NY, 10926",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 837-6001",
+    "lat": 41.305948694448,
+    "lng": -74.150308706083
+  },
+  {
+    "source": "aba",
+    "name": "Sparkle Licensed Behavior Analyst",
+    "listedName": "SPARKLE LICENSED BEHAVIOR ANALYST PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08064422.",
+    "address": "3 Austra Pkwy Unit 4, Monroe, NY, 10950",
+    "region": "Region 3",
+    "county": "Orange",
+    "serves": [
+      "Region 3",
+      "Brooklyn"
+    ],
+    "phone": "(845) 251-0070",
+    "lat": 41.38803,
+    "lng": -74.13889
+  },
+  {
+    "source": "aba",
+    "name": "Spectrum Steps Applied Behavior Analysis",
+    "listedName": "SPECTRUM STEPS APPLIED BEHAVIOR ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08449947.",
+    "address": "18 Fingerboard Rd, Staten Island, NY, 10305",
+    "region": "Staten Island",
+    "county": "Richmond",
+    "phone": "(551) 999-1136",
+    "lat": 40.60854,
+    "lng": -74.06348
+  },
+  {
+    "source": "aba",
+    "name": "Sprout Applied Behavior Analysis",
+    "listedName": "SPROUT APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08406791.",
+    "address": "1114 Gerard Ave Apt 26, Bronx, NY, 10452",
+    "region": "Bronx",
+    "county": "Bronx",
+    "phone": "(347) 981-4870",
+    "lat": 40.83303,
+    "lng": -73.92156
+  },
+  {
+    "source": "aba",
+    "name": "SSK Applied Behavioral Analysis",
+    "listedName": "SSK APPLIED BEHAVIORAL ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08321551.",
+    "address": "155 Borden Ave Apt 16f, Long Island City, NY, 11101",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(773) 366-9085",
+    "lat": 40.74897,
+    "lng": -73.94907
+  },
+  {
+    "source": "aba",
+    "name": "Starbright Applied Behavior Analyst",
+    "listedName": "STARBRIGHT APPLIED BEHAVIOR ANALYST,PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 04516712.",
+    "address": "12 Winston Pl, Marlboro, NY, 12542",
+    "region": "Region 3",
+    "county": "Ulster",
+    "phone": "(845) 863-5208",
+    "lat": 41.58558488324,
+    "lng": -74.026763454566
+  },
+  {
+    "source": "aba",
+    "name": "Step by Step Licensed Behavior Analyst",
+    "listedName": "STEP BY STEP LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08329504.",
+    "address": "46 Laura Dr, Airmont, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(347) 304-0763",
+    "lat": 41.104419299982,
+    "lng": -74.092012689938
+  },
+  {
+    "source": "aba",
+    "name": "Step Up Applied Behavior Analysis",
+    "listedName": "STEP UP APPLIED BEHAVIOR ANALYSIS  PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08364550.",
+    "address": "5014 19th Ave, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 222-5999",
+    "lat": 40.62631,
+    "lng": -73.97941
+  },
+  {
+    "source": "aba",
+    "name": "Stepwise Applied Behavior Analysis Therapy",
+    "listedName": "STEPWISE APPLIED BEHAVIOR ANALYSIS THERAPY PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08496522.",
+    "address": "11917 83rd Ave, Kew Gardens, NY, 11415",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(646) 575-0252",
+    "lat": 40.70844,
+    "lng": -73.83287
+  },
+  {
+    "source": "aba",
+    "name": "Strides Licensed Behavior Analyst",
+    "listedName": "STRIDES LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07715635.",
+    "address": "83 Meron Rd, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "serves": [
+      "Region 3",
+      "Brooklyn"
+    ],
+    "phone": "(732) 353-1414",
+    "lat": 41.12658,
+    "lng": -74.065
+  },
+  {
+    "source": "aba",
+    "name": "Strive Applied Behavior Analysis",
+    "listedName": "STRIVE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07648593.",
+    "address": "756b S Broadway, Hicksville, NY, 11801",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(516) 603-1443",
+    "lat": 40.750421884833,
+    "lng": -73.504475749104
+  },
+  {
+    "source": "aba",
+    "name": "Strive High Applied Behavior Analysis",
+    "listedName": "STRIVE HIGH APPLIED BEHAVIOR ANALYSIS PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08032322.",
+    "address": "14108 72nd Ave, Flushing, NY, 11367",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(347) 228-7271",
+    "lat": 40.726062050954,
+    "lng": -73.823741283731
+  },
+  {
+    "source": "aba",
+    "name": "Sunshine Applied Behavior Analysis",
+    "listedName": "SUNSHINE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07800071.",
+    "address": "7 Beer Sheva Unit 406, Monroe, NY, 10950",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 637-4444",
+    "lat": 41.35057,
+    "lng": -74.17052
+  },
+  {
+    "source": "aba",
+    "name": "Symphony Licensed Behavior Analyst",
+    "listedName": "SYMPHONY LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08119399.",
+    "address": "768 E 2nd St, Brooklyn, NY, 11218",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 232-4821",
+    "lat": 40.632794389251,
+    "lng": -73.976415699589
+  },
+  {
+    "source": "aba",
+    "name": "Tara L Montemurro Licensed Behavior Analyst",
+    "listedName": "TARA L. MONTEMURRO, LICENSED BEHAVIOR ANALYST, P.C",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07661118.",
+    "address": "2250 Goshen Tpke, Middletown, NY, 10941",
+    "region": "Region 3",
+    "county": "Orange",
+    "phone": "(845) 673-5636",
+    "lat": 41.46103,
+    "lng": -74.342
+  },
+  {
+    "source": "aba",
+    "name": "Tarnopol Applied Behavior Analysis",
+    "listedName": "TARNOPOL APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08319179.",
+    "address": "386 Route 59 Ste 101, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(646) 894-4814",
+    "lat": 41.11057,
+    "lng": -74.09368
+  },
+  {
+    "source": "aba",
+    "name": "Teamwork Licensed Behavior Analyst Services",
+    "listedName": "TEAMWORK LICENSED BEHAVIOR ANALYST SERVICES, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07137479.",
+    "address": "1216 Broadway, New York, NY, 10001",
+    "region": "Manhattan",
+    "county": "New York",
+    "phone": "(347) 557-8468",
+    "lat": 40.746653202206,
+    "lng": -73.988400846283
+  },
+  {
+    "source": "aba",
+    "name": "Teamwork Licensed Behavior Analyst Services",
+    "listedName": "TEAMWORK LICENSED BEHAVIOR ANALYST SERVICES, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07515259.",
+    "address": "119 W 24th St Fl 4, New York, NY, 10011",
+    "region": "Manhattan",
+    "county": "New York",
+    "phone": "(347) 557-8468",
+    "lat": 40.743854627368,
+    "lng": -73.992845725729
+  },
+  {
+    "source": "aba",
+    "name": "Tender Applied Behavior Analysis",
+    "listedName": "TENDER APPLIED BEHAVIOR ANALYSIS, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08168389.",
+    "address": "12008 155th St, Jamaica, NY, 11434",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(917) 667-8291",
+    "lat": 40.678529063705,
+    "lng": -73.787185277292
+  },
+  {
+    "source": "aba",
+    "name": "Tennyson Applied Behavior Analysis",
+    "listedName": "TENNYSON APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08315455.",
+    "address": "132 32nd St Ste 403 C/O Unicare Aba, Brooklyn, NY, 11232",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "serves": [
+      "Brooklyn",
+      "Region 3"
+    ],
+    "phone": "(646) 894-4814",
+    "lat": 40.657187361477,
+    "lng": -74.003268512164
+  },
+  {
+    "source": "aba",
+    "name": "The Abacus Licensed Behavior Analyst Services",
+    "listedName": "THE ABACUS LICENSED BEHAVIOR ANALYST SERVICES PC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08413527.",
+    "address": "9560 Queens Blvd Unit #2032, Rego Park, NY, 11374",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(305) 479-5983",
+    "lat": 40.73028,
+    "lng": -73.86405
+  },
+  {
+    "source": "aba",
+    "name": "The Borough Licensed Behavior Analyst",
+    "listedName": "THE BOROUGH LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07998772.",
+    "address": "4815 15th Ave Apt 5d, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(973) 370-4000",
+    "lat": 40.63277929313,
+    "lng": -73.987188960041
+  },
+  {
+    "source": "aba",
+    "name": "Thomas Applied Behavior Analysis",
+    "listedName": "THOMAS APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08356925.",
+    "address": "386 Rt 59 Suite 101, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(646) 894-4814",
+    "lat": 41.11057,
+    "lng": -74.09368
+  },
+  {
+    "source": "aba",
+    "name": "Thrive Applied Behavior Analysis",
+    "listedName": "THRIVE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08494382.",
+    "address": "789 Bedford Ave Apt 4b, Brooklyn, NY, 11205",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 909-0720",
+    "lat": 40.697129883472,
+    "lng": -73.956573864346
+  },
+  {
+    "source": "aba",
+    "name": "Thrive Applied Behavior Analyst",
+    "listedName": "THRIVE APPLIED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08404299.",
+    "address": "5815 21st Ave, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 939-9301",
+    "lat": 40.61885,
+    "lng": -73.9797
+  },
+  {
+    "source": "aba",
+    "name": "Thriving Steps Licensed Behavior Analyst",
+    "listedName": "THRIVING STEPS LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08490351.",
+    "address": "1722 E 24th St, Brooklyn, NY, 11229",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(347) 836-3504",
+    "lat": 40.60796,
+    "lng": -73.94926
+  },
+  {
+    "source": "aba",
+    "name": "Time to Shine Licensed Behavior Analysis",
+    "listedName": "TIME TO SHINE LICENSED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07921891.",
+    "address": "15 Perlman Dr Ste 111, Spring Valley, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "serves": [
+      "Region 3",
+      "Brooklyn"
+    ],
+    "phone": "(732) 508-0528",
+    "lat": 41.10518,
+    "lng": -74.03165
+  },
+  {
+    "source": "aba",
+    "name": "TWL Elevare Licensed Behavior Analyst",
+    "listedName": "TWL ELEVARE LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08237221.",
+    "address": "3638 205th St, Bayside, NY, 11361",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(929) 451-9807",
+    "lat": 40.764757035138,
+    "lng": -73.781770486798
+  },
+  {
+    "source": "aba",
+    "name": "United Care Applied Behavior Analysis",
+    "listedName": "UNITED CARE APPLIED BEHAVIOR ANALYSIS (ABA) PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08179628.",
+    "address": "320 Daub Ave, Hewlett, NY, 11557",
+    "region": "Nassau",
+    "county": "Nassau",
+    "phone": "(516) 362-9561",
+    "lat": 40.63942,
+    "lng": -73.70794
+  },
+  {
+    "source": "aba",
+    "name": "United Licensed Behavior Analyst Applied Behavior Analysis",
+    "listedName": "UNITED LICENSED BEHAVIOR ANALYST ABA PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08341013.",
+    "address": "1441 46th St, Brooklyn, NY, 11219",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 222-5999",
+    "lat": 40.634870698239,
+    "lng": -73.987209994326
+  },
+  {
+    "source": "aba",
+    "name": "Vibrant Applied Behavior Therapy",
+    "listedName": "VIBRANT APPLIED BEHAVIOR THERAPY PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07548754.",
+    "address": "46 Cook St, Brooklyn, NY, 11206",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 925-2397",
+    "lat": 40.70218,
+    "lng": -73.94323
+  },
+  {
+    "source": "aba",
+    "name": "We Care Applied Behavior Analysis",
+    "listedName": "WE CARE APPLIED BEHAVIOR ANALYSIS",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08335531.",
+    "address": "1781 W 13th St Apt 1f, Brooklyn, NY, 11223",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(718) 753-2648",
+    "lat": 40.60322,
+    "lng": -73.98535
+  },
+  {
+    "source": "aba",
+    "name": "Westview Applied Behavioral Analyst",
+    "listedName": "WESTVIEW APPLIED BEHAVIORAL ANALYST",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07897616.",
+    "address": "43 Westview Rd, Spring Valley, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 517-8808",
+    "lat": 41.14822,
+    "lng": -74.04231
+  },
+  {
+    "source": "aba",
+    "name": "Wonder Care Applied Behavior Analysis",
+    "listedName": "WONDER CARE APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08020275.",
+    "address": "182 Webster Ave, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(646) 939-6966",
+    "lat": 40.631356927926,
+    "lng": -73.973765651169
+  },
+  {
+    "source": "aba",
+    "name": "Yehuda Neustadt Applied Behavior Analysis",
+    "listedName": "YEHUDA NEUSTADT APPLIED BEHAVIOR ANALYSIS P.C.",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07790072.",
+    "address": "5 Eisenhower Ave, Spring Valley, NY, 10977",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(845) 826-0228",
+    "lat": 41.137524883306,
+    "lng": -74.030360705501
+  },
+  {
+    "source": "aba",
+    "name": "Yes I Can Licensed Behavior Analyst",
+    "listedName": "YES I CAN LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07670684.",
+    "address": "5309 18th Ave Ste 300, Brooklyn, NY, 11204",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "serves": [
+      "Brooklyn",
+      "Region 3"
+    ],
+    "phone": "(718) 370-3033",
+    "lat": 40.62591,
+    "lng": -73.98324
+  },
+  {
+    "source": "aba",
+    "name": "Yesod Licensed Behavior Analyst",
+    "listedName": "YESOD LICENSED BEHAVIOR ANALYST PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 07570189.",
+    "address": "131 Parkville Ave, Brooklyn, NY, 11230",
+    "region": "Brooklyn",
+    "county": "Kings",
+    "phone": "(917) 995-2822",
+    "lat": 40.6301,
+    "lng": -73.97328
+  },
+  {
+    "source": "aba",
+    "name": "Youngbin Kim Licensed Behavior Analyst",
+    "listedName": "YOUNGBIN KIM, LICENSED BEHAVIOR ANALYST, PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08320050.",
+    "address": "4610 Center Blvd Apt 916, Long Island City, NY, 11109",
+    "region": "Queens",
+    "county": "Queens",
+    "phone": "(917) 259-6652",
+    "lat": 40.74663,
+    "lng": -73.95652
+  },
+  {
+    "source": "aba",
+    "name": "Zachor Applied Behavior Analysis",
+    "listedName": "ZACHOR APPLIED BEHAVIOR ANALYSIS PLLC",
+    "services": [
+      "ABA Therapy (Straight Medicaid)"
+    ],
+    "detail": "Applied behavior analysis (ABA). Accepts straight (fee-for-service) Medicaid. For managed Medicaid, ask whether they are in your health plan's network. Medicaid ID 08319160.",
+    "address": "386 Route 59 Ste 101, Monsey, NY, 10952",
+    "region": "Region 3",
+    "county": "Rockland",
+    "phone": "(646) 894-4814",
+    "lat": 41.11057,
+    "lng": -74.09368
+  }
+]

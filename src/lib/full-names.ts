@@ -52,6 +52,10 @@ const WORDS: Record<string, string> = {
   NE: "Northeast", SE: "Southeast", SO: "Southern", UCP: "United Cerebral Palsy", UCPA: "United Cerebral Palsy Association",
   CP: "Cerebral Palsy", DC: "Developmental Center", DDSO: "Developmental Disabilities Services Office",
   DDSOO: "Developmental Disabilities State Operations Office", SUNY: "State University of New York",
+  ABA: "Applied Behavior Analysis", PT: "Physical Therapy", OT: "Occupational Therapy", SLP: "Speech-Language Pathology",
+  LMSW: "Licensed Master Social Work", LCSW: "Licensed Clinical Social Work",
+  // spelling mistakes in the source lists
+  LISENCED: "Licensed", ANYLASIS: "Analysis", SRVICES: "Services", LBA: "Licensed Behavior Analyst", BCBA: "Board Certified Behavior Analyst",
   SDTC: "SDTC", FREE: "Family Residences and Essential Enterprises", YM: "Young Men's", YWHA: "Young Women's Hebrew Association", IAHD: "Institute for Applied Human Dynamics",
 };
 
@@ -193,6 +197,8 @@ const KEEP_CAPS = new Set([
   "AABR", "CFS", "CHDFS", "WJCS", "IKAN", "SPARC", "SASI", "COARC", "VACPA", "RCAL", "RICL", "STIC", "ACDS", "AMIC", "ASBM",
   "OLV", "SDTC", "GLOW", "EPIC", "CERC", "LDA", "IRI", "MSC", "WORC", "SKIP", "BRIDGES", "NYSADAC", "II", "III", "IV", "TBI",
   "ADAPT", "AIM", "ARISE", "HALO",
+  // initials that start some practices' names ("ES Licensed Behavior Analysis", "TWL Elevare")
+  "ES", "FP", "HR", "IC", "IS", "JT", "LS", "SG", "SSK", "TWL",
 ]);
 // Small words written in lower case (except at the start)
 const SMALL = new Set(["of", "for", "the", "and", "in", "on", "at", "to", "with", "a", "an", "by"]);
@@ -235,7 +241,7 @@ export function fullName(listed: string): string {
 
   s = s.replace(/\bLONG IS\b/g, "LONG ISLAND").replace(/\(([^)]*\d[^)]*)\)/g, " ").replace(/[()]/g, " ");   // drop "(1956)"-style notes
   let words = s.split(" ").map((w) => w.replace(/\.+$/, "").replace(/^'+|'+$/g, "")).filter(Boolean);
-  words = words.filter((w) => !CORPORATE.has(w) && !MIDDLE_CODES.has(w));
+  words = words.filter((w) => !CORPORATE.has(w) && !MIDDLE_CODES.has(w) && !/^P\.?L\.?L\.?C?\.?C?$|^P\.C$/.test(w));
   // Drop program codes, numbers and "#5"-style site numbers from the end
   while (words.length > 1 && (PROGRAM_CODES.has(words[words.length - 1]) || /^#?\d/.test(words[words.length - 1]))) words.pop();
   // "PEOPLE INC - HCBS IRA 9 SPV": a dash before program codes
@@ -250,6 +256,7 @@ export function fullName(listed: string): string {
   if (movedThe && expanded[0] !== "THE") expanded.unshift("THE");
 
   const name = expanded.map((w, i) => titleWord(w, i === 0)).join(" ")
+    .replace(/(Applied Behavior Analysis)( \1)+/g, "$1")   // "... with ABA Applied Behavior Analysis"
     .replace(/ - /g, " – ").replace(/\s+/g, " ").trim();
   return name;
 }

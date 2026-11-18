@@ -18,6 +18,7 @@ const SOURCE_FILES: Record<DataSource, string> = {
   opwdd: "opwdd-geocoded.json",
   homecare: "homecare-geocoded.json",
   registered: "registered-geocoded.json",
+  aba: "aba-geocoded.json",
   medicaid: "medicaid-geocoded.json",
 };
 
