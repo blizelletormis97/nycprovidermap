@@ -47,6 +47,7 @@
   --src-opwdd: #a68bff;
   --src-medicaid: #3fc1e9;
   --src-homecare: #4fcf8e;
+  --src-registered: #f27fbb;
 
   --shadow: 0 6px 20px rgb(123 97 255 / 0.12);
   --font-display: "Fredoka", "Nunito", system-ui, sans-serif;
@@ -57,7 +58,7 @@
     --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
     --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
     --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad;
+    --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf;
     --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
     color-scheme: dark;
   }
@@ -66,7 +67,7 @@
   --bg: #17142b; --panel: #211c3a; --ink: #f4f0ff; --muted: #b6aed9; --line: #342d58;
   --accent: #a993ff; --accent-ink: #17142b; --focus: #7b61ff;
   --peach: #4c3233; --pink: #4b2c46; --lilac: #393065; --sky: #1f3d55; --mint: #1d473a; --lemon: #4a4327;
-  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad;
+  --src-article16: #ff9f8a; --src-opwdd: #bba5ff; --src-medicaid: #6fd4f6; --src-homecare: #7ee2ad; --src-registered: #f7a3cf;
   --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
   color-scheme: dark;
 }
@@ -259,9 +260,6 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 .leaflet-tile-pane { filter: saturate(0.55) brightness(1.06) contrast(0.94); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .leaflet-tile-pane { filter: invert(1) hue-rotate(200deg) brightness(0.8) contrast(0.85) saturate(0.6); } }
 :root[data-theme="dark"] .leaflet-tile-pane { filter: invert(1) hue-rotate(200deg) brightness(0.8) contrast(0.85) saturate(0.6); }
-/* On high-resolution screens (phones, Retina) tiles overlap by one pixel so no hairline gaps show between them.
-   Not on standard screens, where the overlap itself leaves a visible line */
-@media (min-resolution: 1.5dppx) { .leaflet-tile-container img.leaflet-tile { width: 257px !important; height: 257px !important; } }
 .area-label { color: var(--muted); font-family: var(--font-display); font-size: 13px; font-weight: 600; white-space: nowrap; text-align: center; pointer-events: none; text-shadow: 0 1px 0 var(--panel), 0 0 6px var(--panel); }
 .area-label em { display: block; font-style: normal; font-family: var(--font-body); font-weight: 700; font-size: 11px; }
 .cluster {
@@ -279,6 +277,12 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 }
 #map .leaflet-control-zoom a:hover { background: var(--lilac); color: var(--accent); }
 #map .leaflet-control-zoom a.leaflet-disabled { color: var(--muted); background: var(--panel); opacity: 0.5; }
+/* "Double-click to zoom in" tip: top of the map, fades away after the first zoom */
+.zoom-tip { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 800; pointer-events: none;
+  background: color-mix(in srgb, var(--panel) 92%, transparent); color: var(--ink); box-shadow: var(--shadow);
+  border-radius: 999px; padding: 7px 14px; font-size: 13px; font-weight: 700; text-align: center; width: max-content;
+  max-width: calc(100% - 24px); box-sizing: border-box; transition: opacity 0.6s; }
+.zoom-tip.gone { opacity: 0; }
 /* Keep the map credits clear of the zoom buttons */
 #map .leaflet-bottom.leaflet-right .leaflet-control-attribution { max-width: calc(100vw - 120px); font-size: 11px; line-height: 1.4; }
 .leaflet-control-attribution { background: color-mix(in srgb, var(--panel) 85%, transparent) !important; color: var(--muted) !important; border-radius: 10px 0 0 0; }
@@ -448,6 +452,7 @@ const SOURCES = {
   article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy & IDD evaluations", tint: "--peach" },
   opwdd: { label: "OPWDD agencies", short: "OPWDD agency", note: "Agencies offering Medicaid-funded services", tint: "--lilac" },
   homecare: { label: "Home health agencies", short: "Home health", note: "State-approved to serve OPWDD-eligible people", tint: "--mint" },
+  registered: { label: "Registered therapy practices", short: "Registered practice", note: "Speech, occupational & physical therapy and psychology practices that OPWDD agencies hire", tint: "--pink" },
   medicaid: { label: "Medicaid IDD sites", short: "Medicaid site", note: "Residences, ICFs & day programs", tint: "--sky" },
 };
 // [service key, label, hint]
@@ -457,11 +462,11 @@ const GROUPS = [
   { name: "Home & residential", icon: "i-home", tint: "--peach", types: [["Residential (IRA)", "Group homes (IRA)"], ["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["Family Care", "Family care homes"], ["OPWDD Community Support Site", "Community support sites"], ["Developmental Centers", "Developmental centers"]] },
   { name: "Day & work", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
   { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"], ["Special Needs Home Health", "Home health agencies", "Visits you at home · serves all 7 areas"]] },
-  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"]] },
+  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"], ["OPWDD Registered Therapy Practice", "Registered therapy practices", "Work under contract with OPWDD agencies"]] },
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
-const SOURCE_ORDER = ["article16", "opwdd", "homecare", "medicaid"];
+const SOURCE_ORDER = ["article16", "opwdd", "homecare", "registered", "medicaid"];
 const nf = new Intl.NumberFormat("en-US");
 let colorCache = new Map();
 const css = (name) => {
@@ -515,7 +520,26 @@ const markers = new Map();
 function basemapStyle() {
   return { color: css("--accent"), weight: 2, dashArray: "6 6", opacity: 0.7, fill: false };
 }
+// The map's tiles are 256-pixel squares placed at whole pixels inside the map. If the map box itself starts part-way
+// through a pixel (the header above it is, say, 87.6px tall), every tile edge lands between screen pixels and
+// phones and Retina screens draw a faint line along it. Nudge the map box onto whole pixels.
+function snapMapToPixels() {
+  const el = document.getElementById("map");
+  el.style.transform = "";
+  const r = el.getBoundingClientRect();
+  const top = r.top + window.scrollY, left = r.left + window.scrollX;
+  const dx = Math.round(left) - left, dy = Math.round(top) - top;
+  if (dx || dy) el.style.transform = `translate(${dx}px, ${dy}px)`;
+}
+
 function initMap() {
+  // Move map layers with flat 2D transforms (Leaflet's own setting for browsers without 3D). 3D moves turn every
+  // tile into its own graphics layer, and phones and Retina screens draw faint lines where those layers meet.
+  // Zooming and panning stay animated.
+  L.Browser.ie3d = true;
+  snapMapToPixels();
+  addEventListener("resize", snapMapToPixels);
+  document.fonts?.ready.then(snapMapToPixels);
   // whole zoom levels only: in-between levels stretch the map tiles and leave faint seams between them
   map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 6, maxZoom: 18, zoomSnap: 1 })
     .fitBounds([[40.49, -79.77], [45.02, -71.85]]); // all of New York State
@@ -546,7 +570,55 @@ function initMap() {
     },
   });
   map.addLayer(clusters);
+  addClickZoom();
   renderMap(visible());
+}
+
+// Zoom by clicking the map itself: double-click (or double-tap) zooms in on that spot, which Leaflet does already;
+// right-click (or a two-finger tap on a phone) zooms out around that spot, like Google Maps
+function addClickZoom() {
+  map.on("contextmenu", (e) => map.setZoomAround(e.containerPoint, map.getZoom() - 1));
+
+  const el = map.getContainer();
+  let twoFinger = null;
+  el.addEventListener("touchstart", (e) => {
+    if (e.touches.length === 2) {
+      const [a, b] = e.touches;
+      twoFinger = { at: Date.now(), x: (a.clientX + b.clientX) / 2, y: (a.clientY + b.clientY) / 2, gap: Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY) };
+    } else if (e.touches.length > 2) twoFinger = null;
+  }, { passive: true });
+  el.addEventListener("touchmove", (e) => {
+    // a pinch or a drag, not a tap
+    if (!twoFinger || e.touches.length !== 2) return;
+    const [a, b] = e.touches;
+    const gap = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+    if (Math.abs(gap - twoFinger.gap) > 12 || Math.hypot((a.clientX + b.clientX) / 2 - twoFinger.x, (a.clientY + b.clientY) / 2 - twoFinger.y) > 12) twoFinger = null;
+  }, { passive: true });
+  el.addEventListener("touchend", (e) => {
+    if (twoFinger && e.touches.length === 0 && Date.now() - twoFinger.at < 350) {
+      const box = el.getBoundingClientRect();
+      map.setZoomAround(L.point(twoFinger.x - box.left, twoFinger.y - box.top), map.getZoom() - 1);
+    }
+    if (e.touches.length === 0) twoFinger = null;
+  }, { passive: true });
+
+  // A short tip on the map until the visitor first zooms (remembered on this device)
+  let seen = false;
+  try { seen = localStorage.getItem("zoomTipSeen") === "1"; } catch {}
+  if (seen) return;
+  const touch = matchMedia("(pointer: coarse)").matches;
+  const tip = document.createElement("div");
+  tip.className = "zoom-tip";
+  tip.setAttribute("aria-hidden", "true");
+  tip.textContent = touch ? "Double-tap to zoom in · two-finger tap to zoom out" : "Double-click to zoom in · right-click to zoom out";
+  el.appendChild(tip);
+  const hide = () => {
+    tip.classList.add("gone");
+    setTimeout(() => tip.remove(), 700);
+    try { localStorage.setItem("zoomTipSeen", "1"); } catch {}
+  };
+  map.once("zoomstart", () => map.once("zoomend", hide));
+  setTimeout(() => tip.classList.add("gone"), 9000);
 }
 
 function popupHTML(loc, ps) {
@@ -617,7 +689,7 @@ function renderSidebar(items) {
   $("allAreas").hidden = state.regions.size === REGIONS.length;
 
   // Sources: providers in the selected areas that match services + search
-  const srcCounts = { article16: 0, opwdd: 0, homecare: 0, medicaid: 0 };
+  const srcCounts = Object.fromEntries(SOURCE_ORDER.map((s) => [s, 0]));
   let allCount = 0;
   for (const loc of LOCATIONS) {
     if (!inSelectedRegions(loc)) continue;
@@ -626,7 +698,7 @@ function renderSidebar(items) {
       srcCounts[p.s]++; allCount++;
     }
   }
-  const rainbow = `background:conic-gradient(${SOURCE_ORDER.map((s, i) => `${srcColor(s)} ${i * 120}deg ${(i + 1) * 120}deg`).join(",")})`;
+  const rainbow = `background:conic-gradient(${SOURCE_ORDER.map((s, i) => `${srcColor(s)} ${(i * 360) / SOURCE_ORDER.length}deg ${((i + 1) * 360) / SOURCE_ORDER.length}deg`).join(",")})`;
   $("sources").innerHTML = `<button type="button" class="src" data-source="all" style="--tint:var(--lemon)" aria-pressed="${state.source === "all"}">
       <span class="bubble" style="background:var(--lemon)"><i style="${rainbow}"></i></span><span><b>Everyone</b><small>All kinds of providers</small></span><span class="n">${nf.format(allCount)}</span></button>`
     + SOURCE_ORDER.map((s) => `<button type="button" class="src" data-source="${s}" style="--tint:var(${SOURCES[s].tint})" aria-pressed="${state.source === s}">

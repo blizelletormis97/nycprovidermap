@@ -20,7 +20,8 @@ export function titleCaseAddress(raw?: string): string | undefined {
   if (!s) return undefined;
   if (s !== s.toUpperCase()) return s;
   return s.toLowerCase().replace(/\b([a-z])/g, (m) => m.toUpperCase())
-    .replace(/\b(\d+)(St|Nd|Rd|Th)\b/g, (_m, n, suf) => n + suf.toLowerCase());
+    .replace(/\b(\d+)(St|Nd|Rd|Th)\b/g, (_m, n, suf) => n + suf.toLowerCase())
+    .replace(/\b(Route|Rte) (\d+)([nsew])\b/gi, (_m, r, n, d) => `${r} ${n}${d.toUpperCase()}`); // "Route 9W"
 }
 
 const STREET_WORDS: Record<string, string> = {

@@ -141,6 +141,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
       t("Article 16 Clinic", "Article 16 Clinic (main site)"),
       t("Article 16 Satellite"),
       t("OPWDD State-Operated Clinic"),
+      t("OPWDD Registered Therapy Practice", "Registered therapy practices (contract with OPWDD agencies)"),
     ],
   },
 ];
@@ -148,7 +149,7 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
 export const ALL_SERVICE_KEYS: string[] = SERVICE_GROUPS.flatMap((g) => g.types.map((type) => type.key));
 export const KNOWN_SERVICE_KEYS = new Set(ALL_SERVICE_KEYS);
 
-export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "homecare", "medicaid"];
+export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "homecare", "registered", "medicaid"];
 
 // Services whose providers also complete IDD evaluations (psychological, psychosocial and OPWDD eligibility).
 // Article 16 clinics are certified to provide psychology services including evaluations.
@@ -173,6 +174,12 @@ export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: strin
     longLabel: "Home Health Agencies (OPWDD special needs)",
     className: "bg-emerald-500/20 text-emerald-700 dark:text-emerald-400",
     color: "#4fcf8e",
+  },
+  registered: {
+    label: "Registered",
+    longLabel: "OPWDD Registered Therapy Practices",
+    className: "bg-pink-500/20 text-pink-700 dark:text-pink-400",
+    color: "#f27fbb",
   },
   medicaid: {
     label: "Medicaid IDD",

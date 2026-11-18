@@ -27,7 +27,8 @@ Schuyler, Yates, Hamilton, Lewis, Greene, Schoharie) follow OPWDD's regional str
 - Click a location to see every provider there, with a website link when one is known, program details and a directions link (the public site
   leaves out phone numbers; they stay in the data files)
 - Providers at the same building are grouped onto one pin, even across datasets
-- Zoom and "locate me" controls, mobile-friendly layout, dark/light theme
+- Zoom buttons, plus zoom by clicking the map: double-click (double-tap) zooms in, right-click (two-finger tap) zooms out
+- Mobile-friendly layout, dark/light theme
 
 ## Tech Stack
 
@@ -137,6 +138,18 @@ Long Island; Americare also Region 3), Datahr Home Health Care and Willcare (Reg
 Services-Certified (Region 1). Agencies on the DOH list approved for other populations (e.g. medically fragile children)
 are left out.
 
+### Registered Therapy Practices (OPWDD Registered Provider List)
+
+**Source**: [OPWDD Registered Provider List](https://opwdd.ny.gov/providers/service-providers/registered-provider-list),
+office addresses from the federal [NPI Registry](https://npiregistry.cms.hhs.gov/)
+
+Companies that OPWDD-certified agencies may hire under contract (14 NYCRR 633.22(o)). Only the speech, occupational
+and physical therapy, psychology and psychiatry practices are shown; the staffing agencies and bus or ambulette
+companies on the list are not. The list gives names only, so each practice was matched by hand to its National
+Provider Identifier (`PRACTICES` in `src/lib/seed-registered.ts`); the pin is its NPI office address, and its NY
+Medicaid enrollment and the areas it serves come from the Medicaid Enrolled Provider Listing. Six practices could not
+be matched with confidence and are left out. Popups say to call and ask whether the practice also sees families directly.
+
 ### Evaluations
 
 The **IDD clinic evaluations** filter shows the Article 16 clinics and OPWDD state clinics, which are certified to
@@ -164,6 +177,9 @@ bun run src/lib/seed-article16.ts
 
 # Check Article 16 addresses against current Medicaid clinic enrollments (flags the rest "call to confirm")
 bun run src/lib/verify-article16.ts
+
+# OPWDD registered therapy practices (OPWDD list + NPI Registry + Medicaid listing)
+bun run src/lib/seed-registered.ts
 
 # Spell out provider names in full and add websites from the OPWDD agency directory (run last)
 bun run src/lib/link-agencies.ts
@@ -208,7 +224,8 @@ src/
 | OPWDD agencies | 343 |
 | Medicaid-enrolled IDD sites | 1,458 |
 | Home health agencies (OPWDD special needs) | 6 |
-| **Total** | **2,209** at 1,401 map locations |
+| Registered therapy practices (OPWDD Registered Provider List) | 19 |
+| **Total** | **2,228** at 1,417 map locations |
 
 | Area | Map locations |
 |------|-----------|
