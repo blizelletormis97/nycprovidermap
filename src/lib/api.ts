@@ -11,7 +11,7 @@ import type {
 } from "@/types/providers";
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
-import { EVALUATION_SERVICES, KNOWN_SERVICE_KEYS, SOURCE_ORDER } from "./constants";
+import { HIDDEN_SERVICES, KNOWN_SERVICE_KEYS, SOURCE_ORDER } from "./constants";
 
 const SOURCE_FILES: Record<DataSource, string> = {
   article16: "article16-geocoded.json",
@@ -46,11 +46,9 @@ export function getCachedProviders(sourceFilter?: DataSource): CachedProvider[] 
   return sources.flatMap(loadSource);
 }
 
-/** Service keys for a provider, plus "IDD Clinic Evaluations" for clinics that complete IDD evaluations. */
+/** Service keys for a provider, without the services the map does not show. */
 function servicesFor(provider: CachedProvider): string[] {
-  const services = provider.services.map(normalizeServiceType);
-  if (services.some((s) => EVALUATION_SERVICES.has(s))) services.push("IDD Clinic Evaluations");
-  return Array.from(new Set(services));
+  return Array.from(new Set(provider.services.filter((s) => !HIDDEN_SERVICES.has(s)).map(normalizeServiceType)));
 }
 
 /** Seed scripts store service category keys directly; unknown values are title-cased so they still display. */
@@ -118,7 +116,9 @@ export function getLocationIndex(): Map<string, LocationIndexEntry> {
       id = locationKey(provider.lat, provider.lng);
       if (byAddress) idsByAddress.set(byAddress, id);
     }
-    const type = servicesFor(provider).join(", ");
+    const services = servicesFor(provider);
+    if (services.length === 0) continue; // offers only services the map does not show
+    const type = services.join(", ");
 
     // Drop exact duplicate listings (same source, name and services at the same spot)
     const dedupeKey = `${id}|${provider.source}|${provider.name.toUpperCase()}|${type}|${provider.detail ?? ""}`;

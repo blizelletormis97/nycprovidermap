@@ -100,11 +100,8 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
     id: "residential",
     heading: "Residential",
     types: [
-      t("Residential (IRA)", "Residential (IRA / group home)"),
       t("Intermediate Care (ICF)", "Intermediate Care (ICF/IID)"),
-      t("Family Care"),
       t("OPWDD Community Support Site", "OPWDD Community Support Site"),
-      t("Developmental Centers"),
     ],
   },
   {
@@ -136,13 +133,6 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
     ],
   },
   {
-    id: "evaluations",
-    heading: "Evaluations",
-    types: [
-      t("IDD Clinic Evaluations", "IDD clinic evaluations (Article 16 & state clinics)"),
-    ],
-  },
-  {
     id: "clinic",
     heading: "Clinical Services",
     types: [
@@ -159,9 +149,9 @@ export const KNOWN_SERVICE_KEYS = new Set(ALL_SERVICE_KEYS);
 
 export const SOURCE_ORDER: DataSource[] = ["article16", "opwdd", "homecare", "registered", "aba", "medicaid"];
 
-// Services whose providers also complete IDD evaluations (psychological, psychosocial and OPWDD eligibility).
-// Article 16 clinics are certified to provide psychology services including evaluations.
-export const EVALUATION_SERVICES = new Set(["Article 16 Clinic", "Article 16 Satellite", "OPWDD State-Operated Clinic"]);
+// Services the map does not show (removed at the owner's request): group homes, family care homes and developmental
+// centers. A provider offering only these is left off the map.
+export const HIDDEN_SERVICES = new Set(["Residential (IRA)", "Family Care", "Developmental Centers"]);
 
 // Source configuration: badge classes (full strings for Tailwind) and map marker colors
 export const SOURCE_CONFIG: Record<DataSource, { label: string; longLabel: string; className: string; color: string }> = {
