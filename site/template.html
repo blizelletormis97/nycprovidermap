@@ -143,19 +143,6 @@ button { font: inherit; color: inherit; }
   transition: transform 0.15s, background 0.15s;
 }
 .theme-toggle:hover { transform: translateY(-1px) rotate(-8deg); }
-/* Language menu: a globe and a plain select, styled like the theme toggle */
-.lang { position: relative; flex: none; display: flex; align-items: center; height: 42px; border-radius: 14px;
-  background: var(--lilac); color: var(--accent); }
-.lang .icon { position: absolute; inset-inline-start: 11px; width: 20px; height: 20px; pointer-events: none; }
-.lang select { appearance: none; -webkit-appearance: none; height: 42px; border: 0; border-radius: 14px; background: transparent;
-  color: var(--ink); font: inherit; font-weight: 800; font-size: 14px; padding-inline: 38px 14px; cursor: pointer; max-width: 168px; }
-.lang select:focus-visible { outline: 3px solid var(--focus); }
-.lang option { color: #2b2550; background: #fff; }
-/* Phones: just the globe (the menu still lists every language by name) */
-@media (max-width: 640px) {
-  .lang select { width: 44px; padding-inline: 0; color: transparent; }
-  .lang .icon { inset-inline-start: 12px; }
-}
 .theme-toggle .icon { width: 22px; height: 22px; }
 .theme-toggle .moon { display: none; }
 .theme-toggle[data-mode="dark"] .sun { display: none; }
@@ -182,17 +169,17 @@ button { font: inherit; color: inherit; }
 /* ---------- search ---------- */
 .searchrow { display: flex; gap: 8px; }
 .search { position: relative; flex: 1; min-width: 0; }
-.search .icon { position: absolute; inset-inline-start: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+.search .icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
 .search input {
   width: 100%; box-sizing: border-box; height: 46px; border-radius: 999px; border: 2px solid var(--line);
-  background: var(--panel); color: var(--ink); font: inherit; font-size: 15px; padding-block: 0; padding-inline: 42px 40px;
+  background: var(--panel); color: var(--ink); font: inherit; font-size: 15px; padding: 0 40px 0 42px;
   transition: border-color 0.15s;
 }
 .search input::placeholder { color: var(--muted); }
 .search input:focus { outline: none; border-color: var(--accent); }
 .search input::-webkit-search-cancel-button { display: none; }
 .clear {
-  position: absolute; inset-inline-end: 8px; top: 50%; transform: translateY(-50%); width: 30px; height: 30px;
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 30px; height: 30px;
   border: 0; border-radius: 50%; background: var(--lilac); cursor: pointer; display: grid; place-items: center;
 }
 .clear .icon { position: static; transform: none; width: 14px; height: 14px; color: var(--ink); }
@@ -366,12 +353,11 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 <header class="top">
   <span class="logo" aria-hidden="true"><svg class="icon"><use href="#i-pin"/></svg></span>
   <div class="brand">
-    <h1 id="siteTitle">IDD Medicaid Provider Finder</h1>
-    <p id="tagline">Find intellectual &amp; developmental disability services that accept <b>Medicaid</b>, all across New York State.</p>
+    <h1>IDD Medicaid Provider Finder</h1>
+    <p>Find intellectual &amp; developmental disability services that accept <b>Medicaid</b>, all across New York State.</p>
   </div>
   <span class="total" id="total"></span>
   <button id="aboutBtn" class="about-btn" type="button" aria-haspopup="dialog" hidden><svg class="icon" aria-hidden="true"><use href="#i-heart-solo"/></svg><span>About us</span></button>
-  <label class="lang" title="Language"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><select id="langSelect" aria-label="Language"></select></label>
   <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
     <svg class="icon sun" aria-hidden="true"><use href="#i-sun-theme"/></svg>
     <svg class="icon moon" aria-hidden="true"><use href="#i-moon"/></svg>
@@ -405,23 +391,28 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
     </section>
 
     <section>
-      <h2 class="title"><span id="whereTitle">Where?</span> <button id="allAreas" class="link" type="button" hidden>Show all regions</button></h2>
+      <h2 class="title">Where? <button id="allAreas" class="link" type="button" hidden>Show all regions</button></h2>
       <div class="chips" id="areas"></div>
     </section>
 
     <section>
-      <h2 class="title" id="whichKindTitle">Which kind of provider?</h2>
+      <h2 class="title">Which kind of provider?</h2>
       <div class="sources" id="sources"></div>
     </section>
 
     <section>
-      <h2 class="title"><span id="whatServicesTitle">What services?</span> <span><button id="svcAll" class="link" type="button">All</button><button id="svcNone" class="link" type="button">None</button></span></h2>
+      <h2 class="title">What services? <span><button id="svcAll" class="link" type="button">All</button><button id="svcNone" class="link" type="button">None</button></span></h2>
       <div class="groups" id="groups"></div>
     </section>
 
-    <p class="note" id="goodToKnow"></p>
+    <p class="note">
+      <b>Good to know:</b> the IDD providers here are tied to Medicaid. Data comes from OPWDD's Article 16
+      clinic list, the NY Open Data directory of OPWDD agencies, the NY Medicaid Enrolled Provider Listing and the
+      NYS Department of Health list of special needs home health agencies,
+      refreshed <span id="dataDate"></span>. Please check with each provider to confirm Medicaid acceptance and openings before referring.
+    </p>
   </aside>
-  <div class="mapwrap"><div id="map" dir="ltr" role="region" aria-label="Map of provider locations"></div></div>
+  <div class="mapwrap"><div id="map" role="region" aria-label="Map of provider locations"></div></div>
 </div>
 
 <!-- Data as JSON: parsed with JSON.parse, which is much faster than an equivalent JavaScript literal -->
@@ -436,58 +427,55 @@ const BASEMAP = JSON.parse(document.getElementById("basemap-data").textContent);
 const DATA_DATE = /*__DATA_DATE__*/"";
 const ABOUT = /*__ABOUT__*/null;
 
-// ---------- languages ----------
-// English is built in; the other languages (New York State's 12 language-access languages) load when chosen.
-const I18N = /*__I18N__*/{ en: {}, langs: [] };
-let lang = "en";
-let dict = I18N.en;
-const dictCache = { en: I18N.en };
-/** Text for a key in the current language (English if missing), with {placeholders} filled in */
-const t = (key, vars = {}) => (dict[key] ?? I18N.en[key] ?? key).replace(/\{(\w+)\}/g, (_m, v) => (vars[v] ?? ""));
-const regionName = (r) => (/^Region (\d)$/.test(r) ? t("region", { n: r.slice(-1) }) : r);
-const pageDir = () => (I18N.langs.find((l) => l.code === lang)?.dir ?? "ltr");
-
 // The area filter shows the five OPWDD regions, in order. Each location's map area (a NYC borough, a Long Island
 // county or an upstate region) belongs to one of them.
 const REGIONS = ["Region 1", "Region 2", "Region 3", "Region 4", "Region 5"];
 const REGION_TINTS = { "Region 1": "--pink", "Region 2": "--peach", "Region 3": "--lemon", "Region 4": "--mint", "Region 5": "--sky" };
-const regionInfo = (r) => t(`regionInfo${r.slice(-1)}`);
+const REGION_INFO = {
+  "Region 1": "Western NY & Finger Lakes",
+  "Region 2": "Central NY, Broome & Sunmount",
+  "Region 3": "Capital District, Hudson Valley & Taconic",
+  "Region 4": "Metro NY, Brooklyn, Bernard M. Fineson & Staten Island",
+  "Region 5": "Nassau & Suffolk counties",
+};
 const AREA_REGION = {
   Manhattan: "Region 4", Brooklyn: "Region 4", Bronx: "Region 4", Queens: "Region 4", "Staten Island": "Region 4",
   Nassau: "Region 5", Suffolk: "Region 5", "Region 1": "Region 1", "Region 2": "Region 2", "Region 3": "Region 3",
 };
 // Label positions for the regions on the statewide view (Regions 4 and 5 are labeled offshore, clear of the pins)
 const REGION_LABELS = [
-  { at: [42.3, -78.6], name: "Region 1", sub: true },
-  { at: [43.55, -75.35], name: "Region 2", sub: true },
-  { at: [42.15, -74.25], name: "Region 3", sub: true },
-  { at: [40.4, -74.05], name: "Region 4", sub: false },
-  { at: [40.55, -72.85], name: "Region 5", sub: false },
+  { at: [42.3, -78.6], name: "Region 1", sub: REGION_INFO["Region 1"] },
+  { at: [43.55, -75.35], name: "Region 2", sub: REGION_INFO["Region 2"] },
+  { at: [42.15, -74.25], name: "Region 3", sub: REGION_INFO["Region 3"] },
+  { at: [40.4, -74.05], name: "Region 4", sub: "" },
+  { at: [40.55, -72.85], name: "Region 5", sub: "" },
 ];
-// Provider types: text comes from the language files (src.<key>, src.<key>.short, src.<key>.note)
 const SOURCES = {
-  article16: { tint: "--peach" }, opwdd: { tint: "--lilac" }, homecare: { tint: "--mint" }, cdpap: { tint: "--mint" },
-  aba: { tint: "--lemon" }, registered: { tint: "--pink" }, medicaid: { tint: "--sky" },
+  article16: { label: "Article 16 clinics", short: "Article 16", note: "Therapy & IDD evaluations", tint: "--peach" },
+  opwdd: { label: "OPWDD agencies", short: "OPWDD agency", note: "Agencies offering Medicaid-funded services", tint: "--lilac" },
+  homecare: { label: "Home health agencies", short: "Home health", note: "State-approved to serve OPWDD-eligible people", tint: "--mint" },
+  cdpap: { label: "CDPAP facilitators (PPL)", short: "CDPAP (PPL)", note: "Help with consumer directed personal assistance through PPL", tint: "--mint" },
+  aba: { label: "ABA therapy", short: "ABA therapy", note: "Applied behavior analysis practices enrolled in Medicaid", tint: "--lemon" },
+  registered: { label: "Registered therapy practices", short: "Registered practice", note: "Speech, occupational & physical therapy and psychology practices that OPWDD agencies hire", tint: "--pink" },
+  medicaid: { label: "Medicaid IDD sites", short: "Medicaid site", note: "Residences, ICFs & day programs", tint: "--sky" },
 };
-const srcLabel = (s) => t(`src.${s}`), srcShort = (s) => t(`src.${s}.short`), srcNote = (s) => t(`src.${s}.note`);
-// [service key in the data, label text key, hint text key]
+// [service key, label, hint]
 const GROUPS = [
-  { name: "grp.cdpap", icon: "i-hands", tint: "--mint", types: [
-    ["CDPAP Facilitator (Developmental Disabilities Focus)", "svc.cdpapIdd", "svc.cdpapHint"],
-    ["CDPAP Facilitator", "svc.cdpapOther", "svc.cdpapHint"]] },
-  { name: "grp.aba", icon: "i-heart-solo", tint: "--lilac", types: [
-    ["ABA Therapy (Straight Medicaid)", "svc.abaStraight", "svc.abaStraightHint"],
-    ["ABA Therapy (Managed Medicaid Only)", "svc.abaManaged", "svc.abaManagedHint"]] },
-  { name: "grp.home", icon: "i-home", tint: "--peach", types: [["Intermediate Care (ICF)", "svc.icf"], ["OPWDD Community Support Site", "svc.communitySupport"]] },
-  { name: "grp.day", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "svc.dayHab"], ["Prevocational", "svc.prevoc"], ["Supported Employment", "svc.supportedEmployment"]] },
-  { name: "grp.community", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "svc.communityHab"], ["Individual Support (ISS)", "svc.iss"], ["Self-Direction", "svc.selfDirection"], ["Family Support", "svc.familySupport"], ["Special Needs Home Health", "svc.homeHealth", "svc.homeHealthHint"]] },
-  { name: "grp.clinics", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "svc.a16Main"], ["Article 16 Satellite", "svc.a16Satellite"], ["OPWDD State-Operated Clinic", "svc.stateClinic"], ["OPWDD Registered Therapy Practice", "svc.registered", "svc.registeredHint"]] },
+  { name: "CDPAP (PPL)", icon: "i-hands", tint: "--mint", types: [
+    ["CDPAP Facilitator (Developmental Disabilities Focus)", "Developmental disabilities focus", "Authorized PPL facilitators"],
+    ["CDPAP Facilitator", "All other facilitators", "Authorized PPL facilitators"]] },
+  { name: "ABA therapy", icon: "i-heart-solo", tint: "--lilac", types: [
+    ["ABA Therapy (Straight Medicaid)", "Accepts straight Medicaid", "Fee-for-service; ask about your managed care plan"],
+    ["ABA Therapy (Managed Medicaid Only)", "Managed Medicaid plans only", "Enrolled only for managed care plans"]] },
+  { name: "Home & residential", icon: "i-home", tint: "--peach", types: [["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["OPWDD Community Support Site", "Community support sites"]] },
+  { name: "Day & work", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
+  { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"], ["Special Needs Home Health", "Home health agencies", "Visits you at home · serves all 7 areas"]] },
+  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"], ["OPWDD Registered Therapy Practice", "Registered therapy practices", "Work under contract with OPWDD agencies"]] },
 ];
-const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((x) => x[0]));
-const LABEL_KEYS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((x) => [x[0], x[1]])));
-const serviceLabel = (k) => (LABEL_KEYS[k] ? t(LABEL_KEYS[k]) : k);
+const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
+const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
 const SOURCE_ORDER = ["article16", "opwdd", "homecare", "cdpap", "registered", "aba", "medicaid"];
-let nf = new Intl.NumberFormat("en-US");
+const nf = new Intl.NumberFormat("en-US");
 let colorCache = new Map();
 const css = (name) => {
   if (!colorCache.has(name)) colorCache.set(name, getComputedStyle(document.documentElement).getPropertyValue(name).trim());
@@ -552,21 +540,6 @@ function snapMapToPixels() {
   if (dx || dy) el.style.transform = `translate(${dx}px, ${dy}px)`;
 }
 
-function regionLabelIcon(r) {
-  return L.divIcon({ className: "region-label", html: `${esc(regionName(r.name))}${r.sub ? `<em>${esc(regionInfo(r.name))}</em>` : ""}`, iconSize: [190, 36], iconAnchor: [95, 18] });
-}
-// Map text that is set once when the map is made: region names and the zoom buttons
-function translateMap() {
-  if (!map) return;
-  for (const r of REGION_LABELS) r.marker?.setIcon(regionLabelIcon(r));
-  const zin = map.getContainer().querySelector(".leaflet-control-zoom-in"), zout = map.getContainer().querySelector(".leaflet-control-zoom-out");
-  if (zin) { zin.title = t("zoomIn"); zin.setAttribute("aria-label", t("zoomIn")); }
-  if (zout) { zout.title = t("zoomOut"); zout.setAttribute("aria-label", t("zoomOut")); }
-  const tip = map.getContainer().querySelector(".zoom-tip");
-  if (tip) tip.textContent = t(matchMedia("(pointer: coarse)").matches ? "zoomTipTouch" : "zoomTipMouse");
-  map.closePopup();
-}
-
 function initMap() {
   // Move map layers with flat 2D transforms (Leaflet's own setting for browsers without 3D). 3D moves turn every
   // tile into its own graphics layer, and phones and Retina screens draw faint lines where those layers meet.
@@ -578,7 +551,7 @@ function initMap() {
   // whole zoom levels only: in-between levels stretch the map tiles and leave faint seams between them
   map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 6, maxZoom: 18, zoomSnap: 1 })
     .fitBounds([[40.49, -79.77], [45.02, -71.85]]); // all of New York State
-  L.control.zoom({ position: "bottomleft", zoomInTitle: t("zoomIn"), zoomOutTitle: t("zoomOut") }).addTo(map);
+  L.control.zoom({ position: "bottomleft", zoomInTitle: "Zoom in", zoomOutTitle: "Zoom out" }).addTo(map);
   map.attributionControl.setPrefix(false).addAttribution("Boundaries: U.S. Census TIGER via data.ny.gov");
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
@@ -586,7 +559,10 @@ function initMap() {
   }).addTo(map);
   baseLayer = L.geoJSON(BASEMAP, { style: basemapStyle, interactive: false }).addTo(map);
   for (const r of REGION_LABELS) {
-    r.marker = L.marker(r.at, { interactive: false, keyboard: false, icon: regionLabelIcon(r) }).addTo(map);
+    L.marker(r.at, {
+      interactive: false, keyboard: false,
+      icon: L.divIcon({ className: "region-label", html: `${r.name}${r.sub ? `<em>${esc(r.sub)}</em>` : ""}`, iconSize: [190, 36], iconAnchor: [95, 18] }),
+    }).addTo(map);
   }
   // Region names only on the zoomed-out statewide view, where they don't cover pins
   // region names on the zoomed-out statewide view, on screens wide enough that they don't cover the pins
@@ -642,7 +618,7 @@ function addClickZoom() {
   const tip = document.createElement("div");
   tip.className = "zoom-tip";
   tip.setAttribute("aria-hidden", "true");
-  tip.textContent = t(touch ? "zoomTipTouch" : "zoomTipMouse");
+  tip.textContent = touch ? "Double-tap to zoom in · two-finger tap to zoom out" : "Double-click to zoom in · right-click to zoom out";
   el.appendChild(tip);
   const hide = () => {
     tip.classList.add("gone");
@@ -657,30 +633,30 @@ function popupHTML(loc, ps) {
   const hidden = loc.p.length - ps.length;
   const sources = SOURCE_ORDER.filter((s) => loc.p.some((p) => p.s === s));
   const dir = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(loc.a)}`;
-  return `<div class="pop" dir="${pageDir()}">
+  return `<div class="pop">
     <div class="head" style="--tint:var(${SOURCES[loc.primary].tint})">
       <h4>${esc(loc.a)}</h4>
-      <div class="meta">${sources.map((s) => `<span class="badge"><i style="background:${srcColor(s)}"></i>${esc(srcShort(s))}</span>`).join("")}
-        <span class="badge">${esc(`${regionName(AREA_REGION[loc.r])}${loc.co ? ` · ${t("county", { name: loc.co })}` : ""}`)}</span></div>
+      <div class="meta">${sources.map((s) => `<span class="badge"><i style="background:${srcColor(s)}"></i>${SOURCES[s].short}</span>`).join("")}
+        <span class="badge">${esc(`${AREA_REGION[loc.r]}${loc.co ? ` · ${loc.co} County` : ""}`)}</span></div>
     </div>
-    <a class="dir" href="${dir}" target="_blank" rel="noopener noreferrer">${icon("i-go")}${esc(t("directions"))}</a>
+    <a class="dir" href="${dir}" target="_blank" rel="noopener noreferrer">${icon("i-go")}Get directions</a>
     <ul>${ps.map((p) => `<li><span class="dot" style="background:${srcColor(p.s)}"></span>
       <b>${p.w ? `<a href="${esc(/^https?:/i.test(p.w) ? p.w : "https://" + p.w)}" target="_blank" rel="noopener noreferrer">${esc(p.n)}</a>` : esc(p.n)}</b>
-      <div>${esc(p.types.map(serviceLabel).join(", "))}</div>
+      <div>${esc(p.types.map((t) => LABELS[t] || t).join(", "))}</div>
       ${p.d ? `<div>${esc(p.d)}</div>` : ""}
       ${p.w ? `<div>${websiteLink(p.w)}</div>` : ""}
       ${p.sv ? `<div>${servesText(p)}</div>` : ""}
-      ${p.o ? `<div><span class="office">${esc(t("officeAddress"))}</span></div>` : ""}
-      ${p.u ? `<div><span class="office">${esc(t("unconfirmed"))}</span></div>` : ""}</li>`).join("")}</ul>
-    ${hidden > 0 ? `<div class="hidden-note">${esc(hidden === 1 ? t("hiddenOne") : t("hiddenMany", { n: nf.format(hidden) }))}</div>` : ""}
+      ${p.o ? `<div><span class="office">Office or billing address</span></div>` : ""}
+      ${p.u ? `<div><span class="office">Address from OPWDD's 2024 list, not confirmed in current Medicaid data. Check with the provider to confirm.</span></div>` : ""}</li>`).join("")}</ul>
+    ${hidden > 0 ? `<div class="hidden-note">${hidden} more provider${hidden > 1 ? "s" : ""} here hidden by your filters.</div>` : ""}
   </div>`;
 }
 
 // Areas a provider serves beyond its office: all five OPWDD regions read as "all of New York State"
 function servesText(p) {
   const regions = [...new Set(p.sv.map((a) => AREA_REGION[a]))];
-  const where = regions.length === REGIONS.length ? t("allNY") : p.sv.map(regionName).join(", ");
-  return esc(t(p.s === "cdpap" ? "serves" : "visits", { where }));
+  const where = regions.length === REGIONS.length ? "all of New York State" : p.sv.join(", ");
+  return esc(p.s === "cdpap" ? `Serves ${where}` : `Visits people at home in: ${where}`);
 }
 
 // "Website" pill under each provider. State-run sites and the DOH profile page get plain-language labels.
@@ -688,9 +664,9 @@ function websiteLink(w) {
   const url = /^https?:/i.test(w) ? w : "https://" + w;
   let label;
   try { label = new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
-  if (label === "opwdd.ny.gov") label = t("websiteOpwdd");
-  else if (label === "profiles.health.ny.gov") label = t("websiteDoh");
-  else label = t("website", { host: label });
+  if (label === "opwdd.ny.gov") label = "OPWDD (state-run) website";
+  else if (label === "profiles.health.ny.gov") label = "NYS Health Department profile";
+  else label = `Website: ${label}`;
   return `<a class="site" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${icon("i-globe")}${esc(label)}</a>`;
 }
 
@@ -715,15 +691,15 @@ const $ = (id) => document.getElementById(id);
 function renderSidebar(items) {
   const ts = terms();
   const providerCount = items.reduce((n, it) => n + it.ps.length, 0);
-  $("summary").innerHTML = t("summary", { places: nf.format(items.length), providers: nf.format(providerCount) })
-    + (items.length === 0 ? `<span class="empty-note">${esc(t("noMatches"))}</span>` : "");
+  $("summary").innerHTML = `Showing <b>${nf.format(items.length)}</b> places with <b>${nf.format(providerCount)}</b> providers`
+    + (items.length === 0 ? `<span class="empty-note">No matches yet. Try clearing the search, choosing more areas, or turning on more services.</span>` : "");
 
   // Areas: locations that match every other filter
   const areaCounts = Object.fromEntries(REGIONS.map((r) => [r, 0]));
   for (const loc of LOCATIONS) if (loc.p.some((p) => providerMatches(p, loc, ts))) locRegions(loc).forEach((r) => areaCounts[r]++);
   $("areas").innerHTML = `<div class="chips">${REGIONS.map((r) => `<button type="button" class="chip wide" data-region="${r}" style="--tint:var(${REGION_TINTS[r]})" aria-pressed="${state.regions.has(r)}">`
     + `<svg class="icon tick" aria-hidden="true"><use href="#i-check"/></svg>`
-    + `<span class="txt">${esc(regionName(r))}<span class="sub">${esc(regionInfo(r))}</span></span>`
+    + `<span class="txt">${r}<span class="sub">${esc(REGION_INFO[r])}</span></span>`
     + `<span class="n">${nf.format(areaCounts[r])}</span></button>`).join("")}</div>`;
   $("allAreas").hidden = state.regions.size === REGIONS.length;
 
@@ -739,10 +715,10 @@ function renderSidebar(items) {
   }
   const rainbow = `background:conic-gradient(${SOURCE_ORDER.map((s, i) => `${srcColor(s)} ${(i * 360) / SOURCE_ORDER.length}deg ${((i + 1) * 360) / SOURCE_ORDER.length}deg`).join(",")})`;
   $("sources").innerHTML = `<button type="button" class="src" data-source="all" style="--tint:var(--lemon)" aria-pressed="${state.source === "all"}">
-      <span class="bubble" style="background:var(--lemon)"><i style="${rainbow}"></i></span><span><b>${esc(t("everyone"))}</b><small>${esc(t("everyoneNote"))}</small></span><span class="n">${nf.format(allCount)}</span></button>`
+      <span class="bubble" style="background:var(--lemon)"><i style="${rainbow}"></i></span><span><b>Everyone</b><small>All kinds of providers</small></span><span class="n">${nf.format(allCount)}</span></button>`
     + SOURCE_ORDER.map((s) => `<button type="button" class="src" data-source="${s}" style="--tint:var(${SOURCES[s].tint})" aria-pressed="${state.source === s}">
         <span class="bubble" style="background:var(${SOURCES[s].tint})"><i style="background:${srcColor(s)}"></i></span>
-        <span><b>${esc(srcLabel(s))}</b><small>${esc(srcNote(s))}</small></span><span class="n">${nf.format(srcCounts[s])}</span></button>`).join("");
+        <span><b>${SOURCES[s].label}</b><small>${SOURCES[s].note}</small></span><span class="n">${nf.format(srcCounts[s])}</span></button>`).join("");
 
   // Services: locations in the selected areas/source/search offering each service, and each group
   const typeCounts = Object.fromEntries(ALL_TYPES.map((t) => [t, 0]));
@@ -762,11 +738,11 @@ function renderSidebar(items) {
     const keys = g.types.map((t) => t[0]);
     const on = keys.filter((k) => state.types.has(k)).length;
     return `<div class="group" style="--tint:var(${g.tint})">
-      <h3><span class="gicon">${icon(g.icon)}</span><label for="g${gi}">${esc(t(g.name))}</label>
+      <h3><span class="gicon">${icon(g.icon)}</span><label for="g${gi}">${esc(g.name)}</label>
         <span class="n">${nf.format(groupCounts[gi])}</span>
-        <input type="checkbox" id="g${gi}" data-group="${gi}" ${on === keys.length ? "checked" : ""} aria-label="${esc(t("allOf", { name: t(g.name) }))}"></h3>
+        <input type="checkbox" id="g${gi}" data-group="${gi}" ${on === keys.length ? "checked" : ""} aria-label="All ${esc(g.name)}"></h3>
       ${g.types.map(([k, label, hint], ti) => `<label class="svc ${typeCounts[k] ? "" : "zero"}" for="t${gi}-${ti}"><input type="checkbox" id="t${gi}-${ti}" data-type="${esc(k)}" ${state.types.has(k) ? "checked" : ""}>`
-          + `<span class="txt">${esc(label ? t(label) : k)}${hint ? `<small>${esc(t(hint))}</small>` : ""}</span>`
+          + `<span class="txt">${esc(label || k)}${hint ? `<small>${esc(hint)}</small>` : ""}</span>`
           + `<span class="n">${nf.format(typeCounts[k])}</span></label>`).join("")}
     </div>`;
   }).join("");
@@ -778,7 +754,7 @@ function renderSidebar(items) {
 }
 
 function render() {
-  $("total").textContent = t("total", { n: nf.format(iddProviders) });
+  $("total").textContent = `${nf.format(iddProviders)} IDD providers · all 5 OPWDD regions`;
   const items = visible();
   renderMap(items);
   renderSidebar(items);
@@ -849,8 +825,8 @@ function syncThemeButton() {
   const mode = currentTheme(), next = mode === "dark" ? "light" : "dark";
   const btn = $("themeToggle");
   btn.dataset.mode = mode;
-  btn.setAttribute("aria-label", t(next === "dark" ? "themeDark" : "themeLight"));
-  btn.title = t(next === "dark" ? "themeDark" : "themeLight");
+  btn.setAttribute("aria-label", `Switch to ${next} mode`);
+  btn.title = `Switch to ${next} mode`;
   document.querySelector('meta[name="theme-color"]').content = mode === "dark" ? "#17142b" : "#fdf8ff";
 }
 $("themeToggle").addEventListener("click", () => {
@@ -867,54 +843,8 @@ const recolor = () => { colorCache = new Map(); if (baseLayer) baseLayer.setStyl
 window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", recolor);
 new MutationObserver(recolor).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
-// ---------- language menu ----------
-// Page text that is not drawn by render(): header, headings, search box and labels
-function translateStatic() {
-  document.documentElement.lang = lang;
-  document.documentElement.dir = pageDir();
-  $("siteTitle").textContent = t("title");
-  $("tagline").innerHTML = t("tagline");
-  $("whereTitle").textContent = t("where");
-  $("allAreas").textContent = t("showAllRegions");
-  $("whichKindTitle").textContent = t("whichKind");
-  $("whatServicesTitle").textContent = t("whatServices");
-  $("svcAll").textContent = t("all");
-  $("svcNone").textContent = t("none");
-  $("q").placeholder = t("searchPlaceholder");
-  $("q").setAttribute("aria-label", t("searchLabel"));
-  $("clear").setAttribute("aria-label", t("clearSearch"));
-  document.querySelector(".rail").setAttribute("aria-label", t("filtersLabel"));
-  $("map").setAttribute("aria-label", t("mapLabel"));
-  $("langSelect").setAttribute("aria-label", t("language"));
-  $("langSelect").parentElement.title = t("language");
-  $("goodToKnow").innerHTML = t("note", { date: esc(DATA_DATE) }) + (lang === "en" ? "" : ` ${esc(t("englishData"))}`);
-  syncThemeButton();
-}
-
-async function setLanguage(code) {
-  const info = I18N.langs.find((l) => l.code === code);
-  if (!info) code = "en";
-  if (!dictCache[code]) {
-    try { dictCache[code] = await (await fetch(info.url)).json(); }
-    catch { code = "en"; } // offline or blocked: stay in English
-  }
-  lang = code;
-  dict = dictCache[code];
-  nf = new Intl.NumberFormat(["ht", "yi"].includes(code) ? "en-US" : code);
-  $("langSelect").value = code;
-  try { localStorage.setItem("lang", code); } catch {}
-  translateStatic();
-  translateMap();
-  render();
-}
-
-$("langSelect").innerHTML = I18N.langs.map((l) => `<option value="${l.code}" lang="${l.code}">${esc(l.name)}</option>`).join("");
-$("langSelect").addEventListener("change", (e) => setLanguage(e.target.value));
-let savedLang = "en";
-try { savedLang = localStorage.getItem("lang") || "en"; } catch {}
-translateStatic();
+$("dataDate").textContent = DATA_DATE;
 render();
-if (savedLang !== "en") setLanguage(savedLang);
 if (window.L && L.markerClusterGroup) initMap();
 else document.addEventListener("DOMContentLoaded", initMap);
 })();

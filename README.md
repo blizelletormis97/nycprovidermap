@@ -29,10 +29,6 @@ Schuyler, Yates, Hamilton, Lewis, Greene, Schoharie) follow OPWDD's regional str
 - Providers at the same building are grouped onto one pin, even across datasets
 - Zoom buttons, plus zoom by clicking the map: double-click (double-tap) zooms in, right-click (two-finger tap) zooms out
 - Mobile-friendly layout, dark/light theme
-- Language menu with New York State's 12 language-access languages (Spanish, Chinese, Russian, Yiddish, Bengali,
-  Korean, Haitian Creole, Italian, Arabic, Polish, French, Urdu) plus Tagalog; Arabic, Urdu and Yiddish read right to left. Page
-  text lives in `site/i18n/<code>.json` (English is built in, other languages load when chosen; the build checks every
-  file has every key and keeps every `{placeholder}`). Provider names, addresses and descriptions stay in English.
 
 ## Tech Stack
 
