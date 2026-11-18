@@ -108,7 +108,7 @@ const vendorCss = [
 // Order of the menu, and right-to-left scripts.
 const LANGUAGES: { code: string; dir?: "rtl" }[] = [
   { code: "en" }, { code: "es" }, { code: "zh" }, { code: "ru" }, { code: "yi", dir: "rtl" }, { code: "bn" }, { code: "ko" },
-  { code: "ht" }, { code: "it" }, { code: "ar", dir: "rtl" }, { code: "pl" }, { code: "fr" }, { code: "ur", dir: "rtl" },
+  { code: "ht" }, { code: "it" }, { code: "ar", dir: "rtl" }, { code: "pl" }, { code: "fr" }, { code: "ur", dir: "rtl" }, { code: "tl" },
 ];
 const english: Record<string, string> = JSON.parse(readFileSync(join(root, "site/i18n/en.json"), "utf-8"));
 const langs = LANGUAGES.map(({ code, dir }) => {
