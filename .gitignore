@@ -45,3 +45,7 @@ next-env.d.ts
 
 # GitHub Pages build output
 /site-dist/
+
+# weekly data refresh report (written by src/lib/check-data.ts)
+refresh-summary.md
+warnings.txt

@@ -1,0 +1,88 @@
+name: Weekly data refresh
+
+# Refreshes every provider source each week (the NY Medicaid listing updates weekly) and publishes the map when the
+# data changed and the safety checks in src/lib/check-data.ts pass. If a check fails nothing is published and an
+# issue is opened. A source that cannot be reached keeps last week's data, and the issue says which one.
+on:
+  schedule:
+    - cron: "23 11 * * 2" # Tuesdays 11:23 UTC (6:23 or 7:23 a.m. New York time)
+  workflow_dispatch:
+
+permissions:
+  contents: write # commit the refreshed data
+  actions: write # start the "Deploy map to GitHub Pages" workflow after the commit
+  issues: write # report problems
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 50
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+
+      - name: Refresh the sources
+        run: |
+          : > warnings.txt
+          # Run a seed script; if it fails, keep last week's file(s) for that source and note it
+          refresh() {
+            local label="$1" script="$2"; shift 2
+            if ! bun run "src/lib/$script"; then
+              echo "- $label could not be refreshed this week (src/lib/$script failed); the map keeps last week's data for it." >> warnings.txt
+              git checkout -- "$@"
+            fi
+          }
+          refresh "OPWDD agencies" seed-opwdd.ts src/data/opwdd-geocoded.json
+          refresh "Medicaid IDD sites" seed-medicaid.ts src/data/medicaid-geocoded.json
+          refresh "Home health agencies" seed-home-care.ts src/data/homecare-geocoded.json
+          refresh "Article 16 clinics" seed-article16.ts src/data/article16-geocoded.json
+          refresh "Article 16 address check" verify-article16.ts src/data/article16-geocoded.json
+          refresh "Registered therapy practices" seed-registered.ts src/data/registered-geocoded.json
+          refresh "ABA therapy practices" seed-aba.ts src/data/aba-geocoded.json
+          refresh "CDPAP facilitators (PPL)" seed-cdpap.ts src/data/cdpap-geocoded.json
+          bun run src/lib/link-agencies.ts
+
+      - name: Safety checks
+        id: checks
+        run: bun run src/lib/check-data.ts
+
+      - name: Make sure the site still builds
+        run: bun run build:site
+
+      - name: Publish
+        run: |
+          if git diff --quiet -- src/data; then
+            echo "No data changes this week; nothing to publish."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data
+          git commit -m "Weekly data refresh ($(date -u +%Y-%m-%d))" -m "$(cat refresh-summary.md)"
+          git push origin HEAD:main
+          # Commits made by this workflow do not start other workflows on their own, so start the deploy here
+          gh workflow run pages.yml --ref main
+
+      - name: Report sources that could not be refreshed
+        if: success()
+        run: |
+          [ -s warnings.txt ] || exit 0
+          body="$(printf 'The weekly data refresh ran, but some sources could not be reached:\n\n%s\n\nEverything else was refreshed. Run: %s/%s/actions/runs/%s' "$(cat warnings.txt)" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")"
+          gh issue create --title "Weekly data refresh: some sources could not be refreshed ($(date -u +%Y-%m-%d))" --body "$body"
+
+      - name: Report a failed refresh
+        if: failure()
+        run: |
+          summary="$( [ -f refresh-summary.md ] && cat refresh-summary.md || echo 'The refresh stopped before the safety checks; see the run log.')"
+          body="$(printf '%s\n\n%s\n\nNothing was published; the live map keeps its previous data. Run: %s/%s/actions/runs/%s' "$summary" "$(cat warnings.txt 2>/dev/null)" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")"
+          gh issue create --title "Weekly data refresh needs attention ($(date -u +%Y-%m-%d))" --body "$body"
