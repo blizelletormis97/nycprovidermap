@@ -61,14 +61,18 @@ jobs:
 
       - name: Publish
         run: |
-          if git diff --quiet -- src/data; then
-            echo "No data changes this week; nothing to publish."
-            exit 0
+          # The site shows this date as "Last updated", so it moves forward every week even when nothing changed
+          today="$(TZ=America/New_York date +%Y-%m-%d)"
+          printf '{\n  "checked": "%s"\n}\n' "$today" > src/data/last-checked.json
+          if git diff --quiet -- src/data ':!src/data/last-checked.json'; then
+            title="Weekly data check ($today): no changes"
+          else
+            title="Weekly data refresh ($today)"
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data
-          git commit -m "Weekly data refresh ($(date -u +%Y-%m-%d))" -m "$(cat refresh-summary.md)"
+          git commit -m "$title" -m "$(cat refresh-summary.md)"
           git push origin HEAD:main
           # Commits made by this workflow do not start other workflows on their own, so start the deploy here
           gh workflow run pages.yml --ref main

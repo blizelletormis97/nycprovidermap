@@ -204,7 +204,9 @@ from the Actions tab: **Weekly data refresh → Run workflow**). It:
 3. builds the site, and if the data changed, commits it to `main` and starts the deploy, so the live map updates
 4. opens a GitHub issue if a check fails (nothing is published) or a source could not be refreshed
 
-Each published refresh is a commit named "Weekly data refresh (date)" listing what was added and removed.
+Each published refresh is a commit named "Weekly data refresh (date)" listing what was added and removed. Every run
+also writes the date to `src/data/last-checked.json` (a "Weekly data check (date): no changes" commit when nothing
+else changed), which the site shows as **"Last updated <date> · checked weekly"** under the search box.
 
 ### By hand
 
