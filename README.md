@@ -192,6 +192,22 @@ off the map (8 agencies); the others are shown with their remaining services.
 
 ## Refreshing Data
 
+### Automatic weekly refresh
+
+`.github/workflows/refresh-data.yml` refreshes every source on **Tuesdays at 11:23 UTC** (it can also be run by hand
+from the Actions tab: **Weekly data refresh → Run workflow**). It:
+
+1. runs all the seed scripts below; a source that cannot be reached keeps last week's data
+2. runs the safety checks in `src/lib/check-data.ts`: every provider needs a name, an address, a map area and a
+   location in New York State, and no source may lose more than 10% of its providers at once; changes that are only
+   the order of keys in the JSON are ignored
+3. builds the site, and if the data changed, commits it to `main` and starts the deploy, so the live map updates
+4. opens a GitHub issue if a check fails (nothing is published) or a source could not be refreshed
+
+Each published refresh is a commit named "Weekly data refresh (date)" listing what was added and removed.
+
+### By hand
+
 ```bash
 # OPWDD region outlines for the website map (only when region definitions change)
 bun run src/lib/build-boundaries.ts
