@@ -185,6 +185,12 @@ button { font: inherit; color: inherit; }
 .clear .icon { position: static; transform: none; width: 14px; height: 14px; color: var(--ink); }
 .summary { margin-top: 10px; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .summary b { color: var(--ink); font-weight: 800; }
+/* "Last updated" line under the summary */
+.updated { margin-top: 6px; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; color: var(--ink);
+  background: var(--mint); border-radius: 999px; padding: 4px 12px 4px 10px; }
+.updated .icon { width: 14px; height: 14px; }
+.updated[hidden] { display: none; }
+.updated small { font-weight: 600; color: var(--muted); font-size: 12px; }
 
 /* ---------- section titles ---------- */
 .title {
@@ -388,6 +394,7 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
         </div>
       </div>
       <div class="summary" id="summary" aria-live="polite"></div>
+      <div class="updated" id="lastUpdated" hidden><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span>Last updated <time id="lastUpdatedDate"></time></span><small>· checked weekly</small></div>
     </section>
 
     <section>
@@ -844,6 +851,7 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", rec
 new MutationObserver(recolor).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
 $("dataDate").textContent = DATA_DATE;
+if (DATA_DATE) { $("lastUpdatedDate").textContent = DATA_DATE; $("lastUpdated").hidden = false; }
 render();
 if (window.L && L.markerClusterGroup) initMap();
 else document.addEventListener("DOMContentLoaded", initMap);

@@ -41,15 +41,21 @@ const locations = [...getLocationIndex().values()].map((entry) => ({
 // Outlines of the five OPWDD regions (made by src/lib/build-boundaries.ts)
 const basemap = readFileSync(join(root, "src/data/boundaries/opwdd-regions.json"), "utf-8");
 
-// "Month YYYY" of the last commit that touched the data, falling back to today
+// When the data was last checked against the sources: the weekly refresh writes src/data/last-checked.json every
+// week, even when nothing changed. Before that file exists, use the last commit that touched the data, then today.
 let dataDate = new Date();
 try {
-  const iso = execSync("git log -1 --format=%cI -- src/data", { encoding: "utf-8" }).trim();
-  if (iso) dataDate = new Date(iso);
+  const lastChecked = JSON.parse(readFileSync(join(root, "src/data/last-checked.json"), "utf-8")).checked as string;
+  dataDate = new Date(`${lastChecked}T12:00:00Z`);
 } catch {
-  // not a git checkout; keep today
+  try {
+    const iso = execSync("git log -1 --format=%cI -- src/data", { encoding: "utf-8" }).trim();
+    if (iso) dataDate = new Date(iso);
+  } catch {
+    // not a git checkout; keep today
+  }
 }
-const dataDateLabel = dataDate.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "America/New_York" });
+const dataDateLabel = dataDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "America/New_York" });
 
 interface About {
   show?: boolean;
