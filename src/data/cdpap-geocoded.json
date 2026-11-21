@@ -6,7 +6,7 @@
     "services": [
       "CDPAP Facilitator"
     ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Head office. Counties served: all of New York State. Languages: Albanian, Arabic, Armenian, Belarussian, Bengali, Chinese Simplified, Chinese Traditional, Creole, English, Filipino/Tagalog, French, Georgian, Greek, Hebrew, Hindi, Igbo, Italian, Korean, Polish, Portuguese, Punjabi, Romanian, Russian, Spanish, Tamil, Turkish, Twi, Ukrainian, Urdu, Uzbek, Vietnamese, Yiddish. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
+    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Head office. Counties served: all of New York State. Languages: English, Spanish, Russian, Chinese, Creole, Bengali and French. All other languages are supported via Language Line. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
     "address": "2091 Coney Island Ave, Brooklyn, NY 11223",
     "region": "Brooklyn",
     "county": "Kings",
@@ -34,7 +34,7 @@
     "services": [
       "CDPAP Facilitator"
     ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: all of New York State. Languages: Albanian, Arabic, Armenian, Belarussian, Bengali, Chinese Simplified, Chinese Traditional, Creole, English, Filipino/Tagalog, French, Georgian, Greek, Hebrew, Hindi, Igbo, Italian, Korean, Polish, Portuguese, Punjabi, Romanian, Russian, Spanish, Tamil, Turkish, Twi, Ukrainian, Urdu, Uzbek, Vietnamese, Yiddish. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
+    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: all of New York State. Languages: English, Spanish, Russian, Chinese, Creole, Bengali and French. All other languages are supported via Language Line. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
     "address": "929 Kings Highway, 2nd Floor, Brooklyn, NY 11223",
     "region": "Brooklyn",
     "county": "Kings",
@@ -62,7 +62,7 @@
     "services": [
       "CDPAP Facilitator"
     ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: all of New York State. Languages: Albanian, Arabic, Armenian, Belarussian, Bengali, Chinese Simplified, Chinese Traditional, Creole, English, Filipino/Tagalog, French, Georgian, Greek, Hebrew, Hindi, Igbo, Italian, Korean, Polish, Portuguese, Punjabi, Romanian, Russian, Spanish, Tamil, Turkish, Twi, Ukrainian, Urdu, Uzbek, Vietnamese, Yiddish. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
+    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: all of New York State. Languages: English, Spanish, Russian, Chinese, Creole, Bengali and French. All other languages are supported via Language Line. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
     "address": "92-12 E 147th Place, 2nd Fl, Jamaica, NY 11435",
     "region": "Queens",
     "county": "Queens",
@@ -90,7 +90,7 @@
     "services": [
       "CDPAP Facilitator"
     ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: all of New York State. Languages: Albanian, Arabic, Armenian, Belarussian, Bengali, Chinese Simplified, Chinese Traditional, Creole, English, Filipino/Tagalog, French, Georgian, Greek, Hebrew, Hindi, Igbo, Italian, Korean, Polish, Portuguese, Punjabi, Romanian, Russian, Spanish, Tamil, Turkish, Twi, Ukrainian, Urdu, Uzbek, Vietnamese, Yiddish. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
+    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: all of New York State. Languages: English, Spanish, Russian, Chinese, Creole, Bengali and French. All other languages are supported via Language Line. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
     "address": "36 Richmond Terrace, Staten Island, NY 10301",
     "region": "Staten Island",
     "county": "Richmond",
@@ -118,7 +118,7 @@
     "services": [
       "CDPAP Facilitator"
     ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: all of New York State. Languages: Albanian, Arabic, Armenian, Belarussian, Bengali, Chinese Simplified, Chinese Traditional, Creole, English, Filipino/Tagalog, French, Georgian, Greek, Hebrew, Hindi, Igbo, Italian, Korean, Polish, Portuguese, Punjabi, Romanian, Russian, Spanish, Tamil, Turkish, Twi, Ukrainian, Urdu, Uzbek, Vietnamese, Yiddish. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
+    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: all of New York State. Languages: English, Spanish, Russian, Chinese, Creole, Bengali and French. All other languages are supported via Language Line. Focus: Aging, Alzheimer's, Children, Dementia, Culturally Competent Capabilities, Disabilities, Geriatric Individuals, Medically Fragile Individuals, Physical Disabilities, and Seniors.",
     "address": "391 E 149th St, Suite 305-2, Bronx, NY 10455",
     "region": "Bronx",
     "county": "Bronx",
@@ -220,162 +220,6 @@
     "website": "https://www.accesssupports.org/",
     "lat": 41.474853443021,
     "lng": -74.374747647774
-  },
-  {
-    "source": "cdpap",
-    "name": "Access: Supports for Living",
-    "listedName": "Access: Supports for Living",
-    "services": [
-      "CDPAP Facilitator (Developmental Disabilities Focus)"
-    ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: Orange, Ulster, Sullivan, Dutchess, Putnam, Rockland, Westchester, Greene, Columbia, Queens, Bronx, Kings, New York, Richmond, Nassau, Suffolk. Languages: English, Spanish. Focus: Developmental Disabilities, Intellectual Disabilities, Intellectual and Developmental Disabilities, Mental Health, Physical Disabilities, Substance Use, Traumatic Brain Injury.",
-    "address": "164-14 Cross Bay Blvd, Howard Beach, NY 11414",
-    "region": "Queens",
-    "county": "Queens",
-    "serves": [
-      "Queens",
-      "Region 3",
-      "Bronx",
-      "Brooklyn",
-      "Manhattan",
-      "Staten Island",
-      "Nassau",
-      "Suffolk"
-    ],
-    "phone": "(888) 750-2266",
-    "website": "https://www.accesssupports.org/",
-    "lat": 40.650525602807,
-    "lng": -73.837785989978
-  },
-  {
-    "source": "cdpap",
-    "name": "Access: Supports for Living",
-    "listedName": "Access: Supports for Living",
-    "services": [
-      "CDPAP Facilitator (Developmental Disabilities Focus)"
-    ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: Orange, Ulster, Sullivan, Dutchess, Putnam, Rockland, Westchester, Greene, Columbia, Queens, Bronx, Kings, New York, Richmond, Nassau, Suffolk. Languages: English, Spanish. Focus: Developmental Disabilities, Intellectual Disabilities, Intellectual and Developmental Disabilities, Mental Health, Physical Disabilities, Substance Use, Traumatic Brain Injury.",
-    "address": "256 Washington Street, Mount Vernon, NY 10553",
-    "region": "Region 3",
-    "county": "Westchester",
-    "serves": [
-      "Region 3",
-      "Queens",
-      "Bronx",
-      "Brooklyn",
-      "Manhattan",
-      "Staten Island",
-      "Nassau",
-      "Suffolk"
-    ],
-    "phone": "(888) 750-2266",
-    "website": "https://www.accesssupports.org/",
-    "lat": 40.910747688377,
-    "lng": -73.826427693741
-  },
-  {
-    "source": "cdpap",
-    "name": "Access: Supports for Living",
-    "listedName": "Access: Supports for Living",
-    "services": [
-      "CDPAP Facilitator (Developmental Disabilities Focus)"
-    ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: Orange, Ulster, Sullivan, Dutchess, Putnam, Rockland, Westchester, Greene, Columbia, Queens, Bronx, Kings, New York, Richmond, Nassau, Suffolk. Languages: English, Spanish. Focus: Developmental Disabilities, Intellectual Disabilities, Intellectual and Developmental Disabilities, Mental Health, Physical Disabilities, Substance Use, Traumatic Brain Injury.",
-    "address": "150 Huguenot Street, New Rochelle, NY 10801",
-    "region": "Region 3",
-    "county": "Westchester",
-    "serves": [
-      "Region 3",
-      "Queens",
-      "Bronx",
-      "Brooklyn",
-      "Manhattan",
-      "Staten Island",
-      "Nassau",
-      "Suffolk"
-    ],
-    "phone": "(888) 750-2266",
-    "website": "https://www.accesssupports.org/",
-    "lat": 40.913275005311,
-    "lng": -73.778906772014
-  },
-  {
-    "source": "cdpap",
-    "name": "Access: Supports for Living",
-    "listedName": "Access: Supports for Living",
-    "services": [
-      "CDPAP Facilitator (Developmental Disabilities Focus)"
-    ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: Orange, Ulster, Sullivan, Dutchess, Putnam, Rockland, Westchester, Greene, Columbia, Queens, Bronx, Kings, New York, Richmond, Nassau, Suffolk. Languages: English, Spanish. Focus: Developmental Disabilities, Intellectual Disabilities, Intellectual and Developmental Disabilities, Mental Health, Physical Disabilities, Substance Use, Traumatic Brain Injury.",
-    "address": "368 Broadway, 2nd Floor, Kingston, NY 12401",
-    "region": "Region 3",
-    "county": "Ulster",
-    "serves": [
-      "Region 3",
-      "Queens",
-      "Bronx",
-      "Brooklyn",
-      "Manhattan",
-      "Staten Island",
-      "Nassau",
-      "Suffolk"
-    ],
-    "phone": "(888) 750-2266",
-    "website": "https://www.accesssupports.org/",
-    "lat": 41.926050839217,
-    "lng": -73.994006830702
-  },
-  {
-    "source": "cdpap",
-    "name": "Access: Supports for Living",
-    "listedName": "Access: Supports for Living",
-    "services": [
-      "CDPAP Facilitator (Developmental Disabilities Focus)"
-    ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: Orange, Ulster, Sullivan, Dutchess, Putnam, Rockland, Westchester, Greene, Columbia, Queens, Bronx, Kings, New York, Richmond, Nassau, Suffolk. Languages: English, Spanish. Focus: Developmental Disabilities, Intellectual Disabilities, Intellectual and Developmental Disabilities, Mental Health, Physical Disabilities, Substance Use, Traumatic Brain Injury.",
-    "address": "115 Delafield Street, Poughkeepsie, NY 12601",
-    "region": "Region 3",
-    "county": "Dutchess",
-    "serves": [
-      "Region 3",
-      "Queens",
-      "Bronx",
-      "Brooklyn",
-      "Manhattan",
-      "Staten Island",
-      "Nassau",
-      "Suffolk"
-    ],
-    "phone": "(888) 750-2266",
-    "website": "https://www.accesssupports.org/",
-    "lat": 41.714482837281,
-    "lng": -73.933461640258
-  },
-  {
-    "source": "cdpap",
-    "name": "Access: Supports for Living",
-    "listedName": "Access: Supports for Living",
-    "services": [
-      "CDPAP Facilitator (Developmental Disabilities Focus)"
-    ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: Orange, Ulster, Sullivan, Dutchess, Putnam, Rockland, Westchester, Greene, Columbia, Queens, Bronx, Kings, New York, Richmond, Nassau, Suffolk. Languages: English, Spanish. Focus: Developmental Disabilities, Intellectual Disabilities, Intellectual and Developmental Disabilities, Mental Health, Physical Disabilities, Substance Use, Traumatic Brain Injury.",
-    "address": "11877 Route 9W, West Coxsackie, NY 12192",
-    "region": "Region 3",
-    "county": "Greene",
-    "serves": [
-      "Region 3",
-      "Queens",
-      "Bronx",
-      "Brooklyn",
-      "Manhattan",
-      "Staten Island",
-      "Nassau",
-      "Suffolk"
-    ],
-    "phone": "(888) 750-2266",
-    "website": "https://www.accesssupports.org/",
-    "lat": 42.364307328154,
-    "lng": -73.831198811931
   },
   {
     "source": "cdpap",
