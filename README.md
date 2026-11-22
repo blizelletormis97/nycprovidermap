@@ -96,8 +96,9 @@ never appears on the public site. Visitors can also link straight to it with `#a
 
 ## Feelings Garden
 
-`feelings-garden/` holds a separate installable web app (a daily feelings check-in game), published at
-**https://iddproviderfinderny.org/feelings-garden/**. See `feelings-garden/README.md`.
+Feelings Garden (a daily feelings check-in app) now lives in its own repository, **blizelletormis97/feelings-garden**,
+at **https://blizelletormis97.github.io/feelings-garden/**. `site/feelings-garden/` keeps a page at the old
+`/feelings-garden/` address that forwards there, and a service worker that retires old offline copies.
 
 ## What counts as "IDD provider that accepts Medicaid"
 
