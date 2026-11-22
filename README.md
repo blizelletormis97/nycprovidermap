@@ -94,6 +94,11 @@ Its text lives in `site/about.json`: fill in each person's `name` (and optional 
 an optional `intro` and `signoff`, then set `"show": true`. Until then the button stays hidden, so placeholder text
 never appears on the public site. Visitors can also link straight to it with `#about` at the end of the site address.
 
+## Feelings Garden
+
+`feelings-garden/` holds a separate installable web app (a daily feelings check-in game), published at
+**https://iddproviderfinderny.org/feelings-garden/**. See `feelings-garden/README.md`.
+
 ## What counts as "IDD provider that accepts Medicaid"
 
 Only these three sources are shown. Each one is IDD-specific and tied to Medicaid:
