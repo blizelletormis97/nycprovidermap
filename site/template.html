@@ -260,9 +260,9 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 
 /* ---------- help with benefits (listed by hand, statewide) ---------- */
 .benefits { display: grid; gap: 10px; }
-.benefits .intro { margin: 0; font-size: 13px; color: var(--muted); }
 .benefit { background: color-mix(in srgb, var(--sky) 55%, var(--panel)); border-radius: 16px; padding: 12px 14px; display: grid; gap: 6px; }
-.benefit h3 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 16px; }
+.benefits { margin: 4px 0 2px; }
+.benefit h4 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 16px; }
 .benefit ul { margin: 0; padding-left: 18px; font-size: 13.5px; display: grid; gap: 2px; }
 .benefit p { margin: 0; font-size: 13px; }
 .benefit .serves { font-weight: 700; }
@@ -424,14 +424,6 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
       <div class="groups" id="groups"></div>
     </section>
 
-    <section id="benefitsSection" hidden>
-      <h2 class="title">Help with benefits</h2>
-      <div class="benefits">
-        <p class="intro">Help applying for SSI, SSDI and Medicaid. These organizations are not Medicaid service providers, so they are not shown on the map.</p>
-        <div id="benefits"></div>
-      </div>
-    </section>
-
     <p class="note">
       <b>Good to know:</b> the IDD providers here are tied to Medicaid. Data comes from OPWDD's Article 16
       clinic list, the NY Open Data directory of OPWDD agencies, the NY Medicaid Enrolled Provider Listing and the
@@ -454,6 +446,9 @@ const BASEMAP = JSON.parse(document.getElementById("basemap-data").textContent);
 const DATA_DATE = /*__DATA_DATE__*/"";
 const ABOUT = /*__ABOUT__*/null;
 const BENEFITS = /*__BENEFITS__*/[]; // site/benefits-help.json
+// "Help with benefits" is a choice under Clinics & therapy. These organizations have no office on the map: ticking the
+// choice shows their cards inside the group instead.
+const BENEFITS_TYPE = "Help with benefits";
 
 // The area filter shows the five OPWDD regions, in order. Each location's map area (a NYC borough, a Long Island
 // county or an upstate region) belongs to one of them.
@@ -498,7 +493,8 @@ const GROUPS = [
   { name: "Home & residential", icon: "i-home", tint: "--peach", types: [["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["OPWDD Community Support Site", "Community support sites"]] },
   { name: "Day & work", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
   { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"], ["Special Needs Home Health", "Home health agencies", "Visits you at home · serves all 7 areas"]] },
-  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"], ["OPWDD Registered Therapy Practice", "Registered therapy practices", "Work under contract with OPWDD agencies"]] },
+  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"], ["OPWDD Registered Therapy Practice", "Registered therapy practices", "Work under contract with OPWDD agencies"],
+    ...(BENEFITS.length ? [[BENEFITS_TYPE, "Help with benefits", "SSI, SSDI & Medicaid applications · statewide, not on the map"]] : [])] },
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
@@ -794,6 +790,8 @@ function renderSidebar(items) {
     offered.forEach((t) => { if (t in typeCounts) typeCounts[t]++; });
     GROUPS.forEach((g, gi) => { if (g.types.some(([k]) => offered.has(k))) groupCounts[gi]++; });
   }
+  const benefitList = benefitsShown();
+  if (BENEFITS_TYPE in typeCounts) typeCounts[BENEFITS_TYPE] = benefitList.length;
   $("groups").innerHTML = GROUPS.map((g, gi) => {
     const keys = g.types.map((t) => t[0]);
     const on = keys.filter((k) => state.types.has(k)).length;
@@ -803,7 +801,8 @@ function renderSidebar(items) {
         <input type="checkbox" id="g${gi}" data-group="${gi}" ${on === keys.length ? "checked" : ""} aria-label="All ${esc(g.name)}"></h3>
       ${g.types.map(([k, label, hint], ti) => `<label class="svc ${typeCounts[k] ? "" : "zero"}" for="t${gi}-${ti}"><input type="checkbox" id="t${gi}-${ti}" data-type="${esc(k)}" ${state.types.has(k) ? "checked" : ""}>`
           + `<span class="txt">${esc(label || k)}${hint ? `<small>${esc(hint)}</small>` : ""}</span>`
-          + `<span class="n">${nf.format(typeCounts[k])}</span></label>`).join("")}
+          + `<span class="n">${nf.format(typeCounts[k])}</span></label>`
+          + (k === BENEFITS_TYPE && state.types.has(k) && benefitList.length ? `<div class="benefits">${benefitList.map(benefitCard).join("")}</div>` : "")).join("")}
     </div>`;
   }).join("");
   GROUPS.forEach((g, gi) => {
@@ -812,6 +811,22 @@ function renderSidebar(items) {
     $(`g${gi}`).indeterminate = on > 0 && on < keys.length;
   });
 }
+
+// Help with benefits: statewide organizations listed by hand at their request (not from the state lists).
+// They serve every region; a search shows them only when it matches their name or services.
+function benefitsShown() {
+  if (state.source !== "all") return [];
+  const words = state.q.trim().toUpperCase().split(/\s+/).filter(Boolean);
+  return BENEFITS.filter((o) => { const text = `${o.name} ${o.services.join(" ")} ${o.about}`.toUpperCase(); return words.every((w) => text.includes(w)); });
+}
+const benefitCard = (o) => `<article class="benefit">
+    <h4>${esc(o.name)}</h4>
+    ${o.services.length ? `<ul>${o.services.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+    ${o.serves ? `<p class="serves">Serves: ${esc(o.serves)}</p>` : ""}
+    ${o.about ? `<p>${esc(o.about)}</p>` : ""}
+    <a class="site" href="${esc(o.website)}" target="_blank" rel="noopener">${icon("i-globe")}Visit website</a>
+    <p class="listed">Listed at the organization's request. Not from a state list; please check with them directly.</p>
+  </article>`;
 
 function render() {
   $("total").textContent = `${nf.format(iddProviders)} IDD providers · all 5 OPWDD regions`;
@@ -913,19 +928,6 @@ syncThemeButton();
 const recolor = () => { colorCache = new Map(); if (baseLayer) baseLayer.setStyle(basemapStyle); render(); };
 window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", recolor);
 new MutationObserver(recolor).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
-
-// Help with benefits: statewide organizations listed by hand at their request (not from the state lists)
-if (BENEFITS.length) {
-  $("benefits").innerHTML = BENEFITS.map((o) => `<article class="benefit">
-      <h3>${esc(o.name)}</h3>
-      ${o.services.length ? `<ul>${o.services.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
-      ${o.serves ? `<p class="serves">Serves: ${esc(o.serves)}</p>` : ""}
-      ${o.about ? `<p>${esc(o.about)}</p>` : ""}
-      <a class="site" href="${esc(o.website)}" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>Visit website</a>
-      <p class="listed">Listed at the organization's request. Not from a state list; please check with them directly.</p>
-    </article>`).join("");
-  $("benefitsSection").hidden = false;
-}
 
 $("dataDate").textContent = DATA_DATE;
 if (DATA_DATE) { $("lastUpdatedDate").textContent = DATA_DATE; $("lastUpdated").hidden = false; }
