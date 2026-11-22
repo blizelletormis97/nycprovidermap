@@ -127,8 +127,9 @@ if (leftover) throw new Error(`Unfilled placeholder in site/template.html: ${lef
 writeFileSync(join(outDir, "index.html"), html);
 writeFileSync(join(outDir, ".nojekyll"), "");
 
-// Feelings Garden, a separate installable web app, published alongside the map at /feelings-garden/
-cpSync(join(root, "feelings-garden"), join(outDir, "feelings-garden"), { recursive: true, filter: (src) => !src.endsWith("README.md") });
+// Feelings Garden moved to its own repository (blizelletormis97/feelings-garden); /feelings-garden/ keeps a page that
+// forwards old links and a service worker that retires the old offline copy
+cpSync(join(root, "site/feelings-garden"), join(outDir, "feelings-garden"), { recursive: true });
 
 const providers = locations.reduce((n, l) => n + l.p.length, 0);
 console.log(`Built site-dist/index.html: ${locations.length} locations, ${providers} providers, data as of ${dataDateLabel} (${Math.round(html.length / 1024)} KB)`);
