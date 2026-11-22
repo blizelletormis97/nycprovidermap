@@ -259,7 +259,7 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 .empty-note { display: block; margin-top: 6px; color: var(--ink); background: var(--lemon); border-radius: 10px; padding: 6px 10px; }
 
 /* ---------- help with benefits (listed by hand, statewide) ---------- */
-/* the organizations look like the service rows of their group (Clinics & therapy) */
+/* the organizations look like the service rows of their group (Benefits) */
 .benefits { display: grid; gap: 2px; margin: 0 0 2px; }
 .benefit { background: var(--panel); border-radius: 12px; padding: 10px 12px 10px 44px; display: grid; gap: 4px; font-size: 14px; margin: 2px 0; }
 .benefit h4 { margin: 0; font-size: 14px; font-weight: 800; }
@@ -268,9 +268,9 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 .benefit .serves { color: var(--ink); font-weight: 700; }
 .benefit .listed { font-size: 11.5px; }
 .benefit a.site { justify-self: start; display: inline-flex; align-items: center; gap: 6px; font-weight: 800; color: var(--accent);
-  background: color-mix(in srgb, var(--tint, var(--pink)) 70%, var(--panel)); text-decoration: none; border-radius: 999px; padding: 4px 12px; font-size: 13px; margin-top: 2px; }
+  background: color-mix(in srgb, var(--tint, var(--lemon)) 70%, var(--panel)); text-decoration: none; border-radius: 999px; padding: 4px 12px; font-size: 13px; margin-top: 2px; }
 .benefit a.site .icon { width: 15px; height: 15px; }
-.benefit a.site:hover { background: var(--tint, var(--pink)); }
+.benefit a.site:hover { background: var(--tint, var(--lemon)); }
 .note { font-size: 13px; line-height: 1.55; margin: 0; background: var(--lemon); border-radius: 16px; padding: 12px 14px; }
 .note b { font-weight: 800; }
 
@@ -447,7 +447,7 @@ const BASEMAP = JSON.parse(document.getElementById("basemap-data").textContent);
 const DATA_DATE = /*__DATA_DATE__*/"";
 const ABOUT = /*__ABOUT__*/null;
 const BENEFITS = /*__BENEFITS__*/[]; // site/benefits-help.json
-// "Help with benefits" is a choice under Clinics & therapy. These organizations have no office on the map: ticking the
+// "Help with benefits" is the choice in the Benefits group. These organizations have no office on the map: ticking the
 // choice shows their cards inside the group instead.
 const BENEFITS_TYPE = "Help with benefits";
 
@@ -494,8 +494,9 @@ const GROUPS = [
   { name: "Home & residential", icon: "i-home", tint: "--peach", types: [["Intermediate Care (ICF)", "Intermediate care (ICF/IID)"], ["OPWDD Community Support Site", "Community support sites"]] },
   { name: "Day & work", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
   { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"], ["Special Needs Home Health", "Home health agencies", "Visits you at home · serves all 7 areas"]] },
-  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"], ["OPWDD Registered Therapy Practice", "Registered therapy practices", "Work under contract with OPWDD agencies"],
-    ...(BENEFITS.length ? [[BENEFITS_TYPE, "Help with benefits", "SSI, SSDI & Medicaid applications · statewide, not on the map"]] : [])] },
+  { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"], ["OPWDD Registered Therapy Practice", "Registered therapy practices", "Work under contract with OPWDD agencies"]] },
+  ...(BENEFITS.length ? [{ name: "Benefits", icon: "i-clipboard", tint: "--lemon", types: [
+    [BENEFITS_TYPE, "Help with benefits", "SSI, SSDI & Medicaid applications · statewide, not on the map"]] }] : []),
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
@@ -793,6 +794,8 @@ function renderSidebar(items) {
   }
   const benefitList = benefitsShown();
   if (BENEFITS_TYPE in typeCounts) typeCounts[BENEFITS_TYPE] = benefitList.length;
+  const benefitsGroup = GROUPS.findIndex((g) => g.types.some(([k]) => k === BENEFITS_TYPE));
+  if (benefitsGroup >= 0) groupCounts[benefitsGroup] = benefitList.length; // organizations, not map locations
   $("groups").innerHTML = GROUPS.map((g, gi) => {
     const keys = g.types.map((t) => t[0]);
     const on = keys.filter((k) => state.types.has(k)).length;
