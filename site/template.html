@@ -258,6 +258,18 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 
 .empty-note { display: block; margin-top: 6px; color: var(--ink); background: var(--lemon); border-radius: 10px; padding: 6px 10px; }
 
+/* ---------- help with benefits (listed by hand, statewide) ---------- */
+.benefits { display: grid; gap: 10px; }
+.benefits .intro { margin: 0; font-size: 13px; color: var(--muted); }
+.benefit { background: color-mix(in srgb, var(--sky) 55%, var(--panel)); border-radius: 16px; padding: 12px 14px; display: grid; gap: 6px; }
+.benefit h3 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 16px; }
+.benefit ul { margin: 0; padding-left: 18px; font-size: 13.5px; display: grid; gap: 2px; }
+.benefit p { margin: 0; font-size: 13px; }
+.benefit .serves { font-weight: 700; }
+.benefit .listed { color: var(--muted); font-size: 12px; }
+.benefit a.site { justify-self: start; display: inline-flex; align-items: center; gap: 6px; font-weight: 800; color: var(--accent-ink, #17142b);
+  background: var(--accent); text-decoration: none; border-radius: 999px; padding: 6px 14px; font-size: 13.5px; }
+.benefit a.site:hover { filter: brightness(1.05); }
 .note { font-size: 13px; line-height: 1.55; margin: 0; background: var(--lemon); border-radius: 16px; padding: 12px 14px; }
 .note b { font-weight: 800; }
 
@@ -412,6 +424,14 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
       <div class="groups" id="groups"></div>
     </section>
 
+    <section id="benefitsSection" hidden>
+      <h2 class="title">Help with benefits</h2>
+      <div class="benefits">
+        <p class="intro">Help applying for SSI, SSDI and Medicaid. These organizations are not Medicaid service providers, so they are not shown on the map.</p>
+        <div id="benefits"></div>
+      </div>
+    </section>
+
     <p class="note">
       <b>Good to know:</b> the IDD providers here are tied to Medicaid. Data comes from OPWDD's Article 16
       clinic list, the NY Open Data directory of OPWDD agencies, the NY Medicaid Enrolled Provider Listing and the
@@ -433,6 +453,7 @@ const LOCATIONS = JSON.parse(document.getElementById("locations-data").textConte
 const BASEMAP = JSON.parse(document.getElementById("basemap-data").textContent);
 const DATA_DATE = /*__DATA_DATE__*/"";
 const ABOUT = /*__ABOUT__*/null;
+const BENEFITS = /*__BENEFITS__*/[]; // site/benefits-help.json
 
 // The area filter shows the five OPWDD regions, in order. Each location's map area (a NYC borough, a Long Island
 // county or an upstate region) belongs to one of them.
@@ -892,6 +913,19 @@ syncThemeButton();
 const recolor = () => { colorCache = new Map(); if (baseLayer) baseLayer.setStyle(basemapStyle); render(); };
 window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", recolor);
 new MutationObserver(recolor).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+// Help with benefits: statewide organizations listed by hand at their request (not from the state lists)
+if (BENEFITS.length) {
+  $("benefits").innerHTML = BENEFITS.map((o) => `<article class="benefit">
+      <h3>${esc(o.name)}</h3>
+      ${o.services.length ? `<ul>${o.services.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      ${o.serves ? `<p class="serves">Serves: ${esc(o.serves)}</p>` : ""}
+      ${o.about ? `<p>${esc(o.about)}</p>` : ""}
+      <a class="site" href="${esc(o.website)}" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>Visit website</a>
+      <p class="listed">Listed at the organization's request. Not from a state list; please check with them directly.</p>
+    </article>`).join("");
+  $("benefitsSection").hidden = false;
+}
 
 $("dataDate").textContent = DATA_DATE;
 if (DATA_DATE) { $("lastUpdatedDate").textContent = DATA_DATE; $("lastUpdated").hidden = false; }
