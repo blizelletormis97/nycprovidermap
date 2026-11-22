@@ -82,11 +82,11 @@ function aboutSection(): Omit<About, "show"> | null {
   return { heading: about.heading?.trim() || "About us", intro: about.intro?.trim() ?? "", people, story, signoff: about.signoff?.trim() ?? "" };
 }
 
-interface BenefitsOrg { name?: string; website?: string; services?: string[]; serves?: string; about?: string; listed?: string }
+interface BenefitsOrg { kind?: string; name?: string; website?: string; services?: string[]; serves?: string; about?: string; connected?: string; listed?: string }
 
 /**
- * "Help with benefits" (site/benefits-help.json): organizations that help with SSI, SSDI and Medicaid applications,
- * listed by hand at their request. An entry needs a name and an https website; anything else is left out with a
+ * "Benefits & support" (site/benefits-help.json): statewide organizations that help with SSI, SSDI and Medicaid
+ * applications, or fund care and daily-life needs, listed by hand at their request. An entry needs a name and an https website; anything else is left out with a
  * warning, so a half-filled entry never reaches the public site.
  */
 function benefitsHelp() {
@@ -97,7 +97,8 @@ function benefitsHelp() {
       console.warn(`site/benefits-help.json: skipped an entry without a name or an https website (${name || "no name"})`);
       return [];
     }
-    return [{ name, website, services: (o.services ?? []).map((x) => x.trim()).filter(Boolean), serves: o.serves?.trim() ?? "", about: o.about?.trim() ?? "" }];
+    const kind = o.kind === "funding" ? "funding" : "benefits";
+    return [{ kind, name, website, services: (o.services ?? []).map((x) => x.trim()).filter(Boolean), serves: o.serves?.trim() ?? "", about: o.about?.trim() ?? "", connected: o.connected?.trim() ?? "" }];
   });
 }
 

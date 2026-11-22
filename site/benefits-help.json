@@ -1,5 +1,5 @@
 {
-  "_help": "Organizations that help people apply for benefits (SSI, SSDI, Medicaid). They are not Medicaid IDD service providers and are not on the state lists the map uses, so they are listed here by hand, at the organization's request, and shown in the 'Help with benefits' part of the sidebar. The weekly data refresh never changes this file. Add an office address later to place one on the map. Phone numbers are not shown on the site.",
+  "_help": "Statewide organizations listed by hand at their request, shown in the 'Benefits & support' group of the sidebar. They are not Medicaid IDD service providers and are not on the state lists the map uses; the weekly data refresh never changes this file. \"kind\" picks the row: \"benefits\" (Help with benefits: SSI, SSDI, Medicaid applications) or \"funding\" (Funding for care & daily life). Add an office address later to place one on the map. Phone numbers are not shown on the site.",
   "organizations": [
     {
       "name": "Shields Consulting",
@@ -12,6 +12,22 @@
       ],
       "serves": "All of New York, with online consultations",
       "about": "Social Security disability representation. Describes itself as a Social Security Administration Designated Service Group, with over 20 years of experience. Free consultations.",
+      "listed": "2026-11-22",
+      "kind": "benefits",
+      "connected": "Its founder also started The Rose Foundation NY, which it helps fund."
+    },
+    {
+      "kind": "funding",
+      "name": "The Rose Foundation NY",
+      "website": "https://www.therosefoundationny.org/programs",
+      "services": [
+        "Caregiving assistance: help paying for care hours, respite and emergency gaps in care",
+        "Travel assistance: rides to medical and therapy appointments, accessible transit",
+        "Independent living: adaptive equipment, home modifications, life skills support"
+      ],
+      "serves": "All of New York State; apply online",
+      "about": "A 501(c)(3) nonprofit for people with intellectual and developmental disabilities and their families, closing gaps that other funding leaves.",
+      "connected": "Founded by Ashley Shields of Shields Consulting NY, which gives 10% of its proceeds to the foundation.",
       "listed": "2026-11-22"
     }
   ]

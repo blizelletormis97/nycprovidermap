@@ -259,7 +259,7 @@ input[type="checkbox"] { accent-color: var(--accent); width: 18px; height: 18px;
 .empty-note { display: block; margin-top: 6px; color: var(--ink); background: var(--lemon); border-radius: 10px; padding: 6px 10px; }
 
 /* ---------- help with benefits (listed by hand, statewide) ---------- */
-/* the organizations look like the service rows of their group (Benefits) */
+/* the organizations look like the service rows of their group (Benefits & support) */
 .benefits { display: grid; gap: 2px; margin: 0 0 2px; }
 .benefit { background: var(--panel); border-radius: 12px; padding: 10px 12px 10px 44px; display: grid; gap: 4px; font-size: 14px; margin: 2px 0; }
 .benefit h4 { margin: 0; font-size: 14px; font-weight: 800; }
@@ -447,9 +447,13 @@ const BASEMAP = JSON.parse(document.getElementById("basemap-data").textContent);
 const DATA_DATE = /*__DATA_DATE__*/"";
 const ABOUT = /*__ABOUT__*/null;
 const BENEFITS = /*__BENEFITS__*/[]; // site/benefits-help.json
-// "Help with benefits" is the choice in the Benefits group. These organizations have no office on the map: ticking the
-// choice shows their cards inside the group instead.
-const BENEFITS_TYPE = "Help with benefits";
+// "Benefits & support": statewide organizations with no office on the map, one row per kind. Ticking a row shows the
+// organizations' cards inside the group instead of pins.
+const SUPPORT_ROWS = [
+  ["benefits", "Help with benefits", "SSI, SSDI & Medicaid applications · statewide, not on the map"],
+  ["funding", "Funding for care & daily life", "Caregiving, travel and independent living help · statewide, not on the map"],
+].filter(([kind]) => BENEFITS.some((o) => o.kind === kind));
+const SUPPORT_TYPES = Object.fromEntries(SUPPORT_ROWS.map(([kind, label]) => [label, kind])); // row key -> kind
 
 // The area filter shows the five OPWDD regions, in order. Each location's map area (a NYC borough, a Long Island
 // county or an upstate region) belongs to one of them.
@@ -495,8 +499,7 @@ const GROUPS = [
   { name: "Day & work", icon: "i-sun", tint: "--mint", types: [["Day Habilitation", "Day habilitation"], ["Prevocational", "Prevocational"], ["Supported Employment", "Supported employment"]] },
   { name: "Community & at home", icon: "i-hands", tint: "--sky", types: [["Community Habilitation", "Community habilitation"], ["Individual Support (ISS)", "Individual support (ISS)"], ["Self-Direction", "Self-direction"], ["Family Support", "Family support (state-funded)"], ["Special Needs Home Health", "Home health agencies", "Visits you at home · serves all 7 areas"]] },
   { name: "Clinics & therapy", icon: "i-heart", tint: "--pink", types: [["Article 16 Clinic", "Article 16 clinic (main site)"], ["Article 16 Satellite", "Article 16 satellite"], ["OPWDD State-Operated Clinic", "OPWDD state clinic"], ["OPWDD Registered Therapy Practice", "Registered therapy practices", "Work under contract with OPWDD agencies"]] },
-  ...(BENEFITS.length ? [{ name: "Benefits", icon: "i-clipboard", tint: "--lemon", types: [
-    [BENEFITS_TYPE, "Help with benefits", "SSI, SSDI & Medicaid applications · statewide, not on the map"]] }] : []),
+  ...(SUPPORT_ROWS.length ? [{ name: "Benefits & support", icon: "i-clipboard", tint: "--lemon", types: SUPPORT_ROWS.map(([, label, hint]) => [label, label, hint]) }] : []),
 ];
 const ALL_TYPES = GROUPS.flatMap((g) => g.types.map((t) => t[0]));
 const LABELS = Object.fromEntries(GROUPS.flatMap((g) => g.types.map((t) => [t[0], t[1] || t[0]])));
@@ -793,9 +796,9 @@ function renderSidebar(items) {
     GROUPS.forEach((g, gi) => { if (g.types.some(([k]) => offered.has(k))) groupCounts[gi]++; });
   }
   const benefitList = benefitsShown();
-  if (BENEFITS_TYPE in typeCounts) typeCounts[BENEFITS_TYPE] = benefitList.length;
-  const benefitsGroup = GROUPS.findIndex((g) => g.types.some(([k]) => k === BENEFITS_TYPE));
-  if (benefitsGroup >= 0) groupCounts[benefitsGroup] = benefitList.length; // organizations, not map locations
+  for (const [k, kind] of Object.entries(SUPPORT_TYPES)) typeCounts[k] = benefitList.filter((o) => o.kind === kind).length;
+  const supportGroup = GROUPS.findIndex((g) => g.types.some(([k]) => k in SUPPORT_TYPES));
+  if (supportGroup >= 0) groupCounts[supportGroup] = benefitList.length; // organizations, not map locations
   $("groups").innerHTML = GROUPS.map((g, gi) => {
     const keys = g.types.map((t) => t[0]);
     const on = keys.filter((k) => state.types.has(k)).length;
@@ -806,7 +809,7 @@ function renderSidebar(items) {
       ${g.types.map(([k, label, hint], ti) => `<label class="svc ${typeCounts[k] ? "" : "zero"}" for="t${gi}-${ti}"><input type="checkbox" id="t${gi}-${ti}" data-type="${esc(k)}" ${state.types.has(k) ? "checked" : ""}>`
           + `<span class="txt">${esc(label || k)}${hint ? `<small>${esc(hint)}</small>` : ""}</span>`
           + `<span class="n">${nf.format(typeCounts[k])}</span></label>`
-          + (k === BENEFITS_TYPE && state.types.has(k) && benefitList.length ? `<div class="benefits">${benefitList.map(benefitCard).join("")}</div>` : "")).join("")}
+          + supportCards(k, benefitList)).join("")}
     </div>`;
   }).join("");
   GROUPS.forEach((g, gi) => {
@@ -821,13 +824,20 @@ function renderSidebar(items) {
 function benefitsShown() {
   if (state.source !== "all") return [];
   const words = state.q.trim().toUpperCase().split(/\s+/).filter(Boolean);
-  return BENEFITS.filter((o) => { const text = `${o.name} ${o.services.join(" ")} ${o.about}`.toUpperCase(); return words.every((w) => text.includes(w)); });
+  return BENEFITS.filter((o) => { const text = `${o.name} ${o.services.join(" ")} ${o.about} ${o.connected}`.toUpperCase(); return words.every((w) => text.includes(w)); });
+}
+// the cards under one row of the Benefits & support group (when that row is ticked)
+function supportCards(k, list) {
+  if (!(k in SUPPORT_TYPES) || !state.types.has(k)) return "";
+  const mine = list.filter((o) => o.kind === SUPPORT_TYPES[k]);
+  return mine.length ? `<div class="benefits">${mine.map(benefitCard).join("")}</div>` : "";
 }
 const benefitCard = (o) => `<article class="benefit">
     <h4>${esc(o.name)}</h4>
     ${o.services.length ? `<ul>${o.services.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
     ${o.serves ? `<p class="serves">Serves: ${esc(o.serves)}</p>` : ""}
     ${o.about ? `<p>${esc(o.about)}</p>` : ""}
+    ${o.connected ? `<p>${esc(o.connected)}</p>` : ""}
     <a class="site" href="${esc(o.website)}" target="_blank" rel="noopener">${icon("i-globe")}Visit website</a>
     <p class="listed">Listed at the organization's request. Not from a state list; please check with them directly.</p>
   </article>`;
