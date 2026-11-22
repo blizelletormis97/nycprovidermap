@@ -8,7 +8,7 @@
 
 import { execSync } from "child_process";
 import { createHash } from "crypto";
-import { copyFileSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "fs";
+import { copyFileSync, cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "fs";
 import { join } from "path";
 import { getLocationIndex } from "./api";
 
@@ -126,6 +126,9 @@ if (leftover) throw new Error(`Unfilled placeholder in site/template.html: ${lef
 
 writeFileSync(join(outDir, "index.html"), html);
 writeFileSync(join(outDir, ".nojekyll"), "");
+
+// Feelings Garden, a separate installable web app, published alongside the map at /feelings-garden/
+cpSync(join(root, "feelings-garden"), join(outDir, "feelings-garden"), { recursive: true, filter: (src) => !src.endsWith("README.md") });
 
 const providers = locations.reduce((n, l) => n + l.p.length, 0);
 console.log(`Built site-dist/index.html: ${locations.length} locations, ${providers} providers, data as of ${dataDateLabel} (${Math.round(html.length / 1024)} KB)`);
