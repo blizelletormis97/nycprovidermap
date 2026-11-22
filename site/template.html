@@ -556,7 +556,9 @@ function initMap() {
   addEventListener("resize", snapMapToPixels);
   document.fonts?.ready.then(snapMapToPixels);
   // whole zoom levels only: in-between levels stretch the map tiles and leave faint seams between them
-  map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 6, maxZoom: 18, zoomSnap: 1 })
+  // closePopupOnClick is off: Leaflet's own version closed a provider's details as soon as a stray second click
+  // (Safari can send one) reached the map. keepPopupsOpen() below closes them on a real click on the map instead.
+  map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 6, maxZoom: 18, zoomSnap: 1, closePopupOnClick: false })
     .fitBounds([[40.49, -79.77], [45.02, -71.85]]); // all of New York State
   L.control.zoom({ position: "bottomleft", zoomInTitle: "Zoom in", zoomOutTitle: "Zoom out" }).addTo(map);
   map.attributionControl.setPrefix(false).addAttribution("Boundaries: U.S. Census TIGER via data.ny.gov");
@@ -578,6 +580,9 @@ function initMap() {
   toggleRegionLabels();
   clusters = L.markerClusterGroup({
     showCoverageOnHover: false, maxClusterRadius: 46, spiderfyOnMaxZoom: true, chunkedLoading: true,
+    // Keep pins on the map when they scroll off screen. Otherwise a tall popup on a phone slides its own pin out of
+    // view, the pin is taken off the map, and its popup closes a quarter of a second after opening.
+    removeOutsideVisibleBounds: false,
     iconCreateFunction: (c) => {
       const n = c.getChildCount();
       const [size, cls] = n < 10 ? [34, "s"] : n < 50 ? [42, "m"] : [50, "l"];
@@ -585,6 +590,7 @@ function initMap() {
     },
   });
   map.addLayer(clusters);
+  keepPopupsOpen();
   addClickZoom();
   renderMap(visible());
 }
@@ -677,19 +683,45 @@ function websiteLink(w) {
   return `<a class="site" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${icon("i-globe")}${esc(label)}</a>`;
 }
 
+// A provider's details stay open until the visitor closes them (× button, Esc) or clicks somewhere else on the map.
+// A click within half a second of opening is ignored: it is the same tap arriving twice, not a new click.
+let openedAt = 0, openLocId = null;
+function keepPopupsOpen() {
+  map.on("popupopen", (e) => { openedAt = Date.now(); openLocId = e.popup._source?.locId ?? null; });
+  map.on("popupclose", (e) => { if (openLocId === (e.popup._source?.locId ?? null)) openLocId = null; });
+  // a phone turned sideways makes the map shorter: keep popups no taller than the map
+  map.on("resize", () => { const h = Math.max(180, map.getSize().y - 90); markers.forEach((m) => { const pop = m.getPopup(); if (pop) pop.options.maxHeight = h; }); });
+  map.on("click", () => { if (Date.now() - openedAt > 500) map.closePopup(); });
+}
+
 function renderMap(items) {
   if (!clusters) return; // map library still loading; initMap() draws the pins when it arrives
+  // Redrawing the pins removes them from the map, which would close an open popup: reopen it afterwards
+  const reopen = openLocId;
+  const popupMaxHeight = Math.max(180, map.getSize().y - 90);
   clusters.clearLayers();
   markers.clear();
   const layers = items.map(({ loc, ps }) => {
     const m = L.circleMarker(loc.c, {
       radius: 8, weight: 3, color: "#ffffff", fillColor: srcColor(loc.primary), fillOpacity: 1,
     });
-    m.bindPopup(() => popupHTML(loc, ps), { maxWidth: 340, autoPanPadding: [28, 28] });
+    // the popup scrolls inside itself when it is taller than the map, so it never pushes its pin out of view
+    m.bindPopup(() => popupHTML(loc, ps), { maxWidth: 340, maxHeight: popupMaxHeight, autoPanPadding: [16, 16] });
+    m.locId = loc.id;
     markers.set(loc.id, m);
     return m;
   });
   clusters.addLayers(layers);
+  const again = reopen && markers.get(reopen);
+  if (again) {
+    // pins are added in batches: wait until this one is back on the map, and reopen it only if it is still its own dot
+    let tries = 0;
+    const tryOpen = () => {
+      if (again._map) { again.openPopup(); return; } // the pin is on the map as its own dot (not inside a cluster)
+      if (++tries < 20) setTimeout(tryOpen, 50);
+    };
+    tryOpen();
+  }
 }
 
 // ---------- sidebar ----------
@@ -783,13 +815,24 @@ $("q").addEventListener("input", (e) => {
   timer = setTimeout(() => zoomToMatches(render()), 250);
 });
 $("clear").addEventListener("click", () => { $("q").value = ""; state.q = ""; $("clear").hidden = true; render(); $("q").focus(); });
+// Bring the chosen regions into view (all of New York when every region is chosen)
+function zoomToRegions() {
+  if (!map || state.regions.size === 0) return;
+  const shapes = BASEMAP.features.filter((f) => state.regions.has(`Region ${f.properties.region}`));
+  if (!shapes.length) return;
+  const bounds = L.geoJSON({ type: "FeatureCollection", features: shapes }).getBounds();
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) map.fitBounds(bounds, { padding: [24, 24], animate: false });
+  else map.flyToBounds(bounds, { padding: [24, 24], duration: 0.8 });
+}
 $("areas").addEventListener("click", (e) => {
   const b = e.target.closest("[data-region]"); if (!b) return;
   const r = b.dataset.region;
   if (state.regions.has(r)) state.regions.delete(r); else state.regions.add(r);
+  map?.closePopup();
   render();
+  zoomToRegions();
 });
-$("allAreas").addEventListener("click", () => { state.regions = new Set(REGIONS); render(); });
+$("allAreas").addEventListener("click", () => { state.regions = new Set(REGIONS); map?.closePopup(); render(); zoomToRegions(); });
 $("sources").addEventListener("click", (e) => {
   const b = e.target.closest("[data-source]"); if (!b) return;
   state.source = b.dataset.source; render();
