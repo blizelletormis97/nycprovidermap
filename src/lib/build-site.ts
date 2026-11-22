@@ -82,6 +82,25 @@ function aboutSection(): Omit<About, "show"> | null {
   return { heading: about.heading?.trim() || "About us", intro: about.intro?.trim() ?? "", people, story, signoff: about.signoff?.trim() ?? "" };
 }
 
+interface BenefitsOrg { name?: string; website?: string; services?: string[]; serves?: string; about?: string; listed?: string }
+
+/**
+ * "Help with benefits" (site/benefits-help.json): organizations that help with SSI, SSDI and Medicaid applications,
+ * listed by hand at their request. An entry needs a name and an https website; anything else is left out with a
+ * warning, so a half-filled entry never reaches the public site.
+ */
+function benefitsHelp() {
+  const file: { organizations?: BenefitsOrg[] } = JSON.parse(readFileSync(join(root, "site/benefits-help.json"), "utf-8"));
+  return (file.organizations ?? []).flatMap((o) => {
+    const name = o.name?.trim() ?? "", website = o.website?.trim() ?? "";
+    if (!name || !/^https:\/\//.test(website)) {
+      console.warn(`site/benefits-help.json: skipped an entry without a name or an https website (${name || "no name"})`);
+      return [];
+    }
+    return [{ name, website, services: (o.services ?? []).map((x) => x.trim()).filter(Boolean), serves: o.serves?.trim() ?? "", about: o.about?.trim() ?? "" }];
+  });
+}
+
 // JSON is safe inside <script type="application/json"> once "<" is escaped
 const inline = (json: string) => json.replace(/</g, "\\u003c");
 
@@ -119,7 +138,8 @@ const html = readFileSync(join(root, "site/template.html"), "utf-8")
   .replace("__LOCATIONS_JSON__", () => inline(JSON.stringify(locations)))
   .replace("__BASEMAP_JSON__", () => inline(basemap))
   .replace('/*__DATA_DATE__*/""', JSON.stringify(dataDateLabel))
-  .replace("/*__ABOUT__*/null", () => inline(JSON.stringify(aboutSection())));
+  .replace("/*__ABOUT__*/null", () => inline(JSON.stringify(aboutSection())))
+  .replace("/*__BENEFITS__*/[]", () => inline(JSON.stringify(benefitsHelp())));
 
 const leftover = html.match(/__[A-Z_]+__/);
 if (leftover) throw new Error(`Unfilled placeholder in site/template.html: ${leftover[0]}`);
