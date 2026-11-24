@@ -5789,22 +5789,6 @@
     "services": [
       "OPWDD Community Support Site"
     ],
-    "detail": "Medicaid ID 03075972",
-    "address": "4234 Vireo Ave Frnt 2, Bronx, NY, 10470",
-    "region": "Bronx",
-    "county": "Bronx",
-    "phone": "(914) 733-3301",
-    "lat": 40.89675,
-    "lng": -73.8644,
-    "listedName": "DAYBREAK INDEPENDENT SRVS DAY/AHRH",
-    "website": "http://www.daybreakis.org"
-  },
-  {
-    "source": "medicaid",
-    "name": "Daybreak Independent Services",
-    "services": [
-      "OPWDD Community Support Site"
-    ],
     "detail": "Billing enrollment (rate set) · Medicaid ID 03075972",
     "office": true,
     "address": "8606 121st St, Richmond Hill, NY, 11418",

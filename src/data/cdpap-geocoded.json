@@ -1340,60 +1340,6 @@
       "CDPAP Facilitator"
     ],
     "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: Albany, Bronx, Columbia, Delaware, Dutchess, Erie, Fulton, Genesee, Greene, Herkimer, Kings (Brooklyn), Madison, Manhattan (New York County), Monroe, Montgomery, Nassau, Niagara, Oneida, Onondaga, Orange, Orleans, Otsego, Putnam, Queens , Rensselaer, Richmond (Staten Island), Rockland, Saratoga, Schenectady, Schoharie, Suffolk, Sullivan, Ulster, Warren, Washington, Westchester, Wyoming. Languages: Arabic, Bengali, Cantonese, English, Gujarati, Haitian Creole, Hindi, Mandarin, Punjabi, Spanish, Tagalog, Urdu. Focus: Aging, Disabilities, Blind/visual impairment, Muslim community, Catholic community, Hindu community, Christian community.",
-    "address": "2162 Westchester Ave, Bronx, NY 10462",
-    "region": "Bronx",
-    "county": "Bronx",
-    "serves": [
-      "Bronx",
-      "Region 3",
-      "Region 2",
-      "Region 1",
-      "Brooklyn",
-      "Nassau",
-      "Queens",
-      "Staten Island",
-      "Suffolk"
-    ],
-    "phone": "(718) 459-0180",
-    "website": "https://dhcareny.com",
-    "lat": 40.83406815311,
-    "lng": -73.852377671622
-  },
-  {
-    "source": "cdpap",
-    "name": "DHCare NY",
-    "listedName": "DHCare NY LLC",
-    "services": [
-      "CDPAP Facilitator"
-    ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: Albany, Bronx, Columbia, Delaware, Dutchess, Erie, Fulton, Genesee, Greene, Herkimer, Kings (Brooklyn), Madison, Manhattan (New York County), Monroe, Montgomery, Nassau, Niagara, Oneida, Onondaga, Orange, Orleans, Otsego, Putnam, Queens , Rensselaer, Richmond (Staten Island), Rockland, Saratoga, Schenectady, Schoharie, Suffolk, Sullivan, Ulster, Warren, Washington, Westchester, Wyoming. Languages: Arabic, Bengali, Cantonese, English, Gujarati, Haitian Creole, Hindi, Mandarin, Punjabi, Spanish, Tagalog, Urdu. Focus: Aging, Disabilities, Blind/visual impairment, Muslim community, Catholic community, Hindu community, Christian community.",
-    "address": "3329 Bailey Ave, Buffalo, NY 14215",
-    "region": "Region 1",
-    "county": "Erie",
-    "serves": [
-      "Region 1",
-      "Region 3",
-      "Bronx",
-      "Region 2",
-      "Brooklyn",
-      "Nassau",
-      "Queens",
-      "Staten Island",
-      "Suffolk"
-    ],
-    "phone": "(718) 459-0180",
-    "website": "https://dhcareny.com",
-    "lat": 42.945475729578,
-    "lng": -78.81359376168
-  },
-  {
-    "source": "cdpap",
-    "name": "DHCare NY",
-    "listedName": "DHCare NY LLC",
-    "services": [
-      "CDPAP Facilitator"
-    ],
-    "detail": "Authorized PPL facilitator for CDPAP (consumer directed personal assistance): helps you enroll, and with PPL payroll and timekeeping. Counties served: Albany, Bronx, Columbia, Delaware, Dutchess, Erie, Fulton, Genesee, Greene, Herkimer, Kings (Brooklyn), Madison, Manhattan (New York County), Monroe, Montgomery, Nassau, Niagara, Oneida, Onondaga, Orange, Orleans, Otsego, Putnam, Queens , Rensselaer, Richmond (Staten Island), Rockland, Saratoga, Schenectady, Schoharie, Suffolk, Sullivan, Ulster, Warren, Washington, Westchester, Wyoming. Languages: Arabic, Bengali, Cantonese, English, Gujarati, Haitian Creole, Hindi, Mandarin, Punjabi, Spanish, Tagalog, Urdu. Focus: Aging, Disabilities, Blind/visual impairment, Muslim community, Catholic community, Hindu community, Christian community.",
     "address": "21 101 Ave, Brooklyn, NY 11208",
     "region": "Brooklyn",
     "county": "Kings",
